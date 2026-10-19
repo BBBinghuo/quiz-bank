@@ -3,6 +3,7 @@
  "questions": {
   "2228": {
    "id": "2228",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -17,12 +18,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:52.218Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2229": {
    "id": "2229",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -37,12 +38,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:53.532Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2230": {
    "id": "2230",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -57,12 +58,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:54.800Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2238": {
    "id": "2238",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -77,12 +78,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:56.022Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2241": {
    "id": "2241",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -97,12 +98,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:57.240Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2243": {
    "id": "2243",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -117,12 +118,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:52:58.455Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2247": {
    "id": "2247",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -137,12 +138,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:00.206Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2248": {
    "id": "2248",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -157,12 +158,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:01.323Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2250": {
    "id": "2250",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -177,12 +178,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:03.392Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2252": {
    "id": "2252",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -197,12 +198,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:04.427Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2254": {
    "id": "2254",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -217,12 +218,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:05.512Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2259": {
    "id": "2259",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -237,12 +238,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:06.611Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2260": {
    "id": "2260",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -257,12 +258,12 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:07.911Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2263": {
    "id": "2263",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
@@ -277,114 +278,113 @@
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:09.471Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2276": {
    "id": "2276",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "若遞迴式的解是 O(nlogn)，其中的 log 底數通常為 ＿＿＿",
+   "text": "若遞迴式的解是 O(nlogn)，其中的 log 底數通常為＿＿＿",
    "hint": "請用數字回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:10.826Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2279": {
    "id": "2279",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "大師定理若適用，必須滿足 a >= ＿＿＿",
+   "text": "大師定理若適用，必須滿足 a >=＿＿＿",
    "hint": "請用數字回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:12.102Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2280": {
    "id": "2280",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "T(n) = 2T(sqrt(n)) + logn\n\n這問題需要用變數變換的技巧，我們會設定 m= ＿＿＿ 來做變數變換",
+   "text": "T(n) = 2T(sqrt(n)) + logn\n\n這問題需要用變數變換的技巧，我們會設定 m=＿＿＿來做變數變換",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:13.242Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2281": {
    "id": "2281",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "處理遞迴中的 n/b 時，若非整數，我們常會忽略 ＿＿＿ 函數",
+   "text": "處理遞迴中的 n/b 時，若非整數，我們常會忽略＿＿＿函數",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:14.430Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2283": {
    "id": "2283",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "使用遞迴樹法時，最後需將所有層的代價進行 ＿＿＿",
+   "text": "使用遞迴樹法時，最後需將所有層的代價進行＿＿＿",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:15.504Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2285": {
    "id": "2285",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "遞迴樹的高度通常為 ＿＿＿",
+   "text": "遞迴樹的高度通常為＿＿＿",
    "hint": "請用小寫英文回答 不留空白",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:16.720Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "2286": {
    "id": "2286",
+   "subject": "演算法",
    "chapter": "3分治法陣",
    "level": "練氣中期",
    "difficulty": "簡單",
    "type": "fill",
-   "text": "代入法需確保初始 ＿＿＿ 也滿足",
+   "text": "代入法需確保初始＿＿＿也滿足",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T04:28:33.517Z",
-   "updatedAt": "2026-10-19T15:53:17.912Z",
-   "deleted": true
+   "createdAt": "2026-10-19T15:53:36.755Z",
+   "updatedAt": "2026-10-19T15:53:36.755Z"
   },
   "tuy2wbb": {
    "id": "tuy2wbb",
