@@ -910,6 +910,216 @@
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
    "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "tfbkg8y": {
+   "id": "tfbkg8y",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "負責啟動電腦並載入作業系統核心的程式稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bootstrap program"
+   ],
+   "lines": [
+    "Bootstrap program"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "tj3dq0g": {
+   "id": "tj3dq0g",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What process management activities are there?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Creating/deleting processes"
+   ],
+   "lines": [
+    "Creating/deleting processes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t1szf1s4": {
+   "id": "t1szf1s4",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "即時作業系統 (Real-time OS) 的核心特徵是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "固定的時間限制"
+   ],
+   "lines": [
+    "固定的時間限制"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "tvo2wbh": {
+   "id": "tvo2wbh",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快取 (Cache) 管理問題包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Cache size Replacement policy Cache coherency"
+   ],
+   "lines": [
+    "Cache size Replacement policy Cache coherency"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t80ydg6": {
+   "id": "t80ydg6",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是分散式系統的網路類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "LAN WAN MAN PAN"
+   ],
+   "lines": [
+    "LAN WAN MAN PAN"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t1ud5uf4": {
+   "id": "t1ud5uf4",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "儲存裝置階層的特性包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Speed Cost Volatility Capacity"
+   ],
+   "lines": [
+    "Speed Cost Volatility Capacity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t121pl9y": {
+   "id": "t121pl9y",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "儲存體單位包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bit Byte Word"
+   ],
+   "lines": [
+    "Bit Byte Word"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t1a92pg0": {
+   "id": "t1a92pg0",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Von Neumann 架構中，CPU 與裝置之間的記憶體存取可以透過什麼來減輕 CPU 負擔？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "DMA"
+   ],
+   "lines": [
+    "DMA"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "tw2iz8q": {
+   "id": "tw2iz8q",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "當記憶體不足時， ＿＿＿ 技術允許執行未完全在記憶體中的程式。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [
+    "virtual memory"
+   ],
+   "lines": [
+    "virtual memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t1jrwpsi": {
+   "id": "t1jrwpsi",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "中斷 (Interrupt) 的常見類型包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Software interrupt (Trap/Exception) Error-generated"
+   ],
+   "lines": [
+    "Software interrupt (Trap/Exception) Error-generated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:48:22.322Z",
+   "updatedAt": "2026-10-19T15:48:22.322Z"
   }
  }
 }
