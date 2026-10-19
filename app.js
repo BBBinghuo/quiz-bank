@@ -6,10 +6,10 @@ const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const nowISO = () => new Date().toISOString();
 const LETTERS = 'ABCDEFGHIJ';
-const TYPE_LABEL = { single: '單選', multi: '多選', fill: '填空', recall: '問答' };
+const TYPE_LABEL = { single: '單選', multi: '多選', fill: '填空', recall: '選項未知' };
 const ALL_TYPES = ['single', 'multi', 'fill', 'recall'];
 const DATA_PATH = 'data/questions.json';
-const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v2', subject: 'qb_subject_v1' };
+const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v3', subject: 'qb_subject_v1' };
 const DEFAULT_SUBJECT = '演算法'; // 舊資料沒有科目欄位，一律視為演算法
 const BASE_SUBJECTS = ['演算法', '作業系統'];
 
@@ -78,6 +78,8 @@ const hasAnswer = q => Array.isArray(q.answer) && q.answer.length > 0;
 const textKey = q => q.type + '|' + q.text.replace(/\s+/g, '');
 const subjectOf = q => q.subject || DEFAULT_SUBJECT;
 const isTextAnswer = q => q.type === 'fill' || q.type === 'recall';
+/* 「選項未知」：成績頁 / 文字題庫只給了正確選項，還沒匯入練習頁看到全部選項 */
+const answerLines = q => (q.answer || []).flatMap(a => String(a).split('\n')).map(s => s.trim()).filter(Boolean);
 
 /* 比對用的正規化：全形半形、大小寫、空白、填空格、作答提示都不影響比對 */
 function normQ(s) {
@@ -452,6 +454,14 @@ function textRecordsFor(q) {
   const k = normQ(q.text), s = subjectOf(q);
   return active().filter(r => r.source === 'text' && subjectOf(r) === s && normQ(r.text) === k);
 }
+/* 答案紀錄轉成這份檔案的選項字母（例如「B. xxx　D. yyy」）；對不上選項就顯示原文 */
+function refsFor(q, display) {
+  return [...new Set(textRecordsFor(q).map(r => {
+    const d = deriveFromLines(q, r.lines || r.answer);
+    if (d) return answerText({ ...q, answer: d }, display);
+    return r.type === 'recall' ? answerLines(r).join(' / ') : answerText(r);
+  }))];
+}
 
 /*
  * 把「題目 + 正確答案」套進題庫。
@@ -473,7 +483,7 @@ function applyEntries(entries, subject, chapter, level, official) {
       report.push({ e, status, id: q.id });
       continue;
     }
-    // 題庫沒有這題（或有好幾題同樣題目無法判斷）→ 存成問答 / 填空題
+    // 題庫沒有這題（或有好幾題同樣題目無法判斷）→ 先存成答案紀錄（選項未知）/ 填空題
     const shape = { type: e.type, blanks: e.blanks > 1 ? e.blanks : undefined };
     const answer = deriveFromLines(shape, e.lines) || [e.lines.join(' / ')];
     const id = 't' + hashText(subject + '|' + normQ(e.text) + '|' + normO(answer.join('|')));
@@ -494,19 +504,20 @@ function autoFillFromText(q) {
   if (hasAnswer(q) || q.source === 'text') return false;
   const recs = textRecordsFor(q);
   if (!recs.length) return false;
-  const derived = recs.map(r => deriveFromLines(q, r.lines || r.answer));
-  if (derived.some(d => !d)) return false;
+  // 只採用「答案都在這份選項裡」的版本；對不上的多半是同題目、不同選項的另一題
+  const matched = recs.map(r => ({ r, d: deriveFromLines(q, r.lines || r.answer) })).filter(x => x.d);
+  if (!matched.length) return false;
   let answer;
-  if (q.type === 'fill' && blankCount(q) === 1) answer = [...new Set(derived.flat())];
+  if (q.type === 'fill' && blankCount(q) === 1) answer = [...new Set(matched.flatMap(x => x.d))];
   else {
-    const distinct = new Set(derived.map(d => d.join('|')));
-    if (distinct.size !== 1) return false; // 同一題有不同答案的版本，交給使用者判斷
-    answer = derived[0];
+    const distinct = new Set(matched.map(x => x.d.join('|')));
+    if (distinct.size !== 1) return false; // 有好幾種答案都對得上，交給使用者判斷
+    answer = matched[0].d;
   }
   const now = nowISO();
   DB.questions[q.id] = { ...q, answer, updatedAt: now };
-  // 文字紀錄已經併入這題，標記刪除以免重複出現
-  for (const r of recs) DB.questions[r.id] = { ...r, deleted: true, mergedInto: q.id, updatedAt: now };
+  // 答案紀錄已經併入這題，標記刪除以免重複出現
+  for (const { r } of matched) DB.questions[r.id] = { ...r, deleted: true, mergedInto: q.id, updatedAt: now };
   return true;
 }
 
@@ -551,7 +562,7 @@ function editorHTML(q) {
     inner = `<label>正確答案（有多種寫法可用 <code>|</code> 分隔，例如 <code>lgn | log n</code>）
       <input type="text" name="ed-fill" value="${esc((q.answer || []).join(' | '))}"></label>`;
   } else if (q.type === 'recall') {
-    inner = `<label>正確答案<textarea name="ed-recall" rows="2">${esc((q.answer || []).join('\n'))}</textarea></label>`;
+    inner = `<label>正確選項（一行一個）<textarea name="ed-recall" rows="3">${esc(answerLines(q).join('\n'))}</textarea></label>`;
   } else {
     const ans = new Set(q.answer || []);
     const t = q.type === 'single' ? 'radio' : 'checkbox';
@@ -559,6 +570,7 @@ function editorHTML(q) {
       `<label><input type="${t}" name="ed-opt" value="${esc(k)}" ${ans.has(k) ? 'checked' : ''}> ${esc(k)}. ${esc(q.options[k])}</label>`).join('');
   }
   return `<div class="editor">${inner}
+    <label>章節<input type="text" name="ed-chapter" list="chapter-options" value="${esc(q.chapter || '')}"></label>
     <label>筆記（可留空）<textarea name="ed-note" rows="2">${esc(q.note || '')}</textarea></label>
     <div class="card-actions">
       <button data-act="cancel-edit">取消</button>
@@ -569,7 +581,12 @@ function editorHTML(q) {
 function cardHTML(q, o = {}) {
   const editing = view.editing === q.id;
   let body = '';
-  if (isTextAnswer(q)) {
+  if (q.type === 'recall') {
+    body = hasAnswer(q)
+      ? '<div class="muted" style="font-size:.9em">正確選項（其他選項要匯入練習頁 HTML 後才看得到）：</div><ul class="opts">' +
+        answerLines(q).map(l => `<li class="correct">${esc(l)}</li>`).join('') + '</ul>'
+      : '<div class="answer-line"><span class="muted">尚無解答</span></div>';
+  } else if (isTextAnswer(q)) {
     body = `<div class="answer-line">答案：${hasAnswer(q) ? `<b>${esc(answerText(q))}</b>` : '<span class="muted">尚無解答</span>'}</div>`;
   } else {
     const ans = new Set(q.answer || []);
@@ -579,7 +596,8 @@ function cardHTML(q, o = {}) {
     if (o.display && hasAnswer(q)) body += `<div class="answer-line">此份檔案的答案：<b>${esc(answerText(q, o.display))}</b></div>`;
   }
   if (o.refs && o.refs.length) {
-    body += `<div class="answer-line">文字題庫的參考答案：${o.refs.map(r => `<b>${esc(r)}</b>`).join('　／　')}</div>`;
+    body += o.refs.map((r, i) => `<div class="answer-line">${o.refs.length > 1 ? `參考答案 ${i + 1}` : '參考答案'}：<b>${esc(r)}</b></div>`).join('');
+    if (o.refs.length > 1) body += '<div class="hint">這題有不同版本的答案（可能是同題目、不同選項），請自己對照後按「填寫解答」。</div>';
   }
   return `<div class="card ${o.cls || ''}" data-qid="${esc(q.id)}">
     ${tagsHTML(q, o.extraTags || '')}
@@ -602,10 +620,11 @@ function saveEdit(id, card) {
     answer = $$('[name=ed-blank]', card).map(i => i.value.trim());
     if (answer.every(a => !a)) answer = [];
   } else if (q.type === 'fill') answer = $('[name=ed-fill]', card).value.split('|').map(s => s.trim()).filter(Boolean);
-  else if (q.type === 'recall') answer = [$('[name=ed-recall]', card).value.trim()].filter(Boolean);
+  else if (q.type === 'recall') answer = [$('[name=ed-recall]', card).value.split('\n').map(s => s.trim()).filter(Boolean).join('\n')].filter(Boolean);
   else answer = $$('[name=ed-opt]:checked', card).map(i => i.value).sort();
   const note = $('[name=ed-note]', card).value.trim();
-  DB.questions[id] = { ...q, answer, note, updatedAt: nowISO() };
+  const chapter = $('[name=ed-chapter]', card).value.trim() || q.chapter;
+  DB.questions[id] = { ...q, answer, note, chapter, updatedAt: nowISO() };
   view.editing = null;
   commit();
   renderCurrent();
@@ -708,6 +727,7 @@ function addSubject() {
 
 async function handleFiles(files) {
   const addNew = $('#add-new').checked;
+  const chapterOverride = $('#html-chapter').value.trim(); // 留空 = 依頁面標題自動判斷
   const results = [], textResults = [];
   let added = 0, filled = 0, changed = false;
   const now = nowISO();
@@ -718,6 +738,7 @@ async function handleFiles(files) {
       const html = await f.text();
       const parsed = parseQuizHTML(html, f.name);
       parsed.subject = subjectFromHTML(html) || currentSubject();
+      if (chapterOverride) parsed.chapter = chapterOverride;
       parsedFiles.push(parsed);
     } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); }
   }
@@ -784,7 +805,7 @@ const TEXT_STATUS = {
   updated: ['ok', '已依成績頁更正解答'],
   same: ['grey', '題庫已有相同解答'],
   conflict: ['warn', '與題庫解答不同（未覆蓋）'],
-  ambiguous: ['warn', '題庫有多題相同題目，另存為問答題'],
+  ambiguous: ['warn', '題庫有多題相同題目，先存成答案紀錄'],
   new: ['', '新增'],
   dup: ['grey', '已存在，略過'],
 };
@@ -810,7 +831,7 @@ function textResultHTML(t) {
       <div class="stat">重複略過 <b>${count('dup') + count('same')}</b></div>
       ${count('conflict') ? `<div class="stat">解答不同 <b>${count('conflict')}</b></div>` : ''}
     </div>
-    <p class="muted" style="font-size:.9em">題庫還沒有的題目會先存成「問答」或「填空」題；之後匯入有選項的練習頁 HTML 時，會自動把答案對應到選項上。</p>`
+    <p class="muted" style="font-size:.9em">題庫還沒有的題目會先存成答案紀錄（標示「選項未知」）；之後匯入練習頁 HTML 時，會依題目自動對應到選項並補上解答。</p>`
     : '<p class="muted">這個檔案裡找不到題目。</p>'}
   </div>${cards}`;
 }
@@ -832,12 +853,12 @@ function renderImport() {
       if (!q || q.deleted) {
         // 沒加入題庫的新題目：只顯示，不能編輯
         const tmp = { ...it, subject: r.subject, chapter: r.chapter, level: r.level, difficulty: r.difficulty, answer: [] };
-        const refs = textRecordsFor(tmp).map(x => x.answer.join(' / '));
+        const refs = refsFor(tmp, it.display);
         return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: '<span class="tag warn">題庫沒有</span>', readonly: true, refs });
       }
       let tag = it.status === 'new' ? '<span class="tag warn">新加入</span>' : '<span class="tag ok">題庫已有</span>';
       if (it.autoFilled) tag += '<span class="tag ok">已用文字題庫補上解答</span>';
-      const refs = hasAnswer(q) ? [] : textRecordsFor(q).map(x => x.answer.join(' / '));
+      const refs = hasAnswer(q) ? [] : refsFor(q, it.display);
       return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, noDelete: true, refs });
     }).join('');
     return `<div class="panel">
@@ -855,7 +876,7 @@ function renderImport() {
 
 /* ========== 刷題 ========== */
 function practiceSettings() {
-  return lsGet(LS.practice, { picks: null, onlyAnswered: true, types: ALL_TYPES, count: '', shuffleQ: true, shuffleOpt: false, mode: 'all' });
+  return lsGet(LS.practice, { picks: null, onlyAnswered: true, types: ['single', 'multi', 'fill'], count: '', shuffleQ: true, shuffleOpt: false, mode: 'all' });
 }
 
 const pickKey = (sj, ch, lv) => sj + '||' + ch + '||' + (lv || '');
@@ -935,7 +956,7 @@ function renderPracticeSetup() {
       <label>題數：<input type="number" id="ps-count" min="1" placeholder="全部" value="${esc(ps.count)}" style="width:90px"></label>
     </div>
     <div class="row"><button id="ps-start" class="primary" data-act="ps-start">開始刷題</button></div>
-    <p class="muted" style="font-size:.85em">對錯紀錄只存在這台電腦。快捷鍵：數字鍵選選項、Enter 提交 / 下一題；問答題按 Enter 看答案，再按 1（答對）或 2（答錯）。</p>
+    <p class="muted" style="font-size:.85em">對錯紀錄只存在這台電腦。快捷鍵：數字鍵選選項、Enter 提交 / 下一題；「選項未知」的題目按 Enter 看答案，再按 1（會）或 2（不會）。</p>
   </div>`;
   if (tree.length) updatePracticeCount();
   else $('#ps-start').disabled = true;

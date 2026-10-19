@@ -58,12 +58,15 @@
         <input id="file-input" type="file" accept=".html,.htm" multiple hidden>
         <span>📂 點這裡選擇檔案，或把 HTML 拖曳進來</span>
       </label>
+      <div class="form-grid" style="margin-bottom:6px">
+        <label>章節（留空＝依頁面標題自動判斷）<input id="html-chapter" list="chapter-options" placeholder="例如 6絲時序林"></label>
+      </div>
       <label class="check"><input id="add-new" type="checkbox" checked> 把題庫中沒有的新題目自動加入題庫（重複的題目不會重複加入）</label>
     </div>
     <div class="panel">
       <h2>貼上文字題庫（NotebookLM / 成績頁）</h2>
       <p class="muted">每題的格式：<code>題目：…</code>　<code>正確答案：…</code>（「你的答案」「得分」有沒有都可以）。
-        題庫裡已有同樣題目的選擇題，會直接補上解答；沒有的會存成問答 / 填空題，之後匯入 HTML 時再自動對應到選項。</p>
+        題庫裡已有同樣題目的選擇題，會直接補上解答；沒有的先存成答案紀錄（選項未知），之後匯入 HTML 時再依題目自動對應到選項。</p>
       <div class="form-grid" style="margin-bottom:8px">
         <label>章節（可留空）<input id="txt-chapter" list="chapter-options" placeholder="例如 1作業系統概論"></label>
       </div>
