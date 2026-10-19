@@ -9,7 +9,7 @@ const LETTERS = 'ABCDEFGHIJ';
 const TYPE_LABEL = { single: '單選', multi: '多選', fill: '填空', recall: '選項未知' };
 const ALL_TYPES = ['single', 'multi', 'fill', 'recall'];
 const DATA_PATH = 'data/questions.json';
-const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v3', subject: 'qb_subject_v1' };
+const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v3', subject: 'qb_subject_v1', chapter: 'qb_chapter_v1' };
 const DEFAULT_SUBJECT = '演算法'; // 舊資料沒有科目欄位，一律視為演算法
 const BASE_SUBJECTS = ['演算法', '作業系統'];
 
@@ -310,15 +310,6 @@ const tidy = s => s.replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim()
 function splitTitle(title) {
   const m = title.match(/^(.*?)\s*[（(]([^（()）]*)[）)]\s*$/);
   return { chapter: (m ? m[1] : title).trim() || '未分類', level: m ? m[2].trim() : '' };
-}
-
-/* 從存檔網址的課程代碼判斷科目（判斷不出來就用畫面上選的科目） */
-function subjectFromHTML(html) {
-  const m = html.match(/course\/([A-Za-z]+)\d*\//);
-  if (!m) return '';
-  if (/^alg/i.test(m[1])) return '演算法';
-  if (/^os/i.test(m[1])) return '作業系統';
-  return '';
 }
 
 /* 成績頁（results.php）：有題目與正確答案，但沒有題號與選項 */
@@ -704,14 +695,56 @@ function renderBank() {
 
 /* ========== 匯入 / 查詢 ========== */
 const currentSubject = () => $('#imp-subject').value || DEFAULT_SUBJECT;
+const currentChapter = () => $('#imp-chapter').value;
+
+/* 某科目的章節：題庫裡已有的 + 自己新增但還沒有題目的 */
+function chaptersOf(subject) {
+  const own = (cfg.chapters || {})[subject] || [];
+  return [...new Set([...active().filter(q => subjectOf(q) === subject).map(q => q.chapter), ...own])].sort(compareChapter);
+}
 
 function fillSubjectControls() {
   const sel = $('#imp-subject');
   const want = sel.value || lsGet(LS.subject, DEFAULT_SUBJECT);
-  const subs = getSubjects();
-  sel.innerHTML = subs.map(s => `<option ${s === want ? 'selected' : ''}>${esc(s)}</option>`).join('');
-  const chs = [...new Set(active().filter(q => subjectOf(q) === currentSubject()).map(q => q.chapter))].sort(compareChapter);
+  sel.innerHTML = getSubjects().map(s => `<option ${s === want ? 'selected' : ''}>${esc(s)}</option>`).join('');
+  const subject = currentSubject();
+  const chs = chaptersOf(subject);
+  const chSel = $('#imp-chapter');
+  const remembered = lsGet(LS.chapter, {})[subject];
+  const pick = chs.includes(chSel.dataset.subject === subject ? chSel.value : '') ? chSel.value : (chs.includes(remembered) ? remembered : '');
+  chSel.innerHTML = '<option value="">（請選擇章節）</option>' +
+    chs.map(c => `<option ${c === pick ? 'selected' : ''}>${esc(c)}</option>`).join('');
+  chSel.dataset.subject = subject;
   $('#chapter-options').innerHTML = chs.map(c => `<option value="${esc(c)}">`).join('');
+  $('#imp-target').textContent = currentChapter() ? `${subject} → ${currentChapter()}` : `${subject} →（還沒選章節）`;
+}
+
+function rememberChapter() {
+  const map = lsGet(LS.chapter, {});
+  map[currentSubject()] = currentChapter();
+  lsSet(LS.chapter, map);
+  fillSubjectControls();
+}
+
+function addChapter() {
+  const subject = currentSubject();
+  const name = (prompt(`在「${subject}」新增章節（例如 2、第3章 行程管理）：`) || '').trim();
+  if (!name) return;
+  cfg.chapters = cfg.chapters || {};
+  cfg.chapters[subject] = [...new Set([...(cfg.chapters[subject] || []), name])];
+  lsSet(LS.cfg, cfg);
+  const map = lsGet(LS.chapter, {});
+  map[subject] = name;
+  lsSet(LS.chapter, map);
+  $('#imp-chapter').value = '';
+  fillSubjectControls();
+}
+
+/* 匯入前一定要選好科目與章節 */
+function importTarget() {
+  const subject = currentSubject(), chapter = currentChapter();
+  if (!chapter) { toast('請先在上方選擇章節（沒有的話按「＋ 新增章節」）', 3500); return null; }
+  return { subject, chapter };
 }
 
 function addSubject() {
@@ -726,8 +759,9 @@ function addSubject() {
 }
 
 async function handleFiles(files) {
+  const target = importTarget();
+  if (!target) return;
   const addNew = $('#add-new').checked;
-  const chapterOverride = $('#html-chapter').value.trim(); // 留空 = 依頁面標題自動判斷
   const results = [], textResults = [];
   let added = 0, filled = 0, changed = false;
   const now = nowISO();
@@ -737,8 +771,10 @@ async function handleFiles(files) {
     try {
       const html = await f.text();
       const parsed = parseQuizHTML(html, f.name);
-      parsed.subject = subjectFromHTML(html) || currentSubject();
-      if (chapterOverride) parsed.chapter = chapterOverride;
+      // 科目、章節一律用上方選的，不自動分類
+      parsed.subject = target.subject;
+      parsed.chapter = target.chapter;
+      parsed.level = '';
       parsedFiles.push(parsed);
     } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); }
   }
@@ -788,8 +824,9 @@ function importText() {
   const raw = $('#txt-input').value;
   const entries = parseTextBank(raw);
   if (!entries.length) { toast('找不到題目，請確認格式含有「題目：」與「正確答案：」'); return; }
-  const subject = currentSubject();
-  const chapter = $('#txt-chapter').value.trim() || '未分類';
+  const target = importTarget();
+  if (!target) return;
+  const { subject, chapter } = target;
   const report = applyEntries(entries, subject, chapter, '', false);
   view.textResults = [{ title: '文字匯入結果', subject, chapter, report }];
   view.importResults = null;
@@ -1274,6 +1311,8 @@ function setupStatic() {
   });
 
   $('#imp-subject').addEventListener('change', e => { lsSet(LS.subject, e.target.value); fillSubjectControls(); });
+  $('#imp-chapter').addEventListener('change', rememberChapter);
+  $('#add-chapter').addEventListener('click', addChapter);
   $('#add-subject').addEventListener('click', addSubject);
   $('#txt-import').addEventListener('click', importText);
 
