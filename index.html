@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>刷題題庫</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">📚 刷題題庫</div>
+  <nav class="tabs">
+    <button data-tab="bank" class="active">題庫</button>
+    <button data-tab="import">匯入 / 查詢</button>
+    <button data-tab="practice">刷題</button>
+    <button data-tab="settings">設定</button>
+  </nav>
+  <button id="sync-badge" class="badge" title="點一下立即同步"></button>
+</header>
+
+<main>
+  <!-- 題庫 -->
+  <section id="tab-bank" class="tab active">
+    <div class="bank-layout">
+      <aside id="chapter-list" class="sidebar"></aside>
+      <div class="bank-main">
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="搜尋題目、選項或解答…">
+          <select id="filter">
+            <option value="all">全部題目</option>
+            <option value="answered">已有解答</option>
+            <option value="unanswered">尚無解答</option>
+          </select>
+        </div>
+        <div id="bank-summary" class="muted"></div>
+        <div id="bank-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 匯入 / 查詢 -->
+  <section id="tab-import" class="tab">
+    <div class="panel">
+      <h2>匯入題目 HTML / 查詢解答</h2>
+      <p class="muted">在練習頁面按 <kbd>Ctrl</kbd>+<kbd>S</kbd> 存成 HTML，再拖曳到下方（可一次多個檔案）。
+        網站會列出每一題是否已在題庫、以及已記錄的解答（字母會對應<b>該份檔案</b>的選項順序）。</p>
+      <label id="drop-zone" class="drop">
+        <input id="file-input" type="file" accept=".html,.htm" multiple hidden>
+        <span>📂 點這裡選擇檔案，或把 HTML 拖曳進來</span>
+      </label>
+      <label class="check"><input id="add-new" type="checkbox" checked> 把題庫中沒有的新題目自動加入題庫（重複的題目不會重複加入）</label>
+    </div>
+    <div id="import-results"></div>
+  </section>
+
+  <!-- 刷題 -->
+  <section id="tab-practice" class="tab">
+    <div id="practice-root"></div>
+  </section>
+
+  <!-- 設定 -->
+  <section id="tab-settings" class="tab">
+    <div class="panel">
+      <h2>GitHub 同步</h2>
+      <p class="muted">題庫存放在 GitHub 儲存庫的 <code>data/questions.json</code>。
+        在這台電腦填入 Token 後，新增 / 修改題目會自動上傳，其他電腦打開網站就能看到。
+        Token 只會存在這台電腦的瀏覽器裡，不會上傳。<b>請只在自己的電腦上填 Token。</b></p>
+      <div class="form-grid">
+        <label>GitHub 帳號 <input id="cfg-owner" placeholder="例如 BBBinghuo"></label>
+        <label>儲存庫名稱 <input id="cfg-repo" placeholder="例如 quiz-bank"></label>
+        <label>分支 <input id="cfg-branch" placeholder="main"></label>
+        <label>Token <input id="cfg-token" type="password" placeholder="github_pat_…" autocomplete="off"></label>
+      </div>
+      <div class="row">
+        <button id="cfg-save" class="primary">儲存設定並同步</button>
+        <button id="cfg-clear-token">移除這台電腦的 Token</button>
+      </div>
+      <div id="cfg-msg" class="muted"></div>
+    </div>
+    <div class="panel">
+      <h2>備份</h2>
+      <div class="row">
+        <button id="export-json">下載題庫備份 (JSON)</button>
+        <label class="button">匯入備份 JSON<input id="import-json" type="file" accept=".json" hidden></label>
+        <button id="reset-stats">清除刷題紀錄（對錯統計）</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>

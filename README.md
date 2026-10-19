@@ -1,0 +1,46 @@
+# 刷題題庫
+
+個人刷題紀錄網站：匯入練習頁面的 HTML → 自動記錄題目（不重複）→ 依章節瀏覽、查詢解答、刷題。
+
+## 功能
+
+| 分頁 | 做什麼 |
+|---|---|
+| 題庫 | 依章節 / 境界分類瀏覽所有題目、選項與正確解答；可搜尋、篩選「尚無解答」的題目、填寫或修改解答 |
+| 匯入 / 查詢 | 把練習頁面存成的 HTML 拖進來：列出每一題是否已在題庫、已記錄的解答（字母會對應該份檔案的選項順序），並自動把新題目加入題庫 |
+| 刷題 | 勾選想練的章節，可選只出有解答的題、題型、題數、隨機順序、只練答錯的題 |
+| 設定 | GitHub 同步（讓別台電腦也看得到）、備份 / 還原 |
+
+> 練習頁面的 HTML 本身**不含正確答案**，所以解答需要自己填一次（題庫頁或匯入頁的「✏️ 填寫解答」）。填過之後所有電腦都看得到。
+
+## 第一次架站（只需做一次）
+
+1. 登入 GitHub → 右上角 **+** → **New repository**
+   - Repository name：例如 `quiz-bank`
+   - 選 **Public**（免費帳號的 GitHub Pages 需要公開儲存庫）
+   - 按 **Create repository**
+2. 在新儲存庫頁面點 **uploading an existing file**，把這個資料夾裡的
+   `index.html`、`app.js`、`style.css`、`README.md` 和整個 `data` 資料夾拖進去 → **Commit changes**
+3. 儲存庫上方 **Settings** → 左側 **Pages** → Source 選 **Deploy from a branch**，Branch 選 **main**、資料夾 **/(root)** → **Save**
+4. 等 1～2 分鐘，網址就是 `https://你的帳號.github.io/quiz-bank/`
+
+## 讓網站可以儲存到 GitHub（每台要「新增/修改」題目的電腦做一次）
+
+只是看題目、刷題不需要這步。
+
+1. GitHub 右上角頭像 → **Settings** → 最下面 **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new token**
+2. 設定：
+   - Token name：隨意，例如 `quiz-bank`
+   - Expiration：選久一點（例如 1 年）
+   - Repository access：**Only select repositories** → 選 `quiz-bank`
+   - Permissions → Repository permissions → **Contents** 設為 **Read and write**
+3. 按 **Generate token**，複製 `github_pat_...` 開頭的字串
+4. 打開網站 →「設定」分頁 → 貼到 Token 欄位 → **儲存設定並同步**
+
+Token 只存在那台電腦的瀏覽器，不會被上傳。請不要在公用電腦上填 Token。
+
+## 注意
+
+- 儲存庫是公開的，任何人知道網址都能看到題庫內容。
+- 刷題的對錯紀錄只存在各自的電腦。
+- 沒填 Token 時做的修改只存在那台電腦，右上角會顯示黃色提示；之後填了 Token 會自動補上傳。
