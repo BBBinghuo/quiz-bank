@@ -82,7 +82,7 @@ const isTextAnswer = q => q.type === 'fill' || q.type === 'recall';
 /* 比對用的正規化：全形半形、大小寫、空白、填空格、作答提示都不影響比對 */
 function normQ(s) {
   return String(s).normalize('NFKC').toLowerCase()
-    .replace(/\[\*\*\d+\*\*\]/g, '□').replace(/_{2,}/g, '□')
+    .replace(/\[\*\*\d+\*\*\]/g, '□').replace(/\[_+\d+_+\]/g, '□').replace(/_{2,}/g, '□')
     .replace(/[(（]\s*請[^()（）]*[)）]/g, '')
     .replace(/\s+/g, '').replace(/□+/g, '□')
     .replace(/[。.？?！!：:]+$/, '');
@@ -106,14 +106,41 @@ function resolveKeys(q, str) {
   return keys.sort();
 }
 
-/* 文字題庫的答案套到某一題上會得到的 answer 陣列 */
-function deriveAnswer(q, str) {
-  if (q.type === 'fill' || q.type === 'recall') return [str];
-  return resolveKeys(q, str);
+/* 填空題：幾個空格；每格可接受的寫法（多格時每格用 | 分隔多種寫法） */
+const blankCount = q => q.blanks || 1;
+function blankAlts(q) {
+  if (blankCount(q) === 1) return [q.answer || []];
+  return (q.answer || []).map(s => String(s).split('|').map(t => t.trim()).filter(Boolean));
 }
-const sameAnswer = (q, ans) => q.type === 'fill'
-  ? ans.every(a => q.answer.some(b => normO(b) === normO(a)))
-  : [...q.answer].sort().join('|') === [...ans].sort().join('|');
+
+/* 正確答案（成績頁每行一個；或貼上的整段文字）轉成某一題的 answer 陣列；對不上回傳 null */
+function deriveFromLines(q, lines) {
+  lines = lines.map(s => String(s).trim()).filter(Boolean);
+  if (!lines.length) return null;
+  if (q.type === 'recall') return [lines.join('\n')];
+  if (q.type === 'fill') {
+    const n = blankCount(q);
+    const joined = lines.join(',');
+    if (n === 1) return [joined];
+    const parts = joined.split('/').map(t => t.trim());
+    return parts.length === n ? parts : null;
+  }
+  // 選擇題：先試「一行 = 一個選項」，不行再用整段文字比對
+  const byText = new Map(Object.entries(q.options || {}).map(([k, v]) => [normO(v), k]));
+  const keys = lines.map(l => byText.get(normO(l)));
+  if (keys.every(Boolean) && new Set(keys).size === keys.length && (q.type !== 'single' || keys.length === 1)) return keys.sort();
+  return resolveKeys(q, lines.join(' '));
+}
+const deriveAnswer = (q, str) => deriveFromLines(q, [str]);
+
+function sameAnswer(q, ans) {
+  if (q.type === 'fill') {
+    const alts = blankAlts(q);
+    if (blankCount(q) === 1) return ans.every(a => alts[0].some(b => normO(b) === normO(a)));
+    return ans.length === alts.length && ans.every((a, i) => alts[i].some(b => normO(b) === normO(a)));
+  }
+  return [...q.answer].sort().join('|') === [...ans].sort().join('|');
+}
 
 function saveLocal() { lsSet(LS.data, { db: DB, dirty }); }
 
@@ -264,13 +291,74 @@ function cleanText(s) {
   return s.replace(/ /g, ' ').split('\n').map(l => l.replace(/[ \t]+/g, ' ').trim()).join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
+/* 取出元素文字：<pre> 保留原本排版（程式碼縮排），其他地方每行去頭尾空白 */
+function domText(node) {
+  let out = '';
+  for (const n of node.childNodes) {
+    if (n.nodeType === 3) out += n.nodeValue.replace(/\r/g, '').split('\n').map(l => l.replace(/[ \t ]+/g, ' ').trim()).join('\n');
+    else if (n.nodeName === 'BR') out += '\n';
+    else if (n.nodeName === 'PRE') out += '\n' + n.textContent.replace(/\r/g, '').replace(/\s+$/, '') + '\n';
+    else if (n.nodeType === 1) out += (/^(P|DIV)$/.test(n.nodeName) ? '\n' : '') + domText(n);
+  }
+  return out;
+}
+const tidy = s => s.replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+
+/* 「3分治法陣(練氣中期)」→ 章節 + 境界 */
+function splitTitle(title) {
+  const m = title.match(/^(.*?)\s*[（(]([^（()）]*)[）)]\s*$/);
+  return { chapter: (m ? m[1] : title).trim() || '未分類', level: m ? m[2].trim() : '' };
+}
+
+/* 從存檔網址的課程代碼判斷科目（判斷不出來就用畫面上選的科目） */
+function subjectFromHTML(html) {
+  const m = html.match(/course\/([A-Za-z]+)\d*\//);
+  if (!m) return '';
+  if (/^alg/i.test(m[1])) return '演算法';
+  if (/^os/i.test(m[1])) return '作業系統';
+  return '';
+}
+
+/* 成績頁（results.php）：有題目與正確答案，但沒有題號與選項 */
+function parseResultHTML(doc, filename) {
+  const head = $('.result-header', doc)?.textContent || '';
+  const tm = head.match(/「([^」]+)」/);
+  const { chapter, level } = splitTitle(tm ? tm[1] : '');
+  const items = [];
+  for (const block of $$('.question-result', doc)) {
+    const labelP = label => $$('strong', block).find(s => s.textContent.trim().startsWith(label))?.closest('p');
+    const ansP = labelP('正確答案');
+    if (!ansP) continue;
+    // 題目文字：「你的答案」之前的所有內容
+    const clone = block.cloneNode(true);
+    const stop = $$('strong', clone).find(s => /^(你的答案|正確答案)/.test(s.textContent.trim()))?.closest('p');
+    if (stop) { let n = stop; while (n) { const next = n.nextSibling; n.remove(); n = next; } }
+    $$('strong', clone).find(s => s.textContent.trim().startsWith('題目'))?.remove();
+    let text = tidy(domText(clone));
+    const lines = [];
+    let cur = '';
+    for (const n of ansP.childNodes) {
+      if (n.nodeName === 'STRONG') continue;
+      if (n.nodeName === 'BR') { lines.push(cur); cur = ''; } else cur += n.textContent;
+    }
+    lines.push(cur);
+    const clean = lines.map(s => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const blanks = (text.match(/\[_+\d+_+\]|\[\*\*\d+\*\*\]/g) || []).length;
+    let hint = '';
+    const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
+    if (hm) { hint = hm[1].trim(); text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim(); }
+    text = text.replace(/\s*(\[_+\d+_+\]|\[\*\*\d+\*\*\])\s*/g, ' ＿＿＿ ').replace(/ +\n/g, '\n').trim();
+    if (text && clean.length) items.push({ text, hint, blanks, type: blanks ? 'fill' : 'recall', lines: clean });
+  }
+  return { kind: 'result', filename, chapter, level, items };
+}
+
 function parseQuizHTML(html, filename) {
   const doc = new DOMParser().parseFromString(html, 'text/html');
+  if ($('.question-result', doc)) return parseResultHTML(doc, filename);
   let title = ($('#quiz-info-display h3', doc)?.textContent || doc.title || filename || '').trim();
   title = title.replace(/\s*-\s*獵妖與修練.*$/, '').replace(/\.html?$/i, '').trim();
-  const m = title.match(/^(.*?)\s*[（(]([^（()）]*)[）)]\s*$/);
-  const chapter = (m ? m[1] : title).trim() || '未分類';
-  const level = m ? m[2].trim() : '';
+  const { chapter, level } = splitTitle(title);
   const h1 = $$('h1', doc).map(h => h.textContent.trim()).find(t => t.includes(chapter)) || '';
   const dm = h1.match(/[（(]([^（()）]*)[）)]\s*$/);
   const difficulty = dm ? dm[1].trim() : '';
@@ -285,12 +373,14 @@ function parseQuizHTML(html, filename) {
     let q;
     if (input.type === 'text') {
       const box = ($('.options .question-text', block) || $('.options', block)).cloneNode(true);
-      $$('input', box).forEach(i => i.replaceWith(doc.createTextNode(' ＿＿＿ ')));
-      let text = cleanText(box.textContent);
-      const hm = text.match(/[（(]\s*(請[^（()）]*)[）)]\s*$/);
+      const inputs = $$('input', box);
+      inputs.forEach(i => i.replaceWith(doc.createTextNode(' ＿＿＿ ')));
+      let text = tidy(domText(box)).replace(/ +\n/g, '\n');
+      const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
       const hint = hm ? hm[1].trim() : '';
-      if (hm) text = text.slice(0, hm.index).trim();
+      if (hm) text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim();
       q = { type: 'fill', text, hint, options: {} };
+      if (inputs.length > 1) q.blanks = inputs.length;
     } else {
       const qt = $('p.question-text', block) || $('.question-text', block);
       const text = cleanText((qt?.textContent || '').replace(/^\s*\S{0,8}?\s*\d+\s*[.．、]\s*/, ''));
@@ -315,7 +405,7 @@ function parseQuizHTML(html, filename) {
     q.id = String(id);
     items.push(q);
   }
-  return { filename, chapter, level, difficulty, items };
+  return { kind: 'quiz', filename, chapter, level, difficulty, items };
 }
 
 /* 不同科目可能有相同的題號，所以題號只在同科目內有效 */
@@ -343,12 +433,12 @@ function parseTextBank(raw) {
     let text = cleanText(qm[1]);
     const correct = cleanText(cm[1]).replace(/\s+/g, ' ');
     if (!text || !correct) continue;
-    const isFill = /\[\*\*\d+\*\*\]/.test(text);
+    const blanks = (text.match(/\[\*\*\d+\*\*\]|\[_+\d+_+\]/g) || []).length;
     let hint = '';
     const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
     if (hm) { hint = hm[1].trim(); text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim(); }
-    if (isFill) text = text.replace(/\s*\[\*\*\d+\*\*\]\s*/g, ' ＿＿＿ ').trim();
-    entries.push({ text, hint, correct, type: isFill ? 'fill' : 'recall' });
+    if (blanks) text = text.replace(/\s*(\[\*\*\d+\*\*\]|\[_+\d+_+\])\s*/g, ' ＿＿＿ ').trim();
+    entries.push({ text, hint, blanks, lines: [correct], type: blanks ? 'fill' : 'recall' });
   }
   return entries;
 }
@@ -363,47 +453,51 @@ function textRecordsFor(q) {
   return active().filter(r => r.source === 'text' && subjectOf(r) === s && normQ(r.text) === k);
 }
 
-function applyTextEntries(entries, subject, chapter) {
+/*
+ * 把「題目 + 正確答案」套進題庫。
+ * official = true（成績頁）時，解答以成績頁為準；貼上的文字則不覆蓋既有解答。
+ */
+function applyEntries(entries, subject, chapter, level, official) {
   const now = nowISO();
   const report = [];
   for (const e of entries) {
     const resolved = sameTextQuestions(subject, e.text)
-      .map(q => ({ q, ans: deriveAnswer(q, e.correct) })).filter(x => x.ans);
+      .map(q => ({ q, ans: deriveFromLines(q, e.lines) })).filter(x => x.ans);
     if (resolved.length === 1) {
       const { q, ans } = resolved[0];
-      if (!hasAnswer(q)) {
-        DB.questions[q.id] = { ...q, answer: ans, updatedAt: now };
-        report.push({ e, status: 'filled', id: q.id });
-      } else if (sameAnswer(q, ans)) {
-        report.push({ e, status: 'same', id: q.id });
-      } else {
-        report.push({ e, status: 'conflict', id: q.id });
-      }
+      let status;
+      if (!hasAnswer(q)) status = 'filled';
+      else if (sameAnswer(q, ans)) status = 'same';
+      else status = official ? 'updated' : 'conflict';
+      if (status === 'filled' || status === 'updated') DB.questions[q.id] = { ...q, answer: ans, updatedAt: now };
+      report.push({ e, status, id: q.id });
       continue;
     }
-    // 題庫沒有這題（或有好幾題同樣題目無法判斷）→ 存成文字題
-    const id = 't' + hashText(subject + '|' + normQ(e.text) + '|' + normO(e.correct));
+    // 題庫沒有這題（或有好幾題同樣題目無法判斷）→ 存成問答 / 填空題
+    const shape = { type: e.type, blanks: e.blanks > 1 ? e.blanks : undefined };
+    const answer = deriveFromLines(shape, e.lines) || [e.lines.join(' / ')];
+    const id = 't' + hashText(subject + '|' + normQ(e.text) + '|' + normO(answer.join('|')));
     const old = DB.questions[id];
     if (old && !old.deleted) { report.push({ e, status: 'dup', id }); continue; }
     DB.questions[id] = {
-      id, subject, chapter: chapter || '未分類', level: '', difficulty: '',
-      type: e.type, text: e.text, hint: e.hint, options: {},
-      answer: [e.correct], note: '', source: 'text', createdAt: now, updatedAt: now,
+      id, subject, chapter: chapter || '未分類', level: level || '', difficulty: '',
+      type: e.type, text: e.text, hint: e.hint, options: {}, ...(shape.blanks ? { blanks: shape.blanks } : {}),
+      answer, lines: e.lines, note: '', source: 'text', createdAt: now, updatedAt: now,
     };
     report.push({ e, status: resolved.length > 1 ? 'ambiguous' : 'new', id });
   }
   return report;
 }
 
-/* 匯入 HTML 後：沒有解答的題目，試著用文字題庫的答案補上 */
+/* 匯入 HTML 後：沒有解答的題目，試著用之前存下的文字題 / 成績頁答案補上 */
 function autoFillFromText(q) {
   if (hasAnswer(q) || q.source === 'text') return false;
   const recs = textRecordsFor(q);
   if (!recs.length) return false;
-  const derived = recs.map(r => deriveAnswer(q, r.answer[0] || ''));
+  const derived = recs.map(r => deriveFromLines(q, r.lines || r.answer));
   if (derived.some(d => !d)) return false;
   let answer;
-  if (q.type === 'fill') answer = [...new Set(derived.flat())];
+  if (q.type === 'fill' && blankCount(q) === 1) answer = [...new Set(derived.flat())];
   else {
     const distinct = new Set(derived.map(d => d.join('|')));
     if (distinct.size !== 1) return false; // 同一題有不同答案的版本，交給使用者判斷
@@ -419,7 +513,7 @@ function autoFillFromText(q) {
 /* ========== 題目卡片 ========== */
 const view = {
   tab: 'bank', subject: '', chapter: '', level: '', search: '', filter: 'all',
-  editing: null, importResults: null, textResult: null, pr: null,
+  editing: null, importResults: null, textResults: null, pr: null,
 };
 
 function sortedKeys(q) { return Object.keys(q.options || {}).sort(); }
@@ -427,6 +521,7 @@ function sortedKeys(q) { return Object.keys(q.options || {}).sort(); }
 /* 依某份檔案的選項順序，把解答轉成「B. xxx」 */
 function answerText(q, display) {
   if (!hasAnswer(q)) return '';
+  if (q.type === 'fill' && blankCount(q) > 1) return q.answer.map((s, i) => `(${i + 1}) ${s}`).join('　');
   if (isTextAnswer(q)) return q.answer.join(' / ');
   const ans = new Set(q.answer);
   const order = display || sortedKeys(q).map(k => ({ disp: k, key: k }));
@@ -448,7 +543,11 @@ function tagsHTML(q, extra = '') {
 
 function editorHTML(q) {
   let inner;
-  if (q.type === 'fill') {
+  if (q.type === 'fill' && blankCount(q) > 1) {
+    inner = `<div class="muted">每一格的正確答案（同一格有多種寫法可用 <code>|</code> 分隔）：</div>` +
+      Array.from({ length: blankCount(q) }, (_, i) =>
+        `<label>第 ${i + 1} 格 <input type="text" name="ed-blank" value="${esc((q.answer || [])[i] || '')}"></label>`).join('');
+  } else if (q.type === 'fill') {
     inner = `<label>正確答案（有多種寫法可用 <code>|</code> 分隔，例如 <code>lgn | log n</code>）
       <input type="text" name="ed-fill" value="${esc((q.answer || []).join(' | '))}"></label>`;
   } else if (q.type === 'recall') {
@@ -499,7 +598,10 @@ function saveEdit(id, card) {
   const q = DB.questions[id];
   if (!q) return;
   let answer;
-  if (q.type === 'fill') answer = $('[name=ed-fill]', card).value.split('|').map(s => s.trim()).filter(Boolean);
+  if (q.type === 'fill' && blankCount(q) > 1) {
+    answer = $$('[name=ed-blank]', card).map(i => i.value.trim());
+    if (answer.every(a => !a)) answer = [];
+  } else if (q.type === 'fill') answer = $('[name=ed-fill]', card).value.split('|').map(s => s.trim()).filter(Boolean);
   else if (q.type === 'recall') answer = [$('[name=ed-recall]', card).value.trim()].filter(Boolean);
   else answer = $$('[name=ed-opt]:checked', card).map(i => i.value).sort();
   const note = $('[name=ed-note]', card).value.trim();
@@ -606,14 +708,29 @@ function addSubject() {
 
 async function handleFiles(files) {
   const addNew = $('#add-new').checked;
-  const subject = currentSubject();
-  const results = [];
+  const results = [], textResults = [];
   let added = 0, filled = 0, changed = false;
   const now = nowISO();
+  // 先讀練習頁再讀成績頁：同時拖進來時，成績頁的解答可以直接對到剛加入的題目
+  const parsedFiles = [];
   for (const f of files) {
-    let parsed;
-    try { parsed = parseQuizHTML(await f.text(), f.name); } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); continue; }
-    parsed.subject = subject;
+    try {
+      const html = await f.text();
+      const parsed = parseQuizHTML(html, f.name);
+      parsed.subject = subjectFromHTML(html) || currentSubject();
+      parsedFiles.push(parsed);
+    } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); }
+  }
+  parsedFiles.sort((a, b) => (a.kind === 'result') - (b.kind === 'result'));
+  for (const parsed of parsedFiles) {
+    const subject = parsed.subject;
+    if (parsed.kind === 'result') {
+      const report = parsed.items.length ? applyEntries(parsed.items, subject, parsed.chapter, parsed.level, true) : [];
+      if (report.some(r => r.status !== 'dup' && r.status !== 'same')) changed = true;
+      filled += report.filter(r => r.status === 'filled' || r.status === 'updated').length;
+      textResults.push({ title: '成績頁匯入結果', filename: parsed.filename, subject, chapter: parsed.chapter, report });
+      continue;
+    }
     for (const item of parsed.items) {
       const exist = findExisting(item, subject);
       if (exist) {
@@ -625,7 +742,7 @@ async function handleFiles(files) {
         if (!addNew) continue;
         DB.questions[item.dbId] = {
           id: item.dbId, subject, chapter: parsed.chapter, level: parsed.level, difficulty: parsed.difficulty,
-          type: item.type, text: item.text, hint: item.hint, options: item.options,
+          type: item.type, text: item.text, hint: item.hint, options: item.options, ...(item.blanks ? { blanks: item.blanks } : {}),
           answer: [], note: '', createdAt: now, updatedAt: now,
         };
         item.added = true;
@@ -638,11 +755,12 @@ async function handleFiles(files) {
     results.push(parsed);
   }
   view.importResults = results;
-  view.textResult = null;
+  view.textResults = textResults;
   if (changed) commit();
+  fillSubjectControls();
   renderImport();
-  const msg = [added && `新增 ${added} 題`, filled && `用文字題庫補上 ${filled} 題解答`].filter(Boolean).join('，');
-  toast(msg || '沒有新題目需要加入');
+  const msg = [added && `新增 ${added} 題`, filled && `補上 ${filled} 題解答`].filter(Boolean).join('，');
+  toast(msg || '沒有新題目或新解答');
 }
 
 function importText() {
@@ -651,8 +769,8 @@ function importText() {
   if (!entries.length) { toast('找不到題目，請確認格式含有「題目：」與「正確答案：」'); return; }
   const subject = currentSubject();
   const chapter = $('#txt-chapter').value.trim() || '未分類';
-  const report = applyTextEntries(entries, subject, chapter);
-  view.textResult = { subject, chapter, report };
+  const report = applyEntries(entries, subject, chapter, '', false);
+  view.textResults = [{ title: '文字匯入結果', subject, chapter, report }];
   view.importResults = null;
   if (report.some(r => r.status !== 'dup' && r.status !== 'same' && r.status !== 'conflict')) commit();
   $('#txt-input').value = '';
@@ -663,6 +781,7 @@ function importText() {
 
 const TEXT_STATUS = {
   filled: ['ok', '補上既有題目的解答'],
+  updated: ['ok', '已依成績頁更正解答'],
   same: ['grey', '題庫已有相同解答'],
   conflict: ['warn', '與題庫解答不同（未覆蓋）'],
   ambiguous: ['warn', '題庫有多題相同題目，另存為問答題'],
@@ -670,36 +789,37 @@ const TEXT_STATUS = {
   dup: ['grey', '已存在，略過'],
 };
 
-function renderTextResult(box) {
-  const { subject, chapter, report } = view.textResult;
+function textResultHTML(t) {
+  const { report } = t;
   const count = st => report.filter(r => r.status === st).length;
   const cards = report.map((r, n) => {
     const q = DB.questions[r.id];
     if (!q) return '';
     const [cls, label] = TEXT_STATUS[r.status];
     const extra = `<span class="tag ${cls}">${label}</span>`;
-    const refs = r.status === 'conflict' ? [r.e.correct] : [];
+    const refs = r.status === 'conflict' ? [r.e.lines.join(' / ')] : [];
     return cardHTML(q, { prefix: `<div class="muted">第 ${n + 1} 題</div>`, extraTags: extra, refs, noDelete: r.status !== 'new', cls: r.status === 'conflict' ? 'new' : '' });
   }).join('');
-  box.innerHTML = `<div class="panel">
-    <h2>文字匯入結果：${esc(subject)} › ${esc(chapter)}</h2>
-    <div class="summary-stats">
+  return `<div class="panel">
+    <h2>${esc(t.title)}：${esc(t.subject)} › ${esc(t.chapter)}</h2>
+    ${t.filename ? `<div class="muted">${esc(t.filename)}</div>` : ''}
+    ${report.length ? `<div class="summary-stats">
       <div class="stat">共 <b>${report.length}</b> 題</div>
-      <div class="stat">補上既有題目解答 <b>${count('filled')}</b></div>
+      <div class="stat">補上 / 更正解答 <b>${count('filled') + count('updated')}</b></div>
       <div class="stat">新增 <b>${count('new') + count('ambiguous')}</b></div>
       <div class="stat">重複略過 <b>${count('dup') + count('same')}</b></div>
       ${count('conflict') ? `<div class="stat">解答不同 <b>${count('conflict')}</b></div>` : ''}
     </div>
-    <p class="muted" style="font-size:.9em">沒有選項的題目會存成「問答」或「填空」題；之後匯入有選項的 HTML 時，會自動把答案對應到選項上。</p>
+    <p class="muted" style="font-size:.9em">題庫還沒有的題目會先存成「問答」或「填空」題；之後匯入有選項的練習頁 HTML 時，會自動把答案對應到選項上。</p>`
+    : '<p class="muted">這個檔案裡找不到題目。</p>'}
   </div>${cards}`;
 }
 
 function renderImport() {
   const box = $('#import-results');
-  if (view.textResult) { renderTextResult(box); return; }
-  const res = view.importResults;
-  if (!res) { box.innerHTML = ''; return; }
-  box.innerHTML = res.map(r => {
+  const texts = (view.textResults || []).map(textResultHTML).join('');
+  const res = view.importResults || [];
+  box.innerHTML = texts + res.map(r => {
     if (r.error || !r.items.length) {
       return `<div class="panel"><h2>${esc(r.filename)}</h2><p class="muted">${r.error ? '讀取失敗：' + esc(r.error) : '這個檔案裡找不到題目。請確認是練習頁面存下來的 HTML。'}</p></div>`;
     }
@@ -839,7 +959,7 @@ function newCurrent() {
   const q = DB.questions[pr.ids[pr.i]];
   if (!q) { pr.cur = null; return; }
   const keys = sortedKeys(q);
-  pr.cur = { order: pr.shuffleOpt ? shuffle(keys) : keys, submitted: false, chosen: [], fill: '', ok: null };
+  pr.cur = { order: pr.shuffleOpt ? shuffle(keys) : keys, submitted: false, chosen: [], fill: [], ok: null };
 }
 
 function normFill(s) {
@@ -858,13 +978,16 @@ function submitAnswer() {
     renderPractice();
     return;
   }
-  if (q.type === 'fill') cur.fill = $('#pr-fill', root).value;
+  if (q.type === 'fill') cur.fill = $$('.pr-fill', root).map(i => i.value);
   else cur.chosen = $$('input[name=pr-opt]:checked', root).map(i => i.value);
   if (q.type !== 'fill' && !cur.chosen.length) { toast('請先選擇答案'); return; }
-  if (q.type === 'fill' && !cur.fill.trim()) { toast('請先輸入答案'); return; }
+  if (q.type === 'fill' && cur.fill.every(v => !v.trim())) { toast('請先輸入答案'); return; }
   cur.submitted = true;
   if (hasAnswer(q)) {
-    if (q.type === 'fill') cur.ok = q.answer.some(a => normFill(a) === normFill(cur.fill));
+    if (q.type === 'fill') {
+      const alts = blankAlts(q);
+      cur.ok = alts.length === cur.fill.length && alts.every((a, i) => a.some(x => normFill(x) === normFill(cur.fill[i])));
+    }
     else cur.ok = [...cur.chosen].sort().join() === [...q.answer].sort().join();
     recordResult(q, cur.ok);
   } else {
@@ -928,7 +1051,9 @@ function renderPractice() {
   if (q.type === 'recall') {
     body = cur.submitted ? '' : '<div class="muted">先在心裡想好答案，再按「顯示答案」。</div>';
   } else if (q.type === 'fill') {
-    body = `<input id="pr-fill" class="fill-input" type="text" autocomplete="off" value="${esc(cur.fill)}" ${cur.submitted ? 'disabled' : ''} placeholder="輸入答案後按 Enter">`;
+    const n = blankCount(q);
+    body = Array.from({ length: n }, (_, i) => `<div class="fill-row">${n > 1 ? `<span class="muted">第 ${i + 1} 格</span>` : ''}
+      <input class="fill-input pr-fill" type="text" autocomplete="off" value="${esc((cur.fill || [])[i] || '')}" ${cur.submitted ? 'disabled' : ''} placeholder="${i === n - 1 ? '輸入答案後按 Enter' : ''}"></div>`).join('');
   } else {
     const t = q.type === 'single' ? 'radio' : 'checkbox';
     const chosen = new Set(cur.chosen);
@@ -948,7 +1073,7 @@ function renderPractice() {
       result = `<div class="result ok" style="white-space:pre-wrap">正確答案：<b>${esc(q.answer.join(' / '))}</b></div>
         ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}`;
     } else {
-      const disp = q.type === 'fill' ? q.answer.join(' / ')
+      const disp = q.type === 'fill' ? answerText(q)
         : cur.order.map((k, n) => ans.has(k) ? `${LETTERS[n]}. ${q.options[k]}` : null).filter(Boolean).join('　');
       result = `<div class="result ${cur.ok ? 'ok' : 'bad'}">${cur.ok ? '✔ 答對了！' : '✘ 答錯了'}　正確答案：<b>${esc(disp)}</b></div>
         ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}`;
@@ -974,7 +1099,7 @@ function renderPractice() {
       <button class="primary" data-act="pr-self" data-ok="1">✔ 我答對了 (1)</button>
       <button data-act="pr-self" data-ok="0">✘ 我答錯了 (2)</button></div>` : ''}
   </div>`;
-  if (!cur.submitted && q.type === 'fill') $('#pr-fill').focus();
+  if (!cur.submitted && q.type === 'fill') $('.pr-fill').focus();
 }
 
 /* ========== 設定 ========== */
@@ -1096,6 +1221,10 @@ document.addEventListener('keydown', e => {
   }
   if (e.key === 'Enter') {
     e.preventDefault();
+    // 多格填空：在前面的格子按 Enter 先跳到下一格
+    const boxes = $$('#practice-root .pr-fill');
+    const at = boxes.indexOf(e.target);
+    if (!cur.submitted && at >= 0 && at < boxes.length - 1) { boxes[at + 1].focus(); return; }
     if (cur.submitted) nextQuestion(); else submitAnswer();
     return;
   }

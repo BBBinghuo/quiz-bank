@@ -48,8 +48,12 @@
     </div>
     <div class="panel">
       <h2>匯入題目 HTML / 查詢解答</h2>
-      <p class="muted">在練習頁面按 <kbd>Ctrl</kbd>+<kbd>S</kbd> 存成 HTML，再拖曳到下方（可一次多個檔案）。
-        網站會列出每一題是否已在題庫、以及已記錄的解答（字母會對應<b>該份檔案</b>的選項順序）。</p>
+      <p class="muted">在練習頁面或<b>修練結果頁</b>按 <kbd>Ctrl</kbd>+<kbd>S</kbd> 存成 HTML，再拖曳到下方（可一次多個檔案，兩種一起拖進來也可以）。</p>
+      <ul class="muted" style="margin:4px 0 0;padding-left:20px;font-size:.92em">
+        <li>練習頁：記錄題目與選項，並列出已記錄的解答（字母對應<b>該份檔案</b>的選項順序）</li>
+        <li>結果頁：自動補上（或更正）題庫的正確答案</li>
+        <li>防偽驗證題會自動略過；演算法課程的檔案會自動歸到「演算法」</li>
+      </ul>
       <label id="drop-zone" class="drop">
         <input id="file-input" type="file" accept=".html,.htm" multiple hidden>
         <span>📂 點這裡選擇檔案，或把 HTML 拖曳進來</span>
