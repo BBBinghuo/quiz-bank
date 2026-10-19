@@ -700,6 +700,216 @@
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
    "updatedAt": "2026-10-19T15:35:15.032Z"
+  },
+  "t1r0celv": {
+   "id": "t1r0celv",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統主要扮演什麼角色？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用者與硬體的中介者"
+   ],
+   "lines": [
+    "使用者與硬體的中介者"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "t1ayhvxr": {
+   "id": "t1ayhvxr",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "保護與安全性涉及？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Denial-of-service Identity theft User IDs/Group IDs Privilege escalation"
+   ],
+   "lines": [
+    "Denial-of-service Identity theft User IDs/Group IDs Privilege escalation"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "tx83k4s": {
+   "id": "tx83k4s",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Process 管理包含哪些活動？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Creating/deleting processes"
+   ],
+   "lines": [
+    "Creating/deleting processes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "tvwqy9x": {
+   "id": "tvwqy9x",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the cache management problems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Cache size Replacement policy Cache coherency"
+   ],
+   "lines": [
+    "Cache size Replacement policy Cache coherency"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "t14j984j": {
+   "id": "t14j984j",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "為了實現互動式運算， ＿＿＿ 讓 CPU 在不同作業之間快速切換。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "time sharing"
+   ],
+   "lines": [
+    "time sharing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "t16vop0q": {
+   "id": "t16vop0q",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "系統呼叫 (System call) 會導致模式從？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用者模式切換至核心模式"
+   ],
+   "lines": [
+    "使用者模式切換至核心模式"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "tdxdybl": {
+   "id": "tdxdybl",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計算機系統的四大組成部分包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Hardware Operating system Application programs Users"
+   ],
+   "lines": [
+    "Hardware Operating system Application programs Users"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "t1yyal4w": {
+   "id": "t1yyal4w",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當 I/O 操作完成時，硬體裝置會透過什麼機制通知 CPU？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Interrupt"
+   ],
+   "lines": [
+    "Interrupt"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "thld15t": {
+   "id": "thld15t",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "電腦系統中執行時最核心且永遠在運作的程式是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Kernel"
+   ],
+   "lines": [
+    "Kernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
+  },
+  "tww6gsp": {
+   "id": "tww6gsp",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "中斷 (Interrupt) 的常見類型包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Hardware interrupt Software interrupt (Trap/Exception) Error-generated User-request generated"
+   ],
+   "lines": [
+    "Hardware interrupt Software interrupt (Trap/Exception) Error-generated User-request generated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:47:13.526Z",
+   "updatedAt": "2026-10-19T15:47:13.526Z"
   }
  }
 }
