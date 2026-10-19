@@ -1120,6 +1120,153 @@
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
    "updatedAt": "2026-10-19T15:48:22.322Z"
+  },
+  "t1bmnydn": {
+   "id": "t1bmnydn",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Symmetric Multiprocessing (SMP) 的特性是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "每個處理器執行所有任務 架構對稱"
+   ],
+   "lines": [
+    "每個處理器執行所有任務 架構對稱"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "tvd7hl3": {
+   "id": "tvd7hl3",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the common types of interrupts?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Hardware interrupt Software interrupt (Trap/Exception) Error-generated User-request generated"
+   ],
+   "lines": [
+    "Hardware interrupt Software interrupt (Trap/Exception) Error-generated User-request generated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "t1oljg4b": {
+   "id": "t1oljg4b",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "系統中定義的一組使用者可以透過 ＿＿＿ 來管理權限。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [
+    "group id"
+   ],
+   "lines": [
+    "group id"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "t1atexrm": {
+   "id": "t1atexrm",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "雲端運算的服務模型包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SaaS PaaS IaaS"
+   ],
+   "lines": [
+    "SaaS PaaS IaaS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "t1q28cka": {
+   "id": "t1q28cka",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "硬體資源包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU Memory I/O devices"
+   ],
+   "lines": [
+    "CPU Memory I/O devices"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "thtan5e": {
+   "id": "thtan5e",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Process 管理包含哪些活動？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Creating/deleting processes Suspending/resuming processes Synchronization mechanisms Deadlock handling"
+   ],
+   "lines": [
+    "Creating/deleting processes Suspending/resuming processes Synchronization mechanisms Deadlock handling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
+  },
+  "t6d00l8": {
+   "id": "t6d00l8",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "儲存管理活動包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "File-system management Deadlock handling Caching I/O subsystem management"
+   ],
+   "lines": [
+    "File-system management Deadlock handling Caching I/O subsystem management"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-19T15:52:19.093Z",
+   "updatedAt": "2026-10-19T15:52:19.093Z"
   }
  }
 }
