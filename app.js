@@ -6,9 +6,12 @@ const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const nowISO = () => new Date().toISOString();
 const LETTERS = 'ABCDEFGHIJ';
-const TYPE_LABEL = { single: '單選', multi: '多選', fill: '填空' };
+const TYPE_LABEL = { single: '單選', multi: '多選', fill: '填空', recall: '問答' };
+const ALL_TYPES = ['single', 'multi', 'fill', 'recall'];
 const DATA_PATH = 'data/questions.json';
-const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v1' };
+const LS = { data: 'qb_data_v1', cfg: 'qb_cfg_v1', stats: 'qb_stats_v1', practice: 'qb_practice_v2', subject: 'qb_subject_v1' };
+const DEFAULT_SUBJECT = '演算法'; // 舊資料沒有科目欄位，一律視為演算法
+const BASE_SUBJECTS = ['演算法', '作業系統'];
 
 function lsGet(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } }
 function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* 無痕模式等 */ } }
@@ -73,6 +76,44 @@ function mergeDB(a, b) {
 const active = () => Object.values(DB.questions).filter(q => !q.deleted);
 const hasAnswer = q => Array.isArray(q.answer) && q.answer.length > 0;
 const textKey = q => q.type + '|' + q.text.replace(/\s+/g, '');
+const subjectOf = q => q.subject || DEFAULT_SUBJECT;
+const isTextAnswer = q => q.type === 'fill' || q.type === 'recall';
+
+/* 比對用的正規化：全形半形、大小寫、空白、填空格、作答提示都不影響比對 */
+function normQ(s) {
+  return String(s).normalize('NFKC').toLowerCase()
+    .replace(/\[\*\*\d+\*\*\]/g, '□').replace(/_{2,}/g, '□')
+    .replace(/[(（]\s*請[^()（）]*[)）]/g, '')
+    .replace(/\s+/g, '').replace(/□+/g, '□')
+    .replace(/[。.？?！!：:]+$/, '');
+}
+const normO = s => String(s).normalize('NFKC').toLowerCase().replace(/\s+/g, '');
+
+/* 把「正確答案」文字（選項內容用空白串起來）對應回選擇題的選項代號；對不完整就回傳 null */
+function resolveKeys(q, str) {
+  let rest = normO(str);
+  const keys = [];
+  const opts = Object.entries(q.options || {}).map(([k, v]) => [k, normO(v)]).filter(([, v]) => v)
+    .sort((a, b) => b[1].length - a[1].length);
+  for (const [k, v] of opts) {
+    const i = rest.indexOf(v);
+    if (i < 0) continue;
+    keys.push(k);
+    rest = rest.slice(0, i) + '\u0000' + rest.slice(i + v.length);
+  }
+  if (!keys.length || rest.replace(/[\u0000,，、;；]/g, '') !== '') return null;
+  if (q.type === 'single' && keys.length !== 1) return null;
+  return keys.sort();
+}
+
+/* 文字題庫的答案套到某一題上會得到的 answer 陣列 */
+function deriveAnswer(q, str) {
+  if (q.type === 'fill' || q.type === 'recall') return [str];
+  return resolveKeys(q, str);
+}
+const sameAnswer = (q, ans) => q.type === 'fill'
+  ? ans.every(a => q.answer.some(b => normO(b) === normO(a)))
+  : [...q.answer].sort().join('|') === [...ans].sort().join('|');
 
 function saveLocal() { lsSet(LS.data, { db: DB, dirty }); }
 
@@ -277,17 +318,108 @@ function parseQuizHTML(html, filename) {
   return { filename, chapter, level, difficulty, items };
 }
 
-function findExisting(q) {
-  const byId = DB.questions[q.id];
-  if (byId && !byId.deleted) return byId;
+/* 不同科目可能有相同的題號，所以題號只在同科目內有效 */
+function findExisting(q, subject) {
+  for (const id of [q.id, q.id + '@' + subject]) {
+    const x = DB.questions[id];
+    if (x && !x.deleted && subjectOf(x) === subject) return x;
+  }
   const k = textKey(q);
-  return active().find(x => textKey(x) === k) || null;
+  return active().find(x => subjectOf(x) === subject && x.source !== 'text' && textKey(x) === k) || null;
+}
+function freeId(id, subject) {
+  const x = DB.questions[id];
+  return x && !x.deleted && subjectOf(x) !== subject ? id + '@' + subject : id;
+}
+
+/* ========== 解析文字題庫（NotebookLM / 成績頁） ========== */
+function parseTextBank(raw) {
+  const entries = [];
+  const chunks = String(raw).replace(/\r/g, '').split(/(?=題目\s*\d*\s*[：:])/);
+  for (const chunk of chunks) {
+    const qm = chunk.match(/題目\s*\d*\s*[：:]([\s\S]*?)(?=你的答案\s*[：:]|正確答案\s*[：:])/);
+    const cm = chunk.match(/正確答案\s*[：:]([\s\S]*?)(?=得分\s*[：:]|$)/);
+    if (!qm || !cm) continue;
+    let text = cleanText(qm[1]);
+    const correct = cleanText(cm[1]).replace(/\s+/g, ' ');
+    if (!text || !correct) continue;
+    const isFill = /\[\*\*\d+\*\*\]/.test(text);
+    let hint = '';
+    const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
+    if (hm) { hint = hm[1].trim(); text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim(); }
+    if (isFill) text = text.replace(/\s*\[\*\*\d+\*\*\]\s*/g, ' ＿＿＿ ').trim();
+    entries.push({ text, hint, correct, type: isFill ? 'fill' : 'recall' });
+  }
+  return entries;
+}
+
+/* 題庫中「同科目、同題目」的選擇 / 填空題（不含文字匯入的紀錄本身） */
+function sameTextQuestions(subject, text) {
+  const k = normQ(text);
+  return active().filter(q => q.source !== 'text' && subjectOf(q) === subject && normQ(q.text) === k);
+}
+function textRecordsFor(q) {
+  const k = normQ(q.text), s = subjectOf(q);
+  return active().filter(r => r.source === 'text' && subjectOf(r) === s && normQ(r.text) === k);
+}
+
+function applyTextEntries(entries, subject, chapter) {
+  const now = nowISO();
+  const report = [];
+  for (const e of entries) {
+    const resolved = sameTextQuestions(subject, e.text)
+      .map(q => ({ q, ans: deriveAnswer(q, e.correct) })).filter(x => x.ans);
+    if (resolved.length === 1) {
+      const { q, ans } = resolved[0];
+      if (!hasAnswer(q)) {
+        DB.questions[q.id] = { ...q, answer: ans, updatedAt: now };
+        report.push({ e, status: 'filled', id: q.id });
+      } else if (sameAnswer(q, ans)) {
+        report.push({ e, status: 'same', id: q.id });
+      } else {
+        report.push({ e, status: 'conflict', id: q.id });
+      }
+      continue;
+    }
+    // 題庫沒有這題（或有好幾題同樣題目無法判斷）→ 存成文字題
+    const id = 't' + hashText(subject + '|' + normQ(e.text) + '|' + normO(e.correct));
+    const old = DB.questions[id];
+    if (old && !old.deleted) { report.push({ e, status: 'dup', id }); continue; }
+    DB.questions[id] = {
+      id, subject, chapter: chapter || '未分類', level: '', difficulty: '',
+      type: e.type, text: e.text, hint: e.hint, options: {},
+      answer: [e.correct], note: '', source: 'text', createdAt: now, updatedAt: now,
+    };
+    report.push({ e, status: resolved.length > 1 ? 'ambiguous' : 'new', id });
+  }
+  return report;
+}
+
+/* 匯入 HTML 後：沒有解答的題目，試著用文字題庫的答案補上 */
+function autoFillFromText(q) {
+  if (hasAnswer(q) || q.source === 'text') return false;
+  const recs = textRecordsFor(q);
+  if (!recs.length) return false;
+  const derived = recs.map(r => deriveAnswer(q, r.answer[0] || ''));
+  if (derived.some(d => !d)) return false;
+  let answer;
+  if (q.type === 'fill') answer = [...new Set(derived.flat())];
+  else {
+    const distinct = new Set(derived.map(d => d.join('|')));
+    if (distinct.size !== 1) return false; // 同一題有不同答案的版本，交給使用者判斷
+    answer = derived[0];
+  }
+  const now = nowISO();
+  DB.questions[q.id] = { ...q, answer, updatedAt: now };
+  // 文字紀錄已經併入這題，標記刪除以免重複出現
+  for (const r of recs) DB.questions[r.id] = { ...r, deleted: true, mergedInto: q.id, updatedAt: now };
+  return true;
 }
 
 /* ========== 題目卡片 ========== */
 const view = {
-  tab: 'bank', chapter: '', level: '', search: '', filter: 'all',
-  editing: null, importResults: null, pr: null,
+  tab: 'bank', subject: '', chapter: '', level: '', search: '', filter: 'all',
+  editing: null, importResults: null, textResult: null, pr: null,
 };
 
 function sortedKeys(q) { return Object.keys(q.options || {}).sort(); }
@@ -295,7 +427,7 @@ function sortedKeys(q) { return Object.keys(q.options || {}).sort(); }
 /* 依某份檔案的選項順序，把解答轉成「B. xxx」 */
 function answerText(q, display) {
   if (!hasAnswer(q)) return '';
-  if (q.type === 'fill') return q.answer.join(' / ');
+  if (isTextAnswer(q)) return q.answer.join(' / ');
   const ans = new Set(q.answer);
   const order = display || sortedKeys(q).map(k => ({ disp: k, key: k }));
   return order.filter(d => ans.has(d.key)).map(d => `${d.disp}. ${q.options[d.key] ?? ''}`).join('　');
@@ -303,6 +435,7 @@ function answerText(q, display) {
 
 function tagsHTML(q, extra = '') {
   return `<div class="tags">
+    <span class="tag sj">${esc(subjectOf(q))}</span>
     <span class="tag">${esc(q.chapter)}</span>
     ${q.level ? `<span class="tag grey">${esc(q.level)}</span>` : ''}
     ${q.difficulty ? `<span class="tag grey">${esc(q.difficulty)}</span>` : ''}
@@ -318,6 +451,8 @@ function editorHTML(q) {
   if (q.type === 'fill') {
     inner = `<label>正確答案（有多種寫法可用 <code>|</code> 分隔，例如 <code>lgn | log n</code>）
       <input type="text" name="ed-fill" value="${esc((q.answer || []).join(' | '))}"></label>`;
+  } else if (q.type === 'recall') {
+    inner = `<label>正確答案<textarea name="ed-recall" rows="2">${esc((q.answer || []).join('\n'))}</textarea></label>`;
   } else {
     const ans = new Set(q.answer || []);
     const t = q.type === 'single' ? 'radio' : 'checkbox';
@@ -335,7 +470,7 @@ function editorHTML(q) {
 function cardHTML(q, o = {}) {
   const editing = view.editing === q.id;
   let body = '';
-  if (q.type === 'fill') {
+  if (isTextAnswer(q)) {
     body = `<div class="answer-line">答案：${hasAnswer(q) ? `<b>${esc(answerText(q))}</b>` : '<span class="muted">尚無解答</span>'}</div>`;
   } else {
     const ans = new Set(q.answer || []);
@@ -343,6 +478,9 @@ function cardHTML(q, o = {}) {
     body = '<ul class="opts">' + order.map(d =>
       `<li class="${ans.has(d.key) ? 'correct' : ''}">${esc(d.disp)}. ${esc(q.options[d.key])}</li>`).join('') + '</ul>';
     if (o.display && hasAnswer(q)) body += `<div class="answer-line">此份檔案的答案：<b>${esc(answerText(q, o.display))}</b></div>`;
+  }
+  if (o.refs && o.refs.length) {
+    body += `<div class="answer-line">文字題庫的參考答案：${o.refs.map(r => `<b>${esc(r)}</b>`).join('　／　')}</div>`;
   }
   return `<div class="card ${o.cls || ''}" data-qid="${esc(q.id)}">
     ${tagsHTML(q, o.extraTags || '')}
@@ -362,6 +500,7 @@ function saveEdit(id, card) {
   if (!q) return;
   let answer;
   if (q.type === 'fill') answer = $('[name=ed-fill]', card).value.split('|').map(s => s.trim()).filter(Boolean);
+  else if (q.type === 'recall') answer = [$('[name=ed-recall]', card).value.trim()].filter(Boolean);
   else answer = $$('[name=ed-opt]:checked', card).map(i => i.value).sort();
   const note = $('[name=ed-note]', card).value.trim();
   DB.questions[id] = { ...q, answer, note, updatedAt: nowISO() };
@@ -381,37 +520,60 @@ function deleteQuestion(id) {
 }
 
 /* ========== 題庫頁 ========== */
-function chapterTree(list = active()) {
+function compareSubject(a, b) {
+  const ia = BASE_SUBJECTS.indexOf(a), ib = BASE_SUBJECTS.indexOf(b);
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b, 'zh-Hant');
+}
+function compareQ(a, b) {
+  return compareSubject(subjectOf(a), subjectOf(b)) || compareChapter(a.chapter, b.chapter) ||
+    compareLevel(a.level || '', b.level || '') || String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
+}
+
+/* 科目 → 章節 → 境界 的樹狀統計 */
+function subjectTree(list = active()) {
   const tree = new Map();
   for (const q of list) {
-    if (!tree.has(q.chapter)) tree.set(q.chapter, new Map());
-    const lv = tree.get(q.chapter);
+    const sj = subjectOf(q);
+    if (!tree.has(sj)) tree.set(sj, new Map());
+    const chs = tree.get(sj);
+    if (!chs.has(q.chapter)) chs.set(q.chapter, new Map());
+    const lv = chs.get(q.chapter);
     lv.set(q.level || '', (lv.get(q.level || '') || 0) + 1);
   }
-  return [...tree.keys()].sort(compareChapter).map(ch => {
-    const lv = tree.get(ch);
-    const levels = [...lv.keys()].sort(compareLevel).map(l => ({ level: l, count: lv.get(l) }));
-    return { chapter: ch, count: levels.reduce((s, x) => s + x.count, 0), levels };
+  return [...tree.keys()].sort(compareSubject).map(sj => {
+    const chs = tree.get(sj);
+    const chapters = [...chs.keys()].sort(compareChapter).map(ch => {
+      const lv = chs.get(ch);
+      const levels = [...lv.keys()].sort(compareLevel).map(l => ({ level: l, count: lv.get(l) }));
+      return { chapter: ch, count: levels.reduce((s, x) => s + x.count, 0), levels };
+    });
+    return { subject: sj, count: chapters.reduce((s, x) => s + x.count, 0), chapters };
   });
+}
+
+function getSubjects() {
+  return [...new Set([...BASE_SUBJECTS, ...active().map(subjectOf), ...(cfg.subjects || [])])].sort(compareSubject);
 }
 
 function renderBank() {
   const all = active();
-  const tree = chapterTree(all);
-  const btn = (ch, lv, label, count, cls = '') =>
-    `<button class="${cls} ${view.chapter === ch && view.level === lv ? 'active' : ''}" data-act="pick-ch" data-ch="${esc(ch)}" data-lv="${esc(lv)}">${esc(label)} <span class="count">${count}</span></button>`;
-  $('#chapter-list').innerHTML = btn('', '', '全部章節', all.length) + tree.map(t =>
-    btn(t.chapter, '', t.chapter, t.count) +
-    (t.levels.length > 1 || t.levels[0].level ? t.levels.map(l => btn(t.chapter, l.level, l.level || '（未分）', l.count, 'lv')).join('') : '')
-  ).join('');
+  const tree = subjectTree(all);
+  const btn = (sj, ch, lv, label, count, cls = '') =>
+    `<button class="${cls} ${view.subject === sj && view.chapter === ch && view.level === lv ? 'active' : ''}" data-act="pick-ch" data-sj="${esc(sj)}" data-ch="${esc(ch)}" data-lv="${esc(lv)}">${esc(label)} <span class="count">${count}</span></button>`;
+  $('#chapter-list').innerHTML = btn('', '', '', '全部科目', all.length) + tree.map(s =>
+    btn(s.subject, '', '', s.subject, s.count, 'sj') + s.chapters.map(t =>
+      btn(s.subject, t.chapter, '', t.chapter, t.count, 'chp') +
+      (t.levels.length > 1 || t.levels[0].level ? t.levels.map(l => btn(s.subject, t.chapter, l.level, l.level || '（未分）', l.count, 'lv')).join('') : '')
+    ).join('')).join('');
 
   const s = view.search.trim().toLowerCase();
   let list = all.filter(q =>
+    (!view.subject || subjectOf(q) === view.subject) &&
     (!view.chapter || q.chapter === view.chapter) &&
     (!view.level || (q.level || '') === view.level) &&
     (view.filter === 'all' || (view.filter === 'answered') === hasAnswer(q)) &&
-    (!s || [q.text, q.hint, q.note, ...Object.values(q.options || {}), ...(q.answer || []), q.id].join('\n').toLowerCase().includes(s)));
-  list.sort((a, b) => compareChapter(a.chapter, b.chapter) || compareLevel(a.level || '', b.level || '') || String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
+    (!s || [q.text, q.hint, q.note, q.chapter, ...Object.values(q.options || {}), ...(q.answer || []), q.id].join('\n').toLowerCase().includes(s)));
+  list.sort(compareQ);
 
   const answered = all.filter(hasAnswer).length;
   $('#bank-summary').textContent = `題庫共 ${all.length} 題（已有解答 ${answered} 題）　目前顯示 ${list.length} 題`;
@@ -420,39 +582,121 @@ function renderBank() {
 }
 
 /* ========== 匯入 / 查詢 ========== */
+const currentSubject = () => $('#imp-subject').value || DEFAULT_SUBJECT;
+
+function fillSubjectControls() {
+  const sel = $('#imp-subject');
+  const want = sel.value || lsGet(LS.subject, DEFAULT_SUBJECT);
+  const subs = getSubjects();
+  sel.innerHTML = subs.map(s => `<option ${s === want ? 'selected' : ''}>${esc(s)}</option>`).join('');
+  const chs = [...new Set(active().filter(q => subjectOf(q) === currentSubject()).map(q => q.chapter))].sort(compareChapter);
+  $('#chapter-options').innerHTML = chs.map(c => `<option value="${esc(c)}">`).join('');
+}
+
+function addSubject() {
+  const name = (prompt('新科目名稱：') || '').trim();
+  if (!name) return;
+  cfg.subjects = [...new Set([...(cfg.subjects || []), name])];
+  lsSet(LS.cfg, cfg);
+  lsSet(LS.subject, name);
+  $('#imp-subject').value = '';
+  fillSubjectControls();
+  $('#imp-subject').value = name;
+}
+
 async function handleFiles(files) {
   const addNew = $('#add-new').checked;
+  const subject = currentSubject();
   const results = [];
-  let added = 0;
+  let added = 0, filled = 0, changed = false;
   const now = nowISO();
   for (const f of files) {
     let parsed;
     try { parsed = parseQuizHTML(await f.text(), f.name); } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); continue; }
+    parsed.subject = subject;
     for (const item of parsed.items) {
-      const exist = findExisting(item);
-      if (exist) { item.status = 'exists'; item.dbId = exist.id; continue; }
-      item.status = 'new';
-      item.dbId = item.id;
-      if (addNew) {
-        DB.questions[item.id] = {
-          id: item.id, chapter: parsed.chapter, level: parsed.level, difficulty: parsed.difficulty,
+      const exist = findExisting(item, subject);
+      if (exist) {
+        item.status = 'exists';
+        item.dbId = exist.id;
+      } else {
+        item.status = 'new';
+        item.dbId = freeId(item.id, subject);
+        if (!addNew) continue;
+        DB.questions[item.dbId] = {
+          id: item.dbId, subject, chapter: parsed.chapter, level: parsed.level, difficulty: parsed.difficulty,
           type: item.type, text: item.text, hint: item.hint, options: item.options,
           answer: [], note: '', createdAt: now, updatedAt: now,
         };
         item.added = true;
         added++;
+        changed = true;
       }
+      const q = DB.questions[item.dbId];
+      if (q && autoFillFromText(q)) { item.autoFilled = true; filled++; changed = true; }
     }
     results.push(parsed);
   }
   view.importResults = results;
-  if (added) commit();
+  view.textResult = null;
+  if (changed) commit();
   renderImport();
-  toast(added ? `已新增 ${added} 題到題庫` : '沒有新題目需要加入');
+  const msg = [added && `新增 ${added} 題`, filled && `用文字題庫補上 ${filled} 題解答`].filter(Boolean).join('，');
+  toast(msg || '沒有新題目需要加入');
+}
+
+function importText() {
+  const raw = $('#txt-input').value;
+  const entries = parseTextBank(raw);
+  if (!entries.length) { toast('找不到題目，請確認格式含有「題目：」與「正確答案：」'); return; }
+  const subject = currentSubject();
+  const chapter = $('#txt-chapter').value.trim() || '未分類';
+  const report = applyTextEntries(entries, subject, chapter);
+  view.textResult = { subject, chapter, report };
+  view.importResults = null;
+  if (report.some(r => r.status !== 'dup' && r.status !== 'same' && r.status !== 'conflict')) commit();
+  $('#txt-input').value = '';
+  fillSubjectControls();
+  renderImport();
+  toast(`解析 ${entries.length} 題`);
+}
+
+const TEXT_STATUS = {
+  filled: ['ok', '補上既有題目的解答'],
+  same: ['grey', '題庫已有相同解答'],
+  conflict: ['warn', '與題庫解答不同（未覆蓋）'],
+  ambiguous: ['warn', '題庫有多題相同題目，另存為問答題'],
+  new: ['', '新增'],
+  dup: ['grey', '已存在，略過'],
+};
+
+function renderTextResult(box) {
+  const { subject, chapter, report } = view.textResult;
+  const count = st => report.filter(r => r.status === st).length;
+  const cards = report.map((r, n) => {
+    const q = DB.questions[r.id];
+    if (!q) return '';
+    const [cls, label] = TEXT_STATUS[r.status];
+    const extra = `<span class="tag ${cls}">${label}</span>`;
+    const refs = r.status === 'conflict' ? [r.e.correct] : [];
+    return cardHTML(q, { prefix: `<div class="muted">第 ${n + 1} 題</div>`, extraTags: extra, refs, noDelete: r.status !== 'new', cls: r.status === 'conflict' ? 'new' : '' });
+  }).join('');
+  box.innerHTML = `<div class="panel">
+    <h2>文字匯入結果：${esc(subject)} › ${esc(chapter)}</h2>
+    <div class="summary-stats">
+      <div class="stat">共 <b>${report.length}</b> 題</div>
+      <div class="stat">補上既有題目解答 <b>${count('filled')}</b></div>
+      <div class="stat">新增 <b>${count('new') + count('ambiguous')}</b></div>
+      <div class="stat">重複略過 <b>${count('dup') + count('same')}</b></div>
+      ${count('conflict') ? `<div class="stat">解答不同 <b>${count('conflict')}</b></div>` : ''}
+    </div>
+    <p class="muted" style="font-size:.9em">沒有選項的題目會存成「問答」或「填空」題；之後匯入有選項的 HTML 時，會自動把答案對應到選項上。</p>
+  </div>${cards}`;
 }
 
 function renderImport() {
   const box = $('#import-results');
+  if (view.textResult) { renderTextResult(box); return; }
   const res = view.importResults;
   if (!res) { box.innerHTML = ''; return; }
   box.innerHTML = res.map(r => {
@@ -467,14 +711,17 @@ function renderImport() {
       const prefix = `<div class="muted">第 ${n + 1} 題</div>`;
       if (!q || q.deleted) {
         // 沒加入題庫的新題目：只顯示，不能編輯
-        const tmp = { ...it, chapter: r.chapter, level: r.level, difficulty: r.difficulty, answer: [] };
-        return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: '<span class="tag warn">題庫沒有</span>', readonly: true });
+        const tmp = { ...it, subject: r.subject, chapter: r.chapter, level: r.level, difficulty: r.difficulty, answer: [] };
+        const refs = textRecordsFor(tmp).map(x => x.answer.join(' / '));
+        return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: '<span class="tag warn">題庫沒有</span>', readonly: true, refs });
       }
-      const tag = it.status === 'new' ? '<span class="tag warn">新加入</span>' : '<span class="tag ok">題庫已有</span>';
-      return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, noDelete: true });
+      let tag = it.status === 'new' ? '<span class="tag warn">新加入</span>' : '<span class="tag ok">題庫已有</span>';
+      if (it.autoFilled) tag += '<span class="tag ok">已用文字題庫補上解答</span>';
+      const refs = hasAnswer(q) ? [] : textRecordsFor(q).map(x => x.answer.join(' / '));
+      return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, noDelete: true, refs });
     }).join('');
     return `<div class="panel">
-      <h2>${esc(r.chapter)}${r.level ? `（${esc(r.level)}）` : ''}${r.difficulty ? ` · ${esc(r.difficulty)}` : ''}</h2>
+      <h2>${esc(r.subject)} › ${esc(r.chapter)}${r.level ? `（${esc(r.level)}）` : ''}${r.difficulty ? ` · ${esc(r.difficulty)}` : ''}</h2>
       <div class="muted">${esc(r.filename)}</div>
       <div class="summary-stats">
         <div class="stat">共 <b>${r.items.length}</b> 題</div>
@@ -488,13 +735,15 @@ function renderImport() {
 
 /* ========== 刷題 ========== */
 function practiceSettings() {
-  return lsGet(LS.practice, { picks: null, onlyAnswered: true, types: ['single', 'multi', 'fill'], count: '', shuffleQ: true, shuffleOpt: false, mode: 'all' });
+  return lsGet(LS.practice, { picks: null, onlyAnswered: true, types: ALL_TYPES, count: '', shuffleQ: true, shuffleOpt: false, mode: 'all' });
 }
+
+const pickKey = (sj, ch, lv) => sj + '||' + ch + '||' + (lv || '');
 
 function practicePool(ps) {
   const picks = new Set(ps.picks || []);
   return active().filter(q =>
-    picks.has(q.chapter + '||' + (q.level || '')) &&
+    picks.has(pickKey(subjectOf(q), q.chapter, q.level)) &&
     ps.types.includes(q.type) &&
     (!ps.onlyAnswered || hasAnswer(q)) &&
     (ps.mode !== 'wrong' || (stats[q.id] && stats[q.id].last === 'w')) &&
@@ -523,10 +772,10 @@ function updatePracticeCount() {
   const b = $('#ps-start');
   b.textContent = `開始刷題（${real} 題）`;
   b.disabled = real === 0;
-  $$('.tree .chapter').forEach(div => {
+  $$('#practice-root .chapter, #practice-root .subject').forEach(div => {
     const kids = $$('input.pick', div);
     const on = kids.filter(k => k.checked).length;
-    const head = $('input.ch', div);
+    const head = $('input.ch, input.sj', div);
     head.checked = on === kids.length;
     head.indeterminate = on > 0 && on < kids.length;
   });
@@ -534,20 +783,22 @@ function updatePracticeCount() {
 
 function renderPracticeSetup() {
   const ps = practiceSettings();
-  const tree = chapterTree();
-  const all = tree.flatMap(t => t.levels.map(l => t.chapter + '||' + l.level));
+  const tree = subjectTree();
+  const all = tree.flatMap(s => s.chapters.flatMap(t => t.levels.map(l => pickKey(s.subject, t.chapter, l.level))));
   const picks = new Set(ps.picks ?? all);
-  const answeredCount = (ch, lv) => active().filter(q => q.chapter === ch && (q.level || '') === lv && hasAnswer(q)).length;
+  const answeredCount = (sj, ch, lv) => active().filter(q => subjectOf(q) === sj && q.chapter === ch && (q.level || '') === lv && hasAnswer(q)).length;
   $('#practice-root').innerHTML = `<div class="panel">
-    <h2>選擇要刷的章節</h2>
+    <h2>選擇要刷的科目與章節</h2>
     ${tree.length ? `<div class="row" style="margin:0 0 8px"><button data-act="ps-all">全選</button><button data-act="ps-none">全不選</button></div>
-    <div class="tree">${tree.map(t => `<div class="chapter">
-      <label><input type="checkbox" class="ch"> ${esc(t.chapter)} <span class="muted">(${t.count})</span></label>
-      <div class="levels">${t.levels.map(l => {
-        const v = t.chapter + '||' + l.level;
-        return `<label><input type="checkbox" class="pick" value="${esc(v)}" ${picks.has(v) ? 'checked' : ''}> ${esc(l.level || '全部')}
-          <span class="muted">(${l.count} 題，有解答 ${answeredCount(t.chapter, l.level)})</span></label>`;
-      }).join('')}</div></div>`).join('')}</div>` : '<p class="muted">題庫還是空的，先去「匯入 / 查詢」匯入題目。</p>'}
+    ${tree.map(s => `<div class="subject">
+      <label class="sj-head"><input type="checkbox" class="sj"> ${esc(s.subject)} <span class="muted">(${s.count})</span></label>
+      <div class="tree">${s.chapters.map(t => `<div class="chapter">
+        <label><input type="checkbox" class="ch"> ${esc(t.chapter)} <span class="muted">(${t.count})</span></label>
+        <div class="levels">${t.levels.map(l => {
+          const v = pickKey(s.subject, t.chapter, l.level);
+          return `<label><input type="checkbox" class="pick" value="${esc(v)}" ${picks.has(v) ? 'checked' : ''}> ${esc(l.level || '全部')}
+            <span class="muted">(${l.count} 題，有解答 ${answeredCount(s.subject, t.chapter, l.level)})</span></label>`;
+        }).join('')}</div></div>`).join('')}</div></div>`).join('')}` : '<p class="muted">題庫還是空的，先去「匯入 / 查詢」匯入題目。</p>'}
   </div>
   <div class="panel">
     <h2>刷題選項</h2>
@@ -555,7 +806,7 @@ function renderPracticeSetup() {
       <label class="check"><input type="checkbox" id="ps-answered" ${ps.onlyAnswered ? 'checked' : ''}> 只出有解答的題目</label>
       <label class="check"><input type="checkbox" id="ps-shuffleq" ${ps.shuffleQ ? 'checked' : ''}> 題目隨機順序</label>
       <label class="check"><input type="checkbox" id="ps-shuffleopt" ${ps.shuffleOpt ? 'checked' : ''}> 選項隨機順序</label>
-      <div>題型：${['single', 'multi', 'fill'].map(t => `<label style="display:inline"><input type="checkbox" class="ps-type" value="${t}" ${ps.types.includes(t) ? 'checked' : ''}> ${TYPE_LABEL[t]}</label>`).join('　')}</div>
+      <div>題型：${ALL_TYPES.map(t => `<label style="display:inline"><input type="checkbox" class="ps-type" value="${t}" ${ps.types.includes(t) ? 'checked' : ''}> ${TYPE_LABEL[t]}</label>`).join('　')}</div>
       <label>題目範圍：<select id="ps-mode">
         <option value="all" ${ps.mode === 'all' ? 'selected' : ''}>全部題目</option>
         <option value="wrong" ${ps.mode === 'wrong' ? 'selected' : ''}>只練上次答錯的</option>
@@ -564,7 +815,7 @@ function renderPracticeSetup() {
       <label>題數：<input type="number" id="ps-count" min="1" placeholder="全部" value="${esc(ps.count)}" style="width:90px"></label>
     </div>
     <div class="row"><button id="ps-start" class="primary" data-act="ps-start">開始刷題</button></div>
-    <p class="muted" style="font-size:.85em">對錯紀錄只存在這台電腦。快捷鍵：數字鍵選選項、Enter 提交 / 下一題。</p>
+    <p class="muted" style="font-size:.85em">對錯紀錄只存在這台電腦。快捷鍵：數字鍵選選項、Enter 提交 / 下一題；問答題按 Enter 看答案，再按 1（答對）或 2（答錯）。</p>
   </div>`;
   if (tree.length) updatePracticeCount();
   else $('#ps-start').disabled = true;
@@ -574,7 +825,7 @@ function startPractice() {
   const ps = readPracticeForm();
   let pool = practicePool(ps);
   if (ps.shuffleQ) pool = shuffle(pool);
-  else pool.sort((a, b) => compareChapter(a.chapter, b.chapter) || compareLevel(a.level || '', b.level || '') || String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
+  else pool.sort(compareQ);
   const want = parseInt(ps.count, 10);
   if (want > 0) pool = pool.slice(0, want);
   if (!pool.length) return;
@@ -600,6 +851,13 @@ function submitAnswer() {
   const q = DB.questions[pr.ids[pr.i]];
   if (!cur || cur.submitted || !q) return;
   const root = $('#practice-root');
+  if (q.type === 'recall') {
+    // 問答題：先看答案，再自己判斷對錯
+    cur.submitted = true;
+    if (!hasAnswer(q)) pr.results.push({ id: q.id, ok: null });
+    renderPractice();
+    return;
+  }
   if (q.type === 'fill') cur.fill = $('#pr-fill', root).value;
   else cur.chosen = $$('input[name=pr-opt]:checked', root).map(i => i.value);
   if (q.type !== 'fill' && !cur.chosen.length) { toast('請先選擇答案'); return; }
@@ -608,17 +866,30 @@ function submitAnswer() {
   if (hasAnswer(q)) {
     if (q.type === 'fill') cur.ok = q.answer.some(a => normFill(a) === normFill(cur.fill));
     else cur.ok = [...cur.chosen].sort().join() === [...q.answer].sort().join();
-    const s = stats[q.id] || { r: 0, w: 0 };
-    if (cur.ok) s.r++; else s.w++;
-    s.last = cur.ok ? 'r' : 'w';
-    s.t = nowISO();
-    stats[q.id] = s;
-    lsSet(LS.stats, stats);
-    pr.results.push({ id: q.id, ok: cur.ok });
+    recordResult(q, cur.ok);
   } else {
     pr.results.push({ id: q.id, ok: null });
   }
   renderPractice();
+}
+
+function recordResult(q, ok) {
+  const s = stats[q.id] || { r: 0, w: 0 };
+  if (ok) s.r++; else s.w++;
+  s.last = ok ? 'r' : 'w';
+  s.t = nowISO();
+  stats[q.id] = s;
+  lsSet(LS.stats, stats);
+  view.pr.results.push({ id: q.id, ok });
+}
+
+function selfGrade(ok) {
+  const pr = view.pr, cur = pr && pr.cur;
+  const q = pr && DB.questions[pr.ids[pr.i]];
+  if (!cur || !cur.submitted || !q || q.type !== 'recall' || !hasAnswer(q) || cur.ok !== null) return;
+  cur.ok = ok;
+  recordResult(q, ok);
+  nextQuestion();
 }
 
 function nextQuestion() {
@@ -654,7 +925,9 @@ function renderPractice() {
   const pct = Math.round(pr.i / pr.ids.length * 100);
   const ans = new Set(q.answer || []);
   let body;
-  if (q.type === 'fill') {
+  if (q.type === 'recall') {
+    body = cur.submitted ? '' : '<div class="muted">先在心裡想好答案，再按「顯示答案」。</div>';
+  } else if (q.type === 'fill') {
     body = `<input id="pr-fill" class="fill-input" type="text" autocomplete="off" value="${esc(cur.fill)}" ${cur.submitted ? 'disabled' : ''} placeholder="輸入答案後按 Enter">`;
   } else {
     const t = q.type === 'single' ? 'radio' : 'checkbox';
@@ -671,6 +944,9 @@ function renderPractice() {
     if (!hasAnswer(q)) {
       result = `<div class="result warn">這題題庫裡還沒有解答，無法判斷對錯。知道答案的話可以現在填上：</div>
         ${cardHTML(q, { noDelete: true })}`;
+    } else if (q.type === 'recall') {
+      result = `<div class="result ok" style="white-space:pre-wrap">正確答案：<b>${esc(q.answer.join(' / '))}</b></div>
+        ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}`;
     } else {
       const disp = q.type === 'fill' ? q.answer.join(' / ')
         : cur.order.map((k, n) => ans.has(k) ? `${LETTERS[n]}. ${q.options[k]}` : null).filter(Boolean).join('　');
@@ -690,10 +966,13 @@ function renderPractice() {
     ${q.hint ? `<div class="hint">（${esc(q.hint)}）</div>` : ''}
     ${q.type === 'multi' ? '<div class="hint">（可複選）</div>' : ''}
     ${body}
-    <div class="row">${cur.submitted
+    ${q.type === 'recall' && cur.submitted && hasAnswer(q) ? '' : `<div class="row">${cur.submitted
       ? `<button class="primary" data-act="pr-next" id="pr-next">${pr.i + 1 < pr.ids.length ? '下一題 →' : '看結果'}</button>`
-      : '<button class="primary" data-act="pr-submit">提交答案</button>'}</div>
+      : `<button class="primary" data-act="pr-submit">${q.type === 'recall' ? '顯示答案' : '提交答案'}</button>`}</div>`}
     ${result}
+    ${q.type === 'recall' && cur.submitted && hasAnswer(q) ? `<div class="row">
+      <button class="primary" data-act="pr-self" data-ok="1">✔ 我答對了 (1)</button>
+      <button data-act="pr-self" data-ok="0">✘ 我答錯了 (2)</button></div>` : ''}
   </div>`;
   if (!cur.submitted && q.type === 'fill') $('#pr-fill').focus();
 }
@@ -750,7 +1029,7 @@ async function importJSON(file) {
 /* ========== 畫面切換與事件 ========== */
 function renderCurrent() {
   if (view.tab === 'bank') renderBank();
-  else if (view.tab === 'import') renderImport();
+  else if (view.tab === 'import') { fillSubjectControls(); renderImport(); }
   else if (view.tab === 'practice') {
     // 刷題中途不重畫，避免打斷作答；只在設定畫面時更新
     if (!view.pr) renderPracticeSetup();
@@ -778,7 +1057,8 @@ document.addEventListener('click', e => {
   const act = el.dataset.act;
   const id = el.dataset.id;
   switch (act) {
-    case 'pick-ch': view.chapter = el.dataset.ch; view.level = el.dataset.lv; renderBank(); break;
+    case 'pick-ch': view.subject = el.dataset.sj; view.chapter = el.dataset.ch; view.level = el.dataset.lv; renderBank(); break;
+    case 'pr-self': selfGrade(el.dataset.ok === '1'); break;
     case 'edit': view.editing = id; rerenderAfterEdit(); break;
     case 'cancel-edit': view.editing = null; rerenderAfterEdit(); break;
     case 'save-edit': saveEdit(id, el.closest('.card')); if (view.tab === 'practice') renderPractice(); break;
@@ -797,6 +1077,7 @@ document.addEventListener('change', e => {
   const t = e.target;
   if (!t.closest('#practice-root') || view.pr) return;
   if (t.classList.contains('ch')) $$('input.pick', t.closest('.chapter')).forEach(i => { i.checked = t.checked; });
+  if (t.classList.contains('sj')) $$('input.pick', t.closest('.subject')).forEach(i => { i.checked = t.checked; });
   updatePracticeCount();
 });
 document.addEventListener('input', e => {
@@ -806,7 +1087,13 @@ document.addEventListener('input', e => {
 document.addEventListener('keydown', e => {
   if (view.tab !== 'practice' || !view.pr || !view.pr.cur || view.editing) return;
   const cur = view.pr.cur;
-  const inText = e.target.matches('input[type=text], textarea');
+  const inText = !!e.target.matches?.('input[type=text], textarea');
+  const q = DB.questions[view.pr.ids[view.pr.i]];
+  if (q && q.type === 'recall' && cur.submitted && hasAnswer(q)) {
+    if (e.key === '1') selfGrade(true);
+    else if (e.key === '2') selfGrade(false);
+    return;
+  }
   if (e.key === 'Enter') {
     e.preventDefault();
     if (cur.submitted) nextQuestion(); else submitAnswer();
@@ -835,6 +1122,10 @@ function setupStatic() {
     const files = [...e.dataTransfer.files].filter(f => /\.html?$/i.test(f.name));
     if (files.length) handleFiles(files); else toast('請拖曳 .html 檔案');
   });
+
+  $('#imp-subject').addEventListener('change', e => { lsSet(LS.subject, e.target.value); fillSubjectControls(); });
+  $('#add-subject').addEventListener('click', addSubject);
+  $('#txt-import').addEventListener('click', importText);
 
   $('#cfg-save').addEventListener('click', saveSettings);
   $('#cfg-token').addEventListener('focus', e => { if (e.target.value.startsWith('••')) e.target.value = ''; });

@@ -41,6 +41,12 @@
   <!-- 匯入 / 查詢 -->
   <section id="tab-import" class="tab">
     <div class="panel">
+      <div class="row" style="margin:0">
+        <label>匯入到哪個科目：<select id="imp-subject"></select></label>
+        <button id="add-subject">＋ 新增科目</button>
+      </div>
+    </div>
+    <div class="panel">
       <h2>匯入題目 HTML / 查詢解答</h2>
       <p class="muted">在練習頁面按 <kbd>Ctrl</kbd>+<kbd>S</kbd> 存成 HTML，再拖曳到下方（可一次多個檔案）。
         網站會列出每一題是否已在題庫、以及已記錄的解答（字母會對應<b>該份檔案</b>的選項順序）。</p>
@@ -49,6 +55,17 @@
         <span>📂 點這裡選擇檔案，或把 HTML 拖曳進來</span>
       </label>
       <label class="check"><input id="add-new" type="checkbox" checked> 把題庫中沒有的新題目自動加入題庫（重複的題目不會重複加入）</label>
+    </div>
+    <div class="panel">
+      <h2>貼上文字題庫（NotebookLM / 成績頁）</h2>
+      <p class="muted">每題的格式：<code>題目：…</code>　<code>正確答案：…</code>（「你的答案」「得分」有沒有都可以）。
+        題庫裡已有同樣題目的選擇題，會直接補上解答；沒有的會存成問答 / 填空題，之後匯入 HTML 時再自動對應到選項。</p>
+      <div class="form-grid" style="margin-bottom:8px">
+        <label>章節（可留空）<input id="txt-chapter" list="chapter-options" placeholder="例如 1作業系統概論"></label>
+      </div>
+      <datalist id="chapter-options"></datalist>
+      <textarea id="txt-input" rows="8" style="width:100%" placeholder="題目：…&#10;你的答案：…&#10;正確答案：…&#10;得分：…"></textarea>
+      <div class="row"><button id="txt-import" class="primary">解析並匯入</button></div>
     </div>
     <div id="import-results"></div>
   </section>
