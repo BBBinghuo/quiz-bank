@@ -7247,6 +7247,363 @@
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
    "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tzzb6dq": {
+   "id": "tzzb6dq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪個是提供給 Windows 系統最常見的 API？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Win32 API"
+   ],
+   "lines": [
+    "Win32 API"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t102e7nh": {
+   "id": "t102e7nh",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些系統呼叫屬於「行程控制（Process Control）」的範疇？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CreateProcess() fork() exit()"
+   ],
+   "lines": [
+    "CreateProcess() fork() exit()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t1yfegxr": {
+   "id": "t1yfegxr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which program is used to build an operating system based on a specific hardware system configuration?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SYSGEN"
+   ],
+   "lines": [
+    "SYSGEN"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "tpeenv2": {
+   "id": "tpeenv2",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當系統啟動時，會從一個固定的記憶體位置開始執行，該位置通常在[1]中。(用英文小寫回答 字母間請留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "firmware"
+   ],
+   "lines": [
+    "firmware"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "txw5dqr": {
+   "id": "txw5dqr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "現代作業系統設計原則中，強調將規定「做什麼」的 [1] 與規定「怎麼做」的 [2] 分離開來。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "policy mechanism"
+   ],
+   "lines": [
+    "policy mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "tf13gpq": {
+   "id": "tf13gpq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在分層方法中，最底層（Layer 0）代表的是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "硬體"
+   ],
+   "lines": [
+    "硬體"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t1agq74c": {
+   "id": "t1agq74c",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "應用程式用來呼叫作業系統核心服務的程式化介面簡稱為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "api"
+   ],
+   "lines": [
+    "api"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t8clczf": {
+   "id": "t8clczf",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一個 Unix/Linux 系統工具可以用來即時檢視系統效能與行程行為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "top"
+   ],
+   "lines": [
+    "top"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t11xrpb5": {
+   "id": "t11xrpb5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Solaris、FreeBSD 與 macOS 中內建，允許在生產系統上進行即時動態追蹤的核心除錯工具名為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "dtrace"
+   ],
+   "lines": [
+    "dtrace"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "ttnxrgl": {
+   "id": "ttnxrgl",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Unix/Linux 系統中，用來建立全新行程（Process）的系統呼叫是 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "fork"
+   ],
+   "lines": [
+    "fork"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t103i34w": {
+   "id": "t103i34w",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些作業系統環境中，同時包含了命令列介面（CLI）與圖形使用者介面（GUI）？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Microsoft Windows Apple Mac OS X Linux"
+   ],
+   "lines": [
+    "Microsoft Windows Apple Mac OS X Linux"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t1hznnej": {
+   "id": "t1hznnej",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following is NOT a primary service provided by an operating system to users or programs?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Hardware manufacturing"
+   ],
+   "lines": [
+    "Hardware manufacturing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t5nv4u2": {
+   "id": "t5nv4u2",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一種使用者介面是以文字行輸入為基礎的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t1opamal": {
+   "id": "t1opamal",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些屬於作業系統提供的通訊模型機制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "共用記憶體模型（Shared memory） 訊息傳遞模型（Message passing）"
+   ],
+   "lines": [
+    "共用記憶體模型（Shared memory） 訊息傳遞模型（Message passing）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "tem3jg3": {
+   "id": "tem3jg3",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "相較於直接使用系統呼叫，使用 API 有哪些好處？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "程式設計師不需了解系統呼叫的實現方式 隱藏了大部分作業系統介面的細節"
+   ],
+   "lines": [
+    "程式設計師不需了解系統呼叫的實現方式 隱藏了大部分作業系統介面的細節"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t1mm0w26": {
+   "id": "t1mm0w26",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在分層方法中，最高層（Layer N）代表的是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用者介面"
+   ],
+   "lines": [
+    "使用者介面"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t13c73vc": {
+   "id": "t13c73vc",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The acronym for Command-Line Interface is [1], and for Graphical User Interface is [2].(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "cli gui"
+   ],
+   "lines": [
+    "cli gui"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:11.340Z",
+   "updatedAt": "2026-10-20T01:01:11.340Z"
   }
  }
 }
