@@ -1884,23 +1884,24 @@
   "2419": {
    "id": "2419",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "如果所有輸入元素皆為 1 到 k，計數排序(Counting Sort)的時間複雜度為？",
    "hint": "",
    "options": {
+    "D": "Θ(k log k)",
     "A": "Θ(n + k)",
     "B": "Θ(n log n)",
-    "D": "Θ(k log k)",
     "C": "Θ(n²)"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:48.844Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:11:51.508Z",
+   "updatedAt": "2026-10-20T14:11:51.512Z"
   },
   "2420": {
    "id": "2420",
@@ -1989,6 +1990,28 @@
    "note": "",
    "createdAt": "2026-10-20T14:08:21.805Z",
    "updatedAt": "2026-10-20T14:08:21.809Z"
+  },
+  "2424": {
+   "id": "2424",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "桶排序中(Bucket Sort)，每個桶內部的排序通常使用？",
+   "hint": "",
+   "options": {
+    "A": "插入排序",
+    "D": "計數排序",
+    "C": "基數排序",
+    "B": "快速排序"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:11:51.508Z",
+   "updatedAt": "2026-10-20T14:11:51.513Z"
   },
   "2425": {
    "id": "2425",
@@ -22815,7 +22838,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:11:51.513Z",
+   "deleted": true,
+   "mergedInto": "2424"
   },
   "t1w3gd8m": {
    "id": "t1w3gd8m",
@@ -23236,7 +23261,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:18.364Z",
-   "updatedAt": "2026-10-20T01:31:18.364Z"
+   "updatedAt": "2026-10-20T14:11:51.512Z",
+   "deleted": true,
+   "mergedInto": "2419"
   },
   "t1f241uy": {
    "id": "t1f241uy",
