@@ -10796,6 +10796,27 @@
    "source": "text",
    "createdAt": "2026-10-20T01:10:29.564Z",
    "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "t1it87ry": {
+   "id": "t1it87ry",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which one is not part of the system program?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Background services"
+   ],
+   "lines": [
+    "Background services"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:36.756Z",
+   "updatedAt": "2026-10-20T01:10:36.756Z"
   }
  }
 }
