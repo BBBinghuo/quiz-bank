@@ -4761,11 +4761,11 @@
   "tv6hnt1": {
    "id": "tv6hnt1",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 技術的流行，是因為當執行緒數量增加時，程式的正確性變得更難以確保。",
+   "text": "[1] 技術的流行，是因為當執行緒數量增加時，程式的正確性變得更難以確保。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "answer": [
@@ -4776,9 +4776,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:29.156Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "topa4mz": {
    "id": "topa4mz",
@@ -5164,7 +5163,7 @@
   "t1cw0t0n": {
    "id": "t1cw0t0n",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5179,9 +5178,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:53:34.797Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "tednnnb": {
    "id": "tednnnb",
@@ -5249,11 +5247,11 @@
   "tptrh7q": {
    "id": "tptrh7q",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] are used in UNIX systems to notify a process that a specific event has occurred.(Please answer in lowercase English)",
+   "text": "[1] are used in UNIX systems to notify a process that a specific event has occurred.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5264,18 +5262,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:22.444Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "t12tti87": {
    "id": "t12tti87",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Amdahl's Law is formulated as: speedup = 1/(S+(1-S)/N), where N represents the number of [ 1 ].(Please answer in lowercase English, leaving a space between each word)",
+   "text": "Amdahl's Law is formulated as: speedup = 1/(S+(1-S)/N), where N represents the number of [1].(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5286,14 +5283,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:09.084Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "tg7ocet": {
    "id": "tg7ocet",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5308,18 +5304,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:14.556Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "t1lp4uht": {
    "id": "t1lp4uht",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "In the [ 1 ] model, many user-level threads are mapped to a single kernel thread.(Please answer in lowercase English, connecting letters with hyphens)",
+   "text": "In the [1] model, many user-level threads are mapped to a single kernel thread.(Please answer in lowercase English, connecting letters with hyphens)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5330,9 +5325,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:30.132Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "t1yp9nx9": {
    "id": "t1yp9nx9",
@@ -5721,11 +5715,11 @@
   "tg91f1w": {
    "id": "tg91f1w",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Because threads share a process's resources, [ 1 ] is easier to achieve than shared memory or message passing.(Please answer in lowercase English, leaving a space between each word)",
+   "text": "Because threads share a process's resources, [1] is easier to achieve than shared memory or message passing.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5736,9 +5730,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:15.004Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:13.124Z",
+   "updatedAt": "2026-10-20T01:19:13.124Z"
   },
   "t1n7vmg5": {
    "id": "t1n7vmg5",
