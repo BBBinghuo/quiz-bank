@@ -1566,7 +1566,7 @@
   "2257": {
    "id": "2257",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
@@ -1578,15 +1578,10 @@
     "A": "f(n) 為 O(nˡᵒᵍᵇ⁽ᵃ⁾(a - ε))",
     "D": "a, b 是常數"
    },
-   "answer": [
-    "A",
-    "B",
-    "D"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:22:49.251Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:23:14.749Z",
+   "updatedAt": "2026-10-20T14:23:14.749Z"
   },
   "2259": {
    "id": "2259",
