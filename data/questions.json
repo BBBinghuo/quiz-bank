@@ -15893,6 +15893,237 @@
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
    "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1p1nt5l": {
+   "id": "t1p1nt5l",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理 Case 3 的條件包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) 成長速度大於 nˡᵒᵍᵇ⁽ᵃ⁾ 存在常數 epsilon > 0 滿足規則性條件 (regularity condition)"
+   ],
+   "lines": [
+    "f(n) 成長速度大於 nˡᵒᵍᵇ⁽ᵃ⁾ 存在常數 epsilon > 0 滿足規則性條件 (regularity condition)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1nqzxef": {
+   "id": "t1nqzxef",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於遞迴式 T(n) = T(n-1) + n 的描述，何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "屬於線性遞迴 解為 O(n²) 不能使用大師定理"
+   ],
+   "lines": [
+    "屬於線性遞迴 解為 O(n²) 不能使用大師定理"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1eb7vhq": {
+   "id": "t1eb7vhq",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若遞迴關係式包含下取整 (floor)，在分析時我們通常？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "忽略它以簡化分析 僅在最後驗證時考慮"
+   ],
+   "lines": [
+    "忽略它以簡化分析 僅在最後驗證時考慮"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1buz3z": {
+   "id": "t1buz3z",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹的高度通常為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "log n"
+   ],
+   "lines": [
+    "log n"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "tw3ny5z": {
+   "id": "tw3ny5z",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當 f(n) 在大師定理中成長速度大於 nˡᵒᵍᵇ⁽ᵃ⁾ 時，我們稱之為 Case [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "three"
+   ],
+   "lines": [
+    "three"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t16mkd1e": {
+   "id": "t16mkd1e",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "代入法求解遞迴關係式的第一步是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "猜測解的形式"
+   ],
+   "lines": [
+    "猜測解的形式"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1al8ryj": {
+   "id": "t1al8ryj",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴式 T(n) = T(n/2) + T(n/2) + 1 的解級別為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "線性 O(n)"
+   ],
+   "lines": [
+    "線性 O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t6xsnr3": {
+   "id": "t6xsnr3",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當遞迴式包含下取整或上取整時，我們通常？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "忽略它們"
+   ],
+   "lines": [
+    "忽略它們"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1e94830": {
+   "id": "t1e94830",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹的葉節點代價總和通常為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "線性時間 O(n)"
+   ],
+   "lines": [
+    "線性時間 O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t11957qa": {
+   "id": "t11957qa",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴關係式分析中，我們通常會忽略 [1] 條件",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "boundary"
+   ],
+   "lines": [
+    "boundary"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t1kflk8n": {
+   "id": "t1kflk8n",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些方法可以求解 T(n) = 2T(n/2) + n？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "代入法 遞迴樹法 大師定理"
+   ],
+   "lines": [
+    "代入法 遞迴樹法 大師定理"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:45.076Z",
+   "updatedAt": "2026-10-20T01:23:45.076Z"
   }
  }
 }
