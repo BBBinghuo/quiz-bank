@@ -4612,11 +4612,11 @@
   "t1vys6kq": {
    "id": "t1vys6kq",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "In the [ 1 ] model, each user-level thread is mapped to one kernel thread.(Please answer in lowercase English, connecting letters with hyphens)",
+   "text": "In the [1] model, each user-level thread is mapped to one kernel thread.(Please answer in lowercase English, connecting letters with hyphens)",
    "hint": "",
    "options": {},
    "answer": [
@@ -4627,9 +4627,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:00.780Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:57.204Z",
+   "updatedAt": "2026-10-20T01:19:57.204Z"
   },
   "ts7geel": {
    "id": "ts7geel",
@@ -5795,7 +5794,7 @@
   "t1bzxoqm": {
    "id": "t1bzxoqm",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5810,9 +5809,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:51:41.116Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:57.204Z",
+   "updatedAt": "2026-10-20T01:19:57.204Z"
   },
   "tnplsdl": {
    "id": "tnplsdl",
