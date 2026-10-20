@@ -1968,26 +1968,49 @@
    "createdAt": "2026-10-20T14:06:28.807Z",
    "updatedAt": "2026-10-20T14:06:28.818Z"
   },
+  "2423": {
+   "id": "2423",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當 k = O(n) 時，計數排序(Counting Sort)的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "C": "Θ(n²)",
+    "D": "Θ(log n)",
+    "A": "Θ(n)",
+    "B": "Θ(n log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:08:21.805Z",
+   "updatedAt": "2026-10-20T14:08:21.809Z"
+  },
   "2425": {
    "id": "2425",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "下列何者不是線性時間排序演算法？",
    "hint": "",
    "options": {
-    "B": "計數排序",
+    "A": "快速排序",
     "C": "基數排序",
-    "D": "桶排序",
-    "A": "快速排序"
+    "B": "計數排序",
+    "D": "桶排序"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:49.292Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:08:21.805Z",
+   "updatedAt": "2026-10-20T14:08:21.810Z"
   },
   "2426": {
    "id": "2426",
@@ -2660,8 +2683,8 @@
   "2458": {
    "id": "2458",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "給定課本版本的BUCKET_SORT 演算法。\n\nBUCKET_SORT(A)\n1  n <- length[A]\n2  for i <- 1 to n\n3    do insert A[i] into\n         list B[⌊nA[i]⌋]\n4  for i <- 0 to n-1\n5    do sort list B[i] with insertion sort\n6  concatenate B[0], B[1], ..., B[n-1] together in order\n\nA陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68\n第4行做到 i=7 B 陣列的內容如何\nB陣列的B[1]B[2]B[7] 的內容為何＿＿＿＿＿＿＿＿＿格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
@@ -2670,9 +2693,8 @@
    "blanks": 3,
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:59.789Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:08:21.805Z",
+   "updatedAt": "2026-10-20T14:08:21.805Z"
   },
   "2459": {
    "id": "2459",
@@ -23073,7 +23095,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:08:21.810Z",
+   "deleted": true,
+   "mergedInto": "2425"
   },
   "t1xriw6k": {
    "id": "t1xriw6k",
@@ -23295,7 +23319,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:18.364Z",
-   "updatedAt": "2026-10-20T01:31:18.364Z"
+   "updatedAt": "2026-10-20T14:08:21.809Z",
+   "deleted": true,
+   "mergedInto": "2423"
   },
   "t7rvj9v": {
    "id": "t7rvj9v",
