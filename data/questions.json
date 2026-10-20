@@ -19358,6 +19358,321 @@
    "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
    "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1qc43m3": {
+   "id": "t1qc43m3",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "課本上的 Quicksort Partition(A, p, r) 一開始陣列A 指標位置：p 和 j 指向第一個元素 2，i 位於 p 的左側外（尚未進入陣列）。 陣列內容：[2] [8] [7] [1] [3] [5] [6] [4]\n當j 執行到指向[3]這個元素 時 陣列內容：是以下哪一個",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "[2] [1] [7] [8] [3] [5] [6] [4]"
+   ],
+   "lines": [
+    "[2] [1] [7] [8] [3] [5] [6] [4]"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "tubjbnn": {
+   "id": "tubjbnn",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "課本上的 Quicksort Partition(A, p, r) 一開始陣列A 指標位置：p 和 j 指向第一個元素 2，i 位於 p 的左側外 pivot 是 [4]（尚未進入陣列）。 陣列內容：[2] [8] [7] [1] [3] [5] [6] [4]\n當PARTITION 函數執行完畢後，pivot 元素會位於什麼位置？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "陣列的第4個位置"
+   ],
+   "lines": [
+    "陣列的第4個位置"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "tpexmza": {
+   "id": "tpexmza",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的平均時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n log n)"
+   ],
+   "lines": [
+    "O(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t1bu5k": {
+   "id": "t1bu5k",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "選出課本上的 Quicksort Partition(A, p, r) average-case partition 可能的 遞迴式子",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "T(n)=T(9n/10)+T(n/10)Θ(n) T(n)=2T(n/2)+Θ(n)"
+   ],
+   "lines": [
+    "T(n)=T(9n/10)+T(n/10)Θ(n) T(n)=2T(n/2)+Θ(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t1qfxjfo": {
+   "id": "t1qfxjfo",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的遞迴樹深度在理想情況為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "logn"
+   ],
+   "lines": [
+    "logn"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t1oo34v": {
+   "id": "t1oo34v",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的征服階段包含兩個 [1] 呼叫",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "recursive"
+   ],
+   "lines": [
+    "recursive"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "tr28xw1": {
+   "id": "tr28xw1",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的最差情況（O(n²)）可能發生在？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "輸入陣列已排序 輸入陣列為反向排序 Pivot 選擇總是最大或最小值"
+   ],
+   "lines": [
+    "輸入陣列已排序 輸入陣列為反向排序 Pivot 選擇總是最大或最小值"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t14vytse": {
+   "id": "t14vytse",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序處理 n 個元素的複雜度級別為 [1]",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(nlogn)"
+   ],
+   "lines": [
+    "O(nlogn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t8ox3xn": {
+   "id": "t8ox3xn",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序與合併排序（Merge Sort）的主要差別在於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "快速排序是原地排序"
+   ],
+   "lines": [
+    "快速排序是原地排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t58tfps": {
+   "id": "t58tfps",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是快速排序的關鍵步驟？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Divide Conquer Combine"
+   ],
+   "lines": [
+    "Divide Conquer Combine"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t17cqd0f": {
+   "id": "t17cqd0f",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在快速排序遞迴呼叫中，不包含哪個部分？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "合併 (Combine)"
+   ],
+   "lines": [
+    "合併 (Combine)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t1yf9xda": {
+   "id": "t1yf9xda",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序與堆積排序的比較，下列正確的是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "快速排序在平均情況下通常較快 堆積排序保證 O(n log n) 兩者都是原地排序"
+   ],
+   "lines": [
+    "快速排序在平均情況下通常較快 堆積排序保證 O(n log n) 兩者都是原地排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "t1fryndf": {
+   "id": "t1fryndf",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者是快速排序的特徵？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "原地排序 (In-place)"
+   ],
+   "lines": [
+    "原地排序 (In-place)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "tkyitsz": {
+   "id": "tkyitsz",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的空間複雜度為 [1]",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(logn)"
+   ],
+   "lines": [
+    "O(logn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
+  },
+  "ta20mxb": {
+   "id": "ta20mxb",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "如何提升快速排序的效率？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用隨機化 Pivot 使用三數取中法 (Median-of-three) 在子問題很小時切換到插入排序"
+   ],
+   "lines": [
+    "使用隨機化 Pivot 使用三數取中法 (Median-of-three) 在子問題很小時切換到插入排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:44.588Z",
+   "updatedAt": "2026-10-20T01:28:44.588Z"
   }
  }
 }
