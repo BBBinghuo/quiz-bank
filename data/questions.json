@@ -20177,6 +20177,447 @@
    "source": "text",
    "createdAt": "2026-10-20T01:30:08.996Z",
    "updatedAt": "2026-10-20T01:30:08.996Z"
+  },
+  "tpuliu0": {
+   "id": "tpuliu0",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2, 5, 3, 0, 2, 3, 0, 5, 1, 2, 1, 3, 2, 0, 4. 執行完後 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 0 1 1 2 2 2 2 3 3 3 4 5 5/0 3 5 9 12 13"
+   ],
+   "lines": [
+    "0 0 0 1 1 2 2 2 2 3 3 3 4 5 5/0 3 5 9 12 13"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1xo6ltp": {
+   "id": "t1xo6ltp",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的RADIX_SORT 演算法。\nRADIX_SORT(A, d) 1 for i <- 1 to d 2 do use a stable sort to sort array A on digit i A陣列的內容為 4329,4057,6507,2839,6436,7720,8355 當 i = 3 時 A陣列的內容為陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "4057 4329 8355 6436 6507 7720 2839"
+   ],
+   "lines": [
+    "4057 4329 8355 6436 6507 7720 2839"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1svwfb2": {
+   "id": "t1svwfb2",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "比較排序的時間複雜度下界為 [1]",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-omega(nlogn)"
+   ],
+   "lines": [
+    "big-omega(nlogn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "thmd6a8": {
+   "id": "thmd6a8",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序(Radix Sort)在處理 b-bit 數字時，時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Θ((b/r)(n + 2^r))"
+   ],
+   "lines": [
+    "Θ((b/r)(n + 2^r))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t8a324v": {
+   "id": "t8a324v",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序（Radix Sort）通常用於排序什麼類型的資料？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "多位數鍵值"
+   ],
+   "lines": [
+    "多位數鍵值"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1a3jndb": {
+   "id": "t1a3jndb",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2, 5, 3, 0, 1, 2, 1, 3, 2, 0, 4. 執行完後 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 1 1 2 2 2 3 3 4 5/0 2 4 7 9 10"
+   ],
+   "lines": [
+    "0 0 1 1 2 2 2 3 3 4 5/0 2 4 7 9 10"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1g9cv1u": {
+   "id": "t1g9cv1u",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序(Bucket Sort)的效能取決於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "輸入資料分佈 桶的數量 桶內部的排序演算法"
+   ],
+   "lines": [
+    "輸入資料分佈 桶的數量 桶內部的排序演算法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "ta5p1mu": {
+   "id": "ta5p1mu",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計數排序(Counting Sort)的特性包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "穩定 需要 O(k) 額外空間 線性時間複雜度"
+   ],
+   "lines": [
+    "穩定 需要 O(k) 額外空間 線性時間複雜度"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "tyg74fr": {
+   "id": "tyg74fr",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2,5,3,0,2,3,0,3 做到第9行 的 j = 4 時 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 0 2 0 3 3 0/1 2 3 5 7 8"
+   ],
+   "lines": [
+    "0 0 0 2 0 3 3 0/1 2 3 5 7 8"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1c0cbso": {
+   "id": "t1c0cbso",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪種排序演算法是「穩定」的（Stable）？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "計數排序"
+   ],
+   "lines": [
+    "計數排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1js6c7f": {
+   "id": "t1js6c7f",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序(Radix Sort)處理 b-bit 數字時，r 的選擇會影響？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "執行時間 空間消耗"
+   ],
+   "lines": [
+    "執行時間 空間消耗"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1lnf34d": {
+   "id": "t1lnf34d",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "決策樹的高度下界為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Ω(n log n)"
+   ],
+   "lines": [
+    "Ω(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "tkqus6d": {
+   "id": "tkqus6d",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序(Radix Sort)要求子排序演算法必須是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "穩定排序"
+   ],
+   "lines": [
+    "穩定排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "tb9xyso": {
+   "id": "tb9xyso",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "線性時間排序演算法的共通限制包括？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "通常有特定的輸入假設 不使用比較模型 空間消耗可能較大"
+   ],
+   "lines": [
+    "通常有特定的輸入假設 不使用比較模型 空間消耗可能較大"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1un9yxn": {
+   "id": "t1un9yxn",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序從 [1] 有效位開始排序",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "least"
+   ],
+   "lines": [
+    "least"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t199mw4g": {
+   "id": "t199mw4g",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計數排序(Counting Sort)中，陣列 C 的作用是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "儲存每個值的出現次數或累積計數"
+   ],
+   "lines": [
+    "儲存每個值的出現次數或累積計數"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1nuxg67": {
+   "id": "t1nuxg67",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在比較排序中，決策樹的葉節點個數等於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "n!"
+   ],
+   "lines": [
+    "n!"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "tzeyx4": {
+   "id": "tzeyx4",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些特徵是基數排序與計數排序(Radix Sort and Counting Sort)共有的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "皆非比較排序 皆可達成線性時間"
+   ],
+   "lines": [
+    "皆非比較排序 皆可達成線性時間"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1djjypw": {
+   "id": "t1djjypw",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "決策樹模型（Decision Tree Model）主要用於分析哪類演算法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "比較排序"
+   ],
+   "lines": [
+    "比較排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "tewh965": {
+   "id": "tewh965",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於決策樹，下列敘述何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "每個內部節點是一個比較 每個分支代表一個比較結果 樹的葉節點數量至少為 n!"
+   ],
+   "lines": [
+    "每個內部節點是一個比較 每個分支代表一個比較結果 樹的葉節點數量至少為 n!"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1x5w4i": {
+   "id": "t1x5w4i",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "決策樹的葉節點數量至少為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "n!"
+   ],
+   "lines": [
+    "n!"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:44.348Z",
+   "updatedAt": "2026-10-20T01:30:44.348Z"
   }
  }
 }
