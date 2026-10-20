@@ -9515,6 +9515,237 @@
    "source": "text",
    "createdAt": "2026-10-20T01:05:51.012Z",
    "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "twokivl": {
+   "id": "twokivl",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大多數現代作業系統採用哪種方法來實現可動態載入的功能？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Modularity"
+   ],
+   "lines": [
+    "Modularity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t1nb5gon": {
+   "id": "t1nb5gon",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following is a common bootstrap loader that allows selection of kernels from multiple disks?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "GRUB"
+   ],
+   "lines": [
+    "GRUB"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "tjx12cs": {
+   "id": "tjx12cs",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於開機引導（System Boot）的過程，下列哪些敘述不符合教材說明的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "核心直接常駐在 CPU 暫存器中不需要引導"
+   ],
+   "lines": [
+    "核心直接常駐在 CPU 暫存器中不需要引導"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t13bttww": {
+   "id": "t13bttww",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The standard API for UNIX-based systems is known as the [1] API.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "posix"
+   ],
+   "lines": [
+    "posix"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "txo6qfa": {
+   "id": "txo6qfa",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which operating system architecture moves most functionality out of the kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Microkernel"
+   ],
+   "lines": [
+    "Microkernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t1n1nao6": {
+   "id": "t1n1nao6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following APIs is primarily used for Windows systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Win32 API"
+   ],
+   "lines": [
+    "Win32 API"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t1f5zwrp": {
+   "id": "t1f5zwrp",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The program execution service in the operating system services allows the system to load programs into [1].(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "memory"
+   ],
+   "lines": [
+    "memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t19svukd": {
+   "id": "t19svukd",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在標準 C 函式庫範例中，要使用 read() 系統呼叫前，程式必須包含引入的標頭檔為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "unistd.h"
+   ],
+   "lines": [
+    "unistd.h"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t1l6j6yt": {
+   "id": "t1l6j6yt",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "指令列介面（CLI）有時在核心中實現，有時則由[1]程式實現。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "system"
+   ],
+   "lines": [
+    "system"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t1n2eh5y": {
+   "id": "t1n2eh5y",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統需要不斷地偵測可能的[1]。(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "errors"
+   ],
+   "lines": [
+    "errors"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "t9xm1pe": {
+   "id": "t9xm1pe",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "標準 C 語言函式庫中的 printf() 函數，在 Unix 系統底層是呼叫哪一個系統呼叫？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "write()"
+   ],
+   "lines": [
+    "write()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:59.820Z",
+   "updatedAt": "2026-10-20T01:05:59.820Z"
   }
  }
 }
