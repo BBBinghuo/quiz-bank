@@ -10250,6 +10250,90 @@
    "source": "text",
    "createdAt": "2026-10-20T01:07:48.284Z",
    "updatedAt": "2026-10-20T01:07:48.284Z"
+  },
+  "t8vg6uf": {
+   "id": "t8vg6uf",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "現代許多作業系統（如 Linux、Solaris）為了彈性擴充核心，皆實作了可載入核心 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "modules"
+   ],
+   "lines": [
+    "modules"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:08:55.956Z",
+   "updatedAt": "2026-10-20T01:08:55.956Z"
+  },
+  "t68bj": {
+   "id": "t68bj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "According to Kernighan's Law, debugging is [1] as hard as writing the code.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "twice"
+   ],
+   "lines": [
+    "twice"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:08:55.956Z",
+   "updatedAt": "2026-10-20T01:08:55.956Z"
+  },
+  "ted88oe": {
+   "id": "ted88oe",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一個不是系統程式的一部分？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "背景服務"
+   ],
+   "lines": [
+    "背景服務"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:08:55.956Z",
+   "updatedAt": "2026-10-20T01:08:55.956Z"
+  },
+  "t1x04znk": {
+   "id": "t1x04znk",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "早期的作業系統大多以[1]語言編寫。(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "assembly"
+   ],
+   "lines": [
+    "assembly"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:08:55.956Z",
+   "updatedAt": "2026-10-20T01:08:55.956Z"
   }
  }
 }
