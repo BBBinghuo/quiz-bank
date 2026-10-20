@@ -8948,6 +8948,279 @@
    "source": "text",
    "createdAt": "2026-10-20T01:04:09.684Z",
    "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "touy9tb": {
+   "id": "touy9tb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在作業系統中，fork() 系統呼叫的功能是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "建立新行程"
+   ],
+   "lines": [
+    "建立新行程"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t1vpge0j": {
+   "id": "t1vpge0j",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 Unix 與 FreeBSD 的多工環境操作，下列哪些敘述是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用者登入後會啟動其選擇的 Shell Shell 執行 fork() 系統呼叫建立新行程 接著執行 exec() 將程式載入行程中"
+   ],
+   "lines": [
+    "使用者登入後會啟動其選擇的 Shell Shell 執行 fork() 系統呼叫建立新行程 接著執行 exec() 將程式載入行程中"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t19t5cbb": {
+   "id": "t19t5cbb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一個作業系統是歷史上微核心（Microkernel）架構的代表範例？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mach"
+   ],
+   "lines": [
+    "Mach"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t1dsso3m": {
+   "id": "t1dsso3m",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "啟動電腦時，執行從哪裡開始？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Specific memory location in ROM"
+   ],
+   "lines": [
+    "Specific memory location in ROM"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "twdzkpm": {
+   "id": "twdzkpm",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "According to the slides, what are typical system goals for an operating system?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Easy to design, implement, and maintain Flexible and reliable Efficient and error-free"
+   ],
+   "lines": [
+    "Easy to design, implement, and maintain Flexible and reliable Efficient and error-free"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t3gsltj": {
+   "id": "t3gsltj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The small piece of code stored in ROM that locates the kernel and starts it is called [1] .(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bootstrap loader"
+   ],
+   "lines": [
+    "bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "ta8ogik": {
+   "id": "ta8ogik",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "現代作業系統設計原則中，強調將規定「做什麼」的 [1] 與規定「怎麼做」的 [2] 分離開來。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "policy/mechanism"
+   ],
+   "lines": [
+    "policy/mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t1j55gzx": {
+   "id": "t1j55gzx",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "When a running program requires I/O, what mechanism does it use to request the kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "System calls"
+   ],
+   "lines": [
+    "System calls"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "tll1sw": {
+   "id": "tll1sw",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在標準的 read(int fd, void *buf, size_t count) API 中，傳入的參數包含哪些意義？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "文件描述子（File descriptor） 資料將讀入的緩衝區（Buffer）指针 要讀取的最大位元組數（Maximum number of bytes）"
+   ],
+   "lines": [
+    "文件描述子（File descriptor） 資料將讀入的緩衝區（Buffer）指针 要讀取的最大位元組數（Maximum number of bytes）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t113gwga": {
+   "id": "t113gwga",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which operating system's GUI is called \"Aqua\"?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Apple Mac OS X"
+   ],
+   "lines": [
+    "Apple Mac OS X"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t5fmdxp": {
+   "id": "t5fmdxp",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "現代作業系統的結構有哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "簡單結構 UNIX 結構 分層結構 微核心結構"
+   ],
+   "lines": [
+    "簡單結構 UNIX 結構 分層結構 微核心結構"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t3m823w": {
+   "id": "t3m823w",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the Linux command to create a new process [1] 格式 : fun()",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "t1w7i9he": {
+   "id": "t1w7i9he",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A common bootstrap loader that allows selection of kernel options and versions is [1].(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "grub"
+   ],
+   "lines": [
+    "grub"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:33.580Z",
+   "updatedAt": "2026-10-20T01:05:33.580Z"
   }
  }
 }
