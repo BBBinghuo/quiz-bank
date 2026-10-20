@@ -4528,11 +4528,11 @@
   "tosgcdc": {
    "id": "tosgcdc",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Amdahl's Law 的公式為：speedup? (1/(S+(1-S)/N)) ，N 代表[ 1 ]的數量。",
+   "text": "Amdahl's Law 的公式為：speedup? (1/(S+(1-S)/N)) ，N 代表[1]的數量。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -4543,9 +4543,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:21.996Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "tlq0q37": {
    "id": "tlq0q37",
@@ -4700,11 +4699,11 @@
   "t6bokib": {
    "id": "t6bokib",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "在 [ 1 ] 模型中，許多使用者層級執行緒可以被映射到許多核心執行緒。",
+   "text": "在 [1] 模型中，許多使用者層級執行緒可以被映射到許多核心執行緒。",
    "hint": "請用小寫英文回答 字母間用-連接",
    "options": {},
    "answer": [
@@ -4715,9 +4714,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:05.748Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t131ie40": {
    "id": "t131ie40",
@@ -4894,7 +4892,7 @@
   "t1ufom6q": {
    "id": "t1ufom6q",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4909,9 +4907,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:31.844Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "tr3kt5q": {
    "id": "tr3kt5q",
@@ -5214,7 +5211,7 @@
   "ta0j9ro": {
    "id": "ta0j9ro",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5229,14 +5226,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:12.028Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t1nwxnge": {
    "id": "t1nwxnge",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5251,9 +5247,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:03.788Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "tptrh7q": {
    "id": "tptrh7q",
@@ -5473,7 +5468,7 @@
   "t17jes3s": {
    "id": "t17jes3s",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5488,9 +5483,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:10.052Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t1n5clsl": {
    "id": "t1n5clsl",
@@ -5776,7 +5770,7 @@
   "t1hvcv1h": {
    "id": "t1hvcv1h",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5791,9 +5785,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:54:48.588Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "tgrwnt3": {
    "id": "tgrwnt3",
@@ -6202,7 +6195,7 @@
   "t1j4qo5m": {
    "id": "t1j4qo5m",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6217,9 +6210,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:22.724Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t1y0z276": {
    "id": "t1y0z276",
@@ -6528,7 +6520,7 @@
   "t1onad31": {
    "id": "t1onad31",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6543,9 +6535,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:07.804Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "tockjbh": {
    "id": "tockjbh",
@@ -6594,7 +6585,7 @@
   "tx66paw": {
    "id": "tx66paw",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6609,18 +6600,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:58:23.700Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t1tdj4vu": {
    "id": "t1tdj4vu",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Windows threads implement the [ 1 ] model.(Please answer in lowercase English, connecting letters with hyphens)",
+   "text": "Windows threads implement the [1] model.(Please answer in lowercase English, connecting letters with hyphens)",
    "hint": "",
    "options": {},
    "answer": [
@@ -6631,14 +6621,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:24.972Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t84csh5": {
    "id": "t84csh5",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6653,9 +6642,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:10.804Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   },
   "t144j00m": {
    "id": "t144j00m",
@@ -12540,6 +12528,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
    "updatedAt": "2026-10-20T01:18:38.772Z"
+  },
+  "t1bmj2vr": {
+   "id": "t1bmj2vr",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is POSIX Pthreads?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "An API standard for thread creation and synchronization"
+   ],
+   "lines": [
+    "An API standard for thread creation and synchronization"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
+  },
+  "tctzegq": {
+   "id": "tctzegq",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Who typically manages Java threads?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Java Virtual Machine (JVM)"
+   ],
+   "lines": [
+    "Java Virtual Machine (JVM)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:18:49.180Z",
+   "updatedAt": "2026-10-20T01:18:49.180Z"
   }
  }
 }
