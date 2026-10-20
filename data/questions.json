@@ -16481,6 +16481,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:24:40.452Z",
    "updatedAt": "2026-10-20T01:24:40.452Z"
+  },
+  "tf0r815": {
+   "id": "tf0r815",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於大師定理 (Master Method) 的限制，下列敘述何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "不適用於 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 成長率相差非多項式的情況 必須滿足 a >= 1 及 b > 1"
+   ],
+   "lines": [
+    "不適用於 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 成長率相差非多項式的情況 必須滿足 a >= 1 及 b > 1"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:58.300Z",
+   "updatedAt": "2026-10-20T01:24:58.300Z"
+  },
+  "t11atu3m": {
+   "id": "t11atu3m",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者不是大師定理分析的變數？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "n!"
+   ],
+   "lines": [
+    "n!"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:58.300Z",
+   "updatedAt": "2026-10-20T01:24:58.300Z"
   }
  }
 }
