@@ -3663,7 +3663,7 @@
   "thmquhr": {
    "id": "thmquhr",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3678,9 +3678,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:03.932Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t818kki": {
    "id": "t818kki",
@@ -3707,7 +3706,7 @@
   "t1mef721": {
    "id": "t1mef721",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3722,9 +3721,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:49.476Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "tlfu3bj": {
    "id": "tlfu3bj",
@@ -3836,7 +3834,7 @@
   "tag248k": {
    "id": "tag248k",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3851,14 +3849,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:00.748Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t1bqzh05": {
    "id": "t1bqzh05",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3873,14 +3870,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:45.380Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t1trh4d8": {
    "id": "t1trh4d8",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3895,9 +3891,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:51.357Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t91isq5": {
    "id": "t91isq5",
@@ -4078,7 +4073,7 @@
   "thhu2ug": {
    "id": "thhu2ug",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4093,9 +4088,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:03.708Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t1eevuft": {
    "id": "t1eevuft",
@@ -4142,7 +4136,7 @@
   "t1qgb63r": {
    "id": "t1qgb63r",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4157,9 +4151,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:50.140Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "t2t6pw8": {
    "id": "t2t6pw8",
@@ -4273,7 +4266,7 @@
   "t14wqq94": {
    "id": "t14wqq94",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4288,9 +4281,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:55.036Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   },
   "tar98g": {
    "id": "tar98g",
@@ -11122,6 +11114,216 @@
    "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
    "updatedAt": "2026-10-20T01:11:13.756Z"
+  },
+  "tnrudj8": {
+   "id": "tnrudj8",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪種排程器負責選擇要進入就緒佇列的程序？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "長期排程器"
+   ],
+   "lines": [
+    "長期排程器"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "t12tuqj6": {
+   "id": "t12tuqj6",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are different types of processes in the Chrome browser's multi-process architecture?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "browser process renderer process plug-in process"
+   ],
+   "lines": [
+    "browser process renderer process plug-in process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "ttjl769": {
+   "id": "ttjl769",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the message passing model, what does \"blocking send\" mean?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "the sender is blocked until the message is received"
+   ],
+   "lines": [
+    "the sender is blocked until the message is received"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "taxdq3i": {
+   "id": "taxdq3i",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]充當一個通道，允許兩個程序通訊。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "pipe"
+   ],
+   "lines": [
+    "pipe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "tffv021": {
+   "id": "tffv021",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是命名管道（Named Pipes）的特性？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "雙向通訊 不需要有父行程與子行程關係"
+   ],
+   "lines": [
+    "雙向通訊 不需要有父行程與子行程關係"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "t1o7us6u": {
+   "id": "t1o7us6u",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The long-term scheduler controls the degree of [1], which refers to the number of processes existing in memory at the same time. (Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "multiprogramming"
+   ],
+   "lines": [
+    "multiprogramming"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "t6k2ygz": {
+   "id": "t6k2ygz",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個佇列圖可以代表什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "佇列 資源 流程"
+   ],
+   "lines": [
+    "佇列 資源 流程"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "t10msmj2": {
+   "id": "t10msmj2",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一個UNIX系統呼叫會創建一個新的程序？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "tn4wyc0": {
+   "id": "tn4wyc0",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In an operating system, what does a program become after it is loaded into memory?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "a process"
+   ],
+   "lines": [
+    "a process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
+  },
+  "t1sl9ty2": {
+   "id": "t1sl9ty2",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是作業系統中的佇列？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "作業佇列 就緒佇列 設備佇列"
+   ],
+   "lines": [
+    "作業佇列 就緒佇列 設備佇列"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:09.532Z",
+   "updatedAt": "2026-10-20T01:12:09.532Z"
   }
  }
 }
