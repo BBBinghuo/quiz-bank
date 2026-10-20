@@ -10145,6 +10145,111 @@
    "source": "text",
    "createdAt": "2026-10-20T01:07:36.588Z",
    "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t1rpfxwq": {
+   "id": "t1rpfxwq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於作業系統服務中與資源共用（確保系統高效運行）相關的服務，包括下列哪些項目？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "資源配置 記帳 保護與安全"
+   ],
+   "lines": [
+    "資源配置 記帳 保護與安全"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:48.284Z",
+   "updatedAt": "2026-10-20T01:07:48.284Z"
+  },
+  "t1dc5mgn": {
+   "id": "t1dc5mgn",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "which are the functions provided by OS",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "file access statistic information programming language support load and execute program"
+   ],
+   "lines": [
+    "file access statistic information programming language support load and execute program"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:48.284Z",
+   "updatedAt": "2026-10-20T01:07:48.284Z"
+  },
+  "tkb1v8w": {
+   "id": "tkb1v8w",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which operating system service is used to track how much and what type of computer resources a user uses?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Account management"
+   ],
+   "lines": [
+    "Account management"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:48.284Z",
+   "updatedAt": "2026-10-20T01:07:48.284Z"
+  },
+  "t9ms96i": {
+   "id": "t9ms96i",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A C program using the read() function must include the [1] header file.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "unistd.h"
+   ],
+   "lines": [
+    "unistd.h"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:48.284Z",
+   "updatedAt": "2026-10-20T01:07:48.284Z"
+  },
+  "t10pxred": {
+   "id": "t10pxred",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當作業系統本身發生錯誤（核心損毀）時，所產生的記憶體映像檔稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "損毀傾印"
+   ],
+   "lines": [
+    "損毀傾印"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:48.284Z",
+   "updatedAt": "2026-10-20T01:07:48.284Z"
   }
  }
 }
