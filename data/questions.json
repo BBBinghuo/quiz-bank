@@ -2248,6 +2248,30 @@
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:00:04.901Z"
   },
+  "2436": {
+   "id": "2436",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "桶排序(Bucket Sort)處理過程包含？",
+   "hint": "",
+   "options": {
+    "A": "分配至各桶",
+    "B": "分別對桶排序",
+    "C": "合併桶",
+    "D": "隨機洗牌"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:10:11.991Z",
+   "updatedAt": "2026-10-20T14:10:11.995Z"
+  },
   "2437": {
    "id": "2437",
    "subject": "演算法",
@@ -22990,7 +23014,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:10:11.995Z",
+   "deleted": true,
+   "mergedInto": "2436"
   },
   "t1xykm2o": {
    "id": "t1xykm2o",
