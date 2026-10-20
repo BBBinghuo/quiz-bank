@@ -8780,6 +8780,174 @@
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
    "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1bby3h6": {
+   "id": "t1bby3h6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一個系統呼叫屬於「資訊維護」類型的系統呼叫？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "sleep()"
+   ],
+   "lines": [
+    "sleep()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "t1xljo1l": {
+   "id": "t1xljo1l",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個運行中的程式若需要進行檔案 manipulation 或網路傳輸，必須透過 [1] 系統向核心發出請求。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "system call"
+   ],
+   "lines": [
+    "system call"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "t14yzh4f": {
+   "id": "t14yzh4f",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "根據教材，傳遞參數給作業系統（核心）的三種通用方法包括下列哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "透過暫存器傳遞 透過記憶體中的區塊或表格傳遞 透過堆疊彈入彈出傳遞"
+   ],
+   "lines": [
+    "透過暫存器傳遞 透過記憶體中的區塊或表格傳遞 透過堆疊彈入彈出傳遞"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "t1b90840": {
+   "id": "t1b90840",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the key features of Touchscreen Interfaces mentioned in the text?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mouse not possible or not desired Actions and selection based on gestures Virtual keyboard for text entry"
+   ],
+   "lines": [
+    "Mouse not possible or not desired Actions and selection based on gestures Virtual keyboard for text entry"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "tp9h7a6": {
+   "id": "tp9h7a6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which user interface is based on text line input?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "t32w9fb": {
+   "id": "t32w9fb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 UNIX 系統中，核心不提供哪種功能？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "程式的撰寫"
+   ],
+   "lines": [
+    "程式的撰寫"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "tkfbmlq": {
+   "id": "tkfbmlq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "UNIX 的核心提供了檔案系統(file system management), [1], 記憶體管理memory management, 及其他作業系統功能。 (英文縮寫字用大寫 字母間用一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU scheduling"
+   ],
+   "lines": [
+    "CPU scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
+  },
+  "t1ehtrzj": {
+   "id": "t1ehtrzj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪個方法將盡可能多的功能從核心移到使用者空間？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "microkernel"
+   ],
+   "lines": [
+    "microkernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:04:09.684Z",
+   "updatedAt": "2026-10-20T01:04:09.684Z"
   }
  }
 }
