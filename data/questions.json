@@ -13147,7 +13147,7 @@
   "t1c31a2c": {
    "id": "t1c31a2c",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -13162,9 +13162,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:21:32.220Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
   },
   "tx57f8x": {
    "id": "tx57f8x",
@@ -13251,6 +13250,615 @@
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
    "updatedAt": "2026-10-20T01:20:37.716Z"
+  },
+  "tofn8r5": {
+   "id": "tofn8r5",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]效應是指一個短程序被一個或多個長程序阻塞。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "convoy"
+   ],
+   "lines": [
+    "convoy"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t3e7o8d": {
+   "id": "t3e7o8d",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is the number of processes that complete their execution per time unit, used to measure the efficiency of a scheduling algorithm.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "throughput"
+   ],
+   "lines": [
+    "throughput"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1gy9ire": {
+   "id": "t1gy9ire",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]是根據截止時間分配優先權的演算法：截止時間越早，優先權越高。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "earliest deadline first scheduling"
+   ],
+   "lines": [
+    "earliest deadline first scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tqh99sb": {
+   "id": "tqh99sb",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當一個程序從「執行中」狀態切換到「等待中」狀態時，排程決策屬於哪種類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "非搶佔式"
+   ],
+   "lines": [
+    "非搶佔式"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tgss4ad": {
+   "id": "tgss4ad",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is a key characteristic of hard real-time systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A task must be serviced by its deadline"
+   ],
+   "lines": [
+    "A task must be serviced by its deadline"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tsuha8h": {
+   "id": "tsuha8h",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following scheduling decisions are nonpreemptive?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A process switches from the running to the waiting state A process terminates"
+   ],
+   "lines": [
+    "A process switches from the running to the waiting state A process terminates"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t12f70ol": {
+   "id": "t12f70ol",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "優先權排程的優缺點包含哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "優先權較高的程序會先執行 可能導致飢餓問題 解決飢餓問題的方法是老化 最短作業優先 (SJF) 是優先權排程的特殊情況"
+   ],
+   "lines": [
+    "優先權較高的程序會先執行 可能導致飢餓問題 解決飢餓問題的方法是老化 最短作業優先 (SJF) 是優先權排程的特殊情況"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "trli7f1": {
+   "id": "trli7f1",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當時間片（TQ）相對於上下文切換時間非常小時，迴圈排程（RR）的缺點是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU利用率會降低 系統開銷會很高"
+   ],
+   "lines": [
+    "CPU利用率會降低 系統開銷會很高"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tgz46i8": {
+   "id": "tgz46i8",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在多層級回饋佇列（Multilevel Feedback Queue）排程中，老化（aging）是如何實現的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "通過讓程序在佇列之間移動"
+   ],
+   "lines": [
+    "通過讓程序在佇列之間移動"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "ta9jt1w": {
+   "id": "ta9jt1w",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "短剩餘時間優先（SRTF）是[1]排程演算法的搶佔式版本。",
+   "hint": "請用小寫英文回答 字母間用-連接",
+   "options": {},
+   "answer": [
+    "shortest-job-first"
+   ],
+   "lines": [
+    "shortest-job-first"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t2zufok": {
+   "id": "t2zufok",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在排程演算法評估中，有哪些方法可以被用來評估演算法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "確定性建模 佇列模型 模擬 實作"
+   ],
+   "lines": [
+    "確定性建模 佇列模型 模擬 實作"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t175d5c": {
+   "id": "t175d5c",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Windows中，一個執行緒的優先權會被提升的情況有哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "當它從等待狀態返回時 當它處於前景視窗時"
+   ],
+   "lines": [
+    "當它從等待狀態返回時 當它處於前景視窗時"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t155xgdw": {
+   "id": "t155xgdw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The goal of Linux's CFS (Completely Fair Scheduler) is to provide a completely [1] CPU allocation.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fair"
+   ],
+   "lines": [
+    "fair"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t2epdff": {
+   "id": "t2epdff",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following scheduling algorithms can lead to starvation?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Priority scheduling Shortest-Job-First (SJF)"
+   ],
+   "lines": [
+    "Priority scheduling Shortest-Job-First (SJF)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t4e8ezp": {
+   "id": "t4e8ezp",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]排程演算法可能導致護航效應，即所有其他程序都等待一個長程序完成。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "FCFS"
+   ],
+   "lines": [
+    "FCFS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1x4jahl": {
+   "id": "t1x4jahl",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "從中斷到達的時間到服務該中斷的函式(ISR)開始執行的時間，這段時間被稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "中斷延遲"
+   ],
+   "lines": [
+    "中斷延遲"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tq8rdet": {
+   "id": "tq8rdet",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當時間片（q）相對於上下文切換時間非常大時，迴圈排程（RR）演算法的行為會趨近於[1]。",
+   "hint": "請用小寫英文回答 關聯字母間用-連接 非關聯字母間用 空白",
+   "options": {},
+   "answer": [
+    "first-come first-served"
+   ],
+   "lines": [
+    "first-come first-served"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1wsfznj": {
+   "id": "t1wsfznj",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is a feature introduced in Windows 7 that allows applications to create and manage threads independently of the kernel.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "user mode scheduling"
+   ],
+   "lines": [
+    "user mode scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tnsis23": {
+   "id": "tnsis23",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "CPU排程的核心目標是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "最大化CPU利用率"
+   ],
+   "lines": [
+    "最大化CPU利用率"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t18btwz9": {
+   "id": "t18btwz9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一個排程演算法會導致「護航效應」（convoy effect）？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "先到先服務（FCFS）"
+   ],
+   "lines": [
+    "先到先服務（FCFS）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1e13jry": {
+   "id": "t1e13jry",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些關於即時排程的敘述是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "排程器必須支援搶佔式、基於優先權的排程 硬即時系統必須提供滿足截止日期的能力 週期性任務的速率是其週期的倒數"
+   ],
+   "lines": [
+    "排程器必須支援搶佔式、基於優先權的排程 硬即時系統必須提供滿足截止日期的能力 週期性任務的速率是其週期的倒數"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t5f9ycw": {
+   "id": "t5f9ycw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which scheduling classes are defined in the POSIX real-time scheduling standard?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SCHED_FIFO SCHED_RR"
+   ],
+   "lines": [
+    "SCHED_FIFO SCHED_RR"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1g6ycbl": {
+   "id": "t1g6ycbl",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "硬即時系統（Hard real-time systems）要求任務必須在[1]內完成。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "deadline"
+   ],
+   "lines": [
+    "deadline"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1pi608i": {
+   "id": "t1pi608i",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "分派器（Dispatcher）模組的工作包含將CPU控制權交給排程器所選擇的程序，這涉及[1]、切換到使用者模式，以及跳轉到使用者程式的適當位置。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "context switch"
+   ],
+   "lines": [
+    "context switch"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1tryqy9": {
+   "id": "t1tryqy9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In multiple-processor scheduling, [1] is where only one processor accesses the system data structures, alleviating the need for data sharing.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "asymmetric multiprocessing"
+   ],
+   "lines": [
+    "asymmetric multiprocessing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t1l6cee0": {
+   "id": "t1l6cee0",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "CPU排程的決策通常發生在下列哪些情況？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "程序從執行中狀態切換到等待中狀態 程序從執行中狀態切換到就緒狀態 程序從等待中狀態切換到就緒狀態 行程終止"
+   ],
+   "lines": [
+    "程序從執行中狀態切換到等待中狀態 程序從執行中狀態切換到就緒狀態 程序從等待中狀態切換到就緒狀態 行程終止"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t13fa38n": {
+   "id": "t13fa38n",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在優先權排程中，解決「飢餓」問題的方法是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "老化（Aging）"
+   ],
+   "lines": [
+    "老化（Aging）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "t8j44t": {
+   "id": "t8j44t",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the advantages of Shortest-Job-First (SJF) scheduling?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Minimum average waiting time for a given set of processes"
+   ],
+   "lines": [
+    "Minimum average waiting time for a given set of processes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "turlmjz": {
+   "id": "turlmjz",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The [1] scheduling algorithm is optimal because it provides the minimum average waiting time for a given set of processes.(Please answer in lowercase English, connecting letters with hyphens)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "shortest-job-first"
+   ],
+   "lines": [
+    "shortest-job-first"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:02.460Z",
+   "updatedAt": "2026-10-20T01:22:02.460Z"
   }
  }
 }
