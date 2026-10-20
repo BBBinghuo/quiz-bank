@@ -16124,6 +16124,153 @@
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
    "updatedAt": "2026-10-20T01:23:45.076Z"
+  },
+  "t17jjj5i": {
+   "id": "t17jjj5i",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若遞迴式的解是 O(nlogn)，其中的 log 底數通常為 [1]",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "2"
+   ],
+   "lines": [
+    "2"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "t1vzbv00": {
+   "id": "t1vzbv00",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在代入法中，證明常數通常使用數學 [1] 法",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "induction"
+   ],
+   "lines": [
+    "induction"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "t1nncfbp": {
+   "id": "t1nncfbp",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴關係式 T(n) = T(⌊ n/2 ⌋) + T(⌈ n/2 ⌉) + 1 的解為 O([1])",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "n"
+   ],
+   "lines": [
+    "n"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "t4yr8z3": {
+   "id": "t4yr8z3",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "對於 T(n) = T(n/2) + n，其複雜度為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n)"
+   ],
+   "lines": [
+    "O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "tyzlboo": {
+   "id": "tyzlboo",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "歸納法中的「歸納假設」是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "假設對於較小的輸入值解是正確的"
+   ],
+   "lines": [
+    "假設對於較小的輸入值解是正確的"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "t1a4vvxe": {
+   "id": "t1a4vvxe",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理中，若 f(n) 成長速度慢於 O(nˡᵒᵍᵇ⁽ᵃ⁾)，則複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(nˡᵒᵍᵇ⁽ᵃ⁾)"
+   ],
+   "lines": [
+    "O(nˡᵒᵍᵇ⁽ᵃ⁾)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "tfdirwv": {
+   "id": "tfdirwv",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "代入法中，為了證明 T(n) <= cn log n，通常需要？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "選擇適當的常數 c"
+   ],
+   "lines": [
+    "選擇適當的常數 c"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:07.420Z",
+   "updatedAt": "2026-10-20T01:24:07.420Z"
   }
  }
 }
