@@ -3726,7 +3726,7 @@
   "tlfu3bj": {
    "id": "tlfu3bj",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3741,9 +3741,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:09.852Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:14:49.380Z",
+   "updatedAt": "2026-10-20T01:14:49.380Z"
   },
   "tlpz9zp": {
    "id": "tlpz9zp",
@@ -12251,6 +12250,69 @@
    "source": "text",
    "createdAt": "2026-10-20T01:14:39.684Z",
    "updatedAt": "2026-10-20T01:14:39.684Z"
+  },
+  "t5w10zc": {
+   "id": "t5w10zc",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which IPC system is described as a \"message center\" where processes can send and receive messages?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mailbox"
+   ],
+   "lines": [
+    "mailbox"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:49.380Z",
+   "updatedAt": "2026-10-20T01:14:49.380Z"
+  },
+  "t8sx4wc": {
+   "id": "t8sx4wc",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the two operations provided by the message passing facility?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "send message receive message"
+   ],
+   "lines": [
+    "send message receive message"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:49.380Z",
+   "updatedAt": "2026-10-20T01:14:49.380Z"
+  },
+  "t14px8qv": {
+   "id": "t14px8qv",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which kind of \"Pipes\" that allows communication between processes without a parent-child relationship?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "named pipes"
+   ],
+   "lines": [
+    "named pipes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:49.380Z",
+   "updatedAt": "2026-10-20T01:14:49.380Z"
   }
  }
 }
