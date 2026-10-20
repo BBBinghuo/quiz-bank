@@ -4550,11 +4550,11 @@
   "tlq0q37": {
    "id": "tlq0q37",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 用於在 UNIX 系統中通知程序發生特定事件。",
+   "text": "[1] 用於在 UNIX 系統中通知程序發生特定事件。",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [
@@ -4565,18 +4565,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:15.708Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1mlfsc3": {
    "id": "t1mlfsc3",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 指將執行緒分配到不同的核心上，每個執行緒執行獨特的任務。",
+   "text": "[1] 指將執行緒分配到不同的核心上，每個執行緒執行獨特的任務。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -4587,14 +4586,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:55:33.484Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1fca7vd": {
    "id": "t1fca7vd",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4609,9 +4607,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:53:39.852Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1vys6kq": {
    "id": "t1vys6kq",
@@ -4748,11 +4745,11 @@
   "t1pi8h3f": {
    "id": "t1pi8h3f",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 是一種終止執行緒的方法，它允許目標執行緒定期檢查是否應被取消。",
+   "text": "[1] 是一種終止執行緒的方法，它允許目標執行緒定期檢查是否應被取消。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "answer": [
@@ -4763,9 +4760,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:56:10.772Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "tv6hnt1": {
    "id": "tv6hnt1",
@@ -4792,11 +4788,11 @@
   "topa4mz": {
    "id": "topa4mz",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "多執行緒應用程式的優點之一是[ 1 ]，因為即使程序的一部分被阻塞，程式碼也能繼續執行。",
+   "text": "多執行緒應用程式的優點之一是[1]，因為即使程序的一部分被阻塞，程式碼也能繼續執行。",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [
@@ -4807,9 +4803,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:21.748Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t13yxbn0": {
    "id": "t13yxbn0",
@@ -4858,7 +4853,7 @@
   "t2zthdr": {
    "id": "t2zthdr",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4873,18 +4868,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:04.604Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "tbgchol": {
    "id": "tbgchol",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "由於執行緒共用程序的資源，因此[ 1 ]比共享記憶體或訊息傳遞更容易實現。",
+   "text": "由於執行緒共用程序的資源，因此[1]比共享記憶體或訊息傳遞更容易實現。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -4895,9 +4889,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:12.420Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1ufom6q": {
    "id": "t1ufom6q",
@@ -4968,11 +4961,11 @@
   "t11cc34g": {
    "id": "t11cc34g",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "In the [ 1 ] model, many user-level threads can be mapped to many kernel threads.(Please answer in lowercase English, connecting letters with hyphens)",
+   "text": "In the [1] model, many user-level threads can be mapped to many kernel threads.(Please answer in lowercase English, connecting letters with hyphens)",
    "hint": "",
    "options": {},
    "answer": [
@@ -4983,14 +4976,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:07.820Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t1iq10qi": {
    "id": "t1iq10qi",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5005,14 +4997,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:18.764Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1s8af6u": {
    "id": "t1s8af6u",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5027,14 +5018,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:20.916Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "tyhjpau": {
    "id": "tyhjpau",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5049,14 +5039,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:58:28.468Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1nojb8q": {
    "id": "t1nojb8q",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5071,14 +5060,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:01.332Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "tvoazfw": {
    "id": "tvoazfw",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5093,14 +5081,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:32.172Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t1j66ue2": {
    "id": "t1j66ue2",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5115,9 +5102,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:26.669Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "twyua0": {
    "id": "twyua0",
@@ -5144,7 +5130,7 @@
   "t1j48lkn": {
    "id": "t1j48lkn",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5159,9 +5145,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:24.485Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t8gyys8": {
    "id": "t8gyys8",
@@ -5210,7 +5195,7 @@
   "tednnnb": {
    "id": "tednnnb",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5225,9 +5210,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:13.292Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "ta0j9ro": {
    "id": "ta0j9ro",
@@ -5386,7 +5370,7 @@
   "t4datgz": {
    "id": "t4datgz",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5401,14 +5385,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:05.244Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1pa2ef9": {
    "id": "t1pa2ef9",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5423,14 +5406,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:09.204Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "tzx7bgy": {
    "id": "tzx7bgy",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5445,18 +5427,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:58:28.908Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1o1c2x5": {
    "id": "t1o1c2x5",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "創建執行緒的成本比程序(process)少，且執行緒切換的開銷也低於[ 1 ]。",
+   "text": "創建執行緒的成本比程序(process)少，且執行緒切換的開銷也低於[1]。",
    "hint": "請用小寫英文回答 文字間留一個空白",
    "options": {},
    "answer": [
@@ -5467,18 +5448,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:05.100Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t1b7izig": {
    "id": "t1b7izig",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Amdahl's Law 的公式為：speedup? (1/(S+(1-S)/N)) ，其中 S 代表應用程式的[ 1 ]部分。",
+   "text": "Amdahl's Law 的公式為：speedup? (1/(S+(1-S)/N)) ，其中 S 代表應用程式的[1]部分。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -5489,9 +5469,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:51:39.644Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t17jes3s": {
    "id": "t17jes3s",
@@ -5562,7 +5541,7 @@
   "t1cuatze": {
    "id": "t1cuatze",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5577,14 +5556,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:51:44.140Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t11ghydl": {
    "id": "t11ghydl",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5599,9 +5577,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:08.204Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1fqski5": {
    "id": "t1fqski5",
@@ -5738,7 +5715,7 @@
   "t1qjfjsb": {
    "id": "t1qjfjsb",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5753,9 +5730,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:13.620Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "tg91f1w": {
    "id": "tg91f1w",
@@ -5892,7 +5868,7 @@
   "tt3s9ix": {
    "id": "tt3s9ix",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5907,9 +5883,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:26.972Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1inwuv1": {
    "id": "t1inwuv1",
@@ -5958,11 +5933,11 @@
   "t1hy4332": {
    "id": "t1hy4332",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 是指一個系統可以支援一個以上的任務同時取得進展。",
+   "text": "[1] 是指一個系統可以支援一個以上的任務同時取得進展。",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [
@@ -5973,9 +5948,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:54:50.620Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t15230km": {
    "id": "t15230km",
@@ -6024,7 +5998,7 @@
   "t1xvgkq": {
    "id": "t1xvgkq",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6039,14 +6013,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:01.228Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1qi5v6j": {
    "id": "t1qi5v6j",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6061,14 +6034,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:12.028Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "tjoajni": {
    "id": "tjoajni",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6083,18 +6055,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:15.476Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1f3ofeb": {
    "id": "t1f3ofeb",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 是一個 Apple 的技術，用於 Mac OS X 和 iOS 作業系統，允許識別平行區域並管理執行緒的細節。",
+   "text": "[1] 是一個 Apple 的技術，用於 Mac OS X 和 iOS 作業系統，允許識別平行區域並管理執行緒的細節。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "answer": [
@@ -6105,14 +6076,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:53:38.388Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1f3m3j9": {
    "id": "t1f3m3j9",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6127,14 +6097,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:53:36.540Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t11hi2sc": {
    "id": "t11hi2sc",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6149,9 +6118,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:08.444Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t7r8ndk": {
    "id": "t7r8ndk",
@@ -6178,11 +6146,11 @@
   "tt2cdyt": {
    "id": "tt2cdyt",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "The popularity of [ 1 ] techniques is due to the difficulty of ensuring program correctness as the number of threads increases.",
+   "text": "The popularity of [1] techniques is due to the difficulty of ensuring program correctness as the number of threads increases.",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -6193,18 +6161,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:25.676Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "tsiwvgc": {
    "id": "tsiwvgc",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "在 [ 1 ] 模型中，會創建一定數量的執行緒，並將其放置在池中等待工作。",
+   "text": "在 [1] 模型中，會創建一定數量的執行緒，並將其放置在池中等待工作。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "answer": [
@@ -6215,14 +6182,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:24.580Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t156gtgg": {
    "id": "t156gtgg",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6237,9 +6203,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:11.620Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
   },
   "t1j4qo5m": {
    "id": "t1j4qo5m",
@@ -6332,11 +6297,11 @@
   "tbs1mup": {
    "id": "tbs1mup",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 是 CPU 利用率的基本單位，也是多執行緒電腦系統的基礎。",
+   "text": "[1] 是 CPU 利用率的基本單位，也是多執行緒電腦系統的基礎。",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [
@@ -6347,18 +6312,17 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:13.076Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "tf72d65": {
    "id": "tf72d65",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 指將相同資料集的子集分配到多個核心上，並在每個核心上執行相同的操作。",
+   "text": "[1] 指將相同資料集的子集分配到多個核心上，並在每個核心上執行相同的操作。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
    "answer": [
@@ -6369,14 +6333,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:13.676Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "t1y0fioh": {
    "id": "t1y0fioh",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6391,9 +6354,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:02.084Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   },
   "tv9x264": {
    "id": "tv9x264",
@@ -12481,6 +12443,69 @@
    "source": "text",
    "createdAt": "2026-10-20T01:15:37.061Z",
    "updatedAt": "2026-10-20T01:15:37.061Z"
+  },
+  "t18kzli0": {
+   "id": "t18kzli0",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is a method for terminating a thread that allows the target thread to periodically check whether it should be canceled.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deferred cancellation"
+   ],
+   "lines": [
+    "deferred cancellation"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:17:34.916Z",
+   "updatedAt": "2026-10-20T01:17:34.916Z"
+  },
+  "t1c4auds": {
+   "id": "t1c4auds",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following descriptions about the semantics of fork() and exec() system calls in a multithreaded environment are correct?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork() sometimes duplicates only the calling thread fork() sometimes duplicates all threads exec() typically replaces the entire running process, including all threads"
+   ],
+   "lines": [
+    "fork() sometimes duplicates only the calling thread fork() sometimes duplicates all threads exec() typically replaces the entire running process, including all threads"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
+  },
+  "t1vf1jk6": {
+   "id": "t1vf1jk6",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the advantages of Thread Pools?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Using existing threads to service requests is faster than creating new threads Allows the number of threads in the application to be limited to the size of the pool Separates the task from the mechanism that creates the task"
+   ],
+   "lines": [
+    "Using existing threads to service requests is faster than creating new threads Allows the number of threads in the application to be limited to the size of the pool Separates the task from the mechanism that creates the task"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:17:42.892Z",
+   "updatedAt": "2026-10-20T01:17:42.892Z"
   }
  }
 }
