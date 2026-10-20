@@ -1296,110 +1296,182 @@
    "updatedAt": "2026-10-20T00:58:35.228Z",
    "deleted": true
   },
+  "2233": {
+   "id": "2233",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在遞迴求解時，若猜測解不準確，我們應該？",
+   "hint": "",
+   "options": {
+    "C": "將函數平方",
+    "A": "改善解的上下界並縮小差距",
+    "B": "直接放棄該方法",
+    "D": "假設 n 為無限大"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.639Z"
+  },
+  "2236": {
+   "id": "2236",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "遞迴樹的每一層代表？",
+   "hint": "",
+   "options": {
+    "A": "該層遞迴分解的成本",
+    "B": "樹的深度",
+    "D": "常數項",
+    "C": "遞迴的總次數"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.649Z"
+  },
   "2238": {
    "id": "2238",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "大師定理適用於？",
    "hint": "",
    "options": {
+    "A": "分治演算法的複雜度分析",
     "C": "圖論中的最短路徑",
-    "B": "動態規劃的路徑選擇",
     "D": "資料結構的記憶體分配",
-    "A": "分治演算法的複雜度分析"
+    "B": "動態規劃的路徑選擇"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:35.412Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.636Z"
   },
   "2241": {
    "id": "2241",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "下列何者不是大師定理分析的變數？",
    "hint": "",
    "options": {
     "D": "n!",
+    "C": "f(n)",
     "A": "a",
-    "B": "b",
-    "C": "f(n)"
+    "B": "b"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:35.620Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.645Z"
   },
   "2243": {
    "id": "2243",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "「忽略技術細節」(neglecting technical details)在演算法分析中代表？",
    "hint": "",
    "options": {
-    "D": "只關注最好情況",
+    "A": "捨棄對漸進複雜度無影響的因素",
     "C": "簡化代數運算",
-    "B": "錯誤的分析方式",
-    "A": "捨棄對漸進複雜度無影響的因素"
+    "D": "只關注最好情況",
+    "B": "錯誤的分析方式"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:35.828Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.640Z"
+  },
+  "2244": {
+   "id": "2244",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "遞迴樹的葉節點代價總和通常為？",
+   "hint": "",
+   "options": {
+    "D": "平方時間 O(n²)",
+    "C": "線性時間 O(n)",
+    "A": "常數時間 O(1)",
+    "B": "對數時間 O(log n)"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.646Z"
   },
   "2247": {
    "id": "2247",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "大師定理中，若 f(n) 成長速度慢於 O(nˡᵒᵍᵇ⁽ᵃ⁾)，則複雜度為？",
    "hint": "",
    "options": {
-    "C": "O(n log n)",
-    "A": "O(nˡᵒᵍᵇ⁽ᵃ⁾)",
     "D": "O(n)",
-    "B": "O(f(n))"
+    "B": "O(f(n))",
+    "C": "O(n log n)",
+    "A": "O(nˡᵒᵍᵇ⁽ᵃ⁾)"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:36.045Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.644Z"
   },
   "2248": {
    "id": "2248",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "關於大師定理 (Master Method) 的限制，下列敘述何者正確？",
    "hint": "",
    "options": {
+    "C": "適用於所有遞迴式",
     "A": "不適用於 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 成長率相差非多項式的情況",
     "D": "無法判斷分治代價 f(n) 的情況",
-    "C": "適用於所有遞迴式",
     "B": "必須滿足 a >= 1 及 b > 1"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:36.468Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.640Z"
   },
   "2250": {
    "id": "2250",
@@ -1425,23 +1497,25 @@
   "2252": {
    "id": "2252",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "若遞迴關係式包含下取整 (floor)，在分析時我們通常？",
    "hint": "",
    "options": {
     "A": "忽略它以簡化分析",
     "D": "僅在最後驗證時考慮",
-    "B": "視為變數處理",
-    "C": "嚴格遵守其影響"
+    "C": "嚴格遵守其影響",
+    "B": "視為變數處理"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:37.084Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.641Z"
   },
   "2254": {
    "id": "2254",
@@ -1463,6 +1537,55 @@
    "createdAt": "2026-10-19T15:53:36.755Z",
    "updatedAt": "2026-10-20T00:58:37.284Z",
    "deleted": true
+  },
+  "2256": {
+   "id": "2256",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "遞迴樹法在下列哪些情況下特別有用？",
+   "hint": "",
+   "options": {
+    "A": "當 f(n) 在遞迴樹中變化時",
+    "D": "當遞迴樹非常對稱時",
+    "C": "當使用代入法過於複雜時",
+    "B": "當需要產生好的猜測時"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.634Z"
+  },
+  "2257": {
+   "id": "2257",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "大師定理 Case 1 的條件包含？",
+   "hint": "",
+   "options": {
+    "B": "ε > 0",
+    "C": "f(n) 成長較快",
+    "A": "f(n) 為 O(nˡᵒᵍᵇ⁽ᵃ⁾(a - ε))",
+    "D": "a, b 是常數"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.648Z"
   },
   "2259": {
    "id": "2259",
@@ -1509,39 +1632,132 @@
   "2263": {
    "id": "2263",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "遞迴樹的總成本計算，需考慮？",
    "hint": "",
    "options": {
-    "C": "葉節點代價",
     "B": "中間層節點代價",
     "D": "全域變數值",
-    "A": "根節點代價"
+    "A": "根節點代價",
+    "C": "葉節點代價"
    },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.643Z"
+  },
+  "2266": {
+   "id": "2266",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "遞迴樹的葉節點深度通常為？",
+   "hint": "",
+   "options": {
+    "C": "n²",
+    "A": "log_b(n), _b表示下標",
+    "D": "log(n!)",
+    "B": "n"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.644Z"
+  },
+  "2267": {
+   "id": "2267",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列何者可用於分析 T(n) =n²logn？",
+   "hint": "",
+   "options": {
+    "D": "暴力破解",
+    "A": "代入法",
+    "B": "遞迴樹法",
+    "C": "大師定理的變形"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.647Z"
+  },
+  "2270": {
+   "id": "2270",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "大師定理是用來解決＿＿＿形式的遞迴關係式",
+   "hint": "請用小寫英文回答",
+   "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:37.884Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
+  },
+  "2275": {
+   "id": "2275",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "大師定理分析中 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 的成長率需進行＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
   },
   "2276": {
    "id": "2276",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "若遞迴式的解是 O(nlogn)，其中的 log 底數通常為＿＿＿",
    "hint": "請用數字回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:38.956Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
+  },
+  "2277": {
+   "id": "2277",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "遞迴關係式分析中，我們通常會忽略＿＿＿條件",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
   },
   "2279": {
    "id": "2279",
@@ -1562,18 +1778,17 @@
   "2280": {
    "id": "2280",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "T(n) = 2T(sqrt(n)) + logn\n\n這問題需要用變數變換的技巧，我們會設定 m=＿＿＿來做變數變換",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:40.500Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
   },
   "2281": {
    "id": "2281",
@@ -1607,21 +1822,35 @@
    "updatedAt": "2026-10-20T00:58:41.676Z",
    "deleted": true
   },
+  "2284": {
+   "id": "2284",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "大師定理 Case 3 要求 f(n) 必須＿＿＿大於 nˡᵒᵍᵇ⁽ᵃ⁾",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
+  },
   "2285": {
    "id": "2285",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "遞迴樹的高度通常為＿＿＿",
    "hint": "請用小寫英文回答 不留空白",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:42.124Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:21:50.630Z",
+   "updatedAt": "2026-10-20T14:21:50.630Z"
   },
   "2286": {
    "id": "2286",
@@ -17600,7 +17829,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:21:50.647Z",
+   "deleted": true,
+   "mergedInto": "2267"
   },
   "t1ww94e2": {
    "id": "t1ww94e2",
@@ -17684,7 +17915,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:21:50.643Z",
+   "deleted": true,
+   "mergedInto": "2263"
   },
   "t12ylbqp": {
    "id": "t12ylbqp",
@@ -17705,7 +17938,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:21:50.648Z",
+   "deleted": true,
+   "mergedInto": "2257"
   },
   "t7gdtet": {
    "id": "t7gdtet",
@@ -17894,7 +18129,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:21:50.636Z",
+   "deleted": true,
+   "mergedInto": "2238"
   },
   "tpvx4z2": {
    "id": "tpvx4z2",
@@ -18104,7 +18341,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-20T14:21:50.641Z",
+   "deleted": true,
+   "mergedInto": "2252"
   },
   "t1buz3z": {
    "id": "t1buz3z",
@@ -18230,7 +18469,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-20T14:21:50.646Z",
+   "deleted": true,
+   "mergedInto": "2244"
   },
   "t11957qa": {
    "id": "t11957qa",
@@ -18398,7 +18639,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:07.420Z",
-   "updatedAt": "2026-10-20T01:24:07.420Z"
+   "updatedAt": "2026-10-20T14:21:50.644Z",
+   "deleted": true,
+   "mergedInto": "2247"
   },
   "tfdirwv": {
    "id": "tfdirwv",
@@ -18461,7 +18704,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:25.836Z",
-   "updatedAt": "2026-10-20T01:24:25.836Z"
+   "updatedAt": "2026-10-20T14:21:50.634Z",
+   "deleted": true,
+   "mergedInto": "2256"
   },
   "t9mhgn9": {
    "id": "t9mhgn9",
@@ -18482,7 +18727,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:25.836Z",
-   "updatedAt": "2026-10-20T01:24:25.836Z"
+   "updatedAt": "2026-10-20T14:21:50.649Z",
+   "deleted": true,
+   "mergedInto": "2236"
   },
   "t1fdmswl": {
    "id": "t1fdmswl",
@@ -18545,7 +18792,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:33.172Z",
-   "updatedAt": "2026-10-20T01:24:33.172Z"
+   "updatedAt": "2026-10-20T14:21:50.639Z",
+   "deleted": true,
+   "mergedInto": "2233"
   },
   "t4694zc": {
    "id": "t4694zc",
@@ -18566,7 +18815,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:33.172Z",
-   "updatedAt": "2026-10-20T01:24:33.172Z"
+   "updatedAt": "2026-10-20T14:21:50.640Z",
+   "deleted": true,
+   "mergedInto": "2243"
   },
   "tgwf0jb": {
    "id": "tgwf0jb",
@@ -18608,7 +18859,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:40.452Z",
-   "updatedAt": "2026-10-20T01:24:40.452Z"
+   "updatedAt": "2026-10-20T14:21:50.644Z",
+   "deleted": true,
+   "mergedInto": "2266"
   },
   "t1jival2": {
    "id": "t1jival2",
@@ -18650,7 +18903,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:58.300Z",
-   "updatedAt": "2026-10-20T01:24:58.300Z"
+   "updatedAt": "2026-10-20T14:21:50.640Z",
+   "deleted": true,
+   "mergedInto": "2248"
   },
   "t11atu3m": {
    "id": "t11atu3m",
@@ -18671,7 +18926,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:58.300Z",
-   "updatedAt": "2026-10-20T01:24:58.300Z"
+   "updatedAt": "2026-10-20T14:21:50.645Z",
+   "deleted": true,
+   "mergedInto": "2241"
   },
   "t1cqiljc": {
    "id": "t1cqiljc",
