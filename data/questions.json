@@ -10460,6 +10460,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:09:25.316Z",
    "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "t1ucec0t": {
+   "id": "t1ucec0t",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following is not a basic service provided by the operating system to users?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "data analysis"
+   ],
+   "lines": [
+    "data analysis"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:46.292Z",
+   "updatedAt": "2026-10-20T01:09:46.292Z"
+  },
+  "tvcgaik": {
+   "id": "tvcgaik",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "用來獲取特定硬體配置資訊以編譯客製化核心的系統生成程式簡稱為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "sysgen"
+   ],
+   "lines": [
+    "sysgen"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:46.292Z",
+   "updatedAt": "2026-10-20T01:09:46.292Z"
   }
  }
 }
