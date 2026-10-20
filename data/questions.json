@@ -12397,6 +12397,90 @@
    "source": "text",
    "createdAt": "2026-10-20T01:15:16.780Z",
    "updatedAt": "2026-10-20T01:15:16.780Z"
+  },
+  "tx8xu0z": {
+   "id": "tx8xu0z",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are queues in an operating system?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "job queue ready queue device queue"
+   ],
+   "lines": [
+    "job queue ready queue device queue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:28.820Z",
+   "updatedAt": "2026-10-20T01:15:28.820Z"
+  },
+  "t7lva2p": {
+   "id": "t7lva2p",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Windows IPC system, communication is through an advanced [1] facility.(Please answer using English abbreviations and uppercase letters.)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "LPC"
+   ],
+   "lines": [
+    "LPC"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:37.061Z",
+   "updatedAt": "2026-10-20T01:15:37.061Z"
+  },
+  "tdbqt6x": {
+   "id": "tdbqt6x",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which scheduler is responsible for loading processes from disk into main memory to control the degree of multiprogramming?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Long-term scheduler"
+   ],
+   "lines": [
+    "Long-term scheduler"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:37.061Z",
+   "updatedAt": "2026-10-20T01:15:37.061Z"
+  },
+  "t1y90wpy": {
+   "id": "t1y90wpy",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在遠端程序呼叫（RPC）中，[1]是伺服器上實際程序的客戶端代理。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "stubs"
+   ],
+   "lines": [
+    "stubs"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:37.061Z",
+   "updatedAt": "2026-10-20T01:15:37.061Z"
   }
  }
 }
