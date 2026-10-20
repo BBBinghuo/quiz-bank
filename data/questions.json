@@ -3770,7 +3770,7 @@
   "t4mtxlu": {
    "id": "t4mtxlu",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3785,9 +3785,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:52.804Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
   },
   "tplkpt8": {
    "id": "tplkpt8",
@@ -4191,7 +4190,7 @@
   "tgbrjnd": {
    "id": "tgbrjnd",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4206,9 +4205,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:03.492Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
   },
   "t12886xh": {
    "id": "t12886xh",
@@ -11504,6 +11502,174 @@
    "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
    "updatedAt": "2026-10-20T01:12:17.532Z"
+  },
+  "t13rhhsl": {
+   "id": "t13rhhsl",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The five states of a process are: new, running, waiting, ready, and [1].(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "terminated"
+   ],
+   "lines": [
+    "terminated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "tgw7ucq": {
+   "id": "tgw7ucq",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the possible resource-sharing options when a parent process creates a child process?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "parent and child share all resources child process shares a subset of the parent's resources parent and child do not share resources"
+   ],
+   "lines": [
+    "parent and child share all resources child process shares a subset of the parent's resources parent and child do not share resources"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t2ydw7n": {
+   "id": "t2ydw7n",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是通訊連結的實作問題？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
+   ],
+   "lines": [
+    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "tip5uon": {
+   "id": "tip5uon",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "CPU綁定型程序（CPU-bound process）的特徵是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "花費大部分時間進行計算"
+   ],
+   "lines": [
+    "花費大部分時間進行計算"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t1wlli94": {
+   "id": "t1wlli94",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是程序合作的理由？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "資訊共享 計算加速 模組化 方便性"
+   ],
+   "lines": [
+    "資訊共享 計算加速 模組化 方便性"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t1aov717": {
+   "id": "t1aov717",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are associated with the process control block (PCB)?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "process state CPU registers I/O status information program counter"
+   ],
+   "lines": [
+    "process state CPU registers I/O status information program counter"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t1b0slxi": {
+   "id": "t1b0slxi",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A process that spends most of its time computing is called a [1] process. (Please answer in lowercase English and leave a blank between words)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "cpu bound"
+   ],
+   "lines": [
+    "cpu bound"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t9acaa7": {
+   "id": "t9acaa7",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "長期排程器控制[1]的程度，該名詞指的是在記憶體中同時存在的程序數量。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "multiprogramming"
+   ],
+   "lines": [
+    "multiprogramming"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:25.188Z",
+   "updatedAt": "2026-10-20T01:12:25.188Z"
   }
  }
 }
