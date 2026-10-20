@@ -18707,6 +18707,216 @@
    "source": "text",
    "createdAt": "2026-10-20T01:27:12.284Z",
    "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "tbeg61c": {
+   "id": "tbeg61c",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序為何較 Insertion Sort 快？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "因為時間複雜度較低 因為比較次數較少 因為原地交換"
+   ],
+   "lines": [
+    "因為時間複雜度較低 因為比較次數較少 因為原地交換"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "t1hl8bxz": {
+   "id": "t1hl8bxz",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Max-Heap 中，根節點通常包含 [1] 值",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "maximum"
+   ],
+   "lines": [
+    "maximum"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "t19tz0mc": {
+   "id": "t19tz0mc",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "這是Heapsort(A) 過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n索引 i: (1) 陣列位置內容 A: [4]\n(1)[14]\n/ \\\n(2)[8] (3)[10]\n/ \\ / \\\n(4)[4] (5)[7] (6)[9] (7)[3] / \\ / (8)[2] (9)[1] i(10)[16]\n[1] 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "10 8 9 4 7 1 3 2 14 16"
+   ],
+   "lines": [
+    "10 8 9 4 7 1 3 2 14 16"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "t10now4g": {
+   "id": "t10now4g",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Max-Heap 的最大元素位於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "根節點"
+   ],
+   "lines": [
+    "根節點"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "t1i10jla": {
+   "id": "t1i10jla",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列關於 Extract-Max 的敘述，哪些正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "移除並回傳最大值 需維護堆積屬性 時間複雜度 O(log n)"
+   ],
+   "lines": [
+    "移除並回傳最大值 需維護堆積屬性 時間複雜度 O(log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "tsoqh2q": {
+   "id": "tsoqh2q",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Max-Heapify 中，若節點索引為 i，其左子節點為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "2i"
+   ],
+   "lines": [
+    "2i"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:39.892Z",
+   "updatedAt": "2026-10-20T01:27:39.892Z"
+  },
+  "tupbwdr": {
+   "id": "tupbwdr",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者影響堆積效率？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "比較操作次數 資料存取頻率 堆積高度 陣列大小"
+   ],
+   "lines": [
+    "比較操作次數 資料存取頻率 堆積高度 陣列大小"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:47.980Z",
+   "updatedAt": "2026-10-20T01:27:47.980Z"
+  },
+  "t6lhng0": {
+   "id": "t6lhng0",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些關於堆積排序的敘述是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "原地排序 複雜度 O(n log n) 不穩定排序"
+   ],
+   "lines": [
+    "原地排序 複雜度 O(n log n) 不穩定排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:47.980Z",
+   "updatedAt": "2026-10-20T01:27:47.980Z"
+  },
+  "tuhdumy": {
+   "id": "tuhdumy",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序（Heapsort）的時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n log n)"
+   ],
+   "lines": [
+    "O(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:47.980Z",
+   "updatedAt": "2026-10-20T01:27:47.980Z"
+  },
+  "temnsp": {
+   "id": "temnsp",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者是優先佇列（Priority Queue）支援的操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Insert"
+   ],
+   "lines": [
+    "Insert"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:47.980Z",
+   "updatedAt": "2026-10-20T01:27:47.980Z"
   }
  }
 }
