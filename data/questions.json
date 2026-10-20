@@ -9872,6 +9872,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:06:12.340Z",
    "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "ti9yn6e": {
+   "id": "ti9yn6e",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一項不是作業系統提供給使用者或程式的主要服務？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "硬體製造"
+   ],
+   "lines": [
+    "硬體製造"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t8ixhs0": {
+   "id": "t8ixhs0",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In operating system design, what two principles are separated to achieve maximum flexibility?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Policy and mechanism"
+   ],
+   "lines": [
+    "Policy and mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t1cdguh": {
+   "id": "t1cdguh",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the past, Operating System is implemented by [1] language. (Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "assembly"
+   ],
+   "lines": [
+    "assembly"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t13sj0aa": {
+   "id": "t13sj0aa",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是作業系統提供的使用者介面類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI GUI Touchscreen"
+   ],
+   "lines": [
+    "CLI GUI Touchscreen"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t10ghibp": {
+   "id": "t10ghibp",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which methods are used for performance tuning and analyzing system behavior?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Using trace listings of activities Profiling by periodic sampling of instruction pointer Checking log files or using top program"
+   ],
+   "lines": [
+    "Using trace listings of activities Profiling by periodic sampling of instruction pointer Checking log files or using top program"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t1a00k7j": {
+   "id": "t1a00k7j",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]工具在 Solaris, FreeBSD, Mac OS X 中允許在生產系統上進行即時監控。(英文第一個字大寫)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "DTrace"
+   ],
+   "lines": [
+    "DTrace"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:23.244Z",
+   "updatedAt": "2026-10-20T01:07:23.244Z"
   }
  }
 }
