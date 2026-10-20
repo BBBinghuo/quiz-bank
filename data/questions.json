@@ -1257,44 +1257,68 @@
   "2229": {
    "id": "2229",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "代入法求解遞迴關係式的第一步是？",
    "hint": "",
    "options": {
-    "B": "進行數學歸納法",
+    "A": "猜測解的形式",
     "C": "驗證邊界條件",
     "D": "忽略常數項",
-    "A": "猜測解的形式"
+    "B": "進行數學歸納法"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:34.860Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.837Z"
   },
   "2230": {
    "id": "2230",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "關於遞迴關係式的技術細節，我們通常會？",
    "hint": "",
    "options": {
     "C": "將函數定義域限制為實數",
-    "D": "強制包含常數因子",
+    "B": "嚴格計算每一步",
     "A": "忽略邊界條件與取整函數",
-    "B": "嚴格計算每一步"
+    "D": "強制包含常數因子"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:35.228Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.838Z"
+  },
+  "2232": {
+   "id": "2232",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "大師定理主要用於解決哪種形式的遞迴？",
+   "hint": "",
+   "options": {
+    "D": "T(n)=2T(n/2)+n²",
+    "C": "T(n)=aT(n-b)+f(n)",
+    "B": "T(n)=T(n-1)+f(n)",
+    "A": "T(n)=aT(n/b)+f(n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.843Z"
   },
   "2233": {
    "id": "2233",
@@ -1361,6 +1385,26 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.636Z"
+  },
+  "2239": {
+   "id": "2239",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "遞迴式 T(n) = T(n/2) + T(n/2) + 1 的解時間複雜度級別為何？",
+   "hint": "",
+   "options": {
+    "C": "平方 O(n²)",
+    "B": "對數 O(log n)",
+    "A": "線性 O(n)",
+    "D": "階乘 O(n!)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
   },
   "2241": {
    "id": "2241",
@@ -1473,26 +1517,53 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.640Z"
   },
+  "2249": {
+   "id": "2249",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在使用代入法時，常遇到的困難包含？",
+   "hint": "",
+   "options": {
+    "D": "無法進行代數變換",
+    "A": "猜測解的正確形式",
+    "B": "證明邊界條件的繁瑣",
+    "C": "遞迴樹過於龐大"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.836Z"
+  },
   "2250": {
    "id": "2250",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "遞迴樹法主要由哪幾個步驟組成？",
    "hint": "",
    "options": {
     "C": "將所有層級代價加總",
+    "B": "計算每層代價",
     "D": "寫出遞迴式",
-    "A": "繪製遞迴樹",
-    "B": "計算每層代價"
+    "A": "繪製遞迴樹"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:36.884Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.839Z"
   },
   "2252": {
    "id": "2252",
@@ -1520,23 +1591,26 @@
   "2254": {
    "id": "2254",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "下列哪些技術常用來改善遞迴解的猜測？",
    "hint": "",
    "options": {
-    "A": "觀察遞迴樹結構",
     "C": "觀察小樣本數據",
+    "D": "使用隨機搜尋",
     "B": "利用歸納法證明",
-    "D": "使用隨機搜尋"
+    "A": "觀察遞迴樹結構"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:37.284Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.833Z"
   },
   "2256": {
    "id": "2256",
@@ -1629,6 +1703,30 @@
    "updatedAt": "2026-10-20T00:58:37.684Z",
    "deleted": true
   },
+  "2262": {
+   "id": "2262",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "使用歸納法證明遞迴式時，需確保？",
+   "hint": "",
+   "options": {
+    "B": "歸納步驟正確",
+    "C": "猜測的函數形式符合 O 符號",
+    "A": "基礎情況成立",
+    "D": "變數為複數"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.833Z"
+  },
   "2263": {
    "id": "2263",
    "subject": "演算法",
@@ -1652,6 +1750,30 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.643Z"
+  },
+  "2265": {
+   "id": "2265",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "遞迴式 T(n) = 2T(n/2 + 17) + n 的分析難點在於？",
+   "hint": "",
+   "options": {
+    "B": "不能直接使用大師定理",
+    "C": "需要更複雜的代數變換",
+    "A": "17 的存在使得 n/2 不純粹",
+    "D": "無法使用歸納法"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.842Z"
   },
   "2266": {
    "id": "2266",
@@ -1699,6 +1821,21 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.647Z"
   },
+  "2269": {
+   "id": "2269",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "代入法求解遞迴的第一步是猜測解的＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
   "2270": {
    "id": "2270",
    "subject": "演算法",
@@ -1715,6 +1852,51 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:24:48.245Z"
+  },
+  "2271": {
+   "id": "2271",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "遞迴樹法的核心是將問題拆解為＿＿＿結構",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
+  "2272": {
+   "id": "2272",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "當 f(n) 在大師定理中成長速度大於 nˡᵒᵍᵇ⁽ᵃ⁾ 時，我們稱之為 Case＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
+  "2273": {
+   "id": "2273",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在代入法中，證明常數通常使用數學＿＿＿法",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
   },
   "2275": {
    "id": "2275",
@@ -1869,18 +2051,17 @@
   "2286": {
    "id": "2286",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "代入法需確保初始＿＿＿也滿足",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:42.484Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:25:13.829Z",
+   "updatedAt": "2026-10-20T14:25:13.829Z"
   },
   "2408": {
    "id": "2408",
@@ -17717,7 +17898,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:25:13.843Z",
+   "deleted": true,
+   "mergedInto": "2232"
   },
   "tek6uzi": {
    "id": "tek6uzi",
@@ -17822,7 +18005,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:25:13.838Z",
+   "deleted": true,
+   "mergedInto": "2230"
   },
   "t1afuuj": {
    "id": "t1afuuj",
@@ -18038,7 +18223,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:25:13.839Z",
+   "deleted": true,
+   "mergedInto": "2250"
   },
   "tn7ufrb": {
    "id": "tn7ufrb",
@@ -18187,7 +18374,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:25:13.842Z",
+   "deleted": true,
+   "mergedInto": "2265"
   },
   "t1g3j0v2": {
    "id": "t1g3j0v2",
@@ -18271,7 +18460,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:25:13.836Z",
+   "deleted": true,
+   "mergedInto": "2249"
   },
   "txigmbt": {
    "id": "txigmbt",
@@ -18420,7 +18611,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-20T14:25:13.837Z",
+   "deleted": true,
+   "mergedInto": "2229"
   },
   "t1al8ryj": {
    "id": "t1al8ryj",
@@ -18852,7 +19045,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:33.172Z",
-   "updatedAt": "2026-10-20T01:24:33.172Z"
+   "updatedAt": "2026-10-20T14:25:13.833Z",
+   "deleted": true,
+   "mergedInto": "2254"
   },
   "t1f1dldn": {
    "id": "t1f1dldn",
@@ -18896,7 +19091,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:40.452Z",
-   "updatedAt": "2026-10-20T01:24:40.452Z"
+   "updatedAt": "2026-10-20T14:25:13.833Z",
+   "deleted": true,
+   "mergedInto": "2262"
   },
   "tf0r815": {
    "id": "tf0r815",
