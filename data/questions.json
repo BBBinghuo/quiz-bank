@@ -14234,6 +14234,636 @@
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
    "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "tjcva97": {
+   "id": "tjcva97",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "重複對數函數值 lg* 4 的結果為多少？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "2"
+   ],
+   "lines": [
+    "2"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "thedsq5": {
+   "id": "thedsq5",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列關於階乘（Factorial）增長率的漸進關係，哪些選項是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "n! = o(nⁿ) n! = ω(2ⁿ) log(n!) = Θ(n log n)"
+   ],
+   "lines": [
+    "n! = o(nⁿ) n! = ω(2ⁿ) log(n!) = Θ(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "tg1lrfn": {
+   "id": "tg1lrfn",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "插入排序法（Insertion Sort）在最佳情況（Best-case）下的時間複雜度為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n)"
+   ],
+   "lines": [
+    "O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1a49e12": {
+   "id": "t1a49e12",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一個排序演算法是原地排序（Sorted in place），不需要額外的線性輔助空間？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "插入排序 (Insertion Sort)"
+   ],
+   "lines": [
+    "插入排序 (Insertion Sort)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "thujcic": {
+   "id": "thujcic",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Insertion-Sort(A) 1 for j ← 2 to length[A] 2 do key ← A[j] 3 // Insert A[j] into the sorted sequence A[1 .. j - 1] 4 i ← j - 1 5 while i > 0 and A[i] > key 6 do A[i + 1] ← A[i] 7 i ← i - 1 8 A[i + 1] ← key 以上 為 insertion sort 的演算法 請問 令A 長度為n , 每一行的執行成本都是 1 若第5行 每次都執行1次 請問這個程式執行的成本是多少[1] (答案用到英文字母請用小寫 裡面部要有空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "5n-4"
+   ],
+   "lines": [
+    "5n-4"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1aw44ki": {
+   "id": "t1aw44ki",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "對於所有實數 x，下列關於指數函數的性質哪些是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "1 + x <= eˣ 當 |x| <= 1 時，eˣ <= 1 + x + x²/2 當 n 趨向無窮大時，lim (1 + x/n)ⁿ = eˣ"
+   ],
+   "lines": [
+    "1 + x <= eˣ 當 |x| <= 1 時，eˣ <= 1 + x + x²/2 當 n 趨向無窮大時，lim (1 + x/n)ⁿ = eˣ"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1wvlcxg": {
+   "id": "t1wvlcxg",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "小於或等於實數 x 的最大整數是用下列哪一個函數表示？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "地板函數 (Floor)"
+   ],
+   "lines": [
+    "地板函數 (Floor)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1azajw1": {
+   "id": "t1azajw1",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "非漸進緊確的上界（Upper bound that is not asymptotically tight）是用下列哪一個符號表示？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "o"
+   ],
+   "lines": [
+    "o"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "tcdsq87": {
+   "id": "tcdsq87",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "分析演算法（Analyzing algorithms）時，通常需要預測演算法所需的哪些資源？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "執行時間 (Time) 記憶體空間 (Memory) 網路頻寬 (Communication bandwidth) 邏輯閘數量 (Logic gates)"
+   ],
+   "lines": [
+    "執行時間 (Time) 記憶體空間 (Memory) 網路頻寬 (Communication bandwidth) 邏輯閘數量 (Logic gates)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t6wvno6": {
+   "id": "t6wvno6",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "史特林近似公式（Stirling's approximation）指出阶乘 n! 的增長趨勢。寫成極限與漸進公式時，log(n!) = [1]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-theta(nlogn)"
+   ],
+   "lines": [
+    "big-theta(nlogn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t9z8uw0": {
+   "id": "t9z8uw0",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若滿足 m <= n 則 f(m) >= f(n)，此函數性質稱為 [1]。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "monotonically decreasing"
+   ],
+   "lines": [
+    "monotonically decreasing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1zb1u9": {
+   "id": "t1zb1u9",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "插入排序法（Insertion Sort）在最壞情況（Worst-case）下的時間複雜度為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n²)"
+   ],
+   "lines": [
+    "O(n²)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "tdtogyd": {
+   "id": "tdtogyd",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "對於任意整數 n，天花板函數與地板函數的相加關係式為： ⌈n/2⌉ + ⌊n/2⌋ = [1]。",
+   "hint": "請用英文小寫回答",
+   "options": {},
+   "answer": [
+    "n"
+   ],
+   "lines": [
+    "n"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1rcv55q": {
+   "id": "t1rcv55q",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些函數屬於多對數有界（Polylogarithmically bounded）的範疇？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = lg² n f(n) = (lg n)⁵ f(n) = lg(lg n)"
+   ],
+   "lines": [
+    "f(n) = lg² n f(n) = (lg n)⁵ f(n) = lg(lg n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "tt7lpjn": {
+   "id": "tt7lpjn",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "根據定理，f(n) = Θ(g(n)) 成立的充分且必要條件為下列哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = O(g(n)) f(n) = Ω(g(n))"
+   ],
+   "lines": [
+    "f(n) = O(g(n)) f(n) = Ω(g(n))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t176lc12": {
+   "id": "t176lc12",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若一函數 f(n) 滿足 f(n) = n⁽ᴼ⁽¹⁾⁾，則此函數稱為多項式有界（Polynomial bounded）。下列哪些屬於此類別？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = n³ f(n) = 10n² + 5n f(n) = √n"
+   ],
+   "lines": [
+    "f(n) = n³ f(n) = 10n² + 5n f(n) = √n"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1cweyem": {
+   "id": "t1cweyem",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "我們使用[1]來證明演算法的正確性。在迴圈每次迭代開始時，子序列的特定性質都保持不變。(請用英文小寫回答，單字間留一空白)",
+   "hint": "請填二個字的英文單字",
+   "options": {},
+   "answer": [
+    "loop invariant"
+   ],
+   "lines": [
+    "loop invariant"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1bnud7z": {
+   "id": "t1bnud7z",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The worst-case running time of Insertion Sort is a [1] function of n, while the best-case running time is a [2] function of n. (Please answer in English. Use 'log' as the notation; do not substitute 'log' with 'lg'. Use '^' for superscripts. For symbols, please use {big-theta, theta, big-omega, omega, O, o})",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "big-theta(n^2)/big-theta(n)"
+   ],
+   "lines": [
+    "big-theta(n^2)/big-theta(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1ygcj01": {
+   "id": "t1ygcj01",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "合併排序法（Merge Sort）在最壞情況下的時間複雜度為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n log n)"
+   ],
+   "lines": [
+    "O(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1ol9ro2": {
+   "id": "t1ol9ro2",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "插入排序法（Insertion Sort）採用的是下列哪一種演算法設計方法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "增量法 (Incremental Approach)"
+   ],
+   "lines": [
+    "增量法 (Incremental Approach)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1odumqo": {
+   "id": "t1odumqo",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "合併排序法（Merge Sort）採用的是下列哪一種演算法設計方法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "分治法 (Divide-and-Conquer)"
+   ],
+   "lines": [
+    "分治法 (Divide-and-Conquer)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "txwn57z": {
+   "id": "txwn57z",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在漸進符號中，表示 f(n) 最壞情況或上限為 [1]，而表示最佳情況或下限為 [2]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(f(n))/big-omega(f(n))"
+   ],
+   "lines": [
+    "O(f(n))/big-omega(f(n))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1245hdm": {
+   "id": "t1245hdm",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A function is polynomially bounded if f(n) = [1]. (Please answer in English. Use 'log' as the notation; do not substitute 'log' with 'lg'. Use '^' for superscripts. use k for the complexity notation)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n^k)"
+   ],
+   "lines": [
+    "O(n^k)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1rukfnb": {
+   "id": "t1rukfnb",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列關於漸進符號對稱性（Symmetry）與轉置對稱性（Transpose Symmetry）的敘述，哪些是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = Θ(g(n)) 若且唯若 g(n) = Θ(f(n)) f(n) = O(g(n)) 若且唯若 g(n) = Ω(f(n)) f(n) = o(g(n)) 若且唯若 g(n) = ω(f(n))"
+   ],
+   "lines": [
+    "f(n) = Θ(g(n)) 若且唯若 g(n) = Θ(f(n)) f(n) = O(g(n)) 若且唯若 g(n) = Ω(f(n)) f(n) = o(g(n)) 若且唯若 g(n) = ω(f(n))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "tmik494": {
+   "id": "tmik494",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "費氏數列（Fibonacci numbers）中定義的黃金比例 φ（Golden ratio）之近似值約為多少？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "1.618"
+   ],
+   "lines": [
+    "1.618"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t139ozr8": {
+   "id": "t139ozr8",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於漸進符號的遞移性（Transitivity），下列哪些選項是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "若 f(n) = O(g(n)) 且 g(n) = O(h(n))，則 f(n) = O(h(n)) 若 f(n) = Ω(g(n)) 且 g(n) = Ω(h(n))，則 f(n) = Ω(h(n)) 若 f(n) = Θ(g(n)) 且 g(n) = Θ(h(n))，則 f(n) = Θ(h(n)) 若 f(n) = o(g(n)) 且 g(n) = o(h(n))，則 f(n) = o(h(n))"
+   ],
+   "lines": [
+    "若 f(n) = O(g(n)) 且 g(n) = O(h(n))，則 f(n) = O(h(n)) 若 f(n) = Ω(g(n)) 且 g(n) = Ω(h(n))，則 f(n) = Ω(h(n)) 若 f(n) = Θ(g(n)) 且 g(n) = Θ(h(n))，則 f(n) = Θ(h(n)) 若 f(n) = o(g(n)) 且 g(n) = o(h(n))，則 f(n) = o(h(n))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1wh9dfc": {
+   "id": "t1wh9dfc",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following definitions and mathematical formulas for Fibonacci numbers are correct?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "F0 = 0 and F1 = 1 Fi = Fi-1 + Fi-2 for i >= 2 Fi can be represented exactly using φ (golden ratio) and its conjugate Fibonacci numbers grow exponentially"
+   ],
+   "lines": [
+    "F0 = 0 and F1 = 1 Fi = Fi-1 + Fi-2 for i >= 2 Fi can be represented exactly using φ (golden ratio) and its conjugate Fibonacci numbers grow exponentially"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1mjrnd1": {
+   "id": "t1mjrnd1",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "演算法分析中，通常專注於尋找「最壞情況執行時間」（Worst-case running time）的原因有哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "它提供了執行時間的保證上限（Upper Bound） 最壞情況發生的頻率在實際應用中相當高 平均情況往往和最壞情況一樣糟（例如插入排序）"
+   ],
+   "lines": [
+    "它提供了執行時間的保證上限（Upper Bound） 最壞情況發生的頻率在實際應用中相當高 平均情況往往和最壞情況一樣糟（例如插入排序）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "ti8m92l": {
+   "id": "ti8m92l",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "分治法將問題分解成子問題，遞迴求解。其三個主要動作分別為：[1]、[2]、[3]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "divide/conquer/combine"
+   ],
+   "lines": [
+    "divide/conquer/combine"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t9lep7y": {
+   "id": "t9lep7y",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若一排序演算法在重排陣列時，最多僅需常數個額外記憶體空間在陣列外，此演算法被稱為 [1] 排序。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "in place"
+   ],
+   "lines": [
+    "in place"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:46.180Z",
+   "updatedAt": "2026-10-20T01:22:46.180Z"
   }
  }
 }
