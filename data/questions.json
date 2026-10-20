@@ -16271,6 +16271,69 @@
    "source": "text",
    "createdAt": "2026-10-20T01:24:07.420Z",
    "updatedAt": "2026-10-20T01:24:07.420Z"
+  },
+  "t14ky33w": {
+   "id": "t14ky33w",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "處理遞迴中的 n/b 時，若非整數，我們常會忽略 [1] 函數",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "floor"
+   ],
+   "lines": [
+    "floor"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:25.836Z",
+   "updatedAt": "2026-10-20T01:24:25.836Z"
+  },
+  "t1rjia28": {
+   "id": "t1rjia28",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹法在下列哪些情況下特別有用？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "當 f(n) 在遞迴樹中變化時 當需要產生好的猜測時 當使用代入法過於複雜時 當遞迴樹非常對稱時"
+   ],
+   "lines": [
+    "當 f(n) 在遞迴樹中變化時 當需要產生好的猜測時 當使用代入法過於複雜時 當遞迴樹非常對稱時"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:25.836Z",
+   "updatedAt": "2026-10-20T01:24:25.836Z"
+  },
+  "t9mhgn9": {
+   "id": "t9mhgn9",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹的每一層代表？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "該層遞迴分解的成本"
+   ],
+   "lines": [
+    "該層遞迴分解的成本"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:25.836Z",
+   "updatedAt": "2026-10-20T01:24:25.836Z"
   }
  }
 }
