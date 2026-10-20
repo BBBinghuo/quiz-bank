@@ -5473,11 +5473,11 @@
   "t1n5clsl": {
    "id": "t1n5clsl",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] refers to the distribution of threads to different cores, with each thread performing a unique task.(Please answer in lowercase English, leaving a space between each word)",
+   "text": "[1] refers to the distribution of threads to different cores, with each thread performing a unique task.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5488,9 +5488,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:35.012Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "t1cl3knt": {
    "id": "t1cl3knt",
@@ -5666,7 +5665,7 @@
   "t9t2wly": {
    "id": "t9t2wly",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5681,9 +5680,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:07.444Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "t1qjfjsb": {
    "id": "t1qjfjsb",
@@ -6362,7 +6360,7 @@
   "t1sd4uji": {
    "id": "t1sd4uji",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6377,14 +6375,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:23.196Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "t1g8gmem": {
    "id": "t1g8gmem",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6399,14 +6396,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:54:06.540Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "tbq0d61": {
    "id": "tbq0d61",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6421,9 +6417,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:12.852Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "t1rewbe3": {
    "id": "t1rewbe3",
@@ -6449,11 +6444,11 @@
   "t6g5eky": {
    "id": "t6g5eky",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "Windows 執行緒實作了 [ 1 ] 模型。",
+   "text": "Windows 執行緒實作了 [1] 模型。",
    "hint": "請用小寫英文回答 字母間用-連接",
    "options": {},
    "answer": [
@@ -6464,9 +6459,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:06.140Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:20:22.028Z",
+   "updatedAt": "2026-10-20T01:20:22.028Z"
   },
   "t1ttn0ih": {
    "id": "t1ttn0ih",
