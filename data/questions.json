@@ -20114,6 +20114,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:29:47.100Z",
    "updatedAt": "2026-10-20T01:29:47.100Z"
+  },
+  "t19s6d38": {
+   "id": "t19s6d38",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Partition 函數中的 exchange 操作用於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "將 pivot 移到正確位置 將較小元素移到左區"
+   ],
+   "lines": [
+    "將 pivot 移到正確位置 將較小元素移到左區"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:29:58.732Z",
+   "updatedAt": "2026-10-20T01:29:58.732Z"
+  },
+  "tnrq08r": {
+   "id": "tnrq08r",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序（Quicksort）主要利用哪種演算法設計策略？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "分治法 (Divide and Conquer)"
+   ],
+   "lines": [
+    "分治法 (Divide and Conquer)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:29:58.732Z",
+   "updatedAt": "2026-10-20T01:29:58.732Z"
   }
  }
 }
