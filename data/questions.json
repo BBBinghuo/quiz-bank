@@ -16964,6 +16964,279 @@
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
    "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1x0tzs1": {
+   "id": "t1x0tzs1",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Max-Heap 中，父節點的值與子節點相比應為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "大於或等於"
+   ],
+   "lines": [
+    "大於或等於"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "tnh90rs": {
+   "id": "tnh90rs",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "優先佇列的應用場景包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "任務排程 處理程序管理 網路封包傳輸"
+   ],
+   "lines": [
+    "任務排程 處理程序管理 網路封包傳輸"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "tbtb1w": {
+   "id": "tbtb1w",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\nBuild-Max-Heap(A) 1 heap-size[A] = length[A] 2 for i = flooe(length[A]/2) downto 1 3 do Max-Heapify(A, i)\n索引 i: (1) 陣列位置內容 A: [4]\n(1)[4]\n/ \\\n(2)[1] (3)[3]\n/ \\ / \\\n(4)[2] i(5)[16] (6)[9] (7)[10] / \\ / (8)[14] (9)[8] (10)[7]\n[1] 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4 1 3 2 16 9 10 14 8 7"
+   ],
+   "lines": [
+    "4 1 3 2 16 9 10 14 8 7"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "t1ulqqyf": {
+   "id": "t1ulqqyf",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積結構中的節點通常以 [1] 儲存",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "array"
+   ],
+   "lines": [
+    "array"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "t163ksk4": {
+   "id": "t163ksk4",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積結構中的關鍵概念為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Parent(i) Left(i) Right(i)"
+   ],
+   "lines": [
+    "Parent(i) Left(i) Right(i)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "t1qmmci7": {
+   "id": "t1qmmci7",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "請問下列的最小-最大堆積樹中的「?」，應該填入那一個值才是正確？\n4\n/ \\\n50 40 / \\ / 10 8 7 ? / 30 20",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "5 9"
+   ],
+   "lines": [
+    "5 9"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "tas30i3": {
+   "id": "tas30i3",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序屬於哪種排序類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "原地排序"
+   ],
+   "lines": [
+    "原地排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "t12tiboa": {
+   "id": "t12tiboa",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當堆積大小 < 1 時，Extract-Max 會發生？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Heap-Underflow"
+   ],
+   "lines": [
+    "Heap-Underflow"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "topl47d": {
+   "id": "topl47d",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Max-Heap 中，父節點的值必須 [1] 子節點",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "greater"
+   ],
+   "lines": [
+    "greater"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "trzb1z4": {
+   "id": "trzb1z4",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Extract-Max 操作的時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(log n)"
+   ],
+   "lines": [
+    "O(log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "ty0eimm": {
+   "id": "ty0eimm",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者定義了堆積（Heap）的性質？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Heap Property"
+   ],
+   "lines": [
+    "Heap Property"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "tbk6011": {
+   "id": "tbk6011",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是堆積排序的特性？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "原地排序 複雜度 O(n log n) 使用遞迴"
+   ],
+   "lines": [
+    "原地排序 複雜度 O(n log n) 使用遞迴"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
+  },
+  "t1s8kxen": {
+   "id": "t1s8kxen",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 Binary Heap 陣列表示法，下列何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "索引 1 為根節點 子節點位於 2i 與 2i+1 父節點位於 ⌊ i/2 ⌋"
+   ],
+   "lines": [
+    "索引 1 為根節點 子節點位於 2i 與 2i+1 父節點位於 ⌊ i/2 ⌋"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:38.028Z",
+   "updatedAt": "2026-10-20T01:25:38.028Z"
   }
  }
 }
