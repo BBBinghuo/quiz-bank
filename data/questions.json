@@ -1946,6 +1946,28 @@
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:00:04.913Z"
   },
+  "2422": {
+   "id": "2422",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "基數排序(Radix Sort)要求子排序演算法必須是？",
+   "hint": "",
+   "options": {
+    "C": "快速排序",
+    "B": "原地排序",
+    "D": "比較排序",
+    "A": "穩定排序"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:06:28.807Z",
+   "updatedAt": "2026-10-20T14:06:28.818Z"
+  },
   "2425": {
    "id": "2425",
    "subject": "演算法",
@@ -2106,6 +2128,30 @@
    "note": "",
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:00:04.911Z"
+  },
+  "2432": {
+   "id": "2432",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "桶排序(Bucket Sort)的效能取決於？",
+   "hint": "",
+   "options": {
+    "A": "輸入資料分佈",
+    "B": "桶的數量",
+    "C": "桶內部的排序演算法",
+    "D": "輸入元素的絕對值"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:06:28.807Z",
+   "updatedAt": "2026-10-20T14:06:28.815Z"
   },
   "2433": {
    "id": "2433",
@@ -2362,6 +2408,30 @@
    "createdAt": "2026-10-20T14:01:41.365Z",
    "updatedAt": "2026-10-20T14:01:41.369Z"
   },
+  "2445": {
+   "id": "2445",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "桶排序(Bucket Sort)適合處理？",
+   "hint": "",
+   "options": {
+    "D": "完全雜亂無序數據",
+    "C": "需要線性效能數據",
+    "B": "區間範圍明確數據",
+    "A": "均勻分佈數據"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:06:28.807Z",
+   "updatedAt": "2026-10-20T14:06:28.816Z"
+  },
   "2446": {
    "id": "2446",
    "subject": "演算法",
@@ -2536,8 +2606,8 @@
   "2455": {
    "id": "2455",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "決策樹的葉節點數量至少為＿＿＿",
@@ -2545,9 +2615,8 @@
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:58.620Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:06:28.807Z",
+   "updatedAt": "2026-10-20T14:06:28.807Z"
   },
   "2456": {
    "id": "2456",
@@ -2565,6 +2634,22 @@
    "note": "",
    "createdAt": "2026-10-20T14:01:41.365Z",
    "updatedAt": "2026-10-20T14:03:10.498Z"
+  },
+  "2457": {
+   "id": "2457",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "給定課本版本的BUCKET_SORT 演算法。\n\nBUCKET_SORT(A)\n1  n <- length[A]\n2  for i <- 1 to n\n3    do insert A[i] into\n         list B[⌊nA[i]⌋]\n4  for i <- 0 to n-1\n5    do sort list B[i] with insertion sort\n6  concatenate B[0], B[1], ..., B[n-1] together in order\n\nA陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68\n第2行做到 i=7 B 陣列的內容如何\nB陣列的B[1]B[2]B[7] 的內容為何＿＿＿＿＿＿＿＿＿格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
+   "hint": "",
+   "options": {},
+   "blanks": 3,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:06:28.807Z",
+   "updatedAt": "2026-10-20T14:06:28.807Z"
   },
   "2458": {
    "id": "2458",
@@ -22312,7 +22397,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:06:28.815Z",
+   "deleted": true,
+   "mergedInto": "2432"
   },
   "ta5p1mu": {
    "id": "ta5p1mu",
@@ -22446,7 +22533,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:06:28.818Z",
+   "deleted": true,
+   "mergedInto": "2422"
   },
   "tb9xyso": {
    "id": "tb9xyso",
@@ -22737,7 +22826,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:06:28.816Z",
+   "deleted": true,
+   "mergedInto": "2445"
   },
   "t1eqhxw5": {
    "id": "t1eqhxw5",
