@@ -9221,6 +9221,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:05:33.580Z",
    "updatedAt": "2026-10-20T01:05:33.580Z"
+  },
+  "thrtpni": {
+   "id": "thrtpni",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Where does the operating system's \"Program Execution\" service allow the system to load programs?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "memory"
+   ],
+   "lines": [
+    "memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "tcy0w1h": {
+   "id": "tcy0w1h",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "根據克尼漢定律（Kernighan's Law），除錯的難度是撰寫程式碼的 [1] 倍。",
+   "hint": "請用小寫英文數字或英文回答",
+   "options": {},
+   "answer": [
+    "twice"
+   ],
+   "lines": [
+    "twice"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "t1s8gwq2": {
+   "id": "t1s8gwq2",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "使用者介面中，哪一種是以文字指令操作的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "t9rtgq6": {
+   "id": "t9rtgq6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Programming interface to the services provided by the OS is commonly accessed via [1].(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "api"
+   ],
+   "lines": [
+    "api"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "tl95j51": {
+   "id": "tl95j51",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What kind of interface do almost all operating systems have?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "t1o37nwr": {
+   "id": "t1o37nwr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "I/O 操作不可能涉及哪種裝置？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU"
+   ],
+   "lines": [
+    "CPU"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:42.444Z",
+   "updatedAt": "2026-10-20T01:05:42.444Z"
   }
  }
 }
