@@ -7604,6 +7604,321 @@
    "source": "text",
    "createdAt": "2026-10-20T01:01:11.340Z",
    "updatedAt": "2026-10-20T01:01:11.340Z"
+  },
+  "t10qojib": {
+   "id": "t10qojib",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統的設計和實作是一個定義[1]的過程。(英文小寫回答 中間 用and 如 a and b)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "goals and rules|rules and goals"
+   ],
+   "lines": [
+    "goals and rules|rules and goals"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "tet4yut": {
+   "id": "tet4yut",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 Apple iOS 的分層架構，主要包含下列哪些層（Layers）？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "觸控可可層（Cocoa Touch） 多媒體服務層（Media Services） 核心服務層與核心作業系統層（Core Services / Core OS）"
+   ],
+   "lines": [
+    "觸控可可層（Cocoa Touch） 多媒體服務層（Media Services） 核心服務層與核心作業系統層（Core Services / Core OS）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1xvjlk5": {
+   "id": "t1xvjlk5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following Unix system calls belong to file management?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "open() read() write()"
+   ],
+   "lines": [
+    "open() read() write()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "tfscg2j": {
+   "id": "tfscg2j",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "許多作業系統提供用來集中儲存和檢索系統組態與配置資訊的資料庫機制稱為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "registry"
+   ],
+   "lines": [
+    "registry"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1y84qrg": {
+   "id": "t1y84qrg",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which is the most common API provided to Windows systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Win32 API"
+   ],
+   "lines": [
+    "Win32 API"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1wkreoo": {
+   "id": "t1wkreoo",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在微核心架構中，使用者空間的模組與模組之間，主要是透過 [1] 的機制來進行溝通。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "message passing"
+   ],
+   "lines": [
+    "message passing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1dcenos": {
+   "id": "t1dcenos",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "電腦通電初始化後，執行的一小段最初步、用來尋找並載入核心的程式稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "引導載入程式"
+   ],
+   "lines": [
+    "引導載入程式"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1g1t9px": {
+   "id": "t1g1t9px",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the program used to obtain specific hardware configuration information to build a compiled kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SYSGEN"
+   ],
+   "lines": [
+    "SYSGEN"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "ti0k2hs": {
+   "id": "ti0k2hs",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In an operating system, what is the function of the fork() system call?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Create process"
+   ],
+   "lines": [
+    "Create process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1xrpsji": {
+   "id": "t1xrpsji",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當應用程式發生致命錯誤崩潰時，系統產生的記憶體映像檔通常被稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "核心傾印"
+   ],
+   "lines": [
+    "核心傾印"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t96f81o": {
+   "id": "t96f81o",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統設計中的「使用者目標（User Goals）」通常包括下列哪些期望？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "方便使用（Convenient） 易於學習（Easy to learn） 快速與安全（Fast and safe）"
+   ],
+   "lines": [
+    "方便使用（Convenient） 易於學習（Easy to learn） 快速與安全（Fast and safe）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t5z5bpm": {
+   "id": "t5z5bpm",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "最常見的三個 API 是 Windows 的 Win32 API、POSIX 系統的 POSIX API，以及 [1]虛擬機的 Java API。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "java"
+   ],
+   "lines": [
+    "java"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1oujlr6": {
+   "id": "t1oujlr6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一種系統呼叫主要用於建立新行程？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "t1yyyj9u": {
+   "id": "t1yyyj9u",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "圖形使用者介面（GUI）的桌面介面是在[1]發明的。 (英文小寫回答 單字間留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "xerox parc"
+   ],
+   "lines": [
+    "xerox parc"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "tfyyqcn": {
+   "id": "tfyyqcn",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]是一種小型程式碼，儲存在 ROM 或 EEPROM 中，用於定位核心並將其載入記憶體。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "bootstrap loader"
+   ],
+   "lines": [
+    "bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:27.564Z",
+   "updatedAt": "2026-10-20T01:03:27.564Z"
   }
  }
 }
