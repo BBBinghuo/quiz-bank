@@ -16439,6 +16439,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:24:33.172Z",
    "updatedAt": "2026-10-20T01:24:33.172Z"
+  },
+  "t1f1dldn": {
+   "id": "t1f1dldn",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹的葉節點深度通常為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "log_b(n), _b表示下標"
+   ],
+   "lines": [
+    "log_b(n), _b表示下標"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:40.452Z",
+   "updatedAt": "2026-10-20T01:24:40.452Z"
+  },
+  "t1jival2": {
+   "id": "t1jival2",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "使用歸納法證明遞迴式時，需確保？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "基礎情況成立 歸納步驟正確 猜測的函數形式符合 O 符號"
+   ],
+   "lines": [
+    "基礎情況成立 歸納步驟正確 猜測的函數形式符合 O 符號"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:40.452Z",
+   "updatedAt": "2026-10-20T01:24:40.452Z"
   }
  }
 }
