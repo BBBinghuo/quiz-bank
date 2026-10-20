@@ -9746,6 +9746,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:05:59.820Z",
    "updatedAt": "2026-10-20T01:05:59.820Z"
+  },
+  "ty3e8cd": {
+   "id": "ty3e8cd",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在多使用者或網路化的電腦系統中，使用者可能希望控制其資訊的使用。這與作業系統的哪項服務相關？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Protection and security"
+   ],
+   "lines": [
+    "Protection and security"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "t180d40t": {
+   "id": "t180d40t",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Select the three user interfaces for the operating system.",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI GUI Batch"
+   ],
+   "lines": [
+    "CLI GUI Batch"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "t18zspxu": {
+   "id": "t18zspxu",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is a small piece of code stored in ROM or EEPROM that is used to locate the kernel and load it into memory.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bootstrap loader"
+   ],
+   "lines": [
+    "bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "teyzs58": {
+   "id": "teyzs58",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統提供哪種介面，讓使用者可以輸入指令？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "t1l36r7o": {
+   "id": "t1l36r7o",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Unix/Linux 系統中，用來建立全新行程（Process）的系統呼叫是 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
+  },
+  "tixh0vv": {
+   "id": "tixh0vv",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following system calls belong to the process control category?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CreateProcess() fork() exit()"
+   ],
+   "lines": [
+    "CreateProcess() fork() exit()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:06:12.340Z",
+   "updatedAt": "2026-10-20T01:06:12.340Z"
   }
  }
 }
