@@ -12021,6 +12021,153 @@
    "source": "text",
    "createdAt": "2026-10-20T01:14:05.468Z",
    "updatedAt": "2026-10-20T01:14:05.468Z"
+  },
+  "tenpdsn": {
+   "id": "tenpdsn",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Mach IPC 系統中，訊息傳遞系統呼叫包括 msg_send()、msg_receive() 和[1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "msg_rpc()"
+   ],
+   "lines": [
+    "msg_rpc()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t1a7rixx": {
+   "id": "t1a7rixx",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪兩種 IPC 系統是基於訊息傳遞的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mach Windows 的 LPC"
+   ],
+   "lines": [
+    "Mach Windows 的 LPC"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t1cmbrj4": {
+   "id": "t1cmbrj4",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are process states?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "new ready running waiting"
+   ],
+   "lines": [
+    "new ready running waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t1oggo5z": {
+   "id": "t1oggo5z",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In indirect communication, which of the following statements are correct?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "a mailbox has a unique ID a link can be associated with many processes processes can only communicate when they share a mailbox"
+   ],
+   "lines": [
+    "a mailbox has a unique ID a link can be associated with many processes processes can only communicate when they share a mailbox"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t18eqxb2": {
+   "id": "t18eqxb2",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is a characteristic of an CPU-bound process?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "spends most of its time computing"
+   ],
+   "lines": [
+    "spends most of its time computing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t11zmnsr": {
+   "id": "t11zmnsr",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "程序（Process）的哪一個部分包含用於動態記憶體分配的記憶體？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "堆積"
+   ],
+   "lines": [
+    "堆積"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t13ssldq": {
+   "id": "t13ssldq",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the time for a context switch considered?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "overhead for the system"
+   ],
+   "lines": [
+    "overhead for the system"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:21.388Z",
+   "updatedAt": "2026-10-20T01:14:21.388Z"
   }
  }
 }
