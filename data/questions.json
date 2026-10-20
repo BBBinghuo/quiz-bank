@@ -3684,7 +3684,7 @@
   "t818kki": {
    "id": "t818kki",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -3699,9 +3699,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:59.604Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
   },
   "t1mef721": {
    "id": "t1mef721",
@@ -11917,6 +11916,111 @@
    "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
    "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "tdijl9q": {
+   "id": "tdijl9q",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]問題是合作程序的一種範式，其中一個程序產生資訊，而另一個程序消耗該資訊。",
+   "hint": "請用小寫英文回答 單字間用 - 連接",
+   "options": {},
+   "answer": [
+    "producer-consumer"
+   ],
+   "lines": [
+    "producer-consumer"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
+  },
+  "t1gy8npr": {
+   "id": "t1gy8npr",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A named pipe is more powerful than an ordinary pipe because its communication is [1] and it does not require a parent-child relationship.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bidirectional"
+   ],
+   "lines": [
+    "bidirectional"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
+  },
+  "tt3v1kn": {
+   "id": "tt3v1kn",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The medium-term scheduler can remove a process from memory and store it on a disk, then bring it back in, a process called [1]. (Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "swapping"
+   ],
+   "lines": [
+    "swapping"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
+  },
+  "t1k0gz01": {
+   "id": "t1k0gz01",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a Remote Procedure Call (RPC), the [1] is the client-side proxy for the actual procedure on the server.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "stubs"
+   ],
+   "lines": [
+    "stubs"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
+  },
+  "t88mh4e": {
+   "id": "t88mh4e",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在間接通訊（indirect communication）中，以下哪些敘述是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
+   ],
+   "lines": [
+    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:05.468Z",
+   "updatedAt": "2026-10-20T01:14:05.468Z"
   }
  }
 }
