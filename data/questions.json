@@ -14864,6 +14864,405 @@
    "source": "text",
    "createdAt": "2026-10-20T01:22:46.180Z",
    "updatedAt": "2026-10-20T01:22:46.180Z"
+  },
+  "t1qs55uy": {
+   "id": "t1qs55uy",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在合併排序法（Merge Sort）的合併步驟 Merge(A, p, q, r) 中，使用了哪些輔助常規？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "建立了兩個輔助陣列 L 和 R 在輔助陣列尾端放置無限大值（∞）作為哨兵（Sentinels） 將排序結果複製回原陣列 A"
+   ],
+   "lines": [
+    "建立了兩個輔助陣列 L 和 R 在輔助陣列尾端放置無限大值（∞）作為哨兵（Sentinels） 將排序結果複製回原陣列 A"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "twxf8dc": {
+   "id": "twxf8dc",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "漸進緊確界（Asymptotic tight bound）是用下列哪一個漸進符號表示？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Θ"
+   ],
+   "lines": [
+    "Θ"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t11lfwwu": {
+   "id": "t11lfwwu",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若滿足 m < n 則 f(m) < f(n)，此函數性質稱為 [1]。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "strictly increasing"
+   ],
+   "lines": [
+    "strictly increasing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t394op6": {
+   "id": "t394op6",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴式 T(n) = 2T(n/2) + cn 的漸進解為 [1]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-theta(nlogn)"
+   ],
+   "lines": [
+    "big-theta(nlogn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t1oxvu6o": {
+   "id": "t1oxvu6o",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於重複對數函數（Iterative logarithm function, lg* n），下列敘述哪些是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "它是極度緩慢增長的函數 lg* 2 = 1 lg* 65536 = 4 在可觀測宇宙中幾乎遇不到 n 使得 lg* n > 5"
+   ],
+   "lines": [
+    "它是極度緩慢增長的函數 lg* 2 = 1 lg* 65536 = 4 在可觀測宇宙中幾乎遇不到 n 使得 lg* n > 5"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t17xki67": {
+   "id": "t17xki67",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當問題規模 n > 1 時，合併排序法（Merge Sort）執行時間的遞迴關係式（Recurrence）為 T(n) = 2T(n/2) + [1]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-theta(n)"
+   ],
+   "lines": [
+    "big-theta(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "ty1o0op": {
+   "id": "ty1o0op",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "重複對數函數值 lg* 16 的結果為多少？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "3"
+   ],
+   "lines": [
+    "3"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tq69wmz": {
+   "id": "tq69wmz",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "史特林近似公式（Stirling's approximation）主要用於估算下列哪一種數學函數的增長？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "階乘函數 (Factorial)"
+   ],
+   "lines": [
+    "階乘函數 (Factorial)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tfe9984": {
+   "id": "tfe9984",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在分析演算法時，我們常使用的單處理器隨機存取機器（RAM）模型中，做了哪些基礎假設？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "指令是逐一順序執行的（沒有並行運作） 每條基本指令（如加法、乘法、存取）花費常數時間 所有數據都能隨機存取"
+   ],
+   "lines": [
+    "指令是逐一順序執行的（沒有並行運作） 每條基本指令（如加法、乘法、存取）花費常數時間 所有數據都能隨機存取"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t152nmj7": {
+   "id": "t152nmj7",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Why do we usually concentrate on finding the worst-case running time in algorithm analysis?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "It provides a guaranteed upper bound on the running time The worst case occurs fairly often in practical applications The average case is often as bad as the worst case (e.g., in insertion sort)"
+   ],
+   "lines": [
+    "It provides a guaranteed upper bound on the running time The worst case occurs fairly often in practical applications The average case is often as bad as the worst case (e.g., in insertion sort)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t1k37sg3": {
+   "id": "t1k37sg3",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "function fibonacci(n) { if ([1]) { return 0; } else if ([2]) { return 1; } int prev2 = 0; int prev1 = 1; int current = 0; for (int i = 2; i <= n; i++) { current = prev1 + prev2; prev2 = prev1; prev1 = current; } return current; } 以上是計算費氏數列的函數 請正確地完成此程式 (用英文 變數要符合程式內的設定 填空格字裡不要有空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "n<=0/n==1"
+   ],
+   "lines": [
+    "n<=0/n==1"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t1787fc9": {
+   "id": "t1787fc9",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "漸進上界（Asymptotic upper bound）是用下列哪一個漸進符號表示？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O"
+   ],
+   "lines": [
+    "O"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "td293ob": {
+   "id": "td293ob",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "史特林公式中指出，階乘 n! 的增長大於常數指數 2^n，即 n! = [1]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-omega(2^n)"
+   ],
+   "lines": [
+    "big-omega(2^n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t14s5a0x": {
+   "id": "t14s5a0x",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A function f(n) is polynomially bounded if f(n) = n⁽ᴼ⁽¹⁾⁾. Which of the following functions belong to this class?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = n³ f(n) = 10n² + 5n f(n) = √n"
+   ],
+   "lines": [
+    "f(n) = n³ f(n) = 10n² + 5n f(n) = √n"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tjg4n6h": {
+   "id": "tjg4n6h",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "對於任意實數 x 或整數 n，下列關於地板與天花板函數的數學性質哪些是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "x - 1 < ⌊x⌋ <= x x <= ⌈x⌉ < x + 1 ⌈n/2⌉ + ⌊n/2⌋ = n ⌊⌊n/a⌋/b⌋ = ⌊n/ab⌋"
+   ],
+   "lines": [
+    "x - 1 < ⌊x⌋ <= x x <= ⌈x⌉ < x + 1 ⌈n/2⌉ + ⌊n/2⌋ = n ⌊⌊n/a⌋/b⌋ = ⌊n/ab⌋"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t1cwx7sh": {
+   "id": "t1cwx7sh",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following functions are polylogarithmically bounded?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) = lg² n f(n) = (lg n)⁵ f(n) = lg(lg n)"
+   ],
+   "lines": [
+    "f(n) = lg² n f(n) = (lg n)⁵ f(n) = lg(lg n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tbvikox": {
+   "id": "tbvikox",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "階乘增長率與指數增長率相比，n! 屬於 o(nⁿ)，但與常見的 2ⁿ 指數相比，n! 屬於 [1] 關係。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "omega(2^n)"
+   ],
+   "lines": [
+    "omega(2^n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "t1olawj4": {
+   "id": "t1olawj4",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "漸進上界與下界的轉換：f(n) = O(g(n)) 若且唯若 g(n) = [1]。",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "big-omega(f(n))"
+   ],
+   "lines": [
+    "big-omega(f(n))"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tcmaeyf": {
+   "id": "tcmaeyf",
+   "subject": "演算法",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大於或等於實數 x 的最小整數是用下列哪一個函數表示？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "高斯函數 (Ceiling)"
+   ],
+   "lines": [
+    "高斯函數 (Ceiling)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:54.060Z",
+   "updatedAt": "2026-10-20T01:22:54.060Z"
   }
  }
 }
