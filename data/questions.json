@@ -3130,7 +3130,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:27:12.764Z",
-   "updatedAt": "2026-10-20T00:27:12.764Z"
+   "updatedAt": "2026-10-20T00:58:10.581Z",
+   "deleted": true
   },
   "t1si8omz": {
    "id": "t1si8omz",
@@ -3742,7 +3743,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:29:53.332Z"
+   "updatedAt": "2026-10-20T00:58:09.852Z",
+   "deleted": true
   },
   "tlpz9zp": {
    "id": "tlpz9zp",
@@ -3763,7 +3765,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:29:53.332Z"
+   "updatedAt": "2026-10-20T00:58:10.132Z",
+   "deleted": true
   },
   "t4mtxlu": {
    "id": "t4mtxlu",
