@@ -1642,23 +1642,24 @@
   "2409": {
    "id": "2409",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "決策樹模型（Decision Tree Model）主要用於分析哪類演算法？",
    "hint": "",
    "options": {
-    "C": "動態規劃",
     "B": "線性排序",
+    "A": "比較排序",
     "D": "圖論演算法",
-    "A": "比較排序"
+    "C": "動態規劃"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:46.564Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.910Z"
   },
   "2410": {
    "id": "2410",
@@ -1681,26 +1682,69 @@
    "updatedAt": "2026-10-20T00:58:46.805Z",
    "deleted": true
   },
+  "2412": {
+   "id": "2412",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "桶排序（Bucket Sort）假設輸入資料分佈為？",
+   "hint": "",
+   "options": {
+    "B": "常態分佈",
+    "D": "完全有序",
+    "A": "均勻分佈",
+    "C": "指數分佈"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.911Z"
+  },
+  "2414": {
+   "id": "2414",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在決策樹模型中，樹的高度代表了？",
+   "hint": "",
+   "options": {
+    "B": "平均情況的比較次數",
+    "A": "最差情況的比較次數",
+    "D": "節點的數量",
+    "C": "排序的空間成本"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
   "2415": {
    "id": "2415",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "基數排序(Radix Sort)在處理 b-bit 數字時，時間複雜度為？",
    "hint": "",
    "options": {
-    "A": "Θ((b/r)(n + 2^r))",
     "D": "O(n log n)",
-    "C": "O(n)",
-    "B": "O(n²)"
+    "B": "O(n²)",
+    "A": "Θ((b/r)(n + 2^r))",
+    "C": "O(n)"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:47.229Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.906Z"
   },
   "2416": {
    "id": "2416",
@@ -1722,6 +1766,28 @@
    "createdAt": "2026-10-19T16:14:40.854Z",
    "updatedAt": "2026-10-20T00:58:47.644Z",
    "deleted": true
+  },
+  "2417": {
+   "id": "2417",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "計數排序(Counting Sort)中，陣列 C 的作用是？",
+   "hint": "",
+   "options": {
+    "B": "儲存原始資料",
+    "D": "作為桶",
+    "A": "儲存每個值的出現次數或累積計數",
+    "C": "儲存指標"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.907Z"
   },
   "2418": {
    "id": "2418",
@@ -1765,6 +1831,50 @@
    "updatedAt": "2026-10-20T00:58:48.844Z",
    "deleted": true
   },
+  "2420": {
+   "id": "2420",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "桶排序(Bucket Sort)中，若資料均勻分佈，預期時間複雜度為？",
+   "hint": "",
+   "options": {
+    "C": "Θ(n²)",
+    "D": "Θ(log n)",
+    "A": "Θ(n)",
+    "B": "Θ(n log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.909Z"
+  },
+  "2421": {
+   "id": "2421",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "決策樹中的每一個葉節點代表？",
+   "hint": "",
+   "options": {
+    "D": "一個桶",
+    "C": "一個比較操作",
+    "B": "一個輸入元素",
+    "A": "一種可能的排序排列"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.913Z"
+  },
   "2425": {
    "id": "2425",
    "subject": "演算法",
@@ -1785,6 +1895,30 @@
    "createdAt": "2026-10-19T16:14:40.854Z",
    "updatedAt": "2026-10-20T00:58:49.292Z",
    "deleted": true
+  },
+  "2428": {
+   "id": "2428",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "線性時間排序演算法的共通限制包括？",
+   "hint": "",
+   "options": {
+    "B": "不使用比較模型",
+    "A": "通常有特定的輸入假設",
+    "C": "空間消耗可能較大",
+    "D": "無法處理負數"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.905Z"
   },
   "2429": {
    "id": "2429",
@@ -1810,23 +1944,27 @@
   "2431": {
    "id": "2431",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "基數排序(Radix Sort)的優點有？",
    "hint": "",
    "options": {
     "A": "靈活處理多維資料",
-    "C": "可擴展性強",
     "D": "時間複雜度隨輸入長度線性增加",
+    "C": "可擴展性強",
     "B": "穩定"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:50.028Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.911Z"
   },
   "2434": {
    "id": "2434",
@@ -1852,65 +1990,114 @@
   "2435": {
    "id": "2435",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "基數排序(Radix Sort)可以使用哪種穩定排序作為子程序？",
    "hint": "",
    "options": {
+    "A": "Counting Sort",
     "C": "Merge Sort",
     "B": "Insertion Sort",
-    "D": "Quick Sort",
-    "A": "Counting Sort"
+    "D": "Quick Sort"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:50.716Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.901Z"
   },
   "2437": {
    "id": "2437",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "下列關於排序演算法複雜度的敘述，正確的有？",
    "hint": "",
    "options": {
-    "C": "桶排序平均情況為 Θ(n)",
-    "A": "比較排序下界 Ω(n log n)",
     "D": "所有排序都能做到 O(n)",
-    "B": "計數排序可以做到 Θ(n+k)"
+    "B": "計數排序可以做到 Θ(n+k)",
+    "A": "比較排序下界 Ω(n log n)",
+    "C": "桶排序平均情況為 Θ(n)"
    },
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:50.948Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
+  "2438": {
+   "id": "2438",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "基數排序(Radix Sort)處理 b-bit 數字時，r 的選擇會影響？",
+   "hint": "",
+   "options": {
+    "D": "資料穩定性",
+    "A": "執行時間",
+    "C": "遞迴深度",
+    "B": "空間消耗"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.914Z"
+  },
+  "2440": {
+   "id": "2440",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "計數排序(Counting Sort)需要哪幾個輔助陣列？",
+   "hint": "",
+   "options": {
+    "D": "D (用於遞迴)",
+    "A": "C (用於計數)",
+    "C": "A (輸入陣列)",
+    "B": "B (用於存放結果)"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.907Z"
   },
   "2442": {
    "id": "2442",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "決策樹模型證明了？",
    "hint": "",
    "options": {
-    "C": "堆積排序的正確性",
     "D": "桶排序的正確性",
     "B": "線性排序的極限",
-    "A": "比較排序的極限"
+    "A": "比較排序的極限",
+    "C": "堆積排序的正確性"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:51.172Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.908Z"
   },
   "2446": {
    "id": "2446",
@@ -1933,11 +2120,58 @@
    "updatedAt": "2026-10-20T00:58:51.420Z",
    "deleted": true
   },
+  "2448": {
+   "id": "2448",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "比較排序的時間複雜度下界為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
+  "2451": {
+   "id": "2451",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "給定課本版本的COUNTING_SORT演算法。\n\nCOUNTING_SORT(A, B, k)\n1  for i <- 1 to k\n2    do c[i] <- 0\n3  for j <- 1 to length[A]\n4    do c[A[j]] <- c[A[j]] + 1\n5  > c[i] now contains the number of elements equal to i\n6  for i <- 2 to k\n7    do c[i] <- c[i] + c[i-1]\n8  > c[i] now contains the number of elements less than or equal to i\n9  for j <- length[A] downto 1\n10   do B[c[A[j]]] <- A[j]\n11      c[A[j]] <- c[A[j]] - 1\n\nA陣列的內容為 2,5,3,0,2,3,0,3\n\n做到第9行前\nB陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3\nC陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
+  "2452": {
+   "id": "2452",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "給定課本版本的COUNTING_SORT演算法。\n\nCOUNTING_SORT(A, B, k)\n1  for i <- 1 to k\n2    do c[i] <- 0\n3  for j <- 1 to length[A]\n4    do c[A[j]] <- c[A[j]] + 1\n5  > c[i] now contains the number of elements equal to i\n6  for i <- 2 to k\n7    do c[i] <- c[i] + c[i-1]\n8  > c[i] now contains the number of elements less than or equal to i\n9  for j <- length[A] downto 1\n10   do B[c[A[j]]] <- A[j]\n11      c[A[j]] <- c[A[j]] - 1\n\nA陣列的內容為 2,5,3,0,2,3,0,3\n做到第9行 的 j = 2 時\nB陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3\nC陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
   "2453": {
    "id": "2453",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "給定課本版本的COUNTING_SORT演算法。\n\nCOUNTING_SORT(A, B, k)\n1  for i <- 1 to k\n2    do c[i] <- 0\n3  for j <- 1 to length[A]\n4    do c[A[j]] <- c[A[j]] + 1\n5  > c[i] now contains the number of elements equal to i\n6  for i <- 2 to k\n7    do c[i] <- c[i] + c[i-1]\n8  > c[i] now contains the number of elements less than or equal to i\n9  for j <- length[A] downto 1\n10   do B[c[A[j]]] <- A[j]\n11      c[A[j]] <- c[A[j]] - 1\n\nA陣列的內容為 2,5,3,0,2,3,0,3\n做到第9行 的 j = 4 時\nB陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3\nC陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3",
@@ -1946,9 +2180,8 @@
    "blanks": 2,
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:53.469Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
   },
   "2455": {
    "id": "2455",
@@ -1986,8 +2219,8 @@
   "2459": {
    "id": "2459",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "給定課本版本的BUCKET_SORT 演算法。\n\nBUCKET_SORT(A)\n1  n <- length[A]\n2  for i <- 1 to n\n3    do insert A[i] into\n         list B[⌊nA[i]⌋]\n4  for i <- 0 to n-1\n5    do sort list B[i] with insertion sort\n6  concatenate B[0], B[1], ..., B[n-1] together in order\n\nA陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68\n第2行做到 i=5 B 陣列的內容如何\nB陣列的B[1]B[2]B[7] 的內容為何＿＿＿＿＿＿＿＿＿格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
@@ -1996,9 +2229,23 @@
    "blanks": 3,
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:59:01.348Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
+  },
+  "2461": {
+   "id": "2461",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "基數排序從＿＿＿有效位開始排序",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
   },
   "2463": {
    "id": "2463",
@@ -2020,8 +2267,8 @@
   "2464": {
    "id": "2464",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "給定課本版本的COUNTING_SORT演算法。\n\nCOUNTING_SORT(A, B, k)\n1  for i <- 1 to k\n2    do c[i] <- 0\n3  for j <- 1 to length[A]\n4    do c[A[j]] <- c[A[j]] + 1\n5  > c[i] now contains the number of elements equal to i\n6  for i <- 2 to k\n7    do c[i] <- c[i] + c[i-1]\n8  > c[i] now contains the number of elements less than or equal to i\n9  for j <- length[A] downto 1\n10   do B[c[A[j]]] <- A[j]\n11      c[A[j]] <- c[A[j]] - 1\n\nA陣列的內容為 2, 5, 3, 0, 2, 3, 0, 5, 1, 2, 1, 3, 2, 0, 4.\n\n做到第9行 j = 12\nB陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3\nC陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3",
@@ -2030,9 +2277,8 @@
    "blanks": 2,
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:59:04.428Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:00:04.894Z",
+   "updatedAt": "2026-10-20T14:00:04.894Z"
   },
   "2465": {
    "id": "2465",
@@ -21544,7 +21790,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:00:04.906Z",
+   "deleted": true,
+   "mergedInto": "2415"
   },
   "t8a324v": {
    "id": "t8a324v",
@@ -21691,7 +21939,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:00:04.914Z",
+   "deleted": true,
+   "mergedInto": "2438"
   },
   "t1lnf34d": {
    "id": "t1lnf34d",
@@ -21754,7 +22004,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:00:04.905Z",
+   "deleted": true,
+   "mergedInto": "2428"
   },
   "t1un9yxn": {
    "id": "t1un9yxn",
@@ -21796,7 +22048,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:00:04.907Z",
+   "deleted": true,
+   "mergedInto": "2417"
   },
   "t1nuxg67": {
    "id": "t1nuxg67",
@@ -21859,7 +22113,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:00:04.910Z",
+   "deleted": true,
+   "mergedInto": "2409"
   },
   "tewh965": {
    "id": "tewh965",
@@ -21964,7 +22220,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:00:04.908Z",
+   "deleted": true,
+   "mergedInto": "2442"
   },
   "tgttzqg": {
    "id": "tgttzqg",
@@ -22069,7 +22327,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:00:04.909Z",
+   "deleted": true,
+   "mergedInto": "2420"
   },
   "t2duw8t": {
    "id": "t2duw8t",
@@ -22174,7 +22434,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:08.572Z",
-   "updatedAt": "2026-10-20T01:31:08.572Z"
+   "updatedAt": "2026-10-20T14:00:04.907Z",
+   "deleted": true,
+   "mergedInto": "2440"
   },
   "t1d1ivzi": {
    "id": "t1d1ivzi",
@@ -22363,7 +22625,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:18.364Z",
-   "updatedAt": "2026-10-20T01:31:18.364Z"
+   "updatedAt": "2026-10-20T14:00:04.901Z",
+   "deleted": true,
+   "mergedInto": "2435"
   },
   "t11qc3zb": {
    "id": "t11qc3zb",
@@ -22384,7 +22648,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:18.364Z",
-   "updatedAt": "2026-10-20T01:31:18.364Z"
+   "updatedAt": "2026-10-20T14:00:04.911Z",
+   "deleted": true,
+   "mergedInto": "2431"
   },
   "t1vzp26a": {
    "id": "t1vzp26a",
@@ -22615,7 +22881,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:32:01.996Z",
-   "updatedAt": "2026-10-20T01:32:01.996Z"
+   "updatedAt": "2026-10-20T14:00:04.913Z",
+   "deleted": true,
+   "mergedInto": "2421"
   },
   "t1p9ktmq": {
    "id": "t1p9ktmq",
@@ -22636,7 +22904,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:32:08.732Z",
-   "updatedAt": "2026-10-20T01:32:08.732Z"
+   "updatedAt": "2026-10-20T14:00:04.911Z",
+   "deleted": true,
+   "mergedInto": "2412"
   },
   "t1t2cgb": {
    "id": "t1t2cgb",
