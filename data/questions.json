@@ -4295,7 +4295,7 @@
   "t1fj83jc": {
    "id": "t1fj83jc",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4310,9 +4310,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:47.068Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
   },
   "tkd8uko": {
    "id": "tkd8uko",
@@ -11771,6 +11770,153 @@
    "source": "text",
    "createdAt": "2026-10-20T01:12:37.180Z",
    "updatedAt": "2026-10-20T01:12:37.180Z"
+  },
+  "tul9zjw": {
+   "id": "tul9zjw",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是在 IPC 中，共享記憶體和訊息傳遞模型的區別？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
+   ],
+   "lines": [
+    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t1afasid": {
+   "id": "t1afasid",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是 Cooperating Process 的優點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "information sharing computation speedup modularity"
+   ],
+   "lines": [
+    "information sharing computation speedup modularity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t1knaz8k": {
+   "id": "t1knaz8k",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些原因可能導致父程序終止子程序？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
+   ],
+   "lines": [
+    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t16w7b24": {
+   "id": "t16w7b24",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "After a process completes its last statement, what system call does it use to request the operating system to delete it?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "exit()"
+   ],
+   "lines": [
+    "exit()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t5vdp4s": {
+   "id": "t5vdp4s",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which term is often used interchangeably with \"process\"?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "job"
+   ],
+   "lines": [
+    "job"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t1008hhi": {
+   "id": "t1008hhi",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are multitasking limitations in the iOS mobile system?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "allows only one foreground process allows multiple background processes"
+   ],
+   "lines": [
+    "allows only one foreground process allows multiple background processes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
+  },
+  "t19mi41g": {
+   "id": "t19mi41g",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which type of scheduler is responsible for selecting which processes to load into the ready queue?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "long-term scheduler"
+   ],
+   "lines": [
+    "long-term scheduler"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:13:50.444Z",
+   "updatedAt": "2026-10-20T01:13:50.444Z"
   }
  }
 }
