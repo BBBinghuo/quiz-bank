@@ -15263,6 +15263,636 @@
    "source": "text",
    "createdAt": "2026-10-20T01:22:54.060Z",
    "updatedAt": "2026-10-20T01:22:54.060Z"
+  },
+  "tijke09": {
+   "id": "tijke09",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在遞迴樹法中，我們關注的是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "樹中所有節點的成本總和"
+   ],
+   "lines": [
+    "樹中所有節點的成本總和"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t12y9q29": {
+   "id": "t12y9q29",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者不是求解遞迴關係式的主要方法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "暴力列舉法"
+   ],
+   "lines": [
+    "暴力列舉法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t295ov4": {
+   "id": "t295ov4",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理主要用於解決哪種形式的遞迴？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "T(n)=aT(n/b)+f(n)"
+   ],
+   "lines": [
+    "T(n)=aT(n/b)+f(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tek6uzi": {
+   "id": "tek6uzi",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "為何遞迴分析中要忽略底數的取整函數？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "因為它們對漸進複雜度影響微乎其微"
+   ],
+   "lines": [
+    "因為它們對漸進複雜度影響微乎其微"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1h7sqs7": {
+   "id": "t1h7sqs7",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the first step in the substitution method for solving recurrences?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Guess the form of the solution"
+   ],
+   "lines": [
+    "Guess the form of the solution"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tw84at1": {
+   "id": "tw84at1",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹中，每一層的代價總和稱為 [1] 代價",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "level"
+   ],
+   "lines": [
+    "level"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tt8pu73": {
+   "id": "tt8pu73",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "代入法求解遞迴的第一步是猜測解的[1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "form"
+   ],
+   "lines": [
+    "form"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t196iumv": {
+   "id": "t196iumv",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於遞迴關係式的技術細節，我們通常會？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "忽略邊界條件與取整函數"
+   ],
+   "lines": [
+    "忽略邊界條件與取整函數"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1afuuj": {
+   "id": "t1afuuj",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者可用於分析 T(n) =n²logn？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "代入法 遞迴樹法 大師定理的變形"
+   ],
+   "lines": [
+    "代入法 遞迴樹法 大師定理的變形"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1ww94e2": {
+   "id": "t1ww94e2",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在處理 T(n) = 2T(n/2 + 17) + n 時，我們通常使用？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "代入法"
+   ],
+   "lines": [
+    "代入法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t16q75cd": {
+   "id": "t16q75cd",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理是用來解決 [1] 形式的遞迴關係式",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "t(n)=at(n/b)+f(n)"
+   ],
+   "lines": [
+    "t(n)=at(n/b)+f(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1lljh1m": {
+   "id": "t1lljh1m",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理分析中 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 的成長率需進行 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "comparison"
+   ],
+   "lines": [
+    "comparison"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "trhy2dx": {
+   "id": "trhy2dx",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹的總成本計算，需考慮？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "根節點代價 中間層節點代價 葉節點代價"
+   ],
+   "lines": [
+    "根節點代價 中間層節點代價 葉節點代價"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t12ylbqp": {
+   "id": "t12ylbqp",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理 Case 1 的條件包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "f(n) 為 O(nˡᵒᵍᵇ⁽ᵃ⁾(a - ε)) ε > 0 a, b 是常數"
+   ],
+   "lines": [
+    "f(n) 為 O(nˡᵒᵍᵇ⁽ᵃ⁾(a - ε)) ε > 0 a, b 是常數"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t7gdtet": {
+   "id": "t7gdtet",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者是代入法驗證時使用的核心數學工具？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "數學歸納法"
+   ],
+   "lines": [
+    "數學歸納法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tcb37z5": {
+   "id": "tcb37z5",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "T(n) = 2T(sqrt(n)) + logn 這問題需要用變數變換的技巧，我們會設定 m=[1] 來做變數變換",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "logn"
+   ],
+   "lines": [
+    "logn"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t3wx05u": {
+   "id": "t3wx05u",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the complexity of T(n) = T(n/2) + n?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n)"
+   ],
+   "lines": [
+    "O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t165dvw2": {
+   "id": "t165dvw2",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹法主要由哪幾個步驟組成？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "繪製遞迴樹 計算每層代價 將所有層級代價加總"
+   ],
+   "lines": [
+    "繪製遞迴樹 計算每層代價 將所有層級代價加總"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tn7ufrb": {
+   "id": "tn7ufrb",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the substitution method, to prove T(n) <= cn log n, what is usually required?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Choose an appropriate constant c"
+   ],
+   "lines": [
+    "Choose an appropriate constant c"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "thqiyzq": {
+   "id": "thqiyzq",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "使用遞迴樹法時，最後需將所有層的代價進行 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "summation"
+   ],
+   "lines": [
+    "summation"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "thm0epz": {
+   "id": "thm0epz",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "證明一個遞迴式的 O(n) 上界，通常需要？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "找到一個常數 c 找到一個邊界值 n0 使用數學歸納法"
+   ],
+   "lines": [
+    "找到一個常數 c 找到一個邊界值 n0 使用數學歸納法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t11rne9n": {
+   "id": "t11rne9n",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理中 a 與 b 的物理意義為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "a 為子問題個數 b 為輸入大小縮減因子"
+   ],
+   "lines": [
+    "a 為子問題個數 b 為輸入大小縮減因子"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1tmmbx6": {
+   "id": "t1tmmbx6",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理適用於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "分治演算法的複雜度分析"
+   ],
+   "lines": [
+    "分治演算法的複雜度分析"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tpvx4z2": {
+   "id": "tpvx4z2",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理若適用，必須滿足 a >= [1]",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "1"
+   ],
+   "lines": [
+    "1"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1oitfg8": {
+   "id": "t1oitfg8",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴式 T(n) = 2T(n/2 + 17) + n 的分析難點在於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "17 的存在使得 n/2 不純粹 不能直接使用大師定理 需要更複雜的代數變換"
+   ],
+   "lines": [
+    "17 的存在使得 n/2 不純粹 不能直接使用大師定理 需要更複雜的代數變換"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1g3j0v2": {
+   "id": "t1g3j0v2",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列關於漸進符號 (Asymptotic Notation) 的敘述，何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O 符號代表上界 Ω 符號代表下界 Θ 符號代表緊確界"
+   ],
+   "lines": [
+    "O 符號代表上界 Ω 符號代表下界 Θ 符號代表緊確界"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t1sxvwpu": {
+   "id": "t1sxvwpu",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理是一種 [1] 分析工具",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "asymptotic"
+   ],
+   "lines": [
+    "asymptotic"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "t4jv580": {
+   "id": "t4jv580",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "大師定理 Case 3 要求 f(n) 必須 [1] 大於 nˡᵒᵍᵇ⁽ᵃ⁾",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "polynomially"
+   ],
+   "lines": [
+    "polynomially"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "tuo3kh4": {
+   "id": "tuo3kh4",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在使用代入法時，常遇到的困難包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "猜測解的正確形式 證明邊界條件的繁瑣 無法進行代數變換"
+   ],
+   "lines": [
+    "猜測解的正確形式 證明邊界條件的繁瑣 無法進行代數變換"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
+  },
+  "txigmbt": {
+   "id": "txigmbt",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "T(n) = 2T(n/2) + n 以代入法證明 我們先猜 他是 O(nlogn) 請依此寫出之後帶入的式子 [1]",
+   "hint": "請用小寫英文回答 答案中間不要留空白",
+   "options": {},
+   "answer": [
+    "T(n/2)<=c(n/2)log(n/2)"
+   ],
+   "lines": [
+    "T(n/2)<=c(n/2)log(n/2)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:23:36.372Z",
+   "updatedAt": "2026-10-20T01:23:36.372Z"
   }
  }
 }
