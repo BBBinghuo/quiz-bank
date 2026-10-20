@@ -8444,6 +8444,342 @@
    "source": "text",
    "createdAt": "2026-10-20T01:03:46.404Z",
    "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "tjd34bm": {
+   "id": "tjd34bm",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些核心組件或模組是現代核心（如 Solaris 模組化架構）支援動態載入的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "排程類別（Scheduling classes） 檔案系統（File systems） 可載入系統呼叫（Loadable system calls）"
+   ],
+   "lines": [
+    "排程類別（Scheduling classes） 檔案系統（File systems） 可載入系統呼叫（Loadable system calls）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "tc68cdd": {
+   "id": "tc68cdd",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 Android 系統架構，包含下列哪些核心組件或層級？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "應用程式框架（Application Framework） 函式庫（如 Webkit, SQLite） Android 執行期環境與修改版 Linux 核心"
+   ],
+   "lines": [
+    "應用程式框架（Application Framework） 函式庫（如 Webkit, SQLite） Android 執行期環境與修改版 Linux 核心"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "txzuqpa": {
+   "id": "txzuqpa",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which tool allows live instrumentation and dynamic tracing on production systems like Solaris and macOS?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "DTrace"
+   ],
+   "lines": [
+    "DTrace"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t14ifgzh": {
+   "id": "t14ifgzh",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Where was the Graphical User Interface (GUI) invented?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Xerox PARC"
+   ],
+   "lines": [
+    "Xerox PARC"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "tzxgvqr": {
+   "id": "tzxgvqr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 MS-DOS 系統結構，下列敘述何者正確？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "它屬於簡單結構且介面未良好分離"
+   ],
+   "lines": [
+    "它屬於簡單結構且介面未良好分離"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t19b4a98": {
+   "id": "t19b4a98",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "歷史上第一個實現微核心（Microkernel）重要實驗性作業系統專案名稱為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "mach"
+   ],
+   "lines": [
+    "mach"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t15w72q7": {
+   "id": "t15w72q7",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "常駐於系統背景，從開機一直執行到關機且運行於使用者內文（User Context）的系統服務或守護行程常被稱為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "daemons"
+   ],
+   "lines": [
+    "daemons"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "togzzzf": {
+   "id": "togzzzf",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which device is not possible for the I/O operation to involve?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU"
+   ],
+   "lines": [
+    "CPU"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "tp9onba": {
+   "id": "tp9onba",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪個程式用於根據硬體系統的特定配置來建置作業系統？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SYSGEN"
+   ],
+   "lines": [
+    "SYSGEN"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "temc846": {
+   "id": "temc846",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種系統呼叫與裝置管理有關？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "request_device()"
+   ],
+   "lines": [
+    "request_device()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1h6qlss": {
+   "id": "t1h6qlss",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一種核心設計方法在執行期動態載入核心組件，具備物件導向特性且比分層結構更靈活？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "可載入核心模組"
+   ],
+   "lines": [
+    "可載入核心模組"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1xqomto": {
+   "id": "t1xqomto",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些程式屬於資訊工程領域中常見的核心或程式開發支援工具？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "編譯器 (Compilers) 連結編輯器 (Linkage editors) 除錯器 (Debuggers)"
+   ],
+   "lines": [
+    "編譯器 (Compilers) 連結編輯器 (Linkage editors) 除錯器 (Debuggers)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1irhkxt": {
+   "id": "t1irhkxt",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Most modern operating systems use a [1] approach to implement dynamically loadable functionality.(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "modular"
+   ],
+   "lines": [
+    "modular"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "tqckj9z": {
+   "id": "tqckj9z",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪一項不是作業系統提供給使用者的基本服務？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "資料分析"
+   ],
+   "lines": [
+    "資料分析"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1eq68eq": {
+   "id": "t1eq68eq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "what is the name circled in this figure[1]? 上傳的圖片",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "kernel"
+   ],
+   "lines": [
+    "kernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
+  },
+  "t1dlr0s5": {
+   "id": "t1dlr0s5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The command line interface (CLI) is sometimes implemented in the kernel and sometimes by a [1] program.(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "system"
+   ],
+   "lines": [
+    "system"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:56.684Z",
+   "updatedAt": "2026-10-20T01:03:56.684Z"
   }
  }
 }
