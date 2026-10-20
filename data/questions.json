@@ -1639,6 +1639,28 @@
    "updatedAt": "2026-10-20T00:58:42.484Z",
    "deleted": true
   },
+  "2408": {
+   "id": "2408",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "任何基於比較的排序(comparison-based sortin)演算法，其最差時間複雜度下界為？",
+   "hint": "",
+   "options": {
+    "D": "O(log n)",
+    "A": "Ω(n log n)",
+    "B": "O(n)",
+    "C": "Ω(n²)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.328Z"
+  },
   "2409": {
    "id": "2409",
    "subject": "演算法",
@@ -1774,23 +1796,24 @@
   "2416": {
    "id": "2416",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "下列哪種排序演算法是「穩定」的（Stable）？",
    "hint": "",
    "options": {
-    "C": "快速排序",
     "D": "桶排序（若使用穩定排序作為子程序）",
-    "B": "堆積排序",
-    "A": "計數排序"
+    "A": "計數排序",
+    "C": "快速排序",
+    "B": "堆積排序"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:58:47.644Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.326Z"
   },
   "2417": {
    "id": "2417",
@@ -1922,6 +1945,28 @@
    "updatedAt": "2026-10-20T00:58:49.292Z",
    "deleted": true
   },
+  "2426": {
+   "id": "2426",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "決策樹的高度下界為？",
+   "hint": "",
+   "options": {
+    "C": "Ω(n)",
+    "A": "Ω(n log n)",
+    "D": "Ω(log n)",
+    "B": "Ω(n²)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.325Z"
+  },
   "2427": {
    "id": "2427",
    "subject": "演算法",
@@ -2013,6 +2058,30 @@
    "note": "",
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:00:04.911Z"
+  },
+  "2433": {
+   "id": "2433",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於決策樹，下列敘述何者正確？",
+   "hint": "",
+   "options": {
+    "A": "每個內部節點是一個比較",
+    "C": "樹的葉節點數量至少為 n!",
+    "B": "每個分支代表一個比較結果",
+    "D": "樹的高度與比較次數無關"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.327Z"
   },
   "2434": {
    "id": "2434",
@@ -2108,6 +2177,28 @@
    "note": "",
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:00:04.914Z"
+  },
+  "2439": {
+   "id": "2439",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "桶排序(Bucket Sort)中，如果桶內的資料傾斜嚴重（Unbalanced），會導致？",
+   "hint": "",
+   "options": {
+    "C": "排序結果錯誤",
+    "B": "時間複雜度依然為 O(n)",
+    "A": "效能下降至 O(n²)",
+    "D": "無法進行合併"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.323Z"
   },
   "2440": {
    "id": "2440",
@@ -2262,6 +2353,36 @@
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:01:27.600Z"
   },
+  "2449": {
+   "id": "2449",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "計數排序的時間複雜度為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.318Z"
+  },
+  "2450": {
+   "id": "2450",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "決策樹模型證明了任何比較排序在最壞情況下至少需要＿＿＿比較次數",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.318Z"
+  },
   "2451": {
    "id": "2451",
    "subject": "演算法",
@@ -2406,6 +2527,22 @@
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:01:27.600Z"
   },
+  "2460": {
+   "id": "2460",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "給定課本版本的BUCKET_SORT 演算法。\n\nBUCKET_SORT(A)\n1  n <- length[A]\n2  for i <- 1 to n\n3    do insert A[i] into\n         list B[⌊nA[i]⌋]\n4  for i <- 0 to n-1\n5    do sort list B[i] with insertion sort\n6  concatenate B[0], B[1], ..., B[n-1] together in order\n\nA陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68\n第4行做到 i=5 B 陣列的內容如何\nB陣列的B[1]B[2]B[6] 的內容為何＿＿＿＿＿＿＿＿＿格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
+   "hint": "",
+   "options": {},
+   "blanks": 3,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.318Z"
+  },
   "2461": {
    "id": "2461",
    "subject": "演算法",
@@ -2422,6 +2559,21 @@
    "note": "",
    "createdAt": "2026-10-20T14:00:04.894Z",
    "updatedAt": "2026-10-20T14:01:27.600Z"
+  },
+  "2462": {
+   "id": "2462",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "桶排序中，若桶內元素過多，複雜度會退化為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.318Z"
   },
   "2463": {
    "id": "2463",
@@ -2464,8 +2616,8 @@
   "2465": {
    "id": "2465",
    "subject": "演算法",
-   "chapter": "6絲時序林",
-   "level": "築基中期",
+   "chapter": "6",
+   "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "給定課本版本的COUNTING_SORT演算法。\n\nCOUNTING_SORT(A, B, k)\n1  for i <- 1 to k\n2    do c[i] <- 0\n3  for j <- 1 to length[A]\n4    do c[A[j]] <- c[A[j]] + 1\n5  > c[i] now contains the number of elements equal to i\n6  for i <- 2 to k\n7    do c[i] <- c[i] + c[i-1]\n8  > c[i] now contains the number of elements less than or equal to i\n9  for j <- length[A] downto 1\n10   do B[c[A[j]]] <- A[j]\n11      c[A[j]] <- c[A[j]] - 1\n\nA陣列的內容為 2, 5, 3, 0, 2, 3, 0, 5, 1, 2, 1, 3, 2, 0, 4.\n\n做到第9行 j = 4\nB陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3\nC陣列的內容為何＿＿＿格式: 2,5,3,0,2,3,0,3",
@@ -2474,9 +2626,8 @@
    "blanks": 2,
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T16:14:40.854Z",
-   "updatedAt": "2026-10-20T00:59:05.100Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:03:25.318Z",
+   "updatedAt": "2026-10-20T14:03:25.318Z"
   },
   "tuy2wbb": {
    "id": "tuy2wbb",
@@ -22101,7 +22252,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:03:25.326Z",
+   "deleted": true,
+   "mergedInto": "2416"
   },
   "t1js6c7f": {
    "id": "t1js6c7f",
@@ -22145,7 +22298,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:03:25.325Z",
+   "deleted": true,
+   "mergedInto": "2426"
   },
   "tkqus6d": {
    "id": "tkqus6d",
@@ -22323,7 +22478,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
-   "updatedAt": "2026-10-20T01:30:44.348Z"
+   "updatedAt": "2026-10-20T14:03:25.327Z",
+   "deleted": true,
+   "mergedInto": "2433"
   },
   "t1x5w4i": {
    "id": "t1x5w4i",
@@ -22778,7 +22935,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:18.364Z",
-   "updatedAt": "2026-10-20T01:31:18.364Z"
+   "updatedAt": "2026-10-20T14:03:25.323Z",
+   "deleted": true,
+   "mergedInto": "2439"
   },
   "tsyplo0": {
    "id": "tsyplo0",
@@ -22933,7 +23092,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:31:45.084Z",
-   "updatedAt": "2026-10-20T01:31:45.084Z"
+   "updatedAt": "2026-10-20T14:03:25.328Z",
+   "deleted": true,
+   "mergedInto": "2408"
   },
   "t1nybuxo": {
    "id": "t1nybuxo",
