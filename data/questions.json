@@ -10502,6 +10502,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:09:46.292Z",
    "updatedAt": "2026-10-20T01:09:46.292Z"
+  },
+  "t1sbr10r": {
+   "id": "t1sbr10r",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統設計中的「系統目標（System Goals）」通常包括下列哪些期望？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "易於設計、實現與維護 具備彈性與可靠性 高效且無錯誤（Error-free）"
+   ],
+   "lines": [
+    "易於設計、實現與維護 具備彈性與可靠性 高效且無錯誤（Error-free）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
+  },
+  "t1ae2jl1": {
+   "id": "t1ae2jl1",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In Unix/Linux, the system call used to create a new process is [1].(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
+  },
+  "t1bp741m": {
+   "id": "t1bp741m",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Windows 中，用來設定檔案安全權限、屬於保護（Protection）領域的系統呼叫是 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "setfilesecurity()"
+   ],
+   "lines": [
+    "setfilesecurity()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
+  },
+  "t13nm3by": {
+   "id": "t13nm3by",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "When an application fails, the generated file capturing the memory of the process is called:",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Core dump"
+   ],
+   "lines": [
+    "Core dump"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
+  },
+  "t1vg1h3a": {
+   "id": "t1vg1h3a",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Dividing the [1] and [2] is an important principle, because it allows for maximum flexibility in changing policies later(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "policy/mechanism"
+   ],
+   "lines": [
+    "policy/mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
+  },
+  "t1nl7rog": {
+   "id": "t1nl7rog",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The three most common APIs are the Win32 API for Windows, the POSIX API for POSIX systems, and the Java API for the [1] virtual machine. (用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "java"
+   ],
+   "lines": [
+    "java"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:56.188Z",
+   "updatedAt": "2026-10-20T01:09:56.188Z"
   }
  }
 }
