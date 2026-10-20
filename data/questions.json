@@ -1385,6 +1385,28 @@
    "createdAt": "2026-10-20T14:50:00.000Z",
    "updatedAt": "2026-10-20T14:50:00.008Z"
   },
+  "2235": {
+   "id": "2235",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當遞迴式包含下取整或上取整時，我們通常？",
+   "hint": "",
+   "options": {
+    "D": "將其改為階乘",
+    "A": "忽略它們",
+    "C": "將其改為指數",
+    "B": "將其改為絕對值"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.946Z"
+  },
   "2236": {
    "id": "2236",
    "subject": "演算法",
@@ -1406,6 +1428,28 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.649Z"
+  },
+  "2237": {
+   "id": "2237",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "代入法中，為了證明 T(n) <= cn log n，通常需要？",
+   "hint": "",
+   "options": {
+    "B": "修改原始遞迴式",
+    "D": "忽略初始條件",
+    "C": "將 log 換成 ln",
+    "A": "選擇適當的常數 c"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.943Z"
   },
   "2238": {
    "id": "2238",
@@ -1653,6 +1697,30 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.641Z"
   },
+  "2253": {
+   "id": "2253",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "大師定理 Case 3 的條件包含？",
+   "hint": "",
+   "options": {
+    "B": "存在常數 epsilon > 0",
+    "C": "滿足規則性條件 (regularity condition)",
+    "D": "a 必須小於 1",
+    "A": "f(n) 成長速度大於 nˡᵒᵍᵇ⁽ᵃ⁾"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.944Z"
+  },
   "2254": {
    "id": "2254",
    "subject": "演算法",
@@ -1816,6 +1884,26 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.643Z"
   },
+  "2264": {
+   "id": "2264",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於「技術細節」的處理，下列哪些正確？",
+   "hint": "",
+   "options": {
+    "B": "忽略天花板函數(ceiling)",
+    "C": "忽略初始邊界條件",
+    "A": "忽略樓板函數(floor)",
+    "D": "忽略複雜的數學常數"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.937Z"
+  },
   "2265": {
    "id": "2265",
    "subject": "演算法",
@@ -1885,6 +1973,21 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.647Z"
+  },
+  "2268": {
+   "id": "2268",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "遞迴關係式 T(n) = T(⌊ n/2 ⌋) + T(⌈ n/2 ⌉) + 1 的解為 O(＿＿＿)",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.937Z"
   },
   "2269": {
    "id": "2269",
@@ -1966,6 +2069,21 @@
    "note": "",
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
+  "2274": {
+   "id": "2274",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "遞迴樹中，每一層的代價總和稱為＿＿＿代價",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:52:01.937Z",
+   "updatedAt": "2026-10-20T14:52:01.937Z"
   },
   "2275": {
    "id": "2275",
@@ -18597,7 +18715,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-20T14:52:01.944Z",
+   "deleted": true,
+   "mergedInto": "2253"
   },
   "t1nqzxef": {
    "id": "t1nqzxef",
@@ -18748,7 +18868,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-20T14:52:01.946Z",
+   "deleted": true,
+   "mergedInto": "2235"
   },
   "t1e94830": {
    "id": "t1e94830",
@@ -18962,7 +19084,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:07.420Z",
-   "updatedAt": "2026-10-20T01:24:07.420Z"
+   "updatedAt": "2026-10-20T14:52:01.943Z",
+   "deleted": true,
+   "mergedInto": "2237"
   },
   "t14ky33w": {
    "id": "t14ky33w",
