@@ -4677,7 +4677,7 @@
   "tg2qa4k": {
    "id": "tg2qa4k",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4692,9 +4692,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:14.092Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t6bokib": {
    "id": "t6bokib",
@@ -4720,7 +4719,7 @@
   "t131ie40": {
    "id": "t131ie40",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4735,9 +4734,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:11.012Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t1pi8h3f": {
    "id": "t1pi8h3f",
@@ -4806,11 +4804,11 @@
   "t13yxbn0": {
    "id": "t13yxbn0",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "The cost of creating a thread is less than a process, and the overhead of a thread switch is also lower than a [ 1 ].(Please answer in lowercase English with a blank between words)",
+   "text": "The cost of creating a thread is less than a process, and the overhead of a thread switch is also lower than a [1].(Please answer in lowercase English with a blank between words)",
    "hint": "",
    "options": {},
    "answer": [
@@ -4821,14 +4819,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:09.684Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t1r4aiai": {
    "id": "t1r4aiai",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4843,9 +4840,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:56:15.020Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t2zthdr": {
    "id": "t2zthdr",
@@ -5341,11 +5337,11 @@
   "t1yp9nx9": {
    "id": "t1yp9nx9",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "在 [ 1 ] 模型中，每個使用者層級執行緒映射到一個核心執行緒。",
+   "text": "在 [1] 模型中，每個使用者層級執行緒映射到一個核心執行緒。",
    "hint": "請用小寫英文回答 字母間用-連接",
    "options": {},
    "answer": [
@@ -5356,9 +5352,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:03.412Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t4datgz": {
    "id": "t4datgz",
@@ -5962,11 +5957,11 @@
   "tujvlw2": {
    "id": "tujvlw2",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "在 [ 1 ] 模型中，多個使用者層級執行緒映射到單一核心執行緒。",
+   "text": "在 [1] 模型中，多個使用者層級執行緒映射到單一核心執行緒。",
    "hint": "請用小寫英文回答 字母間用-連接",
    "options": {},
    "answer": [
@@ -5977,9 +5972,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:28.908Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t1xvgkq": {
    "id": "t1xvgkq",
@@ -6216,7 +6210,7 @@
   "t1y0z276": {
    "id": "t1y0z276",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6231,14 +6225,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:02.924Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t1hi2kb": {
    "id": "t1hi2kb",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6253,14 +6246,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:54:08.796Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "t1iwhtbp": {
    "id": "t1iwhtbp",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6275,9 +6267,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:55:20.388Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "tbs1mup": {
    "id": "tbs1mup",
@@ -6563,11 +6554,11 @@
   "t13ioq3l": {
    "id": "t13ioq3l",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 是指一個系統可以同時執行一個以上的任務。",
+   "text": "[1] 是指一個系統可以同時執行一個以上的任務。",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [
@@ -6578,9 +6569,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:09.300Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   },
   "tx66paw": {
    "id": "tx66paw",
@@ -12570,6 +12560,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
    "updatedAt": "2026-10-20T01:18:49.180Z"
+  },
+  "t204uo5": {
+   "id": "t204uo5",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the advantages of Implicit Threading?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Reduces the programmer's burden of managing threads Thread creation and management are done by the compiler and runtime libraries Helps solve the issue of program correctness as the number of threads increases"
+   ],
+   "lines": [
+    "Reduces the programmer's burden of managing threads Thread creation and management are done by the compiler and runtime libraries Helps solve the issue of program correctness as the number of threads increases"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
+  },
+  "t14stvw7": {
+   "id": "t14stvw7",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "多執行緒伺服器架構中，當一個客戶端請求到達時，伺服器會做什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "創建一個新執行緒來服務請求"
+   ],
+   "lines": [
+    "創建一個新執行緒來服務請求"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:19:05.596Z",
+   "updatedAt": "2026-10-20T01:19:05.596Z"
   }
  }
 }
