@@ -8276,6 +8276,174 @@
    "source": "text",
    "createdAt": "2026-10-20T01:03:36.844Z",
    "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tya22xh": {
+   "id": "tya22xh",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Some systems implement a [1] used to store and retrieve configuration information.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "registry"
+   ],
+   "lines": [
+    "registry"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t1qboogl": {
+   "id": "t1qboogl",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In Unix systems, which system call is invoked underlying by the printf() library function?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "write()"
+   ],
+   "lines": [
+    "write()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t106rxfc": {
+   "id": "t106rxfc",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 UNIX 中，[1]包含在系統呼叫介面之下以及實體硬體之上的一切。 (用英文小寫回答 字母間請流一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "kernel"
+   ],
+   "lines": [
+    "kernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t1btbxyh": {
+   "id": "t1btbxyh",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "UNIX 的原始版本結構有限，它包含哪些部分？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "系統程式 核心"
+   ],
+   "lines": [
+    "系統程式 核心"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "trguuw": {
+   "id": "trguuw",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統的「保護與安全」服務包括哪些內容？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "控制對資訊的存取 確保所有對系統資源的存取都受到控制 透過使用者驗證來防禦外部人員 防止並行程序相互干擾"
+   ],
+   "lines": [
+    "控制對資訊的存取 確保所有對系統資源的存取都受到控制 透過使用者驗證來防禦外部人員 防止並行程序相互干擾"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t1kskyza": {
+   "id": "t1kskyza",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which mechanisms are mentioned as models for communication between processes?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Shared-memory model Message-passing model"
+   ],
+   "lines": [
+    "Shared-memory model Message-passing model"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t1yueh08": {
+   "id": "t1yueh08",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a multi-user or networked computer system, users may want to control the use of their information. Which operating system service does this relate to?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Protection and security"
+   ],
+   "lines": [
+    "Protection and security"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
+  },
+  "t15negod": {
+   "id": "t15negod",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following operating systems are considered hybrid systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Linux Windows Apple macOS"
+   ],
+   "lines": [
+    "Linux Windows Apple macOS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:46.404Z",
+   "updatedAt": "2026-10-20T01:03:46.404Z"
   }
  }
 }
