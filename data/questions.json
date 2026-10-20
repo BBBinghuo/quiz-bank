@@ -4399,7 +4399,7 @@
   "t1rb2e5b": {
    "id": "t1rb2e5b",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4414,9 +4414,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:50.748Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:14:39.684Z",
+   "updatedAt": "2026-10-20T01:14:39.684Z"
   },
   "t113xq2s": {
    "id": "t113xq2s",
@@ -12168,6 +12167,90 @@
    "source": "text",
    "createdAt": "2026-10-20T01:14:21.388Z",
    "updatedAt": "2026-10-20T01:14:21.388Z"
+  },
+  "t1uv5wz3": {
+   "id": "t1uv5wz3",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是作業系統提供給程序操作的機制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "程序創建 程序終止"
+   ],
+   "lines": [
+    "程序創建 程序終止"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:39.684Z",
+   "updatedAt": "2026-10-20T01:14:39.684Z"
+  },
+  "t16j73a0": {
+   "id": "t16j73a0",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In an operating system, what is a \"process\" defined as being in execution?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "an executing program"
+   ],
+   "lines": [
+    "an executing program"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:39.684Z",
+   "updatedAt": "2026-10-20T01:14:39.684Z"
+  },
+  "t1iyyj6": {
+   "id": "t1iyyj6",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個程序在記憶體中被組織成多個部分，其中[1]包含暫時性資料，如函式參數、回傳位址和區域變數。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "PCB"
+   ],
+   "lines": [
+    "PCB"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:39.684Z",
+   "updatedAt": "2026-10-20T01:14:39.684Z"
+  },
+  "t1ekvo6x": {
+   "id": "t1ekvo6x",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a process state diagram, what causes a transition from \"running\" to \"waiting\"?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "I/O or event wait"
+   ],
+   "lines": [
+    "I/O or event wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:14:39.684Z",
+   "updatedAt": "2026-10-20T01:14:39.684Z"
   }
  }
 }
