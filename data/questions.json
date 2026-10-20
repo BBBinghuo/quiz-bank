@@ -17468,6 +17468,531 @@
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
    "updatedAt": "2026-10-20T01:26:23.988Z"
+  },
+  "t19yngk4": {
+   "id": "t19yngk4",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種排程器負責將程序從磁碟載入到主記憶體中，以控制多重程式化的程度？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "長期排程器"
+   ],
+   "lines": [
+    "長期排程器"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1avyenl": {
+   "id": "t1avyenl",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是在 IPC 中，共享記憶體和訊息傳遞模型的區別？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
+   ],
+   "lines": [
+    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1tanmbi": {
+   "id": "t1tanmbi",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "程序的五種狀態是：新建立（new）、執行中（running）、等待中（waiting）、就緒（ready）和[1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "terminated"
+   ],
+   "lines": [
+    "terminated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t14cfbq": {
+   "id": "t14cfbq",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "普通管道(ordinary pipe)是[1]的，並且要求通訊程序之間有親子關係。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "unidirectional"
+   ],
+   "lines": [
+    "unidirectional"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "tvsooha": {
+   "id": "tvsooha",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個佇列圖可以代表什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "佇列 資源 流程"
+   ],
+   "lines": [
+    "佇列 資源 流程"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t4n4uhk": {
+   "id": "t4n4uhk",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是 Cooperating Process 的優點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "information sharing computation speedup modularity"
+   ],
+   "lines": [
+    "information sharing computation speedup modularity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t9hqeax": {
+   "id": "t9hqeax",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些原因可能導致父程序終止子程序？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
+   ],
+   "lines": [
+    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t723b2p": {
+   "id": "t723b2p",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "After a process completes its last statement, what system call does it use to request the operating system to delete it?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "exit()"
+   ],
+   "lines": [
+    "exit()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1fc1gvm": {
+   "id": "t1fc1gvm",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]抽象化了網路系統中程序之間的程序呼叫。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "remote procedure call"
+   ],
+   "lines": [
+    "remote procedure call"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1c5q454": {
+   "id": "t1c5q454",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當一個程序正在等待某個事件發生時，它的狀態是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "等待中"
+   ],
+   "lines": [
+    "等待中"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1al396m": {
+   "id": "t1al396m",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是通訊連結的實作問題？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
+   ],
+   "lines": [
+    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1f29lld": {
+   "id": "t1f29lld",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which term is often used interchangeably with \"process\"?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "job"
+   ],
+   "lines": [
+    "job"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t10wwr0r": {
+   "id": "t10wwr0r",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are multitasking limitations in the iOS mobile system?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "allows only one foreground process allows multiple background processes"
+   ],
+   "lines": [
+    "allows only one foreground process allows multiple background processes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "ta4x40": {
+   "id": "ta4x40",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Mach IPC system, the message passing system calls include msg_send(), msg_receive(), and [1].(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "msg_rpc()"
+   ],
+   "lines": [
+    "msg_rpc()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1dstb31": {
+   "id": "t1dstb31",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "I/O綁定型程序（I/O-bound process）的特徵是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "花費大部分時間進行I/O操作"
+   ],
+   "lines": [
+    "花費大部分時間進行I/O操作"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1neff7w": {
+   "id": "t1neff7w",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "中期排程器可以將一個程序從記憶體中移除並存儲到磁碟上，然後再將其帶回，這個過程稱為[1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "swapping"
+   ],
+   "lines": [
+    "swapping"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1uwcljo": {
+   "id": "t1uwcljo",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 UNIX 系統中，[1]系統呼叫在 fork() 之後使用，用來將程序的記憶體空間替換為一個新程式。",
+   "hint": "請用英文小寫回答",
+   "options": {},
+   "answer": [
+    "exec()"
+   ],
+   "lines": [
+    "exec()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t10tbdef": {
+   "id": "t10tbdef",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "iOS 行動系統提供一個單一的[1]程序，通過用戶介面進行控制。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "foreground"
+   ],
+   "lines": [
+    "foreground"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1cgcqeq": {
+   "id": "t1cgcqeq",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "UNIX系統中，哪一個系統呼叫用來替換程序的記憶體空間，載入一個新程式？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "exec()"
+   ],
+   "lines": [
+    "exec()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t2frm11": {
+   "id": "t2frm11",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是訊息傳遞中的同步化類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "blocking (synchronous) non-blocking (asynchronous)"
+   ],
+   "lines": [
+    "blocking (synchronous) non-blocking (asynchronous)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1wlqn7p": {
+   "id": "t1wlqn7p",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是遠端程序呼叫（RPC）的特點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "抽象化了網路系統中的程序呼叫 使用樁（stubs）來定位伺服器並封送參數 使用外部資料表示法（XDL）格式處理資料"
+   ],
+   "lines": [
+    "抽象化了網路系統中的程序呼叫 使用樁（stubs）來定位伺服器並封送參數 使用外部資料表示法（XDL）格式處理資料"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1hxryuk": {
+   "id": "t1hxryuk",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個花費大部分時間進行計算的程序被稱為[1]程序。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "cpu bound"
+   ],
+   "lines": [
+    "cpu bound"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t17odsmq": {
+   "id": "t17odsmq",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種管道（Pipes），它允許沒有親屬關係的程序之間進行通信？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "具名管道"
+   ],
+   "lines": [
+    "具名管道"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t46euxa": {
+   "id": "t46euxa",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "上下文切換（context switch）的時間屬於什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "系統的開銷"
+   ],
+   "lines": [
+    "系統的開銷"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "t1woey2h": {
+   "id": "t1woey2h",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which type of scheduler is responsible for selecting which processes to load into the ready queue?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "long-term scheduler"
+   ],
+   "lines": [
+    "long-term scheduler"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:26:42.812Z",
+   "updatedAt": "2026-10-20T01:26:42.812Z"
   }
  }
 }
