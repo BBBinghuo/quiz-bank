@@ -5722,7 +5722,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:42:59.924Z"
+   "updatedAt": "2026-10-20T00:54:48.588Z",
+   "deleted": true
   },
   "tgrwnt3": {
    "id": "tgrwnt3",
@@ -5870,7 +5871,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:42:59.924Z"
+   "updatedAt": "2026-10-20T00:54:50.620Z",
+   "deleted": true
   },
   "t15230km": {
    "id": "t15230km",
