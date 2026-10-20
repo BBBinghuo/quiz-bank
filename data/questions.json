@@ -4540,7 +4540,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:32:36.084Z"
+   "updatedAt": "2026-10-20T00:55:33.484Z",
+   "deleted": true
   },
   "t1fca7vd": {
    "id": "t1fca7vd",
@@ -5450,7 +5451,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:42:59.924Z"
+   "updatedAt": "2026-10-20T00:55:35.012Z",
+   "deleted": true
   },
   "t1cl3knt": {
    "id": "t1cl3knt",
@@ -5705,7 +5707,8 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:42:59.924Z"
+   "updatedAt": "2026-10-20T00:55:36.700Z",
+   "deleted": true
   },
   "t1hvcv1h": {
    "id": "t1hvcv1h",
