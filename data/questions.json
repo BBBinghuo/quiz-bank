@@ -4635,7 +4635,7 @@
   "ts7geel": {
    "id": "ts7geel",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4650,9 +4650,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:32:36.084Z",
-   "updatedAt": "2026-10-20T00:57:24.116Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t18m92tc": {
    "id": "t18m92tc",
@@ -5151,7 +5150,7 @@
   "t8gyys8": {
    "id": "t8gyys8",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5166,9 +5165,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:07.012Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t1cw0t0n": {
    "id": "t1cw0t0n",
@@ -5519,7 +5517,7 @@
   "t1cl3knt": {
    "id": "t1cl3knt",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5534,9 +5532,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:51:42.764Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t1cuatze": {
    "id": "t1cuatze",
@@ -5627,11 +5624,11 @@
   "t2c737o": {
    "id": "t2c737o",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "[ 1 ] 允許每個執行緒擁有自己的資料副本。",
+   "text": "[1] 允許每個執行緒擁有自己的資料副本。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "answer": [
@@ -5642,9 +5639,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:04.188Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "tuam3ni": {
    "id": "tuam3ni",
@@ -5802,7 +5798,7 @@
   "tgrwnt3": {
    "id": "tgrwnt3",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5817,9 +5813,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:15.236Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t1bzxoqm": {
    "id": "t1bzxoqm",
@@ -5846,7 +5841,7 @@
   "tnplsdl": {
    "id": "tnplsdl",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -5861,9 +5856,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:15.932Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "tt3s9ix": {
    "id": "tt3s9ix",
@@ -5911,11 +5905,11 @@
   "t1umdqc6": {
    "id": "t1umdqc6",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
-   "text": "There are three major user-level thread libraries: POSIX Pthreads, Win32 threads, and [ 1 ].(Please answer in lowercase English, leaving a space between each word)",
+   "text": "There are three major user-level thread libraries: POSIX Pthreads, Win32 threads, and [1].(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
    "answer": [
@@ -5926,9 +5920,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:56:35.660Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t1hy4332": {
    "id": "t1hy4332",
@@ -6360,7 +6353,7 @@
   "tv9x264": {
    "id": "tv9x264",
    "subject": "作業系統",
-   "chapter": "4",
+   "chapter": "5",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -6375,9 +6368,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:42:59.924Z",
-   "updatedAt": "2026-10-20T00:57:30.316Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   },
   "t1ohuhcc": {
    "id": "t1ohuhcc",
@@ -12506,6 +12498,48 @@
    "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
    "updatedAt": "2026-10-20T01:17:42.892Z"
+  },
+  "tzb1yki": {
+   "id": "tzb1yki",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些屬於使用者層級執行緒函式庫？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "POSIX Pthreads Win32 threads Java threads"
+   ],
+   "lines": [
+    "POSIX Pthreads Win32 threads Java threads"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
+  },
+  "t1m4a1mb": {
+   "id": "t1m4a1mb",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the characteristics of deferred cancellation?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Allows the target thread to periodically check if it should be canceled Cancellation only occurs when the thread reaches a cancellation point It is the default cancellation type for Pthreads"
+   ],
+   "lines": [
+    "Allows the target thread to periodically check if it should be canceled Cancellation only occurs when the thread reaches a cancellation point It is the default cancellation type for Pthreads"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:18:38.772Z",
+   "updatedAt": "2026-10-20T01:18:38.772Z"
   }
  }
 }
