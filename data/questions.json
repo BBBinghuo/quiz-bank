@@ -4211,7 +4211,7 @@
   "t12886xh": {
    "id": "t12886xh",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4226,14 +4226,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:00.260Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
   },
   "t1j0aeva": {
    "id": "t1j0aeva",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4248,9 +4247,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:47.572Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
   },
   "t14wqq94": {
    "id": "t14wqq94",
@@ -4340,7 +4338,7 @@
   "t177yr8h": {
    "id": "t177yr8h",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4355,14 +4353,13 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:57:59.420Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
   },
   "tssxnw9": {
    "id": "tssxnw9",
    "subject": "作業系統",
-   "chapter": "3",
+   "chapter": "4",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -4377,9 +4374,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T00:29:53.332Z",
-   "updatedAt": "2026-10-20T00:58:16.524Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
   },
   "te0xb9q": {
    "id": "te0xb9q",
@@ -11670,6 +11666,111 @@
    "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
    "updatedAt": "2026-10-20T01:12:25.188Z"
+  },
+  "t1gvkxy0": {
+   "id": "t1gvkxy0",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are characteristics of Ordinary Pipes?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "communication is unidirectional requires a parent-child relationship"
+   ],
+   "lines": [
+    "communication is unidirectional requires a parent-child relationship"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
+  },
+  "tru02xt": {
+   "id": "tru02xt",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Synchronization in message passing can be [1] or non-blocking synchronous. (Please answer in lowercase English and leave a blank between words)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "blocking synchronous"
+   ],
+   "lines": [
+    "blocking synchronous"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
+  },
+  "t44gxk3": {
+   "id": "t44gxk3",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are mechanisms provided by the operating system for process manipulation?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "process creation process termination"
+   ],
+   "lines": [
+    "process creation process termination"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
+  },
+  "tum9i3i": {
+   "id": "tum9i3i",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What happens if a child process remains after its parent process has terminated?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "orphan process"
+   ],
+   "lines": [
+    "orphan process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
+  },
+  "t1fixto7": {
+   "id": "t1fixto7",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "一個[1]被定義為通訊的端點，由 IP 位址和連接埠的組合而成。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "socket"
+   ],
+   "lines": [
+    "socket"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:12:37.180Z",
+   "updatedAt": "2026-10-20T01:12:37.180Z"
   }
  }
 }
