@@ -598,6 +598,7 @@ function cardHTML(q, o = {}) {
     ${!editing && q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}
     ${editing || o.readonly ? '' : `<div class="card-actions">
       <button data-act="edit" data-id="${esc(q.id)}">${hasAnswer(q) ? '修改解答' : '✏️ 填寫解答'}</button>
+      ${o.moveable ? moveHTML(q) : ''}
       ${o.noDelete ? '' : `<button class="danger" data-act="delete" data-id="${esc(q.id)}">刪除</button>`}
     </div>`}
   </div>`;
@@ -853,11 +854,13 @@ function textResultHTML(t) {
   const cards = report.map((r, n) => {
     const q = DB.questions[r.id];
     if (!q) return '';
+    if (q.deleted) return `<div class="card muted">第 ${n + 1} 題已${q.mergedInto ? '併入有選項的題目' : '刪除'}：${esc(q.text.slice(0, 40))}</div>`;
     const [cls, label] = TEXT_STATUS[r.status];
     const extra = `<span class="tag ${cls}">${label}</span>`;
     const refs = r.status === 'conflict' ? [r.e.lines.join(' / ')] : [];
-    return cardHTML(q, { prefix: `<div class="muted">第 ${n + 1} 題</div>`, extraTags: extra, refs, noDelete: r.status !== 'new', cls: r.status === 'conflict' ? 'new' : '' });
+    return cardHTML(q, { prefix: `<div class="muted">第 ${n + 1} 題</div>`, extraTags: extra, refs, moveable: true, cls: r.status === 'conflict' ? 'new' : '' });
   }).join('');
+  const newIds = report.filter(r => r.status === 'new' || r.status === 'ambiguous').map(r => r.id);
   return `<div class="panel">
     <h2>${esc(t.title)}：${esc(t.subject)} › ${esc(t.chapter)}</h2>
     ${t.filename ? `<div class="muted">${esc(t.filename)}</div>` : ''}
@@ -870,14 +873,71 @@ function textResultHTML(t) {
     </div>
     <p class="muted" style="font-size:.9em">題庫還沒有的題目會先存成答案紀錄（標示「選項未知」）；之後匯入練習頁 HTML 時，會依題目自動對應到選項並補上解答。</p>`
     : '<p class="muted">這個檔案裡找不到題目。</p>'}
+    ${bulkBarHTML(t.subject, t.chapter, newIds, 'text', (view.textResults || []).indexOf(t))}
   </div>${cards}`;
+}
+
+/* ===== 匯入錯了：移動章節或刪除 ===== */
+function targetOptions(selSubject, selChapter) {
+  return getSubjects().map(s => {
+    const chs = chaptersOf(s);
+    if (!chs.length) return '';
+    return `<optgroup label="${esc(s)}">` + chs.map(c =>
+      `<option value="${esc(s + '||' + c)}" ${s === selSubject && c === selChapter ? 'selected' : ''}>${esc(s)} › ${esc(c)}</option>`).join('') + '</optgroup>';
+  }).join('');
+}
+function moveHTML(q) {
+  return `<select class="move-target" title="移動到哪個章節">${targetOptions(subjectOf(q), q.chapter)}</select>
+    <button data-act="move-one" data-id="${esc(q.id)}">移動</button>`;
+}
+function bulkBarHTML(subject, chapter, newIds, kind, idx) {
+  const ids = newIds.filter(id => DB.questions[id] && !DB.questions[id].deleted);
+  if (!ids.length) return '';
+  return `<div class="row bulk">
+    <span class="muted">本次新增的 ${ids.length} 題：</span>
+    <select class="bulk-target">${targetOptions(subject, chapter)}</select>
+    <button data-act="bulk-move" data-kind="${kind}" data-idx="${idx}">全部移到這個章節</button>
+    <button class="danger" data-act="bulk-delete" data-kind="${kind}" data-idx="${idx}">全部刪除</button>
+  </div>`;
+}
+function bulkIds(kind, idx) {
+  if (kind === 'quiz') return ((view.importResults || [])[idx]?.items || []).filter(i => i.added).map(i => i.dbId);
+  return ((view.textResults || [])[idx]?.report || []).filter(r => r.status === 'new' || r.status === 'ambiguous').map(r => r.id);
+}
+function moveQuestions(ids, value) {
+  const [subject, chapter] = String(value).split('||');
+  if (!subject || !chapter) return 0;
+  const now = nowISO();
+  let n = 0;
+  for (const id of ids) {
+    const q = DB.questions[id];
+    if (!q || q.deleted || (subjectOf(q) === subject && q.chapter === chapter)) continue;
+    DB.questions[id] = { ...q, subject, chapter, level: '', updatedAt: now };
+    n++;
+  }
+  if (n) commit();
+  toast(n ? `已移動 ${n} 題到 ${subject} › ${chapter}` : '已經在這個章節了');
+  return n;
+}
+function deleteQuestions(ids) {
+  const live = ids.filter(id => DB.questions[id] && !DB.questions[id].deleted);
+  if (!live.length || !confirm(`確定要刪除這 ${live.length} 題嗎？`)) return;
+  const now = nowISO();
+  for (const id of live) DB.questions[id] = { ...DB.questions[id], deleted: true, updatedAt: now };
+  commit();
+  toast(`已刪除 ${live.length} 題`);
+}
+function setResultTarget(kind, idx, value) {
+  const [subject, chapter] = String(value).split('||');
+  const r = kind === 'quiz' ? (view.importResults || [])[idx] : (view.textResults || [])[idx];
+  if (r && subject && chapter) { r.subject = subject; r.chapter = chapter; }
 }
 
 function renderImport() {
   const box = $('#import-results');
   const texts = (view.textResults || []).map(textResultHTML).join('');
   const res = view.importResults || [];
-  box.innerHTML = texts + res.map(r => {
+  box.innerHTML = texts + res.map((r, idx) => {
     if (r.error || !r.items.length) {
       return `<div class="panel"><h2>${esc(r.filename)}</h2><p class="muted">${r.error ? '讀取失敗：' + esc(r.error) : '這個檔案裡找不到題目。請確認是練習頁面存下來的 HTML。'}</p></div>`;
     }
@@ -888,16 +948,18 @@ function renderImport() {
       const q = DB.questions[it.dbId];
       const prefix = `<div class="muted">第 ${n + 1} 題</div>`;
       if (!q || q.deleted) {
-        // 沒加入題庫的新題目：只顯示，不能編輯
+        // 沒加入題庫（或剛刪掉）的題目：只顯示，不能編輯
         const tmp = { ...it, subject: r.subject, chapter: r.chapter, level: r.level, difficulty: r.difficulty, answer: [] };
         const refs = refsFor(tmp, it.display);
-        return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: '<span class="tag warn">題庫沒有</span>', readonly: true, refs });
+        const tag = q && q.deleted ? '<span class="tag warn">已刪除</span>' : '<span class="tag warn">題庫沒有</span>';
+        return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: tag, readonly: true, refs });
       }
       let tag = it.status === 'new' ? '<span class="tag warn">新加入</span>' : '<span class="tag ok">題庫已有</span>';
       if (it.autoFilled) tag += '<span class="tag ok">已用文字題庫補上解答</span>';
       const refs = hasAnswer(q) ? [] : refsFor(q, it.display);
-      return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, noDelete: true, refs });
+      return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, refs, moveable: true });
     }).join('');
+    const newIds = r.items.filter(i => i.added).map(i => i.dbId);
     return `<div class="panel">
       <h2>${esc(r.subject)} › ${esc(r.chapter)}${r.level ? `（${esc(r.level)}）` : ''}${r.difficulty ? ` · ${esc(r.difficulty)}` : ''}</h2>
       <div class="muted">${esc(r.filename)}</div>
@@ -907,6 +969,7 @@ function renderImport() {
         <div class="stat">其中有解答 <b>${withAns.length}</b> 題</div>
         <div class="stat">本次新增 <b>${added}</b> 題</div>
       </div>
+      ${bulkBarHTML(r.subject, r.chapter, newIds, 'quiz', idx)}
     </div>${cards}`;
   }).join('');
 }
@@ -1246,6 +1309,14 @@ document.addEventListener('click', e => {
     case 'cancel-edit': view.editing = null; rerenderAfterEdit(); break;
     case 'save-edit': saveEdit(id, el.closest('.card')); if (view.tab === 'practice') renderPractice(); break;
     case 'delete': deleteQuestion(id); break;
+    case 'move-one': moveQuestions([id], $('.move-target', el.closest('.card')).value); rerenderAfterEdit(); break;
+    case 'bulk-move': {
+      const value = $('.bulk-target', el.closest('.bulk')).value;
+      if (moveQuestions(bulkIds(el.dataset.kind, +el.dataset.idx), value)) setResultTarget(el.dataset.kind, +el.dataset.idx, value);
+      renderImport();
+      break;
+    }
+    case 'bulk-delete': deleteQuestions(bulkIds(el.dataset.kind, +el.dataset.idx)); renderImport(); break;
     case 'ps-all': $$('#practice-root input.pick').forEach(i => { i.checked = true; }); updatePracticeCount(); break;
     case 'ps-none': $$('#practice-root input.pick').forEach(i => { i.checked = false; }); updatePracticeCount(); break;
     case 'ps-start': startPractice(); break;
