@@ -16334,6 +16334,111 @@
    "source": "text",
    "createdAt": "2026-10-20T01:24:25.836Z",
    "updatedAt": "2026-10-20T01:24:25.836Z"
+  },
+  "t1fdmswl": {
+   "id": "t1fdmswl",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "遞迴樹法中，若每一層成本相等，且有 log n 層，總成本為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n log n)"
+   ],
+   "lines": [
+    "O(n log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:33.172Z",
+   "updatedAt": "2026-10-20T01:24:33.172Z"
+  },
+  "tazedth": {
+   "id": "tazedth",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "代入法需確保初始 [1] 也滿足",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "conditions"
+   ],
+   "lines": [
+    "conditions"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:33.172Z",
+   "updatedAt": "2026-10-20T01:24:33.172Z"
+  },
+  "t1xwjq7x": {
+   "id": "t1xwjq7x",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在遞迴求解時，若猜測解不準確，我們應該？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "改善解的上下界並縮小差距"
+   ],
+   "lines": [
+    "改善解的上下界並縮小差距"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:33.172Z",
+   "updatedAt": "2026-10-20T01:24:33.172Z"
+  },
+  "t4694zc": {
+   "id": "t4694zc",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "「忽略技術細節」(neglecting technical details)在演算法分析中代表？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "捨棄對漸進複雜度無影響的因素"
+   ],
+   "lines": [
+    "捨棄對漸進複雜度無影響的因素"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:33.172Z",
+   "updatedAt": "2026-10-20T01:24:33.172Z"
+  },
+  "tgwf0jb": {
+   "id": "tgwf0jb",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些技術常用來改善遞迴解的猜測？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "觀察遞迴樹結構 利用歸納法證明 觀察小樣本數據"
+   ],
+   "lines": [
+    "觀察遞迴樹結構 利用歸納法證明 觀察小樣本數據"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:24:33.172Z",
+   "updatedAt": "2026-10-20T01:24:33.172Z"
   }
  }
 }
