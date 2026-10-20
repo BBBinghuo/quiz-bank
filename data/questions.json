@@ -9998,6 +9998,153 @@
    "source": "text",
    "createdAt": "2026-10-20T01:07:23.244Z",
    "updatedAt": "2026-10-20T01:07:23.244Z"
+  },
+  "t1t2zbay": {
+   "id": "t1t2zbay",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the small piece of code stored in ROM that locates the kernel and loads it into memory during boot?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bootstrap loader"
+   ],
+   "lines": [
+    "Bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t279vi5": {
+   "id": "t279vi5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following is a commonly used shell on UNIX systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bash"
+   ],
+   "lines": [
+    "Bash"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t1ksrmes": {
+   "id": "t1ksrmes",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "網頁瀏覽器底層常用的排版與核心渲染引擎架構（如 Android 內建程式庫所含）名為 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "webkit"
+   ],
+   "lines": [
+    "webkit"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t1c3ser0": {
+   "id": "t1c3ser0",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Android 系統底層核心是：",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Linux"
+   ],
+   "lines": [
+    "Linux"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t19mbbd5": {
+   "id": "t19mbbd5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些系統呼叫屬於 Unix/Linux 系統中的「檔案管理（File Management）」範疇？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "open() read() write()"
+   ],
+   "lines": [
+    "open() read() write()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "ttzx2pl": {
+   "id": "ttzx2pl",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The Win32 API used to set security permissions on a file is [1].(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "setfilesecurity()"
+   ],
+   "lines": [
+    "setfilesecurity()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
+  },
+  "t1skvnbw": {
+   "id": "t1skvnbw",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In OS design, it is an important principle to separate [1] and [2].(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "policy/mechanism"
+   ],
+   "lines": [
+    "policy/mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:07:36.588Z",
+   "updatedAt": "2026-10-20T01:07:36.588Z"
   }
  }
 }
