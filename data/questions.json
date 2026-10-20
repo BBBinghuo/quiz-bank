@@ -17993,6 +17993,720 @@
    "source": "text",
    "createdAt": "2026-10-20T01:26:42.812Z",
    "updatedAt": "2026-10-20T01:26:42.812Z"
+  },
+  "twcqke1": {
+   "id": "twcqke1",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "程序控制區塊（PCB）包含與每個程序相關的資訊，也被稱為[1]。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "process control block"
+   ],
+   "lines": [
+    "process control block"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tcpgupv": {
+   "id": "tcpgupv",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]問題是合作程序的一種範式，其中一個程序產生資訊，而另一個程序消耗該資訊。",
+   "hint": "請用小寫英文回答 單字間用 - 連接",
+   "options": {},
+   "answer": [
+    "producer-consumer"
+   ],
+   "lines": [
+    "producer-consumer"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tbgcr2t": {
+   "id": "tbgcr2t",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are characteristics of Ordinary Pipes?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "communication is unidirectional requires a parent-child relationship"
+   ],
+   "lines": [
+    "communication is unidirectional requires a parent-child relationship"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t1x1l5f": {
+   "id": "t1x1l5f",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]充當一個通道，允許兩個程序通訊。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "pipe"
+   ],
+   "lines": [
+    "pipe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tw8fnn": {
+   "id": "tw8fnn",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在訊息傳遞模型中，阻塞式傳送（blocking send）意味著什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "傳送者被阻塞直到訊息被接收"
+   ],
+   "lines": [
+    "傳送者被阻塞直到訊息被接收"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t1mr9cav": {
+   "id": "t1mr9cav",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "共享記憶體（Shared memory）通訊模型的主要問題是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "同步"
+   ],
+   "lines": [
+    "同步"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "td5yctk": {
+   "id": "td5yctk",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在作業系統中，一個程式被載入到記憶體中後會變成什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "一個程序"
+   ],
+   "lines": [
+    "一個程序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t1pit9pc": {
+   "id": "t1pit9pc",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "如果一個子程序在父程序終止後仍然存在，且父程序未呼叫 wait()，這會導致該子程序成為一個 [1]程序。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "orphan"
+   ],
+   "lines": [
+    "orphan"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t1m8ppvm": {
+   "id": "t1m8ppvm",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A named pipe is more powerful than an ordinary pipe because its communication is [1] and it does not require a parent-child relationship.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bidirectional"
+   ],
+   "lines": [
+    "bidirectional"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t6dmjb3": {
+   "id": "t6dmjb3",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are different types of processes in the Chrome browser's multi-process architecture?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "browser process renderer process plug-in process"
+   ],
+   "lines": [
+    "browser process renderer process plug-in process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tsrq0ca": {
+   "id": "tsrq0ca",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The medium-term scheduler can remove a process from memory and store it on a disk, then bring it back in, a process called [1]. (Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "swapping"
+   ],
+   "lines": [
+    "swapping"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tfgvnf3": {
+   "id": "tfgvnf3",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "訊息傳遞設施提供的兩種操作是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "發送訊息 接收訊息"
+   ],
+   "lines": [
+    "發送訊息 接收訊息"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "ti6nc1x": {
+   "id": "ti6nc1x",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是程序狀態？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "new ready running waiting"
+   ],
+   "lines": [
+    "new ready running waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t6bwjbw": {
+   "id": "t6bwjbw",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a Remote Procedure Call (RPC), the [1] is the client-side proxy for the actual procedure on the server.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "stubs"
+   ],
+   "lines": [
+    "stubs"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tkcksq6": {
+   "id": "tkcksq6",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在程序狀態圖中，從「執行中」轉換到「等待中」的原因是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "I/O 或事件等待"
+   ],
+   "lines": [
+    "I/O 或事件等待"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "tn7tchp": {
+   "id": "tn7tchp",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種 IPC 系統被描述為「訊息傳遞中心」，程序可以在其中收發訊息？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "信箱（Mailbox）"
+   ],
+   "lines": [
+    "信箱（Mailbox）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "thep4dr": {
+   "id": "thep4dr",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在共享記憶體通訊中，主要的問題是為用戶程序提供一個機制，使其在存取共享記憶體時能夠[1]其動作。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "synchronize"
+   ],
+   "lines": [
+    "synchronize"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t1xakgtf": {
+   "id": "t1xakgtf",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在間接通訊（indirect communication）中，以下哪些敘述是正確的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
+   ],
+   "lines": [
+    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:03.348Z",
+   "updatedAt": "2026-10-20T01:27:03.348Z"
+  },
+  "t19fuzxj": {
+   "id": "t19fuzxj",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "連結上沒有訊息排隊。發送方必須等待接收方的這種無空間的緩衝方式叫做 [1]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "rendezvous"
+   ],
+   "lines": [
+    "rendezvous"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "tsthx8t": {
+   "id": "tsthx8t",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "請選出訊息傳遞的佇列有三種實作的方式",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Zero capacity Bounded capacity Unbounded capacity"
+   ],
+   "lines": [
+    "Zero capacity Bounded capacity Unbounded capacity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t18unxx3": {
+   "id": "t18unxx3",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "父程序創建子程序時，可能的資源共享選項有哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "父子程序共享所有資源 子程序共享父程序資源的子集 父子程序不共享資源"
+   ],
+   "lines": [
+    "父子程序共享所有資源 子程序共享父程序資源的子集 父子程序不共享資源"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "tlgor07": {
+   "id": "tlgor07",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是作業系統中的佇列？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "作業佇列 就緒佇列 設備佇列"
+   ],
+   "lines": [
+    "作業佇列 就緒佇列 設備佇列"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t11kf798": {
+   "id": "t11kf798",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是程序的執行選項？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "父子程序並行執行 父程序等待子程序終止"
+   ],
+   "lines": [
+    "父子程序並行執行 父程序等待子程序終止"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "twz847d": {
+   "id": "twz847d",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪種排程器負責選擇要進入就緒佇列的程序？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "長期排程器"
+   ],
+   "lines": [
+    "長期排程器"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "td5snir": {
+   "id": "td5snir",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What happens if a child process remains after its parent process has terminated?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "orphan process"
+   ],
+   "lines": [
+    "orphan process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "ttz2goa": {
+   "id": "ttz2goa",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A [1] acts as a conduit that allows two processes to communicate.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "pipe"
+   ],
+   "lines": [
+    "pipe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t5oiyvf": {
+   "id": "t5oiyvf",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "花費大部分時間進行 I/O 操作的程序被稱為哪一種類型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "I/O綁定型程序"
+   ],
+   "lines": [
+    "I/O綁定型程序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t1fqho5c": {
+   "id": "t1fqho5c",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是程序之間通訊的兩種模型？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "共享記憶體 訊息傳遞"
+   ],
+   "lines": [
+    "共享記憶體 訊息傳遞"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "tfa509h": {
+   "id": "tfa509h",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在程序狀態圖中，從「就緒」狀態轉換到「執行中」狀態是由誰完成的？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "排程器分派"
+   ],
+   "lines": [
+    "排程器分派"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t1uzzo1g": {
+   "id": "t1uzzo1g",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "訊息傳遞中的同步化可以是[1]或 non-blocking synchronous。 (Please answer in lowercase English and leave a blank between words)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "blocking synchronous"
+   ],
+   "lines": [
+    "blocking synchronous"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t5ynkxh": {
+   "id": "t5ynkxh",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Windows 的 IPC 系統中，通訊是透過進階的[1]設施進行的。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "LPC"
+   ],
+   "lines": [
+    "LPC"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "twa31wz": {
+   "id": "twa31wz",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is a characteristic of an CPU-bound process?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "spends most of its time computing"
+   ],
+   "lines": [
+    "spends most of its time computing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t14r87e7": {
+   "id": "t14r87e7",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A [1] is defined as an endpoint for communication, a combination of an IP address and a port.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "socket"
+   ],
+   "lines": [
+    "socket"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
+  },
+  "t7jdohu": {
+   "id": "t7jdohu",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "長期排程器控制[1]的程度，該名詞指的是在記憶體中同時存在的程序數量。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "multiprogramming"
+   ],
+   "lines": [
+    "multiprogramming"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:27:12.284Z",
+   "updatedAt": "2026-10-20T01:27:12.284Z"
   }
  }
 }
