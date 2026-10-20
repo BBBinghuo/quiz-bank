@@ -21269,6 +21269,111 @@
    "source": "text",
    "createdAt": "2026-10-20T01:31:45.084Z",
    "updatedAt": "2026-10-20T01:31:45.084Z"
+  },
+  "t152ktdn": {
+   "id": "t152ktdn",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2,5,3,0,2,3,0,3 做到第9行前 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 0 0 0 0 0 0/2 2 4 7 7 8"
+   ],
+   "lines": [
+    "0 0 0 0 0 0 0 0/2 2 4 7 7 8"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:32:01.996Z",
+   "updatedAt": "2026-10-20T01:32:01.996Z"
+  },
+  "tca3ov4": {
+   "id": "tca3ov4",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的BUCKET_SORT 演算法。\nBUCKET_SORT(A) 1 n <- length[A] 2 for i <- 1 to n 3 do insert A[i] into list B[⌊nA[i]⌋] 4 for i <- 0 to n-1 5 do sort list B[i] with insertion sort 6 concatenate B[0], B[1], ..., B[n-1] together in order A陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68 第2行做到 i=7 B 陣列的內容如何 B陣列的B[1]B[2]B[7] 的內容為何[1][2][3] 格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0.17/0.26 0.21/0.78 0.72"
+   ],
+   "lines": [
+    "0.17/0.26 0.21/0.78 0.72"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:32:01.996Z",
+   "updatedAt": "2026-10-20T01:32:01.996Z"
+  },
+  "t8oc03b": {
+   "id": "t8oc03b",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "決策樹中的每一個葉節點代表？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "一種可能的排序排列"
+   ],
+   "lines": [
+    "一種可能的排序排列"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:32:01.996Z",
+   "updatedAt": "2026-10-20T01:32:01.996Z"
+  },
+  "t1p9ktmq": {
+   "id": "t1p9ktmq",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序（Bucket Sort）假設輸入資料分佈為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "均勻分佈"
+   ],
+   "lines": [
+    "均勻分佈"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:32:08.732Z",
+   "updatedAt": "2026-10-20T01:32:08.732Z"
+  },
+  "t1t2cgb": {
+   "id": "t1t2cgb",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "線性時間排序演算法包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Counting Sort Radix Sort Bucket Sort"
+   ],
+   "lines": [
+    "Counting Sort Radix Sort Bucket Sort"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:32:08.732Z",
+   "updatedAt": "2026-10-20T01:32:08.732Z"
   }
  }
 }
