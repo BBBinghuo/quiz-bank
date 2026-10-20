@@ -20156,6 +20156,27 @@
    "source": "text",
    "createdAt": "2026-10-20T01:29:58.732Z",
    "updatedAt": "2026-10-20T01:29:58.732Z"
+  },
+  "t1kc2rba": {
+   "id": "t1kc2rba",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序在最差情況（Worst-case）下的時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n²)"
+   ],
+   "lines": [
+    "O(n²)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:30:08.996Z",
+   "updatedAt": "2026-10-20T01:30:08.996Z"
   }
  }
 }
