@@ -20618,6 +20618,342 @@
    "source": "text",
    "createdAt": "2026-10-20T01:30:44.348Z",
    "updatedAt": "2026-10-20T01:30:44.348Z"
+  },
+  "t1xi6jtw": {
+   "id": "t1xi6jtw",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些情況下不適合使用計數排序(Counting Sort)？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "鍵值範圍 k 極大 鍵值為浮點數 記憶體非常有限"
+   ],
+   "lines": [
+    "鍵值範圍 k 極大 鍵值為浮點數 記憶體非常有限"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1peyz6f": {
+   "id": "t1peyz6f",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序中(Bucket Sort)，每個桶內部的排序通常使用？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "插入排序"
+   ],
+   "lines": [
+    "插入排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1w3gd8m": {
+   "id": "t1w3gd8m",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "決策樹模型證明了？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "比較排序的極限"
+   ],
+   "lines": [
+    "比較排序的極限"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "tgttzqg": {
+   "id": "tgttzqg",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "基數排序(Radix Sort)中，變數 r 的含義通常為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "處理的位數區段長度"
+   ],
+   "lines": [
+    "處理的位數區段長度"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "tt9d4co": {
+   "id": "tt9d4co",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序(Bucket Sort)適合處理？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "均勻分佈數據 區間範圍明確數據 需要線性效能數據"
+   ],
+   "lines": [
+    "均勻分佈數據 區間範圍明確數據 需要線性效能數據"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1eqhxw5": {
+   "id": "t1eqhxw5",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計數排序（Counting Sort）要求輸入元素必須是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "整數"
+   ],
+   "lines": [
+    "整數"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1utumm6": {
+   "id": "t1utumm6",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2,5,3,0,2,3,0,3 做到第9行 的 j = 2 時 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 2 3 3 3 3 0/0 2 3 4 7 7"
+   ],
+   "lines": [
+    "0 0 2 3 3 3 3 0/0 2 3 4 7 7"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "tmwyi2v": {
+   "id": "tmwyi2v",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序(Bucket Sort)中，若資料均勻分佈，預期時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Θ(n)"
+   ],
+   "lines": [
+    "Θ(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t2duw8t": {
+   "id": "t2duw8t",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的BUCKET_SORT 演算法。\nBUCKET_SORT(A) 1 n <- length[A] 2 for i <- 1 to n 3 do insert A[i] into list B[⌊nA[i]⌋] 4 for i <- 0 to n-1 5 do sort list B[i] with insertion sort 6 concatenate B[0], B[1], ..., B[n-1] together in order A陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68 第4行做到 i=5 B 陣列的內容如何 B陣列的B[1]B[2]B[6] 的內容為何[1][2][3] 格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0.12 0.17/0.21 0.23 0.26/0.68"
+   ],
+   "lines": [
+    "0.12 0.17/0.21 0.23 0.26/0.68"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1v5dj8k": {
+   "id": "t1v5dj8k",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的BUCKET_SORT 演算法。\nBUCKET_SORT(A) 1 n <- length[A] 2 for i <- 1 to n 3 do insert A[i] into list B[⌊nA[i]⌋] 4 for i <- 0 to n-1 5 do sort list B[i] with insertion sort 6 concatenate B[0], B[1], ..., B[n-1] together in order A陣列的內容為 0.78,0.17,0.39,0.26,0.72,0.94,0.21,0.12,0.23,0.68 第4行做到 i=7 B 陣列的內容如何 B陣列的B[1]B[2]B[7] 的內容為何[1][2][3] 格式: 0.2,0.5,0.3,0.1,0.2,0.3,0.5,0.3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0.12 0.17/0.21 0.23 0.26/0.78 0.72"
+   ],
+   "lines": [
+    "0.12 0.17/0.21 0.23 0.26/0.78 0.72"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1lp4ic1": {
+   "id": "t1lp4ic1",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "桶排序(Bucket Sort)處理過程包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "分配至各桶 分別對桶排序 合併桶"
+   ],
+   "lines": [
+    "分配至各桶 分別對桶排序 合併桶"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1xykm2o": {
+   "id": "t1xykm2o",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計數排序(Counting Sort)的空間複雜度主要取決於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "參數 k (數值範圍)"
+   ],
+   "lines": [
+    "參數 k (數值範圍)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "tw9q7xm": {
+   "id": "tw9q7xm",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "計數排序(Counting Sort)需要哪幾個輔助陣列？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "C (用於計數) B (用於存放結果)"
+   ],
+   "lines": [
+    "C (用於計數) B (用於存放結果)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t1d1ivzi": {
+   "id": "t1d1ivzi",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2, 5, 3, 0, 2, 3, 0, 5, 1, 2, 1, 3, 2, 0, 4. 做到第9行前 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0/3 5 9 12 13 15"
+   ],
+   "lines": [
+    "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0/3 5 9 12 13 15"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "to2mep6": {
+   "id": "to2mep6",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的COUNTING_SORT演算法。\nCOUNTING_SORT(A, B, k) 1 for i <- 1 to k 2 do c[i] <- 0 3 for j <- 1 to length[A] 4 do c[A[j]] <- c[A[j]] + 1 5 > c[i] now contains the number of elements equal to i 6 for i <- 2 to k 7 do c[i] <- c[i] + c[i-1] 8 > c[i] now contains the number of elements less than or equal to i 9 for j <- length[A] downto 1 10 do B[c[A[j]]] <- A[j] 11 c[A[j]] <- c[A[j]] - 1 A陣列的內容為 2, 5, 3, 0, 2, 3, 0, 5, 1, 2, 1, 3, 2, 0, 4. 做到第9行 j = 4 B陣列的內容為何[1] 格式: 2,5,3,0,2,3,0,3 C陣列的內容為何[2] 格式: 2,5,3,0,2,3,0,3",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "0 0 0 1 1 0 2 2 2 0 3 3 4 0 5/1 3 6 10 12 14"
+   ],
+   "lines": [
+    "0 0 0 1 1 0 2 2 2 0 3 3 4 0 5/1 3 6 10 12 14"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
+  },
+  "t9682ur": {
+   "id": "t9682ur",
+   "subject": "演算法",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者不是線性時間排序演算法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "快速排序"
+   ],
+   "lines": [
+    "快速排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:31:08.572Z",
+   "updatedAt": "2026-10-20T01:31:08.572Z"
   }
  }
 }
