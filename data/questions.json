@@ -20072,6 +20072,27 @@
    "source": "text",
    "createdAt": "2026-10-20T01:29:18.588Z",
    "updatedAt": "2026-10-20T01:29:18.588Z"
+  },
+  "t13zvqtg": {
+   "id": "t13zvqtg",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 partition 函數中，pivot 的值為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "x"
+   ],
+   "lines": [
+    "x"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:29:28.012Z",
+   "updatedAt": "2026-10-20T01:29:28.012Z"
   }
  }
 }
