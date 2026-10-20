@@ -10670,6 +10670,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:10:13.420Z",
    "updatedAt": "2026-10-20T01:10:13.420Z"
+  },
+  "trgij5k": {
+   "id": "trgij5k",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統中的「保護」服務與對[1]存取的控制有關。(用英文小寫回答 字母間請留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "system resources"
+   ],
+   "lines": [
+    "system resources"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "t1mjnico": {
+   "id": "t1mjnico",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following programs are provided as programming-language support or loading/execution system programs?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Compilers Linkage editors Debuggers"
+   ],
+   "lines": [
+    "Compilers Linkage editors Debuggers"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "tdmfjcr": {
+   "id": "tdmfjcr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統的哪項服務確保所有對系統資源的存取都受到控制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Protection and security"
+   ],
+   "lines": [
+    "Protection and security"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "t82fcnb": {
+   "id": "t82fcnb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following operating systems is a representative example of a microkernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mach"
+   ],
+   "lines": [
+    "Mach"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "tnu4s9g": {
+   "id": "tnu4s9g",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which statements accurately describe the multitasking program execution in FreeBSD/Unix?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "User login invokes user's choice of shell Shell executes fork() to create process Executes exec() to load program into process"
+   ],
+   "lines": [
+    "User login invokes user's choice of shell Shell executes fork() to create process Executes exec() to load program into process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
+  },
+  "tjld3hz": {
+   "id": "tjld3hz",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The acronym for Command-Line Interface is [1], and for Graphical User Interface is [2].(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "cli/gui"
+   ],
+   "lines": [
+    "cli/gui"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:10:29.564Z",
+   "updatedAt": "2026-10-20T01:10:29.564Z"
   }
  }
 }
