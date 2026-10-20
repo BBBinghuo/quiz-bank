@@ -20093,6 +20093,27 @@
    "source": "text",
    "createdAt": "2026-10-20T01:29:28.012Z",
    "updatedAt": "2026-10-20T01:29:28.012Z"
+  },
+  "t5qp98": {
+   "id": "t5qp98",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "PARTITION 執行後的性質包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "所有左側元素 <= pivot 所有右側元素 > pivot Pivot 位於 q 位置"
+   ],
+   "lines": [
+    "所有左側元素 <= pivot 所有右側元素 > pivot Pivot 位於 q 位置"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:29:47.100Z",
+   "updatedAt": "2026-10-20T01:29:47.100Z"
   }
  }
 }
