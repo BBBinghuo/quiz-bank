@@ -6827,6 +6827,426 @@
    "createdAt": "2026-10-20T00:42:59.924Z",
    "updatedAt": "2026-10-20T00:57:20.948Z",
    "deleted": true
+  },
+  "t6qywy1": {
+   "id": "t6qywy1",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "指令行介面的縮寫為 [1]，而圖形使用者介面的縮寫為 [2]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "cli gui"
+   ],
+   "lines": [
+    "cli gui"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tdhfapp": {
+   "id": "tdhfapp",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "MS-DOS 屬於[1] 的作業系統。(英文小寫回答 字母間留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "single tasking"
+   ],
+   "lines": [
+    "single tasking"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t194icml": {
+   "id": "t194icml",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "微核心的缺點是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "效能開銷"
+   ],
+   "lines": [
+    "效能開銷"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1w5kmss": {
+   "id": "t1w5kmss",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "對於每個錯誤類型，作業系統應該採取適當的行動來確保正確和[1]的運算。(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "consistent"
+   ],
+   "lines": [
+    "consistent"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t6g8oqb": {
+   "id": "t6g8oqb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些屬於系統維護、背景服務（Background Services）或守護行程（Daemons）常提供的功能？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "磁碟檢查（Disk checking） 行程排程（Process scheduling） 錯誤記錄（Error logging）"
+   ],
+   "lines": [
+    "磁碟檢查（Disk checking） 行程排程（Process scheduling） 錯誤記錄（Error logging）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1bp1tr5": {
+   "id": "t1bp1tr5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "終端使用者通常接觸到的作業系統核心外圍環境，提供開發與執行便利性的程式稱為 [1]。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "system programs"
+   ],
+   "lines": [
+    "system programs"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t14dqns1": {
+   "id": "t14dqns1",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是作業系統中用於將參數傳遞給作業系統的三種常見方法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "在暫存器中傳遞參數 在記憶體的區塊中儲存參數，並傳遞區塊地址 將參數壓入堆疊"
+   ],
+   "lines": [
+    "在暫存器中傳遞參數 在記憶體的區塊中儲存參數，並傳遞區塊地址 將參數壓入堆疊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1k6abk1": {
+   "id": "t1k6abk1",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "An important principle of operating system design is to separate policy from what?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mechanism"
+   ],
+   "lines": [
+    "mechanism"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1cif520": {
+   "id": "t1cif520",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which set of operating system services is not helpful to users?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "power on"
+   ],
+   "lines": [
+    "power on"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t183ko5m": {
+   "id": "t183ko5m",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which core design method dynamically loads core components at runtime with object-oriented features?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Loadable kernel modules"
+   ],
+   "lines": [
+    "Loadable kernel modules"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tkj1mwf": {
+   "id": "tkj1mwf",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "MS-DOS 系統中，程式執行後會：",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "覆蓋整個記憶體空間"
+   ],
+   "lines": [
+    "覆蓋整個記憶體空間"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t18zkny4": {
+   "id": "t18zkny4",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "選出作業系統的三種使用者介面。",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "指令列介面（CLI） 圖形使用者介面（GUI） 批次介面（Batch）"
+   ],
+   "lines": [
+    "指令列介面（CLI） 圖形使用者介面（GUI） 批次介面（Batch）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tn9liy8": {
+   "id": "tn9liy8",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統服務中的程式執行服務，允許系統載入程式到[1]。 (英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "memory"
+   ],
+   "lines": [
+    "memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t3cibxa": {
+   "id": "t3cibxa",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "幾乎所有作業系統都擁有哪種介面？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "指令列介面（CLI）"
+   ],
+   "lines": [
+    "指令列介面（CLI）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tims5kq": {
+   "id": "tims5kq",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統服務中的「通訊」服務，允許程序在什麼地方交換資訊？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "透過網路在不同電腦之間"
+   ],
+   "lines": [
+    "透過網路在不同電腦之間"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "thkl77w": {
+   "id": "thkl77w",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統服務中，哪些功能對使用者有幫助？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "使用者介面 程式執行 I/O 操作 檔案系統操作"
+   ],
+   "lines": [
+    "使用者介面 程式執行 I/O 操作 檔案系統操作"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1iz7j7r": {
+   "id": "t1iz7j7r",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which tool in Unix/Linux can be used to view system performance and running processes in real-time?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "top"
+   ],
+   "lines": [
+    "top"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tzfu4ix": {
+   "id": "tzfu4ix",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the benefits of a microkernel system structure?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Easier to extend Easier to port to new architectures More secure and reliable"
+   ],
+   "lines": [
+    "Easier to extend Easier to port to new architectures More secure and reliable"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "tg1y1hd": {
+   "id": "tg1y1hd",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "OS的「保護」服務確保?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "確保所有對系統資源的存取都受到控制"
+   ],
+   "lines": [
+    "確保所有對系統資源的存取都受到控制"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
+  },
+  "t1a7xiz7": {
+   "id": "t1a7xiz7",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統服務中的「通訊」服務可能透過哪些方式交換資訊？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "共享記憶體 訊息傳遞"
+   ],
+   "lines": [
+    "共享記憶體 訊息傳遞"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:01:02.116Z",
+   "updatedAt": "2026-10-20T01:01:02.116Z"
   }
  }
 }
