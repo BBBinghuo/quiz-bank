@@ -10334,6 +10334,132 @@
    "source": "text",
    "createdAt": "2026-10-20T01:08:55.956Z",
    "updatedAt": "2026-10-20T01:08:55.956Z"
+  },
+  "t1xb705e": {
+   "id": "t1xb705e",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a UNIX system, what functionality does the kernel not provide?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Writing Program code"
+   ],
+   "lines": [
+    "Writing Program code"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "t16k6bp8": {
+   "id": "t16k6bp8",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "An example of an early microkernel system mentioned in the textbook is [1].(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mach"
+   ],
+   "lines": [
+    "mach"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "t1w0wlag": {
+   "id": "t1w0wlag",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在系統發生嚴重損毀（Crash）時，作業系統抓取核心記憶體並產生的檔案稱為 [1]。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "crash dump"
+   ],
+   "lines": [
+    "crash dump"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "t1ai4qfs": {
+   "id": "t1ai4qfs",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following descriptions about MS-DOS structure is true?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "It has a simple structure and interfaces are not well separated"
+   ],
+   "lines": [
+    "It has a simple structure and interfaces are not well separated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "tvobwob": {
+   "id": "tvobwob",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪種作業系統通常沒有同時包含 CLI 和 GUI 介面？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "MS-DOS"
+   ],
+   "lines": [
+    "MS-DOS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
+  },
+  "t11rhbxv": {
+   "id": "t11rhbxv",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which method do most modern operating systems use to implement dynamically loadable functionality?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "modularity"
+   ],
+   "lines": [
+    "modularity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:09:25.316Z",
+   "updatedAt": "2026-10-20T01:09:25.316Z"
   }
  }
 }
