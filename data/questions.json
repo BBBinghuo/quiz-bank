@@ -18917,6 +18917,447 @@
    "source": "text",
    "createdAt": "2026-10-20T01:27:47.980Z",
    "updatedAt": "2026-10-20T01:27:47.980Z"
+  },
+  "tsp5qag": {
+   "id": "tsp5qag",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序在處理已經排序過的陣列（且選擇最後一個元素為 pivot）時，複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(n²)"
+   ],
+   "lines": [
+    "O(n²)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "to53hlu": {
+   "id": "to53hlu",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序為了避免最差情況，可以使用 [1] 策略",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "randomized"
+   ],
+   "lines": [
+    "randomized"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1rkdjju": {
+   "id": "t1rkdjju",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Partition 演算法中的 j 指標作用是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "掃描陣列元素"
+   ],
+   "lines": [
+    "掃描陣列元素"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tarnqf9": {
+   "id": "tarnqf9",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序在處理小陣列時可能會較慢，原因為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "遞迴呼叫的額外開銷 比較次數過多"
+   ],
+   "lines": [
+    "遞迴呼叫的額外開銷 比較次數過多"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tjabkjj": {
+   "id": "tjabkjj",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的「原地 (in-place)」特性指？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "僅使用常數額外空間 不需要複製陣列 在輸入陣列本身進行運算"
+   ],
+   "lines": [
+    "僅使用常數額外空間 不需要複製陣列 在輸入陣列本身進行運算"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tiptxhh": {
+   "id": "tiptxhh",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若要達成 O(n log n) 的期望時間複雜度，快速排序需要？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "隨機選擇 pivot 均勻的分割 正確的遞迴處理"
+   ],
+   "lines": [
+    "隨機選擇 pivot 均勻的分割 正確的遞迴處理"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1yotisv": {
+   "id": "t1yotisv",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的 [1] 步驟通常不需額外動作",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "combine"
+   ],
+   "lines": [
+    "combine"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "twqwng4": {
+   "id": "twqwng4",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序的空間複雜度（Space complexity）主要取決於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "遞迴堆疊的深度"
+   ],
+   "lines": [
+    "遞迴堆疊的深度"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tzmz1h9": {
+   "id": "tzmz1h9",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於 Quicksort(A, p, r)，下列正確的是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "p 是起始索引 r 是結束索引 若 p < r 則進行 partition"
+   ],
+   "lines": [
+    "p 是起始索引 r 是結束索引 若 p < r 則進行 partition"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tjnrw0z": {
+   "id": "tjnrw0z",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些是快速排序的優點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "不需要額外記憶體 平均情況下非常快 容易實作"
+   ],
+   "lines": [
+    "不需要額外記憶體 平均情況下非常快 容易實作"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t700a3p": {
+   "id": "t700a3p",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在快速排序中，交換元素使用 [1] 操作",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "exchange"
+   ],
+   "lines": [
+    "exchange"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t66kfxx": {
+   "id": "t66kfxx",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序法的遞迴式若為 T(n)=T(9n/10)+T(n/10)Θ(n) 用遞迴樹展開後 較高的那邊 高度是多少 [1] (請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^ ，下標請用_，如 log_(5)(n^2) ，符號請用 {big-theta, theta, big-omega, omega, O, o,})",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "log_(10/9)(n)"
+   ],
+   "lines": [
+    "log_(10/9)(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t13mn0ux": {
+   "id": "t13mn0ux",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序演算法中的「征服 (Conquer)」步驟意指？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "遞迴呼叫排序子問題"
+   ],
+   "lines": [
+    "遞迴呼叫排序子問題"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "trcmk8c": {
+   "id": "trcmk8c",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的快速排序法分割演算法 Partition(A, p, r)。\nPARTITION(A, p, r) 1 x = A[r] 2 i = p - 1 3 for j = p to r - 1 4 if A[j] ≤ x 5 i = i + 1 6 exchange(A[i], A[j]) 7 exchange (A[i+1], A[r]) 8 return i + 1\n若改為以第一個元素 A[p] 為 pivot\nPARTITION(A, p, r) 1 x ← A[p] 2 i ← p 3 for j ← p + 1 to r 4 if A[j] ≤ x 5 i ← i + 1 6 exchange(A[i], A[j]) 7 [1] 8 [2]\n第7與8行要怎麼改 (空格中不要留空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "exchange(A[p] A[i])|exchange(A[i] A[p])/returni"
+   ],
+   "lines": [
+    "exchange(A[p] A[i])|exchange(A[i] A[p])/returni"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tfhv36a": {
+   "id": "tfhv36a",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在快速排序中，我們通常選擇陣列的 [1] 元素作為 pivot",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "last"
+   ],
+   "lines": [
+    "last"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1nnq7xf": {
+   "id": "t1nnq7xf",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在分析 QuickSort 時，什麼會影響複雜度？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Pivot 的選擇 資料的分佈情況 遞迴樹的結構"
+   ],
+   "lines": [
+    "Pivot 的選擇 資料的分佈情況 遞迴樹的結構"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "thu04l4": {
+   "id": "thu04l4",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者會導致快速排序變慢？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Pivot 選擇不佳 (分割不平衡)"
+   ],
+   "lines": [
+    "Pivot 選擇不佳 (分割不平衡)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tfqkrnb": {
+   "id": "tfqkrnb",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "若陣列中有重複元素，快速排序可以處理嗎？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "可以"
+   ],
+   "lines": [
+    "可以"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1puoy5u": {
+   "id": "t1puoy5u",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "選出課本上的 Quicksort Partition(A, p, r) Worst-case partition 與 Best-case partition 遞迴式子",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "T(n)=T(n-1)+Θ(n) T(n)=2T(n/2)+Θ(n)"
+   ],
+   "lines": [
+    "T(n)=T(n-1)+Θ(n) T(n)=2T(n/2)+Θ(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "tl5zn42": {
+   "id": "tl5zn42",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "給定課本版本的快速排序法分割演算法 Partition(A, p, r)。\n一開始，陣列 A 的狀態如下：指標位置：p 和 j 指向第一個元素 3，且 i 位於 p 的左側外（尚未進入陣列）。 陣列內容： 問題 1：當 j 移動到指向元素 1 的當下，陣列的內容會是哪一個？[1] 問題 2：當 PARTITION 函數執行完畢後，最終的陣列內容會是什麼？[2] (Please format your answer as: 1,2,3,4,5,6,7,8)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "3 2 9 8 1 7 6 5/3 2 1 5 9 7 6 8"
+   ],
+   "lines": [
+    "3 2 9 8 1 7 6 5/3 2 1 5 9 7 6 8"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
+  },
+  "t1bzcsag": {
+   "id": "t1bzcsag",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "快速排序在工程實作中為何受歡迎？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "效能優異且常數因子小"
+   ],
+   "lines": [
+    "效能優異且常數因子小"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:28:29.364Z",
+   "updatedAt": "2026-10-20T01:28:29.364Z"
   }
  }
 }
