@@ -16523,6 +16523,447 @@
    "source": "text",
    "createdAt": "2026-10-20T01:24:58.300Z",
    "updatedAt": "2026-10-20T01:24:58.300Z"
+  },
+  "t1cqiljc": {
+   "id": "t1cqiljc",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Max-Heapify 假設子樹已經是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Max-Heap"
+   ],
+   "lines": [
+    "Max-Heap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t904lsx": {
+   "id": "t904lsx",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積的完整樹形狀意味著？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "除最後一層外均填滿 節點由左至右填入 沒有空缺"
+   ],
+   "lines": [
+    "除最後一層外均填滿 節點由左至右填入 沒有空缺"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tldc6vo": {
+   "id": "tldc6vo",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\nBuild-Max-Heap(A) 1 heap-size[A] = length[A] 2 for i = flooe(length[A]/2) downto 1 3 do Max-Heapify(A, i)\n索引 i: (1) 陣列位置內容 A: [4]\n(1)[4]\n/ \\\n(2)[1] i(3)[3]\n/ \\ / \\\n(4)[14] (5)[16] (6)[9] (7)[10] / \\ / (8)[2] (9)[8] (10)[7]\n[1] 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4 1 10 14 16 9 3 2 8 7"
+   ],
+   "lines": [
+    "4 1 10 14 16 9 3 2 8 7"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1k506p3": {
+   "id": "t1k506p3",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Max-Heapify 操作的時間複雜度為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(log n)"
+   ],
+   "lines": [
+    "O(log n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tugwioj": {
+   "id": "tugwioj",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序為何常被應用？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "應用程式本身需要 作為其他演算法的子程序 演算法多樣性"
+   ],
+   "lines": [
+    "應用程式本身需要 作為其他演算法的子程序 演算法多樣性"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t17dopku": {
+   "id": "t17dopku",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Max-Heapify 需要哪些參數？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "陣列 A 節點索引 i"
+   ],
+   "lines": [
+    "陣列 A 節點索引 i"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1t5vi": {
+   "id": "t1t5vi",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序屬於 [1] 排序，意指不需要額外儲存空間",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "in-place"
+   ],
+   "lines": [
+    "in-place"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1mwhu7f": {
+   "id": "t1mwhu7f",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積是一種陣列物件，可被視為一棵 [1] 二元樹",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "complete"
+   ],
+   "lines": [
+    "complete"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t17s7v5y": {
+   "id": "t17s7v5y",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序的第一步驟是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Build-Max-Heap"
+   ],
+   "lines": [
+    "Build-Max-Heap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tjernu0": {
+   "id": "tjernu0",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "請寫出 Max-Heapify (A, i) 的遞回式 [1]",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,} 中間不留空白",
+   "options": {},
+   "answer": [
+    "T(n)<=T(2n/3)+big_theta(1)"
+   ],
+   "lines": [
+    "T(n)<=T(2n/3)+big_theta(1)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tdcgy4v": {
+   "id": "tdcgy4v",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "優先佇列支援哪些操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Insert Maximum Extract-Max Increase-Key"
+   ],
+   "lines": [
+    "Insert Maximum Extract-Max Increase-Key"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t17cpix6": {
+   "id": "t17cpix6",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Heapsort 過程中，堆積的大小（heap-size）會？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "逐漸減少"
+   ],
+   "lines": [
+    "逐漸減少"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1i5z6ez": {
+   "id": "t1i5z6ez",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "二元堆積（Binary Heap）可以被視為哪種資料結構？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "完全二元樹"
+   ],
+   "lines": [
+    "完全二元樹"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t7m321s": {
+   "id": "t7m321s",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積結構適用於哪類問題？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "尋找最大值 持續更新優先級 需要 O(n log n) 排序"
+   ],
+   "lines": [
+    "尋找最大值 持續更新優先級 需要 O(n log n) 排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1tkbk5": {
+   "id": "t1tkbk5",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Max-Heapify 的作用是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "維護堆積屬性"
+   ],
+   "lines": [
+    "維護堆積屬性"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tok29cn": {
+   "id": "tok29cn",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Build-Max-Heap 的過程是為了建立 [1] 屬性",
+   "hint": "請用小寫英文回答，單字間留 -",
+   "options": {},
+   "answer": [
+    "max-heap"
+   ],
+   "lines": [
+    "max-heap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1fn18bd": {
+   "id": "t1fn18bd",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Build-Max-Heap 的複雜度為 [1]",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(n)"
+   ],
+   "lines": [
+    "O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t96z8tk": {
+   "id": "t96z8tk",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Increase-Key 動作需要？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "更新節點值 維護堆積屬性 向上比較直到根"
+   ],
+   "lines": [
+    "更新節點值 維護堆積屬性 向上比較直到根"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t65vpj9": {
+   "id": "t65vpj9",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積排序的比較次數大約為 [1]",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "nlogn"
+   ],
+   "lines": [
+    "nlogn"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "t1uepdch": {
+   "id": "t1uepdch",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆積的類型有哪些？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Max-Heap Min-Heap Binary-Heap"
+   ],
+   "lines": [
+    "Max-Heap Min-Heap Binary-Heap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
+  },
+  "tfezxq6": {
+   "id": "tfezxq6",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列何者不是堆積排序的優點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "是穩定的排序"
+   ],
+   "lines": [
+    "是穩定的排序"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:25:19.580Z",
+   "updatedAt": "2026-10-20T01:25:19.580Z"
   }
  }
 }
