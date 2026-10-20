@@ -7919,6 +7919,363 @@
    "source": "text",
    "createdAt": "2026-10-20T01:03:27.564Z",
    "updatedAt": "2026-10-20T01:03:27.564Z"
+  },
+  "tne59qt": {
+   "id": "tne59qt",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "「檔案系統操作」服務中，程式需要對檔案和目錄做什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "讀取與寫入 建立與刪除 搜尋 列出檔案資訊"
+   ],
+   "lines": [
+    "讀取與寫入 建立與刪除 搜尋 列出檔案資訊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tr9h3dj": {
+   "id": "tr9h3dj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Operating systems that combine multiple structural approaches are called [1] systems.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "hybrid"
+   ],
+   "lines": [
+    "hybrid"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "trbekpg": {
+   "id": "trbekpg",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是 Windows 和 UNIX 系統都有的系統呼叫？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "程式控制 檔案管理 裝置管理 通訊"
+   ],
+   "lines": [
+    "程式控制 檔案管理 裝置管理 通訊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t15vtklv": {
+   "id": "t15vtklv",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The underlying core of the Android system is:",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Linux"
+   ],
+   "lines": [
+    "Linux"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "taeqsqk": {
+   "id": "taeqsqk",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "「使用者介面」有哪幾種？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "指令列（CLI） 圖形使用者介面（GUI） 批次（Batch） 觸控螢幕"
+   ],
+   "lines": [
+    "指令列（CLI） 圖形使用者介面（GUI） 批次（Batch） 觸控螢幕"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tk31yoj": {
+   "id": "tk31yoj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於系統程式（System Programs）的分類，主要包含下列哪些領域？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "檔案管理與修改 狀態資訊與程式語言支援 程式載入與執行、通訊"
+   ],
+   "lines": [
+    "檔案管理與修改 狀態資訊與程式語言支援 程式載入與執行、通訊"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t6unmro": {
+   "id": "t6unmro",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種程式設計語言經常用於撰寫現代作業系統？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "C"
+   ],
+   "lines": [
+    "C"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tiv7445": {
+   "id": "tiv7445",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the layered approach of an operating system structure, what does layer 0 represent?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Hardware"
+   ],
+   "lines": [
+    "Hardware"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t9oavye": {
+   "id": "t9oavye",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "指令行介面的縮寫為 [1]，而圖形使用者介面的縮寫為 [2]。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "cli/gui"
+   ],
+   "lines": [
+    "cli/gui"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t1bi9rhn": {
+   "id": "t1bi9rhn",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Windows作業系統中，用來建立新行程的 API 函數為何？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CreateProcess()"
+   ],
+   "lines": [
+    "CreateProcess()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t1dulpg6": {
+   "id": "t1dulpg6",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪一種 API 主要應用於 Windows 系統環境？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Win32 API"
+   ],
+   "lines": [
+    "Win32 API"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tde2u7o": {
+   "id": "tde2u7o",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在開機過程中，儲存於 ROM 中負責定位核心並將其載入記憶體運行的程式稱為 [1] 。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "bootstrap loader"
+   ],
+   "lines": [
+    "bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "tvoggqr": {
+   "id": "tvoggqr",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "作業系統的「程式執行」服務允許系統載入程式到哪裡？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "memory"
+   ],
+   "lines": [
+    "memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t1dz3kzs": {
+   "id": "t1dz3kzs",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Mac OS X 的 GUI 介面名稱是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Aqua"
+   ],
+   "lines": [
+    "Aqua"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t1icu25s": {
+   "id": "t1icu25s",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In UNIX, the [1] consists of everything below the system call interface and above the physical hardware. (用英文小寫回答 字母間請流一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "kernel"
+   ],
+   "lines": [
+    "kernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "thsf2zy": {
+   "id": "thsf2zy",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "API 是用來：",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "提供程式呼叫 OS 的介面"
+   ],
+   "lines": [
+    "提供程式呼叫 OS 的介面"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
+  },
+  "t1ybo51i": {
+   "id": "t1ybo51i",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪些作業系統通常被歸類為「混合系統（Hybrid Systems）」？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Linux (單體加動態模組) Windows (單體加微核心特性) Apple macOS (Mach 核心加 BSD 部分)"
+   ],
+   "lines": [
+    "Linux (單體加動態模組) Windows (單體加微核心特性) Apple macOS (Mach 核心加 BSD 部分)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:03:36.844Z",
+   "updatedAt": "2026-10-20T01:03:36.844Z"
   }
  }
 }
