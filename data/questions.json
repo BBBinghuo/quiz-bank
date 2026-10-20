@@ -1234,25 +1234,24 @@
   "2228": {
    "id": "2228",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "single",
    "text": "下列何者不是求解遞迴關係式的主要方法？",
    "hint": "",
    "options": {
-    "B": "遞迴樹法",
-    "D": "暴力列舉法",
     "C": "主定理",
-    "A": "代入法"
+    "A": "代入法",
+    "D": "暴力列舉法",
+    "B": "遞迴樹法"
    },
    "answer": [
-    "B"
+    "D"
    ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:34.596Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.010Z"
   },
   "2229": {
    "id": "2229",
@@ -1298,6 +1297,28 @@
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.838Z"
   },
+  "2231": {
+   "id": "2231",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在遞迴樹法中，我們關注的是？",
+   "hint": "",
+   "options": {
+    "B": "樹的節點數量",
+    "C": "樹的高度",
+    "A": "樹中所有節點的成本總和",
+    "D": "樹的根節點代價"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.009Z"
+  },
   "2232": {
    "id": "2232",
    "subject": "演算法",
@@ -1341,6 +1362,28 @@
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:21:50.639Z"
+  },
+  "2234": {
+   "id": "2234",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是代入法驗證時使用的核心數學工具？",
+   "hint": "",
+   "options": {
+    "A": "數學歸納法",
+    "D": "集合論",
+    "B": "微積分",
+    "C": "線性代數"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.008Z"
   },
   "2236": {
    "id": "2236",
@@ -1405,6 +1448,28 @@
    "note": "",
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
+  "2240": {
+   "id": "2240",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "遞迴樹法中，若每一層成本相等，且有 log n 層，總成本為？",
+   "hint": "",
+   "options": {
+    "A": "O(n log n)",
+    "C": "O(log n)",
+    "B": "O(n)",
+    "D": "O(n²)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.005Z"
   },
   "2241": {
    "id": "2241",
@@ -1952,18 +2017,17 @@
   "2279": {
    "id": "2279",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "大師定理若適用，必須滿足 a >=＿＿＿",
    "hint": "請用數字回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:39.229Z",
-   "deleted": true
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.000Z"
   },
   "2280": {
    "id": "2280",
@@ -2062,6 +2126,21 @@
    "note": "",
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.829Z"
+  },
+  "2287": {
+   "id": "2287",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "大師定理是一種＿＿＿分析工具",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-20T14:50:00.000Z",
+   "updatedAt": "2026-10-20T14:50:00.000Z"
   },
   "2408": {
    "id": "2408",
@@ -17856,7 +17935,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:50:00.009Z",
+   "deleted": true,
+   "mergedInto": "2231"
   },
   "t12y9q29": {
    "id": "t12y9q29",
@@ -17877,7 +17958,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:50:00.010Z",
+   "deleted": true,
+   "mergedInto": "2228"
   },
   "t295ov4": {
    "id": "t295ov4",
@@ -18160,7 +18243,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-20T14:50:00.008Z",
+   "deleted": true,
+   "mergedInto": "2234"
   },
   "tcb37z5": {
    "id": "tcb37z5",
@@ -18957,7 +19042,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:33.172Z",
-   "updatedAt": "2026-10-20T01:24:33.172Z"
+   "updatedAt": "2026-10-20T14:50:00.005Z",
+   "deleted": true,
+   "mergedInto": "2240"
   },
   "tazedth": {
    "id": "tazedth",
