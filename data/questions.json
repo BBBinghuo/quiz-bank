@@ -9347,6 +9347,174 @@
    "source": "text",
    "createdAt": "2026-10-20T01:05:42.444Z",
    "updatedAt": "2026-10-20T01:05:42.444Z"
+  },
+  "t189u793": {
+   "id": "t189u793",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "觸控螢幕介面（Touchscreen Interfaces）與傳統桌面介面相比，具備哪些特點？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "不需要或不適合使用滑鼠 基於手勢（Gestures）進行操作與選擇 採用虛擬鍵盤（Virtual keyboard）進行文字輸入"
+   ],
+   "lines": [
+    "不需要或不適合使用滑鼠 基於手勢（Gestures）進行操作與選擇 採用虛擬鍵盤（Virtual keyboard）進行文字輸入"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "tzgw0v9": {
+   "id": "tzgw0v9",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following system calls belongs to the information maintenance category?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "sleep()"
+   ],
+   "lines": [
+    "sleep()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "tv5s62f": {
+   "id": "tv5s62f",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which interface uses a mouse, keyboard, and monitor and uses icons to represent files, programs, and actions?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "GUI"
+   ],
+   "lines": [
+    "GUI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "t1c6f3ew": {
+   "id": "t1c6f3ew",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是作業系統提供的功能？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "檔案操作 狀態資訊 程式語言支援 程式載入與執行"
+   ],
+   "lines": [
+    "檔案操作 狀態資訊 程式語言支援 程式載入與執行"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "tkh4hlv": {
+   "id": "tkh4hlv",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "The operating system needs to constantly detect possible [1]。(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "errors"
+   ],
+   "lines": [
+    "errors"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "tmo71ak": {
+   "id": "tmo71ak",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪一個是 UNIX 系統常用的 shell？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bash"
+   ],
+   "lines": [
+    "Bash"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "t1lx22pm": {
+   "id": "t1lx22pm",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "命令列介面（CLI）或命令直譯器，在作業系統中有哪些常見的實現型態？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "有時單獨實現為系統程式 有時直接實現在核心中 提供多種版本，通常稱為 Shell"
+   ],
+   "lines": [
+    "有時單獨實現為系統程式 有時直接實現在核心中 提供多種版本，通常稱為 Shell"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
+  },
+  "t30b8td": {
+   "id": "t30b8td",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "現代系統中常見的開機引導載入程式（如支援選擇不同核心版本）是哪一個？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "GRUB"
+   ],
+   "lines": [
+    "GRUB"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:05:51.012Z",
+   "updatedAt": "2026-10-20T01:05:51.012Z"
   }
  }
 }
