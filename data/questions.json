@@ -13016,7 +13016,7 @@
   "tor0vp2": {
    "id": "tor0vp2",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -13031,9 +13031,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:21:19.564Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
   },
   "tyldunz": {
    "id": "tyldunz",
@@ -13125,7 +13124,7 @@
   "tthrqhp": {
    "id": "tthrqhp",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -13140,9 +13139,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:21:30.460Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
   },
   "t1c31a2c": {
    "id": "t1c31a2c",
@@ -13190,7 +13188,7 @@
   "tvx3lwo": {
    "id": "tvx3lwo",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -13205,9 +13203,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:21:34.316Z",
-   "deleted": true
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
   },
   "t1pldswd": {
    "id": "t1pldswd",
@@ -13859,6 +13856,384 @@
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
    "updatedAt": "2026-10-20T01:22:02.460Z"
+  },
+  "tl5urf6": {
+   "id": "tl5urf6",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在Solaris作業系統中，預設的排程類別是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "時程共享（Time Sharing）"
+   ],
+   "lines": [
+    "時程共享（Time Sharing）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "tqnrfom": {
+   "id": "tqnrfom",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在Windows系統中，什麼是「執行緒」終止運行的原因？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "執行緒被阻塞 執行緒用完其時間片 執行緒被更高優先權的執行緒搶佔"
+   ],
+   "lines": [
+    "執行緒被阻塞 執行緒用完其時間片 執行緒被更高優先權的執行緒搶佔"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "ty9mo5n": {
+   "id": "ty9mo5n",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在優先權排程中，什麼問題可能導致低優先權程序永遠無法執行？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "飢餓（Starvation）"
+   ],
+   "lines": [
+    "飢餓（Starvation）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1u1myjg": {
+   "id": "t1u1myjg",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A [1] is a loadable table in Solaris that can be configured by a system administrator to manage the multilevel feedback queue.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "dispatch table"
+   ],
+   "lines": [
+    "dispatch table"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1xis5dr": {
+   "id": "t1xis5dr",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "最短剩餘時間優先（SRTF）是[1]演算法的搶佔式版本。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "SJF"
+   ],
+   "lines": [
+    "SJF"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1sim0nb": {
+   "id": "t1sim0nb",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is the time it takes for the scheduler in a real-time system to take the current process off the CPU and switch to another.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "dispatch latency"
+   ],
+   "lines": [
+    "dispatch latency"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "thg247y": {
+   "id": "thg247y",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "迴圈排程（RR）的性能與哪些因素相關？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "時間片（q）的大小 上下文切換（context switch）的時間 程序在就緒佇列中的數量"
+   ],
+   "lines": [
+    "時間片（q）的大小 上下文切換（context switch）的時間 程序在就緒佇列中的數量"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t12dh24n": {
+   "id": "t12dh24n",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Little's Formula (n = λ x W) 的特性是什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "在穩態下，離開佇列的程序數等於到達的程序數 適用於任何排程演算法 適用於任何到達分佈"
+   ],
+   "lines": [
+    "在穩態下，離開佇列的程序數等於到達的程序數 適用於任何排程演算法 適用於任何到達分佈"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t16cvt89": {
+   "id": "t16cvt89",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1] is a method for evaluating schedulers that involves creating a programmed model of a computer system and is more accurate than queueing models.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "simulations"
+   ],
+   "lines": [
+    "simulations"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t9wwd5k": {
+   "id": "t9wwd5k",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What methods can be used to estimate the length of the next CPU burst?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Using exponential averaging of previous CPU bursts Asking the user Setting α=1 to only consider the last burst"
+   ],
+   "lines": [
+    "Using exponential averaging of previous CPU bursts Asking the user Setting α=1 to only consider the last burst"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1xd0m4r": {
+   "id": "t1xd0m4r",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在[1]佇列排程中，就緒佇列被劃分為多個獨立的佇列，且程序通常永久地固定在一個佇列中。",
+   "hint": "請用小寫英文回答 字母間用空白",
+   "options": {},
+   "answer": [
+    "multilevel queue"
+   ],
+   "lines": [
+    "multilevel queue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "tcxd85y": {
+   "id": "tcxd85y",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "How is aging implemented in Multilevel Feedback Queue scheduling?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "By allowing a process to move between queues"
+   ],
+   "lines": [
+    "By allowing a process to move between queues"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "tnnfj8l": {
+   "id": "tnnfj8l",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Proportional Share Scheduling (比例共享排程) 的特性包含什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "將T份CPU時間分配給所有程序 每個應用程式接收N份，其中N < T 確保每個應用程式接收到總處理器時間的N/T 這是一種動態優先權演算法"
+   ],
+   "lines": [
+    "將T份CPU時間分配給所有程序 每個應用程式接收N份，其中N < T 確保每個應用程式接收到總處理器時間的N/T 這是一種動態優先權演算法"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1mwgvr9": {
+   "id": "t1mwgvr9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在CPU-I/O週期中，程式的執行由什麼組成？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CPU爆發和I/O爆發的交替"
+   ],
+   "lines": [
+    "CPU爆發和I/O爆發的交替"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "tu8wqdh": {
+   "id": "tu8wqdh",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "[1]是 Little's Formula (n = λ x W) 中的λ，代表進入佇列的平均到達率。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "average arrival rate"
+   ],
+   "lines": [
+    "average arrival rate"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1j77h1j": {
+   "id": "t1j77h1j",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Windows system, what happens to a thread's priority when its quantum expires?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "It is lowered"
+   ],
+   "lines": [
+    "It is lowered"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1wej28a": {
+   "id": "t1wej28a",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "CPU scheduling decisions typically take place under which of the following circumstances?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A process switches from the running to the waiting state A process switches from the running to the ready state A process switches from the waiting to the ready state A process terminates"
+   ],
+   "lines": [
+    "A process switches from the running to the waiting state A process switches from the running to the ready state A process switches from the waiting to the ready state A process terminates"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
+  },
+  "t1qdgxc9": {
+   "id": "t1qdgxc9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在對稱多處理（SMP）中，每個處理器都[1]地進行排程。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "independent"
+   ],
+   "lines": [
+    "independent"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:22:10.004Z",
+   "updatedAt": "2026-10-20T01:22:10.004Z"
   }
  }
 }
