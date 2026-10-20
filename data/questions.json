@@ -12313,6 +12313,90 @@
    "source": "text",
    "createdAt": "2026-10-20T01:14:49.380Z",
    "updatedAt": "2026-10-20T01:14:49.380Z"
+  },
+  "t16i9yk1": {
+   "id": "t16i9yk1",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "以下哪些是程序的執行選項？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "父子程序並行執行 父程序等待子程序終止"
+   ],
+   "lines": [
+    "父子程序並行執行 父程序等待子程序終止"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:16.780Z",
+   "updatedAt": "2026-10-20T01:15:16.780Z"
+  },
+  "t184yx9r": {
+   "id": "t184yx9r",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "什麼名詞指的是在單一程序中有一個以上的執行程序的分支？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "執行緒(Thread）"
+   ],
+   "lines": [
+    "執行緒(Thread）"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:16.780Z",
+   "updatedAt": "2026-10-20T01:15:16.780Z"
+  },
+  "tju0pnr": {
+   "id": "tju0pnr",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "A [1] acts as a conduit that allows two processes to communicate.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "pipe"
+   ],
+   "lines": [
+    "pipe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:16.780Z",
+   "updatedAt": "2026-10-20T01:15:16.780Z"
+  },
+  "t1gsx99s": {
+   "id": "t1gsx99s",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are characteristics of Remote Procedure Calls (RPC)?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "abstracts procedure calls in a network system uses stubs to locate the server and marshal parameters uses External Data Representation (XDR) format for data handling"
+   ],
+   "lines": [
+    "abstracts procedure calls in a network system uses stubs to locate the server and marshal parameters uses External Data Representation (XDR) format for data handling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-20T01:15:16.780Z",
+   "updatedAt": "2026-10-20T01:15:16.780Z"
   }
  }
 }
