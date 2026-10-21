@@ -5018,6 +5018,28 @@
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:24:51.385Z"
   },
+  "2843": {
+   "id": "2843",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪種儲存媒介的速度最快？",
+   "hint": "",
+   "options": {
+    "D": "Registers",
+    "B": "Cache",
+    "A": "Hard disk",
+    "C": "Main memory"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.770Z"
+  },
   "2844": {
    "id": "2844",
    "subject": "作業系統",
@@ -5039,6 +5061,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.066Z"
+  },
+  "2846": {
+   "id": "2846",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Process 的定義是什麼？",
+   "hint": "",
+   "options": {
+    "B": "被動的實體",
+    "A": "執行中的程式",
+    "D": "檔案的集合",
+    "C": "作業系統本身"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.769Z"
   },
   "2847": {
    "id": "2847",
@@ -5084,6 +5128,28 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.064Z"
   },
+  "2850": {
+   "id": "2850",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "二元搜尋樹的搜尋時間複雜度在平衡時為？",
+   "hint": "",
+   "options": {
+    "B": "O(n)",
+    "A": "O(n^2)",
+    "D": "O(lg n)",
+    "C": "O(1)"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.764Z"
+  },
   "2852": {
    "id": "2852",
    "subject": "作業系統",
@@ -5105,6 +5171,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
+  },
+  "2853": {
+   "id": "2853",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "雲端運算中，IaaS 代表什麼？",
+   "hint": "",
+   "options": {
+    "A": "Interface as a Service",
+    "B": "Internet as a Service",
+    "C": "Input as a Service",
+    "D": "Infrastructure as a Service"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.768Z"
   },
   "2854": {
    "id": "2854",
@@ -5247,6 +5335,31 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
   },
+  "2864": {
+   "id": "2864",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the common types of interrupts?",
+   "hint": "",
+   "options": {
+    "B": "Software interrupt (Trap/Exception)",
+    "A": "Hardware interrupt",
+    "C": "Error-generated",
+    "D": "User-request generated"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.765Z"
+  },
   "2866": {
    "id": "2866",
    "subject": "作業系統",
@@ -5270,6 +5383,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.074Z"
+  },
+  "2868": {
+   "id": "2868",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Symmetric Multiprocessing (SMP) 的特性是？",
+   "hint": "",
+   "options": {
+    "C": "效能較低",
+    "A": "每個處理器執行所有任務",
+    "D": "架構對稱",
+    "B": "每個處理器被指定特定任務"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.761Z"
   },
   "2872": {
    "id": "2872",
@@ -5417,6 +5553,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:26:13.423Z"
+  },
+  "2880": {
+   "id": "2880",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "雲端運算的服務模型包含？",
+   "hint": "",
+   "options": {
+    "C": "IaaS",
+    "B": "PaaS",
+    "A": "SaaS",
+    "D": "Hardware as a Service"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.762Z"
   },
   "2881": {
    "id": "2881",
@@ -5572,6 +5732,21 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
   },
+  "2890": {
+   "id": "2890",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "多處理器(multiprocessing)架構中區分任務分配的兩類型為＿＿＿。",
+   "hint": "請用小寫英文回答字母間 用 and 寫法如 b and a",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.758Z"
+  },
   "2891": {
    "id": "2891",
    "subject": "作業系統",
@@ -5674,6 +5849,40 @@
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:26:13.423Z"
   },
+  "2898": {
+   "id": "2898",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "系統中定義的一組使用者可以透過＿＿＿來管理權限。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [
+    "group id"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.763Z"
+  },
+  "2899": {
+   "id": "2899",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是一種透過將輸出與輸入重疊來提升 I/O 效率的技術。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "spooling"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.766Z"
+  },
   "2900": {
    "id": "2900",
    "subject": "作業系統",
@@ -5741,6 +5950,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:24:51.382Z"
+  },
+  "2905": {
+   "id": "2905",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿技術是指將資訊從較慢儲存體複製到較快儲存體的過程。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:26:33.758Z",
+   "updatedAt": "2026-10-21T05:26:33.758Z"
   },
   "2906": {
    "id": "2906",
@@ -6028,7 +6252,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:26:33.770Z",
+   "deleted": true,
+   "mergedInto": "2843"
   },
   "txxy889": {
    "id": "txxy889",
@@ -6114,7 +6340,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:26:33.764Z",
+   "deleted": true,
+   "mergedInto": "2850"
   },
   "t19sj3cn": {
    "id": "t19sj3cn",
@@ -6600,7 +6828,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:52:19.093Z",
-   "updatedAt": "2026-10-19T15:52:19.093Z"
+   "updatedAt": "2026-10-21T05:26:33.761Z",
+   "deleted": true,
+   "mergedInto": "2868"
   },
   "tvd7hl3": {
    "id": "tvd7hl3",
@@ -6621,7 +6851,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:52:19.093Z",
-   "updatedAt": "2026-10-19T15:52:19.093Z"
+   "updatedAt": "2026-10-21T05:26:33.765Z",
+   "deleted": true,
+   "mergedInto": "2864"
   },
   "t1oljg4b": {
    "id": "t1oljg4b",
@@ -6642,7 +6874,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:52:19.093Z",
-   "updatedAt": "2026-10-19T15:52:19.093Z"
+   "updatedAt": "2026-10-21T05:26:33.763Z",
+   "deleted": true,
+   "mergedInto": "2898"
   },
   "t1atexrm": {
    "id": "t1atexrm",
@@ -6663,7 +6897,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:52:19.093Z",
-   "updatedAt": "2026-10-19T15:52:19.093Z"
+   "updatedAt": "2026-10-21T05:26:33.762Z",
+   "deleted": true,
+   "mergedInto": "2880"
   },
   "t1q28cka": {
    "id": "t1q28cka",
@@ -6812,7 +7048,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:11:28.675Z",
-   "updatedAt": "2026-10-20T00:11:28.675Z"
+   "updatedAt": "2026-10-21T05:26:33.768Z",
+   "deleted": true,
+   "mergedInto": "2853"
   },
   "tybq21o": {
    "id": "tybq21o",
@@ -6961,7 +7199,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:11:41.628Z",
-   "updatedAt": "2026-10-20T00:11:41.628Z"
+   "updatedAt": "2026-10-21T05:26:33.769Z",
+   "deleted": true,
+   "mergedInto": "2846"
   },
   "t1g25jpc": {
    "id": "t1g25jpc",
@@ -27012,7 +27252,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T05:24:39.760Z",
-   "updatedAt": "2026-10-21T05:24:39.760Z"
+   "updatedAt": "2026-10-21T05:26:33.766Z",
+   "deleted": true,
+   "mergedInto": "2899"
   },
   "txo9fi": {
    "id": "txo9fi",
