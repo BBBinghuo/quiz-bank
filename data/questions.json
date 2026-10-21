@@ -1538,6 +1538,28 @@
    "updatedAt": "2026-10-20T14:56:33.815Z",
    "deleted": true
   },
+  "2242": {
+   "id": "2242",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在處理 T(n) = 2T(n/2 + 17) + n 時，我們通常使用？",
+   "hint": "",
+   "options": {
+    "A": "代入法",
+    "B": "圖形繪製",
+    "C": "陣列平移",
+    "D": "硬編碼"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:43:00.404Z",
+   "updatedAt": "2026-10-21T01:43:00.409Z"
+  },
   "2243": {
    "id": "2243",
    "subject": "演算法",
@@ -1869,23 +1891,26 @@
   "2259": {
    "id": "2259",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "證明一個遞迴式的 O(n) 上界，通常需要？",
    "hint": "",
    "options": {
-    "B": "找到一個邊界值 n0",
+    "D": "檢查所有可能的輸入值",
     "C": "使用數學歸納法",
     "A": "找到一個常數 c",
-    "D": "檢查所有可能的輸入值"
+    "B": "找到一個邊界值 n0"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:37.484Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:43:00.404Z",
+   "updatedAt": "2026-10-21T01:43:00.407Z"
   },
   "2260": {
    "id": "2260",
@@ -2031,25 +2056,22 @@
   "2266": {
    "id": "2266",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "遞迴樹的葉節點深度通常為？",
    "hint": "",
    "options": {
-    "C": "n²",
     "A": "log_b(n), _b表示下標",
+    "B": "n",
     "D": "log(n!)",
-    "B": "n"
+    "C": "n²"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:17.124Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:43:00.404Z",
+   "updatedAt": "2026-10-21T01:43:00.404Z"
   },
   "2267": {
    "id": "2267",
@@ -19648,7 +19670,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-21T01:43:00.409Z",
+   "deleted": true,
+   "mergedInto": "2242"
   },
   "t16q75cd": {
    "id": "t16q75cd",
@@ -19887,7 +19911,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-21T01:43:00.407Z",
+   "deleted": true,
+   "mergedInto": "2259"
   },
   "t11rne9n": {
    "id": "t11rne9n",
