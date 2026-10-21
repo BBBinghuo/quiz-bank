@@ -306,6 +306,21 @@
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:48:30.000Z"
   },
+  "141": {
+   "id": "141",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "Process Burst Time\n\nP1 20\n\nP2 3\n\nP3 7\n\nUse Round Robin (RR) to schedule the above process. The following is the process of scheduling time from left to right (A to H represent the processed block H. There may be a schedule after the block, which is ignored because it is not in the question to be asked. Do not show)\n\nIf TQ = 4, what is the order of A~H?\nAnswer format: P0->P2->P4->P6->P5->P6\nFormat errors do not count＿＿＿",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "372": {
    "id": "372",
    "subject": "作業系統",
@@ -1334,6 +1349,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:52:42.678Z"
   },
+  "1324": {
+   "id": "1324",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "When a process switches from a 'running' to a 'waiting' state, what type of scheduling decision is it?",
+   "hint": "",
+   "options": {
+    "A": "Nonpreemptive",
+    "D": "Irrelevant",
+    "B": "Preemptive",
+    "C": "Interrupt-driven"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1325": {
    "id": "1325",
    "subject": "作業系統",
@@ -1444,6 +1479,28 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1331": {
+   "id": "1331",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在優先權排程中，什麼問題可能導致低優先權程序永遠無法執行？",
+   "hint": "",
+   "options": {
+    "B": "護航效應",
+    "D": "活鎖",
+    "C": "死鎖（Deadlock）",
+    "A": "飢餓（Starvation）"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.653Z"
+  },
   "1332": {
    "id": "1332",
    "subject": "作業系統",
@@ -1466,6 +1523,46 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1333": {
+   "id": "1333",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "迴圈排程（RR）演算法中，每個程序獲得一小段CPU時間的單位稱為？",
+   "hint": "",
+   "options": {
+    "B": "時間片（Time quantum）",
+    "A": "時間單位",
+    "D": "時間區塊",
+    "C": "時間週期"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
+  "1337": {
+   "id": "1337",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在多處理器系統中，哪種方法僅有一個處理器負責存取系統資料結構？",
+   "hint": "",
+   "options": {
+    "D": "處理器親和性(Processor affinity)",
+    "B": "非對稱多處理",
+    "C": "負載平衡",
+    "A": "對稱多處理（SMP）"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1339": {
    "id": "1339",
    "subject": "作業系統",
@@ -1487,6 +1584,48 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1345": {
+   "id": "1345",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在Windows排程中，哪個優先權類別的程序不能被提升優先權？",
+   "hint": "",
+   "options": {
+    "B": "IDLE_PRIORITY_CLASS",
+    "D": "REALTIME_PRIORITY_CLASS",
+    "A": "NORMAL_PRIORITY_CLASS",
+    "C": "HIGH_PRIORITY_CLASS"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.660Z"
+  },
+  "1349": {
+   "id": "1349",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在排程演算法評估中，什麼方法使用預先確定的工作負載來評估每個演算法的性能？",
+   "hint": "",
+   "options": {
+    "A": "佇列模型",
+    "D": "實作",
+    "B": "模擬",
+    "C": "確定性建模"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1352": {
    "id": "1352",
@@ -1535,6 +1674,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1354": {
+   "id": "1354",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are criteria for evaluating CPU scheduling algorithms?",
+   "hint": "",
+   "options": {
+    "B": "Throughput",
+    "D": "Waiting time",
+    "C": "Turnaround time",
+    "A": "CPU utilization"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1356": {
    "id": "1356",
    "subject": "作業系統",
@@ -1557,6 +1716,26 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1358": {
+   "id": "1358",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "關於估計下一個CPU爆發長度，可以採用哪些方法？",
+   "hint": "",
+   "options": {
+    "A": "使用過去CPU爆發長度的指數平均",
+    "D": "設定 α=1 表示只考慮最後一個 burst",
+    "B": "詢問使用者",
+    "C": "使用恆定值"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1359": {
    "id": "1359",
@@ -1582,6 +1761,26 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:52:42.671Z"
+  },
+  "1362": {
+   "id": "1362",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "下列哪些排程演算法可以導致飢餓？",
+   "hint": "",
+   "options": {
+    "A": "先到先服務（FCFS）",
+    "B": "優先權排程",
+    "D": "最短工作優先 (SJF)",
+    "C": "迴圈排程（RR）"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1363": {
    "id": "1363",
@@ -1632,6 +1831,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1372": {
+   "id": "1372",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Linux在核心版本2.5中採用的O(1)排程器有哪些特性？",
+   "hint": "",
+   "options": {
+    "B": "基於優先權",
+    "D": "所有任務都放在一個佇列中",
+    "A": "搶佔式",
+    "C": "有兩個優先權範圍：時程共享和即時"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1373": {
    "id": "1373",
    "subject": "作業系統",
@@ -1681,6 +1900,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1377": {
+   "id": "1377",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Solaris作業系統的排程有哪六個類別？",
+   "hint": "",
+   "options": {
+    "B": "互動式（Interactive）",
+    "D": "系統(System)",
+    "C": "即時（Real time）",
+    "A": "時程共享（Time sharing）"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1379": {
    "id": "1379",
    "subject": "作業系統",
@@ -1700,6 +1939,50 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:52:42.660Z"
+  },
+  "1380": {
+   "id": "1380",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Little's Formula (n = λ x W) 的特性是什麼？",
+   "hint": "",
+   "options": {
+    "B": "適用於任何排程演算法",
+    "A": "在穩態下，離開佇列的程序數等於到達的程序數",
+    "C": "適用於任何到達分佈",
+    "D": "可以計算 CPU 使用率"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.654Z"
+  },
+  "1383": {
+   "id": "1383",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In the Linux system, how does the nice value affect scheduling?",
+   "hint": "",
+   "options": {
+    "C": "A nice value of -20 corresponds to the highest priority",
+    "A": "A lower value means a higher priority",
+    "D": "A nice value of +19 corresponds to the lowest priority",
+    "B": "A higher value means a higher priority"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1385": {
    "id": "1385",
@@ -1774,6 +2057,51 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1396": {
+   "id": "1396",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "短剩餘時間優先（SRTF）是＿＿＿排程演算法的搶佔式版本。",
+   "hint": "請用小寫英文回答 字母間用-連接",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
+  "1397": {
+   "id": "1397",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "在優先權排程中，解決低優先權程序可能永遠無法執行的「飢餓」問題的方法是＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
+  "1399": {
+   "id": "1399",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "當時間片（q）相對於上下文切換時間非常大時，迴圈排程（RR）演算法的行為會趨近於＿＿＿。",
+   "hint": "請用小寫英文回答 關聯字母間用-連接 非關聯字母間用 空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1400": {
    "id": "1400",
    "subject": "作業系統",
@@ -1790,6 +2118,21 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1401": {
+   "id": "1401",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "In a＿＿＿scheduling, a process can move between the various queues, which helps to implement aging.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1409": {
    "id": "1409",
@@ -1808,6 +2151,21 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1411": {
+   "id": "1411",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是一個可以被系統管理員載入和設定的表格，用於管理Solaris中的多層級回饋佇列。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
   "1412": {
    "id": "1412",
    "subject": "作業系統",
@@ -1824,6 +2182,21 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1414": {
+   "id": "1414",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿is the λ in Little's Formula (n = λ x W), representing the average arrival rate into the queue.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1417": {
    "id": "1417",
@@ -1860,6 +2233,51 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1424": {
+   "id": "1424",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "響應時間是從提交請求到第一次＿＿＿產生的時間。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
+  "1425": {
+   "id": "1425",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿scheduling can lead to the convoy effect, where all other processes wait for one long process to finish.(Please answer using English abbreviations and uppercase letters.)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
+  },
+  "1426": {
+   "id": "1426",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "The advantage of the Shortest-Job-First (SJF) scheduling algorithm is that it minimizes the average＿＿＿time.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T06:54:00.644Z",
+   "updatedAt": "2026-10-21T06:54:00.644Z"
   },
   "1427": {
    "id": "1427",
@@ -22161,7 +22579,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-21T06:54:00.660Z",
+   "deleted": true,
+   "mergedInto": "1345"
   },
   "tx57f8x": {
    "id": "tx57f8x",
@@ -22922,7 +23342,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-21T06:54:00.653Z",
+   "deleted": true,
+   "mergedInto": "1331"
   },
   "t1u1myjg": {
    "id": "t1u1myjg",
@@ -23027,7 +23449,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-21T06:54:00.654Z",
+   "deleted": true,
+   "mergedInto": "1380"
   },
   "t16cvt89": {
    "id": "t16cvt89",
