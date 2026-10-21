@@ -929,10 +929,15 @@
     "C": "搜尋",
     "D": "列出檔案資訊"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:48:42.902Z",
-   "updatedAt": "2026-10-21T11:48:42.902Z"
+   "updatedAt": "2026-10-21T11:49:56.057Z"
   },
   "404": {
    "id": "404",
@@ -1192,10 +1197,12 @@
    "text": "圖形使用者介面（GUI）的桌面介面是在＿＿＿發明的。 (英文小寫回答 單字間留一個空白)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "xerox parc"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:48:42.902Z",
-   "updatedAt": "2026-10-21T11:48:42.902Z"
+   "updatedAt": "2026-10-21T11:49:56.057Z"
   },
   "417": {
    "id": "417",
@@ -1224,10 +1231,12 @@
    "text": "系統呼叫通常與＿＿＿語言編寫的程式有關。 (用英文小寫回答 字母間請流一個空白)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "high level"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:48:42.902Z",
-   "updatedAt": "2026-10-21T11:48:42.902Z"
+   "updatedAt": "2026-10-21T11:49:56.057Z"
   },
   "419": {
    "id": "419",
@@ -33392,10 +33401,56 @@
     "A": "方便使用（Convenient）",
     "C": "快速與安全（Fast and safe）"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:48:42.902Z",
-   "updatedAt": "2026-10-21T11:48:42.902Z"
+   "updatedAt": "2026-10-21T11:49:56.057Z"
+  },
+  "t1ircty9": {
+   "id": "t1ircty9",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Operating systems that combine multiple structural approaches are called ＿＿＿ systems.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "hybrid"
+   ],
+   "lines": [
+    "hybrid"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:49:56.057Z",
+   "updatedAt": "2026-10-21T11:49:56.057Z"
+  },
+  "tx4bs2i": {
+   "id": "tx4bs2i",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "What is the Linux command to create a new process ＿＿＿ 格式 : fun()",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:49:56.057Z",
+   "updatedAt": "2026-10-21T11:49:56.057Z"
   }
  }
 }
