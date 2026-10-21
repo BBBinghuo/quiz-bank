@@ -1079,6 +1079,26 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.320Z"
   },
+  "412": {
+   "id": "412",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是作業系統設計時需要考慮的系統目標？",
+   "hint": "",
+   "options": {
+    "C": "可維護",
+    "B": "易於實作",
+    "D": "靈活",
+    "A": "易於設計"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
+  },
   "413": {
    "id": "413",
    "subject": "作業系統",
@@ -7436,6 +7456,28 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2765": {
+   "id": "2765",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪一種使用者介面是以文字行輸入為基礎的？",
+   "hint": "",
+   "options": {
+    "B": "CLI",
+    "A": "GUI",
+    "D": "Batch",
+    "C": "Touchscreen"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.560Z"
+  },
   "2766": {
    "id": "2766",
    "subject": "作業系統",
@@ -7721,6 +7763,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:57.998Z"
+  },
+  "2781": {
+   "id": "2781",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "用來獲取特定硬體組態資訊，以建構出客製化或最佳化核心的程式稱為什麼？",
+   "hint": "",
+   "options": {
+    "A": "Bootstrap",
+    "D": "Compiler",
+    "B": "SYSGEN",
+    "C": "DTrace"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.567Z"
   },
   "2782": {
    "id": "2782",
@@ -8067,6 +8131,26 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.005Z"
+  },
+  "2799": {
+   "id": "2799",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於系統程式（System Programs）的分類，主要包含下列哪些領域？",
+   "hint": "",
+   "options": {
+    "A": "檔案管理與修改",
+    "B": "狀態資訊與程式語言支援",
+    "D": "處理器電路設計",
+    "C": "程式載入與執行、通訊"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
   },
   "2800": {
    "id": "2800",
@@ -8744,6 +8828,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:50:10.476Z"
+  },
+  "2837": {
+   "id": "2837",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 Windows 中，用來設定檔案安全權限、屬於保護（Protection）領域的系統呼叫是＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
   },
   "2839": {
    "id": "2839",
@@ -12362,7 +12461,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T11:44:50.567Z",
+   "deleted": true,
+   "mergedInto": "2781"
   },
   "tb56p0z": {
    "id": "tb56p0z",
@@ -16869,7 +16970,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:11.340Z",
-   "updatedAt": "2026-10-20T01:01:11.340Z"
+   "updatedAt": "2026-10-21T11:44:50.560Z",
+   "deleted": true,
+   "mergedInto": "2765"
   },
   "t1opamal": {
    "id": "t1opamal",
@@ -32850,6 +32953,86 @@
    "source": "text",
    "createdAt": "2026-10-21T11:44:19.838Z",
    "updatedAt": "2026-10-21T11:44:19.838Z"
+  },
+  "2797~19v4oru": {
+   "id": "2797~19v4oru",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於微核心（Microkernel）架構的優點，下列哪些敘述是正確的？",
+   "hint": "",
+   "options": {
+    "A": "核心更容易擴充功能",
+    "B": "更容易移植到新硬體架構上",
+    "C": "更安全且可靠（較少程式碼運行在核心模式）",
+    "D": "效能優於傳統單體核心"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
+  },
+  "43~15n842k": {
+   "id": "43~15n842k",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "API 是用來：",
+   "hint": "",
+   "options": {
+    "D": "分割虛擬記憶體",
+    "A": "加速 CPU",
+    "C": "提供程式呼叫 OS 的介面",
+    "B": "管理檔案系統"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
+  },
+  "2786~1vbslbj": {
+   "id": "2786~1vbslbj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is the name of the virtual machine that runs translated Java bytecode in Android?",
+   "hint": "",
+   "options": {
+    "A": "JVM",
+    "B": "Dalvik virtual machine",
+    "C": "Mach",
+    "D": "Aqua"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
+  },
+  "2808~1tmkzkf": {
+   "id": "2808~1tmkzkf",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which facilities are commonly provided by background services or daemons?",
+   "hint": "",
+   "options": {
+    "B": "Process scheduling",
+    "D": "Web browser frontend layout",
+    "C": "Error logging",
+    "A": "Disk checking"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:44:50.551Z",
+   "updatedAt": "2026-10-21T11:44:50.551Z"
   }
  }
 }
