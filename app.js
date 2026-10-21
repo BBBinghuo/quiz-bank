@@ -146,7 +146,9 @@ function sameAnswer(q, ans) {
 
 function saveLocal() { lsSet(LS.data, { db: DB, dirty }); }
 
+let dbVersion = 0;
 function commit() {
+  dbVersion++;
   dirty = true;
   saveLocal();
   renderBadge();
@@ -402,17 +404,43 @@ function parseQuizHTML(html, filename) {
 }
 
 /* 不同科目可能有相同的題號，所以題號只在同科目內有效 */
+/* 選項組合（不管順序與代號），用來分辨「同題目、不同選項」 */
+const optionSig = q => Object.values(q.options || {}).map(normO).sort().join('\u0001');
+const baseId = id => String(id).split(/[@~]/)[0];
+
+/* 同一題 = 同科目、（同題號或同題目文字）、且選項組合相同；選項不同就當成另一個版本 */
 function findExisting(q, subject) {
-  for (const id of [q.id, q.id + '@' + subject]) {
-    const x = DB.questions[id];
-    if (x && !x.deleted && subjectOf(x) === subject) return x;
-  }
-  const k = textKey(q);
-  return active().find(x => subjectOf(x) === subject && x.source !== 'text' && textKey(x) === k) || null;
+  const sig = optionSig(q), k = textKey(q), id = String(q.id);
+  return active().find(x => subjectOf(x) === subject && x.source !== 'text' &&
+    (baseId(x.id) === id || textKey(x) === k) && optionSig(x) === sig) || null;
 }
-function freeId(id, subject) {
-  const x = DB.questions[id];
-  return x && !x.deleted && subjectOf(x) !== subject ? id + '@' + subject : id;
+function freeId(q, subject) {
+  const taken = id => DB.questions[id] && !DB.questions[id].deleted;
+  let id = String(q.id);
+  if (taken(id) && subjectOf(DB.questions[id]) !== subject) id += '@' + subject;
+  if (taken(id)) id += '~' + hashText(optionSig(q)); // 同題號但選項不同的版本
+  return id;
+}
+/* 這份檔案的選項代號 → 題庫裡同一個選項文字的代號（不同版本的代號可能不一樣） */
+function remapDisplay(item, q) {
+  const byText = new Map(Object.entries(q.options || {}).map(([k, v]) => [normO(v), k]));
+  return (item.display || []).map(d => ({ disp: d.disp, key: byText.get(normO(item.options[d.key])) || d.key }));
+}
+
+/* 同題目有幾種選項版本 */
+let variantCache = null;
+function variantCount(q) {
+  if (q.source === 'text' || q.type === 'fill') return 1;
+  if (!variantCache || variantCache.db !== DB || variantCache.v !== dbVersion) {
+    const map = new Map();
+    for (const x of active()) {
+      if (x.source === 'text' || x.type === 'fill') continue;
+      const key = subjectOf(x) + '|' + normQ(x.text);
+      map.set(key, (map.get(key) || 0) + 1);
+    }
+    variantCache = { db: DB, v: dbVersion, map };
+  }
+  return variantCache.map.get(subjectOf(q) + '|' + normQ(q.text)) || 1;
 }
 
 /* ========== 解析文字題庫（NotebookLM / 成績頁） ========== */
@@ -458,12 +486,17 @@ function refsFor(q, display) {
  * 把「題目 + 正確答案」套進題庫。
  * official = true（成績頁）時，解答以成績頁為準；貼上的文字則不覆蓋既有解答。
  */
-function applyEntries(entries, subject, chapter, level, official) {
+function applyEntries(entries, subject, chapter, level, official, prefer) {
   const now = nowISO();
   const report = [];
   for (const e of entries) {
-    const resolved = sameTextQuestions(subject, e.text)
+    let resolved = sameTextQuestions(subject, e.text)
       .map(q => ({ q, ans: deriveFromLines(q, e.lines) })).filter(x => x.ans);
+    // 好幾個版本都對得上時，優先用同一批匯入的練習頁那個版本
+    if (resolved.length > 1 && prefer && prefer.size) {
+      const inBatch = resolved.filter(x => prefer.has(x.q.id));
+      if (inBatch.length === 1) resolved = inBatch;
+    }
     if (resolved.length === 1) {
       const { q, ans } = resolved[0];
       let status;
@@ -538,6 +571,7 @@ function tagsHTML(q, extra = '') {
     ${q.difficulty ? `<span class="tag grey">${esc(q.difficulty)}</span>` : ''}
     <span class="tag grey">${TYPE_LABEL[q.type] || q.type}</span>
     ${hasAnswer(q) ? '' : '<span class="tag warn">尚無解答</span>'}
+    ${variantCount(q) > 1 ? `<span class="tag" title="題目一樣，但選項不同的題目會分開記錄">同題目共 ${variantCount(q)} 種選項版本</span>` : ''}
     ${extra}
     <span class="muted" style="margin-left:auto">#${esc(q.id)}</span>
   </div>`;
@@ -780,10 +814,11 @@ async function handleFiles(files) {
     } catch (e) { results.push({ filename: f.name, error: e.message, items: [] }); }
   }
   parsedFiles.sort((a, b) => (a.kind === 'result') - (b.kind === 'result'));
+  const batchIds = new Set(); // 這次一起匯入的練習頁題目
   for (const parsed of parsedFiles) {
     const subject = parsed.subject;
     if (parsed.kind === 'result') {
-      const report = parsed.items.length ? applyEntries(parsed.items, subject, parsed.chapter, parsed.level, true) : [];
+      const report = parsed.items.length ? applyEntries(parsed.items, subject, parsed.chapter, parsed.level, true, batchIds) : [];
       if (report.some(r => r.status !== 'dup' && r.status !== 'same')) changed = true;
       filled += report.filter(r => r.status === 'filled' || r.status === 'updated').length;
       textResults.push({ title: '成績頁匯入結果', filename: parsed.filename, subject, chapter: parsed.chapter, report });
@@ -794,9 +829,11 @@ async function handleFiles(files) {
       if (exist) {
         item.status = 'exists';
         item.dbId = exist.id;
+        item.display = remapDisplay(item, exist);
       } else {
         item.status = 'new';
-        item.dbId = freeId(item.id, subject);
+        item.dbId = freeId(item, subject);
+        if (sameTextQuestions(subject, item.text).some(x => x.type !== 'fill')) item.variant = true;
         if (!addNew) continue;
         DB.questions[item.dbId] = {
           id: item.dbId, subject, chapter: parsed.chapter, level: parsed.level, difficulty: parsed.difficulty,
@@ -808,6 +845,7 @@ async function handleFiles(files) {
         changed = true;
       }
       const q = DB.questions[item.dbId];
+      if (q) batchIds.add(q.id);
       if (q && autoFillFromText(q)) { item.autoFilled = true; filled++; changed = true; }
     }
     results.push(parsed);
@@ -954,7 +992,7 @@ function renderImport() {
         const tag = q && q.deleted ? '<span class="tag warn">已刪除</span>' : '<span class="tag warn">題庫沒有</span>';
         return cardHTML(tmp, { cls: 'new', display: it.display, prefix, extraTags: tag, readonly: true, refs });
       }
-      let tag = it.status === 'new' ? '<span class="tag warn">新加入</span>' : '<span class="tag ok">題庫已有</span>';
+      let tag = it.status === 'new' ? `<span class="tag warn">${it.variant ? '新選項版本' : '新加入'}</span>` : '<span class="tag ok">題庫已有</span>';
       if (it.autoFilled) tag += '<span class="tag ok">已用文字題庫補上解答</span>';
       const refs = hasAnswer(q) ? [] : refsFor(q, it.display);
       return cardHTML(q, { cls: hasAnswer(q) ? 'known' : 'new', display: it.display, prefix, extraTags: tag, refs, moveable: true });
