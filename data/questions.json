@@ -1,6 +1,21 @@
 {
  "version": 1,
  "questions": {
+  "35": {
+   "id": "35",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "what is the name circled in this figure＿＿＿?",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.625Z"
+  },
   "36": {
    "id": "36",
    "subject": "作業系統",
@@ -410,6 +425,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:50:21.626Z",
    "updatedAt": "2026-10-21T05:50:21.634Z"
+  },
+  "377": {
+   "id": "377",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪個介面使用滑鼠、鍵盤和顯示器，並用圖示代表檔案、程式和動作？",
+   "hint": "",
+   "options": {
+    "A": "CLI",
+    "C": "Batch",
+    "B": "GUI",
+    "D": "Touchscreen"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.635Z"
   },
   "378": {
    "id": "378",
@@ -850,6 +887,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:53:18.962Z",
    "updatedAt": "2026-10-21T05:53:18.973Z"
+  },
+  "402": {
+   "id": "402",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是作業系統服務？",
+   "hint": "",
+   "options": {
+    "C": "資源分配",
+    "A": "錯誤偵測",
+    "B": "帳戶管理",
+    "D": "撰寫程式"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.641Z"
   },
   "404": {
    "id": "404",
@@ -7747,6 +7808,26 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.017Z"
   },
+  "2786": {
+   "id": "2786",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Android 系統中，用來執行已翻譯之 Java 位元碼的虛擬機器名稱為何？",
+   "hint": "",
+   "options": {
+    "A": "JVM",
+    "D": "Aqua",
+    "C": "Mach",
+    "B": "Dalvik 虛擬機器"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.625Z"
+  },
   "2788": {
    "id": "2788",
    "subject": "作業系統",
@@ -7792,6 +7873,26 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.095Z"
+  },
+  "2791": {
+   "id": "2791",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些作業系統環境中，同時包含了命令列介面（CLI）與圖形使用者介面（GUI）？",
+   "hint": "",
+   "options": {
+    "B": "Apple Mac OS X",
+    "C": "Linux",
+    "A": "Microsoft Windows",
+    "D": "早期的純 MS-DOS"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.625Z"
   },
   "2792": {
    "id": "2792",
@@ -7910,6 +8011,26 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "2797": {
+   "id": "2797",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the benefits of a microkernel system structure?",
+   "hint": "",
+   "options": {
+    "A": "Easier to extend",
+    "D": "Performance is better than monolithic kernels",
+    "B": "Easier to port to new architectures",
+    "C": "More secure and reliable"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.625Z"
   },
   "2798": {
    "id": "2798",
@@ -12512,7 +12633,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T11:42:31.641Z",
+   "deleted": true,
+   "mergedInto": "402"
   },
   "t1c9ukyg": {
    "id": "t1c9ukyg",
@@ -12924,7 +13047,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T11:42:31.635Z",
+   "deleted": true,
+   "mergedInto": "377"
   },
   "ti1x4gn": {
    "id": "ti1x4gn",
@@ -19302,7 +19427,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:23.244Z",
-   "updatedAt": "2026-10-20T01:07:23.244Z"
+   "updatedAt": "2026-10-21T11:42:31.637Z",
+   "deleted": true,
+   "mergedInto": "2806~1rmzuea"
   },
   "t1a00k7j": {
    "id": "t1a00k7j",
@@ -32600,6 +32727,50 @@
    "note": "",
    "createdAt": "2026-10-21T11:40:57.806Z",
    "updatedAt": "2026-10-21T11:40:57.816Z"
+  },
+  "2806~1rmzuea": {
+   "id": "2806~1rmzuea",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which methods are used for performance tuning and analyzing system behavior?",
+   "hint": "",
+   "options": {
+    "A": "Using trace listings of activities",
+    "B": "Profiling by periodic sampling of instruction pointer",
+    "D": "Buying a new graphics card",
+    "C": "Checking log files or using top program"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.637Z"
+  },
+  "2798~dmu17p": {
+   "id": "2798~dmu17p",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following are modules supported in modern modular kernels like Solaris?",
+   "hint": "",
+   "options": {
+    "D": "Physical hardware wires",
+    "A": "Scheduling classes",
+    "C": "Loadable system calls",
+    "B": "File systems"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:42:31.625Z",
+   "updatedAt": "2026-10-21T11:42:31.625Z"
   }
  }
 }
