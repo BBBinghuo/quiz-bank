@@ -1349,10 +1349,12 @@
     "C": "將CPU控制權交給排程器選擇的程序",
     "B": "將中斷發送給程序"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1327": {
    "id": "1327",
@@ -1369,10 +1371,12 @@
     "D": "The time a process has been waiting in the ready queue",
     "B": "The percentage of time the CPU is busy"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1328": {
    "id": "1328",
@@ -1389,10 +1393,12 @@
     "B": "First-Come, First-Served (FCFS)",
     "C": "Priority scheduling"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1329": {
    "id": "1329",
@@ -1409,10 +1415,12 @@
     "D": "輪轉 (RR)",
     "C": "優先權排程"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1330": {
    "id": "1330",
@@ -1429,10 +1437,12 @@
     "C": "優先權排程",
     "B": "短工作優先（SJF）"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1332": {
    "id": "1332",
@@ -1449,10 +1459,12 @@
     "B": "Using Round Robin scheduling",
     "C": "Aging"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1339": {
    "id": "1339",
@@ -1469,10 +1481,12 @@
     "D": "搶佔式調度",
     "A": "負載平衡"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1352": {
    "id": "1352",
@@ -1489,10 +1503,13 @@
     "C": "程序從等待中狀態切換到就緒狀態",
     "D": "行程終止"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1353": {
    "id": "1353",
@@ -1509,10 +1526,14 @@
     "C": "跳轉到使用者程式中的正確位置以重新啟動該程式",
     "D": "選擇下一個要運行的行程"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1356": {
    "id": "1356",
@@ -1529,10 +1550,13 @@
     "B": "等待時間總是最小的",
     "D": "適用於即時系統"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1359": {
    "id": "1359",
@@ -1574,10 +1598,15 @@
     "C": "程序通常永久地固定在一個佇列中",
     "B": "每個佇列可以有自己的排程演算法"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1370": {
    "id": "1370",
@@ -1594,10 +1623,14 @@
     "C": "截止時間越晚的優先權越低",
     "A": "截止時間越早的優先權越高"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1373": {
    "id": "1373",
@@ -1614,10 +1647,14 @@
     "D": "選擇虛擬運行時間最短的任務運行",
     "C": "維護一個每任務的虛擬運行時間（vruntime）"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1374": {
    "id": "1374",
@@ -1634,10 +1671,15 @@
     "C": "There is a queue for each priority level",
     "D": "It can boost thread priorities"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1379": {
    "id": "1379",
@@ -1674,10 +1716,12 @@
     "B": "採用迴圈排程",
     "A": "採用搶佔式排程"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1388": {
    "id": "1388",
@@ -1689,10 +1733,12 @@
    "text": "一個程序的執行由CPU執行和I/O等待的交替週期組成，這被稱為 cpu-i/o＿＿＿。(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "burst cycle"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1389": {
    "id": "1389",
@@ -1704,10 +1750,12 @@
    "text": "當一個程序從執行中狀態切換到就緒狀態時，排程是屬於＿＿＿類型。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "preemptive"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1392": {
    "id": "1392",
@@ -1719,10 +1767,12 @@
    "text": "＿＿＿時間是從提交請求到產生第一個回應所需的時間，而不是完整的輸出。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "response"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1400": {
    "id": "1400",
@@ -1734,10 +1784,12 @@
    "text": "在＿＿＿佇列排程中，就緒佇列被劃分為多個獨立的佇列，且程序通常永久地固定在一個佇列中。",
    "hint": "請用小寫英文回答 字母間用空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "multilevel queue"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1409": {
    "id": "1409",
@@ -1749,10 +1801,12 @@
    "text": "In the Windows system, threads in the＿＿＿priority class cannot have their priority boosted.(Please answer in lowercase English, connecting letters with underscores)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "realtime_priority_class"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1412": {
    "id": "1412",
@@ -1764,10 +1818,12 @@
    "text": "In scheduling algorithm evaluation,＿＿＿describe the arrival of processes and CPU bursts probabilistically.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "queueing models"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1417": {
    "id": "1417",
@@ -1779,10 +1835,12 @@
    "text": "CPU-I/O 連發週期是程序執行中，CPU連發後接著＿＿＿連發的循環。",
    "hint": "請用英文大寫字母",
    "options": {},
-   "answer": [],
+   "answer": [
+    "I/O"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1420": {
    "id": "1420",
@@ -1795,10 +1853,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "terminated",
+    "released"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1427": {
    "id": "1427",
@@ -1810,10 +1871,12 @@
    "text": "Shortest-remaining-time-first (SRTF) is the preemptive version of the＿＿＿algorithm.(Please answer using English abbreviations and uppercase letters.)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "SJF"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1428": {
    "id": "1428",
@@ -1825,10 +1888,12 @@
    "text": "優先權排程可能會導致＿＿＿，即低優先權程序永遠無法執行。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "starvation"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1436": {
    "id": "1436",
@@ -1840,10 +1905,12 @@
    "text": "The＿＿＿scheduling algorithm in real-time scheduling assigns priorities based on the expiration time of the data.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "earliest deadline first"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "1437": {
    "id": "1437",
@@ -1855,10 +1922,12 @@
    "text": "＿＿＿模型是數學分析的工具，通常假設已知的到達和服務時間分佈。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "queueing"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   },
   "2128": {
    "id": "2128",
@@ -31476,6 +31545,27 @@
    "source": "text",
    "createdAt": "2026-10-21T05:55:00.844Z",
    "updatedAt": "2026-10-21T05:55:00.844Z"
+  },
+  "t15eevuv": {
+   "id": "t15eevuv",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What averages are typically computed using queueing models?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A,B,C"
+   ],
+   "lines": [
+    "A,B,C"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T06:53:46.805Z",
+   "updatedAt": "2026-10-21T06:53:46.805Z"
   }
  }
 }
