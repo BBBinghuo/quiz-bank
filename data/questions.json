@@ -1410,25 +1410,22 @@
   "2236": {
    "id": "2236",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "遞迴樹的每一層代表？",
    "hint": "",
    "options": {
-    "A": "該層遞迴分解的成本",
-    "B": "樹的深度",
+    "C": "遞迴的總次數",
     "D": "常數項",
-    "C": "遞迴的總次數"
+    "A": "該層遞迴分解的成本",
+    "B": "樹的深度"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:35.404Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.121Z"
   },
   "2237": {
    "id": "2237",
@@ -1585,6 +1582,28 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:56:41.883Z",
    "deleted": true
+  },
+  "2246": {
+   "id": "2246",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "歸納法中的「歸納假設」是？",
+   "hint": "",
+   "options": {
+    "C": "假設參數 n 為無限大",
+    "B": "假設遞迴式永遠收斂",
+    "D": "假設常數 c 為 0",
+    "A": "假設對於較小的輸入值解是正確的"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.126Z"
   },
   "2247": {
    "id": "2247",
@@ -1756,28 +1775,22 @@
   "2256": {
    "id": "2256",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "遞迴樹法在下列哪些情況下特別有用？",
    "hint": "",
    "options": {
-    "A": "當 f(n) 在遞迴樹中變化時",
     "D": "當遞迴樹非常對稱時",
+    "A": "當 f(n) 在遞迴樹中變化時",
     "C": "當使用代入法過於複雜時",
     "B": "當需要產生好的猜測時"
    },
-   "answer": [
-    "A",
-    "B",
-    "C",
-    "D"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:54:38.803Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.121Z"
   },
   "2257": {
    "id": "2257",
@@ -2113,20 +2126,17 @@
   "2275": {
    "id": "2275",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "大師定理分析中 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 的成長率需進行＿＿＿",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [
-    "comparison"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:55:51.162Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.121Z"
   },
   "2276": {
    "id": "2276",
@@ -2163,6 +2173,21 @@
    "createdAt": "2026-10-20T14:21:50.630Z",
    "updatedAt": "2026-10-20T14:56:54.003Z",
    "deleted": true
+  },
+  "2278": {
+   "id": "2278",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "T(n) = 2T(n/2) + n\n\n以代入法證明\n我們先猜 他是 O(nlogn)\n請依此寫出之後帶入的式子  ＿＿＿",
+   "hint": "請用小寫英文回答 答案中間不要留空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.121Z"
   },
   "2279": {
    "id": "2279",
@@ -2214,6 +2239,21 @@
    "createdAt": "2026-10-19T15:53:36.755Z",
    "updatedAt": "2026-10-20T00:58:41.076Z",
    "deleted": true
+  },
+  "2282": {
+   "id": "2282",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "對於 T(n) = 2T(n/2) + n，其複雜度為 O(n＿＿＿n)",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:39:44.121Z",
+   "updatedAt": "2026-10-21T01:39:44.121Z"
   },
   "2283": {
    "id": "2283",
@@ -20312,7 +20352,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:07.420Z",
-   "updatedAt": "2026-10-20T01:24:07.420Z"
+   "updatedAt": "2026-10-21T01:39:44.126Z",
+   "deleted": true,
+   "mergedInto": "2246"
   },
   "t1a4vvxe": {
    "id": "t1a4vvxe",
