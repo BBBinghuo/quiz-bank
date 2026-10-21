@@ -18,6 +18,28 @@
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:48:18.172Z"
   },
+  "37": {
+   "id": "37",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "以下哪一項不是作業系統提供給使用者的基本服務？",
+   "hint": "",
+   "options": {
+    "C": "錯誤偵測",
+    "D": "資源分配",
+    "B": "檔案系統操作",
+    "A": "資料分析"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.970Z"
+  },
   "38": {
    "id": "38",
    "subject": "作業系統",
@@ -77,10 +99,12 @@
     "D": "Hardware",
     "B": "Kernel"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "42": {
    "id": "42",
@@ -251,10 +275,12 @@
     "B": "JavaScript",
     "A": "Python"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "52": {
    "id": "52",
@@ -783,6 +809,31 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.342Z"
   },
+  "401": {
+   "id": "401",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是 Windows 和 UNIX 系統都有的系統呼叫？",
+   "hint": "",
+   "options": {
+    "A": "程式控制",
+    "D": "通訊",
+    "B": "檔案管理",
+    "C": "裝置管理"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.973Z"
+  },
   "404": {
    "id": "404",
    "subject": "作業系統",
@@ -830,6 +881,48 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.011Z"
+  },
+  "406": {
+   "id": "406",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "微核心的缺點是？",
+   "hint": "",
+   "options": {
+    "A": "程式碼較多",
+    "B": "效能開銷",
+    "D": "擴充性差",
+    "C": "安全性較差"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.972Z"
+  },
+  "408": {
+   "id": "408",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "現代的作業系統通常是哪種設計模型的混合體？",
+   "hint": "",
+   "options": {
+    "D": "分層式",
+    "C": "模組化",
+    "B": "單層式",
+    "A": "微核心"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.962Z"
   },
   "409": {
    "id": "409",
@@ -970,10 +1063,12 @@
    "text": "The three most common APIs are the Win32 API for Windows, the POSIX API for POSIX systems, and the Java API for the＿＿＿virtual machine. (用英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "java"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "419": {
    "id": "419",
@@ -1121,10 +1216,12 @@
    "text": "對於每個錯誤類型，作業系統應該採取適當的行動來確保正確和＿＿＿的運算。(英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "consistent"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "429": {
    "id": "429",
@@ -6184,6 +6281,28 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2766": {
+   "id": "2766",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "發明圖形使用者介面（GUI）的機構是下列哪一個？",
+   "hint": "",
+   "options": {
+    "C": "Apple",
+    "A": "Microsoft",
+    "B": "Xerox PARC",
+    "D": "Bell Labs"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.969Z"
+  },
   "2767": {
    "id": "2767",
    "subject": "作業系統",
@@ -6469,6 +6588,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:48:29.997Z"
+  },
+  "2783": {
+   "id": "2783",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "現代系統中常見的開機引導載入程式（如支援選擇不同核心版本）是哪一個？",
+   "hint": "",
+   "options": {
+    "B": "GRUB",
+    "D": "Webkit",
+    "A": "DTrace",
+    "C": "Dalvik"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.966Z"
   },
   "2784": {
    "id": "2784",
@@ -6822,6 +6963,30 @@
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:48:29.996Z"
   },
+  "2805": {
+   "id": "2805",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 Android 系統架構，包含下列哪些核心組件或層級？",
+   "hint": "",
+   "options": {
+    "D": "蘋果可可觸控（Cocoa Touch）",
+    "B": "函式庫（如 Webkit, SQLite）",
+    "A": "應用程式框架（Application Framework）",
+    "C": "Android 執行期環境與修改版 Linux 核心"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.974Z"
+  },
   "2806": {
    "id": "2806",
    "subject": "作業系統",
@@ -6891,6 +7056,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:46:50.650Z"
+  },
+  "2809": {
+   "id": "2809",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些屬於作業系統提供的通訊模型機制？",
+   "hint": "",
+   "options": {
+    "B": "訊息傳遞模型（Message passing）",
+    "A": "共用記憶體模型（Shared memory）",
+    "D": "網路封包搬移",
+    "C": "暫存器實體碰撞模型"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.971Z"
   },
   "2810": {
    "id": "2810",
@@ -7017,10 +7205,12 @@
    "text": "應用程式用來呼叫作業系統核心服務的程式化介面簡稱為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "api"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "2817": {
    "id": "2817",
@@ -7038,6 +7228,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "2818": {
+   "id": "2818",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In a microkernel system structure, communication takes place between user modules using＿＿＿.(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.962Z"
   },
   "2819": {
    "id": "2819",
@@ -7187,10 +7392,12 @@
    "text": "結合了多種核心結構特徵（如 monolithic 加 modular）的現代系統架構稱為＿＿＿系統。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "hybrid"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "2828": {
    "id": "2828",
@@ -7236,10 +7443,12 @@
    "text": "一個運行中的程式若需要進行檔案 manipulation 或網路傳輸，必須透過＿＿＿系統向核心發出請求。",
    "hint": "請用小寫英文回答字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "system call"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
-   "updatedAt": "2026-10-21T05:51:47.746Z"
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   },
   "2832": {
    "id": "2832",
@@ -7257,6 +7466,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "2833": {
+   "id": "2833",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Background services that run continuously from boot to shutdown are also known as＿＿＿.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:53:18.962Z",
+   "updatedAt": "2026-10-21T05:53:18.962Z"
   },
   "2834": {
    "id": "2834",
@@ -11141,7 +11365,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:53:18.969Z",
+   "deleted": true,
+   "mergedInto": "2766"
   },
   "t1qsg7tv": {
    "id": "t1qsg7tv",
@@ -14711,7 +14937,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:53:18.972Z",
+   "deleted": true,
+   "mergedInto": "406"
   },
   "t1w5kmss": {
    "id": "t1w5kmss",
@@ -15386,7 +15614,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:11.340Z",
-   "updatedAt": "2026-10-20T01:01:11.340Z"
+   "updatedAt": "2026-10-21T05:53:18.971Z",
+   "deleted": true,
+   "mergedInto": "2809"
   },
   "tem3jg3": {
    "id": "tem3jg3",
@@ -15835,7 +16065,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:36.844Z",
-   "updatedAt": "2026-10-20T01:03:36.844Z"
+   "updatedAt": "2026-10-21T05:53:18.973Z",
+   "deleted": true,
+   "mergedInto": "401"
   },
   "t15vtklv": {
    "id": "t15vtklv",
@@ -16355,7 +16587,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T05:53:18.974Z",
+   "deleted": true,
+   "mergedInto": "2805"
   },
   "txzuqpa": {
    "id": "txzuqpa",
@@ -16613,7 +16847,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T05:53:18.970Z",
+   "deleted": true,
+   "mergedInto": "37"
   },
   "t1eq68eq": {
    "id": "t1eq68eq",
@@ -17416,7 +17652,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:51.012Z",
-   "updatedAt": "2026-10-20T01:05:51.012Z"
+   "updatedAt": "2026-10-21T05:53:18.966Z",
+   "deleted": true,
+   "mergedInto": "2783"
   },
   "twokivl": {
    "id": "twokivl",
@@ -30462,6 +30700,69 @@
    "source": "text",
    "createdAt": "2026-10-21T05:51:34.109Z",
    "updatedAt": "2026-10-21T05:51:34.109Z"
+  },
+  "t1j6q3wj": {
+   "id": "t1j6q3wj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ tools allows Solaris, FreeBSD, Mac OS X systems to perform real-time monitor.(Capitalize the first letter of the English text)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "DTrace"
+   ],
+   "lines": [
+    "DTrace"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:53:11.564Z",
+   "updatedAt": "2026-10-21T05:53:11.564Z"
+  },
+  "t1p3yjq4": {
+   "id": "t1p3yjq4",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一個不是系統程式的一部分？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "應用程式"
+   ],
+   "lines": [
+    "應用程式"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:53:11.564Z",
+   "updatedAt": "2026-10-21T05:53:11.564Z"
+  },
+  "t158b9ny": {
+   "id": "t158b9ny",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Periodic sampling of the instruction pointer to look for statistical trends is called ＿＿＿ .(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "profiling"
+   ],
+   "lines": [
+    "profiling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:53:11.564Z",
+   "updatedAt": "2026-10-21T05:53:11.564Z"
   }
  }
 }
