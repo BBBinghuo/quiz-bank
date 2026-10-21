@@ -1520,25 +1520,22 @@
   "2241": {
    "id": "2241",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "下列何者不是大師定理分析的變數？",
    "hint": "",
    "options": {
-    "D": "n!",
-    "C": "f(n)",
     "A": "a",
-    "B": "b"
+    "B": "b",
+    "D": "n!",
+    "C": "f(n)"
    },
-   "answer": [
-    "D"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:33.815Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:45:59.072Z",
+   "updatedAt": "2026-10-21T01:45:59.072Z"
   },
   "2242": {
    "id": "2242",
@@ -1588,7 +1585,7 @@
   "2244": {
    "id": "2244",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
@@ -1600,13 +1597,10 @@
     "A": "常數時間 O(1)",
     "B": "對數時間 O(log n)"
    },
-   "answer": [
-    "C"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:41.883Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:45:59.072Z",
+   "updatedAt": "2026-10-21T01:45:59.072Z"
   },
   "2245": {
    "id": "2245",
@@ -1839,6 +1833,30 @@
    "note": "",
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.833Z"
+  },
+  "2255": {
+   "id": "2255",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於遞迴式 T(n) = T(n-1) + n 的描述，何者正確？",
+   "hint": "",
+   "options": {
+    "C": "不能使用大師定理",
+    "D": "適用大師定理",
+    "B": "解為 O(n²)",
+    "A": "屬於線性遞迴"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:45:59.072Z",
+   "updatedAt": "2026-10-21T01:45:59.075Z"
   },
   "2256": {
    "id": "2256",
@@ -2379,20 +2397,17 @@
   "2284": {
    "id": "2284",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "大師定理 Case 3 要求 f(n) 必須＿＿＿大於 nˡᵒᵍᵇ⁽ᵃ⁾",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [
-    "polynomially"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:54:32.599Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:45:59.072Z",
+   "updatedAt": "2026-10-21T01:45:59.072Z"
   },
   "2285": {
    "id": "2285",
@@ -20162,7 +20177,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-21T01:45:59.075Z",
+   "deleted": true,
+   "mergedInto": "2255"
   },
   "t1eb7vhq": {
    "id": "t1eb7vhq",
