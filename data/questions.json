@@ -2299,6 +2299,28 @@
    "createdAt": "2026-10-20T14:50:00.000Z",
    "updatedAt": "2026-10-20T14:51:42.804Z"
   },
+  "2290": {
+   "id": "2290",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Max-Heap 中，父節點的值與子節點相比應為？",
+   "hint": "",
+   "options": {
+    "C": "必須相等",
+    "D": "無關",
+    "A": "大於或等於",
+    "B": "小於或等於"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.772Z"
+  },
   "2292": {
    "id": "2292",
    "subject": "演算法",
@@ -2409,6 +2431,28 @@
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.911Z"
   },
+  "2301": {
+   "id": "2301",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Heapsort 過程中，堆積的大小（heap-size）會？",
+   "hint": "",
+   "options": {
+    "D": "指數增加",
+    "A": "逐漸減少",
+    "B": "逐漸增加",
+    "C": "保持不變"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.773Z"
+  },
   "2304": {
    "id": "2304",
    "subject": "演算法",
@@ -2453,6 +2497,28 @@
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.912Z"
   },
+  "2307": {
+   "id": "2307",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者定義了堆積（Heap）的性質？",
+   "hint": "",
+   "options": {
+    "A": "Heap Property",
+    "B": "BST Property",
+    "C": "Sort Property",
+    "D": "Search Property"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.771Z"
+  },
   "2308": {
    "id": "2308",
    "subject": "演算法",
@@ -2476,6 +2542,31 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.913Z"
+  },
+  "2309": {
+   "id": "2309",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "優先佇列支援哪些操作？",
+   "hint": "",
+   "options": {
+    "C": "Extract-Max",
+    "A": "Insert",
+    "D": "Increase-Key",
+    "B": "Maximum"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.766Z"
   },
   "2311": {
    "id": "2311",
@@ -2574,6 +2665,78 @@
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.910Z"
   },
+  "2322": {
+   "id": "2322",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些操作在 Max-Heap 中維持屬性？",
+   "hint": "",
+   "options": {
+    "C": "Extract-Max",
+    "B": "Max-Heapify",
+    "A": "Build-Max-Heap",
+    "D": "Heap-Sort"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.768Z"
+  },
+  "2324": {
+   "id": "2324",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積的完整樹形狀意味著？",
+   "hint": "",
+   "options": {
+    "B": "節點由左至右填入",
+    "A": "除最後一層外均填滿",
+    "C": "沒有空缺",
+    "D": "可以有空節點"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.769Z"
+  },
+  "2325": {
+   "id": "2325",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積排序為何較 Insertion Sort 快？",
+   "hint": "",
+   "options": {
+    "A": "因為時間複雜度較低",
+    "C": "因為原地交換",
+    "B": "因為比較次數較少",
+    "D": "因為是穩定排序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.770Z"
+  },
   "2326": {
    "id": "2326",
    "subject": "演算法",
@@ -2657,6 +2820,21 @@
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
   },
+  "2333": {
+   "id": "2333",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 Max-Heap 中，根節點通常包含＿＿＿值",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.762Z"
+  },
   "2334": {
    "id": "2334",
    "subject": "演算法",
@@ -2673,6 +2851,23 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2335": {
+   "id": "2335",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "優先佇列中，插入操作的複雜度通常為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(logn)"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.774Z"
   },
   "2337": {
    "id": "2337",
@@ -2691,6 +2886,40 @@
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
   },
+  "2339": {
+   "id": "2339",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\nBuild-Max-Heap(A)\n1   heap-size[A] = length[A]\n2   for i = flooe(length[A]/2) downto 1\n3  \t    do Max-Heapify(A, i)\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[4]\n        /      \\\n    (2)[1]    (3)[3]\n    /    \\     /    \\\n(4)[2]  i(5)[16] (6)[9] (7)[10]\n /   \\     /\n(8)[14] (9)[8] (10)[7]\n\n＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4,1,3,2,16,9,10,14,8,7"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.774Z"
+  },
+  "2340": {
+   "id": "2340",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 Max-Heap 中，父節點的值必須＿＿＿子節點",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "greater"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.770Z"
+  },
   "2341": {
    "id": "2341",
    "subject": "演算法",
@@ -2707,6 +2936,36 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2342": {
+   "id": "2342",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積樹的高度通常為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.762Z"
+  },
+  "2343": {
+   "id": "2343",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Build-Max-Heap 的複雜度為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:20:09.762Z",
+   "updatedAt": "2026-10-21T01:20:09.762Z"
   },
   "2345": {
    "id": "2345",
@@ -19879,7 +20138,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:20:09.769Z",
+   "deleted": true,
+   "mergedInto": "2324"
   },
   "tldc6vo": {
    "id": "tldc6vo",
@@ -20072,7 +20333,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:20:09.766Z",
+   "deleted": true,
+   "mergedInto": "2309"
   },
   "t17cpix6": {
    "id": "t17cpix6",
@@ -20093,7 +20356,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:20:09.773Z",
+   "deleted": true,
+   "mergedInto": "2301"
   },
   "t1i5z6ez": {
    "id": "t1i5z6ez",
@@ -20309,7 +20574,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:20:09.772Z",
+   "deleted": true,
+   "mergedInto": "2290"
   },
   "tnh90rs": {
    "id": "tnh90rs",
@@ -20523,7 +20790,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:20:09.771Z",
+   "deleted": true,
+   "mergedInto": "2307"
   },
   "tbk6011": {
    "id": "tbk6011",
@@ -20716,7 +20985,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
-   "updatedAt": "2026-10-20T01:26:23.988Z"
+   "updatedAt": "2026-10-21T01:20:09.768Z",
+   "deleted": true,
+   "mergedInto": "2322"
   },
   "tp0zn1s": {
    "id": "tp0zn1s",
@@ -22060,7 +22331,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:39.892Z",
-   "updatedAt": "2026-10-20T01:27:39.892Z"
+   "updatedAt": "2026-10-21T01:20:09.770Z",
+   "deleted": true,
+   "mergedInto": "2325"
   },
   "t1hl8bxz": {
    "id": "t1hl8bxz",
@@ -24868,7 +25141,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:19:43.355Z",
-   "updatedAt": "2026-10-21T01:19:43.355Z"
+   "updatedAt": "2026-10-21T01:20:09.774Z",
+   "deleted": true,
+   "mergedInto": "2335"
   },
   "tdo9nxq": {
    "id": "tdo9nxq",
@@ -24889,7 +25164,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:19:43.355Z",
-   "updatedAt": "2026-10-21T01:19:43.355Z"
+   "updatedAt": "2026-10-21T01:20:09.774Z",
+   "deleted": true,
+   "mergedInto": "2339"
   },
   "t1tw3bm6": {
    "id": "t1tw3bm6",
@@ -24952,7 +25229,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:19:43.355Z",
-   "updatedAt": "2026-10-21T01:19:43.355Z"
+   "updatedAt": "2026-10-21T01:20:09.770Z",
+   "deleted": true,
+   "mergedInto": "2340"
   },
   "tzkgkaf": {
    "id": "tzkgkaf",
