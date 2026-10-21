@@ -2431,6 +2431,28 @@
    "createdAt": "2026-10-21T01:22:04.819Z",
    "updatedAt": "2026-10-21T01:22:04.826Z"
   },
+  "2294": {
+   "id": "2294",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Max-Heapify 操作的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "A": "O(log n)",
+    "B": "O(n)",
+    "D": "O(n log n)",
+    "C": "O(1)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:33:22.729Z",
+   "updatedAt": "2026-10-21T01:33:22.733Z"
+  },
   "2295": {
    "id": "2295",
    "subject": "演算法",
@@ -2584,6 +2606,28 @@
    "note": "",
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:20:09.773Z"
+  },
+  "2302": {
+   "id": "2302",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Max-Heap 的最大元素位於？",
+   "hint": "",
+   "options": {
+    "A": "根節點",
+    "D": "最後一個位置",
+    "B": "葉節點",
+    "C": "隨機位置"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:33:22.729Z",
+   "updatedAt": "2026-10-21T01:33:22.735Z"
   },
   "2303": {
    "id": "2303",
@@ -3179,6 +3223,23 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2331": {
+   "id": "2331",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Build-Max-Heap 的過程是為了建立＿＿＿屬性",
+   "hint": "請用小寫英文回答，單字間留 -",
+   "options": {},
+   "answer": [
+    "max-heap"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:33:22.729Z",
+   "updatedAt": "2026-10-21T01:33:22.735Z"
   },
   "2332": {
    "id": "2332",
@@ -20633,7 +20694,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:33:22.733Z",
+   "deleted": true,
+   "mergedInto": "2294"
   },
   "tugwioj": {
    "id": "tugwioj",
@@ -22867,7 +22930,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:39.892Z",
-   "updatedAt": "2026-10-20T01:27:39.892Z"
+   "updatedAt": "2026-10-21T01:33:22.735Z",
+   "deleted": true,
+   "mergedInto": "2302"
   },
   "t1i10jla": {
    "id": "t1i10jla",
@@ -25778,7 +25843,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:25:33.827Z",
-   "updatedAt": "2026-10-21T01:25:33.827Z"
+   "updatedAt": "2026-10-21T01:33:22.735Z",
+   "deleted": true,
+   "mergedInto": "2331"
   }
  }
 }
