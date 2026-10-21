@@ -919,10 +919,14 @@
     "B": "單層式",
     "A": "微核心"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:53:18.962Z",
-   "updatedAt": "2026-10-21T05:53:18.962Z"
+   "updatedAt": "2026-10-21T05:55:00.844Z"
   },
   "409": {
    "id": "409",
@@ -7239,10 +7243,12 @@
    "text": "In a microkernel system structure, communication takes place between user modules using＿＿＿.(please answer in lowercase english with a space between answers)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "message passing"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:53:18.962Z",
-   "updatedAt": "2026-10-21T05:53:18.962Z"
+   "updatedAt": "2026-10-21T05:55:00.844Z"
   },
   "2819": {
    "id": "2819",
@@ -7477,10 +7483,12 @@
    "text": "Background services that run continuously from boot to shutdown are also known as＿＿＿.(please answer in lowercase english)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "daemons"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:53:18.962Z",
-   "updatedAt": "2026-10-21T05:53:18.962Z"
+   "updatedAt": "2026-10-21T05:55:00.844Z"
   },
   "2834": {
    "id": "2834",
@@ -30763,6 +30771,90 @@
    "source": "text",
    "createdAt": "2026-10-21T05:53:11.564Z",
    "updatedAt": "2026-10-21T05:53:11.564Z"
+  },
+  "t4fzsue": {
+   "id": "t4fzsue",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In MS-DOS, when a program is executed, it will:",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Occupy entire memory space"
+   ],
+   "lines": [
+    "Occupy entire memory space"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:55:00.844Z",
+   "updatedAt": "2026-10-21T05:55:00.844Z"
+  },
+  "t1ozruce": {
+   "id": "t1ozruce",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Many modern operating systems implement loadable kernel ＿＿＿ .(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "modules"
+   ],
+   "lines": [
+    "modules"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:55:00.844Z",
+   "updatedAt": "2026-10-21T05:55:00.844Z"
+  },
+  "t1magzpj": {
+   "id": "t1magzpj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 結構的缺點是使用者空間與核心空間之間通訊的開銷。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "microkernel"
+   ],
+   "lines": [
+    "microkernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:55:00.844Z",
+   "updatedAt": "2026-10-21T05:55:00.844Z"
+  },
+  "tlfyxtj": {
+   "id": "tlfyxtj",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Most modern operating systems use a ＿＿＿ approach to implement dynamically loadable functionality.(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "modular"
+   ],
+   "lines": [
+    "modular"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:55:00.844Z",
+   "updatedAt": "2026-10-21T05:55:00.844Z"
   }
  }
 }
