@@ -914,6 +914,26 @@
    "createdAt": "2026-10-21T11:42:31.625Z",
    "updatedAt": "2026-10-21T11:42:31.641Z"
   },
+  "403": {
+   "id": "403",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "「檔案系統操作」服務中，程式需要對檔案和目錄做什麼？",
+   "hint": "",
+   "options": {
+    "A": "讀取與寫入",
+    "B": "建立與刪除",
+    "C": "搜尋",
+    "D": "列出檔案資訊"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:48:42.902Z",
+   "updatedAt": "2026-10-21T11:48:42.902Z"
+  },
   "404": {
    "id": "404",
    "subject": "作業系統",
@@ -1162,6 +1182,21 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
   },
+  "416": {
+   "id": "416",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "圖形使用者介面（GUI）的桌面介面是在＿＿＿發明的。 (英文小寫回答 單字間留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:48:42.902Z",
+   "updatedAt": "2026-10-21T11:48:42.902Z"
+  },
   "417": {
    "id": "417",
    "subject": "作業系統",
@@ -1178,6 +1213,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:51:47.746Z",
    "updatedAt": "2026-10-21T05:53:11.564Z"
+  },
+  "418": {
+   "id": "418",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "系統呼叫通常與＿＿＿語言編寫的程式有關。 (用英文小寫回答 字母間請流一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:48:42.902Z",
+   "updatedAt": "2026-10-21T11:48:42.902Z"
   },
   "419": {
    "id": "419",
@@ -17942,7 +17992,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:46.404Z",
-   "updatedAt": "2026-10-20T01:03:46.404Z"
+   "updatedAt": "2026-10-21T11:48:42.918Z",
+   "deleted": true,
+   "mergedInto": "2809~161c0by"
   },
   "t1yueh08": {
    "id": "t1yueh08",
@@ -33301,6 +33353,49 @@
    "source": "text",
    "createdAt": "2026-10-21T11:48:24.734Z",
    "updatedAt": "2026-10-21T11:48:24.734Z"
+  },
+  "2809~161c0by": {
+   "id": "2809~161c0by",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which mechanisms are mentioned as models for communication between processes?",
+   "hint": "",
+   "options": {
+    "C": "Physical register collision model",
+    "D": "Network packet movement",
+    "A": "Shared-memory model",
+    "B": "Message-passing model"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:48:42.902Z",
+   "updatedAt": "2026-10-21T11:48:42.918Z"
+  },
+  "2800~1i9k98m": {
+   "id": "2800~1i9k98m",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "作業系統設計中的「使用者目標（User Goals）」通常包括下列哪些期望？",
+   "hint": "",
+   "options": {
+    "B": "易於學習（Easy to learn）",
+    "D": "易於設計與維護",
+    "A": "方便使用（Convenient）",
+    "C": "快速與安全（Fast and safe）"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:48:42.902Z",
+   "updatedAt": "2026-10-21T11:48:42.902Z"
   }
  }
 }
