@@ -4974,6 +4974,471 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2839": {
+   "id": "2839",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "作業系統主要扮演什麼角色？",
+   "hint": "",
+   "options": {
+    "A": "使用者與硬體的中介者",
+    "D": "網路伺服器",
+    "B": "硬體控制中心",
+    "C": "應用程式開發工具"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.079Z"
+  },
+  "2844": {
+   "id": "2844",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Von Neumann 架構中，CPU 與裝置之間的記憶體存取可以透過什麼來減輕 CPU 負擔？",
+   "hint": "",
+   "options": {
+    "A": "DMA",
+    "D": "Cache",
+    "C": "System call",
+    "B": "Interrupt"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.066Z"
+  },
+  "2849": {
+   "id": "2849",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種連結串列結構適合表示循環的資源管理？",
+   "hint": "",
+   "options": {
+    "B": "Circular linked list",
+    "C": "Doubly linked list",
+    "A": "Singly linked list",
+    "D": "Binary search tree"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.064Z"
+  },
+  "2852": {
+   "id": "2852",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is a virtual machine manager typically called?",
+   "hint": "",
+   "options": {
+    "A": "OS",
+    "B": "VMM",
+    "C": "Kernel",
+    "D": "BIOS"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2855": {
+   "id": "2855",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "開放原始碼作業系統通常使用什麼授權？",
+   "hint": "",
+   "options": {
+    "D": "Closed-source",
+    "C": "DRM",
+    "A": "GPL",
+    "B": "Proprietary"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.076Z"
+  },
+  "2860": {
+   "id": "2860",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "儲存裝置階層的特性包含？",
+   "hint": "",
+   "options": {
+    "A": "Speed",
+    "D": "Capacity",
+    "C": "Volatility",
+    "B": "Cost"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.075Z"
+  },
+  "2862": {
+   "id": "2862",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些屬於作業系統的資源管理功能？",
+   "hint": "",
+   "options": {
+    "B": "Memory management",
+    "A": "CPU scheduling",
+    "C": "File management",
+    "D": "Device management"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2866": {
+   "id": "2866",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "多處理器系統 (Multiprocessing) 的優點包括？",
+   "hint": "",
+   "options": {
+    "D": "Graceful degradation",
+    "A": "Increased throughput",
+    "C": "Power saving",
+    "B": "Economy of scale"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.074Z"
+  },
+  "2872": {
+   "id": "2872",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Process 管理包含哪些活動？",
+   "hint": "",
+   "options": {
+    "C": "Synchronization mechanisms",
+    "A": "Creating/deleting processes",
+    "D": "Deadlock handling",
+    "B": "Suspending/resuming processes"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2873": {
+   "id": "2873",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "儲存管理活動包含？",
+   "hint": "",
+   "options": {
+    "C": "Caching",
+    "D": "I/O subsystem management",
+    "A": "File-system management",
+    "B": "Deadlock handling"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.067Z"
+  },
+  "2875": {
+   "id": "2875",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are storage management activities?",
+   "hint": "",
+   "options": {
+    "D": "I/O subsystem management",
+    "C": "Caching",
+    "A": "File-system management",
+    "B": "Mass-storage management"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2877": {
+   "id": "2877",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "核心常用的資料結構包含？",
+   "hint": "",
+   "options": {
+    "C": "Circular linked list",
+    "A": "Array",
+    "D": "Binary search tree",
+    "B": "Doubly linked list"
+   },
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.071Z"
+  },
+  "2881": {
+   "id": "2881",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是分散式系統的網路類型？",
+   "hint": "",
+   "options": {
+    "D": "PAN",
+    "C": "MAN",
+    "B": "WAN",
+    "A": "LAN"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.079Z"
+  },
+  "2882": {
+   "id": "2882",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "虛擬化的優點包含？",
+   "hint": "",
+   "options": {
+    "A": "執行多個 OS",
+    "D": "硬體直接存取",
+    "B": "應用程式開發測試",
+    "C": "資源整合"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.073Z"
+  },
+  "2886": {
+   "id": "2886",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "快取 (Cache) 管理問題包含？",
+   "hint": "",
+   "options": {
+    "C": "Cache coherency",
+    "B": "Replacement policy",
+    "A": "Cache size",
+    "D": "Interrupt handling"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.070Z"
+  },
+  "2887": {
+   "id": "2887",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "電腦系統啟動時載入的程式稱為＿＿＿。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2888": {
+   "id": "2888",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 Von Neumann 架構中，＿＿＿可以允許裝置傳輸資料至記憶體而不需 CPU 介入。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2891": {
+   "id": "2891",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "叢集系統中，存取共享儲存通常透過＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2892": {
+   "id": "2892",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "為了實現互動式運算，＿＿＿讓 CPU 在不同作業之間快速切換。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "time sharing"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.061Z"
+  },
+  "2900": {
+   "id": "2900",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在多處理器環境中，＿＿＿保證所有 CPU 快取中的值皆為最新。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [
+    "cache coherency"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.063Z"
+  },
+  "2902": {
+   "id": "2902",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "當記憶體不足時，＿＿＿技術允許執行未完全在記憶體中的程式。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [
+    "virtual memory"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.062Z"
+  },
+  "2906": {
+   "id": "2906",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "叢集系統生存故障的關鍵在於提供＿＿＿服務。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
+  "2908": {
+   "id": "2908",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是一種雲端運算模型。 它提供使用者按需存取伺服器、儲存、網路和虛擬化等基礎設施資源",
+   "hint": "請用小寫英文縮寫回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:21:06.055Z",
+   "updatedAt": "2026-10-21T05:21:06.055Z"
+  },
   "tuy2wbb": {
    "id": "tuy2wbb",
    "subject": "作業系統",
@@ -5077,7 +5542,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:21:06.073Z",
+   "deleted": true,
+   "mergedInto": "2882"
   },
   "t1jg33f9": {
    "id": "t1jg33f9",
@@ -5140,7 +5607,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:21:06.063Z",
+   "deleted": true,
+   "mergedInto": "2900"
   },
   "t8vcygw": {
    "id": "t8vcygw",
@@ -5224,7 +5693,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:21:06.074Z",
+   "deleted": true,
+   "mergedInto": "2866"
   },
   "t1aqiyo7": {
    "id": "t1aqiyo7",
@@ -5329,7 +5800,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
-   "updatedAt": "2026-10-19T15:47:13.526Z"
+   "updatedAt": "2026-10-21T05:21:06.079Z",
+   "deleted": true,
+   "mergedInto": "2839"
   },
   "t1ayhvxr": {
    "id": "t1ayhvxr",
@@ -5413,7 +5886,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
-   "updatedAt": "2026-10-19T15:47:13.526Z"
+   "updatedAt": "2026-10-21T05:21:06.061Z",
+   "deleted": true,
+   "mergedInto": "2892"
   },
   "t16vop0q": {
    "id": "t16vop0q",
@@ -5602,7 +6077,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:21:06.070Z",
+   "deleted": true,
+   "mergedInto": "2886"
   },
   "t80ydg6": {
    "id": "t80ydg6",
@@ -5623,7 +6100,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:21:06.079Z",
+   "deleted": true,
+   "mergedInto": "2881"
   },
   "t1ud5uf4": {
    "id": "t1ud5uf4",
@@ -5644,7 +6123,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:21:06.075Z",
+   "deleted": true,
+   "mergedInto": "2860"
   },
   "t121pl9y": {
    "id": "t121pl9y",
@@ -5686,7 +6167,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:21:06.066Z",
+   "deleted": true,
+   "mergedInto": "2844"
   },
   "tw2iz8q": {
    "id": "tw2iz8q",
@@ -5707,7 +6190,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:21:06.062Z",
+   "deleted": true,
+   "mergedInto": "2902"
   },
   "t1jrwpsi": {
    "id": "t1jrwpsi",
@@ -5875,7 +6360,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:52:19.093Z",
-   "updatedAt": "2026-10-19T15:52:19.093Z"
+   "updatedAt": "2026-10-21T05:21:06.067Z",
+   "deleted": true,
+   "mergedInto": "2873"
   },
   "t1t4y4r9": {
    "id": "t1t4y4r9",
@@ -6085,7 +6572,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:11:41.628Z",
-   "updatedAt": "2026-10-20T00:11:41.628Z"
+   "updatedAt": "2026-10-21T05:21:06.071Z",
+   "deleted": true,
+   "mergedInto": "2877"
   },
   "todq07": {
    "id": "todq07",
@@ -6530,7 +7019,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:22:26.852Z",
-   "updatedAt": "2026-10-20T00:22:26.852Z"
+   "updatedAt": "2026-10-21T05:21:06.076Z",
+   "deleted": true,
+   "mergedInto": "2855"
   },
   "t10tsway": {
    "id": "t10tsway",
@@ -6656,7 +7147,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:24:13.772Z",
-   "updatedAt": "2026-10-20T00:24:13.772Z"
+   "updatedAt": "2026-10-21T05:21:06.064Z",
+   "deleted": true,
+   "mergedInto": "2849"
   },
   "te8n04n": {
    "id": "te8n04n",
