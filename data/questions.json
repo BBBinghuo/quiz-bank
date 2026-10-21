@@ -1770,26 +1770,22 @@
   "2252": {
    "id": "2252",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "若遞迴關係式包含下取整 (floor)，在分析時我們通常？",
    "hint": "",
    "options": {
-    "A": "忽略它以簡化分析",
-    "D": "僅在最後驗證時考慮",
     "C": "嚴格遵守其影響",
-    "B": "視為變數處理"
+    "B": "視為變數處理",
+    "D": "僅在最後驗證時考慮",
+    "A": "忽略它以簡化分析"
    },
-   "answer": [
-    "A",
-    "D"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:55:44.762Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:44:25.800Z",
+   "updatedAt": "2026-10-21T01:44:25.800Z"
   },
   "2253": {
    "id": "2253",
@@ -1915,23 +1911,25 @@
   "2260": {
    "id": "2260",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "multi",
    "text": "大師定理中 a 與 b 的物理意義為何？",
    "hint": "",
    "options": {
     "B": "b 為輸入大小縮減因子",
-    "D": "b 為單層處理成本",
+    "A": "a 為子問題個數",
     "C": "a 為遞迴深度",
-    "A": "a 為子問題個數"
+    "D": "b 為單層處理成本"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:37.684Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:44:25.800Z",
+   "updatedAt": "2026-10-21T01:44:25.804Z"
   },
   "2261": {
    "id": "2261",
@@ -2325,18 +2323,17 @@
   "2281": {
    "id": "2281",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "處理遞迴中的 n/b 時，若非整數，我們常會忽略＿＿＿函數",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:41.076Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:44:25.800Z",
+   "updatedAt": "2026-10-21T01:44:25.800Z"
   },
   "2282": {
    "id": "2282",
@@ -19936,7 +19933,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-21T01:44:25.804Z",
+   "deleted": true,
+   "mergedInto": "2260"
   },
   "t1tmmbx6": {
    "id": "t1tmmbx6",
