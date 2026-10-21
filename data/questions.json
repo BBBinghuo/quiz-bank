@@ -2343,6 +2343,28 @@
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:20:09.772Z"
   },
+  "2291": {
+   "id": "2291",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆積排序屬於哪種排序類型？",
+   "hint": "",
+   "options": {
+    "D": "外部排序",
+    "B": "非原地排序",
+    "C": "穩定排序",
+    "A": "原地排序"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:26:49.466Z",
+   "updatedAt": "2026-10-21T01:26:49.469Z"
+  },
   "2292": {
    "id": "2292",
    "subject": "演算法",
@@ -2408,6 +2430,28 @@
    "note": "",
    "createdAt": "2026-10-21T01:22:04.819Z",
    "updatedAt": "2026-10-21T01:22:04.824Z"
+  },
+  "2296": {
+   "id": "2296",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Build-Max-Heap 的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "A": "O(n)",
+    "C": "O(log n)",
+    "B": "O(n log n)",
+    "D": "O(n^2)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:26:49.466Z",
+   "updatedAt": "2026-10-21T01:26:49.470Z"
   },
   "2297": {
    "id": "2297",
@@ -3089,6 +3133,21 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2338": {
+   "id": "2338",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是堆積排序中用來維護堆積性質的函數",
+   "hint": "請用小寫英文回答，單字間留 -",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:26:49.466Z",
+   "updatedAt": "2026-10-21T01:26:49.466Z"
   },
   "2339": {
    "id": "2339",
@@ -20929,7 +20988,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:26:49.469Z",
+   "deleted": true,
+   "mergedInto": "2291"
   },
   "t12tiboa": {
    "id": "t12tiboa",
@@ -21258,7 +21319,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
-   "updatedAt": "2026-10-20T01:26:23.988Z"
+   "updatedAt": "2026-10-21T01:26:49.470Z",
+   "deleted": true,
+   "mergedInto": "2296"
   },
   "t1dns12y": {
    "id": "t1dns12y",
