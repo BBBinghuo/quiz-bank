@@ -7461,6 +7461,26 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2764": {
+   "id": "2764",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪一項不是作業系統提供給使用者或程式的主要服務？",
+   "hint": "",
+   "options": {
+    "D": "錯誤偵測",
+    "C": "硬體製造",
+    "A": "使用者介面",
+    "B": "程式執行"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.622Z"
+  },
   "2765": {
    "id": "2765",
    "subject": "作業系統",
@@ -8820,6 +8840,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
+  },
+  "2835": {
+   "id": "2835",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "一種常見且強大的開機引導載入程式，允許使用者從多個硬碟、作業系統版本中進行開機選擇的工具縮寫為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.622Z"
   },
   "2836": {
    "id": "2836",
@@ -17945,7 +17980,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:46.404Z",
-   "updatedAt": "2026-10-20T01:03:46.404Z"
+   "updatedAt": "2026-10-21T11:46:57.635Z",
+   "deleted": true,
+   "mergedInto": "2803~1i9s1ql"
   },
   "tjd34bm": {
    "id": "tjd34bm",
@@ -18211,7 +18248,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T11:46:57.631Z",
+   "deleted": true,
+   "mergedInto": "2810~r4br0o"
   },
   "t1irhkxt": {
    "id": "t1irhkxt",
@@ -32190,7 +32229,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T05:53:11.564Z",
-   "updatedAt": "2026-10-21T05:53:11.564Z"
+   "updatedAt": "2026-10-21T11:46:57.645Z",
+   "deleted": true,
+   "mergedInto": "46~h6jg2w"
   },
   "t158b9ny": {
    "id": "t158b9ny",
@@ -33119,6 +33160,116 @@
    "source": "text",
    "createdAt": "2026-10-21T11:46:41.552Z",
    "updatedAt": "2026-10-21T11:46:41.552Z"
+  },
+  "2813~1xa41q0": {
+   "id": "2813~1xa41q0",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In the standard read() API, what do the parameters represent?",
+   "hint": "",
+   "options": {
+    "A": "File descriptor to be read",
+    "C": "Maximum number of bytes to be read",
+    "D": "Kernel physical address",
+    "B": "Buffer where data will be read into"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.622Z"
+  },
+  "2810~r4br0o": {
+   "id": "2810~r4br0o",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些程式屬於資訊工程領域中常見的核心或程式開發支援工具？",
+   "hint": "",
+   "options": {
+    "C": "除錯器 (Debuggers)",
+    "B": "連結編輯器 (Linkage editors)",
+    "D": "電子試算表應用軟體 (Excel)",
+    "A": "編譯器 (Compilers)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.631Z"
+  },
+  "2803~1i9s1ql": {
+   "id": "2803~1i9s1ql",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following operating systems are considered hybrid systems?",
+   "hint": "",
+   "options": {
+    "C": "Apple macOS",
+    "B": "Windows",
+    "D": "Early minimal MS-DOS",
+    "A": "Linux"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.635Z"
+  },
+  "391~1ufgsd3": {
+   "id": "391~1ufgsd3",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What does the \"Protection\" service is OS?",
+   "hint": "",
+   "options": {
+    "D": "Ensure user-friendly interface",
+    "C": "Ensure the physical security of the system",
+    "B": "Ensure that the program runs without errors",
+    "A": "Ensure that all access to system resources is controlled"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.622Z"
+  },
+  "46~h6jg2w": {
+   "id": "46~h6jg2w",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪一個不是系統程式的一部分？",
+   "hint": "",
+   "options": {
+    "D": "背景服務",
+    "A": "檔案操作工具",
+    "C": "應用程式",
+    "B": "程式語言支援"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:46:57.622Z",
+   "updatedAt": "2026-10-21T11:46:57.645Z"
   }
  }
 }
