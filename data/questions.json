@@ -7476,10 +7476,12 @@
     "A": "使用者介面",
     "B": "程式執行"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:46:57.622Z",
-   "updatedAt": "2026-10-21T11:46:57.622Z"
+   "updatedAt": "2026-10-21T11:48:24.734Z"
   },
   "2765": {
    "id": "2765",
@@ -8851,10 +8853,12 @@
    "text": "一種常見且強大的開機引導載入程式，允許使用者從多個硬碟、作業系統版本中進行開機選擇的工具縮寫為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "grub"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:46:57.622Z",
-   "updatedAt": "2026-10-21T11:46:57.622Z"
+   "updatedAt": "2026-10-21T11:48:24.734Z"
   },
   "2836": {
    "id": "2836",
@@ -33176,10 +33180,14 @@
     "D": "Kernel physical address",
     "B": "Buffer where data will be read into"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:46:57.622Z",
-   "updatedAt": "2026-10-21T11:46:57.622Z"
+   "updatedAt": "2026-10-21T11:48:24.734Z"
   },
   "2810~r4br0o": {
    "id": "2810~r4br0o",
@@ -33244,10 +33252,12 @@
     "B": "Ensure that the program runs without errors",
     "A": "Ensure that all access to system resources is controlled"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:46:57.622Z",
-   "updatedAt": "2026-10-21T11:46:57.622Z"
+   "updatedAt": "2026-10-21T11:48:24.734Z"
   },
   "46~h6jg2w": {
    "id": "46~h6jg2w",
@@ -33270,6 +33280,27 @@
    "note": "",
    "createdAt": "2026-10-21T11:46:57.622Z",
    "updatedAt": "2026-10-21T11:46:57.645Z"
+  },
+  "t1fr91zb": {
+   "id": "t1fr91zb",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What kind of interface does the operating system provide for users to enter commands?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "CLI"
+   ],
+   "lines": [
+    "CLI"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:48:24.734Z",
+   "updatedAt": "2026-10-21T11:48:24.734Z"
   }
  }
 }
