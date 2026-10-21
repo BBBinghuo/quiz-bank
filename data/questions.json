@@ -11,10 +11,12 @@
    "text": "what is the name circled in this figure＿＿＿?",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "kernel"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:42:31.625Z",
-   "updatedAt": "2026-10-21T11:42:31.625Z"
+   "updatedAt": "2026-10-21T11:44:19.838Z"
   },
   "36": {
    "id": "36",
@@ -7823,10 +7825,12 @@
     "C": "Mach",
     "B": "Dalvik 虛擬機器"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:42:31.625Z",
-   "updatedAt": "2026-10-21T11:42:31.625Z"
+   "updatedAt": "2026-10-21T11:44:19.838Z"
   },
   "2788": {
    "id": "2788",
@@ -7889,10 +7893,14 @@
     "A": "Microsoft Windows",
     "D": "早期的純 MS-DOS"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:42:31.625Z",
-   "updatedAt": "2026-10-21T11:42:31.625Z"
+   "updatedAt": "2026-10-21T11:44:19.838Z"
   },
   "2792": {
    "id": "2792",
@@ -8027,10 +8035,14 @@
     "B": "Easier to port to new architectures",
     "C": "More secure and reliable"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:42:31.625Z",
-   "updatedAt": "2026-10-21T11:42:31.625Z"
+   "updatedAt": "2026-10-21T11:44:19.838Z"
   },
   "2798": {
    "id": "2798",
@@ -32767,10 +32779,77 @@
     "C": "Loadable system calls",
     "B": "File systems"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:42:31.625Z",
-   "updatedAt": "2026-10-21T11:42:31.625Z"
+   "updatedAt": "2026-10-21T11:44:19.838Z"
+  },
+  "t19t2z49": {
+   "id": "t19t2z49",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "蘋果 iOS 的開發架構中，最上層提供 Objective-C API 給開發者編寫應用程式的層級稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [
+    "cocoa touch"
+   ],
+   "lines": [
+    "cocoa touch"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:44:19.838Z",
+   "updatedAt": "2026-10-21T11:44:19.838Z"
+  },
+  "tcy6ho9": {
+   "id": "tcy6ho9",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "常駐於系統背景，從開機一直執行到關機且運行於使用者內文（User Context）的系統服務或守護行程常被稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "daemons"
+   ],
+   "lines": [
+    "daemons"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:44:19.838Z",
+   "updatedAt": "2026-10-21T11:44:19.838Z"
+  },
+  "tsgkfd5": {
+   "id": "tsgkfd5",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which system calls are related to device management?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "request_device()"
+   ],
+   "lines": [
+    "request_device()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:44:19.838Z",
+   "updatedAt": "2026-10-21T11:44:19.838Z"
   }
  }
 }
