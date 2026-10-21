@@ -5150,6 +5150,28 @@
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:26:13.423Z"
   },
+  "2848": {
+   "id": "2848",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "保護 (Protection) 機制主要是用來？",
+   "hint": "",
+   "options": {
+    "C": "建立檔案",
+    "A": "控制對系統資源的存取",
+    "D": "管理網路流量",
+    "B": "防禦外部攻擊"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:34:59.485Z",
+   "updatedAt": "2026-10-21T05:34:59.488Z"
+  },
   "2849": {
    "id": "2849",
    "subject": "作業系統",
@@ -5649,13 +5671,11 @@
    },
    "answer": [
     "A",
-    "B",
-    "C",
     "D"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:33:23.174Z"
+   "updatedAt": "2026-10-21T05:34:51.974Z"
   },
   "2873": {
    "id": "2873",
@@ -5681,6 +5701,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.067Z"
+  },
+  "2874": {
+   "id": "2874",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What process management activities are there?",
+   "hint": "",
+   "options": {
+    "C": "Disk formating",
+    "B": "Memory management",
+    "A": "Creating/deleting processes",
+    "D": "Deadlock handling"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:34:59.485Z",
+   "updatedAt": "2026-10-21T05:34:59.490Z"
   },
   "2875": {
    "id": "2875",
@@ -6324,7 +6366,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:34:59.488Z",
+   "deleted": true,
+   "mergedInto": "2848"
   },
   "t92bw0a": {
    "id": "t92bw0a",
@@ -6900,7 +6944,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:34:59.490Z",
+   "deleted": true,
+   "mergedInto": "2874"
   },
   "t1szf1s4": {
    "id": "t1szf1s4",
@@ -27649,6 +27695,27 @@
    "source": "text",
    "createdAt": "2026-10-21T05:31:41.062Z",
    "updatedAt": "2026-10-21T05:31:41.062Z"
+  },
+  "t1pbmj76": {
+   "id": "t1pbmj76",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In a multiprocessor environment, ＿＿＿ ensures that all CPU cache values are the most recent (please answer in lowercase english with a space between letters).",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "cache coherency"
+   ],
+   "lines": [
+    "cache coherency"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:34:51.974Z",
+   "updatedAt": "2026-10-21T05:34:51.974Z"
   }
  }
 }
