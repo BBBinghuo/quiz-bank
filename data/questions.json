@@ -11,10 +11,12 @@
    "text": "linux 建立新行程 的指令＿＿＿格式 : fun()",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "fork()"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "38": {
    "id": "38",
@@ -147,6 +149,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.090Z"
+  },
+  "52": {
+   "id": "52",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是作業系統提供的使用者介面類型？",
+   "hint": "",
+   "options": {
+    "A": "CLI",
+    "C": "Voice UI",
+    "D": "Touchscreen",
+    "B": "GUI"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:30.000Z"
   },
   "372": {
    "id": "372",
@@ -439,6 +465,31 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.015Z"
   },
+  "396": {
+   "id": "396",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "現代作業系統的結構有哪些？",
+   "hint": "",
+   "options": {
+    "C": "分層結構",
+    "A": "簡單結構",
+    "B": "UNIX 結構",
+    "D": "微核心結構"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.997Z"
+  },
   "397": {
    "id": "397",
    "subject": "作業系統",
@@ -716,10 +767,12 @@
    "text": "The disadvantage of the＿＿＿architecture is the performance overhead of communication between user space and kernel space. (用英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "microkernel"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "421": {
    "id": "421",
@@ -884,10 +937,12 @@
    "text": "UNIX 的核心提供了檔案系統(file system management),＿＿＿, 記憶體管理memory management, 及其他作業系統功能。 (英文縮寫字用大寫 字母間用一個空白)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "CPU scheduling"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "434": {
    "id": "434",
@@ -899,10 +954,12 @@
    "text": "＿＿＿工具在 Solaris, FreeBSD, Mac OS X 中允許在生產系統上進行即時監控。(英文第一個字大寫)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "DTrace"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "2128": {
    "id": "2128",
@@ -5921,6 +5978,28 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.321Z"
   },
+  "2769": {
+   "id": "2769",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Windows作業系統中，用來建立新行程的 API 函數為何？",
+   "hint": "",
+   "options": {
+    "D": "start()",
+    "B": "CreateProcess()",
+    "A": "fork()",
+    "C": "NewProcess()"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.995Z"
+  },
   "2770": {
    "id": "2770",
    "subject": "作業系統",
@@ -6031,6 +6110,28 @@
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:46:50.649Z"
   },
+  "2776": {
+   "id": "2776",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Apple 的 macOS (Mac OS X) 核心主要結合了 Mach 與 BSD Unix，這種架構稱為？",
+   "hint": "",
+   "options": {
+    "C": "簡單系統",
+    "B": "混合系統",
+    "D": "純微核心系統",
+    "A": "單體系統"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.991Z"
+  },
   "2777": {
    "id": "2777",
    "subject": "作業系統",
@@ -6096,6 +6197,50 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:57.998Z"
+  },
+  "2782": {
+   "id": "2782",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is the small piece of code stored in ROM that locates the kernel and loads it into memory during boot?",
+   "hint": "",
+   "options": {
+    "C": "SYSGEN program",
+    "A": "Kernel program",
+    "B": "Bootstrap loader",
+    "D": "Debugger"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.997Z"
+  },
+  "2784": {
+   "id": "2784",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the layered approach of an operating system structure, what does layer 0 represent?",
+   "hint": "",
+   "options": {
+    "C": "Hardware",
+    "D": "System programs",
+    "B": "Kernel",
+    "A": "User interface"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.993Z"
   },
   "2785": {
    "id": "2785",
@@ -6379,6 +6524,54 @@
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.096Z"
   },
+  "2804": {
+   "id": "2804",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 Apple iOS 的分層架構，主要包含下列哪些層（Layers）？",
+   "hint": "",
+   "options": {
+    "D": "達爾維克虛擬機層（Dalvik VM）",
+    "C": "核心服務層與核心作業系統層（Core Services / Core OS）",
+    "B": "多媒體服務層（Media Services）",
+    "A": "觸控可可層（Cocoa Touch）"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.996Z"
+  },
+  "2806": {
+   "id": "2806",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "當進行核心或系統效能調校（Performance Tuning）時，通常會採用哪些方法？",
+   "hint": "",
+   "options": {
+    "B": "進行分析（Profiling），定期對指令指標進行採樣",
+    "C": "檢視記錄檔或使用 top 工具",
+    "A": "檢視活動的追蹤清單（Trace listings）",
+    "D": "重新購買新顯示卡"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.994Z"
+  },
   "2808": {
    "id": "2808",
    "subject": "作業系統",
@@ -6545,10 +6738,12 @@
    "text": "現代系統最基礎、最核心，用來管理硬體與行程的作業系統主體程式稱為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "kernel"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "2820": {
    "id": "2820",
@@ -6560,10 +6755,12 @@
    "text": "歷史上第一個實現微核心（Microkernel）重要實驗性作業系統專案名稱為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "mach"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
-   "updatedAt": "2026-10-21T05:46:50.635Z"
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   },
   "2822": {
    "id": "2822",
@@ -6581,6 +6778,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "2823": {
+   "id": "2823",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在開機過程中，儲存於 ROM 中負責定位核心並將其載入記憶體運行的程式稱為＿＿＿。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.987Z"
   },
   "2824": {
    "id": "2824",
@@ -6616,6 +6828,21 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
   },
+  "2826": {
+   "id": "2826",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "現代許多作業系統（如 Linux、Solaris）為了彈性擴充核心，皆實作了可載入核心＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.987Z"
+  },
   "2828": {
    "id": "2828",
    "subject": "作業系統",
@@ -6632,6 +6859,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "2829": {
+   "id": "2829",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "藉由定期對指令指標（Instruction Pointer）進行採樣以尋找統計趨勢的效能調校方法稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.987Z"
   },
   "2832": {
    "id": "2832",
@@ -6666,6 +6908,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
+  },
+  "2836": {
+   "id": "2836",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Android libraries include frameworks for web browsers such as＿＿＿.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:48:29.987Z",
+   "updatedAt": "2026-10-21T05:48:29.987Z"
   },
   "2839": {
    "id": "2839",
@@ -10361,7 +10618,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:48:29.991Z",
+   "deleted": true,
+   "mergedInto": "2776"
   },
   "tb55pbw": {
    "id": "tb55pbw",
@@ -10636,7 +10895,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T05:48:29.994Z",
+   "deleted": true,
+   "mergedInto": "2806"
   },
   "thzun47": {
    "id": "thzun47",
@@ -14856,7 +15117,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:27.564Z",
-   "updatedAt": "2026-10-20T01:03:27.564Z"
+   "updatedAt": "2026-10-21T05:48:29.996Z",
+   "deleted": true,
+   "mergedInto": "2804"
   },
   "t1xvjlk5": {
    "id": "t1xvjlk5",
@@ -15301,7 +15564,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:36.844Z",
-   "updatedAt": "2026-10-20T01:03:36.844Z"
+   "updatedAt": "2026-10-21T05:48:29.993Z",
+   "deleted": true,
+   "mergedInto": "2784"
   },
   "t9oavye": {
    "id": "t9oavye",
@@ -15343,7 +15608,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:36.844Z",
-   "updatedAt": "2026-10-20T01:03:36.844Z"
+   "updatedAt": "2026-10-21T05:48:29.995Z",
+   "deleted": true,
+   "mergedInto": "2769"
   },
   "t1dulpg6": {
    "id": "t1dulpg6",
@@ -16419,7 +16686,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:33.580Z",
-   "updatedAt": "2026-10-20T01:05:33.580Z"
+   "updatedAt": "2026-10-21T05:48:29.997Z",
+   "deleted": true,
+   "mergedInto": "396"
   },
   "t3m823w": {
    "id": "t3m823w",
@@ -17216,7 +17485,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:23.244Z",
-   "updatedAt": "2026-10-20T01:07:23.244Z"
+   "updatedAt": "2026-10-21T05:48:30.000Z",
+   "deleted": true,
+   "mergedInto": "52"
   },
   "t10ghibp": {
    "id": "t10ghibp",
@@ -17279,7 +17550,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:36.588Z",
-   "updatedAt": "2026-10-20T01:07:36.588Z"
+   "updatedAt": "2026-10-21T05:48:29.997Z",
+   "deleted": true,
+   "mergedInto": "2782"
   },
   "t279vi5": {
    "id": "t279vi5",
@@ -29692,6 +29965,50 @@
    "source": "text",
    "createdAt": "2026-10-21T05:46:40.197Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "teq57r0": {
+   "id": "teq57r0",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "About the \"communication\" service in OS, Where can processes exchange information?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Between different computers over the Internet"
+   ],
+   "lines": [
+    "Between different computers over the Internet"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:48:18.172Z",
+   "updatedAt": "2026-10-21T05:48:18.172Z"
+  },
+  "t97ak4t": {
+   "id": "t97ak4t",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are modules supported in modern modular kernels like Solaris?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Scheduling classes\nFile systems\nLoadable system calls"
+   ],
+   "lines": [
+    "Scheduling classes",
+    "File systems",
+    "Loadable system calls"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:48:18.172Z",
+   "updatedAt": "2026-10-21T05:48:18.172Z"
   }
  }
 }
