@@ -1,6 +1,264 @@
 {
  "version": 1,
  "questions": {
+  "373": {
+   "id": "373",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "幾乎所有作業系統都擁有哪種介面？",
+   "hint": "",
+   "options": {
+    "C": "觸控式介面（Touch UI）",
+    "D": "批次介面（Batch）",
+    "B": "指令列介面（CLI）",
+    "A": "圖形使用者介面（GUI）"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.338Z"
+  },
+  "379": {
+   "id": "379",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "作業系統設計的一個重要原則是將政策(policy)與何者分開？",
+   "hint": "",
+   "options": {
+    "A": "hardware",
+    "D": "user goals",
+    "C": "mechanism",
+    "B": "language"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.331Z"
+  },
+  "383": {
+   "id": "383",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪個程式用於根據硬體系統的特定配置來建置作業系統？",
+   "hint": "",
+   "options": {
+    "D": "Kernighan’s Law",
+    "C": "DTrace",
+    "B": "GRUB",
+    "A": "SYSGEN"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.333Z"
+  },
+  "385": {
+   "id": "385",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪個是提供給 Windows 系統最常見的 API？",
+   "hint": "",
+   "options": {
+    "B": "Java API",
+    "A": "POSIX API",
+    "C": "Win32 API",
+    "D": "UNIX API"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.326Z"
+  },
+  "388": {
+   "id": "388",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Where does the operating system's \"Program Execution\" service allow the system to load programs?",
+   "hint": "",
+   "options": {
+    "C": "CPU",
+    "D": "cache",
+    "A": "harddisk",
+    "B": "memory"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.329Z"
+  },
+  "400": {
+   "id": "400",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是作業系統中用於將參數傳遞給作業系統的三種常見方法？",
+   "hint": "",
+   "options": {
+    "C": "將參數壓入堆疊",
+    "A": "在暫存器中傳遞參數",
+    "D": "透過檔案傳遞參數",
+    "B": "在記憶體的區塊中儲存參數，並傳遞區塊地址"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.342Z"
+  },
+  "411": {
+   "id": "411",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "有哪些是作業系統中的系統程式？",
+   "hint": "",
+   "options": {
+    "D": "解譯器",
+    "C": "除錯器",
+    "B": "組譯器",
+    "A": "編譯器"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.320Z"
+  },
+  "413": {
+   "id": "413",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "作業系統的「保護」服務與什麼相關？",
+   "hint": "",
+   "options": {
+    "B": "使用者驗證",
+    "D": "檔案加密",
+    "C": "確保並行程序不會互相干擾",
+    "A": "控制對系統資源的存取"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.327Z"
+  },
+  "414": {
+   "id": "414",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "作業系統服務中的程式執行服務，允許系統載入程式到＿＿＿。 (英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "415": {
+   "id": "415",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "指令列介面（CLI）有時在核心中實現，有時則由＿＿＿程式實現。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "422": {
+   "id": "422",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Apple 的移動作業系統 iOS 是基於＿＿＿的結構。(用英文小寫回答 字母間請留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "424": {
+   "id": "424",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "當系統啟動時，會從一個固定的記憶體位置開始執行，該位置通常在＿＿＿中。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "432": {
+   "id": "432",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "MS-DOS 屬於＿＿＿的作業系統。(英文小寫回答 字母間留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
   "2128": {
    "id": "2128",
    "subject": "演算法",
@@ -4974,6 +5232,282 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2767": {
+   "id": "2767",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當應用程式需要進行輸入/輸出時，主要是透過什麼機制來向核心請求？",
+   "hint": "",
+   "options": {
+    "D": "編譯器",
+    "B": "系統程式",
+    "C": "快取記憶體",
+    "A": "系統呼叫"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.323Z"
+  },
+  "2768": {
+   "id": "2768",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪一種系統呼叫主要用於建立新行程？",
+   "hint": "",
+   "options": {
+    "C": "read()",
+    "A": "exit()",
+    "D": "chmod()",
+    "B": "fork()"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.321Z"
+  },
+  "2770": {
+   "id": "2770",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "標準 C 語言函式庫中的 printf() 函數，在 Unix 系統底層是呼叫哪一個系統呼叫？",
+   "hint": "",
+   "options": {
+    "B": "write()",
+    "D": "fork()",
+    "A": "read()",
+    "C": "open()"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.343Z"
+  },
+  "2772": {
+   "id": "2772",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following descriptions about MS-DOS structure is true?",
+   "hint": "",
+   "options": {
+    "A": "It is a multitasking system",
+    "B": "It has a simple structure and interfaces are not well separated",
+    "C": "It uses a microkernel structure",
+    "D": "It has strict layered protection"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.340Z"
+  },
+  "2788": {
+   "id": "2788",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In operating system design, what two principles are separated to achieve maximum flexibility?",
+   "hint": "",
+   "options": {
+    "D": "Protection and security",
+    "B": "Policy and mechanism",
+    "A": "Mechanism and architecture",
+    "C": "Kernel and user"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.344Z"
+  },
+  "2792": {
+   "id": "2792",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "現代作業系統最常提供給程式設計師使用的標準應用程式介面（API）包括下列哪些？",
+   "hint": "",
+   "options": {
+    "C": "Java API",
+    "A": "Win32 API",
+    "D": "DTrace API",
+    "B": "POSIX API"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.339Z"
+  },
+  "2793": {
+   "id": "2793",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "根據教材，傳遞參數給作業系統（核心）的三種通用方法包括下列哪些？",
+   "hint": "",
+   "options": {
+    "A": "透過暫存器傳遞",
+    "B": "透過記憶體中的區塊或表格傳遞",
+    "C": "透過堆疊彈入彈出傳遞",
+    "D": "透過網路封包傳遞"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.335Z"
+  },
+  "2795": {
+   "id": "2795",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些系統呼叫屬於 Unix/Linux 系統中的「檔案管理（File Management）」範疇？",
+   "hint": "",
+   "options": {
+    "D": "ioctl()",
+    "A": "open()",
+    "B": "read()",
+    "C": "write()"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.336Z"
+  },
+  "2801": {
+   "id": "2801",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "作業系統設計中的「系統目標（System Goals）」通常包括下列哪些期望？",
+   "hint": "",
+   "options": {
+    "C": "高效且無錯誤（Error-free）",
+    "D": "介面華麗好玩",
+    "B": "具備彈性與可靠性",
+    "A": "易於設計、實現與維護"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.337Z"
+  },
+  "2813": {
+   "id": "2813",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在標準的 read(int fd, void *buf, size_t count) API 中，傳入的參數包含哪些意義？",
+   "hint": "",
+   "options": {
+    "A": "文件描述子（File descriptor）",
+    "D": "系統核心的記憶體實體位址",
+    "B": "資料將讀入的緩衝區（Buffer）指针",
+    "C": "要讀取的最大位元組數（Maximum number of bytes）"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.332Z"
+  },
+  "2815": {
+   "id": "2815",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "指令行介面的縮寫為＿＿＿，而圖形使用者介面的縮寫為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "2825": {
+   "id": "2825",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Solaris、FreeBSD 與 macOS 中內建，允許在生產系統上進行即時動態追蹤的核心除錯工具名為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
+  "2834": {
+   "id": "2834",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Some systems implement a＿＿＿used to store and retrieve configuration information.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:42:46.317Z",
+   "updatedAt": "2026-10-21T05:42:46.317Z"
+  },
   "2839": {
    "id": "2839",
    "subject": "作業系統",
@@ -8282,7 +8816,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:42:46.323Z",
+   "deleted": true,
+   "mergedInto": "2767"
   },
   "tuawnuh": {
    "id": "tuawnuh",
@@ -8492,7 +9028,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:42:46.331Z",
+   "deleted": true,
+   "mergedInto": "379"
   },
   "tn977yd": {
    "id": "tn977yd",
@@ -8744,7 +9282,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:42:46.339Z",
+   "deleted": true,
+   "mergedInto": "2792"
   },
   "tmesfpf": {
    "id": "tmesfpf",
@@ -8954,7 +9494,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T05:42:46.327Z",
+   "deleted": true,
+   "mergedInto": "413"
   },
   "t1u5uopi": {
    "id": "t1u5uopi",
@@ -9038,7 +9580,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T05:42:46.320Z",
+   "deleted": true,
+   "mergedInto": "411"
   },
   "t1xi473c": {
    "id": "t1xi473c",
@@ -12453,7 +12997,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:42:46.342Z",
+   "deleted": true,
+   "mergedInto": "400"
   },
   "t1k6abk1": {
    "id": "t1k6abk1",
@@ -12600,7 +13146,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:42:46.338Z",
+   "deleted": true,
+   "mergedInto": "373"
   },
   "tims5kq": {
    "id": "tims5kq",
@@ -12747,7 +13295,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:11.340Z",
-   "updatedAt": "2026-10-20T01:01:11.340Z"
+   "updatedAt": "2026-10-21T05:42:46.326Z",
+   "deleted": true,
+   "mergedInto": "385"
   },
   "t102e7nh": {
    "id": "t102e7nh",
@@ -13356,7 +13906,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:27.564Z",
-   "updatedAt": "2026-10-20T01:03:27.564Z"
+   "updatedAt": "2026-10-21T05:42:46.321Z",
+   "deleted": true,
+   "mergedInto": "2768"
   },
   "t1yyyj9u": {
    "id": "t1yyyj9u",
@@ -14112,7 +14664,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T05:42:46.333Z",
+   "deleted": true,
+   "mergedInto": "383"
   },
   "temc846": {
    "id": "temc846",
@@ -14322,7 +14876,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:04:09.684Z",
-   "updatedAt": "2026-10-20T01:04:09.684Z"
+   "updatedAt": "2026-10-21T05:42:46.335Z",
+   "deleted": true,
+   "mergedInto": "2793"
   },
   "t1b90840": {
    "id": "t1b90840",
@@ -14616,7 +15172,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:33.580Z",
-   "updatedAt": "2026-10-20T01:05:33.580Z"
+   "updatedAt": "2026-10-21T05:42:46.332Z",
+   "deleted": true,
+   "mergedInto": "2813"
   },
   "t113gwga": {
    "id": "t113gwga",
@@ -14721,7 +15279,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:42.444Z",
-   "updatedAt": "2026-10-20T01:05:42.444Z"
+   "updatedAt": "2026-10-21T05:42:46.329Z",
+   "deleted": true,
+   "mergedInto": "388"
   },
   "tcy0w1h": {
    "id": "tcy0w1h",
@@ -15225,7 +15785,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:59.820Z",
-   "updatedAt": "2026-10-20T01:05:59.820Z"
+   "updatedAt": "2026-10-21T05:42:46.343Z",
+   "deleted": true,
+   "mergedInto": "2770"
   },
   "ty3e8cd": {
    "id": "ty3e8cd",
@@ -15393,7 +15955,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:23.244Z",
-   "updatedAt": "2026-10-20T01:07:23.244Z"
+   "updatedAt": "2026-10-21T05:42:46.344Z",
+   "deleted": true,
+   "mergedInto": "2788"
   },
   "t1cdguh": {
    "id": "t1cdguh",
@@ -15582,7 +16146,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:36.588Z",
-   "updatedAt": "2026-10-20T01:07:36.588Z"
+   "updatedAt": "2026-10-21T05:42:46.336Z",
+   "deleted": true,
+   "mergedInto": "2795"
   },
   "ttzx2pl": {
    "id": "ttzx2pl",
@@ -15897,7 +16463,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:09:25.316Z",
-   "updatedAt": "2026-10-20T01:09:25.316Z"
+   "updatedAt": "2026-10-21T05:42:46.340Z",
+   "deleted": true,
+   "mergedInto": "2772"
   },
   "tvobwob": {
    "id": "tvobwob",
@@ -16002,7 +16570,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:09:56.188Z",
-   "updatedAt": "2026-10-20T01:09:56.188Z"
+   "updatedAt": "2026-10-21T05:42:46.337Z",
+   "deleted": true,
+   "mergedInto": "2801"
   },
   "t1ae2jl1": {
    "id": "t1ae2jl1",
