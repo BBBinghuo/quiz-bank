@@ -2299,6 +2299,28 @@
    "createdAt": "2026-10-20T14:50:00.000Z",
    "updatedAt": "2026-10-20T14:51:42.804Z"
   },
+  "2289": {
+   "id": "2289",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆積排序（Heapsort）的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "D": "O(log n)",
+    "A": "O(n log n)",
+    "B": "O(n^2)",
+    "C": "O(n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.824Z"
+  },
   "2290": {
    "id": "2290",
    "subject": "演算法",
@@ -2342,6 +2364,50 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.904Z"
+  },
+  "2293": {
+   "id": "2293",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "給定陣列索引 i，其父節點的索引計算方式為？",
+   "hint": "",
+   "options": {
+    "C": "2i+1",
+    "A": "floor(i/2)",
+    "D": "i-1",
+    "B": "2i"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.826Z"
+  },
+  "2295": {
+   "id": "2295",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是優先佇列（Priority Queue）支援的操作？",
+   "hint": "",
+   "options": {
+    "D": "Binary-Search",
+    "B": "Sort",
+    "C": "Delete-All",
+    "A": "Insert"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.824Z"
   },
   "2297": {
    "id": "2297",
@@ -2453,6 +2519,28 @@
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:20:09.773Z"
   },
+  "2303": {
+   "id": "2303",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆積排序中，交換 A[1] 與 A[i] 的目的是？",
+   "hint": "",
+   "options": {
+    "A": "將最大值放到正確位置",
+    "B": "清空堆積",
+    "D": "增加堆積高度",
+    "C": "減少比較次數"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.828Z"
+  },
   "2304": {
    "id": "2304",
    "subject": "演算法",
@@ -2496,6 +2584,26 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:16:24.912Z"
+  },
+  "2306": {
+   "id": "2306",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆積排序演算法中，迴圈執行的次數大約為？",
+   "hint": "",
+   "options": {
+    "A": "n-1",
+    "C": "log n",
+    "B": "n/2",
+    "D": "n^2"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.819Z"
   },
   "2307": {
    "id": "2307",
@@ -2640,6 +2748,98 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2314": {
+   "id": "2314",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積結構中的關鍵概念為何？",
+   "hint": "",
+   "options": {
+    "C": "Right(i)",
+    "B": "Left(i)",
+    "A": "Parent(i)",
+    "D": "Depth(i)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.827Z"
+  },
+  "2315": {
+   "id": "2315",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列關於 Extract-Max 的敘述，哪些正確？",
+   "hint": "",
+   "options": {
+    "A": "移除並回傳最大值",
+    "C": "時間複雜度 O(log n)",
+    "D": "只適用於空堆積",
+    "B": "需維護堆積屬性"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.823Z"
+  },
+  "2316": {
+   "id": "2316",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "請問下列的最小-最大堆積樹中的「?」，應該填入那一個值才是正確？",
+   "hint": "",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "5",
+    "D": "9"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.819Z"
+  },
+  "2317": {
+   "id": "2317",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 Binary Heap 陣列表示法，下列何者正確？",
+   "hint": "",
+   "options": {
+    "D": "父節點位於 ⌊ i/2 ⌋",
+    "A": "索引 1 為根節點",
+    "B": "陣列長度即堆積大小",
+    "C": "子節點位於 2i 與 2i+1"
+   },
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.825Z"
   },
   "2319": {
    "id": "2319",
@@ -2989,6 +3189,23 @@
    "note": "",
    "createdAt": "2026-10-21T01:16:24.897Z",
    "updatedAt": "2026-10-21T01:17:51.859Z"
+  },
+  "2346": {
+   "id": "2346",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "這是Heapsort(A) 過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[8]\n        /      \\\n    (2)[7]    (3)[3]\n    /    \\     /    \\\n(4)[4] (5)[2] (6)[1] i(7)[9]\n /   \\     /\n(8)[10] (9)[14] (10)[16]\n\n＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "7,4,3,1,2,8,9,10,14,16"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:22:04.819Z",
+   "updatedAt": "2026-10-21T01:22:04.822Z"
   },
   "2347": {
    "id": "2347",
@@ -20666,7 +20883,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:22:04.827Z",
+   "deleted": true,
+   "mergedInto": "2314"
   },
   "t1qmmci7": {
    "id": "t1qmmci7",
@@ -20842,7 +21061,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:22:04.825Z",
+   "deleted": true,
+   "mergedInto": "2317"
   },
   "t1k9p0ut": {
    "id": "t1k9p0ut",
@@ -21056,7 +21277,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
-   "updatedAt": "2026-10-20T01:26:23.988Z"
+   "updatedAt": "2026-10-21T01:22:04.826Z",
+   "deleted": true,
+   "mergedInto": "2293"
   },
   "t10a1ea5": {
    "id": "t10a1ea5",
@@ -21077,7 +21300,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
-   "updatedAt": "2026-10-20T01:26:23.988Z"
+   "updatedAt": "2026-10-21T01:22:04.828Z",
+   "deleted": true,
+   "mergedInto": "2303"
   },
   "t19yngk4": {
    "id": "t19yngk4",
@@ -22423,7 +22648,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:39.892Z",
-   "updatedAt": "2026-10-20T01:27:39.892Z"
+   "updatedAt": "2026-10-21T01:22:04.823Z",
+   "deleted": true,
+   "mergedInto": "2315"
   },
   "tsoqh2q": {
    "id": "tsoqh2q",
@@ -22511,7 +22738,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:47.980Z",
-   "updatedAt": "2026-10-20T01:27:47.980Z"
+   "updatedAt": "2026-10-21T01:22:04.824Z",
+   "deleted": true,
+   "mergedInto": "2289"
   },
   "temnsp": {
    "id": "temnsp",
@@ -22532,7 +22761,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:47.980Z",
-   "updatedAt": "2026-10-20T01:27:47.980Z"
+   "updatedAt": "2026-10-21T01:22:04.824Z",
+   "deleted": true,
+   "mergedInto": "2295"
   },
   "tsp5qag": {
    "id": "tsp5qag",
@@ -25214,7 +25445,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:19:43.355Z",
-   "updatedAt": "2026-10-21T01:19:43.355Z"
+   "updatedAt": "2026-10-21T01:22:04.822Z",
+   "deleted": true,
+   "mergedInto": "2346"
   },
   "tk534vz": {
    "id": "tk534vz",
