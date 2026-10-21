@@ -1,6 +1,43 @@
 {
  "version": 1,
  "questions": {
+  "36": {
+   "id": "36",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "linux 建立新行程 的指令＿＿＿格式 : fun()",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
+  },
+  "38": {
+   "id": "38",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "使用者介面中，哪一種是以文字指令操作的？",
+   "hint": "",
+   "options": {
+    "A": "GUI",
+    "D": "Voice UI",
+    "C": "Touch Interface",
+    "B": "CLI"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.642Z"
+  },
   "39": {
    "id": "39",
    "subject": "作業系統",
@@ -44,6 +81,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "45": {
+   "id": "45",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Android 系統底層核心是：",
+   "hint": "",
+   "options": {
+    "C": "UNIX",
+    "B": "BSD",
+    "A": "Windows NT",
+    "D": "Linux"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.652Z"
   },
   "46": {
    "id": "46",
@@ -133,6 +192,28 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.338Z"
   },
+  "378": {
+   "id": "378",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which operating system's GUI is called \"Aqua\"?",
+   "hint": "",
+   "options": {
+    "A": "Microsoft Windows",
+    "B": "UNIX",
+    "C": "Linux",
+    "D": "Apple Mac OS X"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.640Z"
+  },
   "379": {
    "id": "379",
    "subject": "作業系統",
@@ -221,6 +302,28 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.326Z"
   },
+  "387": {
+   "id": "387",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "I/O 操作不可能涉及哪種裝置？",
+   "hint": "",
+   "options": {
+    "A": "File",
+    "C": "CPU",
+    "B": "I/O devices",
+    "D": "keyboard"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.639Z"
+  },
   "388": {
    "id": "388",
    "subject": "作業系統",
@@ -286,6 +389,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.009Z"
+  },
+  "393": {
+   "id": "393",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "選出作業系統的三種使用者介面。",
+   "hint": "",
+   "options": {
+    "D": "應用程式介面（API）",
+    "A": "指令列介面（CLI）",
+    "B": "圖形使用者介面（GUI）",
+    "C": "批次介面（Batch）"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.647Z"
   },
   "395": {
    "id": "395",
@@ -360,6 +487,30 @@
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.097Z"
   },
+  "399": {
+   "id": "399",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "微核心系統結構的好處有哪些？",
+   "hint": "",
+   "options": {
+    "C": "核心模式下執行的程式碼較少，因此更可靠",
+    "D": "效能較高",
+    "A": "更容易擴展",
+    "B": "更容易移植到新的架構"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.648Z"
+  },
   "400": {
    "id": "400",
    "subject": "作業系統",
@@ -431,6 +582,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.011Z"
+  },
+  "409": {
+   "id": "409",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "UNIX 的原始版本結構有限，它包含哪些部分？",
+   "hint": "",
+   "options": {
+    "B": "核心",
+    "D": "虛擬機",
+    "C": "載入器",
+    "A": "系統程式"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.645Z"
   },
   "411": {
    "id": "411",
@@ -525,10 +699,27 @@
    "text": "在 UNIX 中，＿＿＿包含在系統呼叫介面之下以及實體硬體之上的一切。 (用英文小寫回答 字母間請流一個空白)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "kernel"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "420": {
+   "id": "420",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The disadvantage of the＿＿＿architecture is the performance overhead of communication between user space and kernel space. (用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
   },
   "421": {
    "id": "421",
@@ -540,10 +731,12 @@
    "text": "大多數現代作業系統採用＿＿＿方法來實現可動態載入的功能。(用英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "modular"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "422": {
    "id": "422",
@@ -623,10 +816,12 @@
    "text": "作業系統需要不斷地偵測可能的＿＿＿。(英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "errors"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "429": {
    "id": "429",
@@ -678,6 +873,36 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
+  },
+  "433": {
+   "id": "433",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "UNIX 的核心提供了檔案系統(file system management),＿＿＿, 記憶體管理memory management, 及其他作業系統功能。 (英文縮寫字用大寫 字母間用一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
+  },
+  "434": {
+   "id": "434",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿工具在 Solaris, FreeBSD, Mac OS X 中允許在生產系統上進行即時監控。(英文第一個字大寫)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
   },
   "2128": {
    "id": "2128",
@@ -5784,6 +6009,28 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.000Z"
   },
+  "2775": {
+   "id": "2775",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪一種核心設計方法在執行期動態載入核心組件，具備物件導向特性且比分層結構更靈活？",
+   "hint": "",
+   "options": {
+    "D": "分層方法",
+    "C": "可載入核心模組",
+    "B": "單體核心",
+    "A": "簡單結構"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.649Z"
+  },
   "2777": {
    "id": "2777",
    "subject": "作業系統",
@@ -6029,10 +6276,12 @@
     "A": "CreatePipe()",
     "D": "Sleep()"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "2798": {
    "id": "2798",
@@ -6057,6 +6306,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.005Z"
+  },
+  "2800": {
+   "id": "2800",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "According to the slides, what are typical user goals for an operating system?",
+   "hint": "",
+   "options": {
+    "A": "Convenient to use",
+    "B": "Easy to learn",
+    "D": "Easy to design and maintain",
+    "C": "Fast and safe"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.641Z"
   },
   "2801": {
    "id": "2801",
@@ -6105,6 +6378,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.096Z"
+  },
+  "2808": {
+   "id": "2808",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些屬於系統維護、背景服務（Background Services）或守護行程（Daemons）常提供的功能？",
+   "hint": "",
+   "options": {
+    "B": "行程排程（Process scheduling）",
+    "A": "磁碟檢查（Disk checking）",
+    "C": "錯誤記錄（Error logging）",
+    "D": "網頁瀏覽器前端排版"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.650Z"
   },
   "2810": {
    "id": "2810",
@@ -6238,6 +6535,36 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
   },
+  "2819": {
+   "id": "2819",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "現代系統最基礎、最核心，用來管理硬體與行程的作業系統主體程式稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
+  },
+  "2820": {
+   "id": "2820",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "歷史上第一個實現微核心（Microkernel）重要實驗性作業系統專案名稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:46:50.635Z",
+   "updatedAt": "2026-10-21T05:46:50.635Z"
+  },
   "2822": {
    "id": "2822",
    "subject": "作業系統",
@@ -6248,10 +6575,12 @@
    "text": "The program that obtains information concerning hardware configuration to build a specific kernel is called＿＿＿.(please answer in lowercase english)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "sysgen"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "2824": {
    "id": "2824",
@@ -6297,10 +6626,12 @@
    "text": "The layer in iOS that provides the API for developing applications is called＿＿＿.(please answer in lowercase english)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "cocoa touch"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "2832": {
    "id": "2832",
@@ -6312,10 +6643,12 @@
    "text": "在標準 C 函式庫範例中，要使用 read() 系統呼叫前，程式必須包含引入的標頭檔為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "unistd.h"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
-   "updatedAt": "2026-10-21T05:45:24.084Z"
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   },
   "2834": {
    "id": "2834",
@@ -9707,7 +10040,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:46:50.641Z",
+   "deleted": true,
+   "mergedInto": "2800"
   },
   "t1fg5jfc": {
    "id": "t1fg5jfc",
@@ -9728,7 +10063,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:46:50.648Z",
+   "deleted": true,
+   "mergedInto": "399"
   },
   "tbu02a1": {
    "id": "tbu02a1",
@@ -13783,7 +14120,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:46:50.650Z",
+   "deleted": true,
+   "mergedInto": "2808"
   },
   "t1bp1tr5": {
    "id": "t1bp1tr5",
@@ -13932,7 +14271,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:46:50.647Z",
+   "deleted": true,
+   "mergedInto": "393"
   },
   "tn9liy8": {
    "id": "tn9liy8",
@@ -15237,7 +15578,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:46.404Z",
-   "updatedAt": "2026-10-20T01:03:46.404Z"
+   "updatedAt": "2026-10-21T05:46:50.645Z",
+   "deleted": true,
+   "mergedInto": "409"
   },
   "trguuw": {
    "id": "trguuw",
@@ -15560,7 +15903,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T05:46:50.649Z",
+   "deleted": true,
+   "mergedInto": "2775"
   },
   "t1xqomto": {
    "id": "t1xqomto",
@@ -16051,7 +16396,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:33.580Z",
-   "updatedAt": "2026-10-20T01:05:33.580Z"
+   "updatedAt": "2026-10-21T05:46:50.640Z",
+   "deleted": true,
+   "mergedInto": "378"
   },
   "t5fmdxp": {
    "id": "t5fmdxp",
@@ -16179,7 +16526,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:42.444Z",
-   "updatedAt": "2026-10-20T01:05:42.444Z"
+   "updatedAt": "2026-10-21T05:46:50.642Z",
+   "deleted": true,
+   "mergedInto": "38"
   },
   "t9rtgq6": {
    "id": "t9rtgq6",
@@ -16242,7 +16591,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:42.444Z",
-   "updatedAt": "2026-10-20T01:05:42.444Z"
+   "updatedAt": "2026-10-21T05:46:50.639Z",
+   "deleted": true,
+   "mergedInto": "387"
   },
   "t189u793": {
    "id": "t189u793",
@@ -16991,7 +17342,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:36.588Z",
-   "updatedAt": "2026-10-20T01:07:36.588Z"
+   "updatedAt": "2026-10-21T05:46:50.652Z",
+   "deleted": true,
+   "mergedInto": "45"
   },
   "t19mbbd5": {
    "id": "t19mbbd5",
@@ -29297,6 +29650,48 @@
    "source": "text",
    "createdAt": "2026-10-21T05:45:10.214Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "t99tgk": {
+   "id": "t99tgk",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a small piece of code stored in ROM or EEPROM that is used to locate the kernel and load it into memory.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bootstrap loader"
+   ],
+   "lines": [
+    "bootstrap loader"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:46:40.197Z",
+   "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "txm0f76": {
+   "id": "txm0f76",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在 Unix/Linux 系統中，用來建立全新行程（Process）的系統呼叫是 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:46:40.197Z",
+   "updatedAt": "2026-10-21T05:46:40.197Z"
   }
  }
 }
