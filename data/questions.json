@@ -9813,11 +9813,12 @@
    "text": "作業系統為了將檔案映射到二級儲存體，通常會建立＿＿＿。",
    "hint": "請用小寫英文回答 字母間留一空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "file system"
+   ],
    "note": "",
-   "createdAt": "2026-10-21T11:40:24.290Z",
-   "updatedAt": "2026-10-21T11:40:47.216Z",
-   "deleted": true
+   "createdAt": "2026-10-21T11:40:57.806Z",
+   "updatedAt": "2026-10-21T11:40:57.814Z"
   },
   "2898": {
    "id": "2898",
@@ -11552,7 +11553,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:22:15.700Z",
-   "updatedAt": "2026-10-20T00:22:15.700Z"
+   "updatedAt": "2026-10-21T11:40:57.816Z",
+   "deleted": true,
+   "mergedInto": "2857~1vyzm1k"
   },
   "tb0hdv": {
    "id": "tb0hdv",
@@ -31694,7 +31697,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T05:41:30.149Z",
-   "updatedAt": "2026-10-21T05:41:30.149Z"
+   "updatedAt": "2026-10-21T11:40:57.814Z",
+   "deleted": true,
+   "mergedInto": "2897"
   },
   "t14c22tv": {
    "id": "t14c22tv",
@@ -32573,6 +32578,28 @@
    "createdAt": "2026-10-21T11:40:24.290Z",
    "updatedAt": "2026-10-21T11:40:47.216Z",
    "deleted": true
+  },
+  "2857~1vyzm1k": {
+   "id": "2857~1vyzm1k",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What mode transition does a system call cause?",
+   "hint": "",
+   "options": {
+    "C": "No mode switch",
+    "D": "Direct reboot",
+    "B": "Kernel mode to user mode",
+    "A": "User mode to kernel mode"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T11:40:57.806Z",
+   "updatedAt": "2026-10-21T11:40:57.816Z"
   }
  }
 }
