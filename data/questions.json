@@ -1454,25 +1454,22 @@
   "2238": {
    "id": "2238",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "大師定理適用於？",
    "hint": "",
    "options": {
-    "A": "分治演算法的複雜度分析",
     "C": "圖論中的最短路徑",
+    "B": "動態規劃的路徑選擇",
     "D": "資料結構的記憶體分配",
-    "B": "動態規劃的路徑選擇"
+    "A": "分治演算法的複雜度分析"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:54:50.991Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2239": {
    "id": "2239",
@@ -1585,6 +1582,28 @@
    "updatedAt": "2026-10-20T14:56:41.883Z",
    "deleted": true
   },
+  "2245": {
+   "id": "2245",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "對於 T(n) = T(n/2) + n，其複雜度為何？",
+   "hint": "",
+   "options": {
+    "B": "O(log n)",
+    "A": "O(n)",
+    "D": "O(n²)",
+    "C": "O(n log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.087Z"
+  },
   "2246": {
    "id": "2246",
    "subject": "演算法",
@@ -1610,30 +1629,27 @@
   "2247": {
    "id": "2247",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "大師定理中，若 f(n) 成長速度慢於 O(nˡᵒᵍᵇ⁽ᵃ⁾)，則複雜度為？",
    "hint": "",
    "options": {
-    "D": "O(n)",
     "B": "O(f(n))",
+    "A": "O(nˡᵒᵍᵇ⁽ᵃ⁾)",
     "C": "O(n log n)",
-    "A": "O(nˡᵒᵍᵇ⁽ᵃ⁾)"
+    "D": "O(n)"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:02.641Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2248": {
    "id": "2248",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
@@ -1641,18 +1657,14 @@
    "hint": "",
    "options": {
     "C": "適用於所有遞迴式",
-    "A": "不適用於 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 成長率相差非多項式的情況",
     "D": "無法判斷分治代價 f(n) 的情況",
-    "B": "必須滿足 a >= 1 及 b > 1"
+    "B": "必須滿足 a >= 1 及 b > 1",
+    "A": "不適用於 f(n) 與 nˡᵒᵍᵇ⁽ᵃ⁾ 成長率相差非多項式的情況"
    },
-   "answer": [
-    "A",
-    "B"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:55:21.415Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2249": {
    "id": "2249",
@@ -1701,6 +1713,30 @@
    "note": "",
    "createdAt": "2026-10-20T14:25:13.829Z",
    "updatedAt": "2026-10-20T14:25:13.839Z"
+  },
+  "2251": {
+   "id": "2251",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列關於漸進符號 (Asymptotic Notation) 的敘述，何者正確？",
+   "hint": "",
+   "options": {
+    "C": "Θ 符號代表緊確界",
+    "D": "這些符號都只用於遞迴式",
+    "A": "O 符號代表上界",
+    "B": "Ω 符號代表下界"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.090Z"
   },
   "2252": {
    "id": "2252",
@@ -1865,6 +1901,30 @@
    "updatedAt": "2026-10-20T00:58:37.684Z",
    "deleted": true
   },
+  "2261": {
+   "id": "2261",
+   "subject": "演算法",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些方法可以求解 T(n) = 2T(n/2) + n？",
+   "hint": "",
+   "options": {
+    "D": "以上皆非",
+    "A": "代入法",
+    "B": "遞迴樹法",
+    "C": "大師定理"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.083Z"
+  },
   "2262": {
    "id": "2262",
    "subject": "演算法",
@@ -1892,7 +1952,7 @@
   "2263": {
    "id": "2263",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
@@ -1900,19 +1960,14 @@
    "hint": "",
    "options": {
     "B": "中間層節點代價",
-    "D": "全域變數值",
+    "C": "葉節點代價",
     "A": "根節點代價",
-    "C": "葉節點代價"
+    "D": "全域變數值"
    },
-   "answer": [
-    "A",
-    "B",
-    "C"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:20.009Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2264": {
    "id": "2264",
@@ -2047,20 +2102,17 @@
   "2270": {
    "id": "2270",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "大師定理是用來解決＿＿＿形式的遞迴關係式",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [
-    "t(n)=at(n/b)+f(n)"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:49.748Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2271": {
    "id": "2271",
@@ -2168,20 +2220,17 @@
   "2277": {
    "id": "2277",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "遞迴關係式分析中，我們通常會忽略＿＿＿條件",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [
-    "boundary"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:54.003Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2278": {
    "id": "2278",
@@ -2220,20 +2269,17 @@
   "2280": {
    "id": "2280",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "T(n) = 2T(sqrt(n)) + logn\n\n這問題需要用變數變換的技巧，我們會設定 m=＿＿＿來做變數變換",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [
-    "logn"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:54:57.685Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2281": {
    "id": "2281",
@@ -2271,18 +2317,17 @@
   "2283": {
    "id": "2283",
    "subject": "演算法",
-   "chapter": "3分治法陣",
-   "level": "練氣中期",
-   "difficulty": "簡單",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
    "type": "fill",
    "text": "使用遞迴樹法時，最後需將所有層的代價進行＿＿＿",
    "hint": "請用小寫英文回答",
    "options": {},
    "answer": [],
    "note": "",
-   "createdAt": "2026-10-19T15:53:36.755Z",
-   "updatedAt": "2026-10-20T00:58:41.676Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2284": {
    "id": "2284",
@@ -2305,20 +2350,17 @@
   "2285": {
    "id": "2285",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "fill",
    "text": "遞迴樹的高度通常為＿＿＿",
    "hint": "請用小寫英文回答 不留空白",
    "options": {},
-   "answer": [
-    "logn"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:55.504Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:41:12.080Z",
+   "updatedAt": "2026-10-21T01:41:12.080Z"
   },
   "2286": {
    "id": "2286",
@@ -19933,7 +19975,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:36.372Z",
-   "updatedAt": "2026-10-20T01:23:36.372Z"
+   "updatedAt": "2026-10-21T01:41:12.090Z",
+   "deleted": true,
+   "mergedInto": "2251"
   },
   "t1sxvwpu": {
    "id": "t1sxvwpu",
@@ -20260,7 +20304,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:23:45.076Z",
-   "updatedAt": "2026-10-20T01:23:45.076Z"
+   "updatedAt": "2026-10-21T01:41:12.083Z",
+   "deleted": true,
+   "mergedInto": "2261"
   },
   "t17jjj5i": {
    "id": "t17jjj5i",
@@ -20344,7 +20390,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:24:07.420Z",
-   "updatedAt": "2026-10-20T01:24:07.420Z"
+   "updatedAt": "2026-10-21T01:41:12.087Z",
+   "deleted": true,
+   "mergedInto": "2245"
   },
   "tyzlboo": {
    "id": "tyzlboo",
