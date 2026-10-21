@@ -5319,10 +5319,12 @@
     "B": "Magnetic tapes",
     "D": "Main memory"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:31:56.564Z",
-   "updatedAt": "2026-10-21T05:31:56.564Z"
+   "updatedAt": "2026-10-21T05:33:23.174Z"
   },
   "2857": {
    "id": "2857",
@@ -5653,7 +5655,7 @@
    ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:30:03.503Z"
+   "updatedAt": "2026-10-21T05:33:23.174Z"
   },
   "2873": {
    "id": "2873",
@@ -5956,6 +5958,23 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
+  },
+  "2889": {
+   "id": "2889",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "CPU 執行程式時區分使用者模式與＿＿＿模式。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "kernel"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:33:32.420Z",
+   "updatedAt": "2026-10-21T05:33:32.424Z"
   },
   "2890": {
    "id": "2890",
@@ -27562,7 +27581,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T05:24:39.760Z",
-   "updatedAt": "2026-10-21T05:24:39.760Z"
+   "updatedAt": "2026-10-21T05:33:32.424Z",
+   "deleted": true,
+   "mergedInto": "2889"
   },
   "t1t80apa": {
    "id": "t1t80apa",
