@@ -3726,48 +3726,42 @@
   "2409": {
    "id": "2409",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "決策樹模型（Decision Tree Model）主要用於分析哪類演算法？",
    "hint": "",
    "options": {
-    "B": "線性排序",
     "A": "比較排序",
     "D": "圖論演算法",
+    "B": "線性排序",
     "C": "動態規劃"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:00:04.894Z",
-   "updatedAt": "2026-10-20T14:56:58.429Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:51:03.616Z",
+   "updatedAt": "2026-10-21T01:51:03.616Z"
   },
   "2410": {
    "id": "2410",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "計數排序（Counting Sort）要求輸入元素必須是？",
    "hint": "",
    "options": {
-    "C": "字串",
     "A": "整數",
+    "D": "結構體",
     "B": "實數",
-    "D": "結構體"
+    "C": "字串"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:01:41.365Z",
-   "updatedAt": "2026-10-20T14:56:59.723Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:51:03.616Z",
+   "updatedAt": "2026-10-21T01:51:03.616Z"
   },
   "2411": {
    "id": "2411",
