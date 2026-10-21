@@ -2299,6 +2299,426 @@
    "createdAt": "2026-10-20T14:50:00.000Z",
    "updatedAt": "2026-10-20T14:51:42.804Z"
   },
+  "2292": {
+   "id": "2292",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Max-Heapify 的作用是？",
+   "hint": "",
+   "options": {
+    "D": "建立新堆積",
+    "B": "插入元素",
+    "C": "刪除最大值",
+    "A": "維護堆積屬性"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.904Z"
+  },
+  "2297": {
+   "id": "2297",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆積排序的第一步驟是？",
+   "hint": "",
+   "options": {
+    "C": "Increase-Key",
+    "B": "Extract-Max",
+    "A": "Build-Max-Heap",
+    "D": "Heap-Sort"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.908Z"
+  },
+  "2298": {
+   "id": "2298",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Extract-Max 操作的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "B": "O(n)",
+    "A": "O(log n)",
+    "C": "O(1)",
+    "D": "O(n^2)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.915Z"
+  },
+  "2299": {
+   "id": "2299",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者不是堆積排序的優點？",
+   "hint": "",
+   "options": {
+    "A": "是穩定的排序",
+    "D": "易於實作",
+    "B": "原地排序",
+    "C": "複雜度 O(n log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.906Z"
+  },
+  "2300": {
+   "id": "2300",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Max-Heapify 假設子樹已經是？",
+   "hint": "",
+   "options": {
+    "D": "Binary-Tree",
+    "B": "Sorted-List",
+    "C": "Empty",
+    "A": "Max-Heap"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.911Z"
+  },
+  "2304": {
+   "id": "2304",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "二元堆積結構常以何種形式實作？",
+   "hint": "",
+   "options": {
+    "D": "堆疊",
+    "B": "串列",
+    "C": "佇列",
+    "A": "陣列"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.914Z"
+  },
+  "2305": {
+   "id": "2305",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當堆積大小 < 1 時，Extract-Max 會發生？",
+   "hint": "",
+   "options": {
+    "D": "Reset",
+    "B": "Overflow",
+    "A": "Heap-Underflow",
+    "C": "Success"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.912Z"
+  },
+  "2308": {
+   "id": "2308",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些關於堆積排序的敘述是正確的？",
+   "hint": "",
+   "options": {
+    "D": "需要 O(n) 額外空間",
+    "B": "複雜度 O(n log n)",
+    "A": "原地排序",
+    "C": "不穩定排序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.913Z"
+  },
+  "2311": {
+   "id": "2311",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Max-Heapify 可能會影響哪些節點的屬性？",
+   "hint": "",
+   "options": {
+    "D": "父節點",
+    "C": "右子節點",
+    "A": "目標節點",
+    "B": "左子節點"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2312": {
+   "id": "2312",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積排序為何常被應用？",
+   "hint": "",
+   "options": {
+    "D": "演算法多樣性",
+    "A": "應用程式本身需要",
+    "B": "作為其他演算法的子程序",
+    "C": "處理非原地排序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.907Z"
+  },
+  "2313": {
+   "id": "2313",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Build-Max-Heap 包含哪些操作？",
+   "hint": "",
+   "options": {
+    "D": "將陣列轉換為堆積",
+    "C": "初始化堆積",
+    "A": "對非葉節點進行 Max-Heapify",
+    "B": "從中間節點往根部進行"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2319": {
+   "id": "2319",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是堆積排序的特性？",
+   "hint": "",
+   "options": {
+    "A": "原地排序",
+    "B": "複雜度 O(n log n)",
+    "C": "穩定排序",
+    "D": "使用遞迴"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.910Z"
+  },
+  "2326": {
+   "id": "2326",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列何者影響堆積效率？",
+   "hint": "",
+   "options": {
+    "A": "比較操作次數",
+    "B": "資料存取頻率",
+    "C": "堆積高度",
+    "D": "陣列大小"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.909Z"
+  },
+  "2327": {
+   "id": "2327",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積結構適用於哪類問題？",
+   "hint": "",
+   "options": {
+    "B": "持續更新優先級",
+    "A": "尋找最大值",
+    "C": "需要 O(n log n) 排序",
+    "D": "穩定的大量資料排序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.912Z"
+  },
+  "2328": {
+   "id": "2328",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積排序的時間複雜度為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2329": {
+   "id": "2329",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積是一種陣列物件，可被視為一棵＿＿＿二元樹",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2334": {
+   "id": "2334",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積排序屬於＿＿＿排序，意指不需要額外儲存空間",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2337": {
+   "id": "2337",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積結構中的節點通常以＿＿＿儲存",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2341": {
+   "id": "2341",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆積排序的比較次數大約為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2345": {
+   "id": "2345",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "這是Heapsort(A) 過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[14]\n        /      \\\n    (2)[8]    (3)[10]\n    /    \\     /    \\\n(4)[4] (5)[7] (6)[9] (7)[3]\n /   \\     /\n(8)[2] (9)[1] i(10)[16]\n\n＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
+  "2347": {
+   "id": "2347",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Heapsort 中的 exchange 是為了＿＿＿元素",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T01:16:24.897Z",
+   "updatedAt": "2026-10-21T01:16:24.897Z"
+  },
   "2408": {
    "id": "2408",
    "subject": "演算法",
@@ -19413,7 +19833,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.911Z",
+   "deleted": true,
+   "mergedInto": "2300"
   },
   "t904lsx": {
    "id": "t904lsx",
@@ -19497,7 +19919,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.907Z",
+   "deleted": true,
+   "mergedInto": "2312"
   },
   "t17dopku": {
    "id": "t17dopku",
@@ -19581,7 +20005,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.908Z",
+   "deleted": true,
+   "mergedInto": "2297"
   },
   "tjernu0": {
    "id": "tjernu0",
@@ -19686,7 +20112,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.912Z",
+   "deleted": true,
+   "mergedInto": "2327"
   },
   "t1tkbk5": {
    "id": "t1tkbk5",
@@ -19707,7 +20135,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.904Z",
+   "deleted": true,
+   "mergedInto": "2292"
   },
   "tok29cn": {
    "id": "tok29cn",
@@ -19833,7 +20263,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:16:24.906Z",
+   "deleted": true,
+   "mergedInto": "2299"
   },
   "t1x0tzs1": {
    "id": "t1x0tzs1",
@@ -20001,7 +20433,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:16:24.912Z",
+   "deleted": true,
+   "mergedInto": "2305"
   },
   "topl47d": {
    "id": "topl47d",
@@ -20043,7 +20477,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:16:24.915Z",
+   "deleted": true,
+   "mergedInto": "2298"
   },
   "ty0eimm": {
    "id": "ty0eimm",
@@ -20085,7 +20521,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:38.028Z",
-   "updatedAt": "2026-10-20T01:25:38.028Z"
+   "updatedAt": "2026-10-21T01:16:24.910Z",
+   "deleted": true,
+   "mergedInto": "2319"
   },
   "t1s8kxen": {
    "id": "t1s8kxen",
@@ -20148,7 +20586,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:26:23.988Z",
-   "updatedAt": "2026-10-20T01:26:23.988Z"
+   "updatedAt": "2026-10-21T01:16:24.914Z",
+   "deleted": true,
+   "mergedInto": "2304"
   },
   "tp6qnr2": {
    "id": "tp6qnr2",
@@ -21723,7 +22163,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:47.980Z",
-   "updatedAt": "2026-10-20T01:27:47.980Z"
+   "updatedAt": "2026-10-21T01:16:24.909Z",
+   "deleted": true,
+   "mergedInto": "2326"
   },
   "t6lhng0": {
    "id": "t6lhng0",
@@ -21744,7 +22186,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:27:47.980Z",
-   "updatedAt": "2026-10-20T01:27:47.980Z"
+   "updatedAt": "2026-10-21T01:16:24.913Z",
+   "deleted": true,
+   "mergedInto": "2308"
   },
   "tuhdumy": {
    "id": "tuhdumy",
