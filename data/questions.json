@@ -1564,25 +1564,22 @@
   "2243": {
    "id": "2243",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
    "text": "「忽略技術細節」(neglecting technical details)在演算法分析中代表？",
    "hint": "",
    "options": {
+    "B": "錯誤的分析方式",
     "A": "捨棄對漸進複雜度無影響的因素",
-    "C": "簡化代數運算",
     "D": "只關注最好情況",
-    "B": "錯誤的分析方式"
+    "C": "簡化代數運算"
    },
-   "answer": [
-    "A"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:55:27.811Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:48:59.064Z",
+   "updatedAt": "2026-10-21T01:48:59.064Z"
   },
   "2244": {
    "id": "2244",
@@ -2103,27 +2100,22 @@
   "2267": {
    "id": "2267",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "multi",
    "text": "下列何者可用於分析 T(n) =n²logn？",
    "hint": "",
    "options": {
-    "D": "暴力破解",
-    "A": "代入法",
     "B": "遞迴樹法",
+    "A": "代入法",
+    "D": "暴力破解",
     "C": "大師定理的變形"
    },
-   "answer": [
-    "A",
-    "B",
-    "C"
-   ],
+   "answer": [],
    "note": "",
-   "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:56:47.873Z",
-   "deleted": true
+   "createdAt": "2026-10-21T01:48:59.064Z",
+   "updatedAt": "2026-10-21T01:48:59.064Z"
   },
   "2268": {
    "id": "2268",
