@@ -62,6 +62,26 @@
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.088Z"
   },
+  "41": {
+   "id": "41",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which layer of the operating system structure is called layer 0?",
+   "hint": "",
+   "options": {
+    "C": "Application",
+    "A": "Command line interface",
+    "D": "Hardware",
+    "B": "Kernel"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
+  },
   "42": {
    "id": "42",
    "subject": "作業系統",
@@ -216,6 +236,26 @@
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.090Z"
   },
+  "51": {
+   "id": "51",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which programming language is most commonly used to write modern operating systems?",
+   "hint": "",
+   "options": {
+    "D": "HTML",
+    "C": "C",
+    "B": "JavaScript",
+    "A": "Python"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
+  },
   "52": {
    "id": "52",
    "subject": "作業系統",
@@ -283,6 +323,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.338Z"
+  },
+  "374": {
+   "id": "374",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "作業系統的哪項服務確保所有對系統資源的存取都受到控制？",
+   "hint": "",
+   "options": {
+    "D": "Protection and security",
+    "C": "Error detection",
+    "B": "File system operations",
+    "A": "program execution"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.750Z"
   },
   "375": {
    "id": "375",
@@ -549,6 +611,31 @@
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:46:50.647Z"
+  },
+  "394": {
+   "id": "394",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "作業系統服務中，哪些功能對使用者有幫助？",
+   "hint": "",
+   "options": {
+    "A": "使用者介面",
+    "B": "程式執行",
+    "D": "檔案系統操作",
+    "C": "I/O 操作"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.755Z"
   },
   "395": {
    "id": "395",
@@ -873,6 +960,21 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
   },
+  "417": {
+   "id": "417",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The three most common APIs are the Win32 API for Windows, the POSIX API for POSIX systems, and the Java API for the＿＿＿virtual machine. (用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
+  },
   "419": {
    "id": "419",
    "subject": "作業系統",
@@ -1008,6 +1110,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:46:40.197Z"
+  },
+  "428": {
+   "id": "428",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "對於每個錯誤類型，作業系統應該採取適當的行動來確保正確和＿＿＿的運算。(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
   },
   "429": {
    "id": "429",
@@ -6633,6 +6750,30 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.337Z"
   },
+  "2802": {
+   "id": "2802",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在開發作業系統時，常使用高級語言（如 C/C++）編寫的主要優點有哪些？",
+   "hint": "",
+   "options": {
+    "A": "程式更容易移植到其他硬體",
+    "C": "執行速度絕對比純組合語言快",
+    "B": "程式更容易理解與除錯",
+    "D": "開發速度快得多"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.753Z"
+  },
   "2803": {
    "id": "2803",
    "subject": "作業系統",
@@ -6704,6 +6845,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:48:29.994Z"
+  },
+  "2807": {
+   "id": "2807",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於開機引導（System Boot）的過程，下列哪些敘述不符合教材說明的？",
+   "hint": "",
+   "options": {
+    "B": "韌體 ROM 用於保存初始引導程式（Bootstrap Loader）",
+    "A": "通電時，執行從固定的記憶體位置開始",
+    "C": "開機引導程式負責定位核心並將其載入記憶體",
+    "D": "核心直接常駐在 CPU 暫存器中不需要引導"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.757Z"
   },
   "2808": {
    "id": "2808",
@@ -6844,6 +7007,21 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
   },
+  "2816": {
+   "id": "2816",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "應用程式用來呼叫作業系統核心服務的程式化介面簡稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
+  },
   "2817": {
    "id": "2817",
    "subject": "作業系統",
@@ -6906,10 +7084,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "policy",
+    "mechanism"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:50:21.626Z",
-   "updatedAt": "2026-10-21T05:50:21.626Z"
+   "updatedAt": "2026-10-21T05:51:34.109Z"
   },
   "2822": {
    "id": "2822",
@@ -6996,6 +7177,21 @@
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:50:10.476Z"
   },
+  "2827": {
+   "id": "2827",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "結合了多種核心結構特徵（如 monolithic 加 modular）的現代系統架構稱為＿＿＿系統。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
+  },
   "2828": {
    "id": "2828",
    "subject": "作業系統",
@@ -7029,6 +7225,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
    "updatedAt": "2026-10-21T05:50:10.476Z"
+  },
+  "2830": {
+   "id": "2830",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "一個運行中的程式若需要進行檔案 manipulation 或網路傳輸，必須透過＿＿＿系統向核心發出請求。",
+   "hint": "請用小寫英文回答字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:51:47.746Z",
+   "updatedAt": "2026-10-21T05:51:47.746Z"
   },
   "2832": {
    "id": "2832",
@@ -10630,7 +10841,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:51:47.753Z",
+   "deleted": true,
+   "mergedInto": "2802"
   },
   "tt5gyow": {
    "id": "tt5gyow",
@@ -14783,7 +14996,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:51:47.755Z",
+   "deleted": true,
+   "mergedInto": "394"
   },
   "t1iz7j7r": {
    "id": "t1iz7j7r",
@@ -17266,7 +17481,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:59.820Z",
-   "updatedAt": "2026-10-20T01:05:59.820Z"
+   "updatedAt": "2026-10-21T05:51:47.757Z",
+   "deleted": true,
+   "mergedInto": "2807"
   },
   "t13bttww": {
    "id": "t13bttww",
@@ -18449,7 +18666,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:10:29.564Z",
-   "updatedAt": "2026-10-20T01:10:29.564Z"
+   "updatedAt": "2026-10-21T05:51:47.750Z",
+   "deleted": true,
+   "mergedInto": "374"
   },
   "t82fcnb": {
    "id": "t82fcnb",
@@ -30222,6 +30441,27 @@
    "source": "text",
    "createdAt": "2026-10-21T05:50:10.476Z",
    "updatedAt": "2026-10-21T05:50:10.476Z"
+  },
+  "t1sxo4fy": {
+   "id": "t1sxo4fy",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following system calls is used to create a new process in Unix?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "fork()"
+   ],
+   "lines": [
+    "fork()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:51:34.109Z",
+   "updatedAt": "2026-10-21T05:51:34.109Z"
   }
  }
 }
