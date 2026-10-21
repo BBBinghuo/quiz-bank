@@ -1094,10 +1094,15 @@
     "D": "靈活",
     "A": "易於設計"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "413": {
    "id": "413",
@@ -8147,10 +8152,14 @@
     "D": "處理器電路設計",
     "C": "程式載入與執行、通訊"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "2800": {
    "id": "2800",
@@ -8839,10 +8848,12 @@
    "text": "在 Windows 中，用來設定檔案安全權限、屬於保護（Protection）領域的系統呼叫是＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "setfilesecurity()"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "2839": {
    "id": "2839",
@@ -32969,10 +32980,14 @@
     "C": "更安全且可靠（較少程式碼運行在核心模式）",
     "D": "效能優於傳統單體核心"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "43~15n842k": {
    "id": "43~15n842k",
@@ -32989,10 +33004,12 @@
     "C": "提供程式呼叫 OS 的介面",
     "B": "管理檔案系統"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "2786~1vbslbj": {
    "id": "2786~1vbslbj",
@@ -33009,10 +33026,12 @@
     "C": "Mach",
     "D": "Aqua"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   },
   "2808~1tmkzkf": {
    "id": "2808~1tmkzkf",
@@ -33029,10 +33048,77 @@
     "C": "Error logging",
     "A": "Disk checking"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T11:44:50.551Z",
-   "updatedAt": "2026-10-21T11:44:50.551Z"
+   "updatedAt": "2026-10-21T11:46:41.552Z"
+  },
+  "t1w7n4y2": {
+   "id": "t1w7n4y2",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "用來獲取特定硬體配置資訊以編譯客製化核心的系統生成程式簡稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "sysgen"
+   ],
+   "lines": [
+    "sysgen"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:46:41.552Z",
+   "updatedAt": "2026-10-21T11:46:41.552Z"
+  },
+  "trj4se4": {
+   "id": "trj4se4",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "最常見的三個 API 是 Windows 的 Win32 API、POSIX 系統的 POSIX API，以及 ＿＿＿ 虛擬機的 Java API。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "java"
+   ],
+   "lines": [
+    "java"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:46:41.552Z",
+   "updatedAt": "2026-10-21T11:46:41.552Z"
+  },
+  "t999jfu": {
+   "id": "t999jfu",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which operating system service ensures that all access to system resources is controlled?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "protection and security"
+   ],
+   "lines": [
+    "protection and security"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T11:46:41.552Z",
+   "updatedAt": "2026-10-21T11:46:41.552Z"
   }
  }
 }
