@@ -5055,10 +5055,12 @@
     "C": "Kernel",
     "D": "BIOS"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2855": {
    "id": "2855",
@@ -5122,10 +5124,15 @@
     "C": "File management",
     "D": "Device management"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2866": {
    "id": "2866",
@@ -5166,10 +5173,15 @@
     "D": "Deadlock handling",
     "B": "Suspending/resuming processes"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2873": {
    "id": "2873",
@@ -5211,10 +5223,15 @@
     "A": "File-system management",
     "B": "Mass-storage management"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2877": {
    "id": "2877",
@@ -5323,10 +5340,12 @@
    "text": "電腦系統啟動時載入的程式稱為＿＿＿。",
    "hint": "請用小寫英文回答字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "bootstrap program"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2888": {
    "id": "2888",
@@ -5338,10 +5357,12 @@
    "text": "在 Von Neumann 架構中，＿＿＿可以允許裝置傳輸資料至記憶體而不需 CPU 介入。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "dma"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2891": {
    "id": "2891",
@@ -5353,10 +5374,12 @@
    "text": "叢集系統中，存取共享儲存通常透過＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "san"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2892": {
    "id": "2892",
@@ -5419,10 +5442,12 @@
    "text": "叢集系統生存故障的關鍵在於提供＿＿＿服務。",
    "hint": "請用小寫英文回答 字母間留一空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "high availability"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "2908": {
    "id": "2908",
@@ -5434,10 +5459,12 @@
    "text": "＿＿＿是一種雲端運算模型。 它提供使用者按需存取伺服器、儲存、網路和虛擬化等基礎設施資源",
    "hint": "請用小寫英文縮寫回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "iaas"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.055Z"
+   "updatedAt": "2026-10-21T05:23:00.992Z"
   },
   "tuy2wbb": {
    "id": "tuy2wbb",
