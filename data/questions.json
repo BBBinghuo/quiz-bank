@@ -62,6 +62,28 @@
    "createdAt": "2026-10-21T05:45:24.084Z",
    "updatedAt": "2026-10-21T05:45:24.088Z"
   },
+  "42": {
+   "id": "42",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "以下哪一個是 UNIX 系統常用的 shell？",
+   "hint": "",
+   "options": {
+    "A": "Bash",
+    "D": "Panda",
+    "B": "Zeta",
+    "C": "Oracle"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.635Z"
+  },
   "43": {
    "id": "43",
    "subject": "作業系統",
@@ -83,6 +105,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "44": {
+   "id": "44",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which operating system architecture moves most functionality out of the kernel?",
+   "hint": "",
+   "options": {
+    "D": "DOS",
+    "C": "Hybrid",
+    "B": "Microkernel",
+    "A": "Monolithic"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.633Z"
   },
   "45": {
    "id": "45",
@@ -127,6 +171,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "47": {
+   "id": "47",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "MS-DOS 系統中，程式執行後會：",
+   "hint": "",
+   "options": {
+    "A": "開啟新行程",
+    "B": "使用背景程序執行",
+    "D": "在虛擬記憶體中執行",
+    "C": "覆蓋整個記憶體空間"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.636Z"
   },
   "48": {
    "id": "48",
@@ -217,6 +283,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.338Z"
+  },
+  "375": {
+   "id": "375",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在多使用者或網路化的電腦系統中，使用者可能希望控制其資訊的使用。這與作業系統的哪項服務相關？",
+   "hint": "",
+   "options": {
+    "C": "Protection and security",
+    "B": "Communication",
+    "D": "File system operations",
+    "A": "Resource allocation"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.634Z"
   },
   "378": {
    "id": "378",
@@ -371,6 +459,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.329Z"
+  },
+  "389": {
+   "id": "389",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "作業系統提供的一組服務中，哪一組服務無助於使用者？",
+   "hint": "",
+   "options": {
+    "A": "File system operations",
+    "D": "power on",
+    "B": "Communication",
+    "C": "Program execution"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.632Z"
   },
   "391": {
    "id": "391",
@@ -656,6 +766,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:46:50.645Z"
+  },
+  "410": {
+   "id": "410",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "作業系統服務中的「通訊」服務可能透過哪些方式交換資訊？",
+   "hint": "",
+   "options": {
+    "B": "訊息傳遞",
+    "A": "共享記憶體",
+    "D": "系統呼叫",
+    "C": "檔案系統"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.631Z"
   },
   "411": {
    "id": "411",
@@ -6762,6 +6895,22 @@
    "createdAt": "2026-10-21T05:46:50.635Z",
    "updatedAt": "2026-10-21T05:48:18.172Z"
   },
+  "2821": {
+   "id": "2821",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In OS design, it is an important principle to separate＿＿＿and＿＿＿.(please answer in lowercase english with a space between answers)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:50:21.626Z",
+   "updatedAt": "2026-10-21T05:50:21.626Z"
+  },
   "2822": {
    "id": "2822",
    "subject": "作業系統",
@@ -6789,10 +6938,12 @@
    "text": "在開機過程中，儲存於 ROM 中負責定位核心並將其載入記憶體運行的程式稱為＿＿＿。",
    "hint": "請用小寫英文回答字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "bootstrap loader"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
-   "updatedAt": "2026-10-21T05:48:29.987Z"
+   "updatedAt": "2026-10-21T05:50:10.476Z"
   },
   "2824": {
    "id": "2824",
@@ -6838,10 +6989,12 @@
    "text": "現代許多作業系統（如 Linux、Solaris）為了彈性擴充核心，皆實作了可載入核心＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "modules"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
-   "updatedAt": "2026-10-21T05:48:29.987Z"
+   "updatedAt": "2026-10-21T05:50:10.476Z"
   },
   "2828": {
    "id": "2828",
@@ -6870,10 +7023,12 @@
    "text": "藉由定期對指令指標（Instruction Pointer）進行採樣以尋找統計趨勢的效能調校方法稱為＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "profiling"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
-   "updatedAt": "2026-10-21T05:48:29.987Z"
+   "updatedAt": "2026-10-21T05:50:10.476Z"
   },
   "2832": {
    "id": "2832",
@@ -6919,10 +7074,12 @@
    "text": "Android libraries include frameworks for web browsers such as＿＿＿.(please answer in lowercase english)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "webkit"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:48:29.987Z",
-   "updatedAt": "2026-10-21T05:48:29.987Z"
+   "updatedAt": "2026-10-21T05:50:10.476Z"
   },
   "2839": {
    "id": "2839",
@@ -10255,7 +10412,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:59:26.996Z",
-   "updatedAt": "2026-10-20T00:59:26.996Z"
+   "updatedAt": "2026-10-21T05:50:21.632Z",
+   "deleted": true,
+   "mergedInto": "389"
   },
   "t1amgs79": {
    "id": "t1amgs79",
@@ -14511,7 +14670,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:50:21.636Z",
+   "deleted": true,
+   "mergedInto": "47"
   },
   "t18zkny4": {
    "id": "t18zkny4",
@@ -14708,7 +14869,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:50:21.631Z",
+   "deleted": true,
+   "mergedInto": "410"
   },
   "tzzb6dq": {
    "id": "tzzb6dq",
@@ -16992,7 +17155,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:51.012Z",
-   "updatedAt": "2026-10-20T01:05:51.012Z"
+   "updatedAt": "2026-10-21T05:50:21.635Z",
+   "deleted": true,
+   "mergedInto": "42"
   },
   "t1lx22pm": {
    "id": "t1lx22pm",
@@ -17143,7 +17308,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:59.820Z",
-   "updatedAt": "2026-10-20T01:05:59.820Z"
+   "updatedAt": "2026-10-21T05:50:21.633Z",
+   "deleted": true,
+   "mergedInto": "44"
   },
   "t1n1nao6": {
    "id": "t1n1nao6",
@@ -17292,7 +17459,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:06:12.340Z",
-   "updatedAt": "2026-10-20T01:06:12.340Z"
+   "updatedAt": "2026-10-21T05:50:21.634Z",
+   "deleted": true,
+   "mergedInto": "375"
   },
   "t180d40t": {
    "id": "t180d40t",
@@ -30009,6 +30178,50 @@
    "source": "text",
    "createdAt": "2026-10-21T05:48:18.172Z",
    "updatedAt": "2026-10-21T05:48:18.172Z"
+  },
+  "t1cauh4d": {
+   "id": "t1cauh4d",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "許多作業系統提供用來集中儲存和檢索系統組態與配置資訊的資料庫機制稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "registry"
+   ],
+   "lines": [
+    "registry"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:50:10.476Z",
+   "updatedAt": "2026-10-21T05:50:10.476Z"
+  },
+  "t1x63rga": {
+   "id": "t1x63rga",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the three most common Application Programming Interfaces (APIs) for operating systems?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Win32 API\nPOSIX API\nJava API"
+   ],
+   "lines": [
+    "Win32 API",
+    "POSIX API",
+    "Java API"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:50:10.476Z",
+   "updatedAt": "2026-10-21T05:50:10.476Z"
   }
  }
 }
