@@ -4996,6 +4996,28 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.079Z"
   },
+  "2840": {
+   "id": "2840",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "負責啟動電腦並載入作業系統核心的程式稱為？",
+   "hint": "",
+   "options": {
+    "A": "Bootstrap program",
+    "B": "Compiler",
+    "D": "Linker",
+    "C": "Assembler"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.385Z"
+  },
   "2844": {
    "id": "2844",
    "subject": "作業系統",
@@ -5017,6 +5039,26 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.066Z"
+  },
+  "2847": {
+   "id": "2847",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is one of the primary purposes of memory management?",
+   "hint": "",
+   "options": {
+    "B": "Reduce file size",
+    "C": "Increase hard disk space",
+    "A": "Optimize CPU utilization",
+    "D": "Speed up network connection"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
   },
   "2849": {
    "id": "2849",
@@ -5062,6 +5104,28 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
   },
+  "2854": {
+   "id": "2854",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "即時作業系統 (Real-time OS) 的核心特徵是？",
+   "hint": "",
+   "options": {
+    "B": "高效能",
+    "A": "固定的時間限制",
+    "C": "多使用者",
+    "D": "圖形化介面"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.380Z"
+  },
   "2855": {
    "id": "2855",
    "subject": "作業系統",
@@ -5083,6 +5147,53 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.076Z"
+  },
+  "2858": {
+   "id": "2858",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者為作業系統的常見目標？",
+   "hint": "",
+   "options": {
+    "C": "最小化記憶體",
+    "A": "便利性與效率",
+    "D": "僅僅保護硬體",
+    "B": "僅僅執行程式"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.388Z"
+  },
+  "2859": {
+   "id": "2859",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "計算機系統的四大組成部分包含？",
+   "hint": "",
+   "options": {
+    "B": "Operating system",
+    "C": "Application programs",
+    "A": "Hardware",
+    "D": "Users"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.390Z"
   },
   "2860": {
    "id": "2860",
@@ -5175,13 +5286,11 @@
    },
    "answer": [
     "A",
-    "B",
-    "C",
     "D"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:23:00.992Z"
+   "updatedAt": "2026-10-21T05:24:39.760Z"
   },
   "2873": {
    "id": "2873",
@@ -5233,6 +5342,31 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
   },
+  "2876": {
+   "id": "2876",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "保護與安全性涉及？",
+   "hint": "",
+   "options": {
+    "A": "Denial-of-service",
+    "D": "Privilege escalation",
+    "C": "User IDs/Group IDs",
+    "B": "Identity theft"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.378Z"
+  },
   "2877": {
    "id": "2877",
    "subject": "作業系統",
@@ -5256,6 +5390,26 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.071Z"
+  },
+  "2879": {
+   "id": "2879",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What data structures are common in the kernel?",
+   "hint": "",
+   "options": {
+    "C": "Circular linked list",
+    "D": "Binary search tree",
+    "B": "Doubly linked list",
+    "A": "Singly linked list"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
   },
   "2881": {
    "id": "2881",
@@ -5305,6 +5459,50 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.073Z"
+  },
+  "2883": {
+   "id": "2883",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "硬體資源包含？",
+   "hint": "",
+   "options": {
+    "D": "System calls",
+    "C": "I/O devices",
+    "A": "CPU",
+    "B": "Memory"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
+  },
+  "2885": {
+   "id": "2885",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "儲存體單位包含？",
+   "hint": "",
+   "options": {
+    "C": "Word",
+    "B": "Byte",
+    "A": "Bit",
+    "D": "System call"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.392Z"
   },
   "2886": {
    "id": "2886",
@@ -5398,6 +5596,68 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.061Z"
   },
+  "2893": {
+   "id": "2893",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "為了防止程式進入無窮迴圈，系統會使用＿＿＿來定期中斷。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
+  },
+  "2894": {
+   "id": "2894",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "虛擬化技術中提供虛擬化服務的軟體稱為＿＿＿。",
+   "hint": "請用小寫英文縮寫回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
+  },
+  "2895": {
+   "id": "2895",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "雲端運算的類型包含公共雲、私有雲以及＿＿＿雲。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "hybrid"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.381Z"
+  },
+  "2896": {
+   "id": "2896",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "二元搜尋樹的平衡版本可以達到＿＿＿的搜尋效率 (請用英文回答 如 O(n)、O(nlgn)、O(lgn)、O(n^2) )。",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
+  },
   "2900": {
    "id": "2900",
    "subject": "作業系統",
@@ -5432,6 +5692,38 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.062Z"
   },
+  "2903": {
+   "id": "2903",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "存取硬體裝置時，核心使用＿＿＿來提供統一的介面。",
+   "hint": "請用小寫英文回答 字母間留一空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
+  },
+  "2904": {
+   "id": "2904",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是一種用來表示 n 個項目狀態的二元字串。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "bitmap"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.382Z"
+  },
   "2906": {
    "id": "2906",
    "subject": "作業系統",
@@ -5448,6 +5740,21 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:23:00.992Z"
+  },
+  "2907": {
+   "id": "2907",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "透過＿＿＿的方式，作業系統可由慢速儲存裝置中提取資料到較快速的快取記憶體中。",
+   "hint": "請用英文小寫",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:24:51.373Z",
+   "updatedAt": "2026-10-21T05:24:51.373Z"
   },
   "2908": {
    "id": "2908",
@@ -5527,7 +5834,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:24:51.388Z",
+   "deleted": true,
+   "mergedInto": "2858"
   },
   "tbqvv3t": {
    "id": "tbqvv3t",
@@ -5850,7 +6159,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
-   "updatedAt": "2026-10-19T15:47:13.526Z"
+   "updatedAt": "2026-10-21T05:24:51.378Z",
+   "deleted": true,
+   "mergedInto": "2876"
   },
   "tx83k4s": {
    "id": "tx83k4s",
@@ -5957,7 +6268,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
-   "updatedAt": "2026-10-19T15:47:13.526Z"
+   "updatedAt": "2026-10-21T05:24:51.390Z",
+   "deleted": true,
+   "mergedInto": "2859"
   },
   "t1yyal4w": {
    "id": "t1yyal4w",
@@ -6041,7 +6354,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:24:51.385Z",
+   "deleted": true,
+   "mergedInto": "2840"
   },
   "tj3dq0g": {
    "id": "tj3dq0g",
@@ -6083,7 +6398,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:24:51.380Z",
+   "deleted": true,
+   "mergedInto": "2854"
   },
   "tvo2wbh": {
    "id": "tvo2wbh",
@@ -6173,7 +6490,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:24:51.392Z",
+   "deleted": true,
+   "mergedInto": "2885"
   },
   "t1a92pg0": {
    "id": "t1a92pg0",
@@ -26565,6 +26884,157 @@
    "updatedAt": "2026-10-21T01:33:22.735Z",
    "deleted": true,
    "mergedInto": "2331"
+  },
+  "t10p4xt0": {
+   "id": "t10p4xt0",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "雲端運算的類型包含公共雲、私有雲以及 ＿＿＿ 雲。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "hybrid"
+   ],
+   "lines": [
+    "hybrid"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:51.381Z",
+   "deleted": true,
+   "mergedInto": "2895"
+  },
+  "t1188d6p": {
+   "id": "t1188d6p",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the definition of a process?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A program in execution"
+   ],
+   "lines": [
+    "A program in execution"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:39.760Z"
+  },
+  "t1pi54a2": {
+   "id": "t1pi54a2",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是一種用來表示 n 個項目狀態的二元字串。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "bitmap"
+   ],
+   "lines": [
+    "bitmap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:51.382Z",
+   "deleted": true,
+   "mergedInto": "2904"
+  },
+  "t12wny51": {
+   "id": "t12wny51",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "作業系統定義程式執行時的結構稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "process"
+   ],
+   "lines": [
+    "process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:39.760Z"
+  },
+  "thhwy3s": {
+   "id": "thhwy3s",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是一種透過將輸出與輸入重疊來提升 I/O 效率的技術。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "spooling"
+   ],
+   "lines": [
+    "spooling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:39.760Z"
+  },
+  "txo9fi": {
+   "id": "txo9fi",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In clustered systems, shared storage is usually accessed via ＿＿＿ (please answer in lowercase english).",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "san"
+   ],
+   "lines": [
+    "san"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:39.760Z"
+  },
+  "tq59ay4": {
+   "id": "tq59ay4",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "CPU 執行程式時區分使用者模式與 ＿＿＿ 模式。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "kernel"
+   ],
+   "lines": [
+    "kernel"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:24:39.760Z",
+   "updatedAt": "2026-10-21T05:24:39.760Z"
   }
  }
 }
