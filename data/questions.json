@@ -2722,6 +2722,30 @@
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:20:09.766Z"
   },
+  "2310": {
+   "id": "2310",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆積的類型有哪些？",
+   "hint": "",
+   "options": {
+    "C": "Binary-Heap",
+    "A": "Max-Heap",
+    "B": "Min-Heap",
+    "D": "Linked-Heap"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:28:50.224Z",
+   "updatedAt": "2026-10-21T01:28:50.227Z"
+  },
   "2311": {
    "id": "2311",
    "subject": "演算法",
@@ -2935,6 +2959,30 @@
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:20:09.768Z"
   },
+  "2323": {
+   "id": "2323",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Increase-Key 動作需要？",
+   "hint": "",
+   "options": {
+    "C": "向上比較直到根",
+    "B": "維護堆積屬性",
+    "D": "僅修改根節點",
+    "A": "更新節點值"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:28:50.224Z",
+   "updatedAt": "2026-10-21T01:28:50.229Z"
+  },
   "2324": {
    "id": "2324",
    "subject": "演算法",
@@ -3144,10 +3192,12 @@
    "text": "＿＿＿是堆積排序中用來維護堆積性質的函數",
    "hint": "請用小寫英文回答，單字間留 -",
    "options": {},
-   "answer": [],
+   "answer": [
+    "max-heapify"
+   ],
    "note": "",
    "createdAt": "2026-10-21T01:26:49.466Z",
-   "updatedAt": "2026-10-21T01:26:49.466Z"
+   "updatedAt": "2026-10-21T01:28:37.348Z"
   },
   "2339": {
    "id": "2339",
@@ -3233,6 +3283,23 @@
    "note": "",
    "createdAt": "2026-10-21T01:20:09.762Z",
    "updatedAt": "2026-10-21T01:21:48.331Z"
+  },
+  "2344": {
+   "id": "2344",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\nBuild-Max-Heap(A)\n1   heap-size[A] = length[A]\n2   for i = flooe(length[A]/2) downto 1\n3  \t    do Max-Heapify(A, i)\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[4]\n        /      \\\n    (2)[1]    i(3)[3]\n    /    \\     /    \\\n(4)[14] (5)[16] (6)[9] (7)[10]\n /   \\     /\n(8)[2] (9)[8] (10)[7]\n\n＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4,1,10,14,16,9,3,2,8,7"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:28:50.224Z",
+   "updatedAt": "2026-10-21T01:28:50.228Z"
   },
   "2345": {
    "id": "2345",
@@ -20772,7 +20839,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:28:50.229Z",
+   "deleted": true,
+   "mergedInto": "2323"
   },
   "t65vpj9": {
    "id": "t65vpj9",
@@ -20814,7 +20883,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:28:50.227Z",
+   "deleted": true,
+   "mergedInto": "2310"
   },
   "tfezxq6": {
    "id": "tfezxq6",
@@ -25489,7 +25560,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T01:19:43.355Z",
-   "updatedAt": "2026-10-21T01:19:43.355Z"
+   "updatedAt": "2026-10-21T01:28:50.228Z",
+   "deleted": true,
+   "mergedInto": "2344"
   },
   "tu1cxa6": {
    "id": "tu1cxa6",
