@@ -5018,6 +5018,28 @@
    "createdAt": "2026-10-21T05:24:51.373Z",
    "updatedAt": "2026-10-21T05:24:51.385Z"
   },
+  "2842": {
+   "id": "2842",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當 I/O 操作完成時，硬體裝置會透過什麼機制通知 CPU？",
+   "hint": "",
+   "options": {
+    "D": "Polling",
+    "B": "System call",
+    "C": "Trap",
+    "A": "Interrupt"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.287Z"
+  },
   "2843": {
    "id": "2843",
    "subject": "作業系統",
@@ -5061,6 +5083,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.066Z"
+  },
+  "2845": {
+   "id": "2845",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "作業系統為了區分使用者程式與核心程式，提供了什麼來保障系統安全？",
+   "hint": "",
+   "options": {
+    "A": "Clustering",
+    "C": "Dual-mode operationClustering",
+    "B": "Multiprocessing",
+    "D": "Virtualization"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.283Z"
   },
   "2846": {
    "id": "2846",
@@ -5149,6 +5193,28 @@
    "note": "",
    "createdAt": "2026-10-21T05:26:33.758Z",
    "updatedAt": "2026-10-21T05:26:33.764Z"
+  },
+  "2851": {
+   "id": "2851",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "P2P 運算環境中，節點之間的關係是？",
+   "hint": "",
+   "options": {
+    "B": "主從關係 (Client-Server)",
+    "C": "階層關係",
+    "A": "對等關係 (Peers)",
+    "D": "無關係"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.288Z"
   },
   "2852": {
    "id": "2852",
@@ -5327,13 +5393,11 @@
    },
    "answer": [
     "A",
-    "B",
-    "C",
-    "D"
+    "B"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:23:00.992Z"
+   "updatedAt": "2026-10-21T05:27:47.583Z"
   },
   "2864": {
    "id": "2864",
@@ -5359,6 +5423,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:26:33.758Z",
    "updatedAt": "2026-10-21T05:26:33.765Z"
+  },
+  "2865": {
+   "id": "2865",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "中斷 (Interrupt) 的常見類型包含？",
+   "hint": "",
+   "options": {
+    "C": "Error-generated",
+    "D": "Networkr-request generated",
+    "A": "Timer interrupt",
+    "B": "Software interrupt (Trap/Exception)"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.285Z"
   },
   "2866": {
    "id": "2866",
@@ -5406,6 +5493,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:26:33.758Z",
    "updatedAt": "2026-10-21T05:26:33.761Z"
+  },
+  "2869": {
+   "id": "2869",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "叢集系統 (Clustered Systems) 包含哪些類型？",
+   "hint": "",
+   "options": {
+    "A": "Asymmetric clustering",
+    "B": "Symmetric clustering",
+    "C": "Distributed locking",
+    "D": "Stand-alone"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.284Z"
   },
   "2872": {
    "id": "2872",
@@ -5644,11 +5754,12 @@
    },
    "answer": [
     "A",
+    "B",
     "C"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:24:51.373Z",
-   "updatedAt": "2026-10-21T05:26:13.423Z"
+   "updatedAt": "2026-10-21T05:27:47.583Z"
   },
   "2885": {
    "id": "2885",
@@ -5742,10 +5853,12 @@
    "text": "多處理器(multiprocessing)架構中區分任務分配的兩類型為＿＿＿。",
    "hint": "請用小寫英文回答字母間 用 and 寫法如 b and a",
    "options": {},
-   "answer": [],
+   "answer": [
+    "asymmetric and symmetric|symmetric and asymmetric"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:26:33.758Z",
-   "updatedAt": "2026-10-21T05:26:33.758Z"
+   "updatedAt": "2026-10-21T05:27:47.583Z"
   },
   "2891": {
    "id": "2891",
@@ -5900,6 +6013,23 @@
    "createdAt": "2026-10-21T05:21:06.055Z",
    "updatedAt": "2026-10-21T05:21:06.063Z"
   },
+  "2901": {
+   "id": "2901",
+   "subject": "作業系統",
+   "chapter": "2",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "作業系統定義程式執行時的結構稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "process"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:27:59.279Z",
+   "updatedAt": "2026-10-21T05:27:59.286Z"
+  },
   "2902": {
    "id": "2902",
    "subject": "作業系統",
@@ -5961,10 +6091,12 @@
    "text": "＿＿＿技術是指將資訊從較慢儲存體複製到較快儲存體的過程。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "caching"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:26:33.758Z",
-   "updatedAt": "2026-10-21T05:26:33.758Z"
+   "updatedAt": "2026-10-21T05:27:47.583Z"
   },
   "2906": {
    "id": "2906",
@@ -6298,7 +6430,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-21T05:27:59.284Z",
+   "deleted": true,
+   "mergedInto": "2869"
   },
   "t60stmy": {
    "id": "t60stmy",
@@ -6539,7 +6673,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:47:13.526Z",
-   "updatedAt": "2026-10-19T15:47:13.526Z"
+   "updatedAt": "2026-10-21T05:27:59.287Z",
+   "deleted": true,
+   "mergedInto": "2842"
   },
   "thld15t": {
    "id": "thld15t",
@@ -6807,7 +6943,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:48:22.322Z",
-   "updatedAt": "2026-10-19T15:48:22.322Z"
+   "updatedAt": "2026-10-21T05:27:59.285Z",
+   "deleted": true,
+   "mergedInto": "2865"
   },
   "t1bmnydn": {
    "id": "t1bmnydn",
@@ -7478,7 +7616,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:22:03.924Z",
-   "updatedAt": "2026-10-20T00:22:03.924Z"
+   "updatedAt": "2026-10-21T05:27:59.283Z",
+   "deleted": true,
+   "mergedInto": "2845"
   },
   "t26muxn": {
    "id": "t26muxn",
@@ -7499,7 +7639,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:22:03.924Z",
-   "updatedAt": "2026-10-20T00:22:03.924Z"
+   "updatedAt": "2026-10-21T05:27:59.288Z",
+   "deleted": true,
+   "mergedInto": "2851"
   },
   "t1sjqmzm": {
    "id": "t1sjqmzm",
@@ -27231,7 +27373,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T05:24:39.760Z",
-   "updatedAt": "2026-10-21T05:24:39.760Z"
+   "updatedAt": "2026-10-21T05:27:59.286Z",
+   "deleted": true,
+   "mergedInto": "2901"
   },
   "thhwy3s": {
    "id": "thhwy3s",
