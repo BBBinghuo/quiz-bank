@@ -1,6 +1,28 @@
 {
  "version": 1,
  "questions": {
+  "39": {
+   "id": "39",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在作業系統中，fork() 系統呼叫的功能是？",
+   "hint": "",
+   "options": {
+    "B": "建立新行程",
+    "C": "分割記憶體",
+    "A": "終止行程",
+    "D": "監控裝置"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.088Z"
+  },
   "43": {
    "id": "43",
    "subject": "作業系統",
@@ -16,10 +38,12 @@
     "C": "Provides an interface for programs to call the OS",
     "D": "Split virtual memory"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   },
   "46": {
    "id": "46",
@@ -37,11 +61,33 @@
     "C": "Applications"
    },
    "answer": [
-    "D"
+    "C"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:58.013Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "48": {
+   "id": "48",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪一種系統呼叫與裝置管理有關？",
+   "hint": "",
+   "options": {
+    "D": "fork()",
+    "A": "create()",
+    "C": "request_device()",
+    "B": "chmod()"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.090Z"
   },
   "372": {
    "id": "372",
@@ -197,6 +243,28 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.329Z"
   },
+  "391": {
+   "id": "391",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "OS的「保護」服務確保?",
+   "hint": "",
+   "options": {
+    "B": "確保程式執行沒有錯誤",
+    "D": "確保使用者介面友好",
+    "A": "確保所有對系統資源的存取都受到控制",
+    "C": "確保系統的物理安全"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.091Z"
+  },
   "392": {
    "id": "392",
    "subject": "作業系統",
@@ -244,6 +312,54 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.015Z"
   },
+  "397": {
+   "id": "397",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "相較於直接使用系統呼叫，使用 API 有哪些好處？",
+   "hint": "",
+   "options": {
+    "B": "讓程式碼更有效率",
+    "A": "程式設計師不需了解系統呼叫的實現方式",
+    "D": "增加了系統的安全性",
+    "C": "隱藏了大部分作業系統介面的細節"
+   },
+   "answer": [
+    "A",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.098Z"
+  },
+  "398": {
+   "id": "398",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是作業系統提供的功能？",
+   "hint": "",
+   "options": {
+    "A": "檔案操作",
+    "D": "程式載入與執行",
+    "B": "狀態資訊",
+    "C": "程式語言支援"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.097Z"
+  },
   "400": {
    "id": "400",
    "subject": "作業系統",
@@ -267,6 +383,29 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.342Z"
+  },
+  "404": {
+   "id": "404",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在UNIX作業系統中，兩個可分離的部分是？",
+   "hint": "",
+   "options": {
+    "B": "核心模組",
+    "C": "系統程式",
+    "D": "使用者程式",
+    "A": "核心"
+   },
+   "answer": [
+    "A",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.101Z"
   },
   "405": {
    "id": "405",
@@ -376,6 +515,36 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
   },
+  "419": {
+   "id": "419",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 UNIX 中，＿＿＿包含在系統呼叫介面之下以及實體硬體之上的一切。 (用英文小寫回答 字母間請流一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
+  },
+  "421": {
+   "id": "421",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "大多數現代作業系統採用＿＿＿方法來實現可動態載入的功能。(用英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
+  },
   "422": {
    "id": "422",
    "subject": "作業系統",
@@ -420,10 +589,12 @@
    "text": "＿＿＿是一種小型程式碼，儲存在 ROM 或 EEPROM 中，用於定位核心並將其載入記憶體。",
    "hint": "請用英文小寫回答，單字間留一空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "bootstrap loader"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   },
   "426": {
    "id": "426",
@@ -435,10 +606,27 @@
    "text": "作業系統中的「保護」服務與對＿＿＿存取的控制有關。(用英文小寫回答 字母間請留一個空白)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "system resources"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "427": {
+   "id": "427",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "作業系統需要不斷地偵測可能的＿＿＿。(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
   },
   "429": {
    "id": "429",
@@ -450,10 +638,12 @@
    "text": "作業系統的設計和實作是一個定義＿＿＿的過程。(英文小寫回答 中間 用and 如 a and b)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "goals and rules|rules and goals"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   },
   "431": {
    "id": "431",
@@ -465,10 +655,12 @@
    "text": "早期的作業系統大多以＿＿＿語言編寫。(英文小寫回答)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "assembly"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   },
   "432": {
    "id": "432",
@@ -5592,6 +5784,50 @@
    "createdAt": "2026-10-21T05:43:57.995Z",
    "updatedAt": "2026-10-21T05:43:58.000Z"
   },
+  "2777": {
+   "id": "2777",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "When an application fails, the generated file capturing the memory of the process is called:",
+   "hint": "",
+   "options": {
+    "D": "Log file",
+    "B": "Crash dump",
+    "C": "Trace listing",
+    "A": "Core dump"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.089Z"
+  },
+  "2778": {
+   "id": "2778",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當作業系統本身發生錯誤（核心損毀）時，所產生的記憶體映像檔稱為？",
+   "hint": "",
+   "options": {
+    "A": "核心傾印",
+    "C": "系統記錄",
+    "B": "損毀傾印",
+    "D": "設定登錄"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.099Z"
+  },
   "2779": {
    "id": "2779",
    "subject": "作業系統",
@@ -5657,6 +5893,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.344Z"
+  },
+  "2790": {
+   "id": "2790",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "命令列介面（CLI）或命令直譯器，在作業系統中有哪些常見的實現型態？",
+   "hint": "",
+   "options": {
+    "B": "有時直接實現在核心中",
+    "A": "有時單獨實現為系統程式",
+    "D": "只能透過虛擬鍵盤操作",
+    "C": "提供多種版本，通常稱為 Shell"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.095Z"
   },
   "2792": {
    "id": "2792",
@@ -5754,6 +6014,26 @@
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.336Z"
   },
+  "2796": {
+   "id": "2796",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些系統呼叫不屬於 Windows 系統中的「通訊（Communications）」或「共用記憶體」範疇？",
+   "hint": "",
+   "options": {
+    "C": "MapViewOfFile()",
+    "B": "CreateFileMapping()",
+    "A": "CreatePipe()",
+    "D": "Sleep()"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
+  },
   "2798": {
    "id": "2798",
    "subject": "作業系統",
@@ -5801,6 +6081,30 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:42:46.337Z"
+  },
+  "2803": {
+   "id": "2803",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些作業系統通常被歸類為「混合系統（Hybrid Systems）」？",
+   "hint": "",
+   "options": {
+    "A": "Linux (單體加動態模組)",
+    "D": "早期極簡的 MS-DOS",
+    "B": "Windows (單體加微核心特性)",
+    "C": "Apple macOS (Mach 核心加 BSD 部分)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.096Z"
   },
   "2810": {
    "id": "2810",
@@ -5927,10 +6231,27 @@
    "text": "In Unix/Linux, the system call used to create a new process is＿＿＿.(please answer in lowercase english)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "fork()"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "2822": {
+   "id": "2822",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The program that obtains information concerning hardware configuration to build a specific kernel is called＿＿＿.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
   },
   "2824": {
    "id": "2824",
@@ -5942,10 +6263,12 @@
    "text": "在系統發生嚴重損毀（Crash）時，作業系統抓取核心記憶體並產生的檔案稱為＿＿＿。",
    "hint": "請用小寫英文回答字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "crash dump"
+   ],
    "note": "",
    "createdAt": "2026-10-21T05:43:57.995Z",
-   "updatedAt": "2026-10-21T05:43:57.995Z"
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   },
   "2825": {
    "id": "2825",
@@ -5963,6 +6286,36 @@
    "note": "",
    "createdAt": "2026-10-21T05:42:46.317Z",
    "updatedAt": "2026-10-21T05:43:47.589Z"
+  },
+  "2828": {
+   "id": "2828",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The layer in iOS that provides the API for developing applications is called＿＿＿.(please answer in lowercase english)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
+  },
+  "2832": {
+   "id": "2832",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在標準 C 函式庫範例中，要使用 read() 系統呼叫前，程式必須包含引入的標頭檔為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-21T05:45:24.084Z",
+   "updatedAt": "2026-10-21T05:45:24.084Z"
   },
   "2834": {
    "id": "2834",
@@ -10139,7 +10492,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:00:51.756Z",
-   "updatedAt": "2026-10-20T01:00:51.756Z"
+   "updatedAt": "2026-10-21T05:45:24.101Z",
+   "deleted": true,
+   "mergedInto": "404"
   },
   "tiqto5g": {
    "id": "tiqto5g",
@@ -13728,7 +14083,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:02.116Z",
-   "updatedAt": "2026-10-20T01:01:02.116Z"
+   "updatedAt": "2026-10-21T05:45:24.091Z",
+   "deleted": true,
+   "mergedInto": "391"
   },
   "t1a7xiz7": {
    "id": "t1a7xiz7",
@@ -14070,7 +14427,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:01:11.340Z",
-   "updatedAt": "2026-10-20T01:01:11.340Z"
+   "updatedAt": "2026-10-21T05:45:24.098Z",
+   "deleted": true,
+   "mergedInto": "397"
   },
   "t1mm0w26": {
    "id": "t1mm0w26",
@@ -14792,7 +15151,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:36.844Z",
-   "updatedAt": "2026-10-20T01:03:36.844Z"
+   "updatedAt": "2026-10-21T05:45:24.096Z",
+   "deleted": true,
+   "mergedInto": "2803"
   },
   "tya22xh": {
    "id": "tya22xh",
@@ -15176,7 +15537,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:03:56.684Z",
-   "updatedAt": "2026-10-20T01:03:56.684Z"
+   "updatedAt": "2026-10-21T05:45:24.090Z",
+   "deleted": true,
+   "mergedInto": "48"
   },
   "t1h6qlss": {
    "id": "t1h6qlss",
@@ -15493,7 +15856,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:33.580Z",
-   "updatedAt": "2026-10-20T01:05:33.580Z"
+   "updatedAt": "2026-10-21T05:45:24.088Z",
+   "deleted": true,
+   "mergedInto": "39"
   },
   "t1vpge0j": {
    "id": "t1vpge0j",
@@ -15963,7 +16328,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:51.012Z",
-   "updatedAt": "2026-10-20T01:05:51.012Z"
+   "updatedAt": "2026-10-21T05:45:24.097Z",
+   "deleted": true,
+   "mergedInto": "398"
   },
   "tkh4hlv": {
    "id": "tkh4hlv",
@@ -16026,7 +16393,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:05:51.012Z",
-   "updatedAt": "2026-10-20T01:05:51.012Z"
+   "updatedAt": "2026-10-21T05:45:24.095Z",
+   "deleted": true,
+   "mergedInto": "2790"
   },
   "t30b8td": {
    "id": "t30b8td",
@@ -16792,7 +17161,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:07:48.284Z",
-   "updatedAt": "2026-10-20T01:07:48.284Z"
+   "updatedAt": "2026-10-21T05:45:24.099Z",
+   "deleted": true,
+   "mergedInto": "2778"
   },
   "t8vg6uf": {
    "id": "t8vg6uf",
@@ -17132,7 +17503,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:09:56.188Z",
-   "updatedAt": "2026-10-20T01:09:56.188Z"
+   "updatedAt": "2026-10-21T05:45:24.089Z",
+   "deleted": true,
+   "mergedInto": "2777"
   },
   "t1vg1h3a": {
    "id": "t1vg1h3a",
@@ -28882,6 +29255,48 @@
    "source": "text",
    "createdAt": "2026-10-21T05:41:30.149Z",
    "updatedAt": "2026-10-21T05:41:30.149Z"
+  },
+  "t14c22tv": {
+   "id": "t14c22tv",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The program execution service in the operating system services allows the system to load programs into ＿＿＿ .(英文小寫回答)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "memory"
+   ],
+   "lines": [
+    "memory"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:45:10.214Z",
+   "updatedAt": "2026-10-21T05:45:10.214Z"
+  },
+  "t1j34mo2": {
+   "id": "t1j34mo2",
+   "subject": "作業系統",
+   "chapter": "3",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Apple's mobile operating system, iOS, is based on the architecture of ＿＿＿ .(用英文小寫回答 字母間請留一個空白)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mac os x"
+   ],
+   "lines": [
+    "mac os x"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T05:45:10.214Z",
+   "updatedAt": "2026-10-21T05:45:10.214Z"
   }
  }
 }
