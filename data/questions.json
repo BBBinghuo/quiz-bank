@@ -24848,6 +24848,132 @@
    "source": "text",
    "createdAt": "2026-10-20T14:24:48.245Z",
    "updatedAt": "2026-10-20T14:24:48.245Z"
+  },
+  "t5hsnnm": {
+   "id": "t5hsnnm",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "優先佇列中，插入操作的複雜度通常為 ＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(logn)"
+   ],
+   "lines": [
+    "O(logn)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
+  },
+  "tdo9nxq": {
+   "id": "tdo9nxq",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\nBuild-Max-Heap(A)\n1   heap-size[A] = length[A]\n2   for i = flooe(length[A]/2) downto 1\n3  \t    do Max-Heapify(A, i)\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[4]\n        /      \\\n    (2)[1]    (3)[3]\n    /    \\     /    \\\n(4)[2]  i(5)[16] (6)[9] (7)[10]\n /   \\     /\n(8)[14] (9)[8] (10)[7] ＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4,1,3,2,16,9,10,14,8,7"
+   ],
+   "lines": [
+    "4,1,3,2,16,9,10,14,8,7"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
+  },
+  "t1tw3bm6": {
+   "id": "t1tw3bm6",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "這是Build-Max-Heap(A) 建立過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\nBuild-Max-Heap(A)\n1   heap-size[A] = length[A]\n2   for i = flooe(length[A]/2) downto 1\n3  \t    do Max-Heapify(A, i)\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[4]\n        /      \\\n    (2)[1]    i(3)[3]\n    /    \\     /    \\\n(4)[14] (5)[16] (6)[9] (7)[10]\n /   \\     /\n(8)[2] (9)[8] (10)[7] ＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "4,1,10,14,16,9,3,2,8,7"
+   ],
+   "lines": [
+    "4,1,10,14,16,9,3,2,8,7"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
+  },
+  "tu1cxa6": {
+   "id": "tu1cxa6",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "這是Heapsort(A) 過程的結果 目前程式跑到 i 點 下一步 也就是 i-1 陣列A內應該是甚麼結果\n\n索引 i: (1)\n陣列位置內容 A: [4]\n\n         (1)[8]\n        /      \\\n    (2)[7]    (3)[3]\n    /    \\     /    \\\n(4)[4] (5)[2] (6)[1] i(7)[9]\n /   \\     /\n(8)[10] (9)[14] (10)[16] ＿＿＿ 格式: 1,2,3,4,5,6,7,8,9",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [
+    "7,4,3,1,2,8,9,10,14,16"
+   ],
+   "lines": [
+    "7,4,3,1,2,8,9,10,14,16"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
+  },
+  "tk534vz": {
+   "id": "tk534vz",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在 Max-Heap 中，父節點的值必須 ＿＿＿ 子節點",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "greater"
+   ],
+   "lines": [
+    "greater"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
+  },
+  "tzkgkaf": {
+   "id": "tzkgkaf",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "堆積排序演算法中，執行 heap-size[A] <- heap-size[A] - 1 是為了 ＿＿＿ 堆積大小",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "decrease"
+   ],
+   "lines": [
+    "decrease"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:19:43.355Z",
+   "updatedAt": "2026-10-21T01:19:43.355Z"
   }
  }
 }
