@@ -2977,6 +2977,29 @@
    "createdAt": "2026-10-21T01:22:04.819Z",
    "updatedAt": "2026-10-21T01:22:04.825Z"
   },
+  "2318": {
+   "id": "2318",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Max-Heapify 需要哪些參數？",
+   "hint": "",
+   "options": {
+    "D": "比較運算子",
+    "B": "節點索引 i",
+    "C": "堆積大小 n",
+    "A": "陣列 A"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-21T01:35:51.784Z",
+   "updatedAt": "2026-10-21T01:35:51.788Z"
+  },
   "2319": {
    "id": "2319",
    "subject": "演算法",
@@ -20740,7 +20763,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:25:19.580Z",
-   "updatedAt": "2026-10-20T01:25:19.580Z"
+   "updatedAt": "2026-10-21T01:35:51.788Z",
+   "deleted": true,
+   "mergedInto": "2318"
   },
   "t1t5vi": {
    "id": "t1t5vi",
