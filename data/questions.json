@@ -25516,6 +25516,27 @@
    "source": "text",
    "createdAt": "2026-10-21T01:23:40.939Z",
    "updatedAt": "2026-10-21T01:23:40.939Z"
+  },
+  "t1c5uyu9": {
+   "id": "t1c5uyu9",
+   "subject": "演算法",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Build-Max-Heap 的過程是為了建立 ＿＿＿ 屬性",
+   "hint": "請用小寫英文回答，單字間留 -",
+   "options": {},
+   "answer": [
+    "max-heap"
+   ],
+   "lines": [
+    "max-heap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-21T01:25:33.827Z",
+   "updatedAt": "2026-10-21T01:25:33.827Z"
   }
  }
 }
