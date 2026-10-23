@@ -1292,6 +1292,172 @@ function renderPractice() {
   if (!cur.submitted && q.type === 'fill') $('.pr-fill').focus();
 }
 
+
+/* ========== 章節重點 ========== */
+let notesIndex = null;
+const notesCache = new Map();
+view.noteRel = [];
+
+async function loadNotesIndex() {
+  if (notesIndex) return notesIndex;
+  const r = await fetch('notes/index.json?_=' + Date.now(), { cache: 'no-store' });
+  if (!r.ok) throw new Error('讀不到 notes/index.json');
+  notesIndex = (await r.json()).chapters || [];
+  return notesIndex;
+}
+async function loadNote(file) {
+  if (!notesCache.has(file)) {
+    const r = await fetch(file + '?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error('讀不到 ' + file);
+    notesCache.set(file, await r.text());
+  }
+  return notesCache.get(file);
+}
+
+/* 精簡版 Markdown：標題、段落、清單（可縮排）、表格、程式碼區塊、引言、粗體、行內程式碼 */
+function mdInline(s) {
+  // \* 是字面上的星號（例如 lg\* n），先換成佔位字元，避免被當成粗體
+  return esc(s).replace(/\\\*/g, '\u0001').replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/\u0001/g, '*');
+}
+function mdToHtml(md) {
+  const lines = md.replace(/\r/g, '').split('\n');
+  let html = '', i = 0, sec = 0;
+  const toc = [];
+  while (i < lines.length) {
+    const line = lines[i];
+    if (/^```/.test(line)) {
+      const buf = [];
+      for (i++; i < lines.length && !/^```/.test(lines[i]); i++) buf.push(lines[i]);
+      i++;
+      html += `<pre class="code">${esc(buf.join('\n'))}</pre>`;
+    } else if (/^# /.test(line)) {
+      i++;
+    } else if (/^## /.test(line)) {
+      const t = line.slice(3).trim();
+      toc.push(t);
+      html += `<h3 class="note-h" id="note-sec-${sec++}">${mdInline(t)}</h3>`;
+      i++;
+    } else if (/^### /.test(line)) {
+      html += `<h4>${mdInline(line.slice(4))}</h4>`; i++;
+    } else if (/^\|/.test(line)) {
+      const rows = [];
+      for (; i < lines.length && /^\|/.test(lines[i]); i++) rows.push(lines[i]);
+      const cells = r => r.replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+      const body = rows.filter(r => !/^\|[\s:|-]+\|$/.test(r));
+      html += '<div class="table-wrap"><table>' + body.map((r, n) => '<tr>' + cells(r).map(c => n === 0 ? `<th>${mdInline(c)}</th>` : `<td>${mdInline(c)}</td>`).join('') + '</tr>').join('') + '</table></div>';
+    } else if (/^>\s*相關題目[:：]/.test(line)) {
+      html += `<div class="rel" data-kw="${esc(line.replace(/^>\s*相關題目[:：]\s*/, ''))}"></div>`; i++;
+    } else if (/^> /.test(line)) {
+      const buf = [];
+      for (; i < lines.length && /^> /.test(lines[i]) && !/^>\s*相關題目[:：]/.test(lines[i]); i++) buf.push(lines[i].slice(2));
+      const text = buf.join(' ');
+      const kind = text.startsWith('⚠️') ? 'warn' : 'tip';
+      html += `<div class="callout ${kind}">${mdInline(text)}</div>`;
+    } else if (/^\s*([-*]|\d+\.)\s/.test(line)) {
+      // 依縮排處理巢狀清單
+      const stack = [];
+      for (; i < lines.length && /^\s*([-*]|\d+\.)\s/.test(lines[i]); i++) {
+        const m = lines[i].match(/^(\s*)([-*]|\d+\.)\s+(.*)$/);
+        const depth = Math.floor(m[1].length / 2);
+        const tag = /\d/.test(m[2]) ? 'ol' : 'ul';
+        while (stack.length > depth + 1) html += `</li></${stack.pop()}>`;
+        if (stack.length === depth + 1) html += '</li>';
+        else while (stack.length < depth + 1) { html += `<${tag}>`; stack.push(tag); }
+        html += `<li>${mdInline(m[3])}`;
+      }
+      while (stack.length) html += `</li></${stack.pop()}>`;
+    } else if (!line.trim()) {
+      i++;
+    } else {
+      const buf = [];
+      for (; i < lines.length && lines[i].trim() && !/^(#|\||>|```|\s*([-*]|\d+\.)\s)/.test(lines[i]); i++) buf.push(lines[i]);
+      html += `<p>${mdInline(buf.join(' '))}</p>`;
+    }
+  }
+  return { html, toc };
+}
+
+/* 這一章的題目（題庫中同科目、同章節） */
+const chapterQuestions = (subject, chapter) => active().filter(q => subjectOf(q) === subject && q.chapter === chapter);
+const noteHay = q => [q.text, ...Object.values(q.options || {}), ...(q.answer || []).filter(a => !/^[A-H]$/.test(a))].join('\n').toLowerCase();
+function relatedQuestions(pool, kwText) {
+  const kws = kwText.split(/\s*,\s*/).map(s => s.toLowerCase()).filter(Boolean);
+  return pool.filter(q => { const h = noteHay(q); return kws.some(k => h.includes(k)); });
+}
+
+/* 這台電腦上答錯過的題目，錯越多排越前面 */
+function wrongQuestions(pool) {
+  return pool.filter(q => stats[q.id] && stats[q.id].w > 0 && (stats[q.id].last === 'w' || stats[q.id].w >= stats[q.id].r))
+    .sort((a, b) => (stats[b.id].w - stats[b.id].r) - (stats[a.id].w - stats[a.id].r));
+}
+
+function startPracticeWith(ids) {
+  if (!ids.length) { toast('沒有可以刷的題目'); return; }
+  view.pr = { ids: shuffle(ids), i: 0, shuffleOpt: false, results: [], cur: null };
+  newCurrent();
+  switchTab('practice');
+}
+
+async function renderNotes() {
+  const list = $('#notes-list'), box = $('#notes-content');
+  let idx;
+  try { idx = await loadNotesIndex(); } catch (e) { box.innerHTML = `<div class="panel muted">${esc(e.message)}</div>`; return; }
+  const saved = lsGet('qb_note_v1', null);
+  if (!view.note) view.note = saved && idx.some(c => c.subject === saved.subject && c.chapter === saved.chapter) ? saved : idx.find(c => c.file) || idx[0];
+  const subjects = [...new Set(idx.map(c => c.subject))].sort(compareSubject);
+  list.innerHTML = subjects.map(s => `<button class="sj" disabled>${esc(s)}</button>` + idx.filter(c => c.subject === s).sort((a, b) => compareChapter(a.chapter, b.chapter)).map(c =>
+    `<button class="chp ${view.note.subject === c.subject && view.note.chapter === c.chapter ? 'active' : ''}" data-act="note-pick" data-sj="${esc(c.subject)}" data-ch="${esc(c.chapter)}">
+      <span>${esc(c.chapter)}　${esc(c.title)}</span>${c.missing ? '<span class="count">尚無投影片</span>' : ''}</button>`).join('')).join('');
+
+  const c = idx.find(x => x.subject === view.note.subject && x.chapter === view.note.chapter);
+  if (!c) { box.innerHTML = ''; return; }
+  const pool = chapterQuestions(c.subject, c.chapter);
+  if (c.missing) {
+    box.innerHTML = `<div class="panel"><h2>${esc(c.subject)} › ${esc(c.chapter)}　${esc(c.title)}</h2>
+      <p class="muted">這一章還沒有投影片。把這章的投影片 PDF 給我，就能整理出重點筆記。</p>
+      ${pool.length ? `<div class="row"><button class="primary" data-act="note-practice" data-scope="chapter">刷這一章（${pool.length} 題）</button></div>` : ''}</div>`;
+    return;
+  }
+  let md;
+  try { md = await loadNote(c.file); } catch (e) { box.innerHTML = `<div class="panel muted">${esc(e.message)}</div>`; return; }
+  const { html, toc } = mdToHtml(md);
+  const wrong = wrongQuestions(pool);
+  box.innerHTML = `<div class="panel note-head">
+      <h2>${esc(c.subject)} › ${esc(c.chapter)}　${esc(c.title)}</h2>
+      <div class="muted" style="font-size:.9em">依課程投影片整理：${esc(c.slides || '')}（以自己的話重寫，不是投影片原文）</div>
+      ${c.noBankChapter ? '<div class="muted" style="font-size:.9em">題庫目前還沒有這一章的題目。</div>' : ''}
+      <div class="toc">${toc.map((t, n) => `<button data-act="note-jump" data-n="${n}">${esc(t)}</button>`).join('')}</div>
+      <div class="row">
+        ${pool.length ? `<button class="primary" data-act="note-practice" data-scope="chapter">刷這一章（${pool.length} 題）</button>` : ''}
+        ${wrong.length ? `<button data-act="note-practice" data-scope="wrong">刷我的錯題（${wrong.length} 題）</button>` : ''}
+      </div>
+    </div>
+    ${wrong.length ? `<div class="panel"><h3 style="margin-top:0">我常錯的題目 <span class="muted" style="font-size:.8em">（這台電腦的刷題紀錄）</span></h3>
+      <ol class="wrong-list">${wrong.slice(0, 10).map(q => `<li>${esc(q.text.replace(/\s+/g, ' ').slice(0, 80))} <span class="muted">— 錯 ${stats[q.id].w} 次／對 ${stats[q.id].r} 次</span><br><span class="answer-line">答案：<b>${esc(answerText(q) || (q.type === 'recall' ? answerLines(q).join('、') : '（尚無解答）'))}</b></span></li>`).join('')}</ol></div>` : ''}
+    <div class="panel note-body">${html}</div>`;
+  view.noteRel = [];
+  $$('.rel', box).forEach(el => {
+    const hits = relatedQuestions(pool, el.dataset.kw);
+    const n = view.noteRel.push(hits.map(q => q.id)) - 1;
+    el.innerHTML = hits.length
+      ? `<button data-act="rel-toggle" data-idx="${n}">📝 相關題目 ${hits.length} 題</button>
+         <button data-act="rel-practice" data-idx="${n}">刷這 ${hits.length} 題</button>
+         <div class="rel-list" hidden></div>`
+      : '<span class="muted" style="font-size:.85em">題庫中還沒有這部分的題目</span>';
+  });
+}
+
+function toggleRelated(el) {
+  const list = $('.rel-list', el.closest('.rel'));
+  if (!list.hidden) { list.hidden = true; return; }
+  const ids = view.noteRel[+el.dataset.idx] || [];
+  const qs = ids.map(id => DB.questions[id]).filter(Boolean);
+  list.innerHTML = qs.slice(0, 40).map(q => cardHTML(q, { noDelete: true })).join('') +
+    (qs.length > 40 ? `<div class="muted">只顯示前 40 題，按「刷這 ${qs.length} 題」可以全部練習。</div>` : '');
+  list.hidden = false;
+}
+
 /* ========== 設定 ========== */
 function fillSettingsForm() {
   $('#cfg-owner').value = cfg.owner || '';
@@ -1349,6 +1515,7 @@ function renderCurrent() {
     // 刷題中途不重畫，避免打斷作答；只在設定畫面時更新
     if (!view.pr) renderPracticeSetup();
   } else if (view.tab === 'settings') fillSettingsForm();
+  else if (view.tab === 'notes') renderNotes();
 }
 
 function switchTab(tab) {
@@ -1393,6 +1560,19 @@ document.addEventListener('click', e => {
     case 'pr-next': nextQuestion(); break;
     case 'pr-exit': view.pr = null; view.editing = null; renderPractice(); break;
     case 'pr-again': view.pr = null; renderPracticeSetup(); startPractice(); break;
+    case 'note-pick':
+      view.note = { subject: el.dataset.sj, chapter: el.dataset.ch };
+      lsSet('qb_note_v1', view.note);
+      renderNotes().then(() => $('#notes-content').scrollIntoView({ block: 'start' }));
+      break;
+    case 'note-jump': $('#note-sec-' + el.dataset.n)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); break;
+    case 'rel-toggle': toggleRelated(el); break;
+    case 'rel-practice': startPracticeWith(view.noteRel[+el.dataset.idx] || []); break;
+    case 'note-practice': {
+      const pool = chapterQuestions(view.note.subject, view.note.chapter);
+      startPracticeWith((el.dataset.scope === 'wrong' ? wrongQuestions(pool) : pool).map(q => q.id));
+      break;
+    }
   }
 });
 
@@ -1480,7 +1660,7 @@ function init() {
   if (local && local.db) { DB = normalizeDB(local.db); dirty = !!local.dirty; }
   setupStatic();
   const start = location.hash.slice(1);
-  switchTab(['bank', 'import', 'practice', 'settings'].includes(start) ? start : 'bank');
+  switchTab(['bank', 'notes', 'import', 'practice', 'settings'].includes(start) ? start : 'bank');
   renderBadge();
   pullAndMerge();
 }

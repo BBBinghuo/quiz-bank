@@ -150,5 +150,34 @@ main { max-width: 1100px; margin: 0 auto; padding: 16px; }
 .result.warn { background: var(--warn-soft); color: var(--warn); }
 .big { font-size: 2em; font-weight: 700; }
 
+/* 章節重點 */
+.notes-main { min-width: 0; }
+.note-head h2 { margin-bottom: 4px; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.toc button { font-size: .85em; padding: 3px 10px; border-radius: 999px; }
+.note-body { line-height: 1.75; }
+.note-body h3.note-h { margin: 28px 0 10px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--accent); scroll-margin-top: 70px; }
+.note-body h3.note-h:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.note-body ul, .note-body ol { padding-left: 22px; margin: 6px 0; }
+.note-body li { margin: 3px 0; }
+.note-body p { margin: 8px 0; }
+.note-body code { font-family: ui-monospace, Consolas, monospace; }
+.note-body pre.code { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; overflow-x: auto; font-family: ui-monospace, Consolas, monospace; font-size: .9em; line-height: 1.5; }
+.table-wrap { overflow-x: auto; margin: 8px 0; }
+.note-body table { border-collapse: collapse; min-width: 50%; font-size: .93em; }
+.note-body th, .note-body td { border: 1px solid var(--border); padding: 5px 10px; text-align: left; vertical-align: top; }
+.note-body th { background: var(--accent-soft); }
+.callout { border-radius: 8px; padding: 8px 12px; margin: 10px 0; }
+.callout.tip { background: var(--accent-soft); }
+.callout.warn { background: var(--warn-soft); color: var(--text); border-left: 3px solid var(--warn); }
+.rel { margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.rel button { font-size: .85em; padding: 3px 10px; }
+.rel .rel-list { flex-basis: 100%; }
+.wrong-list { padding-left: 20px; margin: 0; }
+.wrong-list li { margin: 8px 0; }
+.sidebar button[disabled] { cursor: default; opacity: 1; color: var(--text); }
+
 #toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #222; color: #fff; padding: 8px 16px; border-radius: 8px; opacity: 0; transition: opacity .3s; pointer-events: none; z-index: 10; max-width: 90vw; }
 #toast.show { opacity: .95; }
+.sidebar button .count { white-space: nowrap; margin-left: 8px; flex-shrink: 0; align-self: center; }
+.sidebar button span:first-child { min-width: 0; }

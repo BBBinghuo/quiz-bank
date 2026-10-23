@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>刷題題庫</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261024">
 </head>
 <body>
 <header class="topbar">
   <div class="brand">📚 刷題題庫</div>
   <nav class="tabs">
     <button data-tab="bank" class="active">題庫</button>
+    <button data-tab="notes">重點</button>
     <button data-tab="import">匯入 / 查詢</button>
     <button data-tab="practice">刷題</button>
     <button data-tab="settings">設定</button>
@@ -35,6 +36,14 @@
         <div id="bank-summary" class="muted"></div>
         <div id="bank-list"></div>
       </div>
+    </div>
+  </section>
+
+  <!-- 章節重點 -->
+  <section id="tab-notes" class="tab">
+    <div class="bank-layout">
+      <aside id="notes-list" class="sidebar"></aside>
+      <div id="notes-content" class="notes-main"></div>
     </div>
   </section>
 
@@ -112,6 +121,6 @@
 </main>
 
 <div id="toast"></div>
-<script src="app.js"></script>
+<script src="app.js?v=20261024"></script>
 </body>
 </html>
