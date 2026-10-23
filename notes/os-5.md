@@ -53,7 +53,7 @@ speedup ≤ 1 / (S + (1 − S)/N)
 | **Many-to-Many** | 多個使用者執行緒 → **同數或較少**的核心執行緒 | 沒有數量限制、阻塞不會卡住整個行程、可用多處理器 | Solaris 9 以前、Windows 的 fiber |
 | **Two-level** | Many-to-many，**同時允許**把某個使用者執行緒**綁定**到一個核心執行緒 | many-to-many 的變形 | IRIX、HP-UX、Tru64、Solaris 8 以前 |
 
-> ⚠️ 依課本，能讓「一個使用者執行緒綁定一個核心執行緒」的是 **One-to-One** 和 **Two-level**。題庫中這題（tg7ocet、tockjbh）記錄的答案是四個全選，可能是那次考卷的選項不同，作答時再確認。
+> ⚠️ 依課本，能讓「一個使用者執行緒綁定一個核心執行緒」的是 **One-to-One** 和 **Two-level**。題庫原本記錄的是四個全選，已改成課本答案；課程考卷可能仍照原答案計分。
 
 > 💡 填空寫法用連字號：`many-to-one`、`one-to-one`、`many-to-many`。
 

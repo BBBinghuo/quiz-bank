@@ -2115,10 +2115,14 @@
     "C": "Average waiting time",
     "D": "Average CPU burst time"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
-   "updatedAt": "2026-10-21T06:52:42.660Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "1380": {
    "id": "1380",
@@ -3200,12 +3204,11 @@
    },
    "answer": [
     "A",
-    "B",
     "C"
    ],
    "note": "",
    "createdAt": "2026-10-20T13:36:48.303Z",
-   "updatedAt": "2026-10-20T13:38:24.339Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2157": {
    "id": "2157",
@@ -3224,12 +3227,11 @@
    },
    "answer": [
     "A",
-    "B",
     "C"
    ],
    "note": "",
    "createdAt": "2026-10-20T13:38:50.347Z",
-   "updatedAt": "2026-10-20T13:38:50.356Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2159": {
    "id": "2159",
@@ -3893,7 +3895,7 @@
   "2233": {
    "id": "2233",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "3",
    "level": "",
    "difficulty": "困難",
    "type": "single",
@@ -3910,7 +3912,7 @@
    ],
    "note": "",
    "createdAt": "2026-10-20T14:21:50.630Z",
-   "updatedAt": "2026-10-20T14:21:50.639Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2234": {
    "id": "2234",
@@ -6281,7 +6283,7 @@
   "2409": {
    "id": "2409",
    "subject": "演算法",
-   "chapter": "3",
+   "chapter": "6",
    "level": "",
    "difficulty": "困難",
    "type": "single",
@@ -6298,12 +6300,12 @@
    ],
    "note": "",
    "createdAt": "2026-10-21T01:51:03.616Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2410": {
    "id": "2410",
    "subject": "演算法",
-   "chapter": "3",
+   "chapter": "6",
    "level": "",
    "difficulty": "困難",
    "type": "single",
@@ -6320,7 +6322,7 @@
    ],
    "note": "",
    "createdAt": "2026-10-21T01:51:03.616Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2411": {
    "id": "2411",
@@ -7248,12 +7250,12 @@
    "options": {},
    "blanks": 2,
    "answer": [
-    "0,0,2,3,3,3,3,0",
-    "0,2,3,4,7,7"
+    "0,0,0,2,3,3,3,0",
+    "0,2,3,4,7,8"
    ],
    "note": "",
    "createdAt": "2026-10-20T14:00:04.894Z",
-   "updatedAt": "2026-10-20T14:01:27.600Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2453": {
    "id": "2453",
@@ -9714,13 +9716,12 @@
    },
    "answer": [
     "A",
-    "B",
     "C",
     "D"
    ],
    "note": "",
    "createdAt": "2026-10-21T05:21:06.055Z",
-   "updatedAt": "2026-10-21T05:21:06.067Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "2874": {
    "id": "2874",
@@ -10575,15 +10576,17 @@
    "hint": "",
    "options": {},
    "answer": [
-    "SaaS FaaS IaaS"
+    "SaaS\nPaaS\nIaaS"
    ],
    "lines": [
-    "SaaS FaaS IaaS"
+    "SaaS",
+    "PaaS",
+    "IaaS"
    ],
    "note": "",
    "source": "text",
    "createdAt": "2026-10-19T15:35:15.032Z",
-   "updatedAt": "2026-10-19T15:35:15.032Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1k0lu2h": {
    "id": "t1k0lu2h",
@@ -15009,15 +15012,16 @@
    "hint": "",
    "options": {},
    "answer": [
-    "Many-to-One One-to-One Many-to-Many Two-level"
+    "One-to-One\nTwo-level"
    ],
    "lines": [
-    "Many-to-One One-to-One Many-to-Many Two-level"
+    "One-to-One",
+    "Two-level"
    ],
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:19:13.124Z",
-   "updatedAt": "2026-10-20T01:19:13.124Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1lp4uht": {
    "id": "t1lp4uht",
@@ -16232,15 +16236,16 @@
    "hint": "",
    "options": {},
    "answer": [
-    "Many-to-One One-to-One Many-to-Many Two-level"
+    "One-to-One\nTwo-level"
    ],
    "lines": [
-    "Many-to-One One-to-One Many-to-Many Two-level"
+    "One-to-One",
+    "Two-level"
    ],
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:15.100Z",
-   "updatedAt": "2026-10-20T01:20:15.100Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t13ioq3l": {
    "id": "t13ioq3l",
@@ -22079,7 +22084,7 @@
    "hint": "請用英文縮寫回答 且用大寫字母",
    "options": {},
    "answer": [
-    "PCB"
+    "stack"
    ],
    "lines": [
     "PCB"
@@ -22087,7 +22092,7 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:14:39.684Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1ekvo6x": {
    "id": "t1ekvo6x",
@@ -22686,7 +22691,7 @@
   "tb26mvy": {
    "id": "tb26mvy",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "fill",
@@ -22702,7 +22707,7 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1m9250o": {
    "id": "t1m9250o",
@@ -22751,7 +22756,7 @@
   "t1d023of": {
    "id": "t1d023of",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "fill",
@@ -22767,12 +22772,12 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1825q8c": {
    "id": "t1825q8c",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "fill",
@@ -22788,7 +22793,7 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t10phbiu": {
    "id": "t10phbiu",
@@ -23034,7 +23039,7 @@
   "tskt3h0": {
    "id": "tskt3h0",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -23050,7 +23055,7 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:20:37.716Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "t1vs85mb": {
    "id": "t1vs85mb",
@@ -23164,7 +23169,7 @@
   "t1pldswd": {
    "id": "t1pldswd",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "recall",
@@ -23180,12 +23185,12 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-20T01:20:37.716Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "ttf0tod": {
    "id": "ttf0tod",
    "subject": "作業系統",
-   "chapter": "5",
+   "chapter": "6",
    "level": "",
    "difficulty": "",
    "type": "fill",
@@ -23201,7 +23206,7 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z"
   },
   "tofn8r5": {
    "id": "tofn8r5",
@@ -32821,7 +32826,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T06:53:46.805Z",
-   "updatedAt": "2026-10-21T06:53:46.805Z"
+   "updatedAt": "2026-10-23T18:54:41.553Z",
+   "deleted": true,
+   "mergedInto": "1379"
   },
   "t75wcf5": {
    "id": "t75wcf5",
