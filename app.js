@@ -82,9 +82,15 @@ const isTextAnswer = q => q.type === 'fill' || q.type === 'recall';
 const answerLines = q => (q.answer || []).flatMap(a => String(a).split('\n')).map(s => s.trim()).filter(Boolean);
 
 /* 比對用的正規化：全形半形、大小寫、空白、填空格、作答提示都不影響比對 */
+/* 填空記號：[**1**]、[__1__]、[1]、[ 1 ]；前面緊接英數字的 A[1]、B[2] 是陣列索引，不算 */
+const BLANK_SRC = String.raw`\[\*\*\d+\*\*\]|\[_+\d+_+\]|(?<![A-Za-z0-9\])])\[\s*\d+\s*\]`;
+const blankRe = () => new RegExp(BLANK_SRC, 'g');
+const countBlanks = s => (String(s).match(blankRe()) || []).length;
+const blanksToLine = s => String(s).replace(new RegExp('\\s*(?:' + BLANK_SRC + ')\\s*', 'g'), ' ＿＿＿ ').trim();
+
 function normQ(s) {
   return String(s).normalize('NFKC').toLowerCase()
-    .replace(/\[\*\*\d+\*\*\]/g, '□').replace(/\[_+\d+_+\]/g, '□').replace(/_{2,}/g, '□')
+    .replace(blankRe(), '□').replace(/_{2,}/g, '□')
     .replace(/[(（]\s*請[^()（）]*[)）]/g, '')
     .replace(/\s+/g, '').replace(/□+/g, '□')
     .replace(/[。.？?！!：:]+$/, '');
@@ -338,11 +344,11 @@ function parseResultHTML(doc, filename) {
     }
     lines.push(cur);
     const clean = lines.map(s => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
-    const blanks = (text.match(/\[_+\d+_+\]|\[\*\*\d+\*\*\]/g) || []).length;
+    const blanks = countBlanks(text);
     let hint = '';
     const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
     if (hm) { hint = hm[1].trim(); text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim(); }
-    text = text.replace(/\s*(\[_+\d+_+\]|\[\*\*\d+\*\*\])\s*/g, ' ＿＿＿ ').replace(/ +\n/g, '\n').trim();
+    text = blanksToLine(text).replace(/ +\n/g, '\n').trim();
     if (text && clean.length) items.push({ text, hint, blanks, type: blanks ? 'fill' : 'recall', lines: clean });
   }
   return { kind: 'result', filename, chapter, level, items };
@@ -454,11 +460,11 @@ function parseTextBank(raw) {
     let text = cleanText(qm[1]);
     const correct = cleanText(cm[1]).replace(/\s+/g, ' ');
     if (!text || !correct) continue;
-    const blanks = (text.match(/\[\*\*\d+\*\*\]|\[_+\d+_+\]/g) || []).length;
+    const blanks = countBlanks(text);
     let hint = '';
     const hm = text.match(/\s*[（(]\s*(請[^（()）]*)[）)]/);
     if (hm) { hint = hm[1].trim(); text = (text.slice(0, hm.index) + text.slice(hm.index + hm[0].length)).trim(); }
-    if (blanks) text = text.replace(/\s*(\[\*\*\d+\*\*\]|\[_+\d+_+\])\s*/g, ' ＿＿＿ ').trim();
+    if (blanks) text = blanksToLine(text);
     entries.push({ text, hint, blanks, lines: [correct], type: blanks ? 'fill' : 'recall' });
   }
   return entries;
@@ -523,14 +529,36 @@ function applyEntries(entries, subject, chapter, level, official, prefer) {
   return report;
 }
 
-/* 匯入 HTML 後：沒有解答的題目，試著用之前存下的文字題 / 成績頁答案補上 */
+/* 填空答案可能是「a/b」「a|b」這種多種寫法串在一起；只要有一種寫法相同就算一致 */
+function answersOverlap(q, ans) {
+  if (q.type !== 'fill') return sameAnswer(q, ans);
+  const alts = blankAlts(q);
+  const split = s => String(s).split(/\s*[|]\s*|\s*\/\s*/).map(normO).filter(Boolean);
+  if (blankCount(q) === 1) {
+    const mine = new Set(alts[0].flatMap(split));
+    return ans.flatMap(split).some(a => mine.has(a));
+  }
+  return ans.length === alts.length && ans.every((a, i) => alts[i].map(normO).includes(normO(a)) || split(a).some(x => alts[i].map(normO).includes(x)));
+}
+
+/*
+ * 匯入 HTML 後：用之前存下的答案紀錄（文字題庫 / 成績頁）補上解答。
+ * 回傳 true = 補上了解答；'merged' = 題目原本就有解答，只是把重複的答案紀錄併進來；false = 沒變動。
+ */
 function autoFillFromText(q) {
-  if (hasAnswer(q) || q.source === 'text') return false;
+  if (q.source === 'text') return false;
   const recs = textRecordsFor(q);
   if (!recs.length) return false;
   // 只採用「答案都在這份選項裡」的版本；對不上的多半是同題目、不同選項的另一題
   const matched = recs.map(r => ({ r, d: deriveFromLines(q, r.lines || r.answer) })).filter(x => x.d);
   if (!matched.length) return false;
+  if (hasAnswer(q)) {
+    const same = matched.filter(x => answersOverlap(q, x.d));
+    if (!same.length) return false;
+    const now = nowISO();
+    for (const { r } of same) DB.questions[r.id] = { ...r, deleted: true, mergedInto: q.id, updatedAt: now };
+    return 'merged';
+  }
   let answer;
   if (q.type === 'fill' && blankCount(q) === 1) answer = [...new Set(matched.flatMap(x => x.d))];
   else {
@@ -572,6 +600,7 @@ function tagsHTML(q, extra = '') {
     <span class="tag grey">${TYPE_LABEL[q.type] || q.type}</span>
     ${hasAnswer(q) ? '' : '<span class="tag warn">尚無解答</span>'}
     ${variantCount(q) > 1 ? `<span class="tag" title="題目一樣，但選項不同的題目會分開記錄">同題目共 ${variantCount(q)} 種選項版本</span>` : ''}
+    ${q.source === 'gemini' ? '<span class="tag grey" title="由 Gemini 整理的題目；錯誤選項可能與實際考題不同">Gemini</span>' : ''}
     ${extra}
     <span class="muted" style="margin-left:auto">#${esc(q.id)}</span>
   </div>`;
@@ -846,7 +875,9 @@ async function handleFiles(files) {
       }
       const q = DB.questions[item.dbId];
       if (q) batchIds.add(q.id);
-      if (q && autoFillFromText(q)) { item.autoFilled = true; filled++; changed = true; }
+      const fillResult = q ? autoFillFromText(q) : false;
+      if (fillResult === true) { item.autoFilled = true; filled++; }
+      if (fillResult) changed = true;
     }
     results.push(parsed);
   }
