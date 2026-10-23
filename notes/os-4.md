@@ -49,7 +49,7 @@
 | **長期（job scheduler）** | 選哪些行程進 ready queue；**控制多元程式的程度（degree of multiprogramming）** | 不頻繁（秒、分），可以慢 |
 | **中期** | 需要降低多元程度時，把行程移出記憶體存到磁碟、之後再帶回：**swapping** | 視需要 |
 
-> ⚠️ 依投影片：「**控制多元程式的程度**」是**長期**排程器；「**把行程換出／換回記憶體（swapping）**」是**中期**排程器。題庫有一題英文題把兩者寫在一起（loading processes from disk into main memory to control the degree of multiprogramming），記錄的答案是 Medium-term，作答時留意題目的重點在哪一個。
+> ⚠️ 依投影片：「**控制多元程式的程度**」是**長期**排程器；「**把行程換出／換回記憶體（swapping）**」是**中期**排程器。題庫裡「把行程從磁碟載入主記憶體、以控制多元程式程度」的題目（中英文版）答案都是**長期排程器（Long-term）**，和投影片一致。
 
 - **I/O-bound** 行程：花較多時間做 I/O，很多短的 CPU burst；**CPU-bound** 行程：**大部分時間在計算**，少數很長的 CPU burst。長期排程器追求好的混合比例。
 - 行動系統：早期 iOS 只有一個前景行程；Android 前景與背景都能跑，背景用 **service** 做事。

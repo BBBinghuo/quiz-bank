@@ -1,16 +1,113 @@
 {
  "version": 1,
  "chapters": [
-  { "subject": "演算法", "chapter": "2", "title": "演算法基礎、插入排序、合併排序與漸進符號", "slides": "01、02、03 演算法（CLRS 第 1–3 章）", "file": "notes/alg-2.md" },
-  { "subject": "演算法", "chapter": "3", "title": "遞迴關係式：代入法、遞迴樹與大師定理", "slides": "04 演算法（CLRS 第 4 章）", "file": "notes/alg-3.md" },
-  { "subject": "演算法", "chapter": "4", "title": "堆積、堆積排序與優先佇列", "slides": "06 演算法（CLRS 第 6 章）", "file": "notes/alg-4.md" },
-  { "subject": "演算法", "chapter": "5", "title": "快速排序（Quicksort）", "missing": true },
-  { "subject": "演算法", "chapter": "6", "title": "線性時間排序（Counting / Radix / Bucket Sort）", "missing": true },
-  { "subject": "作業系統", "chapter": "2", "title": "作業系統導論", "slides": "ch01 作業系統（Chapter 1: Introduction）", "file": "notes/os-2.md" },
-  { "subject": "作業系統", "chapter": "3", "title": "作業系統結構", "slides": "ch02 作業系統（Chapter 2: Operating-System Structures）", "file": "notes/os-3.md" },
-  { "subject": "作業系統", "chapter": "4", "title": "行程", "slides": "ch03 作業系統（Chapter 3: Processes）", "file": "notes/os-4.md" },
-  { "subject": "作業系統", "chapter": "5", "title": "執行緒（Threads）", "missing": true },
-  { "subject": "作業系統", "chapter": "6", "title": "CPU 排程", "slides": "ch05 作業系統（Chapter 5: CPU Scheduling）", "file": "notes/os-6.md" },
-  { "subject": "作業系統", "chapter": "7", "title": "同步工具", "slides": "ch06 作業系統（Chapter 6: Synchronization Tools）", "file": "notes/os-7.md", "noBankChapter": true }
+  {
+   "subject": "演算法",
+   "chapter": "2",
+   "title": "演算法基礎、插入排序、合併排序與漸進符號",
+   "slides": "01、02、03 演算法（CLRS 第 1–3 章）",
+   "file": "notes/alg-2.md"
+  },
+  {
+   "subject": "演算法",
+   "chapter": "3",
+   "title": "遞迴關係式：代入法、遞迴樹與大師定理",
+   "slides": "04 演算法（CLRS 第 4 章）",
+   "file": "notes/alg-3.md"
+  },
+  {
+   "subject": "演算法",
+   "chapter": "4",
+   "title": "堆積、堆積排序與優先佇列",
+   "slides": "06 演算法（CLRS 第 6 章）",
+   "file": "notes/alg-4.md"
+  },
+  {
+   "subject": "演算法",
+   "chapter": "5",
+   "title": "快速排序（Quicksort）",
+   "file": "notes/alg-5.md",
+   "slides": "無課程投影片：依課本 CLRS 第 7 章整理，並用程式模擬驗證範例",
+   "sources": [
+    [
+     "Hawaii ICS 311 #5B: Randomized Algorithms, Quicksort",
+     "https://www2.hawaii.edu/~nodari/teaching/s18/Notes/Topic-05B.html"
+    ],
+    [
+     "Bowdoin CS231 Quicksort（CLRS 第 7 章）",
+     "https://tildesites.bowdoin.edu/~ltoma/teaching/cs231/2017fall/Lectures/quicksort.pdf"
+    ]
+   ]
+  },
+  {
+   "subject": "演算法",
+   "chapter": "6",
+   "title": "線性時間排序（Counting / Radix / Bucket Sort）",
+   "file": "notes/alg-6.md",
+   "slides": "無課程投影片：依課本 CLRS 第 8 章與網路講義整理，並用程式模擬驗證範例",
+   "sources": [
+    [
+     "Vassar CS241 Non-comparison-based Sorts（CLRS 第 8 章）",
+     "https://www.cs.vassar.edu/~cs241/Lectures/ncbSorts.pdf"
+    ],
+    [
+     "Bowdoin CS231 Linear-time sorting",
+     "https://tildesites.bowdoin.edu/~ltoma/teaching/cs231/2017fall/Lectures/linsort.pdf"
+    ]
+   ]
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "2",
+   "title": "作業系統導論",
+   "slides": "ch01 作業系統（Chapter 1: Introduction）",
+   "file": "notes/os-2.md"
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "3",
+   "title": "作業系統結構",
+   "slides": "ch02 作業系統（Chapter 2: Operating-System Structures）",
+   "file": "notes/os-3.md"
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "4",
+   "title": "行程",
+   "slides": "ch03 作業系統（Chapter 3: Processes）",
+   "file": "notes/os-4.md"
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "5",
+   "title": "執行緒（Threads）",
+   "file": "notes/os-5.md",
+   "slides": "無課程投影片：依課本 Silberschatz 第 4 章與網路講義整理",
+   "sources": [
+    [
+     "UIC CS 385 Course Notes: Threads（John T. Bell）",
+     "https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html"
+    ],
+    [
+     "Operating System Concepts 10th ed. 官方投影片目錄",
+     "https://www.os-book.com/OS10/slide-dir/index.html"
+    ]
+   ]
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "6",
+   "title": "CPU 排程",
+   "slides": "ch05 作業系統（Chapter 5: CPU Scheduling）",
+   "file": "notes/os-6.md"
+  },
+  {
+   "subject": "作業系統",
+   "chapter": "7",
+   "title": "同步工具",
+   "slides": "ch06 作業系統（Chapter 6: Synchronization Tools）",
+   "file": "notes/os-7.md",
+   "noBankChapter": true
+  }
  ]
 }

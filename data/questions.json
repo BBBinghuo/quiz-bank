@@ -3103,12 +3103,12 @@
     "C": "f(n) = o(g(n))"
    },
    "answer": [
-    "B",
-    "C"
+    "A",
+    "B"
    ],
    "note": "",
    "createdAt": "2026-10-20T13:42:44.136Z",
-   "updatedAt": "2026-10-20T13:49:49.628Z"
+   "updatedAt": "2026-10-23T18:41:19.488Z"
   },
   "2153": {
    "id": "2153",
@@ -9111,7 +9111,7 @@
    "hint": "",
    "options": {
     "A": "Clustering",
-    "C": "Dual-mode operationClustering",
+    "C": "Dual-mode operation",
     "B": "Multiprocessing",
     "D": "Virtualization"
    },
@@ -9120,7 +9120,7 @@
    ],
    "note": "",
    "createdAt": "2026-10-21T05:27:59.279Z",
-   "updatedAt": "2026-10-21T05:27:59.283Z"
+   "updatedAt": "2026-10-23T18:41:19.488Z"
   },
   "2846": {
    "id": "2846",
@@ -11790,15 +11790,15 @@
    "hint": "",
    "options": {},
    "answer": [
-    "Dual-mode operationClustering"
+    "Dual-mode operation"
    ],
    "lines": [
-    "Dual-mode operationClustering"
+    "Dual-mode operation"
    ],
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T00:21:38.804Z",
-   "updatedAt": "2026-10-20T00:21:38.804Z"
+   "updatedAt": "2026-10-23T18:41:19.488Z"
   },
   "t194more": {
    "id": "t194more",

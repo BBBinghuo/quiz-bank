@@ -96,12 +96,25 @@ function normQ(s) {
     .replace(/[。.？?！!：:]+$/, '');
 }
 const normO = s => String(s).normalize('NFKC').toLowerCase().replace(/\s+/g, '');
+/* 保留大小寫：O 和 o、Ω 和 ω 在漸進符號裡是不同的東西 */
+const normCase = s => String(s).normalize('NFKC').replace(/\s+/g, '');
+/* 依選項文字找代號：先比對大小寫完全相同的，找不到（或不唯一）才忽略大小寫 */
+function optionKeyByText(q, text) {
+  const entries = Object.entries(q.options || {});
+  const exact = entries.filter(([, v]) => normCase(v) === normCase(text));
+  if (exact.length === 1) return exact[0][0];
+  const loose = entries.filter(([, v]) => normO(v) === normO(text));
+  return loose.length === 1 ? loose[0][0] : null;
+}
 
 /* 把「正確答案」文字（選項內容用空白串起來）對應回選擇題的選項代號；對不完整就回傳 null */
 function resolveKeys(q, str) {
-  let rest = normO(str);
+  return resolveKeysWith(q, str, normCase) || resolveKeysWith(q, str, normO);
+}
+function resolveKeysWith(q, str, norm) {
+  let rest = norm(str);
   const keys = [];
-  const opts = Object.entries(q.options || {}).map(([k, v]) => [k, normO(v)]).filter(([, v]) => v)
+  const opts = Object.entries(q.options || {}).map(([k, v]) => [k, norm(v)]).filter(([, v]) => v)
     .sort((a, b) => b[1].length - a[1].length);
   for (const [k, v] of opts) {
     const i = rest.indexOf(v);
@@ -134,8 +147,7 @@ function deriveFromLines(q, lines) {
     return parts.length === n ? parts : null;
   }
   // 選擇題：先試「一行 = 一個選項」，不行再用整段文字比對
-  const byText = new Map(Object.entries(q.options || {}).map(([k, v]) => [normO(v), k]));
-  const keys = lines.map(l => byText.get(normO(l)));
+  const keys = lines.map(l => optionKeyByText(q, l));
   if (keys.every(Boolean) && new Set(keys).size === keys.length && (q.type !== 'single' || keys.length === 1)) return keys.sort();
   return resolveKeys(q, lines.join(' '));
 }
@@ -411,7 +423,7 @@ function parseQuizHTML(html, filename) {
 
 /* 不同科目可能有相同的題號，所以題號只在同科目內有效 */
 /* 選項組合（不管順序與代號），用來分辨「同題目、不同選項」 */
-const optionSig = q => Object.values(q.options || {}).map(normO).sort().join('\u0001');
+const optionSig = q => Object.values(q.options || {}).map(normCase).sort().join('\u0001');
 const baseId = id => String(id).split(/[@~]/)[0];
 
 /* 同一題 = 同科目、（同題號或同題目文字）、且選項組合相同；選項不同就當成另一個版本 */
@@ -429,8 +441,7 @@ function freeId(q, subject) {
 }
 /* 這份檔案的選項代號 → 題庫裡同一個選項文字的代號（不同版本的代號可能不一樣） */
 function remapDisplay(item, q) {
-  const byText = new Map(Object.entries(q.options || {}).map(([k, v]) => [normO(v), k]));
-  return (item.display || []).map(d => ({ disp: d.disp, key: byText.get(normO(item.options[d.key])) || d.key }));
+  return (item.display || []).map(d => ({ disp: d.disp, key: optionKeyByText(q, item.options[d.key]) || d.key }));
 }
 
 /* 同題目有幾種選項版本 */
@@ -1425,7 +1436,8 @@ async function renderNotes() {
   const wrong = wrongQuestions(pool);
   box.innerHTML = `<div class="panel note-head">
       <h2>${esc(c.subject)} › ${esc(c.chapter)}　${esc(c.title)}</h2>
-      <div class="muted" style="font-size:.9em">依課程投影片整理：${esc(c.slides || '')}（以自己的話重寫，不是投影片原文）</div>
+      <div class="muted" style="font-size:.9em">${/^無課程投影片/.test(c.slides || '') ? esc(c.slides) : '依課程投影片整理：' + esc(c.slides || '')}（以自己的話重寫，不是原文）</div>
+      ${(c.sources || []).length ? `<div class="muted" style="font-size:.85em">參考來源：${c.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join('、')}</div>` : ''}
       ${c.noBankChapter ? '<div class="muted" style="font-size:.9em">題庫目前還沒有這一章的題目。</div>' : ''}
       <div class="toc">${toc.map((t, n) => `<button data-act="note-jump" data-n="${n}">${esc(t)}</button>`).join('')}</div>
       <div class="row">
