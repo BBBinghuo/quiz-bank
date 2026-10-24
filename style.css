@@ -202,6 +202,19 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .editor label { display: block; padding: 3px 0; }
 .editor input[type=text], .editor textarea { width: 100%; }
 
+/* ===== 解題思路：夾在卡片上的便條 ===== */
+.explain { margin-top: 10px; background: var(--sticky); border-radius: 2px; box-shadow: 2px 3px 8px rgba(60, 40, 10, .12); position: relative; }
+.explain > summary {
+  cursor: pointer; list-style: none; padding: 6px 14px; font-family: var(--hand); font-weight: 700; color: var(--warn); user-select: none;
+}
+.explain > summary::-webkit-details-marker { display: none; }
+.explain > summary::before { content: "▸"; display: inline-block; margin-right: 6px; transition: transform .2s; }
+.explain[open] > summary::before { transform: rotate(90deg); }
+.explain > div { padding: 0 16px 10px; line-height: 1.75; }
+.explain[open] > div { animation: writeIn .5s cubic-bezier(.3, .7, .3, 1) both; }
+.explain p { margin: 4px 0; }
+.explain b { background: linear-gradient(transparent 60%, var(--hl) 60%); }
+
 /* ===== 匯入 ===== */
 .drop {
   display: flex; flex-direction: column; align-items: center; gap: 6px;
