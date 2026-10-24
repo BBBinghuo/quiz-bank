@@ -4,11 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>刷題題庫</title>
-<link rel="stylesheet" href="style.css?v=20261025">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=LXGW+WenKai+TC:wght@400;700&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="style.css?v=20261026">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand">📚 刷題題庫</div>
+  <div class="brand"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M9 7h7M9 11h5"/></svg><span>刷題題庫</span></div>
   <nav class="tabs">
     <button data-tab="bank" class="active">題庫</button>
     <button data-tab="notes">重點</button>
@@ -71,7 +74,8 @@
       </ul>
       <label id="drop-zone" class="drop">
         <input id="file-input" type="file" accept=".html,.htm" multiple hidden>
-        <span>📂 點這裡選擇檔案，或把 HTML 拖曳進來</span>
+        <svg class="ico big-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5M12 3v12"/></svg>
+        <span>點這裡選擇檔案，或把 HTML 拖曳進來</span>
       </label>
       <label class="check"><input id="add-new" type="checkbox" checked> 把題庫中沒有的新題目自動加入題庫（重複的題目不會重複加入）</label>
     </div>
@@ -121,6 +125,6 @@
 </main>
 
 <div id="toast"></div>
-<script src="app.js?v=20261025"></script>
+<script src="app.js?v=20261026"></script>
 </body>
 </html>

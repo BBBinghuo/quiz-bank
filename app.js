@@ -24,6 +24,23 @@ function toast(msg, ms = 2500) {
   toast._t = setTimeout(() => t.classList.remove('show'), ms);
 }
 
+// 捲動到畫面內才「寫」出來（學霸筆記的 write-in 入場）
+const revealIO = 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches
+  ? new IntersectionObserver(entries => {
+    let n = 0;
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.style.setProperty('--d', Math.min(n++, 8) * 0.07 + 's');
+      e.target.classList.add('in');
+      revealIO.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -4% 0px' })
+  : null;
+function reveal(els) {
+  if (!revealIO) return;
+  els.forEach(el => { el.classList.add('reveal'); revealIO.observe(el); });
+}
+
 function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
@@ -1300,6 +1317,10 @@ function renderPractice() {
       <button class="primary" data-act="pr-self" data-ok="1">✔ 我答對了 (1)</button>
       <button data-act="pr-self" data-ok="0">✘ 我答錯了 (2)</button></div>` : ''}
   </div>`;
+  if (renderPractice.pr !== pr || renderPractice.i !== pr.i) { // 換題時才播入場動畫，提交答案不重播
+    renderPractice.pr = pr; renderPractice.i = pr.i;
+    reveal($$('.panel > *', root));
+  }
   if (!cur.submitted && q.type === 'fill') $('.pr-fill').focus();
 }
 
@@ -1458,6 +1479,7 @@ async function renderNotes() {
          <div class="rel-list" hidden></div>`
       : '<span class="muted" style="font-size:.85em">題庫中還沒有這部分的題目</span>';
   });
+  reveal([...$$(':scope > .panel:not(.note-body)', box), ...$$('.note-body > *', box)]);
 }
 
 function toggleRelated(el) {
