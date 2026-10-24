@@ -660,6 +660,24 @@ function editorHTML(q) {
     </div></div>`;
 }
 
+/* ========== 解題解析（data/explanations.json，以題目 id 對應） ========== */
+let EXPLAIN = {};
+async function loadExplanations() {
+  try {
+    const r = await fetch('data/explanations.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    EXPLAIN = (await r.json()).explanations || {};
+    if (view.tab === 'practice' && view.pr) renderPractice(); else renderCurrent();
+  } catch { /* 沒有解析檔也能正常使用 */ }
+}
+// 解析只提選項內容、不提字母：刷題會打亂選項，匯入的檔案字母順序也不同
+function explainHTML(q, open = false) {
+  const t = EXPLAIN[q.id];
+  if (!t) return '';
+  return `<details class="explain" ${open ? 'open' : ''}><summary>解題思路</summary>
+    <div>${t.split('\n').map(l => `<p>${mdInline(l)}</p>`).join('')}</div></details>`;
+}
+
 function cardHTML(q, o = {}) {
   const editing = view.editing === q.id;
   let body = '';
@@ -687,6 +705,7 @@ function cardHTML(q, o = {}) {
     ${q.hint ? `<div class="hint">（${esc(q.hint)}）</div>` : ''}
     ${editing ? editorHTML(q) : body}
     ${!editing && q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}
+    ${editing ? '' : explainHTML(q, o.explainOpen)}
     ${editing || o.readonly ? '' : `<div class="card-actions">
       <button data-act="edit" data-id="${esc(q.id)}">${hasAnswer(q) ? '修改解答' : '✏️ 填寫解答'}</button>
       ${o.moveable ? moveHTML(q) : ''}
@@ -1289,12 +1308,12 @@ function renderPractice() {
         ${cardHTML(q, { noDelete: true })}`;
     } else if (q.type === 'recall') {
       result = `<div class="result ok" style="white-space:pre-wrap">正確答案：<b>${esc(q.answer.join(' / '))}</b></div>
-        ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}`;
+        ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}${explainHTML(q, true)}`;
     } else {
       const disp = q.type === 'fill' ? answerText(q)
         : cur.order.map((k, n) => ans.has(k) ? `${LETTERS[n]}. ${q.options[k]}` : null).filter(Boolean).join('　');
       result = `<div class="result ${cur.ok ? 'ok' : 'bad'}">${cur.ok ? '✔ 答對了！' : '✘ 答錯了'}　正確答案：<b>${esc(disp)}</b></div>
-        ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}`;
+        ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}${explainHTML(q, true)}`;
     }
   }
   const right = pr.results.filter(r => r.ok).length;
@@ -1697,6 +1716,7 @@ function init() {
   switchTab(['bank', 'notes', 'import', 'practice', 'settings'].includes(start) ? start : 'bank');
   renderBadge();
   pullAndMerge();
+  loadExplanations();
 }
 
 init();
