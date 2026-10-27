@@ -674,8 +674,11 @@ async function loadExplanations() {
 function explainHTML(q, open = false) {
   const t = EXPLAIN[q.id];
   if (!t) return '';
-  return `<details class="explain" ${open ? 'open' : ''}><summary>解題思路</summary>
-    <div>${t.split('\n').map(l => `<p>${mdInline(l)}</p>`).join('')}</div></details>`;
+  // 追蹤題另外有逐步動畫（trace.js）
+  const anim = window.TRACES && window.TRACES[q.id]
+    ? `<button class="trace-btn" data-act="trace" data-id="${esc(q.id)}">▶ 看動畫解說</button>` : '';
+  return `<details class="explain" ${open ? 'open' : ''}><summary>解題思路${anim ? '<span class="anim-tag">有動畫</span>' : ''}</summary>
+    <div>${t.split('\n').map(l => `<p>${mdInline(l)}</p>`).join('')}${anim}</div></details>`;
 }
 
 function cardHTML(q, o = {}) {
