@@ -1484,6 +1484,7 @@ async function renderNotes() {
       ${c.noBankChapter ? '<div class="muted" style="font-size:.9em">題庫目前還沒有這一章的題目。</div>' : ''}
       <div class="toc">${toc.map((t, n) => `<button data-act="note-jump" data-n="${n}">${esc(t)}</button>`).join('')}</div>
       <div class="row">
+        <button class="slides-btn" data-act="note-slides">▶ 動畫播放重點</button>
         ${pool.length ? `<button class="primary" data-act="note-practice" data-scope="chapter">刷這一章（${pool.length} 題）</button>` : ''}
         ${wrong.length ? `<button data-act="note-practice" data-scope="wrong">刷我的錯題（${wrong.length} 題）</button>` : ''}
       </div>
