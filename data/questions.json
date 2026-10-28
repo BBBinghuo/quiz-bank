@@ -3387,6 +3387,21 @@
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
   },
+  "1419": {
+   "id": "1419",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "When a process switches from the running to the waiting state, the CPU scheduler is＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:35:02.898Z",
+   "updatedAt": "2026-10-28T05:35:02.898Z"
+  },
   "1420": {
    "id": "1420",
    "subject": "作業系統",
@@ -26389,7 +26404,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:35:02.912Z",
+   "deleted": true,
+   "mergedInto": "1360~1kx2c06"
   },
   "t12dh24n": {
    "id": "t12dh24n",
@@ -38578,6 +38595,50 @@
    "source": "text",
    "createdAt": "2026-10-28T05:33:58.084Z",
    "updatedAt": "2026-10-28T05:33:58.084Z"
+  },
+  "1360~1kx2c06": {
+   "id": "1360~1kx2c06",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "迴圈排程（RR）的性能與哪些因素相關？",
+   "hint": "",
+   "options": {
+    "D": "行程類型（CPU 密集型或 I/O 密集型）",
+    "A": "時間片（q）的大小",
+    "C": "程序在就緒佇列中的數量",
+    "B": "上下文切換（context switch）的時間"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:35:02.898Z",
+   "updatedAt": "2026-10-28T05:35:02.912Z"
+  },
+  "1327~1m7lazw": {
+   "id": "1327~1m7lazw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "衡量排程演算法的吞吐量（Throughput）是指什麼？",
+   "hint": "",
+   "options": {
+    "D": "行程在就緒佇列中等待的時間",
+    "C": "從提交請求到產生首次回應的時間",
+    "B": "CPU保持忙碌的時間百分比",
+    "A": "每單位時間完成執行的程序數量"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:35:02.898Z",
+   "updatedAt": "2026-10-28T05:35:02.898Z"
   }
  }
 }
