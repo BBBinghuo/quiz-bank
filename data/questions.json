@@ -37437,12 +37437,11 @@
    "note": "",
    "source": "gemini",
    "createdAt": "2026-10-23T12:54:40.247Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z",
+   "updatedAt": "2026-10-28T06:08:51.110Z",
    "type": "fill",
    "text": "＿＿＿ 排程演算法因為其簡潔性而被廣泛使用，但可能導致「護航效應」。",
    "options": {},
    "answer": [
-    "first-come-first-served",
     "first-come first-served"
    ],
    "id": "g1ybl6s9"
