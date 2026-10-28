@@ -1845,10 +1845,12 @@
     "C": "Load balancing",
     "B": "Pull migration"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:14:03.807Z",
-   "updatedAt": "2026-10-28T06:14:03.807Z"
+   "updatedAt": "2026-10-28T06:16:11.785Z"
   },
   "1339": {
    "id": "1339",
@@ -39607,10 +39609,13 @@
     "D": "Symmetric multiprocessing (SMP)",
     "C": "Processor affinity"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:14:03.807Z",
-   "updatedAt": "2026-10-28T06:14:03.807Z"
+   "updatedAt": "2026-10-28T06:16:11.785Z"
   },
   "1355~1chdu0j": {
    "id": "1355~1chdu0j",
@@ -39627,10 +39632,36 @@
     "C": "最大化吞吐量",
     "D": "最小化回應時間"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:14:03.807Z",
-   "updatedAt": "2026-10-28T06:14:03.807Z"
+   "updatedAt": "2026-10-28T06:16:11.785Z"
+  },
+  "t17tgb7h": {
+   "id": "t17tgb7h",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Hard real-time systems scheduling must guarantee that a task is completed within its ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deadline"
+   ],
+   "lines": [
+    "deadline"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T06:16:11.785Z",
+   "updatedAt": "2026-10-28T06:16:11.785Z"
   }
  }
 }
