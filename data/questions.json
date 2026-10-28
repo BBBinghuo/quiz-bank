@@ -39464,6 +39464,26 @@
    "source": "text",
    "createdAt": "2026-10-28T06:04:21.378Z",
    "updatedAt": "2026-10-28T06:04:21.378Z"
+  },
+  "1349~aa8cs8": {
+   "id": "1349~aa8cs8",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In scheduling algorithm evaluation, what method uses a predetermined workload to define the performance of each algorithm?",
+   "hint": "",
+   "options": {
+    "A": "Queueing models",
+    "C": "Deterministic modeling",
+    "D": "Implementation",
+    "B": "Simulations"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:06:34.386Z",
+   "updatedAt": "2026-10-28T06:06:34.386Z"
   }
  }
 }
