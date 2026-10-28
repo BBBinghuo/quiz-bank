@@ -25795,7 +25795,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T06:02:18.986Z",
+   "deleted": true,
+   "mergedInto": "1340~1jummrr"
   },
   "tsuha8h": {
    "id": "tsuha8h",
@@ -39347,6 +39349,68 @@
    "note": "",
    "createdAt": "2026-10-28T05:59:57.272Z",
    "updatedAt": "2026-10-28T05:59:57.303Z"
+  },
+  "1340~1jummrr": {
+   "id": "1340~1jummrr",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is a key characteristic of hard real-time systems?",
+   "hint": "",
+   "options": {
+    "A": "They provide guarantees for scheduling",
+    "B": "They do not guarantee scheduling time",
+    "C": "A task must be serviced by its deadline",
+    "D": "A task can be interrupted"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T06:02:18.976Z",
+   "updatedAt": "2026-10-28T06:02:18.986Z"
+  },
+  "1377~1vr5z5n": {
+   "id": "1377~1vr5z5n",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the six classes of scheduling in the Solaris operating system?",
+   "hint": "",
+   "options": {
+    "C": "Real time",
+    "B": "Interactive",
+    "A": "Time sharing",
+    "D": "System"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:02:18.976Z",
+   "updatedAt": "2026-10-28T06:02:18.976Z"
+  },
+  "1326~tce1k7": {
+   "id": "1326~tce1k7",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "分派延遲（Dispatch latency）指的是什麼？",
+   "hint": "",
+   "options": {
+    "C": "將一個程序停止並啟動另一個程序所需的時間",
+    "B": "排程器做出決策所需的時間",
+    "A": "中斷處理所需的時間",
+    "D": "完成 I/O 作業所需的時間"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:02:18.976Z",
+   "updatedAt": "2026-10-28T06:02:18.976Z"
   }
  }
 }
