@@ -3541,10 +3541,12 @@
    "text": "Throughput is the number of＿＿＿completed per time unit.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "process"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:11:52.520Z",
-   "updatedAt": "2026-10-28T06:11:52.520Z"
+   "updatedAt": "2026-10-28T06:13:54.441Z"
   },
   "1423": {
    "id": "1423",
@@ -39548,6 +39550,27 @@
    "source": "text",
    "createdAt": "2026-10-28T06:11:33.345Z",
    "updatedAt": "2026-10-28T06:11:33.345Z"
+  },
+  "tbb5nrk": {
+   "id": "tbb5nrk",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Hard real-time systems require a task to be serviced by its ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deadline"
+   ],
+   "lines": [
+    "deadline"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T06:13:54.441Z",
+   "updatedAt": "2026-10-28T06:13:54.441Z"
   }
  }
 }
