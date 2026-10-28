@@ -2470,10 +2470,14 @@
     "D": "SCHED_FIFO performs time-slicing for threads of equal priority",
     "A": "The scheduler must support preemptive, priority-based scheduling"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:24:16.490Z",
-   "updatedAt": "2026-10-28T05:24:16.490Z"
+   "updatedAt": "2026-10-28T05:26:43.243Z"
   },
   "1369": {
    "id": "1369",
@@ -2619,6 +2623,29 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1376": {
+   "id": "1376",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Windows中，一個執行緒的優先權會被提升的情況有哪些？",
+   "hint": "",
+   "options": {
+    "A": "時限（quantum）用完時",
+    "D": "當被更高優先權的執行緒搶佔時",
+    "C": "當它處於前景視窗時",
+    "B": "當它從等待狀態返回時"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.803Z"
+  },
   "1377": {
    "id": "1377",
    "subject": "作業系統",
@@ -2732,10 +2759,14 @@
     "D": "使用者輸入固定值",
     "A": "隨機數產生器"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:24:16.490Z",
-   "updatedAt": "2026-10-28T05:24:16.490Z"
+   "updatedAt": "2026-10-28T05:26:43.243Z"
   },
   "1382": {
    "id": "1382",
@@ -3172,10 +3203,12 @@
    "text": "POSIX.1b標準定義了兩種即時排程類別：SCHED_FIFO和＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "sched_rr"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:24:16.490Z",
-   "updatedAt": "2026-10-28T05:24:16.490Z"
+   "updatedAt": "2026-10-28T05:26:43.243Z"
   },
   "1409": {
    "id": "1409",
@@ -3244,6 +3277,21 @@
    "note": "",
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
+  },
+  "1415": {
+   "id": "1415",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是 Windows 7 中引入的一項功能，允許應用程式獨立於核心來創建和管理執行緒。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.778Z"
   },
   "1416": {
    "id": "1416",
@@ -25760,7 +25808,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:26:58.803Z",
+   "deleted": true,
+   "mergedInto": "1376"
   },
   "t155xgdw": {
    "id": "t155xgdw",
@@ -25846,7 +25896,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:26:58.800Z",
+   "deleted": true,
+   "mergedInto": "1341~19iex4t"
   },
   "tq8rdet": {
    "id": "tq8rdet",
@@ -25957,7 +26009,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:26:58.797Z",
+   "deleted": true,
+   "mergedInto": "1368~5rpgcg"
   },
   "t5f9ycw": {
    "id": "t5f9ycw",
@@ -26116,7 +26170,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:26:58.789Z",
+   "deleted": true,
+   "mergedInto": "1357~y89lmb"
   },
   "turlmjz": {
    "id": "turlmjz",
@@ -26353,7 +26409,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:26:58.795Z",
+   "deleted": true,
+   "mergedInto": "1358~1inkjwh"
   },
   "t1xd0m4r": {
    "id": "t1xd0m4r",
@@ -38147,6 +38205,160 @@
    "note": "",
    "createdAt": "2026-10-28T05:24:16.490Z",
    "updatedAt": "2026-10-28T05:24:16.516Z"
+  },
+  "t1e5soj4": {
+   "id": "t1e5soj4",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In a ＿＿＿ scheduling, the ready queue is partitioned into several separate queues, and a process is typically permanently in a given queue.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "multilevel queue"
+   ],
+   "lines": [
+    "multilevel queue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:26:43.243Z",
+   "updatedAt": "2026-10-28T05:26:43.243Z"
+  },
+  "t1fgnec9": {
+   "id": "t1fgnec9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The ＿＿＿ scheduling algorithm is optimal because it provides the minimum average waiting time for a given set of processes.(Please answer in lowercase English, connecting letters with hyphens)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "shortest-job-first"
+   ],
+   "lines": [
+    "shortest-job-first"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:26:43.243Z",
+   "updatedAt": "2026-10-28T05:26:43.243Z"
+  },
+  "1357~y89lmb": {
+   "id": "1357~y89lmb",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the advantages of Shortest-Job-First (SJF) scheduling?",
+   "hint": "",
+   "options": {
+    "A": "Minimum average waiting time for a given set of processes",
+    "C": "Suitable for real-time systems",
+    "D": "Can predict the length of the next CPU burst",
+    "B": "Easy to implement"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.789Z"
+  },
+  "1358~1inkjwh": {
+   "id": "1358~1inkjwh",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What methods can be used to estimate the length of the next CPU burst?",
+   "hint": "",
+   "options": {
+    "D": "Setting α=1 to only consider the last burst",
+    "B": "Asking the user",
+    "A": "Using exponential averaging of previous CPU bursts",
+    "C": "Using a constant value"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.795Z"
+  },
+  "1368~5rpgcg": {
+   "id": "1368~5rpgcg",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些關於即時排程的敘述是正確的？",
+   "hint": "",
+   "options": {
+    "C": "週期性任務的速率是其週期的倒數",
+    "A": "排程器必須支援搶佔式、基於優先權的排程",
+    "D": "SCHED_FIFO 對相同優先權的執行緒進行時間片分配",
+    "B": "硬即時系統必須提供滿足截止日期的能力"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.797Z"
+  },
+  "1341~19iex4t": {
+   "id": "1341~19iex4t",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "從中斷到達的時間到服務該中斷的函式(ISR)開始執行的時間，這段時間被稱為？",
+   "hint": "",
+   "options": {
+    "A": "分派延遲",
+    "B": "中斷延遲",
+    "D": "回應時間",
+    "C": "等待時間"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.800Z"
+  },
+  "1373~sgdh9": {
+   "id": "1373~sgdh9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of the Completely Fair Scheduler (CFS)?",
+   "hint": "",
+   "options": {
+    "D": "It selects the task with the lowest virtual run time to run",
+    "A": "It is based on fixed time-quantum allotments",
+    "B": "Priority is based on the nice value",
+    "C": "It maintains a per-task virtual run time (vruntime)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:26:58.778Z",
+   "updatedAt": "2026-10-28T05:26:58.778Z"
   }
  }
 }
