@@ -1559,10 +1559,12 @@
     "C": "The time it takes to stop one process and start another running",
     "A": "The time required for interrupt handling"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1327": {
    "id": "1327",
@@ -1887,10 +1889,12 @@
     "D": "優先權排程器",
     "A": "標準UNIX排程器"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1345": {
    "id": "1345",
@@ -3054,10 +3058,12 @@
    "text": "In the Windows system, a thread's priority is＿＿＿when it returns from a waiting state.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "boosted"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1417": {
    "id": "1417",
@@ -3227,10 +3233,12 @@
    "text": "在輪循（Round Robin）排程演算法中，＿＿＿決定了每個程序可以獲得的CPU時間長度。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "time quantum"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1430": {
    "id": "1430",
@@ -3310,10 +3318,12 @@
    "text": "Windows排程器使用了＿＿＿個優先級層級。(fill a number)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "32"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1436": {
    "id": "1436",
@@ -37563,10 +37573,12 @@
     "A": "First-Come, First-Served (FCFS)",
     "C": "Priority scheduling"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1387~1qwbm5k": {
    "id": "1387~1qwbm5k",
@@ -37583,10 +37595,15 @@
     "D": "It is a dynamic priority algorithm",
     "B": "Each application receives N shares where N < T"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1363~10wr5k0": {
    "id": "1363~10wr5k0",
@@ -37603,10 +37620,15 @@
     "C": "A process is typically permanently in a given queue",
     "B": "Each queue can have its own scheduling algorithm"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1378~aa8cs8": {
    "id": "1378~aa8cs8",
@@ -37623,10 +37645,15 @@
     "D": "Implementation",
     "C": "Simulations"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
-   "updatedAt": "2026-10-28T05:18:10.210Z"
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   },
   "1324~95sfjm": {
    "id": "1324~95sfjm",
@@ -37649,6 +37676,48 @@
    "note": "",
    "createdAt": "2026-10-28T05:18:10.210Z",
    "updatedAt": "2026-10-28T05:18:10.245Z"
+  },
+  "t13309j4": {
+   "id": "t13309j4",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在 ＿＿＿ 排程中，程序可以在不同的佇列之間移動，這有助於實現老化。)",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "multilevel feedback queue"
+   ],
+   "lines": [
+    "multilevel feedback queue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:21:13.268Z",
+   "updatedAt": "2026-10-28T05:21:13.268Z"
+  },
+  "t1qthxke": {
+   "id": "t1qthxke",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "最短工作優先（SJF）排程演算法的優點是它能最小化平均 ＿＿＿ 時間。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "waiting"
+   ],
+   "lines": [
+    "waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:21:13.268Z",
+   "updatedAt": "2026-10-28T05:21:13.268Z"
   }
  }
 }
