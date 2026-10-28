@@ -39387,10 +39387,15 @@
     "A": "Time sharing",
     "D": "System"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:02:18.976Z",
-   "updatedAt": "2026-10-28T06:02:18.976Z"
+   "updatedAt": "2026-10-28T06:04:21.378Z"
   },
   "1326~tce1k7": {
    "id": "1326~tce1k7",
@@ -39407,10 +39412,33 @@
     "A": "中斷處理所需的時間",
     "D": "完成 I/O 作業所需的時間"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:02:18.976Z",
-   "updatedAt": "2026-10-28T06:02:18.976Z"
+   "updatedAt": "2026-10-28T06:04:21.378Z"
+  },
+  "tbju5f5": {
+   "id": "tbju5f5",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is the time it takes for the scheduler in a real-time system to take the current process off the CPU and switch to another.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "dispatch latency"
+   ],
+   "lines": [
+    "dispatch latency"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T06:04:21.378Z",
+   "updatedAt": "2026-10-28T06:04:21.378Z"
   }
  }
 }
