@@ -38536,6 +38536,48 @@
    "source": "text",
    "createdAt": "2026-10-28T05:29:17.444Z",
    "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "tf2frdm": {
+   "id": "tf2frdm",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "When a process switches from a running to a ready state, the scheduling is of the ＿＿＿ type.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "preemptive"
+   ],
+   "lines": [
+    "preemptive"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:33:58.084Z",
+   "updatedAt": "2026-10-28T05:33:58.084Z"
+  },
+  "txp4mbt": {
+   "id": "txp4mbt",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "最短剩餘時間優先（SRTF）是 ＿＿＿ 演算法的搶佔式版本。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "SJF"
+   ],
+   "lines": [
+    "SJF"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:33:58.084Z",
+   "updatedAt": "2026-10-28T05:33:58.084Z"
   }
  }
 }
