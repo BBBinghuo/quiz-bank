@@ -3531,6 +3531,21 @@
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
   },
+  "1422": {
+   "id": "1422",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Throughput is the number of＿＿＿completed per time unit.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:11:52.520Z",
+   "updatedAt": "2026-10-28T06:11:52.520Z"
+  },
   "1423": {
    "id": "1423",
    "subject": "作業系統",
