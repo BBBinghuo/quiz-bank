@@ -39702,10 +39702,12 @@
     "D": "Time block",
     "A": "Time unit"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:16:22.111Z",
-   "updatedAt": "2026-10-28T06:16:22.111Z"
+   "updatedAt": "2026-10-28T06:18:10.513Z"
   }
  }
 }
