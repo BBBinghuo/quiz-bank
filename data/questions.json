@@ -7539,7 +7539,7 @@
   "2470": {
    "id": "2470",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7555,14 +7555,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:50.018Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2471": {
    "id": "2471",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7578,14 +7577,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:48.290Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2475": {
    "id": "2475",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7601,14 +7599,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:43.522Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2476": {
    "id": "2476",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7624,14 +7621,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:54.274Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2483": {
    "id": "2483",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7647,14 +7643,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:33.690Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2484": {
    "id": "2484",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7670,14 +7665,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:45.642Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2486": {
    "id": "2486",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "single",
@@ -7693,14 +7687,13 @@
     "A"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:31.882Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2488": {
    "id": "2488",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7717,14 +7710,13 @@
     "B"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:42.514Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2491": {
    "id": "2491",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7742,14 +7734,13 @@
     "C"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:52.442Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2492": {
    "id": "2492",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7767,14 +7758,13 @@
     "C"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:35.810Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2494": {
    "id": "2494",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7791,14 +7781,13 @@
     "B"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:50.938Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2498": {
    "id": "2498",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7816,14 +7805,13 @@
     "C"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:34.866Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2500": {
    "id": "2500",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7840,14 +7828,13 @@
     "B"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:30.882Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2502": {
    "id": "2502",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "multi",
@@ -7865,14 +7852,13 @@
     "C"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:44.394Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2509": {
    "id": "2509",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7883,14 +7869,13 @@
     "O(n)"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:46.242Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2513": {
    "id": "2513",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7901,14 +7886,13 @@
     "3n/10-6"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:53.362Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2517": {
    "id": "2517",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7921,14 +7905,13 @@
     "11"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:40.098Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2518": {
    "id": "2518",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7939,14 +7922,13 @@
     "n^2"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:46.938Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2520": {
    "id": "2520",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7960,14 +7942,13 @@
     "i-k"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:49.131Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2522": {
    "id": "2522",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7978,14 +7959,13 @@
     "five"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:47.498Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2526": {
    "id": "2526",
    "subject": "演算法",
-   "chapter": "6",
+   "chapter": "7",
    "level": "",
    "difficulty": "簡單",
    "type": "fill",
@@ -7996,9 +7976,8 @@
     "distinct"
    ],
    "note": "",
-   "createdAt": "2026-10-28T01:39:14.341Z",
-   "updatedAt": "2026-10-28T01:39:41.306Z",
-   "deleted": true
+   "createdAt": "2026-10-28T01:40:05.732Z",
+   "updatedAt": "2026-10-28T01:40:05.759Z"
   },
   "2764": {
    "id": "2764",
