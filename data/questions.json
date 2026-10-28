@@ -39512,6 +39512,27 @@
    "note": "",
    "createdAt": "2026-10-28T06:09:25.431Z",
    "updatedAt": "2026-10-28T06:09:25.451Z"
+  },
+  "tbw7q57": {
+   "id": "tbw7q57",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is the number of processes that complete their execution per time unit, used to measure the efficiency of a scheduling algorithm.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "throughput"
+   ],
+   "lines": [
+    "throughput"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T06:11:33.345Z",
+   "updatedAt": "2026-10-28T06:11:33.345Z"
   }
  }
 }
