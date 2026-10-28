@@ -3662,10 +3662,12 @@
    "text": "Linux的CFS（Completely Fair Scheduler）的目標是提供完全＿＿＿的CPU分配。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "fair"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:46:26.177Z",
-   "updatedAt": "2026-10-28T05:46:26.177Z"
+   "updatedAt": "2026-10-28T05:49:05.843Z"
   },
   "1435": {
    "id": "1435",
@@ -39093,10 +39095,14 @@
     "A": "Preemptive",
     "C": "It has two priority ranges: time-sharing and real-time"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:46:26.177Z",
-   "updatedAt": "2026-10-28T05:46:26.177Z"
+   "updatedAt": "2026-10-28T05:49:05.843Z"
   },
   "1361~1hog5cy": {
    "id": "1361~1hog5cy",
@@ -39120,6 +39126,72 @@
    "note": "",
    "createdAt": "2026-10-28T05:46:26.177Z",
    "updatedAt": "2026-10-28T05:46:26.197Z"
+  },
+  "tdveapf": {
+   "id": "tdveapf",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "當一個程序從運行狀態切換到等待狀態時，CPU排程器會被 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "wakeup"
+   ],
+   "lines": [
+    "wakeup"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:49:05.843Z",
+   "updatedAt": "2026-10-28T05:49:05.843Z"
+  },
+  "t1yffr2h": {
+   "id": "t1yffr2h",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a feature introduced in Windows 7 that allows applications to create and manage threads independently of the kernel.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "user mode scheduling"
+   ],
+   "lines": [
+    "user mode scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:49:05.843Z",
+   "updatedAt": "2026-10-28T05:49:05.843Z"
+  },
+  "t14guo58": {
+   "id": "t14guo58",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Criteria for CPU scheduling include CPU utilization, throughput, ＿＿＿ time, ＿＿＿ time, and ＿＿＿ time.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "blanks": 3,
+   "answer": [
+    "turnaround",
+    "waiting",
+    "response"
+   ],
+   "lines": [
+    "turnaround/waiting/response"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:49:05.843Z",
+   "updatedAt": "2026-10-28T05:49:05.843Z"
   }
  }
 }
