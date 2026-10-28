@@ -38896,10 +38896,14 @@
     "C": "Trace tapes of real event sequences in real systems",
     "A": "Random number generator"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:43:17.216Z",
-   "updatedAt": "2026-10-28T05:43:17.216Z"
+   "updatedAt": "2026-10-28T05:45:50.123Z"
   },
   "1342~1g48g3g": {
    "id": "1342~1g48g3g",
@@ -38916,10 +38920,12 @@
     "C": "僅限於單核心系統",
     "A": "提供時間分片"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:43:17.216Z",
-   "updatedAt": "2026-10-28T05:43:17.216Z"
+   "updatedAt": "2026-10-28T05:45:50.123Z"
   },
   "1364~1ifmizz": {
    "id": "1364~1ifmizz",
@@ -38936,10 +38942,15 @@
     "B": "每個佇列的排程演算法",
     "C": "升級和降級程序的方法"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:43:17.216Z",
-   "updatedAt": "2026-10-28T05:43:17.216Z"
+   "updatedAt": "2026-10-28T05:45:50.123Z"
   },
   "1386~qz271j": {
    "id": "1386~qz271j",
@@ -38956,10 +38967,14 @@
     "D": "虛擬機器無法執行 CPU 密集型任務",
     "B": "可能影響客戶端（guests）中的時鐘"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:43:17.216Z",
-   "updatedAt": "2026-10-28T05:43:17.216Z"
+   "updatedAt": "2026-10-28T05:45:50.123Z"
   },
   "1330~2pw0us": {
    "id": "1330~2pw0us",
@@ -38976,10 +38991,75 @@
     "C": "Priority scheduling",
     "D": "Round Robin (RR)"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:43:17.216Z",
-   "updatedAt": "2026-10-28T05:43:17.216Z"
+   "updatedAt": "2026-10-28T05:45:50.123Z"
+  },
+  "tjnil5h": {
+   "id": "tjnil5h",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In priority scheduling, the solution to the \"starvation\" problem where a low-priority process might never execute is ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "aging"
+   ],
+   "lines": [
+    "aging"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:45:50.123Z",
+   "updatedAt": "2026-10-28T05:45:50.123Z"
+  },
+  "t1kyk73z": {
+   "id": "t1kyk73z",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是一種評估排程器的方法，它透過建立一個電腦系統的程式化模型來進行，比佇列模型更準確。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "simulations"
+   ],
+   "lines": [
+    "simulations"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:45:50.123Z",
+   "updatedAt": "2026-10-28T05:45:50.123Z"
+  },
+  "twqr0a2": {
+   "id": "twqr0a2",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A ＿＿＿ is a loadable table in Solaris that can be configured by a system administrator to manage the multilevel feedback queue.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "dispatch table"
+   ],
+   "lines": [
+    "dispatch table"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:45:50.123Z",
+   "updatedAt": "2026-10-28T05:45:50.123Z"
   }
  }
 }
