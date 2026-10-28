@@ -1698,6 +1698,46 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1334": {
+   "id": "1334",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "When the time quantum (q) in Round Robin (RR) is very large, the algorithm's behavior approaches which scheduling type?",
+   "hint": "",
+   "options": {
+    "D": "Multilevel queue",
+    "A": "Priority scheduling",
+    "B": "Shortest-Job-First (SJF)",
+    "C": "First-Come, First-Served (FCFS)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
+  "1335": {
+   "id": "1335",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In Multilevel Queue scheduling, which of the following statements is correct?",
+   "hint": "",
+   "options": {
+    "B": "All queues use the same scheduling algorithm",
+    "C": "The foreground queue typically uses Round Robin scheduling",
+    "A": "A process can move between the queues",
+    "D": "The background queue always has a higher priority than the foreground queue"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
   "1337": {
    "id": "1337",
    "subject": "作業系統",
@@ -1741,6 +1781,26 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1342": {
+   "id": "1342",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is a characteristic of SCHED_FIFO in POSIX real-time scheduling?",
+   "hint": "",
+   "options": {
+    "A": "It provides time-slicing",
+    "B": "There is no time-slicing",
+    "C": "It is limited to single-core systems",
+    "D": "It provides priority boosting"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
   },
   "1343": {
    "id": "1343",
@@ -2065,6 +2125,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:52:42.671Z"
   },
+  "1360": {
+   "id": "1360",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "The performance of Round Robin (RR) scheduling is related to which factors?",
+   "hint": "",
+   "options": {
+    "C": "The number of processes in the ready queue",
+    "B": "The time of a context switch",
+    "D": "The type of process (CPU-bound or I/O-bound)",
+    "A": "The size of the time quantum (q)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
   "1362": {
    "id": "1362",
    "subject": "作業系統",
@@ -2137,6 +2217,26 @@
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
+  },
+  "1365": {
+   "id": "1365",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在多處理器系統中，下列哪些排程方法屬於負載平衡？",
+   "hint": "",
+   "options": {
+    "A": "推動式遷移（Push migration）",
+    "B": "拉取式遷移（Pull migration）",
+    "C": "處理器親和性（Processor affinity）",
+    "D": "對稱多處理 (SMP)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
   },
   "1370": {
    "id": "1370",
@@ -2573,6 +2673,23 @@
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
   },
+  "1404": {
+   "id": "1404",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "硬即時系統（Hard real-time systems）要求任務必須在＿＿＿內完成。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "deadline"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.055Z"
+  },
   "1405": {
    "id": "1405",
    "subject": "作業系統",
@@ -2589,6 +2706,21 @@
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:05:12.216Z"
+  },
+  "1406": {
+   "id": "1406",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿排程是根據週期的倒數來分配優先權的演算法。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
   },
   "1409": {
    "id": "1409",
@@ -25276,7 +25408,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:10:23.055Z",
+   "deleted": true,
+   "mergedInto": "1404"
   },
   "t1pi608i": {
    "id": "t1pi608i",
@@ -25364,7 +25498,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:10:23.041Z",
+   "deleted": true,
+   "mergedInto": "1332~o6d5ll"
   },
   "t8j44t": {
    "id": "t8j44t",
@@ -34458,7 +34594,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T06:54:53.717Z",
-   "updatedAt": "2026-10-21T06:54:53.717Z"
+   "updatedAt": "2026-10-28T05:10:23.063Z",
+   "deleted": true,
+   "mergedInto": "1359~1hdz2l9"
   },
   "t16q5w2w": {
    "id": "t16q5w2w",
@@ -36661,6 +36799,133 @@
    "source": "text",
    "createdAt": "2026-10-28T05:09:51.022Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
+  },
+  "1332~o6d5ll": {
+   "id": "1332~o6d5ll",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在優先權排程中，解決「飢餓」問題的方法是什麼？",
+   "hint": "",
+   "options": {
+    "D": "將所有優先權設定為相同",
+    "A": "增加時間量",
+    "C": "老化（Aging）",
+    "B": "使用迴圈排程"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.041Z"
+  },
+  "1374~jgr1cw": {
+   "id": "1374~jgr1cw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Windows排程有哪些特性？",
+   "hint": "",
+   "options": {
+    "B": "有32個優先權等級",
+    "D": "可以提升執行緒優先權",
+    "A": "使用基於優先權的搶佔式排程",
+    "C": "對應每個優先權等級有一個佇列"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
+  "1382~ka44dv": {
+   "id": "1382~ka44dv",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "實作新排程器的缺點是什麼？",
+   "hint": "",
+   "options": {
+    "B": "高風險",
+    "D": "缺乏靈活性",
+    "A": "高成本",
+    "C": "在不同環境中結果可能不同"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
+  "1348~rjswms": {
+   "id": "1348~rjswms",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "什麼是 Little's Formula (n = λ x W) 中的 n？",
+   "hint": "",
+   "options": {
+    "D": "平均服務時間(Average service time)",
+    "A": "平均佇列長度",
+    "B": "平均到達率",
+    "C": "平均等待時間"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
+  "1356~ks931o": {
+   "id": "1356~ks931o",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of First-Come, First-Served (FCFS) scheduling?",
+   "hint": "",
+   "options": {
+    "C": "It can lead to the 'convoy effect'",
+    "B": "The waiting time is always minimal",
+    "A": "Simple and easy to understand",
+    "D": "It is suitable for real-time systems"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.035Z"
+  },
+  "1359~1hdz2l9": {
+   "id": "1359~1hdz2l9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the pros and cons of priority scheduling?",
+   "hint": "",
+   "options": {
+    "D": "SJF is a special case of priority scheduling",
+    "C": "The solution to starvation is aging",
+    "B": "It can lead to the starvation problem",
+    "A": "Higher-priority processes will execute first"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:10:23.035Z",
+   "updatedAt": "2026-10-28T05:10:23.063Z"
   }
  }
 }
