@@ -39480,10 +39480,12 @@
     "D": "Implementation",
     "B": "Simulations"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T06:06:34.386Z",
-   "updatedAt": "2026-10-28T06:06:34.386Z"
+   "updatedAt": "2026-10-28T06:08:16.977Z"
   }
  }
 }
