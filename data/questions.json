@@ -1801,10 +1801,12 @@
     "C": "任務必須在截止時間內完成",
     "A": "提供排程的保證"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1342": {
    "id": "1342",
@@ -2117,10 +2119,12 @@
     "A": "給定程序集的最小平均等待時間",
     "C": "適合即時系統"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1358": {
    "id": "1358",
@@ -2306,10 +2310,14 @@
     "D": "每個核心都有自己的專用內存",
     "C": "可以利用記憶體停頓來進行多執行緒"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1367": {
    "id": "1367",
@@ -2326,10 +2334,15 @@
     "A": "Soft real-time systems have no scheduling guarantee",
     "C": "Interrupt latency can affect performance"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1370": {
    "id": "1370",
@@ -2611,10 +2624,14 @@
     "B": "It can affect the time-of-day clocks in guests",
     "A": "It can lead to poor response time"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1387": {
    "id": "1387",
@@ -2753,10 +2770,12 @@
    "text": "In the Round Robin (RR) algorithm, the unit of a small amount of CPU time given to each process is called a＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "time quantum"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1399": {
    "id": "1399",
@@ -3026,10 +3045,14 @@
    "hint": "請用小寫英文回答",
    "options": {},
    "blanks": 3,
-   "answer": [],
+   "answer": [
+    "turnaround",
+    "waiting",
+    "response"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1424": {
    "id": "1424",
@@ -3126,10 +3149,12 @@
    "text": "＿＿＿allows processes to move between different queues based on the length of time for which they have been serviced.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "multilevel feedback queue"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1431": {
    "id": "1431",
@@ -37251,10 +37276,15 @@
     "A": "CPU利用率",
     "B": "吞吐量"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1334~1rislwa": {
    "id": "1334~1rislwa",
@@ -37293,10 +37323,12 @@
     "A": "程序可以在佇列之間移動",
     "B": "所有佇列都使用相同的排程演算法"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
-   "updatedAt": "2026-10-28T05:14:43.699Z"
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   },
   "1339~qxvohk": {
    "id": "1339~qxvohk",
@@ -37319,6 +37351,90 @@
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:14:43.733Z"
+  },
+  "t1kveyry": {
+   "id": "t1kveyry",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在Windows系統中， ＿＿＿ 優先權類別的執行緒無法被提升優先權。",
+   "hint": "請用小寫英文回答 字母間用_連接",
+   "options": {},
+   "answer": [
+    "realtime_priority_class"
+   ],
+   "lines": [
+    "realtime_priority_class"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:17:52.859Z",
+   "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "tvs3qci": {
+   "id": "tvs3qci",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在排程演算法評估中， ＿＿＿ 模型通過使用概率來描述程序的到來和CPU爆發。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "queueing models"
+   ],
+   "lines": [
+    "queueing models"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:17:52.859Z",
+   "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "t1i0o6rb": {
+   "id": "t1i0o6rb",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In Windows scheduling, which priority class of processes cannot have its priority boosted?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "REALTIME_PRIORITY_CLASS"
+   ],
+   "lines": [
+    "REALTIME_PRIORITY_CLASS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:17:52.859Z",
+   "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "tiob3ey": {
+   "id": "tiob3ey",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Shortest-remaining-time-first (SRTF) is the preemptive version of the ＿＿＿ scheduling algorithm.(Please answer in lowercase English, connecting letters with hyphens)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "shortest-job-first"
+   ],
+   "lines": [
+    "shortest-job-first"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:17:52.859Z",
+   "updatedAt": "2026-10-28T05:17:52.859Z"
   }
  }
 }
