@@ -8741,10 +8741,12 @@
    "text": "Randomized-Select 演算法在＿＿＿情況下表現最快",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "average"
+   ],
    "note": "",
    "createdAt": "2026-10-28T02:09:05.451Z",
-   "updatedAt": "2026-10-28T02:09:05.451Z"
+   "updatedAt": "2026-10-28T02:11:20.524Z"
   },
   "2526": {
    "id": "2526",
