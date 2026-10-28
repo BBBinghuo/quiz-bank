@@ -1515,10 +1515,12 @@
     "B": "Only CPU bursts",
     "A": "An alternating cycle of CPU bursts and I/O bursts"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1324": {
    "id": "1324",
@@ -1865,10 +1867,12 @@
     "A": "Dispatch latency",
     "B": "Interrupt latency"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1342": {
    "id": "1342",
@@ -2298,10 +2302,13 @@
     "D": "Turnaround time will become extremely long",
     "B": "System overhead will be very high"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1362": {
    "id": "1362",
@@ -2448,6 +2455,26 @@
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
   },
+  "1368": {
+   "id": "1368",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following statements about real-time scheduling are correct?",
+   "hint": "",
+   "options": {
+    "B": "Hard real-time systems must provide the ability to meet deadlines",
+    "C": "The rate of a periodic task is the inverse of its period",
+    "D": "SCHED_FIFO performs time-slicing for threads of equal priority",
+    "A": "The scheduler must support preemptive, priority-based scheduling"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.490Z"
+  },
   "1369": {
    "id": "1369",
    "subject": "作業系統",
@@ -2463,10 +2490,14 @@
     "B": "週期越短的任務優先權越高",
     "C": "週期越長的任務優先權越低"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1370": {
    "id": "1370",
@@ -2686,6 +2717,26 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:00.654Z"
   },
+  "1381": {
+   "id": "1381",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在模擬（Simulations）中，用於驅動模擬的資料來源可以是哪些？",
+   "hint": "",
+   "options": {
+    "B": "數學或經驗定義的分佈",
+    "C": "真實系統中事件序列的追蹤帶",
+    "D": "使用者輸入固定值",
+    "A": "隨機數產生器"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.490Z"
+  },
   "1382": {
    "id": "1382",
    "subject": "作業系統",
@@ -2866,10 +2917,12 @@
    "text": "＿＿＿是每單位時間完成執行的程序數量，用於衡量排程演算法的效率。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "throughput"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1392": {
    "id": "1392",
@@ -2915,10 +2968,12 @@
    "text": "＿＿＿排程演算法是最佳的，因為它能給定程序集提供最小的平均等待時間。",
    "hint": "請用小寫英文回答 字母間用-連接",
    "options": {},
-   "answer": [],
+   "answer": [
+    "shortest-job-first"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1396": {
    "id": "1396",
@@ -3107,6 +3162,21 @@
    "createdAt": "2026-10-28T05:10:23.035Z",
    "updatedAt": "2026-10-28T05:14:28.749Z"
   },
+  "1408": {
+   "id": "1408",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "POSIX.1b標準定義了兩種即時排程類別：SCHED_FIFO和＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.490Z"
+  },
   "1409": {
    "id": "1409",
    "subject": "作業系統",
@@ -3275,10 +3345,12 @@
    "text": "Turnaround time is the total time from process submission to＿＿＿.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "terminated"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1424": {
    "id": "1424",
@@ -25380,7 +25452,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:24:16.500Z",
+   "deleted": true,
+   "mergedInto": "1367~xwnbdy"
   },
   "t1pldswd": {
    "id": "t1pldswd",
@@ -25552,7 +25626,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:24:16.496Z",
+   "deleted": true,
+   "mergedInto": "1352~17vpn68"
   },
   "t12f70ol": {
    "id": "t12f70ol",
@@ -25726,7 +25802,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:24:16.516Z",
+   "deleted": true,
+   "mergedInto": "1362~2pw0us"
   },
   "t4e8ezp": {
    "id": "t4e8ezp",
@@ -26405,7 +26483,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:24:16.511Z",
+   "deleted": true,
+   "mergedInto": "1346~4zylsf"
   },
   "t1wej28a": {
    "id": "t1wej28a",
@@ -37902,10 +37982,12 @@
     "B": "Convoy effect",
     "A": "Starvation"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
   },
   "1366~pl7pzw": {
    "id": "1366~pl7pzw",
@@ -37922,10 +38004,149 @@
     "A": "They are faster",
     "D": "Each core has its own dedicated memory"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:21:30.394Z",
-   "updatedAt": "2026-10-28T05:21:30.394Z"
+   "updatedAt": "2026-10-28T05:24:06.955Z"
+  },
+  "t1swi1d4": {
+   "id": "t1swi1d4",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "CPU ＿＿＿ is the tendency of a process to run on the same processor.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "affinity"
+   ],
+   "lines": [
+    "affinity"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:24:06.955Z",
+   "updatedAt": "2026-10-28T05:24:06.955Z"
+  },
+  "t1agttdm": {
+   "id": "t1agttdm",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "迴圈排程（RR）演算法中，每個程序獲得一小段CPU時間的單位稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "time quantum"
+   ],
+   "lines": [
+    "time quantum"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:24:06.955Z",
+   "updatedAt": "2026-10-28T05:24:06.955Z"
+  },
+  "1352~17vpn68": {
+   "id": "1352~17vpn68",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following scheduling decisions are nonpreemptive?",
+   "hint": "",
+   "options": {
+    "C": "A process switches from the waiting to the ready state",
+    "A": "A process switches from the running to the waiting state",
+    "D": "A process terminates",
+    "B": "A process switches from the running to the ready state"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.496Z"
+  },
+  "1367~xwnbdy": {
+   "id": "1367~xwnbdy",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "即時CPU排程面臨哪些挑戰？",
+   "hint": "",
+   "options": {
+    "A": "軟體實時系統沒有排程保證",
+    "D": "配置(Dispatch)延遲會影響效能",
+    "C": "中斷延遲會影響性能",
+    "B": "硬即時系統的任務必須在截止時間內完成"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.500Z"
+  },
+  "1346~4zylsf": {
+   "id": "1346~4zylsf",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the Windows system, what happens to a thread's priority when its quantum expires?",
+   "hint": "",
+   "options": {
+    "B": "It is lowered",
+    "C": "It remains unchanged",
+    "A": "It is boosted",
+    "D": "It changes randomly"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.511Z"
+  },
+  "1362~2pw0us": {
+   "id": "1362~2pw0us",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following scheduling algorithms can lead to starvation?",
+   "hint": "",
+   "options": {
+    "A": "First-Come, First-Served (FCFS)",
+    "B": "Priority scheduling",
+    "C": "Round Robin (RR)",
+    "D": "Shortest-Job-First (SJF)"
+   },
+   "answer": [
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:24:16.490Z",
+   "updatedAt": "2026-10-28T05:24:16.516Z"
   }
  }
 }
