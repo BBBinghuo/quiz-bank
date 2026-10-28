@@ -7712,6 +7712,26 @@
    "createdAt": "2026-10-28T01:48:19.259Z",
    "updatedAt": "2026-10-28T01:51:43.813Z"
   },
+  "2478": {
+   "id": "2478",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Randomized-Select 演算法中，pivot 的選擇方式是？",
+   "hint": "",
+   "options": {
+    "B": "總是選擇第一個",
+    "D": "總是選擇中間",
+    "A": "隨機選擇",
+    "C": "總是選擇最後一個"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
+  },
   "2479": {
    "id": "2479",
    "subject": "演算法",
@@ -8171,6 +8191,26 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2501": {
+   "id": "2501",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "順序統計量與排序的關係？",
+   "hint": "",
+   "options": {
+    "C": "順序統計量可透過排序間接得到",
+    "D": "兩者無任何關係",
+    "B": "排序時間複雜度為 O(n log n)",
+    "A": "排序後的陣列可直接取得順序統計量"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
+  },
   "2502": {
    "id": "2502",
    "subject": "演算法",
@@ -8266,6 +8306,26 @@
    "createdAt": "2026-10-28T01:48:19.259Z",
    "updatedAt": "2026-10-28T01:51:43.813Z"
   },
+  "2506": {
+   "id": "2506",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "為什麼最小/最大值演算法比較有效率？",
+   "hint": "",
+   "options": {
+    "A": "利用配對比較特性",
+    "B": "降低比較總數",
+    "C": "不需進行完整排序",
+    "D": "直接記憶陣列值"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
+  },
   "2509": {
    "id": "2509",
    "subject": "演算法",
@@ -8282,6 +8342,21 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2510": {
+   "id": "2510",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "尋找 n 個元素中的最小值需要＿＿＿次比較",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
   },
   "2511": {
    "id": "2511",
@@ -8479,6 +8554,21 @@
    "createdAt": "2026-10-28T01:44:08.196Z",
    "updatedAt": "2026-10-28T01:44:08.220Z"
   },
+  "2524": {
+   "id": "2524",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "同時找出陣列中的最大值（Maximum）與最小值（Minimum）\n以下的做法 會經過幾次比較 ＿＿＿\n先尋找最小值 再 尋找最大值",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
+  },
   "2526": {
    "id": "2526",
    "subject": "演算法",
@@ -8495,6 +8585,22 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2527": {
+   "id": "2527",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "同時找出陣列中的最大值（Maximum）與最小值（Minimum）\n完成以下的做法使它經過(3 n/2 )次比較 得到結果\n\nGET_MIN_MAX(A)\n1 n <- A.length\n2 if n = 0\n3     then return (NIL, NIL)\n4\n5 // 步驟 1：初始化 min 與 max\n6 if n % 2 != 0          // 陣列長度為奇數\n7     then min <- A[1]\n8          max <- A[1]\n9          start_idx <- 2\n10    else                 // 陣列長度為偶數\n11         if A[1] < A[2]\n12             then min <- A[1]\n13                  max <- A[2]\n14             else min <- A[2]\n15                  max <- A[1]\n16         start_idx <- 3\n17\n18 // 步驟 2：兩兩分組進行比較\n19 for i <-  ＿＿＿  to n - 1 step 2\n20     do if A[i] <  ＿＿＿\n21            then if A[i] < min\n22                     then min <- A[i]\n23                 if A[i + 1] > max\n24                     then max <- A[i + 1]\n25            else if A[i + 1] < min\n26                     then min <- A[i + 1]\n27                 if A[i] > max\n28                     then max <- A[i]\n29\n30 return (min, max)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:54:12.083Z",
+   "updatedAt": "2026-10-28T01:54:12.083Z"
   },
   "2764": {
    "id": "2764",
