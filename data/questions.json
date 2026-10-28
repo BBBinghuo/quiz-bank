@@ -38686,6 +38686,176 @@
    "source": "text",
    "createdAt": "2026-10-28T05:38:51.484Z",
    "updatedAt": "2026-10-28T05:38:51.484Z"
+  },
+  "tzwj0mh": {
+   "id": "tzwj0mh",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The ＿＿＿ effect occurs when a short process is blocked by one or more long processes.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "convoy"
+   ],
+   "lines": [
+    "convoy"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "tlxc1oz": {
+   "id": "tlxc1oz",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The POSIX.1b standard defines two scheduling classes for real-time threads: SCHED_FIFO and ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "sched_rr"
+   ],
+   "lines": [
+    "sched_rr"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "typ40jj": {
+   "id": "typ40jj",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the characteristics of Little's Formula (n = λ x W)?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "In steady state, the number of processes leaving the queue equals the number of processes arriving\nIt is valid for any scheduling algorithm\nIt is valid for any arrival distribution"
+   ],
+   "lines": [
+    "In steady state, the number of processes leaving the queue equals the number of processes arriving",
+    "It is valid for any scheduling algorithm",
+    "It is valid for any arrival distribution"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "t9ddqj6": {
+   "id": "t9ddqj6",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In Windows scheduling, what feature allows applications to create and manage threads independently of the kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "User-mode scheduling (UMS)"
+   ],
+   "lines": [
+    "User-mode scheduling (UMS)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "thqp8nt": {
+   "id": "thqp8nt",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "After Linux kernel version 2.6.23, what is the main scheduling algorithm?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Completely Fair Scheduler (CFS)"
+   ],
+   "lines": [
+    "Completely Fair Scheduler (CFS)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "t17ff1tf": {
+   "id": "t17ff1tf",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是 Little's Formula (n = λ x W) 中的λ，代表進入佇列的平均到達率。",
+   "hint": "請用英文小寫回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "average arrival rate"
+   ],
+   "lines": [
+    "average arrival rate"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "td2uo5o": {
+   "id": "td2uo5o",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是根據截止時間分配優先權的演算法：截止時間越早，優先權越高。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "earliest deadline first scheduling"
+   ],
+   "lines": [
+    "earliest deadline first scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
+  },
+  "t1ajm1nk": {
+   "id": "t1ajm1nk",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "吞吐量是單位時間內完成的 ＿＿＿ 數量。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "process"
+   ],
+   "lines": [
+    "process"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:42:59.634Z",
+   "updatedAt": "2026-10-28T05:42:59.634Z"
   }
  }
 }
