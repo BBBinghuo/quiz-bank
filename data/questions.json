@@ -1544,6 +1544,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1326": {
+   "id": "1326",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is Dispatch latency?",
+   "hint": "",
+   "options": {
+    "B": "The time required for the scheduler to make a decision",
+    "D": "The time required for an I/O operation to complete",
+    "C": "The time it takes to stop one process and start another running",
+    "A": "The time required for interrupt handling"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
   "1327": {
    "id": "1327",
    "subject": "作業系統",
@@ -1851,6 +1871,26 @@
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
+  },
+  "1344": {
+   "id": "1344",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在Linux核心版本2.6.23之後，主要的排程器演算法是什麼？",
+   "hint": "",
+   "options": {
+    "B": "O(1)排程器",
+    "C": "完全公平排程器（CFS）",
+    "D": "優先權排程器",
+    "A": "標準UNIX排程器"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
   },
   "1345": {
    "id": "1345",
@@ -2367,6 +2407,29 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1371": {
+   "id": "1371",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which scheduling classes are defined in the POSIX real-time scheduling standard?",
+   "hint": "",
+   "options": {
+    "B": "SCHED_RR",
+    "D": "SCHED_NORMAL",
+    "A": "SCHED_FIFO",
+    "C": "SCHED_OTHER"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.240Z"
   },
   "1372": {
    "id": "1372",
@@ -2981,6 +3044,21 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1416": {
+   "id": "1416",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In the Windows system, a thread's priority is＿＿＿when it returns from a waiting state.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
   "1417": {
    "id": "1417",
    "subject": "作業系統",
@@ -3139,6 +3217,21 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1429": {
+   "id": "1429",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在輪循（Round Robin）排程演算法中，＿＿＿決定了每個程序可以獲得的CPU時間長度。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
   "1430": {
    "id": "1430",
    "subject": "作業系統",
@@ -3206,6 +3299,21 @@
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
+  },
+  "1435": {
+   "id": "1435",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Windows排程器使用了＿＿＿個優先級層級。(fill a number)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
   },
   "1436": {
    "id": "1436",
@@ -25246,7 +25354,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:18:10.245Z",
+   "deleted": true,
+   "mergedInto": "1324~95sfjm"
   },
   "tgss4ad": {
    "id": "tgss4ad",
@@ -25634,7 +25744,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:18:10.240Z",
+   "deleted": true,
+   "mergedInto": "1371"
   },
   "t1g6ycbl": {
    "id": "t1g6ycbl",
@@ -37435,6 +37547,108 @@
    "source": "text",
    "createdAt": "2026-10-28T05:17:52.859Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "1329~2pw0us": {
+   "id": "1329~2pw0us",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which scheduling algorithm is considered optimal because it provides the minimum average waiting time for a given set of processes?",
+   "hint": "",
+   "options": {
+    "D": "Round Robin (RR)",
+    "B": "Shortest-Job-First (SJF)",
+    "A": "First-Come, First-Served (FCFS)",
+    "C": "Priority scheduling"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
+  "1387~1qwbm5k": {
+   "id": "1387~1qwbm5k",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of Proportional Share Scheduling?",
+   "hint": "",
+   "options": {
+    "C": "It ensures each application receives N / T of the total processor time",
+    "A": "T shares of CPU time are allocated among all processes",
+    "D": "It is a dynamic priority algorithm",
+    "B": "Each application receives N shares where N < T"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
+  "1363~10wr5k0": {
+   "id": "1363~10wr5k0",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of Multilevel Queue scheduling?",
+   "hint": "",
+   "options": {
+    "D": "It can lead to the starvation problem for lower-priority queues",
+    "A": "The ready queue is partitioned into separate queues",
+    "C": "A process is typically permanently in a given queue",
+    "B": "Each queue can have its own scheduling algorithm"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
+  "1378~aa8cs8": {
+   "id": "1378~aa8cs8",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In scheduling algorithm evaluation, what methods can be used to evaluate an algorithm?",
+   "hint": "",
+   "options": {
+    "A": "Deterministic modeling",
+    "B": "Queueing models",
+    "D": "Implementation",
+    "C": "Simulations"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.210Z"
+  },
+  "1324~95sfjm": {
+   "id": "1324~95sfjm",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當一個程序從「執行中」狀態切換到「等待中」狀態時，排程決策屬於哪種類型？",
+   "hint": "",
+   "options": {
+    "A": "非搶佔式",
+    "D": "無關",
+    "B": "搶佔式",
+    "C": "中斷式"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:18:10.210Z",
+   "updatedAt": "2026-10-28T05:18:10.245Z"
   }
  }
 }
