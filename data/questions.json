@@ -1500,6 +1500,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:52:42.678Z"
   },
+  "1322": {
+   "id": "1322",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In a CPU-I/O cycle, what does process execution consist of?",
+   "hint": "",
+   "options": {
+    "C": "Only I/O waits",
+    "D": "Continuous access to data blocks",
+    "B": "Only CPU bursts",
+    "A": "An alternating cycle of CPU bursts and I/O bursts"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
+  },
   "1324": {
    "id": "1324",
    "subject": "作業系統",
@@ -1829,6 +1849,26 @@
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "1341": {
+   "id": "1341",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The time from the arrival of an interrupt to the start of the routine that services the interrupt is called?",
+   "hint": "",
+   "options": {
+    "C": "Waiting time",
+    "D": "Response time",
+    "A": "Dispatch latency",
+    "B": "Interrupt latency"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
   },
   "1342": {
    "id": "1342",
@@ -2243,6 +2283,26 @@
    "createdAt": "2026-10-28T05:10:23.035Z",
    "updatedAt": "2026-10-28T05:14:28.749Z"
   },
+  "1361": {
+   "id": "1361",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "When the time quantum (TQ) is very small relative to the context switch time, what are the disadvantages of Round Robin (RR) scheduling?",
+   "hint": "",
+   "options": {
+    "C": "Response time will worsen",
+    "A": "CPU utilization will decrease",
+    "D": "Turnaround time will become extremely long",
+    "B": "System overhead will be very high"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
+  },
   "1362": {
    "id": "1362",
    "subject": "作業系統",
@@ -2387,6 +2447,26 @@
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "1369": {
+   "id": "1369",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "速率單調排程（Rate Monotonic Scheduling）的特性是什麼？",
+   "hint": "",
+   "options": {
+    "D": "僅適用於硬即時系統",
+    "A": "根據週期的倒數來分配優先權",
+    "B": "週期越短的任務優先權越高",
+    "C": "週期越長的任務優先權越低"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
   },
   "1370": {
    "id": "1370",
@@ -2776,6 +2856,21 @@
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:05:12.205Z"
   },
+  "1391": {
+   "id": "1391",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是每單位時間完成執行的程序數量，用於衡量排程演算法的效率。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
+  },
   "1392": {
    "id": "1392",
    "subject": "作業系統",
@@ -2792,6 +2887,38 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1394": {
+   "id": "1394",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿效應是指一個短程序被一個或多個長程序阻塞。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "convoy"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.415Z"
+  },
+  "1395": {
+   "id": "1395",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿排程演算法是最佳的，因為它能給定程序集提供最小的平均等待時間。",
+   "hint": "請用小寫英文回答 字母間用-連接",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
   },
   "1396": {
    "id": "1396",
@@ -3137,6 +3264,21 @@
    "note": "",
    "createdAt": "2026-10-28T05:14:43.699Z",
    "updatedAt": "2026-10-28T05:17:52.859Z"
+  },
+  "1423": {
+   "id": "1423",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Turnaround time is the total time from process submission to＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
   },
   "1424": {
    "id": "1424",
@@ -25301,7 +25443,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:21:30.415Z",
+   "deleted": true,
+   "mergedInto": "1394"
   },
   "t3e7o8d": {
    "id": "t3e7o8d",
@@ -25712,7 +25856,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:21:30.403Z",
+   "deleted": true,
+   "mergedInto": "1328~1qb1fka"
   },
   "t1e13jry": {
    "id": "t1e13jry",
@@ -37718,6 +37864,68 @@
    "source": "text",
    "createdAt": "2026-10-28T05:21:13.268Z",
    "updatedAt": "2026-10-28T05:21:13.268Z"
+  },
+  "1328~1qb1fka": {
+   "id": "1328~1qb1fka",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪一個排程演算法會導致「護航效應」（convoy effect）？",
+   "hint": "",
+   "options": {
+    "C": "優先權排程",
+    "D": "輪轉 (RR)",
+    "B": "先到先服務（FCFS）",
+    "A": "短工作優先（SJF）"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.403Z"
+  },
+  "1331~kfozmk": {
+   "id": "1331~kfozmk",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In priority scheduling, what problem can cause low-priority processes to never execute?",
+   "hint": "",
+   "options": {
+    "C": "Deadlock",
+    "D": "Livelock",
+    "B": "Convoy effect",
+    "A": "Starvation"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
+  },
+  "1366~pl7pzw": {
+   "id": "1366~pl7pzw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the advantages of multicore processors?",
+   "hint": "",
+   "options": {
+    "C": "They can leverage memory stalls for multithreading",
+    "B": "They consume less power",
+    "A": "They are faster",
+    "D": "Each core has its own dedicated memory"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:21:30.394Z",
+   "updatedAt": "2026-10-28T05:21:30.394Z"
   }
  }
 }
