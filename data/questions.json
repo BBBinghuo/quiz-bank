@@ -3652,6 +3652,21 @@
    "createdAt": "2026-10-28T05:05:12.187Z",
    "updatedAt": "2026-10-28T05:09:51.022Z"
   },
+  "1434": {
+   "id": "1434",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Linux的CFS（Completely Fair Scheduler）的目標是提供完全＿＿＿的CPU分配。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:46:26.177Z",
+   "updatedAt": "2026-10-28T05:46:26.177Z"
+  },
   "1435": {
    "id": "1435",
    "subject": "作業系統",
@@ -25802,7 +25817,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:46:26.197Z",
+   "deleted": true,
+   "mergedInto": "1361~1hog5cy"
   },
   "tgz46i8": {
    "id": "tgz46i8",
@@ -39060,6 +39077,49 @@
    "source": "text",
    "createdAt": "2026-10-28T05:45:50.123Z",
    "updatedAt": "2026-10-28T05:45:50.123Z"
+  },
+  "1372~2v29zq": {
+   "id": "1372~2v29zq",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of the O(1) scheduler adopted by Linux in kernel version 2.5?",
+   "hint": "",
+   "options": {
+    "B": "Priority-based",
+    "D": "All tasks are placed in a single queue",
+    "A": "Preemptive",
+    "C": "It has two priority ranges: time-sharing and real-time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:46:26.177Z",
+   "updatedAt": "2026-10-28T05:46:26.177Z"
+  },
+  "1361~1hog5cy": {
+   "id": "1361~1hog5cy",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "當時間片（TQ）相對於上下文切換時間非常小時，迴圈排程（RR）的缺點是什麼？",
+   "hint": "",
+   "options": {
+    "A": "CPU利用率會降低",
+    "C": "響應時間會變差",
+    "B": "系統開銷會很高",
+    "D": "迴轉時間會變得非常長"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:46:26.177Z",
+   "updatedAt": "2026-10-28T05:46:26.197Z"
   }
  }
 }
