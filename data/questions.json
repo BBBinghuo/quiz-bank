@@ -2191,6 +2191,26 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1355": {
+   "id": "1355",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following are optimization goals for scheduling algorithms?",
+   "hint": "",
+   "options": {
+    "A": "Maximize CPU utilization",
+    "D": "Minimize response time",
+    "C": "Maximize throughput",
+    "B": "Minimize turnaround time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:04:36.672Z",
+   "updatedAt": "2026-10-28T06:04:36.672Z"
+  },
   "1356": {
    "id": "1356",
    "subject": "作業系統",
