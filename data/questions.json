@@ -7536,6 +7536,28 @@
    "createdAt": "2026-10-20T14:04:58.408Z",
    "updatedAt": "2026-10-20T14:06:17.897Z"
   },
+  "2468": {
+   "id": "2468",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "一個集合的第 i 個順序統計量（ith order statistic）是指該集合中第幾個小的元素？",
+   "hint": "",
+   "options": {
+    "D": "平均數",
+    "C": "中位數",
+    "A": "第 i 小的元素",
+    "B": "第 i 大的元素"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
   "2470": {
    "id": "2470",
    "subject": "演算法",
@@ -7624,6 +7646,28 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2480": {
+   "id": "2480",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "**********Select 演算法（Deterministic-Select）的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "A": "O(n)",
+    "D": "O(n log n)",
+    "C": "O(log n)",
+    "B": "O(n²)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
   "2483": {
    "id": "2483",
    "subject": "演算法",
@@ -7690,6 +7734,28 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2487": {
+   "id": "2487",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "順序統計量中的 i 是指？",
+   "hint": "",
+   "options": {
+    "D": "比較次數",
+    "B": "陣列的大小",
+    "C": "pivot 的索引",
+    "A": "查詢的排名順序"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
   "2488": {
    "id": "2488",
    "subject": "演算法",
@@ -7712,6 +7778,54 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2489": {
+   "id": "2489",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Randomized-Select 與 Quicksort 的共同點為？",
+   "hint": "",
+   "options": {
+    "B": "皆依賴 pivot",
+    "D": "皆為穩定排序",
+    "C": "皆使用分治法",
+    "A": "皆使用 Partition"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
+  "2490": {
+   "id": "2490",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "下列何者是順序統計量相關的操作？",
+   "hint": "",
+   "options": {
+    "B": "Maximum",
+    "D": "Sorting",
+    "C": "Median",
+    "A": "Minimum"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
   },
   "2491": {
    "id": "2491",
@@ -7855,6 +7969,54 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2503": {
+   "id": "2503",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Select 演算法的優點？",
+   "hint": "",
+   "options": {
+    "C": "比 Randomized-Select 更穩定",
+    "A": "保證線性時間複雜度",
+    "B": "對輸入數據不敏感",
+    "D": "完全不需要 Partition"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
+  "2504": {
+   "id": "2504",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "在中位數計算中，何謂「中位數的中位數」？",
+   "hint": "",
+   "options": {
+    "B": "用於確定性 Select",
+    "D": "一種排序方法",
+    "A": "一種 pivot 選擇策略",
+    "C": "確保分割效果"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
   "2509": {
    "id": "2509",
    "subject": "演算法",
@@ -7872,6 +8034,23 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2511": {
+   "id": "2511",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "中位數是第＿＿＿個順序統計量",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "n/2"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
   "2513": {
    "id": "2513",
    "subject": "演算法",
@@ -7888,6 +8067,25 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2515": {
+   "id": "2515",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "中位數選擇法（Median Order / Quickselect）\n假設我們有以下 18 個未排序的整數：\n42, 17, 89, 8, 55, 23, 71, 94, 12, 63, 31, 76, 5, 50, 82, 29, 66, 37\n當他進行第一輪分割後\n選中的基準值 (Pivot) 為何  ＿＿＿\n比基準值 (Pivot) 大的有幾個  ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "63",
+    "6"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
   },
   "2517": {
    "id": "2517",
@@ -7961,6 +8159,23 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2523": {
+   "id": "2523",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "順序統計量(order statistic)演算法中，＿＿＿的作用與 Quicksort 相同",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "partition"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T01:44:08.196Z",
+   "updatedAt": "2026-10-28T01:44:08.220Z"
   },
   "2526": {
    "id": "2526",
