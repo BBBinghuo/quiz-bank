@@ -1713,10 +1713,12 @@
     "B": "Shortest-Job-First (SJF)",
     "C": "First-Come, First-Served (FCFS)"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1335": {
    "id": "1335",
@@ -1733,10 +1735,12 @@
     "A": "A process can move between the queues",
     "D": "The background queue always has a higher priority than the foreground queue"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1337": {
    "id": "1337",
@@ -1797,10 +1801,12 @@
     "C": "It is limited to single-core systems",
     "D": "It provides priority boosting"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1343": {
    "id": "1343",
@@ -2140,10 +2146,14 @@
     "D": "The type of process (CPU-bound or I/O-bound)",
     "A": "The size of the time quantum (q)"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1362": {
    "id": "1362",
@@ -2233,10 +2243,13 @@
     "C": "處理器親和性（Processor affinity）",
     "D": "對稱多處理 (SMP)"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1370": {
    "id": "1370",
@@ -2717,10 +2730,12 @@
    "text": "＿＿＿排程是根據週期的倒數來分配優先權的演算法。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "rate monotonic scheduling"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1409": {
    "id": "1409",
@@ -36837,10 +36852,15 @@
     "A": "使用基於優先權的搶佔式排程",
     "C": "對應每個優先權等級有一個佇列"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1382~ka44dv": {
    "id": "1382~ka44dv",
@@ -36857,10 +36877,14 @@
     "A": "高成本",
     "C": "在不同環境中結果可能不同"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1348~rjswms": {
    "id": "1348~rjswms",
@@ -36877,10 +36901,12 @@
     "B": "平均到達率",
     "C": "平均等待時間"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1356~ks931o": {
    "id": "1356~ks931o",
@@ -36897,10 +36923,13 @@
     "A": "Simple and easy to understand",
     "D": "It is suitable for real-time systems"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
-   "updatedAt": "2026-10-28T05:10:23.035Z"
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   },
   "1359~1hdz2l9": {
    "id": "1359~1hdz2l9",
@@ -36926,6 +36955,71 @@
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
    "updatedAt": "2026-10-28T05:10:23.063Z"
+  },
+  "tgxmr9w": {
+   "id": "tgxmr9w",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在非搶佔式排程(no-preemption)中，一旦CPU被分配給一個程序，該程序會持續運行直到它 ＿＿＿ 或 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "terminated",
+    "released"
+   ],
+   "lines": [
+    "terminated/released"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:14:28.749Z",
+   "updatedAt": "2026-10-28T05:14:28.749Z"
+  },
+  "tk4rpl2": {
+   "id": "tk4rpl2",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在POSIX即時排程中，哪種排程策略與SCHED_FIFO相似，但對相同優先權的執行緒有時間分片？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SCHED_RR"
+   ],
+   "lines": [
+    "SCHED_RR"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:14:28.749Z",
+   "updatedAt": "2026-10-28T05:14:28.749Z"
+  },
+  "t1d4ig2z": {
+   "id": "t1d4ig2z",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The goal of CPU scheduling is to maximize CPU utilization in a ＿＿＿ system.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "multiprogramming"
+   ],
+   "lines": [
+    "multiprogramming"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:14:28.749Z",
+   "updatedAt": "2026-10-28T05:14:28.749Z"
   }
  }
 }
