@@ -1786,6 +1786,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1340": {
+   "id": "1340",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "硬即時系統（Hard real-time systems）的關鍵特性是什麼？",
+   "hint": "",
+   "options": {
+    "D": "任務可以被中斷",
+    "B": "不保證排程時間",
+    "C": "任務必須在截止時間內完成",
+    "A": "提供排程的保證"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
   "1342": {
    "id": "1342",
    "subject": "作業系統",
@@ -2082,6 +2102,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1357": {
+   "id": "1357",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "短工作優先（SJF）排程的優點包含哪些？",
+   "hint": "",
+   "options": {
+    "B": "易於實現",
+    "D": "可以預測下一個 CPU burst 的長度",
+    "A": "給定程序集的最小平均等待時間",
+    "C": "適合即時系統"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
   "1358": {
    "id": "1358",
    "subject": "作業系統",
@@ -2250,6 +2290,46 @@
    "note": "",
    "createdAt": "2026-10-28T05:10:23.035Z",
    "updatedAt": "2026-10-28T05:14:28.749Z"
+  },
+  "1366": {
+   "id": "1366",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "多核心處理器的優點是什麼？",
+   "hint": "",
+   "options": {
+    "A": "更快",
+    "B": "消耗更少電力",
+    "D": "每個核心都有自己的專用內存",
+    "C": "可以利用記憶體停頓來進行多執行緒"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
+  "1367": {
+   "id": "1367",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What challenges does real-time CPU scheduling face?",
+   "hint": "",
+   "options": {
+    "D": "Dispatch latency can affect performance",
+    "B": "Tasks in hard real-time systems must be completed within their deadline",
+    "A": "Soft real-time systems have no scheduling guarantee",
+    "C": "Interrupt latency can affect performance"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
   },
   "1370": {
    "id": "1370",
@@ -2516,6 +2596,51 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1386": {
+   "id": "1386",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the potential problems with scheduling in a virtualization environment?",
+   "hint": "",
+   "options": {
+    "D": "Virtual machines cannot perform CPU-intensive tasks",
+    "C": "It can undo the efforts of a good scheduling algorithm in the guest",
+    "B": "It can affect the time-of-day clocks in guests",
+    "A": "It can lead to poor response time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
+  "1387": {
+   "id": "1387",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Proportional Share Scheduling (比例共享排程) 的特性包含什麼？",
+   "hint": "",
+   "options": {
+    "C": "確保每個應用程式接收到總處理器時間的N/T",
+    "D": "這是一種動態優先權演算法",
+    "B": "每個應用程式接收N份，其中N < T",
+    "A": "將T份CPU時間分配給所有程序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.708Z"
+  },
   "1388": {
    "id": "1388",
    "subject": "作業系統",
@@ -2618,6 +2743,21 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1398": {
+   "id": "1398",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In the Round Robin (RR) algorithm, the unit of a small amount of CPU time given to each process is called a＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
   "1399": {
    "id": "1399",
    "subject": "作業系統",
@@ -2668,6 +2808,23 @@
    "note": "",
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
+  },
+  "1402": {
+   "id": "1402",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In multiple-processor scheduling,＿＿＿is where only one processor accesses the system data structures, alleviating the need for data sharing.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "asymmetric multiprocessing"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.729Z"
   },
   "1403": {
    "id": "1403",
@@ -2858,6 +3015,22 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1421": {
+   "id": "1421",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "CPU排程的準則包括CPU利用率、吞吐量、＿＿＿時間、＿＿＿時間和＿＿＿時間。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "blanks": 3,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
   "1424": {
    "id": "1424",
    "subject": "作業系統",
@@ -2942,6 +3115,38 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1430": {
+   "id": "1430",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿allows processes to move between different queues based on the length of time for which they have been serviced.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
+  "1431": {
+   "id": "1431",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在對稱多處理（SMP）中，每個處理器都＿＿＿地進行排程。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "independent"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.713Z"
   },
   "1432": {
    "id": "1432",
@@ -24779,7 +24984,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T18:54:41.553Z"
+   "updatedAt": "2026-10-28T05:14:43.719Z",
+   "deleted": true,
+   "mergedInto": "1334~1rislwa"
   },
   "t1vs85mb": {
    "id": "t1vs85mb",
@@ -25469,7 +25676,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:14:43.729Z",
+   "deleted": true,
+   "mergedInto": "1402"
   },
   "t1l6cee0": {
    "id": "t1l6cee0",
@@ -25838,7 +26047,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:14:43.708Z",
+   "deleted": true,
+   "mergedInto": "1387"
   },
   "t1mwgvr9": {
    "id": "t1mwgvr9",
@@ -25943,7 +26154,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:14:43.713Z",
+   "deleted": true,
+   "mergedInto": "1431"
   },
   "tjcva97": {
    "id": "tjcva97",
@@ -34632,7 +34845,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-21T06:54:53.717Z",
-   "updatedAt": "2026-10-21T06:54:53.717Z"
+   "updatedAt": "2026-10-28T05:14:43.733Z",
+   "deleted": true,
+   "mergedInto": "1339~qxvohk"
   },
   "tav1ozv": {
    "id": "tav1ozv",
@@ -37020,6 +37235,90 @@
    "source": "text",
    "createdAt": "2026-10-28T05:14:28.749Z",
    "updatedAt": "2026-10-28T05:14:28.749Z"
+  },
+  "1354~ke20qw": {
+   "id": "1354~ke20qw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是衡量CPU排程演算法的準則？",
+   "hint": "",
+   "options": {
+    "C": "周轉時間",
+    "D": "等待時間",
+    "A": "CPU利用率",
+    "B": "吞吐量"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
+  "1334~1rislwa": {
+   "id": "1334~1rislwa",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當迴圈排程（RR）中的時間片（q）非常大時，該演算法的行為會趨近於哪種排程？",
+   "hint": "",
+   "options": {
+    "B": "短工作優先（SJF）",
+    "A": "優先權排程",
+    "D": "多級隊列(Multilevel queue)",
+    "C": "先到先服務（FCFS）"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.719Z"
+  },
+  "1335~1qrriga": {
+   "id": "1335~1qrriga",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在多層級佇列（Multilevel Queue）排程中，下列哪一項敘述是正確的？",
+   "hint": "",
+   "options": {
+    "D": "背景佇列的優先權始終高於前景佇列",
+    "C": "前景佇列通常使用迴圈排程",
+    "A": "程序可以在佇列之間移動",
+    "B": "所有佇列都使用相同的排程演算法"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.699Z"
+  },
+  "1339~qxvohk": {
+   "id": "1339~qxvohk",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In multicore processors, what technique takes advantage of memory stall to make progress on another thread?",
+   "hint": "",
+   "options": {
+    "A": "Load balancing",
+    "D": "Preemptive scheduling",
+    "C": "Multithreaded multicore system",
+    "B": "Core affinity"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:14:43.699Z",
+   "updatedAt": "2026-10-28T05:14:43.733Z"
   }
  }
 }
