@@ -25663,7 +25663,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T18:54:41.553Z"
+   "updatedAt": "2026-10-28T05:59:57.303Z",
+   "deleted": true,
+   "mergedInto": "1383~p2pzew"
   },
   "ttf0tod": {
    "id": "ttf0tod",
@@ -39321,6 +39323,30 @@
    "source": "text",
    "createdAt": "2026-10-28T05:52:39.083Z",
    "updatedAt": "2026-10-28T05:52:39.083Z"
+  },
+  "1383~p2pzew": {
+   "id": "1383~p2pzew",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在Linux系統中，nice 值如何影響排程？",
+   "hint": "",
+   "options": {
+    "B": "數值越高代表優先權越高",
+    "A": "數值越低代表優先權越高",
+    "C": "-20的nice值對應最高的優先權",
+    "D": "nice 值 +19 對應最低優先權"
+   },
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:59:57.272Z",
+   "updatedAt": "2026-10-28T05:59:57.303Z"
   }
  }
 }
