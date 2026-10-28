@@ -8731,6 +8731,21 @@
    "createdAt": "2026-10-28T01:54:12.083Z",
    "updatedAt": "2026-10-28T01:57:20.740Z"
   },
+  "2525": {
+   "id": "2525",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Randomized-Select 演算法在＿＿＿情況下表現最快",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T02:09:05.451Z",
+   "updatedAt": "2026-10-28T02:09:05.451Z"
+  },
   "2526": {
    "id": "2526",
    "subject": "演算法",
