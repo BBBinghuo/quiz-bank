@@ -7646,6 +7646,26 @@
    "createdAt": "2026-10-28T01:48:19.259Z",
    "updatedAt": "2026-10-28T01:51:43.813Z"
   },
+  "2473": {
+   "id": "2473",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Randomized-Select 演算法是基於哪種排序演算法的變形？",
+   "hint": "",
+   "options": {
+    "C": "Merge Sort",
+    "D": "Insertion Sort",
+    "A": "Quicksort",
+    "B": "Heapsort"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T02:02:02.019Z",
+   "updatedAt": "2026-10-28T02:02:02.019Z"
+  },
   "2474": {
    "id": "2474",
    "subject": "演算法",
@@ -8143,6 +8163,26 @@
    "note": "",
    "createdAt": "2026-10-28T01:48:07.611Z",
    "updatedAt": "2026-10-28T01:48:07.635Z"
+  },
+  "2497": {
+   "id": "2497",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Randomized-Select 最壞情況的發生條件？",
+   "hint": "",
+   "options": {
+    "B": "陣列已幾乎排序完成",
+    "A": "pivot 總選擇到最大值或最小值",
+    "C": "陣列元素全部相同",
+    "D": "pivot 總選擇到中位數"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T02:02:02.019Z",
+   "updatedAt": "2026-10-28T02:02:02.019Z"
   },
   "2498": {
    "id": "2498",
