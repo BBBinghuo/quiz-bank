@@ -38928,7 +38928,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-28T05:42:59.634Z",
-   "updatedAt": "2026-10-28T05:42:59.634Z"
+   "updatedAt": "2026-10-28T06:18:22.926Z",
+   "deleted": true,
+   "mergedInto": "1350~et2d30"
   },
   "thqp8nt": {
    "id": "thqp8nt",
@@ -39708,6 +39710,28 @@
    "note": "",
    "createdAt": "2026-10-28T06:16:22.111Z",
    "updatedAt": "2026-10-28T06:18:10.513Z"
+  },
+  "1350~et2d30": {
+   "id": "1350~et2d30",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "築基中期",
+   "type": "single",
+   "text": "In Windows scheduling, what feature allows applications to create and manage threads independently of the kernel?",
+   "hint": "",
+   "options": {
+    "C": "User-mode scheduling (UMS)",
+    "A": "Multilevel queue",
+    "D": "Processor affinity",
+    "B": "Completely Fair Scheduler"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T06:18:22.903Z",
+   "updatedAt": "2026-10-28T06:18:22.926Z"
   }
  }
 }
