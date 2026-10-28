@@ -8157,10 +8157,14 @@
     "C": "確保 pivot 選擇品質",
     "B": "遞迴地求解"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T02:05:25.259Z",
-   "updatedAt": "2026-10-28T02:05:25.259Z"
+   "updatedAt": "2026-10-28T02:08:43.237Z"
   },
   "2496": {
    "id": "2496",
@@ -36145,6 +36149,28 @@
     "vruntime"
    ],
    "id": "goumw3x"
+  },
+  "t1phishb": {
+   "id": "t1phishb",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "根據課本的例子，考慮以下的 Median of Medians 的遞迴關係式\n\nT(n) = O(1), if  n < 140\nT(n) = T(⌈n/5⌉) + ＿＿＿ + ＿＿＿ , if  n >= 140",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "T(7n/10+6)/O(n)"
+   ],
+   "lines": [
+    "T(7n/10+6)/O(n)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T02:08:43.237Z",
+   "updatedAt": "2026-10-28T02:08:43.237Z"
   }
  }
 }
