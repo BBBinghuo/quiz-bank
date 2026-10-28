@@ -1742,6 +1742,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1343": {
+   "id": "1343",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In POSIX real-time scheduling, which scheduling policy is similar to SCHED_FIFO but includes time-slicing for threads of equal priority?",
+   "hint": "",
+   "options": {
+    "B": "SCHED_OTHER",
+    "D": "SCHED_BATCH",
+    "C": "SCHED_REALTIME",
+    "A": "SCHED_RR"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
   "1345": {
    "id": "1345",
    "subject": "作業系統",
@@ -1764,6 +1784,68 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:00.660Z"
   },
+  "1346": {
+   "id": "1346",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在Windows系統中，當一個執行緒的時限（quantum）用完後，它的優先權會如何？",
+   "hint": "",
+   "options": {
+    "A": "提升",
+    "B": "降低",
+    "D": "隨機變化",
+    "C": "保持不變"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1347": {
+   "id": "1347",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在Solaris作業系統中，預設的排程類別是什麼？",
+   "hint": "",
+   "options": {
+    "A": "即時（Real Time）",
+    "D": "系統(System)",
+    "C": "時程共享（Time Sharing）",
+    "B": "互動式（Interactive）"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.206Z"
+  },
+  "1348": {
+   "id": "1348",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In Little's Formula (n = λ x W), what does n represent?",
+   "hint": "",
+   "options": {
+    "B": "Average arrival rate",
+    "A": "Average queue length",
+    "C": "Average waiting time",
+    "D": "Average service time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
   "1349": {
    "id": "1349",
    "subject": "作業系統",
@@ -1785,6 +1867,51 @@
    "note": "",
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
+  },
+  "1350": {
+   "id": "1350",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在Windows排程中，哪個功能允許應用程式獨立於核心來創建和管理執行緒？",
+   "hint": "",
+   "options": {
+    "B": "完全公平排程器",
+    "C": "使用者模式排程（UMS）",
+    "D": "處理器親和性",
+    "A": "多層級佇列"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1351": {
+   "id": "1351",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "CPU排程的決策通常發生在下列哪些情況？",
+   "hint": "",
+   "options": {
+    "A": "程序從執行中狀態切換到等待中狀態",
+    "D": "行程終止",
+    "C": "程序從等待中狀態切換到就緒狀態",
+    "B": "程序從執行中狀態切換到就緒狀態"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.229Z"
   },
   "1352": {
    "id": "1352",
@@ -1978,6 +2105,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1364": {
+   "id": "1364",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the defining parameters of a Multilevel Feedback Queue scheduler?",
+   "hint": "",
+   "options": {
+    "D": "The method used to determine which queue a process will enter",
+    "B": "The scheduling algorithm for each queue",
+    "A": "The number of queues",
+    "C": "The method used to upgrade and demote a process"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
   "1370": {
    "id": "1370",
    "subject": "作業系統",
@@ -2100,6 +2247,31 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1378": {
+   "id": "1378",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在排程演算法評估中，有哪些方法可以被用來評估演算法？",
+   "hint": "",
+   "options": {
+    "B": "佇列模型",
+    "C": "模擬",
+    "D": "實作",
+    "A": "確定性建模"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.215Z"
+  },
   "1379": {
    "id": "1379",
    "subject": "作業系統",
@@ -2147,6 +2319,26 @@
    "note": "",
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:00.654Z"
+  },
+  "1382": {
+   "id": "1382",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the disadvantages of implementing a new scheduler?",
+   "hint": "",
+   "options": {
+    "C": "Results may vary in different environments",
+    "D": "Lack of flexibility",
+    "B": "High risk",
+    "A": "High cost"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
   },
   "1383": {
    "id": "1383",
@@ -2227,6 +2419,23 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1390": {
+   "id": "1390",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "分派器（Dispatcher）模組的工作包含將CPU控制權交給排程器所選擇的程序，這涉及＿＿＿、切換到使用者模式，以及跳轉到使用者程式的適當位置。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "context switch"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.205Z"
   },
   "1392": {
    "id": "1392",
@@ -2330,6 +2539,38 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1403": {
+   "id": "1403",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在對稱多處理（SMP）系統中，＿＿＿是一種週期性任務，檢查每個處理器的負載，並將任務從過載的CPU推送到其他CPU。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1405": {
+   "id": "1405",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是在即時系統中，排程器將當前程序從CPU上移除並切換到另一個程序所需的時間。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "dispatch latency"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.216Z"
+  },
   "1409": {
    "id": "1409",
    "subject": "作業系統",
@@ -2414,6 +2655,21 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1418": {
+   "id": "1418",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "CPU 排程的目的是在＿＿＿系統中最大化CPU利用率。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
   },
   "1420": {
    "id": "1420",
@@ -2518,6 +2774,36 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1432": {
+   "id": "1432",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "CPU＿＿＿是指將一個程序保持在同一處理器上執行的傾向。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1433": {
+   "id": "1433",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "硬即時系統(hard realtime syste,)的排程必須保證在＿＿＿時間內完成任務。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
   },
   "1436": {
    "id": "1436",
@@ -23971,7 +24257,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:20:37.716Z",
-   "updatedAt": "2026-10-23T18:54:41.553Z"
+   "updatedAt": "2026-10-28T05:05:12.216Z",
+   "deleted": true,
+   "mergedInto": "1405"
   },
   "t1m9250o": {
    "id": "t1m9250o",
@@ -24705,7 +24993,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:05:12.215Z",
+   "deleted": true,
+   "mergedInto": "1378"
   },
   "t175d5c": {
    "id": "t175d5c",
@@ -24982,7 +25272,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:05:12.205Z",
+   "deleted": true,
+   "mergedInto": "1390"
   },
   "t1tryqy9": {
    "id": "t1tryqy9",
@@ -25024,7 +25316,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:02.460Z",
-   "updatedAt": "2026-10-20T01:22:02.460Z"
+   "updatedAt": "2026-10-28T05:05:12.229Z",
+   "deleted": true,
+   "mergedInto": "1351"
   },
   "t13fa38n": {
    "id": "t13fa38n",
@@ -25108,7 +25402,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:05:12.206Z",
+   "deleted": true,
+   "mergedInto": "1347"
   },
   "tqnrfom": {
    "id": "tqnrfom",
@@ -36205,6 +36501,106 @@
    "source": "text",
    "createdAt": "2026-10-28T02:08:43.237Z",
    "updatedAt": "2026-10-28T02:08:43.237Z"
+  },
+  "1370~kbfas9": {
+   "id": "1370~kbfas9",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the characteristics of Earliest Deadline First (EDF) Scheduling?",
+   "hint": "",
+   "options": {
+    "A": "The earlier the deadline, the higher the priority",
+    "C": "The later the deadline, the lower the priority",
+    "D": "It is a dynamic priority algorithm",
+    "B": "It is a static priority algorithm"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1353~1r3imkg": {
+   "id": "1353~1r3imkg",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following tasks are involved in the Dispatcher module?",
+   "hint": "",
+   "options": {
+    "D": "Selecting the next process to run",
+    "A": "Switching context",
+    "B": "Switching to user mode",
+    "C": "Jumping to the proper location in the user program to restart that program"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1379~11xobx0": {
+   "id": "1379~11xobx0",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "佇列模型（Queueing models）通常用來計算哪些平均值？",
+   "hint": "",
+   "options": {
+    "C": "平均等待時間",
+    "D": "平均 CPU 突發時間",
+    "A": "平均吞吐量",
+    "B": "平均利用率"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1337~14xda3": {
+   "id": "1337~14xda3",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In a multiprocessor system, which approach involves only one processor accessing the system data structures?",
+   "hint": "",
+   "options": {
+    "C": "Load balancing",
+    "A": "Symmetric multiprocessing (SMP)",
+    "B": "Asymmetric multiprocessing",
+    "D": "Processor affinity"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
+  },
+  "1325~ul25ge": {
+   "id": "1325~ul25ge",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following is a task of the Dispatcher?",
+   "hint": "",
+   "options": {
+    "C": "Giving control of the CPU to the process selected by the scheduler",
+    "A": "Removing a process from the ready queue",
+    "D": "Transitioning a process from a waiting to a ready state",
+    "B": "Sending an interrupt to a process"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:05:12.187Z",
+   "updatedAt": "2026-10-28T05:05:12.187Z"
   }
  }
 }
