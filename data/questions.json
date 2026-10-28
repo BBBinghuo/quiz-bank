@@ -7646,6 +7646,26 @@
    "createdAt": "2026-10-28T01:48:19.259Z",
    "updatedAt": "2026-10-28T01:51:43.813Z"
   },
+  "2474": {
+   "id": "2474",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Randomized-Select 的平均時間複雜度為？",
+   "hint": "",
+   "options": {
+    "C": "O(log n)",
+    "D": "O(n log n)",
+    "B": "O(n²)",
+    "A": "O(n)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:57:47.859Z",
+   "updatedAt": "2026-10-28T01:57:47.859Z"
+  },
   "2475": {
    "id": "2475",
    "subject": "演算法",
@@ -8336,6 +8356,26 @@
    "createdAt": "2026-10-28T01:54:12.083Z",
    "updatedAt": "2026-10-28T01:57:20.740Z"
   },
+  "2507": {
+   "id": "2507",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Select 演算法中的 Partition 操作？",
+   "hint": "",
+   "options": {
+    "C": "重新排列元素",
+    "D": "改變陣列大小",
+    "B": "回傳 pivot 的索引",
+    "A": "與 Quicksort 中的類似"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:57:47.859Z",
+   "updatedAt": "2026-10-28T01:57:47.859Z"
+  },
   "2509": {
    "id": "2509",
    "subject": "演算法",
@@ -8531,6 +8571,21 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2521": {
+   "id": "2521",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 partition 操作中，pivot 最終歸位於＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:57:47.859Z",
+   "updatedAt": "2026-10-28T01:57:47.859Z"
   },
   "2522": {
    "id": "2522",
