@@ -2816,6 +2816,30 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1384": {
+   "id": "1384",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在Windows系統中，什麼是「執行緒」終止運行的原因？",
+   "hint": "",
+   "options": {
+    "B": "執行緒用完其時間片",
+    "A": "執行緒被阻塞",
+    "C": "執行緒被更高優先權的執行緒搶佔",
+    "D": "執行緒會被核心踢出"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:31:22.873Z",
+   "updatedAt": "2026-10-28T05:31:22.888Z"
+  },
   "1385": {
    "id": "1385",
    "subject": "作業系統",
@@ -3260,6 +3284,23 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1413": {
+   "id": "1413",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿is a method for evaluating schedulers that involves creating a programmed model of a computer system and is more accurate than queueing models.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "simulations"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:31:22.873Z",
+   "updatedAt": "2026-10-28T05:31:22.903Z"
   },
   "1414": {
    "id": "1414",
@@ -26239,7 +26280,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:31:22.888Z",
+   "deleted": true,
+   "mergedInto": "1384"
   },
   "ty9mo5n": {
    "id": "ty9mo5n",
@@ -26390,7 +26433,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z"
+   "updatedAt": "2026-10-28T05:31:22.903Z",
+   "deleted": true,
+   "mergedInto": "1413"
   },
   "t9wwd5k": {
    "id": "t9wwd5k",
