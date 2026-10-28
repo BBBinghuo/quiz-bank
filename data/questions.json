@@ -1757,10 +1757,12 @@
     "C": "SCHED_REALTIME",
     "A": "SCHED_RR"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1345": {
    "id": "1345",
@@ -1799,10 +1801,12 @@
     "D": "隨機變化",
     "C": "保持不變"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1347": {
    "id": "1347",
@@ -1841,10 +1845,12 @@
     "C": "Average waiting time",
     "D": "Average service time"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1349": {
    "id": "1349",
@@ -1883,10 +1889,12 @@
     "D": "處理器親和性",
     "A": "多層級佇列"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1351": {
    "id": "1351",
@@ -2120,10 +2128,15 @@
     "A": "The number of queues",
     "C": "The method used to upgrade and demote a process"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1370": {
    "id": "1370",
@@ -2335,10 +2348,14 @@
     "B": "High risk",
     "A": "High cost"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1383": {
    "id": "1383",
@@ -2549,10 +2566,12 @@
    "text": "在對稱多處理（SMP）系統中，＿＿＿是一種週期性任務，檢查每個處理器的負載，並將任務從過載的CPU推送到其他CPU。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "push migration"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1405": {
    "id": "1405",
@@ -2666,10 +2685,12 @@
    "text": "CPU 排程的目的是在＿＿＿系統中最大化CPU利用率。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "multiprogramming"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1420": {
    "id": "1420",
@@ -2785,10 +2806,12 @@
    "text": "CPU＿＿＿是指將一個程序保持在同一處理器上執行的傾向。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "affinity"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1433": {
    "id": "1433",
@@ -2800,10 +2823,12 @@
    "text": "硬即時系統(hard realtime syste,)的排程必須保證在＿＿＿時間內完成任務。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "deadline"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1436": {
    "id": "1436",
@@ -34474,10 +34499,8 @@
    ],
    "note": "",
    "source": "text",
-   "createdAt": "2026-10-21T06:54:53.717Z",
-   "updatedAt": "2026-10-23T12:54:40.247Z",
-   "deleted": true,
-   "mergedInto": "ttf0tod"
+   "createdAt": "2026-10-28T05:09:51.022Z",
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "2875@演算法": {
    "id": "2875@演算法",
@@ -36517,10 +36540,14 @@
     "D": "It is a dynamic priority algorithm",
     "B": "It is a static priority algorithm"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1353~1r3imkg": {
    "id": "1353~1r3imkg",
@@ -36537,10 +36564,14 @@
     "B": "Switching to user mode",
     "C": "Jumping to the proper location in the user program to restart that program"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1379~11xobx0": {
    "id": "1379~11xobx0",
@@ -36557,10 +36588,14 @@
     "A": "平均吞吐量",
     "B": "平均利用率"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1337~14xda3": {
    "id": "1337~14xda3",
@@ -36577,10 +36612,12 @@
     "B": "Asymmetric multiprocessing",
     "D": "Processor affinity"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   },
   "1325~ul25ge": {
    "id": "1325~ul25ge",
@@ -36597,10 +36634,33 @@
     "D": "Transitioning a process from a waiting to a ready state",
     "B": "Sending an interrupt to a process"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:05:12.187Z",
-   "updatedAt": "2026-10-28T05:05:12.187Z"
+   "updatedAt": "2026-10-28T05:09:51.022Z"
+  },
+  "t13p6356": {
+   "id": "t13p6356",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Response time is the time from request submission to the first ＿＿＿ produced.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "response"
+   ],
+   "lines": [
+    "response"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:09:51.022Z",
+   "updatedAt": "2026-10-28T05:09:51.022Z"
   }
  }
 }
