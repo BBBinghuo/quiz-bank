@@ -2660,10 +2660,14 @@
     "D": "IDLE_PRIORITY_CLASS",
     "C": "NORMAL_PRIORITY_CLASS"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:50:00.889Z",
-   "updatedAt": "2026-10-28T05:50:00.889Z"
+   "updatedAt": "2026-10-28T05:52:39.083Z"
   },
   "1376": {
    "id": "1376",
@@ -3303,10 +3307,12 @@
    "text": "After Linux kernel version 2.6.23, the scheduler picks the next task to run based on the lowest＿＿＿value.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "vruntime"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:50:00.889Z",
-   "updatedAt": "2026-10-28T05:50:00.889Z"
+   "updatedAt": "2026-10-28T05:52:39.083Z"
   },
   "1411": {
    "id": "1411",
@@ -39267,10 +39273,54 @@
     "C": "It selects one randomly",
     "D": "It selects based on their creation time"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:50:00.889Z",
-   "updatedAt": "2026-10-28T05:50:00.889Z"
+   "updatedAt": "2026-10-28T05:52:39.083Z"
+  },
+  "t11h4uds": {
+   "id": "t11h4uds",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In a symmetric multiprocessing (SMP) system, ＿＿＿ is a periodic task that checks the load on each processor and pushes tasks from overloaded CPUs to other CPUs.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "push migration"
+   ],
+   "lines": [
+    "push migration"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:52:39.083Z",
+   "updatedAt": "2026-10-28T05:52:39.083Z"
+  },
+  "t9tonxl": {
+   "id": "t9tonxl",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a scheduling algorithm where a priority is assigned based on the inverse of its period.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "rate monotonic scheduling"
+   ],
+   "lines": [
+    "rate monotonic scheduling"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:52:39.083Z",
+   "updatedAt": "2026-10-28T05:52:39.083Z"
   }
  }
 }
