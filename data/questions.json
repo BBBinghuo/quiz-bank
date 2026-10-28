@@ -2645,6 +2645,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1375": {
+   "id": "1375",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In Windows, which of the following are Variable priority classes?",
+   "hint": "",
+   "options": {
+    "B": "HIGH_PRIORITY_CLASS",
+    "A": "REALTIME_PRIORITY_CLASS",
+    "D": "IDLE_PRIORITY_CLASS",
+    "C": "NORMAL_PRIORITY_CLASS"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:50:00.889Z",
+   "updatedAt": "2026-10-28T05:50:00.889Z"
+  },
   "1376": {
    "id": "1376",
    "subject": "作業系統",
@@ -3272,6 +3292,21 @@
    "note": "",
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
+  },
+  "1410": {
+   "id": "1410",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "After Linux kernel version 2.6.23, the scheduler picks the next task to run based on the lowest＿＿＿value.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:50:00.889Z",
+   "updatedAt": "2026-10-28T05:50:00.889Z"
   },
   "1411": {
    "id": "1411",
@@ -26564,7 +26599,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T05:50:00.912Z",
+   "deleted": true,
+   "mergedInto": "1336~kmtk3z"
   },
   "tnnfj8l": {
    "id": "tnnfj8l",
@@ -39192,6 +39229,48 @@
    "source": "text",
    "createdAt": "2026-10-28T05:49:05.843Z",
    "updatedAt": "2026-10-28T05:49:05.843Z"
+  },
+  "1336~kmtk3z": {
+   "id": "1336~kmtk3z",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "How is aging implemented in Multilevel Feedback Queue scheduling?",
+   "hint": "",
+   "options": {
+    "D": "By giving each process a fixed time quantum",
+    "A": "By reducing the number of queues for a process",
+    "C": "By allowing a process to move between queues",
+    "B": "By increasing the waiting time"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T05:50:00.889Z",
+   "updatedAt": "2026-10-28T05:50:00.912Z"
+  },
+  "1385~1t18t7v": {
+   "id": "1385~1t18t7v",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In Solaris scheduling, how does the scheduler handle multiple threads with the same highest priority?",
+   "hint": "",
+   "options": {
+    "B": "It uses Round Robin scheduling",
+    "A": "It uses preemptive scheduling",
+    "C": "It selects one randomly",
+    "D": "It selects based on their creation time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T05:50:00.889Z",
+   "updatedAt": "2026-10-28T05:50:00.889Z"
   }
  }
 }
