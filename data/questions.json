@@ -3288,10 +3288,12 @@
    "text": "＿＿＿是 Windows 7 中引入的一項功能，允許應用程式獨立於核心來創建和管理執行緒。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "user mode scheduling"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:26:58.778Z",
-   "updatedAt": "2026-10-28T05:26:58.778Z"
+   "updatedAt": "2026-10-28T05:29:17.444Z"
   },
   "1416": {
    "id": "1416",
@@ -38355,10 +38357,140 @@
     "B": "Priority is based on the nice value",
     "C": "It maintains a per-task virtual run time (vruntime)"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:26:58.778Z",
-   "updatedAt": "2026-10-28T05:26:58.778Z"
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "tngenm5": {
+   "id": "tngenm5",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In Symmetric Multiprocessing (SMP), each processor ＿＿＿ schedules itself.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "independent"
+   ],
+   "lines": [
+    "independent"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "takhwak": {
+   "id": "takhwak",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在多處理器排程中， ＿＿＿ 是指只有一個處理器存取系統資料結構，從而避免了資料共享的需求。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "asymmetric multiprocessing"
+   ],
+   "lines": [
+    "asymmetric multiprocessing"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "t1jxz8u8": {
+   "id": "t1jxz8u8",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The dispatcher module gives control of the CPU to the process selected by the scheduler, which involves ＿＿＿ , switching to user mode, and jumping to the proper location in the user program.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "context switch"
+   ],
+   "lines": [
+    "context switch"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "t8h8opw": {
+   "id": "t8h8opw",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "When the time quantum (q) is very large relative to the context switch time, the Round Robin (RR) algorithm's behavior approaches ＿＿＿ .(Please answer using lowercase English letters; connect related letters with a hyphen and separate unrelated letters with a space.)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "first-come first-served"
+   ],
+   "lines": [
+    "first-come first-served"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "t1auc50r": {
+   "id": "t1auc50r",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "周轉時間是從程序提交到 ＿＿＿ 的總時間。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "terminated"
+   ],
+   "lines": [
+    "terminated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
+  },
+  "t4a9jn": {
+   "id": "t4a9jn",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 排程演算法可能導致護航效應，即所有其他程序都等待一個長程序完成。",
+   "hint": "請用英文縮寫回答 且用大寫字母",
+   "options": {},
+   "answer": [
+    "FCFS"
+   ],
+   "lines": [
+    "FCFS"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:29:17.444Z",
+   "updatedAt": "2026-10-28T05:29:17.444Z"
   }
  }
 }
