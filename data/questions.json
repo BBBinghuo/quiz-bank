@@ -26745,7 +26745,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T06:09:25.451Z",
+   "deleted": true,
+   "mergedInto": "1351~17vpn68"
   },
   "t1qdgxc9": {
    "id": "t1qdgxc9",
@@ -39485,6 +39487,31 @@
    "note": "",
    "createdAt": "2026-10-28T06:06:34.386Z",
    "updatedAt": "2026-10-28T06:08:16.977Z"
+  },
+  "1351~17vpn68": {
+   "id": "1351~17vpn68",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "CPU scheduling decisions typically take place under which of the following circumstances?",
+   "hint": "",
+   "options": {
+    "B": "A process switches from the running to the ready state",
+    "D": "A process terminates",
+    "A": "A process switches from the running to the waiting state",
+    "C": "A process switches from the waiting to the ready state"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T06:09:25.431Z",
+   "updatedAt": "2026-10-28T06:09:25.451Z"
   }
  }
 }
