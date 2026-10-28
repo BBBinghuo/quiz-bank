@@ -7624,6 +7624,26 @@
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
   },
+  "2472": {
+   "id": "2472",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是中位數（Median）的定義？",
+   "hint": "",
+   "options": {
+    "C": "最大值",
+    "A": "第 n/2 個順序統計量",
+    "B": "最小值",
+    "D": "總和"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:48:19.259Z",
+   "updatedAt": "2026-10-28T01:48:19.259Z"
+  },
   "2475": {
    "id": "2475",
    "subject": "演算法",
@@ -7667,6 +7687,26 @@
    "note": "",
    "createdAt": "2026-10-28T01:40:05.732Z",
    "updatedAt": "2026-10-28T01:40:05.759Z"
+  },
+  "2477": {
+   "id": "2477",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Randomized-Select 在最壞情況下的時間複雜度為？",
+   "hint": "",
+   "options": {
+    "A": "O(n²)",
+    "D": "O(n log n)",
+    "B": "O(n)",
+    "C": "O(log n)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:48:19.259Z",
+   "updatedAt": "2026-10-28T01:48:19.259Z"
   },
   "2479": {
    "id": "2479",
@@ -8199,6 +8239,26 @@
    "createdAt": "2026-10-28T01:44:08.196Z",
    "updatedAt": "2026-10-28T01:44:08.220Z"
   },
+  "2505": {
+   "id": "2505",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Randomized-Select 中，Randomized-Partition 的意義？",
+   "hint": "",
+   "options": {
+    "B": "強制陣列排序",
+    "C": "確保 pivot 永遠在中間",
+    "D": "加速 Partition 的執行",
+    "A": "隨機選擇 pivot 以避免最壞情況"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:48:19.259Z",
+   "updatedAt": "2026-10-28T01:48:19.259Z"
+  },
   "2509": {
    "id": "2509",
    "subject": "演算法",
@@ -8285,6 +8345,22 @@
    "note": "",
    "createdAt": "2026-10-28T01:44:08.196Z",
    "updatedAt": "2026-10-28T01:44:08.220Z"
+  },
+  "2516": {
+   "id": "2516",
+   "subject": "演算法",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "中位數選擇法（Median Order / Quickselect）\n\n假設我們有以下 18 個未排序的整數：\n42, 17, 89, 8, 55, 23, 71, 94, 12, 59, 31, 76, 5, 50, 82, 29, 66, 37\n當他進行第一輪分割後\n選中的基準值 (Pivot) 為何  ＿＿＿\n我們要找的目標 是在比基準值 (Pivot) 大的組裡的 第幾小的數  ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T01:48:19.259Z",
+   "updatedAt": "2026-10-28T01:48:19.259Z"
   },
   "2517": {
    "id": "2517",
