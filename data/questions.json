@@ -1830,6 +1830,26 @@
    "createdAt": "2026-10-21T06:54:00.644Z",
    "updatedAt": "2026-10-21T06:54:53.717Z"
   },
+  "1338": {
+   "id": "1338",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In a symmetric multiprocessing (SMP) system where each processor is self-scheduling, what is this scheduling method?",
+   "hint": "",
+   "options": {
+    "A": "Push migration",
+    "D": "None of answer",
+    "C": "Load balancing",
+    "B": "Pull migration"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:14:03.807Z",
+   "updatedAt": "2026-10-28T06:14:03.807Z"
+  },
   "1339": {
    "id": "1339",
    "subject": "作業系統",
@@ -39571,6 +39591,46 @@
    "source": "text",
    "createdAt": "2026-10-28T06:13:54.441Z",
    "updatedAt": "2026-10-28T06:13:54.441Z"
+  },
+  "1365~7ln21x": {
+   "id": "1365~7ln21x",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In a multiprocessor system, which of the following scheduling methods are part of load balancing?",
+   "hint": "",
+   "options": {
+    "A": "Push migration",
+    "B": "Pull migration",
+    "D": "Symmetric multiprocessing (SMP)",
+    "C": "Processor affinity"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:14:03.807Z",
+   "updatedAt": "2026-10-28T06:14:03.807Z"
+  },
+  "1355~1chdu0j": {
+   "id": "1355~1chdu0j",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是排程演算法的優化目標？",
+   "hint": "",
+   "options": {
+    "A": "最大化CPU利用率",
+    "B": "最小化周轉時間",
+    "C": "最大化吞吐量",
+    "D": "最小化回應時間"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:14:03.807Z",
+   "updatedAt": "2026-10-28T06:14:03.807Z"
   }
  }
 }
