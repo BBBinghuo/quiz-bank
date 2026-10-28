@@ -3397,10 +3397,12 @@
    "text": "When a process switches from the running to the waiting state, the CPU scheduler is＿＿＿.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "wakeup"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:35:02.898Z",
-   "updatedAt": "2026-10-28T05:35:02.898Z"
+   "updatedAt": "2026-10-28T05:38:51.484Z"
   },
   "1420": {
    "id": "1420",
@@ -38635,10 +38637,55 @@
     "B": "CPU保持忙碌的時間百分比",
     "A": "每單位時間完成執行的程序數量"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-10-28T05:35:02.898Z",
-   "updatedAt": "2026-10-28T05:35:02.898Z"
+   "updatedAt": "2026-10-28T05:38:51.484Z"
+  },
+  "tfxyja3": {
+   "id": "tfxyja3",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The CPU-I/O burst cycle is a cycle of process execution where a CPU burst is followed by an ＿＿＿ burst.(Please use uppercase English letters)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "I/O"
+   ],
+   "lines": [
+    "I/O"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:38:51.484Z",
+   "updatedAt": "2026-10-28T05:38:51.484Z"
+  },
+  "t1mnbt2h": {
+   "id": "t1mnbt2h",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "POSIX即時排程標準中定義了哪些排程類別？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "SCHED_FIFO\nSCHED_RR"
+   ],
+   "lines": [
+    "SCHED_FIFO",
+    "SCHED_RR"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-10-28T05:38:51.484Z",
+   "updatedAt": "2026-10-28T05:38:51.484Z"
   }
  }
 }
