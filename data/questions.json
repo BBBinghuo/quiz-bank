@@ -26719,7 +26719,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-10-20T01:22:10.004Z",
-   "updatedAt": "2026-10-20T01:22:10.004Z"
+   "updatedAt": "2026-10-28T06:16:22.128Z",
+   "deleted": true,
+   "mergedInto": "1322~8gbob8"
   },
   "tu8wqdh": {
    "id": "tu8wqdh",
@@ -39662,6 +39664,48 @@
    "source": "text",
    "createdAt": "2026-10-28T06:16:11.785Z",
    "updatedAt": "2026-10-28T06:16:11.785Z"
+  },
+  "1322~8gbob8": {
+   "id": "1322~8gbob8",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在CPU-I/O週期中，程式的執行由什麼組成？",
+   "hint": "",
+   "options": {
+    "A": "CPU爆發和I/O爆發的交替",
+    "D": "連續存取資料塊",
+    "B": "僅CPU爆發",
+    "C": "僅I/O等待"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-10-28T06:16:22.111Z",
+   "updatedAt": "2026-10-28T06:16:22.128Z"
+  },
+  "1333~1f7rjt5": {
+   "id": "1333~1f7rjt5",
+   "subject": "作業系統",
+   "chapter": "6",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the Round Robin (RR) scheduling algorithm, what is the unit of a small amount of CPU time given to each process?",
+   "hint": "",
+   "options": {
+    "C": "Time period",
+    "B": "Time quantum",
+    "D": "Time block",
+    "A": "Time unit"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-10-28T06:16:22.111Z",
+   "updatedAt": "2026-10-28T06:16:22.111Z"
   }
  }
 }
