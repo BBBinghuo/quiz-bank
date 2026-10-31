@@ -7,6 +7,8 @@
 - 同一行程的執行緒**共享**：**程式碼（code）、資料（data）、開啟的檔案**等資源。
 - 傳統（重量級）行程只有一個執行緒；一個行程內有多個執行分支 → 多執行緒。
 - 例：多執行緒伺服器——收到客戶端請求時**建立一個新執行緒來服務**，主執行緒繼續聽下一個請求（不用像以前那樣建立整個行程）。
+- 大多數現代應用程式都是多執行緒，同一個程式的不同工作交給不同執行緒，例如更新畫面、抓資料、拼字檢查、回應網路請求。
+- 建立行程是**重量級**、建立執行緒是**輕量級**；多執行緒可以**簡化程式碼、提高效率**。作業系統的核心通常也是多執行緒。
 
 **多執行緒的四個好處**
 
@@ -17,7 +19,7 @@
 | **經濟性（economy）** | 建立執行緒比建立行程**輕量**；執行緒切換的開銷也比**行程的 context switch** 低 |
 | **可擴展性（scalability）** | 多執行緒程式可以在**多個處理器核心**上平行執行 |
 
-> 相關題目：CPU 利用率的基本單位, basic unit, 好處, 優點, 響應性, responsiveness, 資源共享, resource sharing, 經濟, 可擴展性, 輕量級, 創建成本, 多執行緒伺服器, 共享哪些資源, 使用者介面
+> 相關題目：CPU 利用率的基本單位, basic unit, 好處, 優點, 響應性, responsiveness, 資源共享, resource sharing, 經濟, 可擴展性, 輕量級, 創建成本, 多執行緒伺服器, multithreaded server, advantage of multithreaded, 共享哪些資源, 使用者介面
 
 ## 2. 多核心程式設計
 
@@ -31,7 +33,9 @@
 | **資料平行（data parallelism）** | 把**同一份資料的子集**分給多個核心，每個核心做**相同**的操作 |
 | **任務平行（task parallelism）** | 把**不同的執行緒（任務）**分給不同核心，每個執行**獨特**的工作 |
 
-**Amdahl's Law**：增加核心能帶來多少加速
+- 執行緒變多，硬體支援也跟著增加：CPU 除了核心還有**硬體執行緒**，例如 Oracle SPARC T4 有 8 個核心、每個核心 8 個硬體執行緒。
+
+**Amdahl's Law**：增加核心能帶來多少加速（程式同時有序列和平行部分時）
 
 speedup ≤ 1 / (S + (1 − S)/N)
 
@@ -44,11 +48,11 @@ speedup ≤ 1 / (S + (1 − S)/N)
 ## 3. 使用者執行緒與多執行緒模型
 
 - **使用者執行緒（user threads）**：在核心之上，由**使用者層級執行緒函式庫**管理，核心不知道。
-- **核心執行緒（kernel threads）**：由作業系統核心支援與管理；現代 OS 都支援。
+- **核心執行緒（kernel threads）**：由作業系統核心支援與管理；幾乎所有通用 OS 都支援，例如 Windows、Solaris、Linux、Tru64 UNIX、Mac OS X。
 
 | 模型 | 對應方式 | 特性 | 例子 |
 |---|---|---|---|
-| **Many-to-One** | 多個使用者執行緒 → **一個**核心執行緒 | 一個執行緒做阻塞系統呼叫，**整個行程都被阻塞**；一次只有一個能存取核心 → **多核心上無法平行** | Solaris Green Threads、GNU Portable Threads |
+| **Many-to-One** | 多個使用者執行緒 → **一個**核心執行緒 | 一個執行緒做阻塞系統呼叫，**整個行程都被阻塞**；一次只有一個能存取核心 → **多核心上無法平行**；現在**很少系統使用** | Solaris Green Threads、GNU Portable Threads |
 | **One-to-One** | 每個使用者執行緒 → **一個**核心執行緒 | 比 many-to-one **更多並行性**；建立使用者執行緒就會建立核心執行緒，**開銷較大**，所以常**限制執行緒數量** | **Windows（NT/XP/2000）、Linux**、Solaris 9 以後 |
 | **Many-to-Many** | 多個使用者執行緒 → **同數或較少**的核心執行緒 | 沒有數量限制、阻塞不會卡住整個行程、可用多處理器 | Solaris 9 以前、Windows 的 fiber |
 | **Two-level** | Many-to-many，**同時允許**把某個使用者執行緒**綁定**到一個核心執行緒 | many-to-many 的變形 | IRIX、HP-UX、Tru64、Solaris 8 以前 |
@@ -61,9 +65,10 @@ speedup ≤ 1 / (S + (1 − S)/N)
 
 ## 4. 執行緒函式庫
 
-- 兩種實作：完全在使用者空間（無核心支援）或核心層級（呼叫系統呼叫）。
-- 三大函式庫：**POSIX Pthreads**、**Win32 threads**（Windows）、**Java threads**（「Android threads」**不是**主要的執行緒函式庫）。
-- **Pthreads**：POSIX（IEEE 1003.1c）定義的**API 規格（標準）**，不是某個特定實作；UNIX、Linux、macOS 都有；`pthread_create()` 建立、`pthread_join()` 等待。
+- 執行緒函式庫提供程式設計師**建立和管理執行緒的 API**。
+- 兩種實作：完全在使用者空間（無核心支援）或由 OS 支援的核心層級函式庫（呼叫系統呼叫）。
+- 三大函式庫：**POSIX Pthreads**、**Windows threads**（題庫寫 Win32 threads）、**Java threads**（「Android threads」**不是**主要的執行緒函式庫）。
+- **Pthreads**：POSIX（IEEE 1003.1c）定義的**API 規格（標準）**，不是某個特定實作，可以做成使用者層級或核心層級；UNIX、Linux、macOS 都有；`pthread_create()` 建立、`pthread_join()` 等待。
 - **Java threads**：由 **JVM 管理**（底層在 UNIX 用 Pthreads、Windows 用 Win32）；建立方式兩種：**繼承 Thread 類別**、**實作 Runnable 介面**；覆寫 `run()`，用 `start()` 啟動（不要直接呼叫 run()）。
 
 > 相關題目：Pthreads, POSIX, Win32 threads, Java threads, 函式庫, librar, Java 執行緒, JVM, Runnable, Thread 類別, pthread_create, Android threads
@@ -75,9 +80,16 @@ speedup ≤ 1 / (S + (1 − S)/N)
 | 方法 | 重點 |
 |---|---|
 | **執行緒池（thread pool）** | 啟動時先建立一定數量的執行緒放在池中等工作；**用現有執行緒服務請求比建立新的快**；**限制執行緒數量在池的大小**；**把任務與建立任務的機制分開** |
-| **OpenMP** | 一組**編譯器指令與 API**，支援**共享記憶體**環境的平行程式設計；程式設計師**標出平行區域**（`#pragma omp parallel`），依核心數建立執行緒 |
-| **Grand Central Dispatch（GCD）** | **Apple** 的技術（macOS、iOS），識別平行區域、管理執行緒細節；用 block 放進 serial／concurrent 佇列，內部管理 POSIX 執行緒池 |
-| 其他 | Intel TBB、Java 的 `java.util.concurrent` |
+| **OpenMP** | 一組給 C、C++、FORTRAN 的**編譯器指令與 API**，支援**共享記憶體**環境的平行程式設計；程式設計師**標出平行區域**（`#pragma omp parallel`），依核心數建立執行緒；`#pragma omp parallel for` 讓 for 迴圈平行執行 |
+| **Grand Central Dispatch（GCD）** | **Apple** 的技術（macOS、iOS），是 C、C++ 的語言擴充加 API 與執行期函式庫，識別平行區域、管理執行緒細節；把 block（`^{ }`）放進分派佇列，取出時交給執行緒池裡可用的執行緒 |
+| 其他 | Threading Building Blocks（TBB，投影片寫 Microsoft，實際是 Intel 開發）、Java 的 `java.util.concurrent` |
+
+**GCD 的兩種分派佇列**
+
+- **serial**：依 FIFO 取出，一次一個；每個行程一個，叫 **main queue**，程式也能另外建立
+- **concurrent**：依 FIFO 取出，但可以同時取出好幾個；系統有三個，優先權分別是 low、default、high
+
+**執行緒池的補充**：把工作和建立工作的機制分開後，就能用不同策略執行，例如定期執行；Windows API 也支援執行緒池。
 
 - **pthread_create() 不是**隱式執行緒——它是程式設計師自己明確建立執行緒。
 
@@ -92,7 +104,10 @@ speedup ≤ 1 / (S + (1 − S)/N)
 
 **信號處理（signal handling）**
 
-- **信號（signal）**用來在 UNIX 中**通知行程發生了某個事件**。
+- **信號（signal）**用來在 UNIX 中**通知行程發生了某個事件**；分成同步和非同步。
+- 處理流程：特定事件**產生**信號 → 信號**送到**行程 → 由**信號處理常式**處理。
+- 處理常式有兩種：**預設（default）**和**使用者定義（user-defined）**；每個信號都有核心執行的預設處理常式，使用者定義的可以覆蓋它。
+- 單執行緒時，信號直接送給行程。
 - 多執行緒時有四種傳送方式：**傳給該信號適用的特定執行緒**、**傳給行程中每一個執行緒**、**傳給某些特定執行緒**、**指定一個執行緒接收所有信號**。
 - UNIX：`kill(pid, sig)` 送給行程、`pthread_kill(tid, sig)` 送給執行緒；Windows 沒有信號，用 APC 模擬。
 
@@ -103,14 +118,21 @@ speedup ≤ 1 / (S + (1 − S)/N)
 | **非同步取消（asynchronous）** | **立即**終止目標執行緒（可能正在更新共用資料，有風險） |
 | **延遲取消（deferred）** | 目標執行緒**定期檢查**自己是否該被取消；只有到達**取消點（cancellation point）**才會取消；**Pthreads 的預設**方式 |
 
+- 呼叫取消只是**提出請求**，實際是否取消要看執行緒狀態；如果執行緒**停用取消**，請求會保留到它重新啟用為止。
+- 取消點例如 `pthread_testcancel()`，到達後會呼叫**清理處理常式（cleanup handler）**。
+- Linux 的執行緒取消是透過**信號**處理的。
+
 **執行緒區域儲存（Thread-Local Storage, TLS）**
 
 - 讓**每個執行緒擁有自己的資料副本**。
+- 在**無法控制執行緒建立過程**時特別有用，例如使用執行緒池。
 - 和區域變數不同：**區域變數只在單次函式呼叫中可見**，**TLS 在多次函式呼叫之間都可見**（比較像 static 資料，但每個執行緒一份）。
 
 **Scheduler activations 與 LWP**
 
-- many-to-many／two-level 模型中，使用者執行緒與核心執行緒之間有一層**輕量行程（LWP）**，對執行緒函式庫來說像一顆虛擬處理器；核心用 **upcall** 通知函式庫事件。
+- many-to-many／two-level 模型要溝通，才能維持配給應用程式的核心執行緒數量適當。
+- 使用者執行緒與核心執行緒之間有一層**輕量行程（LWP）**，對行程來說像一顆虛擬處理器，每個 LWP 連到一個核心執行緒。
+- **Scheduler activations** 提供 **upcall**：核心通知執行緒函式庫裡的 upcall handler，讓應用程式維持正確的核心執行緒數量。
 
 > 相關題目：fork(), exec(), 語義, semantics, signal, 信號, 通知, 取消, cancellation, 異步, asynchronous, 延遲, deferred, 取消點, Thread-local, TLS, 執行緒本地儲存, 區域變數, 資料副本, LWP, scheduler activation
 
@@ -118,13 +140,21 @@ speedup ≤ 1 / (S + (1 − S)/N)
 
 **Windows**
 
-- Win32 API 採用 **One-to-One** 模型。
-- 每個執行緒的 **context**：執行緒 ID、**暫存器集合**、使用者與核心**堆疊**、**私有資料儲存區**（**不包含其他行程執行緒的 ID**）。
-- 資料結構：**ETHREAD、KTHREAD 在核心空間**；**TEB（Thread Environment Block）在使用者空間**（含執行緒 ID、使用者堆疊、**執行緒區域儲存**）。
+- Windows API 採用 **One-to-One** 模型，屬於核心層級。
+- 每個執行緒包含：執行緒 ID、暫存器集合、使用者與核心堆疊、私有資料儲存區（給執行期函式庫和 DLL 用）。
+- 其中**暫存器集合、堆疊、私有儲存區**合稱執行緒的 **context**，**不包含其他行程執行緒的 ID**。
+- 主要資料結構：
+
+| 結構 | 內容 | 位置 |
+|---|---|---|
+| **ETHREAD** | 指向所屬行程和 KTHREAD 的指標 | 核心空間 |
+| **KTHREAD** | 排程與同步資訊、核心模式堆疊、指向 TEB 的指標 | 核心空間 |
+| **TEB**（Thread Environment Block） | 執行緒 ID、使用者模式堆疊、**執行緒區域儲存** | **使用者空間** |
 
 **Linux**
 
 - 不區分行程和執行緒，**都稱為任務（task）**。
 - 建立執行緒用 **clone()** 系統呼叫；用旗標（CLONE_FS、CLONE_VM、CLONE_SIGHAND、CLONE_FILES）決定子任務和父任務**共享哪些資源**（例如位址空間）。不設旗標就像 fork()。
+- `struct task_struct` 指向行程的資料結構，可以是共用或獨有的。
 
 > 相關題目：Windows, ETHREAD, KTHREAD, TEB, 上下文, context, 使用者空間, user space, kernel space, 核心空間, Linux, clone(), 任務, tasks

@@ -89,7 +89,7 @@
    "chapter": "5",
    "title": "執行緒（Threads）",
    "file": "notes/os-5.md",
-   "slides": "無課程投影片：依課本 Silberschatz 第 4 章與網路講義整理",
+   "slides": "ch04 作業系統（Chapter 4: Threads & Concurrency）",
    "sources": [
     [
      "UIC CS 385 Course Notes: Threads（John T. Bell）",

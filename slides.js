@@ -7,10 +7,13 @@
 
 const SLIDE_BUDGET = 8.5; // 每頁大約能放的份量（一個清單項目約 1）
 
+// 表格列的份量：列數之外也要看文字量，長文字會換行撐高
+const rowWeight = tr => 0.75 + tr.textContent.length / 110;
+
 function blockWeight(el) {
   const text = el.textContent.length;
   if (el.matches('ul, ol')) return el.querySelectorAll('li').length + text / 220;
-  if (el.matches('.table-wrap')) return 1 + el.querySelectorAll('tr').length * 0.75;
+  if (el.matches('.table-wrap')) return 1 + [...el.querySelectorAll('tr')].reduce((w, tr) => w + rowWeight(tr), 0);
   if (el.matches('pre')) return 1 + el.textContent.split('\n').length / 2.2;
   if (el.matches('.callout')) return 1.3 + text / 90;
   if (el.matches('h4')) return 0.6;
@@ -30,14 +33,20 @@ function splitBlock(el) {
     return parts;
   }
   if (el.matches('.table-wrap')) {
-    const rows = [...el.querySelectorAll('tr')];
-    if (rows.length > 9) {
+    if (blockWeight(el) > SLIDE_BUDGET) { // 拆頁時每一塊都重複表頭
+      const [head, ...rows] = el.querySelectorAll('tr');
       const parts = [];
-      for (let k = 1; k < rows.length; k += 7) {
-        const t = document.createElement('div'); t.className = 'table-wrap';
-        const tb = document.createElement('table');
-        tb.append(rows[0].cloneNode(true), ...rows.slice(k, k + 7).map(r => r.cloneNode(true)));
-        t.appendChild(tb); parts.push(t);
+      let tb = null, w = 0;
+      for (const r of rows) {
+        const rw = rowWeight(r);
+        if (!tb || w + rw > SLIDE_BUDGET) {
+          const t = document.createElement('div'); t.className = 'table-wrap';
+          tb = document.createElement('table');
+          tb.appendChild(head.cloneNode(true));
+          t.appendChild(tb); parts.push(t);
+          w = 1 + rowWeight(head);
+        }
+        tb.appendChild(r.cloneNode(true)); w += rw;
       }
       return parts;
     }
