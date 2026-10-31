@@ -44,7 +44,7 @@
    "chapter": "6",
    "title": "線性時間排序（Counting / Radix / Bucket Sort）",
    "file": "notes/alg-6.md",
-   "slides": "無課程投影片：依課本 CLRS 第 8 章與網路講義整理，並用程式模擬驗證範例",
+   "slides": "08 Sorting in linear time（CLRS 第 8 章），範例用程式模擬驗證",
    "sources": [
     [
      "Vassar CS241 Non-comparison-based Sorts（CLRS 第 8 章）",
@@ -55,6 +55,13 @@
      "https://tildesites.bowdoin.edu/~ltoma/teaching/cs231/2017fall/Lectures/linsort.pdf"
     ]
    ]
+  },
+  {
+   "subject": "演算法",
+   "chapter": "7",
+   "title": "中位數與順序統計量",
+   "slides": "09 Medians and order statistics（CLRS 第 9 章）",
+   "file": "notes/alg-7.md"
   },
   {
    "subject": "作業系統",
