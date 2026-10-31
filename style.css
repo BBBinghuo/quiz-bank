@@ -562,4 +562,8 @@ body.tr-open { overflow: hidden; }
   .sl-big { font-size: 1.8em; }
   .sl-hint { display: none; }
 }
-@media (prefers-reduced-motion: reduce) { .sl-slide .frag { transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .sl-slide .frag { transform: none; }
+  .sl-slide pre .ln { opacity: 1; } /* 靠動畫才顯示的內容，關掉動畫時要直接顯示 */
+  .sl-title h2, .sl-content b, .sl-content strong, .sl-cover b { background-size: 100% 100%; }
+}
