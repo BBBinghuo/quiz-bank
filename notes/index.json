@@ -27,7 +27,7 @@
    "chapter": "5",
    "title": "快速排序（Quicksort）",
    "file": "notes/alg-5.md",
-   "slides": "無課程投影片：依課本 CLRS 第 7 章整理，並用程式模擬驗證範例",
+   "slides": "07 Quicksort（CLRS 第 7 章），範例用程式模擬驗證",
    "sources": [
     [
      "Hawaii ICS 311 #5B: Randomized Algorithms, Quicksort",
