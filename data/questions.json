@@ -15922,20 +15922,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "UNIX系統中，哪一個系統呼叫用來替換程序的記憶體空間，載入一個新程式？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "exec()",
+    "B": "wait()",
+    "C": "exit()",
+    "D": "fork()"
+   },
    "answer": [
-    "exec()"
-   ],
-   "lines": [
-    "exec()"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t818kki": {
    "id": "t818kki",
@@ -15964,20 +15965,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是普通管道（Ordinary Pipes）的特性？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "通訊是單向的",
+    "B": "需要親子關係",
+    "C": "通訊是雙向的",
+    "D": "不需要親子關係"
+   },
    "answer": [
-    "通訊是單向的 需要親子關係"
-   ],
-   "lines": [
-    "通訊是單向的 需要親子關係"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tlfu3bj": {
    "id": "tlfu3bj",
@@ -15985,20 +15988,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪種排程器控制多重程式化的程度？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "長期排程器",
+    "B": "CPU排程器",
+    "C": "短期排程器",
+    "D": "中期排程器"
+   },
    "answer": [
-    "長期排程器"
-   ],
-   "lines": [
-    "長期排程器"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:49.380Z",
-   "updatedAt": "2026-10-20T01:14:49.380Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tlpz9zp": {
    "id": "tlpz9zp",
@@ -16006,20 +16010,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "一個程序（process）包含哪些多個部分？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "程式計數器和暫存器(program counter and registers)",
+    "B": "堆疊（stack）",
+    "C": "堆（heap）",
+    "D": "程式碼（text section）"
+   },
    "answer": [
-    "程式碼（text section） 程式計數器和暫存器(program counter and registers) 堆疊（stack） 堆（heap）"
-   ],
-   "lines": [
-    "程式碼（text section） 程式計數器和暫存器(program counter and registers) 堆疊（stack） 堆（heap）"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t4mtxlu": {
    "id": "t4mtxlu",
@@ -16111,20 +16119,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "當一個程序正在等待某個事件發生時，它的狀態是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "等待中",
+    "B": "新建立",
+    "C": "就緒",
+    "D": "執行中"
+   },
    "answer": [
-    "等待中"
-   ],
-   "lines": [
-    "等待中"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1trh4d8": {
    "id": "t1trh4d8",
@@ -16132,20 +16141,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are the synchronization types in message passing?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "blocking (synchronous)",
+    "B": "non-blocking (asynchronous)",
+    "C": "bounded capacity",
+    "D": "infinite capacity"
+   },
    "answer": [
-    "blocking (synchronous) non-blocking (asynchronous)"
-   ],
-   "lines": [
-    "blocking (synchronous) non-blocking (asynchronous)"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t91isq5": {
    "id": "t91isq5",
@@ -16153,20 +16164,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "哪些是程序之間通訊的兩種模型？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "訊息傳遞",
+    "B": "共享記憶體",
+    "C": "管道",
+    "D": "信箱"
+   },
    "answer": [
-    "共享記憶體 訊息傳遞"
-   ],
-   "lines": [
-    "共享記憶體 訊息傳遞"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t42pz14": {
    "id": "t42pz14",
@@ -16195,20 +16208,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在作業系統中，一個「程序」（process）被定義為一個在執行中的什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "執行中的程式",
+    "B": "程式碼的複製本",
+    "C": "記憶體區塊",
+    "D": "磁碟上的靜態檔案"
+   },
    "answer": [
-    "執行中的程式"
-   ],
-   "lines": [
-    "執行中的程式"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1kxm1dd": {
    "id": "t1kxm1dd",
@@ -16216,20 +16230,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在直接通訊（direct communication）中，鏈結是自動建立的嗎？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "是的，只要程序明確命名對方",
+    "B": "僅在接收訊息後建立",
+    "C": "僅在訊息傳送後建立",
+    "D": "不，需要手動建立"
+   },
    "answer": [
-    "是的，只要程序明確命名對方"
-   ],
-   "lines": [
-    "是的，只要程序明確命名對方"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tzl55re": {
    "id": "tzl55re",
@@ -16237,20 +16252,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "共享記憶體（Shared memory）通訊模型的主要問題是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "同步",
+    "B": "訊息容量",
+    "C": "尋找伺服器",
+    "D": "訊息傳遞"
+   },
    "answer": [
-    "同步"
-   ],
-   "lines": [
-    "同步"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "ty9cqr": {
    "id": "ty9cqr",
@@ -16258,20 +16274,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "上下文切換（context switch）的時間屬於什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "系統的開銷",
+    "B": "系統的正常操作",
+    "C": "系統的有益工作",
+    "D": "程序的有效時間"
+   },
    "answer": [
-    "系統的開銷"
-   ],
-   "lines": [
-    "系統的開銷"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t12s41of": {
    "id": "t12s41of",
@@ -16321,20 +16338,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些是程序狀態？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "new",
+    "B": "ready",
+    "C": "running",
+    "D": "waiting"
+   },
    "answer": [
-    "new ready running waiting"
-   ],
-   "lines": [
-    "new ready running waiting"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1eevuft": {
    "id": "t1eevuft",
@@ -16384,20 +16405,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一個名詞通常與「程序」（process）互換使用？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "工作（Job）",
+    "B": "行程（Thread）",
+    "C": "記憶體區塊",
+    "D": "檔案"
+   },
    "answer": [
-    "工作（Job）"
-   ],
-   "lines": [
-    "工作（Job）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t2t6pw8": {
    "id": "t2t6pw8",
@@ -16405,20 +16427,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在程序狀態圖中，從「就緒」狀態轉換到「執行中」狀態是由誰完成的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "排程器分派",
+    "B": "I/O完成",
+    "C": "事件等待",
+    "D": "中斷"
+   },
    "answer": [
-    "排程器分派"
-   ],
-   "lines": [
-    "排程器分派"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t13o1x00": {
    "id": "t13o1x00",
@@ -16426,20 +16449,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一種 IPC 系統被描述為「訊息傳遞中心」，程序可以在其中收發訊息？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "信箱（Mailbox）",
+    "B": "管道",
+    "C": "共享記憶體",
+    "D": "遠端程序呼叫"
+   },
    "answer": [
-    "信箱（Mailbox）"
-   ],
-   "lines": [
-    "信箱（Mailbox）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tgbrjnd": {
    "id": "tgbrjnd",
@@ -16447,20 +16471,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一種排程器負責將程序從磁碟載入到主記憶體中，以控制多重程式化的程度？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "長期排程器",
+    "B": "短期排程器",
+    "C": "分派器",
+    "D": "中期排程器"
+   },
    "answer": [
-    "長期排程器"
-   ],
-   "lines": [
-    "長期排程器"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t12886xh": {
    "id": "t12886xh",
@@ -16468,20 +16493,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是 iOS 行動系統中的多工處理限制？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "僅允許一個前景程序",
+    "B": "允許多個背景程序",
+    "C": "允許多個前景程序",
+    "D": "背景程序沒有任何限制"
+   },
    "answer": [
-    "僅允許一個前景程序 允許多個背景程序"
-   ],
-   "lines": [
-    "僅允許一個前景程序 允許多個背景程序"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:37.180Z",
-   "updatedAt": "2026-10-20T01:12:37.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1j0aeva": {
    "id": "t1j0aeva",
@@ -16489,20 +16516,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在程序控制區塊（PCB）中，哪一項資訊記錄了下一個要執行的指令的位置？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "程式計數器",
+    "B": "CPU暫存器",
+    "C": "I/O狀態資訊",
+    "D": "程序狀態"
+   },
    "answer": [
-    "程式計數器"
-   ],
-   "lines": [
-    "程式計數器"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:37.180Z",
-   "updatedAt": "2026-10-20T01:12:37.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t14wqq94": {
    "id": "t14wqq94",
@@ -16531,20 +16559,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "請選出訊息傳遞的佇列有三種實作的方式",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Zero capacity",
+    "B": "Unbounded capacity",
+    "C": "Bounded capacity",
+    "D": "Full capacity"
+   },
    "answer": [
-    "Zero capacity Bounded capacity Unbounded capacity"
-   ],
-   "lines": [
-    "Zero capacity Bounded capacity Unbounded capacity"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1fj83jc": {
    "id": "t1fj83jc",
@@ -16552,20 +16583,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "哪些是訊息傳遞中的同步化類型？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "blocking (synchronous)",
+    "B": "non-blocking (asynchronous)",
+    "C": "infinite capacity",
+    "D": "bounded capacity"
+   },
    "answer": [
-    "blocking (synchronous) non-blocking (asynchronous)"
-   ],
-   "lines": [
-    "blocking (synchronous) non-blocking (asynchronous)"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tkd8uko": {
    "id": "tkd8uko",
@@ -16573,20 +16606,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是遠端程序呼叫（RPC）的特點？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "抽象化了網路系統中的程序呼叫",
+    "B": "使用樁（stubs）來定位伺服器並封送參數",
+    "C": "使用外部資料表示法（XDL）格式處理資料",
+    "D": "需要親屬關係"
+   },
    "answer": [
-    "抽象化了網路系統中的程序呼叫 使用樁（stubs）來定位伺服器並封送參數 使用外部資料表示法（XDL）格式處理資料"
-   ],
-   "lines": [
-    "抽象化了網路系統中的程序呼叫 使用樁（stubs）來定位伺服器並封送參數 使用外部資料表示法（XDL）格式處理資料"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t177yr8h": {
    "id": "t177yr8h",
@@ -16636,20 +16672,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在訊息傳遞模型中，阻塞式傳送（blocking send）意味著什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "傳送者被阻塞直到訊息被接收",
+    "B": "接收者在接收後立即繼續執行",
+    "C": "接收者被阻塞直到訊息可用",
+    "D": "傳送者在傳送後立即繼續執行"
+   },
    "answer": [
-    "傳送者被阻塞直到訊息被接收"
-   ],
-   "lines": [
-    "傳送者被阻塞直到訊息被接收"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1rb2e5b": {
    "id": "t1rb2e5b",
@@ -16657,20 +16694,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "What is a characteristic of an I/O-bound process?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "spends most of its time performing I/O operations",
+    "B": "spends most of its time computing",
+    "C": "rarely performs I/O operations",
+    "D": "has only one CPU burst"
+   },
    "answer": [
-    "spends most of its time performing I/O operations"
-   ],
-   "lines": [
-    "spends most of its time performing I/O operations"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:39.684Z",
-   "updatedAt": "2026-10-20T01:14:39.684Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t113xq2s": {
    "id": "t113xq2s",
@@ -16700,20 +16738,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "當一個程序完成其最後一個陳述後，它會呼叫哪個系統呼叫來請求作業系統刪除它？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "exit()",
+    "B": "fork()",
+    "C": "exec()",
+    "D": "abort()"
+   },
    "answer": [
-    "exit()"
-   ],
-   "lines": [
-    "exit()"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1ms6ko9": {
    "id": "t1ms6ko9",
@@ -16850,20 +16889,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "In the Windows thread data structure, what blocks are contained in kernel space?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "ETHREAD",
+    "B": "KTHREAD",
+    "C": "TEB",
+    "D": "Thread ID"
+   },
    "answer": [
-    "ETHREAD KTHREAD"
-   ],
-   "lines": [
-    "ETHREAD KTHREAD"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1vys6kq": {
    "id": "t1vys6kq",
@@ -16892,20 +16933,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Grand Central Dispatch 是由哪家公司開發的技術？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Apple",
+    "B": "IBM",
+    "C": "Google",
+    "D": "Microsoft"
+   },
    "answer": [
-    "Apple"
-   ],
-   "lines": [
-    "Apple"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t18m92tc": {
    "id": "t18m92tc",
@@ -16913,20 +16955,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "單執行緒程序和多執行緒程序共享哪些資源？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "資料",
+    "B": "檔案",
+    "C": "程式碼",
+    "D": "堆疊（Stack）"
+   },
    "answer": [
-    "程式碼 資料 檔案"
-   ],
-   "lines": [
-    "程式碼 資料 檔案"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:20:15.100Z",
-   "updatedAt": "2026-10-20T01:20:15.100Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tg2qa4k": {
    "id": "tg2qa4k",
@@ -16976,20 +17021,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "OpenMP 提供哪些特性來支援平行程式設計？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "一組編譯器指令和 API",
+    "B": "在共享記憶體環境中支援平行程式設計",
+    "C": "允許程式設計師明確標識平行區域",
+    "D": "只能在 Apple 系統上使用"
+   },
    "answer": [
-    "一組編譯器指令和 API 在共享記憶體環境中支援平行程式設計 允許程式設計師明確標識平行區域"
-   ],
-   "lines": [
-    "一組編譯器指令和 API 在共享記憶體環境中支援平行程式設計 允許程式設計師明確標識平行區域"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:05.596Z",
-   "updatedAt": "2026-10-20T01:19:05.596Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1pi8h3f": {
    "id": "t1pi8h3f",
@@ -17081,20 +17129,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列何者是多執行緒程式設計的一個優點？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "簡化程式碼並提高效率",
+    "B": "增加程式碼複雜度",
+    "C": "降低資源共享",
+    "D": "增加程序創建的開銷"
+   },
    "answer": [
-    "簡化程式碼並提高效率"
-   ],
-   "lines": [
-    "簡化程式碼並提高效率"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:05.596Z",
-   "updatedAt": "2026-10-20T01:19:05.596Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t2zthdr": {
    "id": "t2zthdr",
@@ -17102,20 +17151,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "延遲取消（Deferred cancellation）有何特性？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "允許目標執行緒定期檢查是否應被取消",
+    "B": "只有當執行緒到達取消點時才會發生取消",
+    "C": "屬於 Pthread 的預設取消類型",
+    "D": "會立即終止目標執行緒"
+   },
    "answer": [
-    "允許目標執行緒定期檢查是否應被取消 只有當執行緒到達取消點時才會發生取消 屬於 Pthread 的預設取消類型"
-   ],
-   "lines": [
-    "允許目標執行緒定期檢查是否應被取消 只有當執行緒到達取消點時才會發生取消 屬於 Pthread 的預設取消類型"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tbgchol": {
    "id": "tbgchol",
@@ -17144,20 +17196,24 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在多執行緒環境中，處理信號的方式可以有哪幾種？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "將信號傳遞給應用該信號的特定執行緒",
+    "B": "將信號傳遞給程序中的每個執行緒",
+    "C": "將信號傳遞給程序中的某些特定執行緒",
+    "D": "指定一個特定執行緒來接收所有信號"
+   },
    "answer": [
-    "將信號傳遞給應用該信號的特定執行緒 將信號傳遞給程序中的每個執行緒 將信號傳遞給程序中的某些特定執行緒 指定一個特定執行緒來接收所有信號"
-   ],
-   "lines": [
-    "將信號傳遞給應用該信號的特定執行緒 將信號傳遞給程序中的每個執行緒 將信號傳遞給程序中的某些特定執行緒 指定一個特定執行緒來接收所有信號"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tr3kt5q": {
    "id": "tr3kt5q",
@@ -17165,20 +17221,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Which multithreading model maps one kernel thread for each user-level thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "One-to-One",
+    "B": "Many-to-Many",
+    "C": "Two-level",
+    "D": "Many-to-One"
+   },
    "answer": [
-    "One-to-One"
-   ],
-   "lines": [
-    "One-to-One"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:26.180Z",
-   "updatedAt": "2026-10-20T01:19:26.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t17rvmjs": {
    "id": "t17rvmjs",
@@ -17249,20 +17306,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在 Windows 系統中，每個執行緒的「上下文（context）」不包含下列哪一項？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "其他程序執行緒的ID",
+    "B": "私有資料儲存區域",
+    "C": "堆疊（Stacks）",
+    "D": "暫存器集合（Register set）"
+   },
    "answer": [
-    "其他程序執行緒的ID"
-   ],
-   "lines": [
-    "其他程序執行緒的ID"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tyhjpau": {
    "id": "tyhjpau",
@@ -17270,20 +17328,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在 Windows 執行緒的資料結構中，使用者空間（user space）包含哪些區塊？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "TEB",
+    "B": "執行緒本地儲存",
+    "C": "ETHREAD",
+    "D": "KTHREAD"
+   },
    "answer": [
-    "TEB 執行緒本地儲存"
-   ],
-   "lines": [
-    "TEB 執行緒本地儲存"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1nojb8q": {
    "id": "t1nojb8q",
@@ -17291,20 +17351,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在多處理器架構中，可利用多個處理器核心優勢的優點是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "可擴展性",
+    "B": "響應性",
+    "C": "經濟性",
+    "D": "資源共享"
+   },
    "answer": [
-    "可擴展性"
-   ],
-   "lines": [
-    "可擴展性"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tvoazfw": {
    "id": "tvoazfw",
@@ -17312,20 +17373,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "多執行緒伺服器架構的優點包含？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "伺服器可以同時服務多個客戶端請求",
+    "B": "當一個執行緒被阻塞時，其他執行緒可以繼續執行",
+    "C": "執行緒創建比程序創建更輕量級",
+    "D": "程式碼更難以理解"
+   },
    "answer": [
-    "伺服器可以同時服務多個客戶端請求 當一個執行緒被阻塞時，其他執行緒可以繼續執行 執行緒創建比程序創建更輕量級"
-   ],
-   "lines": [
-    "伺服器可以同時服務多個客戶端請求 當一個執行緒被阻塞時，其他執行緒可以繼續執行 執行緒創建比程序創建更輕量級"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1j66ue2": {
    "id": "t1j66ue2",
@@ -17333,20 +17397,24 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "One-to-One 模型有何特性？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "每個使用者層級執行緒映射到一個核心執行緒",
+    "B": "創建使用者層級執行緒會創建一個核心執行緒",
+    "C": "比 Many-to-One 模型提供更多的並行性",
+    "D": "程序中執行緒數量有時會因為開銷而受限"
+   },
    "answer": [
-    "每個使用者層級執行緒映射到一個核心執行緒 創建使用者層級執行緒會創建一個核心執行緒 比 Many-to-One 模型提供更多的並行性 程序中執行緒數量有時會因為開銷而受限"
-   ],
-   "lines": [
-    "每個使用者層級執行緒映射到一個核心執行緒 創建使用者層級執行緒會創建一個核心執行緒 比 Many-to-One 模型提供更多的並行性 程序中執行緒數量有時會因為開銷而受限"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "twyua0": {
    "id": "twyua0",
@@ -17375,20 +17443,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "使用者層級執行緒（User-levelr threads）的管理主要由誰負責？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "使用者層級執行緒函式庫",
+    "B": "應用程式",
+    "C": "核心（Kernel）",
+    "D": "硬體"
+   },
    "answer": [
-    "使用者層級執行緒函式庫"
-   ],
-   "lines": [
-    "使用者層級執行緒函式庫"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t8gyys8": {
    "id": "t8gyys8",
@@ -17396,20 +17465,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列哪一個作業系統的執行緒實作採用 One-to-One 模型？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Windows NT/XP/2000",
+    "B": "GNU Portable Threads",
+    "C": "Solaris prior to version 9",
+    "D": "Solaris Green Threads"
+   },
    "answer": [
-    "Windows NT/XP/2000"
-   ],
-   "lines": [
-    "Windows NT/XP/2000"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1cw0t0n": {
    "id": "t1cw0t0n",
@@ -17417,20 +17487,24 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following statements about Parallelism and Concurrency are correct?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Parallelism means a system can execute more than one task simultaneously",
+    "B": "Concurrency means a system can support the progression of more than one task at the same time",
+    "C": "A single-core system can provide concurrency",
+    "D": "A multicore system can provide parallelism"
+   },
    "answer": [
-    "Parallelism means a system can execute more than one task simultaneously Concurrency means a system can support the progression of more than one task at the same time A single-core system can provide concurrency A multicore system can provide parallelism"
-   ],
-   "lines": [
-    "Parallelism means a system can execute more than one task simultaneously Concurrency means a system can support the progression of more than one task at the same time A single-core system can provide concurrency A multicore system can provide parallelism"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:13.124Z",
-   "updatedAt": "2026-10-20T01:19:13.124Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tednnnb": {
    "id": "tednnnb",
@@ -17438,20 +17512,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "執行緒取消（Thread Cancellation）的兩種方法中，哪一種會立即終止目標執行緒？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "異步取消（Asynchronous cancellation）",
+    "B": "協作取消（Cooperative cancellation）",
+    "C": "自動取消（Automatic cancellation）",
+    "D": "延遲取消（Deferred cancellation）"
+   },
    "answer": [
-    "異步取消（Asynchronous cancellation）"
-   ],
-   "lines": [
-    "異步取消（Asynchronous cancellation）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "ta0j9ro": {
    "id": "ta0j9ro",
@@ -17459,20 +17534,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Many-to-One 模型有何特性？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "多個使用者層級執行緒映射到單一核心執行緒",
+    "B": "一個執行緒阻塞會導致所有執行緒阻塞",
+    "C": "在多核心系統上無法平行執行多個執行緒",
+    "D": "每個使用者執行緒創建一個核心執行緒"
+   },
    "answer": [
-    "多個使用者層級執行緒映射到單一核心執行緒 一個執行緒阻塞會導致所有執行緒阻塞 在多核心系統上無法平行執行多個執行緒"
-   ],
-   "lines": [
-    "多個使用者層級執行緒映射到單一核心執行緒 一個執行緒阻塞會導致所有執行緒阻塞 在多核心系統上無法平行執行多個執行緒"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1nwxnge": {
    "id": "t1nwxnge",
@@ -17480,20 +17558,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一種多執行緒模型為每個使用者層級執行緒映射一個核心執行緒？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "One-to-One",
+    "B": "Many-to-Many",
+    "C": "Two-level",
+    "D": "Many-to-One"
+   },
    "answer": [
-    "One-to-One"
-   ],
-   "lines": [
-    "One-to-One"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tptrh7q": {
    "id": "tptrh7q",
@@ -17543,21 +17622,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "哪一種多執行緒模型允許一個核心執行緒與一個使用者執行緒綁定？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Many-to-One",
+    "B": "One-to-One",
+    "C": "Many-to-Many",
+    "D": "Two-level"
+   },
    "answer": [
-    "One-to-One\nTwo-level"
-   ],
-   "lines": [
-    "One-to-One",
-    "Two-level"
+    "B",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:13.124Z",
-   "updatedAt": "2026-10-23T18:54:41.553Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1lp4uht": {
    "id": "t1lp4uht",
@@ -17607,20 +17687,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "執行緒本地儲存（Thread-local storage TLS）與區域變數有何不同？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "TLS 在多次函式呼叫中可見",
+    "B": "區域變數只在單次函式呼叫中可見",
+    "C": "TLS 在所有執行緒中共享",
+    "D": "區域變數在不同執行緒中是獨特的"
+   },
    "answer": [
-    "TLS 在多次函式呼叫中可見 區域變數只在單次函式呼叫中可見"
-   ],
-   "lines": [
-    "TLS 在多次函式呼叫中可見 區域變數只在單次函式呼叫中可見"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1pa2ef9": {
    "id": "t1pa2ef9",
@@ -17628,20 +17710,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列哪一個不是主要的使用者層級執行緒函式庫？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Android threads",
+    "B": "Win32 threads",
+    "C": "POSIX Pthreads",
+    "D": "Java threads"
+   },
    "answer": [
-    "Android threads"
-   ],
-   "lines": [
-    "Android threads"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tzx7bgy": {
    "id": "tzx7bgy",
@@ -17649,20 +17732,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "POSIX Pthreads 是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "一個用於執行緒創建和同步的 API 標準",
+    "B": "一個只在 Java 虛擬機中使用的函式庫",
+    "C": "一個 Windows 專用的執行緒函式庫",
+    "D": "一個特定的執行緒實作"
+   },
    "answer": [
-    "一個用於執行緒創建和同步的 API 標準"
-   ],
-   "lines": [
-    "一個用於執行緒創建和同步的 API 標準"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1o1c2x5": {
    "id": "t1o1c2x5",
@@ -17712,20 +17796,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在多核心程式設計中，將相同資料集的子集分配到多個核心上，並在每個核心上執行相同的操作，這屬於哪種類型的平行處理？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "資料平行（Data parallelism）",
+    "B": "任務平行（Task parallelism）",
+    "C": "程式平行",
+    "D": "系統平行"
+   },
    "answer": [
-    "資料平行（Data parallelism）"
-   ],
-   "lines": [
-    "資料平行（Data parallelism）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1n5clsl": {
    "id": "t1n5clsl",
@@ -17754,20 +17839,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Which multithreading model maps many user-level threads to a single kernel thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Many-to-One",
+    "B": "Many-to-Many",
+    "C": "Two-level",
+    "D": "One-to-One"
+   },
    "answer": [
-    "Many-to-One"
-   ],
-   "lines": [
-    "Many-to-One"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1cuatze": {
    "id": "t1cuatze",
@@ -17796,20 +17882,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "隱式執行緒（Implicit Threading）的優勢在於？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "減少程式設計師管理執行緒的負擔",
+    "B": "創建和管理執行緒由編譯器和執行時期函式庫完成",
+    "C": "有助於解決執行緒數量增加時的程式正確性問題",
+    "D": "增加了對執行緒創建過程的控制"
+   },
    "answer": [
-    "減少程式設計師管理執行緒的負擔 創建和管理執行緒由編譯器和執行時期函式庫完成 有助於解決執行緒數量增加時的程式正確性問題"
-   ],
-   "lines": [
-    "減少程式設計師管理執行緒的負擔 創建和管理執行緒由編譯器和執行時期函式庫完成 有助於解決執行緒數量增加時的程式正確性問題"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1fqski5": {
    "id": "t1fqski5",
@@ -17904,20 +17993,24 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "多執行緒程式設計的好處包括？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "響應性",
+    "B": "資源共享",
+    "C": "經濟性",
+    "D": "可擴展性"
+   },
    "answer": [
-    "響應性 資源共享 經濟性 可擴展性"
-   ],
-   "lines": [
-    "響應性 資源共享 經濟性 可擴展性"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:26.180Z",
-   "updatedAt": "2026-10-20T01:19:26.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t9t2wly": {
    "id": "t9t2wly",
@@ -17988,20 +18081,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在 Linux 系統中，關於執行緒的敘述哪些是正確的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Linux 將執行緒稱為任務（tasks）",
+    "B": "執行緒創建是透過 clone() 系統呼叫完成",
+    "C": "clone() 允許子任務與父任務共享位址空間",
+    "D": "clone() 總是創建一個與父程序完全獨立的子程序"
+   },
    "answer": [
-    "Linux 將執行緒稱為任務（tasks） 執行緒創建是透過 clone() 系統呼叫完成 clone() 允許子任務與父任務共享位址空間"
-   ],
-   "lines": [
-    "Linux 將執行緒稱為任務（tasks） 執行緒創建是透過 clone() 系統呼叫完成 clone() 允許子任務與父任務共享位址空間"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:44.588Z",
-   "updatedAt": "2026-10-20T01:19:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1hvcv1h": {
    "id": "t1hvcv1h",
@@ -18009,20 +18105,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What characteristics does OpenMP provide to support parallel programming?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "A set of compiler directives and APIs",
+    "B": "Supports parallel programming in a shared-memory environment",
+    "C": "Allows programmers to explicitly identify parallel regions",
+    "D": "Can only be used on Apple systems"
+   },
    "answer": [
-    "A set of compiler directives and APIs Supports parallel programming in a shared-memory environment Allows programmers to explicitly identify parallel regions"
-   ],
-   "lines": [
-    "A set of compiler directives and APIs Supports parallel programming in a shared-memory environment Allows programmers to explicitly identify parallel regions"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tgrwnt3": {
    "id": "tgrwnt3",
@@ -18030,20 +18129,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "多執行緒程式設計的好處中，下列哪一項與使用者介面特別相關？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "響應性",
+    "B": "經濟性",
+    "C": "資源共享",
+    "D": "可擴展性"
+   },
    "answer": [
-    "響應性"
-   ],
-   "lines": [
-    "響應性"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1bzxoqm": {
    "id": "t1bzxoqm",
@@ -18051,20 +18151,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following statements about threads in the Linux system are correct?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Linux refers to threads as tasks",
+    "B": "clone() allows child tasks to share the parent's address space",
+    "C": "Thread creation is done via the clone() system call",
+    "D": "clone() always creates a child process that is completely independent of the parent"
+   },
    "answer": [
-    "Linux refers to threads as tasks Thread creation is done via the clone() system call clone() allows child tasks to share the parent's address space"
-   ],
-   "lines": [
-    "Linux refers to threads as tasks Thread creation is done via the clone() system call clone() allows child tasks to share the parent's address space"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:57.204Z",
-   "updatedAt": "2026-10-20T01:19:57.204Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tnplsdl": {
    "id": "tnplsdl",
@@ -18072,20 +18175,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "What is the Linux system call for creating a thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "clone()",
+    "B": "fork()",
+    "C": "exec()",
+    "D": "create_thread()"
+   },
    "answer": [
-    "clone()"
-   ],
-   "lines": [
-    "clone()"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tt3s9ix": {
    "id": "tt3s9ix",
@@ -18093,20 +18197,24 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列關於平行性（Parallelism）與並行性（Concurrency）的敘述，哪些是正確的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "平行性意指一個系統可以同時執行多個任務",
+    "B": "並行性意指一個系統可以支援多個任務同時進展",
+    "C": "單核心系統可以提供並行性",
+    "D": "多核心系統可以提供平行性"
+   },
    "answer": [
-    "平行性意指一個系統可以同時執行多個任務 並行性意指一個系統可以支援多個任務同時進展 單核心系統可以提供並行性 多核心系統可以提供平行性"
-   ],
-   "lines": [
-    "平行性意指一個系統可以同時執行多個任務 並行性意指一個系統可以支援多個任務同時進展 單核心系統可以提供並行性 多核心系統可以提供平行性"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1inwuv1": {
    "id": "t1inwuv1",
@@ -18177,20 +18285,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列關於 fork() 和 exec() 系統呼叫在多執行緒環境下的語義描述，哪些是正確的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "fork() 有時只複製呼叫執行緒",
+    "B": "fork() 有時會複製所有執行緒",
+    "C": "exec() 通常會替換整個正在運行的程序，包括所有執行緒",
+    "D": "exec() 會創建新的執行緒"
+   },
    "answer": [
-    "fork() 有時只複製呼叫執行緒 fork() 有時會複製所有執行緒 exec() 通常會替換整個正在運行的程序，包括所有執行緒"
-   ],
-   "lines": [
-    "fork() 有時只複製呼叫執行緒 fork() 有時會複製所有執行緒 exec() 通常會替換整個正在運行的程序，包括所有執行緒"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:44.588Z",
-   "updatedAt": "2026-10-20T01:19:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tujvlw2": {
    "id": "tujvlw2",
@@ -18219,20 +18330,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "執行緒池（Thread Pools）的優點包括？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "使用現有執行緒服務請求比創建新執行緒更快",
+    "B": "允許應用程式中的執行緒數量被限制在池的大小",
+    "C": "將任務與創建任務的機制分離",
+    "D": "能夠確保每個請求都使用一個新的執行緒"
+   },
    "answer": [
-    "使用現有執行緒服務請求比創建新執行緒更快 允許應用程式中的執行緒數量被限制在池的大小 將任務與創建任務的機制分離"
-   ],
-   "lines": [
-    "使用現有執行緒服務請求比創建新執行緒更快 允許應用程式中的執行緒數量被限制在池的大小 將任務與創建任務的機制分離"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1qi5v6j": {
    "id": "t1qi5v6j",
@@ -18240,20 +18354,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "In Java, what are the two methods for creating a thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Inheriting the Thread class",
+    "B": "Implementing the Runnable interface",
+    "C": "Using the Runnable class",
+    "D": "Creating a new process"
+   },
    "answer": [
-    "Inheriting the Thread class Implementing the Runnable interface"
-   ],
-   "lines": [
-    "Inheriting the Thread class Implementing the Runnable interface"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tjoajni": {
    "id": "tjoajni",
@@ -18261,20 +18377,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are considered user-level thread libraries?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "POSIX Pthreads",
+    "B": "Win32 threads",
+    "C": "Java threads",
+    "D": "Linux threads"
+   },
    "answer": [
-    "POSIX Pthreads Win32 threads Java threads"
-   ],
-   "lines": [
-    "POSIX Pthreads Win32 threads Java threads"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1f3ofeb": {
    "id": "t1f3ofeb",
@@ -18303,20 +18422,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Amdahl's Law 主要用來識別什麼樣的效能提升？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "增加額外核心所帶來的效能提升",
+    "B": "優化程式碼所帶來的效能提升",
+    "C": "減少 I/O 操作所帶來的效能提升",
+    "D": "增加記憶體所帶來的效能提升"
+   },
    "answer": [
-    "增加額外核心所帶來的效能提升"
-   ],
-   "lines": [
-    "增加額外核心所帶來的效能提升"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t11hi2sc": {
    "id": "t11hi2sc",
@@ -18324,20 +18444,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一種多執行緒模型將多個使用者層級執行緒映射到單一核心執行緒？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Many-to-One",
+    "B": "One-to-One",
+    "C": "Many-to-Many",
+    "D": "Two-level"
+   },
    "answer": [
-    "Many-to-One"
-   ],
-   "lines": [
-    "Many-to-One"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t7r8ndk": {
    "id": "t7r8ndk",
@@ -18409,20 +18530,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Of the two methods of thread cancellation, which one immediately terminates the target thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Asynchronous cancellation",
+    "B": "Automatic cancellation",
+    "C": "Deferred cancellation",
+    "D": "Cooperative cancellation"
+   },
    "answer": [
-    "Asynchronous cancellation"
-   ],
-   "lines": [
-    "Asynchronous cancellation"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:34.916Z",
-   "updatedAt": "2026-10-20T01:17:34.916Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1j4qo5m": {
    "id": "t1j4qo5m",
@@ -18430,20 +18552,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在多核心系統中進行程式設計時，可能遇到的挑戰包括？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "分割活動（Dividing activities）",
+    "B": "測試與除錯",
+    "C": "資料相依性（Data dependency）",
+    "D": "硬體成本"
+   },
    "answer": [
-    "分割活動（Dividing activities） 測試與除錯 資料相依性（Data dependency）"
-   ],
-   "lines": [
-    "分割活動（Dividing activities） 測試與除錯 資料相依性（Data dependency）"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1y0z276": {
    "id": "t1y0z276",
@@ -18577,20 +18702,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following operating systems use the One-to-One model?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Windows NT/XP/2000",
+    "B": "Linux",
+    "C": "Solaris 9 and higher",
+    "D": "Solaris Green Threads"
+   },
    "answer": [
-    "Windows NT/XP/2000 Linux Solaris 9 and higher"
-   ],
-   "lines": [
-    "Windows NT/XP/2000 Linux Solaris 9 and higher"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1ohuhcc": {
    "id": "t1ohuhcc",
@@ -18620,20 +18748,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "OpenMP 主要提供在哪種環境下進行平行程式設計的支援？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "共享記憶體環境",
+    "B": "僅限於單核心系統",
+    "C": "雲端運算環境",
+    "D": "分散式記憶體環境"
+   },
    "answer": [
-    "共享記憶體環境"
-   ],
-   "lines": [
-    "共享記憶體環境"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:20:22.028Z",
-   "updatedAt": "2026-10-20T01:20:22.028Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1g8gmem": {
    "id": "t1g8gmem",
@@ -18641,20 +18770,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are some of the challenges you might encounter when programming for multicore systems?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Dividing activities",
+    "B": "Testing and debugging",
+    "C": "Data dependency",
+    "D": "Hardware cost"
+   },
    "answer": [
-    "Dividing activities Testing and debugging Data dependency"
-   ],
-   "lines": [
-    "Dividing activities Testing and debugging Data dependency"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:20:22.028Z",
-   "updatedAt": "2026-10-20T01:20:22.028Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tbq0d61": {
    "id": "tbq0d61",
@@ -18662,20 +18794,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在 Java 中，創建執行緒的方法有哪兩種？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "繼承 Thread 類別",
+    "B": "實作 Runnable 介面",
+    "C": "使用 Runnable 類別",
+    "D": "創建一個新的程序"
+   },
    "answer": [
-    "繼承 Thread 類別 實作 Runnable 介面"
-   ],
-   "lines": [
-    "繼承 Thread 類別 實作 Runnable 介面"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:20:22.028Z",
-   "updatedAt": "2026-10-20T01:20:22.028Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1rewbe3": {
    "id": "t1rewbe3",
@@ -18683,20 +18817,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Java 執行緒通常由誰管理？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Java 虛擬機（JVM）",
+    "B": "編譯器",
+    "C": "作業系統",
+    "D": "程式設計師"
+   },
    "answer": [
-    "Java 虛擬機（JVM）"
-   ],
-   "lines": [
-    "Java 虛擬機（JVM）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:44.588Z",
-   "updatedAt": "2026-10-20T01:19:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t6g5eky": {
    "id": "t6g5eky",
@@ -18725,20 +18860,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "In the Windows thread data structure, what blocks are contained in user space?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "TEB",
+    "B": "Thread-local storage",
+    "C": "ETHREAD",
+    "D": "KTHREAD"
+   },
    "answer": [
-    "TEB Thread-local storage"
-   ],
-   "lines": [
-    "TEB Thread-local storage"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:44.588Z",
-   "updatedAt": "2026-10-20T01:19:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1onad31": {
    "id": "t1onad31",
@@ -18746,20 +18883,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些作業系統採用 One-to-One 模型？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Windows NT/XP/2000",
+    "B": "Linux",
+    "C": "Solaris 9 和更高版本",
+    "D": "Solaris Green Threads"
+   },
    "answer": [
-    "Windows NT/XP/2000 Linux Solaris 9 和更高版本"
-   ],
-   "lines": [
-    "Windows NT/XP/2000 Linux Solaris 9 和更高版本"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tockjbh": {
    "id": "tockjbh",
@@ -18767,21 +18907,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which multithreading model allows a single kernel thread to be bound to a single user thread?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Many-to-One",
+    "B": "One-to-One",
+    "C": "Many-to-Many",
+    "D": "Two-level"
+   },
    "answer": [
-    "One-to-One\nTwo-level"
-   ],
-   "lines": [
-    "One-to-One",
-    "Two-level"
+    "B",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:20:15.100Z",
-   "updatedAt": "2026-10-23T18:54:41.553Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t13ioq3l": {
    "id": "t13ioq3l",
@@ -23187,20 +23328,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "I/O綁定型程序（I/O-bound process）的特徵是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "花費大部分時間進行I/O操作",
+    "B": "很少進行I/O操作",
+    "C": "只有一個CPU突發",
+    "D": "花費大部分時間進行計算"
+   },
    "answer": [
-    "花費大部分時間進行I/O操作"
-   ],
-   "lines": [
-    "花費大部分時間進行I/O操作"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1t1dnom": {
    "id": "t1t1dnom",
@@ -23208,20 +23350,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "花費大部分時間進行 I/O 操作的程序被稱為哪一種類型？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "I/O綁定型程序",
+    "B": "背景程序",
+    "C": "前景程序",
+    "D": "CPU綁定型程序"
+   },
    "answer": [
-    "I/O綁定型程序"
-   ],
-   "lines": [
-    "I/O綁定型程序"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tjaowi5": {
    "id": "tjaowi5",
@@ -23250,20 +23393,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在程序狀態圖中，從「執行中」轉換到「等待中」的原因是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "I/O 或事件等待",
+    "B": "中斷",
+    "C": "排程器分派",
+    "D": "I/O 或事件完成"
+   },
    "answer": [
-    "I/O 或事件等待"
-   ],
-   "lines": [
-    "I/O 或事件等待"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tx9iny8": {
    "id": "tx9iny8",
@@ -23271,20 +23415,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "如果一個子程序在父程序終止後仍然存在，這會導致什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "孤兒程序（orphan process）",
+    "B": "資源洩漏",
+    "C": "殭屍程序（zombie process）",
+    "D": "無限循環"
+   },
    "answer": [
-    "孤兒程序（orphan process）"
-   ],
-   "lines": [
-    "孤兒程序（orphan process）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t183frwi": {
    "id": "t183frwi",
@@ -23292,20 +23437,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "訊息傳遞設施提供的兩種操作是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "發送訊息",
+    "B": "接收訊息",
+    "C": "建立連結",
+    "D": "終止連結"
+   },
    "answer": [
-    "發送訊息 接收訊息"
-   ],
-   "lines": [
-    "發送訊息 接收訊息"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1y28b4h": {
    "id": "t1y28b4h",
@@ -23313,20 +23460,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "In a process control block (PCB), which piece of information records the location of the next instruction to be executed?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "program counter",
+    "B": "CPU registers",
+    "C": "I/O status information",
+    "D": "process state"
+   },
    "answer": [
-    "program counter"
-   ],
-   "lines": [
-    "program counter"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tvw46v9": {
    "id": "tvw46v9",
@@ -23334,20 +23482,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在作業系統中，一個程式被載入到記憶體中後會變成什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "一個程序",
+    "B": "一個檔案",
+    "C": "一個行程",
+    "D": "一個資料區塊"
+   },
    "answer": [
-    "一個程序"
-   ],
-   "lines": [
-    "一個程序"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t228l73": {
    "id": "t228l73",
@@ -23439,20 +23588,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是 Chrome 瀏覽器的多程序架構中不同類型的程序？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "瀏覽器程序",
+    "B": "渲染程序",
+    "C": "外掛程序",
+    "D": "核心程序"
+   },
    "answer": [
-    "瀏覽器程序 渲染程序 外掛程序"
-   ],
-   "lines": [
-    "瀏覽器程序 渲染程序 外掛程序"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1e0f8oq": {
    "id": "t1e0f8oq",
@@ -23460,20 +23612,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "父程序創建子程序時，可能的資源共享選項有哪些？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "子程序共享父程序資源的子集",
+    "B": "父子程序不共享資源",
+    "C": "父子程序共享所有資源",
+    "D": "父程序將所有資源轉移給子程序"
+   },
    "answer": [
-    "父子程序共享所有資源 子程序共享父程序資源的子集 父子程序不共享資源"
-   ],
-   "lines": [
-    "父子程序共享所有資源 子程序共享父程序資源的子集 父子程序不共享資源"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t182gvkr": {
    "id": "t182gvkr",
@@ -23481,20 +23636,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are implementation issues for a communication link?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "how to establish a link",
+    "B": "whether a link can be associated with multiple processes",
+    "C": "what the capacity of the communication link is",
+    "D": "whether the message size is fixed or variable"
+   },
    "answer": [
-    "how to establish a link whether a link can be associated with multiple processes what the capacity of the communication link is whether the message size is fixed or variable"
-   ],
-   "lines": [
-    "how to establish a link whether a link can be associated with multiple processes what the capacity of the communication link is whether the message size is fixed or variable"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:11:13.756Z",
-   "updatedAt": "2026-10-20T01:11:13.756Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tnrudj8": {
    "id": "tnrudj8",
@@ -23502,20 +23661,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪種排程器負責選擇要進入就緒佇列的程序？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "長期排程器",
+    "B": "短期排程器",
+    "C": "中期排程器",
+    "D": "分派器"
+   },
    "answer": [
-    "長期排程器"
-   ],
-   "lines": [
-    "長期排程器"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t12tuqj6": {
    "id": "t12tuqj6",
@@ -23523,20 +23683,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are different types of processes in the Chrome browser's multi-process architecture?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "browser process",
+    "B": "renderer process",
+    "C": "plug-in process",
+    "D": "kernel process"
+   },
    "answer": [
-    "browser process renderer process plug-in process"
-   ],
-   "lines": [
-    "browser process renderer process plug-in process"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "ttjl769": {
    "id": "ttjl769",
@@ -23586,20 +23749,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是命名管道（Named Pipes）的特性？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "雙向通訊",
+    "B": "不需要有父行程與子行程關係",
+    "C": "單向通訊",
+    "D": "需要有父行程與子行程關係"
+   },
    "answer": [
-    "雙向通訊 不需要有父行程與子行程關係"
-   ],
-   "lines": [
-    "雙向通訊 不需要有父行程與子行程關係"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1o7us6u": {
    "id": "t1o7us6u",
@@ -23628,20 +23793,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "一個佇列圖可以代表什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "佇列",
+    "B": "資源",
+    "C": "流程",
+    "D": "時間片"
+   },
    "answer": [
-    "佇列 資源 流程"
-   ],
-   "lines": [
-    "佇列 資源 流程"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t10msmj2": {
    "id": "t10msmj2",
@@ -23649,20 +23817,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一個UNIX系統呼叫會創建一個新的程序？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "fork()",
+    "B": "abort()",
+    "C": "wait()",
+    "D": "exec()"
+   },
    "answer": [
-    "fork()"
-   ],
-   "lines": [
-    "fork()"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tn4wyc0": {
    "id": "tn4wyc0",
@@ -23670,20 +23839,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "In an operating system, what does a program become after it is loaded into memory?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "a process",
+    "B": "a data block",
+    "C": "a thread",
+    "D": "a file"
+   },
    "answer": [
-    "a process"
-   ],
-   "lines": [
-    "a process"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1sl9ty2": {
    "id": "t1sl9ty2",
@@ -23691,20 +23861,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是作業系統中的佇列？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "作業佇列",
+    "B": "就緒佇列",
+    "C": "設備佇列",
+    "D": "交換佇列"
+   },
    "answer": [
-    "作業佇列 就緒佇列 設備佇列"
-   ],
-   "lines": [
-    "作業佇列 就緒佇列 設備佇列"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:09.532Z",
-   "updatedAt": "2026-10-20T01:12:09.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t7uwk5g": {
    "id": "t7uwk5g",
@@ -23712,20 +23885,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are process execution options?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "parent and child execute concurrently",
+    "B": "parent waits for the child process to terminate",
+    "C": "the child process must also terminate when the parent process terminates",
+    "D": "the child process can inherit the parent's state"
+   },
    "answer": [
-    "parent and child execute concurrently parent waits for the child process to terminate"
-   ],
-   "lines": [
-    "parent and child execute concurrently parent waits for the child process to terminate"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1ix45f9": {
    "id": "t1ix45f9",
@@ -23733,20 +23908,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些項目與程序控制區塊（PCB）相關？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "程序狀態",
+    "B": "CPU暫存器",
+    "C": "I/O狀態資訊",
+    "D": "程式計數器"
+   },
    "answer": [
-    "程序狀態 CPU暫存器 I/O狀態資訊 程式計數器"
-   ],
-   "lines": [
-    "程序狀態 CPU暫存器 I/O狀態資訊 程式計數器"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t4in0nn": {
    "id": "t4in0nn",
@@ -23859,20 +24038,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are distinctions between the shared memory and message passing models in IPC?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "one is memory region sharing, the other is message exchange",
+    "B": "shared memory mainly focuses on synchronization",
+    "C": "message passing mainly focuses on establishing a communication link",
+    "D": "one is controlled by the user program, the other by the operating system"
+   },
    "answer": [
-    "one is memory region sharing, the other is message exchange shared memory mainly focuses on synchronization message passing mainly focuses on establishing a communication link"
-   ],
-   "lines": [
-    "one is memory region sharing, the other is message exchange shared memory mainly focuses on synchronization message passing mainly focuses on establishing a communication link"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t18ysxcv": {
    "id": "t18ysxcv",
@@ -23880,20 +24062,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "哪一種管道（Pipes），它允許沒有親屬關係的程序之間進行通信？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "具名管道",
+    "B": "普通管道",
+    "C": "匿名管道",
+    "D": "UNIX管道"
+   },
    "answer": [
-    "具名管道"
-   ],
-   "lines": [
-    "具名管道"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:17.532Z",
-   "updatedAt": "2026-10-20T01:12:17.532Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t13rhhsl": {
    "id": "t13rhhsl",
@@ -23922,20 +24105,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are the possible resource-sharing options when a parent process creates a child process?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "parent and child share all resources",
+    "B": "child process shares a subset of the parent's resources",
+    "C": "parent and child do not share resources",
+    "D": "parent transfers all resources to the child process"
+   },
    "answer": [
-    "parent and child share all resources child process shares a subset of the parent's resources parent and child do not share resources"
-   ],
-   "lines": [
-    "parent and child share all resources child process shares a subset of the parent's resources parent and child do not share resources"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t2ydw7n": {
    "id": "t2ydw7n",
@@ -23943,20 +24129,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是通訊連結的實作問題？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "如何建立連結",
+    "B": "一個連結是否可以與多個程序相關聯",
+    "C": "通訊連結的容量如何",
+    "D": "訊息的大小是固定的還是變動的"
+   },
    "answer": [
-    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
-   ],
-   "lines": [
-    "如何建立連結 一個連結是否可以與多個程序相關聯 通訊連結的容量如何 訊息的大小是固定的還是變動的"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tip5uon": {
    "id": "tip5uon",
@@ -23964,20 +24154,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "CPU綁定型程序（CPU-bound process）的特徵是什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "花費大部分時間進行計算",
+    "B": "只有一個CPU突發",
+    "C": "很少進行I/O操作",
+    "D": "花費大部分時間進行I/O操作"
+   },
    "answer": [
-    "花費大部分時間進行計算"
-   ],
-   "lines": [
-    "花費大部分時間進行計算"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1wlli94": {
    "id": "t1wlli94",
@@ -23985,20 +24176,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是程序合作的理由？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "資訊共享",
+    "B": "計算加速",
+    "C": "模組化",
+    "D": "方便性"
+   },
    "answer": [
-    "資訊共享 計算加速 模組化 方便性"
-   ],
-   "lines": [
-    "資訊共享 計算加速 模組化 方便性"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1aov717": {
    "id": "t1aov717",
@@ -24006,20 +24201,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are associated with the process control block (PCB)?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "process state",
+    "B": "CPU registers",
+    "C": "I/O status information",
+    "D": "program counter"
+   },
    "answer": [
-    "process state CPU registers I/O status information program counter"
-   ],
-   "lines": [
-    "process state CPU registers I/O status information program counter"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:25.188Z",
-   "updatedAt": "2026-10-20T01:12:25.188Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1b0slxi": {
    "id": "t1b0slxi",
@@ -24069,20 +24268,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are characteristics of Ordinary Pipes?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "communication is unidirectional",
+    "B": "requires a parent-child relationship",
+    "C": "does not require a parent-child relationship",
+    "D": "communication is bidirectional"
+   },
    "answer": [
-    "communication is unidirectional requires a parent-child relationship"
-   ],
-   "lines": [
-    "communication is unidirectional requires a parent-child relationship"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:37.180Z",
-   "updatedAt": "2026-10-20T01:12:37.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tru02xt": {
    "id": "tru02xt",
@@ -24132,20 +24333,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "What happens if a child process remains after its parent process has terminated?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "orphan process",
+    "B": "infinite loop",
+    "C": "zombie process",
+    "D": "resource leak"
+   },
    "answer": [
-    "orphan process"
-   ],
-   "lines": [
-    "orphan process"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:12:37.180Z",
-   "updatedAt": "2026-10-20T01:12:37.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1fixto7": {
    "id": "t1fixto7",
@@ -24174,20 +24376,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是在 IPC 中，共享記憶體和訊息傳遞模型的區別？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "一個是記憶體區域共享，另一個是訊息交換",
+    "B": "共享記憶體主要關注同步化",
+    "C": "訊息傳遞主要關注通訊連結的建立",
+    "D": "一個由用戶程序控制，另一個由作業系統控制"
+   },
    "answer": [
-    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
-   ],
-   "lines": [
-    "一個是記憶體區域共享，另一個是訊息交換 共享記憶體主要關注同步化 訊息傳遞主要關注通訊連結的建立"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1afasid": {
    "id": "t1afasid",
@@ -24195,20 +24400,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些是 Cooperating Process 的優點？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "information sharing",
+    "B": "computation speedup",
+    "C": "modularity",
+    "D": "efficiency"
+   },
    "answer": [
-    "information sharing computation speedup modularity"
-   ],
-   "lines": [
-    "information sharing computation speedup modularity"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1knaz8k": {
    "id": "t1knaz8k",
@@ -24216,20 +24424,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些原因可能導致父程序終止子程序？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "子程序超出分配的資源",
+    "B": "父程序正在退出，且作業系統不允許子程序繼續",
+    "C": "分配給子程序的任務不再需要",
+    "D": "子程序陷入無限迴圈"
+   },
    "answer": [
-    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
-   ],
-   "lines": [
-    "子程序超出分配的資源 分配給子程序的任務不再需要 父程序正在退出，且作業系統不允許子程序繼續"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t16w7b24": {
    "id": "t16w7b24",
@@ -24258,20 +24469,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Which term is often used interchangeably with \"process\"?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "job",
+    "B": "thread",
+    "C": "memory block",
+    "D": "file"
+   },
    "answer": [
-    "job"
-   ],
-   "lines": [
-    "job"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1008hhi": {
    "id": "t1008hhi",
@@ -24279,20 +24491,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are multitasking limitations in the iOS mobile system?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "allows only one foreground process",
+    "B": "allows multiple background processes",
+    "C": "background processes have no restrictions",
+    "D": "allows multiple foreground processes"
+   },
    "answer": [
-    "allows only one foreground process allows multiple background processes"
-   ],
-   "lines": [
-    "allows only one foreground process allows multiple background processes"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t19mi41g": {
    "id": "t19mi41g",
@@ -24300,20 +24514,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Which type of scheduler is responsible for selecting which processes to load into the ready queue?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "long-term scheduler",
+    "B": "medium-term scheduler",
+    "C": "short-term scheduler",
+    "D": "dispatcher"
+   },
    "answer": [
-    "long-term scheduler"
-   ],
-   "lines": [
-    "long-term scheduler"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:13:50.444Z",
-   "updatedAt": "2026-10-20T01:13:50.444Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tdijl9q": {
    "id": "tdijl9q",
@@ -24405,20 +24620,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在間接通訊（indirect communication）中，以下哪些敘述是正確的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "信箱有唯一的 ID",
+    "B": "一個連結可能與許多程序相關聯",
+    "C": "程序只有在共享信箱時才能通訊",
+    "D": "程序必須明確命名對方"
+   },
    "answer": [
-    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
-   ],
-   "lines": [
-    "信箱有唯一的 ID 一個連結可能與許多程序相關聯 程序只有在共享信箱時才能通訊"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:05.468Z",
-   "updatedAt": "2026-10-20T01:14:05.468Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tenpdsn": {
    "id": "tenpdsn",
@@ -24447,20 +24665,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "哪兩種 IPC 系統是基於訊息傳遞的？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Mach",
+    "B": "Windows 的 LPC",
+    "C": "Java 的 RMI",
+    "D": "POSIX 共享記憶體"
+   },
    "answer": [
-    "Mach Windows 的 LPC"
-   ],
-   "lines": [
-    "Mach Windows 的 LPC"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:21.388Z",
-   "updatedAt": "2026-10-20T01:14:21.388Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1cmbrj4": {
    "id": "t1cmbrj4",
@@ -24468,20 +24688,24 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are process states?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "new",
+    "B": "ready",
+    "C": "running",
+    "D": "waiting"
+   },
    "answer": [
-    "new ready running waiting"
-   ],
-   "lines": [
-    "new ready running waiting"
+    "A",
+    "B",
+    "C",
+    "D"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:21.388Z",
-   "updatedAt": "2026-10-20T01:14:21.388Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1oggo5z": {
    "id": "t1oggo5z",
@@ -24510,20 +24734,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "What is a characteristic of an CPU-bound process?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "spends most of its time computing",
+    "B": "spends most of its time performing I/O operations",
+    "C": "has only one CPU burst",
+    "D": "rarely performs I/O operations"
+   },
    "answer": [
-    "spends most of its time computing"
-   ],
-   "lines": [
-    "spends most of its time computing"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:21.388Z",
-   "updatedAt": "2026-10-20T01:14:21.388Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t11zmnsr": {
    "id": "t11zmnsr",
@@ -24531,20 +24756,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "程序（Process）的哪一個部分包含用於動態記憶體分配的記憶體？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "堆積",
+    "B": "文字區",
+    "C": "資料區",
+    "D": "堆疊"
+   },
    "answer": [
-    "堆積"
-   ],
-   "lines": [
-    "堆積"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:21.388Z",
-   "updatedAt": "2026-10-20T01:14:21.388Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t13ssldq": {
    "id": "t13ssldq",
@@ -24573,20 +24799,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是作業系統提供給程序操作的機制？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "程序創建",
+    "B": "程序終止",
+    "C": "訊息傳遞",
+    "D": "I/O管理"
+   },
    "answer": [
-    "程序創建 程序終止"
-   ],
-   "lines": [
-    "程序創建 程序終止"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:39.684Z",
-   "updatedAt": "2026-10-20T01:14:39.684Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t16j73a0": {
    "id": "t16j73a0",
@@ -24594,20 +24822,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "In an operating system, what is a \"process\" defined as being in execution?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "an executing program",
+    "B": "a memory block",
+    "C": "a static file on disk",
+    "D": "a copy of code"
+   },
    "answer": [
-    "an executing program"
-   ],
-   "lines": [
-    "an executing program"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:39.684Z",
-   "updatedAt": "2026-10-20T01:14:39.684Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1iyyj6": {
    "id": "t1iyyj6",
@@ -24699,20 +24928,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Which kind of \"Pipes\" that allows communication between processes without a parent-child relationship?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "named pipes",
+    "B": "anonymous pipes",
+    "C": "ordinary pipes",
+    "D": "UNIX pipes"
+   },
    "answer": [
-    "named pipes"
-   ],
-   "lines": [
-    "named pipes"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:14:49.380Z",
-   "updatedAt": "2026-10-20T01:14:49.380Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t16i9yk1": {
    "id": "t16i9yk1",
@@ -24720,20 +24950,22 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "以下哪些是程序的執行選項？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "父子程序並行執行",
+    "B": "父程序等待子程序終止",
+    "C": "子程序在父程序終止時也必須終止",
+    "D": "子程序可以繼承父程序的狀態"
+   },
    "answer": [
-    "父子程序並行執行 父程序等待子程序終止"
-   ],
-   "lines": [
-    "父子程序並行執行 父程序等待子程序終止"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:15:16.780Z",
-   "updatedAt": "2026-10-20T01:15:16.780Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t184yx9r": {
    "id": "t184yx9r",
@@ -24741,20 +24973,21 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "什麼名詞指的是在單一程序中有一個以上的執行程序的分支？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "執行緒(Thread）",
+    "B": "多程式處理(multiprogramming)",
+    "C": "上下文切換(context switch)",
+    "D": "多工(multitasking)"
+   },
    "answer": [
-    "執行緒(Thread）"
-   ],
-   "lines": [
-    "執行緒(Thread）"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:15:16.780Z",
-   "updatedAt": "2026-10-20T01:15:16.780Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tju0pnr": {
    "id": "tju0pnr",
@@ -24783,20 +25016,23 @@
    "chapter": "4",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following are characteristics of Remote Procedure Calls (RPC)?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "uses stubs to locate the server and marshal parameters",
+    "B": "uses External Data Representation (XDR) format for data handling",
+    "C": "abstracts procedure calls in a network system",
+    "D": "requires a parent-child relationship"
+   },
    "answer": [
-    "abstracts procedure calls in a network system uses stubs to locate the server and marshal parameters uses External Data Representation (XDR) format for data handling"
-   ],
-   "lines": [
-    "abstracts procedure calls in a network system uses stubs to locate the server and marshal parameters uses External Data Representation (XDR) format for data handling"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:15:16.780Z",
-   "updatedAt": "2026-10-20T01:15:16.780Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tx8xu0z": {
    "id": "tx8xu0z",
@@ -24909,20 +25145,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Which of the following descriptions about the semantics of fork() and exec() system calls in a multithreaded environment are correct?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "fork() sometimes duplicates only the calling thread",
+    "B": "fork() sometimes duplicates all threads",
+    "C": "exec() typically replaces the entire running process, including all threads",
+    "D": "exec() creates new threads"
+   },
    "answer": [
-    "fork() sometimes duplicates only the calling thread fork() sometimes duplicates all threads exec() typically replaces the entire running process, including all threads"
-   ],
-   "lines": [
-    "fork() sometimes duplicates only the calling thread fork() sometimes duplicates all threads exec() typically replaces the entire running process, including all threads"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1vf1jk6": {
    "id": "t1vf1jk6",
@@ -24930,20 +25169,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are the advantages of Thread Pools?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Using existing threads to service requests is faster than creating new threads",
+    "B": "Allows the number of threads in the application to be limited to the size of the pool",
+    "C": "Separates the task from the mechanism that creates the task",
+    "D": "Ensures that each request uses a new thread"
+   },
    "answer": [
-    "Using existing threads to service requests is faster than creating new threads Allows the number of threads in the application to be limited to the size of the pool Separates the task from the mechanism that creates the task"
-   ],
-   "lines": [
-    "Using existing threads to service requests is faster than creating new threads Allows the number of threads in the application to be limited to the size of the pool Separates the task from the mechanism that creates the task"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:17:42.892Z",
-   "updatedAt": "2026-10-20T01:17:42.892Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tzb1yki": {
    "id": "tzb1yki",
@@ -24951,20 +25193,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些屬於使用者層級執行緒函式庫？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "POSIX Pthreads",
+    "B": "Win32 threads",
+    "C": "Java threads",
+    "D": "Linux threads"
+   },
    "answer": [
-    "POSIX Pthreads Win32 threads Java threads"
-   ],
-   "lines": [
-    "POSIX Pthreads Win32 threads Java threads"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1m4a1mb": {
    "id": "t1m4a1mb",
@@ -24972,20 +25217,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are the characteristics of deferred cancellation?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Allows the target thread to periodically check if it should be canceled",
+    "B": "Cancellation only occurs when the thread reaches a cancellation point",
+    "C": "It is the default cancellation type for Pthreads",
+    "D": "Immediately terminates the target thread"
+   },
    "answer": [
-    "Allows the target thread to periodically check if it should be canceled Cancellation only occurs when the thread reaches a cancellation point It is the default cancellation type for Pthreads"
-   ],
-   "lines": [
-    "Allows the target thread to periodically check if it should be canceled Cancellation only occurs when the thread reaches a cancellation point It is the default cancellation type for Pthreads"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:38.772Z",
-   "updatedAt": "2026-10-20T01:18:38.772Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1bmj2vr": {
    "id": "t1bmj2vr",
@@ -25014,20 +25262,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Who typically manages Java threads?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Java Virtual Machine (JVM)",
+    "B": "Programmer",
+    "C": "Operating system",
+    "D": "Compiler"
+   },
    "answer": [
-    "Java Virtual Machine (JVM)"
-   ],
-   "lines": [
-    "Java Virtual Machine (JVM)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:18:49.180Z",
-   "updatedAt": "2026-10-20T01:18:49.180Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t204uo5": {
    "id": "t204uo5",
@@ -25035,20 +25284,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "What are the advantages of Implicit Threading?",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Reduces the programmer's burden of managing threads",
+    "B": "Thread creation and management are done by the compiler and runtime libraries",
+    "C": "Helps solve the issue of program correctness as the number of threads increases",
+    "D": "Increases control over the thread creation process"
+   },
    "answer": [
-    "Reduces the programmer's burden of managing threads Thread creation and management are done by the compiler and runtime libraries Helps solve the issue of program correctness as the number of threads increases"
-   ],
-   "lines": [
-    "Reduces the programmer's burden of managing threads Thread creation and management are done by the compiler and runtime libraries Helps solve the issue of program correctness as the number of threads increases"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:05.596Z",
-   "updatedAt": "2026-10-20T01:19:05.596Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t14stvw7": {
    "id": "t14stvw7",
@@ -25056,20 +25308,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "多執行緒伺服器架構中，當一個客戶端請求到達時，伺服器會做什麼？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "創建一個新執行緒來服務請求",
+    "B": "等待現有請求完成",
+    "C": "立即關閉連線",
+    "D": "終止現有程序"
+   },
    "answer": [
-    "創建一個新執行緒來服務請求"
-   ],
-   "lines": [
-    "創建一個新執行緒來服務請求"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:19:05.596Z",
-   "updatedAt": "2026-10-20T01:19:05.596Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1upopca": {
    "id": "t1upopca",
@@ -31923,20 +32176,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序在處理已經排序過的陣列（且選擇最後一個元素為 pivot）時，複雜度為？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "O(n²)",
+    "B": "O(n log n)",
+    "C": "O(n)",
+    "D": "O(log n)"
+   },
    "answer": [
-    "O(n²)"
-   ],
-   "lines": [
-    "O(n²)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "to53hlu": {
    "id": "to53hlu",
@@ -31965,20 +32219,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "Partition 演算法中的 j 指標作用是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "掃描陣列元素",
+    "B": "指向陣列開頭",
+    "C": "計算交換次數",
+    "D": "指向 pivot"
+   },
    "answer": [
-    "掃描陣列元素"
-   ],
-   "lines": [
-    "掃描陣列元素"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tarnqf9": {
    "id": "tarnqf9",
@@ -31986,20 +32241,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序在處理小陣列時可能會較慢，原因為？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "遞迴呼叫的額外開銷",
+    "B": "比較次數過多",
+    "C": "Partition 函數的效能",
+    "D": "不穩定性"
+   },
    "answer": [
-    "遞迴呼叫的額外開銷 比較次數過多"
-   ],
-   "lines": [
-    "遞迴呼叫的額外開銷 比較次數過多"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tjabkjj": {
    "id": "tjabkjj",
@@ -32007,20 +32264,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序的「原地 (in-place)」特性指？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "僅使用常數額外空間",
+    "B": "不需要複製陣列",
+    "C": "在輸入陣列本身進行運算",
+    "D": "不需要變數"
+   },
    "answer": [
-    "僅使用常數額外空間 不需要複製陣列 在輸入陣列本身進行運算"
-   ],
-   "lines": [
-    "僅使用常數額外空間 不需要複製陣列 在輸入陣列本身進行運算"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tiptxhh": {
    "id": "tiptxhh",
@@ -32028,20 +32288,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "若要達成 O(n log n) 的期望時間複雜度，快速排序需要？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "隨機選擇 pivot",
+    "B": "均勻的分割",
+    "C": "正確的遞迴處理",
+    "D": "無限的記憶體"
+   },
    "answer": [
-    "隨機選擇 pivot 均勻的分割 正確的遞迴處理"
-   ],
-   "lines": [
-    "隨機選擇 pivot 均勻的分割 正確的遞迴處理"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1yotisv": {
    "id": "t1yotisv",
@@ -32070,20 +32333,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序的空間複雜度（Space complexity）主要取決於？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "遞迴堆疊的深度",
+    "B": "比較次數",
+    "C": "陣列總長度",
+    "D": "Pivot 的大小"
+   },
    "answer": [
-    "遞迴堆疊的深度"
-   ],
-   "lines": [
-    "遞迴堆疊的深度"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tzmz1h9": {
    "id": "tzmz1h9",
@@ -32091,20 +32355,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "關於 Quicksort(A, p, r)，下列正確的是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "p 是起始索引",
+    "B": "r 是結束索引",
+    "C": "若 p < r 則進行 partition",
+    "D": "若 p >= r 則進行 partition"
+   },
    "answer": [
-    "p 是起始索引 r 是結束索引 若 p < r 則進行 partition"
-   ],
-   "lines": [
-    "p 是起始索引 r 是結束索引 若 p < r 則進行 partition"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tjnrw0z": {
    "id": "tjnrw0z",
@@ -32112,20 +32379,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些是快速排序的優點？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "不需要額外記憶體",
+    "B": "平均情況下非常快",
+    "C": "容易實作",
+    "D": "不穩定排序"
+   },
    "answer": [
-    "不需要額外記憶體 平均情況下非常快 容易實作"
-   ],
-   "lines": [
-    "不需要額外記憶體 平均情況下非常快 容易實作"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t700a3p": {
    "id": "t700a3p",
@@ -32175,20 +32445,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序演算法中的「征服 (Conquer)」步驟意指？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "遞迴呼叫排序子問題",
+    "B": "尋找 pivot",
+    "C": "將陣列分割",
+    "D": "將結果連結"
+   },
    "answer": [
-    "遞迴呼叫排序子問題"
-   ],
-   "lines": [
-    "遞迴呼叫排序子問題"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "trcmk8c": {
    "id": "trcmk8c",
@@ -32240,20 +32511,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在分析 QuickSort 時，什麼會影響複雜度？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Pivot 的選擇",
+    "B": "資料的分佈情況",
+    "C": "遞迴樹的結構",
+    "D": "電腦的處理器速度"
+   },
    "answer": [
-    "Pivot 的選擇 資料的分佈情況 遞迴樹的結構"
-   ],
-   "lines": [
-    "Pivot 的選擇 資料的分佈情況 遞迴樹的結構"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "thu04l4": {
    "id": "thu04l4",
@@ -32261,20 +32535,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列何者會導致快速排序變慢？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Pivot 選擇不佳 (分割不平衡)",
+    "B": "沒有進行排序",
+    "C": "Pivot 選擇太好",
+    "D": "陣列元素太少"
+   },
    "answer": [
-    "Pivot 選擇不佳 (分割不平衡)"
-   ],
-   "lines": [
-    "Pivot 選擇不佳 (分割不平衡)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tfqkrnb": {
    "id": "tfqkrnb",
@@ -32282,20 +32557,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "若陣列中有重複元素，快速排序可以處理嗎？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "可以",
+    "B": "會造成無窮迴圈",
+    "C": "僅能處理整數",
+    "D": "不可以"
+   },
    "answer": [
-    "可以"
-   ],
-   "lines": [
-    "可以"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1puoy5u": {
    "id": "t1puoy5u",
@@ -32303,20 +32579,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "選出課本上的 Quicksort Partition(A, p, r) Worst-case partition 與 Best-case partition 遞迴式子",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "T(n)=2T(n/2)+Θ(n)",
+    "B": "T(n)=T(n-1)+Θ(n)",
+    "C": "T(n)=T(n-1)-Θ(n)",
+    "D": "T(n)=2T(n/2)+Θ(1)"
+   },
    "answer": [
-    "T(n)=T(n-1)+Θ(n) T(n)=2T(n/2)+Θ(n)"
-   ],
-   "lines": [
-    "T(n)=T(n-1)+Θ(n) T(n)=2T(n/2)+Θ(n)"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tl5zn42": {
    "id": "tl5zn42",
@@ -32347,20 +32625,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序在工程實作中為何受歡迎？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "效能優異且常數因子小",
+    "B": "程式碼最簡短",
+    "C": "是穩定排序",
+    "D": "保證最壞情況為 O(n log n)"
+   },
    "answer": [
-    "效能優異且常數因子小"
-   ],
-   "lines": [
-    "效能優異且常數因子小"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:29.364Z",
-   "updatedAt": "2026-10-20T01:28:29.364Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1qc43m3": {
    "id": "t1qc43m3",
@@ -32368,20 +32647,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "課本上的 Quicksort Partition(A, p, r) 一開始陣列A 指標位置：p 和 j 指向第一個元素 2，i 位於 p 的左側外（尚未進入陣列）。 陣列內容：[2] [8] [7] [1] [3] [5] [6] [4]\n當j 執行到指向[3]這個元素 時 陣列內容：是以下哪一個",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "[2] [1] [7] [8] [3] [5] [6] [4]",
+    "B": "[2] [1] [3] [8] [7] [5] [6] [4]",
+    "C": "[2] [8] [7] [1] [3] [5] [6] [4]",
+    "D": "[2] [1] [3] [4] [7] [5] [6] [8]"
+   },
    "answer": [
-    "[2] [1] [7] [8] [3] [5] [6] [4]"
-   ],
-   "lines": [
-    "[2] [1] [7] [8] [3] [5] [6] [4]"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tubjbnn": {
    "id": "tubjbnn",
@@ -32389,20 +32669,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "課本上的 Quicksort Partition(A, p, r) 一開始陣列A 指標位置：p 和 j 指向第一個元素 2，i 位於 p 的左側外 pivot 是 [4]（尚未進入陣列）。 陣列內容：[2] [8] [7] [1] [3] [5] [6] [4]\n當PARTITION 函數執行完畢後，pivot 元素會位於什麼位置？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "陣列的第4個位置",
+    "B": "陣列的第5個位置",
+    "C": "陣列的第一個位置",
+    "D": "陣列的最後一個位置"
+   },
    "answer": [
-    "陣列的第4個位置"
-   ],
-   "lines": [
-    "陣列的第4個位置"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tpexmza": {
    "id": "tpexmza",
@@ -32410,20 +32691,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序的平均時間複雜度為？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "O(n log n)",
+    "B": "O(n²)",
+    "C": "O(log n)",
+    "D": "O(n)"
+   },
    "answer": [
-    "O(n log n)"
-   ],
-   "lines": [
-    "O(n log n)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1bu5k": {
    "id": "t1bu5k",
@@ -32431,20 +32713,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "選出課本上的 Quicksort Partition(A, p, r) average-case partition 可能的 遞迴式子",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "T(n)=T(9n/10)+T(n/10)Θ(n)",
+    "B": "T(n)=2T(n/2)+Θ(n)",
+    "C": "T(n)=2T(n-1)+Θ(n)",
+    "D": "T(n)=T(n-1)+Θ(n)"
+   },
    "answer": [
-    "T(n)=T(9n/10)+T(n/10)Θ(n) T(n)=2T(n/2)+Θ(n)"
-   ],
-   "lines": [
-    "T(n)=T(9n/10)+T(n/10)Θ(n) T(n)=2T(n/2)+Θ(n)"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1qfxjfo": {
    "id": "t1qfxjfo",
@@ -32494,20 +32778,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序的最差情況（O(n²)）可能發生在？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "輸入陣列已排序",
+    "B": "輸入陣列為反向排序",
+    "C": "Pivot 選擇總是最大或最小值",
+    "D": "Pivot 選擇總是中間值"
+   },
    "answer": [
-    "輸入陣列已排序 輸入陣列為反向排序 Pivot 選擇總是最大或最小值"
-   ],
-   "lines": [
-    "輸入陣列已排序 輸入陣列為反向排序 Pivot 選擇總是最大或最小值"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t14vytse": {
    "id": "t14vytse",
@@ -32536,20 +32823,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序與合併排序（Merge Sort）的主要差別在於？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "快速排序是原地排序",
+    "B": "合併排序較慢",
+    "C": "兩者無差別",
+    "D": "快速排序需要大量記憶體"
+   },
    "answer": [
-    "快速排序是原地排序"
-   ],
-   "lines": [
-    "快速排序是原地排序"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t58tfps": {
    "id": "t58tfps",
@@ -32557,20 +32845,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "哪些是快速排序的關鍵步驟？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Conquer",
+    "B": "Divide",
+    "C": "Combine",
+    "D": "Scan"
+   },
    "answer": [
-    "Divide Conquer Combine"
-   ],
-   "lines": [
-    "Divide Conquer Combine"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t17cqd0f": {
    "id": "t17cqd0f",
@@ -32578,20 +32869,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在快速排序遞迴呼叫中，不包含哪個部分？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "合併 (Combine)",
+    "B": "分治 (Divide)",
+    "C": "征服 (Conquer)",
+    "D": "選擇 (pivot)"
+   },
    "answer": [
-    "合併 (Combine)"
-   ],
-   "lines": [
-    "合併 (Combine)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1yf9xda": {
    "id": "t1yf9xda",
@@ -32599,20 +32891,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序與堆積排序的比較，下列正確的是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "快速排序在平均情況下通常較快",
+    "B": "堆積排序保證 O(n log n)",
+    "C": "兩者都是原地排序",
+    "D": "兩者都是穩定排序"
+   },
    "answer": [
-    "快速排序在平均情況下通常較快 堆積排序保證 O(n log n) 兩者都是原地排序"
-   ],
-   "lines": [
-    "快速排序在平均情況下通常較快 堆積排序保證 O(n log n) 兩者都是原地排序"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1fryndf": {
    "id": "t1fryndf",
@@ -32620,20 +32915,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列何者是快速排序的特徵？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "原地排序 (In-place)",
+    "B": "非原地排序",
+    "C": "穩定排序 (Stable)",
+    "D": "需要 O(n) 額外空間"
+   },
    "answer": [
-    "原地排序 (In-place)"
-   ],
-   "lines": [
-    "原地排序 (In-place)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tkyitsz": {
    "id": "tkyitsz",
@@ -32662,20 +32958,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "如何提升快速排序的效率？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "使用隨機化 Pivot",
+    "B": "使用三數取中法 (Median-of-three)",
+    "C": "在子問題很小時切換到插入排序",
+    "D": "避免使用遞迴"
+   },
    "answer": [
-    "使用隨機化 Pivot 使用三數取中法 (Median-of-three) 在子問題很小時切換到插入排序"
-   ],
-   "lines": [
-    "使用隨機化 Pivot 使用三數取中法 (Median-of-three) 在子問題很小時切換到插入排序"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:44.588Z",
-   "updatedAt": "2026-10-20T01:28:44.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t15gxync": {
    "id": "t15gxync",
@@ -32704,20 +33003,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序的空間開銷來源包括？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "遞迴堆疊",
+    "B": "交換用的暫存變數",
+    "C": "輸入陣列",
+    "D": "陣列的指針"
+   },
    "answer": [
-    "遞迴堆疊 交換用的暫存變數"
-   ],
-   "lines": [
-    "遞迴堆疊 交換用的暫存變數"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tgl8nma": {
    "id": "tgl8nma",
@@ -32725,20 +33026,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "隨機化快速排序（Randomized Quicksort）的主要目的是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "避免最差情況的頻繁發生",
+    "B": "減少比較次數",
+    "C": "增加記憶體使用量",
+    "D": "簡化程式碼"
+   },
    "answer": [
-    "避免最差情況的頻繁發生"
-   ],
-   "lines": [
-    "避免最差情況的頻繁發生"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1ervf6f": {
    "id": "t1ervf6f",
@@ -32746,20 +33048,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "為什麼快速排序需要進行交換 (exchange)？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "移動元素到適當分區",
+    "B": "維持原地排序性質",
+    "C": "確保 pivot 歸位",
+    "D": "清除不需要的元素"
+   },
    "answer": [
-    "移動元素到適當分區 維持原地排序性質 確保 pivot 歸位"
-   ],
-   "lines": [
-    "移動元素到適當分區 維持原地排序性質 確保 pivot 歸位"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t8n8sbb": {
    "id": "t8n8sbb",
@@ -32767,20 +33072,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "當分割後左右兩邊的子問題大小非常不平均時，會發生什麼情況？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "效能下降至最差情況",
+    "B": "排序失敗",
+    "C": "記憶體溢位",
+    "D": "效能提升"
+   },
    "answer": [
-    "效能下降至最差情況"
-   ],
-   "lines": [
-    "效能下降至最差情況"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t184c1h": {
    "id": "t184c1h",
@@ -32788,20 +33094,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "下列哪些演算法與快速排序同樣使用分治法？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "Merge Sort",
+    "B": "Binary Search",
+    "C": "Heap Sort",
+    "D": "Insertion Sort"
+   },
    "answer": [
-    "Merge Sort Binary Search"
-   ],
-   "lines": [
-    "Merge Sort Binary Search"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tjcjkh2": {
    "id": "tjcjkh2",
@@ -32851,20 +33159,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "在快速排序的 PARTITION 函數中，pivot（樞紐）通常選擇哪一個元素？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "最後一個元素 (A[r])",
+    "B": "中間元素",
+    "C": "第一個元素 (A[p])",
+    "D": "隨機元素"
+   },
    "answer": [
-    "最後一個元素 (A[r])"
-   ],
-   "lines": [
-    "最後一個元素 (A[r])"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:28:56.276Z",
-   "updatedAt": "2026-10-20T01:28:56.276Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t3m1w": {
    "id": "t3m1w",
@@ -32872,20 +33181,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "關於快速排序的遞迴，下列何者正確？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "對左右兩個子陣列分別進行遞迴",
+    "B": "只對右子陣列遞迴",
+    "C": "只對左子陣列遞迴",
+    "D": "不需要遞迴"
+   },
    "answer": [
-    "對左右兩個子陣列分別進行遞迴"
-   ],
-   "lines": [
-    "對左右兩個子陣列分別進行遞迴"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:06.861Z",
-   "updatedAt": "2026-10-20T01:29:06.861Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1gk5jzp": {
    "id": "t1gk5jzp",
@@ -32935,20 +33245,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "下列關於 PARTITION 的敘述，何者正確？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "回傳 pivot 的索引",
+    "B": "交換陣列的所有元素",
+    "C": "回傳所有元素的總和",
+    "D": "移動小於 pivot 的元素到右側"
+   },
    "answer": [
-    "回傳 pivot 的索引"
-   ],
-   "lines": [
-    "回傳 pivot 的索引"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:06.861Z",
-   "updatedAt": "2026-10-20T01:29:06.861Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t2yls3c": {
    "id": "t2yls3c",
@@ -32977,20 +33288,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "快速排序的遞迴呼叫順序為何？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "先對 p 到 q-1 進行排序",
+    "B": "再對 q+1 到 r 進行排序",
+    "C": "對中間的 pivot 進行排序",
+    "D": "沒有特定的順序"
+   },
    "answer": [
-    "先對 p 到 q-1 進行排序 再對 q+1 到 r 進行排序"
-   ],
-   "lines": [
-    "先對 p 到 q-1 進行排序 再對 q+1 到 r 進行排序"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:18.588Z",
-   "updatedAt": "2026-10-20T01:29:18.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1teuv0k": {
    "id": "t1teuv0k",
@@ -32998,20 +33311,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "關於 Partition 函數的變數，下列敘述正確的是？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "j 用於掃描陣列",
+    "B": "x 為 Pivot",
+    "C": "i 用來標記小於 pivot 的區域邊界",
+    "D": "p 為陣列的結束索引"
+   },
    "answer": [
-    "x 為 Pivot i 用來標記小於 pivot 的區域邊界 j 用於掃描陣列"
-   ],
-   "lines": [
-    "x 為 Pivot i 用來標記小於 pivot 的區域邊界 j 用於掃描陣列"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:18.588Z",
-   "updatedAt": "2026-10-20T01:29:18.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1rsjwa5": {
    "id": "t1rsjwa5",
@@ -33061,20 +33377,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "在分析快速排序時，我們考慮？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "最好情況",
+    "B": "平均情況",
+    "C": "最差情況",
+    "D": "陣列的顏色"
+   },
    "answer": [
-    "最好情況 平均情況 最差情況"
-   ],
-   "lines": [
-    "最好情況 平均情況 最差情況"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:18.588Z",
-   "updatedAt": "2026-10-20T01:29:18.588Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t13zvqtg": {
    "id": "t13zvqtg",
@@ -33103,20 +33422,23 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "PARTITION 執行後的性質包含？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "所有左側元素 <= pivot",
+    "B": "所有右側元素 > pivot",
+    "C": "Pivot 位於 q 位置",
+    "D": "陣列已經完全排序"
+   },
    "answer": [
-    "所有左側元素 <= pivot 所有右側元素 > pivot Pivot 位於 q 位置"
-   ],
-   "lines": [
-    "所有左側元素 <= pivot 所有右側元素 > pivot Pivot 位於 q 位置"
+    "A",
+    "B",
+    "C"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:47.100Z",
-   "updatedAt": "2026-10-20T01:29:47.100Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t19s6d38": {
    "id": "t19s6d38",
@@ -33124,20 +33446,22 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "multi",
    "text": "Partition 函數中的 exchange 操作用於？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "將 pivot 移到正確位置",
+    "B": "將較小元素移到左區",
+    "C": "節省陣列空間",
+    "D": "將較大元素留在右區"
+   },
    "answer": [
-    "將 pivot 移到正確位置 將較小元素移到左區"
-   ],
-   "lines": [
-    "將 pivot 移到正確位置 將較小元素移到左區"
+    "A",
+    "B"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:58.732Z",
-   "updatedAt": "2026-10-20T01:29:58.732Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tnrq08r": {
    "id": "tnrq08r",
@@ -33145,20 +33469,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序（Quicksort）主要利用哪種演算法設計策略？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "分治法 (Divide and Conquer)",
+    "B": "動態規劃 (Dynamic Programming)",
+    "C": "回溯法 (Backtracking)",
+    "D": "貪婪演算法 (Greedy Algorithm)"
+   },
    "answer": [
-    "分治法 (Divide and Conquer)"
-   ],
-   "lines": [
-    "分治法 (Divide and Conquer)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:29:58.732Z",
-   "updatedAt": "2026-10-20T01:29:58.732Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "t1kc2rba": {
    "id": "t1kc2rba",
@@ -33166,20 +33491,21 @@
    "chapter": "5",
    "level": "",
    "difficulty": "",
-   "type": "recall",
+   "type": "single",
    "text": "快速排序在最差情況（Worst-case）下的時間複雜度為？",
    "hint": "",
-   "options": {},
+   "options": {
+    "A": "O(n²)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n log n)"
+   },
    "answer": [
-    "O(n²)"
-   ],
-   "lines": [
-    "O(n²)"
+    "A"
    ],
    "note": "",
-   "source": "text",
    "createdAt": "2026-10-20T01:30:08.996Z",
-   "updatedAt": "2026-10-20T01:30:08.996Z"
+   "updatedAt": "2026-11-02T07:25:35.798Z"
   },
   "tpuliu0": {
    "id": "tpuliu0",
