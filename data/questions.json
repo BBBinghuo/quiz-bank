@@ -40058,6 +40058,823 @@
    "note": "",
    "createdAt": "2026-10-28T06:18:22.903Z",
    "updatedAt": "2026-10-28T06:18:22.926Z"
+  },
+  "x-alg5-export-061": {
+   "id": "x-alg5-export-061",
+   "subject": "演算法",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "給定課本版本的快速排序法分割演算法 Partition(A, p, r)。 一開始，陣列 A 的狀態如下： Array contents: [3] [9] [2] [8] [1] [7] [6] [5] 指標位置：p 和 j 指向第一個元素 3，且 i 位於 p 的左側外（尚未進入陣列）。 陣列內容： 問題 1：當 j 移動到指向元素 1 的當下，陣列的內容會是哪一個？[__1__] 問題 2：當 PARTITION 函數執行完畢後，最終的陣列內容會是什麼？[__2__] (Please format your answer as: 1,2,3,4,5,6,7,8)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "3,2,9,8,1,7,6,5",
+    "3,2,1,5,9,7,6,8"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z",
+   "blanks": 2
+  },
+  "x-os4-export-005": {
+   "id": "x-os4-export-005",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Which of the following are reasons for process cooperation?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "information sharing",
+    "B": "computation speedup",
+    "C": "modularity",
+    "D": "convenience"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-033": {
+   "id": "x-os4-export-033",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Which two IPC systems are based on message passing?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Windows's LPC",
+    "B": "Mach",
+    "C": "Java's RMI",
+    "D": "POSIX shared memory"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-040": {
+   "id": "x-os4-export-040",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "A [__1__] abstracts the procedure calls between processes in a networked system. (Please answer in lowercase English and leave a blank between words)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "remote procedure call"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-055": {
+   "id": "x-os4-export-055",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "The [__1__] problem is a paradigm for cooperating processes, where one process produces information and another process consumes that information.(Please answer in lowercase English. Use - between words. No spaces.)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "producer-consumer"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-059": {
+   "id": "x-os4-export-059",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "The iOS mobile system provides a single [__1__] process, which is controlled through the user interface.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "foreground"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-075": {
+   "id": "x-os4-export-075",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Select the three ways to implement Queue of messages attached to the link",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Zero capacity",
+    "B": "Bounded capacity",
+    "C": "Unbounded capacity",
+    "D": "Full capacity"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-088": {
+   "id": "x-os4-export-088",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "A process is organized into several parts in memory, where the [__1__] contains temporary data such as function parameters, return addresses, and local variables. (Please answer using English abbreviations and uppercase letters.)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "stack"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-091": {
+   "id": "x-os4-export-091",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Which of the following are characteristics of Named Pipes?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "communication is bidirectional",
+    "B": "does not require a parent-child relationship",
+    "C": "requires a parent-child relationship",
+    "D": "communication is unidirectional"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-098": {
+   "id": "x-os4-export-098",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "What is the state of a process when it is waiting for some event to occur?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "waiting",
+    "B": "ready",
+    "C": "running",
+    "D": "new"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-100": {
+   "id": "x-os4-export-100",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "An ordinary pipe is [__1__], and requires a parent-child relationship between the communicating processes.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "unidirectional"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-102": {
+   "id": "x-os4-export-102",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "In shared-memory communication, the main issue is to provide a mechanism for user processes to [__1__] their actions when accessing shared memory.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "synchronize"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-106": {
+   "id": "x-os4-export-106",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "In direct communication, is a link established automatically?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "Yes, as long as processes explicitly name each other",
+    "B": "Only after a message is sent",
+    "C": "No, it needs to be established manually",
+    "D": "Only after a message is received"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-107": {
+   "id": "x-os4-export-107",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "For a message queue, no messages are queued on a link, Sender must wait for receiver. This is called[__1__] (Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "rendezvous"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-111": {
+   "id": "x-os4-export-111",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "If a child process remains after its parent process has terminated without the parent calling wait(), the child becomes an [__1__] process. (Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "orphan"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-117": {
+   "id": "x-os4-export-117",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "In UNIX systems, which system call is used to replace a process's memory space and load a new program?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "exec()",
+    "B": "wait()",
+    "C": "exit()",
+    "D": "fork()"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-118": {
+   "id": "x-os4-export-118",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "What are the two models of communication between processes?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "shared memory",
+    "B": "message passing",
+    "C": "mailbox",
+    "D": "pipes"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-120": {
+   "id": "x-os4-export-120",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Which parts does a process contain?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "text section",
+    "B": "program counter and registers",
+    "C": "stack",
+    "D": "heap"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-121": {
+   "id": "x-os4-export-121",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "What is the main issue with the shared memory communication model?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "synchronization",
+    "B": "finding the server",
+    "C": "message passing",
+    "D": "message capacity"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-127": {
+   "id": "x-os4-export-127",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "The process control block (PCB) contains information associated with each process, also known as the [__1__].(Please answer in lowercase English and leave a blank between words)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "process control block"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-135": {
+   "id": "x-os4-export-135",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "Which part of a process's memory contains memory used for dynamic memory allocation?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "heap",
+    "B": "data section",
+    "C": "stack",
+    "D": "text section"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os4-export-139": {
+   "id": "x-os4-export-139",
+   "subject": "作業系統",
+   "chapter": "4",
+   "level": "",
+   "difficulty": "",
+   "text": "What type of process spends most of its time performing I/O operations?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "I/O-bound process",
+    "B": "Background process",
+    "C": "Foreground process",
+    "D": "CPU-bound process"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-006": {
+   "id": "x-os5-export-006",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "What are the characteristics of the Many-to-One model?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Multiple user-level threads are mapped to a single kernel thread",
+    "B": "The blocking of one thread blocks all threads",
+    "C": "Multiple threads cannot run in parallel on a multicore system",
+    "D": "Each user thread creates a kernel thread"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-024": {
+   "id": "x-os5-export-024",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "有三種主要的使用者層級執行緒函式庫：POSIX Pthreads Win32 threads 和[__1__]。(請用小寫英文回答 字母間留一個空白)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "java threads"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-026": {
+   "id": "x-os5-export-026",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "Which of the following is not a method of implicit threading?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "pthread_create()",
+    "B": "OpenMP",
+    "C": "Thread Pools",
+    "D": "Grand Central Dispatch"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-029": {
+   "id": "x-os5-export-029",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "What are the benefits of multithreaded programming?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Responsiveness",
+    "B": "Resource sharing",
+    "C": "Economy",
+    "D": "Scalability"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-039": {
+   "id": "x-os5-export-039",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "How does the creation cost of a thread compare to that of a process?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "Thread creation is lightweight",
+    "B": "Thread creation is heavyweight",
+    "C": "The creation cost for both is the same",
+    "D": "Process creation is lightweight"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-050": {
+   "id": "x-os5-export-050",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] refers to a system's ability to support the progression of more than one task at the same time.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "concurrency"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-054": {
+   "id": "x-os5-export-054",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] refers to the distribution of subsets of the same data set to multiple cores, with the same operation being performed on each core.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "data parallelism"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-055": {
+   "id": "x-os5-export-055",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "Who is primarily responsible for the management of user-level threads?",
+   "hint": "",
+   "note": "",
+   "type": "single",
+   "options": {
+    "A": "User-level thread library",
+    "B": "Hardware",
+    "C": "Application",
+    "D": "Kernel"
+   },
+   "answer": [
+    "A"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-075": {
+   "id": "x-os5-export-075",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "What resources are shared by single-threaded processes and multithreaded processes?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Data",
+    "B": "Files",
+    "C": "Program code",
+    "D": "Stack"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-084": {
+   "id": "x-os5-export-084",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] refers to a system's ability to execute more than one task simultaneously.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "parallelism"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-104": {
+   "id": "x-os5-export-104",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "One of the advantages of multithreaded applications is [__1__], as code can continue to run even if part of the process is blocked. (Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "responsiveness"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-107": {
+   "id": "x-os5-export-107",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "在 Windows 執行緒的資料結構中，核心空間（kernel space）包含哪些區塊？",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "ETHREAD",
+    "B": "KTHREAD",
+    "C": "執行緒 ID",
+    "D": "TEB"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-110": {
+   "id": "x-os5-export-110",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "How is Thread-local storage (TLS) different from local variables?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "TLS is visible across multiple function calls",
+    "B": "Local variables are only visible within a single function call",
+    "C": "TLS is shared among all threads",
+    "D": "Local variables are unique across different threads"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-112": {
+   "id": "x-os5-export-112",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] is the basic unit of CPU utilization and the foundation of multithreaded computer systems.(Please answer in lowercase English)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "thread"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-113": {
+   "id": "x-os5-export-113",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "What are the characteristics of the One-to-One model?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "Each user-level thread maps to one kernel thread",
+    "B": "Provides more concurrency than the Many-to-One model",
+    "C": "The number of threads in a process can sometimes be limited by overhead",
+    "D": "Creating a user-level thread creates a kernel thread"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-117": {
+   "id": "x-os5-export-117",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "What are the advantages of a multithreaded server architecture?",
+   "hint": "",
+   "note": "",
+   "type": "multi",
+   "options": {
+    "A": "The server can service multiple client requests simultaneously",
+    "B": "When one thread is blocked, other threads can continue to run",
+    "C": "Thread creation is more lightweight than process creation",
+    "D": "The code is more difficult to understand"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-119": {
+   "id": "x-os5-export-119",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] is an Apple technology used in the Mac OS X and iOS operating systems that allows for the identification of parallel regions and management of thread details.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "grand central dispatch"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
+  },
+  "x-os5-export-124": {
+   "id": "x-os5-export-124",
+   "subject": "作業系統",
+   "chapter": "5",
+   "level": "",
+   "difficulty": "",
+   "text": "[__1__] allows each thread to have its own copy of the data.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "note": "",
+   "type": "fill",
+   "options": {},
+   "answer": [
+    "thread local storage"
+   ],
+   "createdAt": "2026-11-02T07:36:21.146Z",
+   "updatedAt": "2026-11-02T07:36:21.146Z"
   }
  }
 }
