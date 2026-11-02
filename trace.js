@@ -452,6 +452,7 @@ window.TRACES = {
   2346: { algo: 'heapsort', A: HEAPED, asks: [ask('after6', '下一步 i − 1 = 6 這輪')] },
   g14k3yh0: { algo: 'partition', A: [3, 2, 9, 8, 1, 7, 6, 5], asks: [ask('j=1', '問題 1：j 指向 1 的當下'), ask('final', '問題 2：Partition 執行完')] },
   tl5zn42: { algo: 'partition', A: [3, 2, 9, 8, 1, 7, 6, 5], asks: [ask('j=1', '問題 1：j 指向 1 的當下'), ask('final', '問題 2：Partition 執行完')] },
+  'x-alg5-export-061': { algo: 'partition', A: [3, 9, 2, 8, 1, 7, 6, 5], asks: [ask('j=1', '問題 1：j 指向 1 的當下'), ask('final', '問題 2：Partition 執行完')] },
   t1qc43m3: { algo: 'partition', A: [2, 8, 7, 1, 3, 5, 6, 4], asks: [ask('j=3', 'j 指向 3 的當下')] },
   tubjbnn: { algo: 'partition', A: [2, 8, 7, 1, 3, 5, 6, 4], asks: [ask('final', '執行完畢後 pivot 的位置')] },
   141: { algo: 'rr', procs: [['P1', 20], ['P2', 3], ['P3', 7]], q: 4, blocks: 8, asks: [ask('blocks', 'A～H 的順序')] },
