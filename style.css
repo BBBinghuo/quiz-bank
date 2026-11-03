@@ -25,6 +25,9 @@
   --tape: rgba(255, 255, 255, .55);
   --code-bg: #2d2b28;
   --code-text: #f4efe4;
+  --kw: #7b3fb0;            /* 記憶色：關鍵字（紫墨水） */
+  --kw-soft: rgba(142, 68, 173, .11);
+  --kw-line: rgba(142, 68, 173, .38);
   --shadow: 0 1px 2px rgba(60, 40, 10, .1), 0 4px 10px rgba(60, 40, 10, .08), 0 12px 24px rgba(60, 40, 10, .06);
   --shadow-lift: 0 2px 4px rgba(60, 40, 10, .12), 0 10px 22px rgba(60, 40, 10, .14);
   --hand: "Kalam", "LXGW WenKai TC", "Microsoft JhengHei", cursive;
@@ -57,6 +60,9 @@
     --sticky-pink: #4a2f33;
     --tape: rgba(255, 255, 255, .12);
     --code-bg: #171513;
+    --kw: #d2a8f5;
+    --kw-soft: rgba(196, 150, 240, .15);
+    --kw-line: rgba(196, 150, 240, .45);
     --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 20px rgba(0, 0, 0, .25);
     --shadow-lift: 0 4px 10px rgba(0, 0, 0, .45), 0 14px 28px rgba(0, 0, 0, .3);
   }
@@ -282,69 +288,81 @@ input[type=checkbox], input[type=radio] { accent-color: var(--accent); }
 @keyframes shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-6px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
 @keyframes pop { 0%, 100% { transform: scale(1); } 40% { transform: scale(1.025); } }
 
-/* ===== 章節重點：橫線筆記本 ===== */
+/* ===== 題目關鍵字：記憶色；否定詞：紅色波浪線 ===== */
+.kw { color: var(--kw); background: var(--kw-soft); border-radius: 3px; padding: 0 2px; font-weight: 700; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.neg { color: var(--red); font-weight: 700; text-decoration: underline wavy var(--red); text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+.kw-toggle { font-size: .85em; padding: 3px 10px; border-radius: 999px; border-style: dashed; color: var(--muted); }
+.kw-toggle .kw { padding: 0 3px; margin-right: 2px; }
+.kw-toggle:not(.on) .kw { color: var(--muted); background: none; font-weight: normal; }
+.kw-toggle.on { border-style: solid; border-color: var(--kw-line); color: var(--text); }
+
+/* ===== 章節重點：分節卡片（易讀版） ===== */
 .notes-main { min-width: 0; }
-.note-head::before, .note-body::after { /* 紙膠帶 */
-  content: ""; position: absolute; top: -11px; width: 110px; height: 26px; background: var(--tape);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .12); backdrop-filter: blur(1px); pointer-events: none;
+.note-head::before { /* 紙膠帶 */
+  content: ""; position: absolute; top: -11px; left: 36px; width: 110px; height: 26px; background: var(--tape);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12); transform: rotate(-3deg); pointer-events: none;
 }
-.note-head::before { left: 36px; transform: rotate(-3deg); }
 .note-head h2 { margin-bottom: 4px; }
 .toc { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .toc button { font-size: .85em; padding: 3px 12px; border-radius: 999px; border-style: dashed; }
-.note-body {
-  line-height: 1.85; padding: 30px 28px 30px 74px;
-  background-color: var(--card);
-  background-image:
-    linear-gradient(90deg, transparent 54px, var(--margin) 54px, var(--margin) 56px, transparent 56px),
-    linear-gradient(var(--line) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 1.85em;
-  background-position: 0 0, 0 30px;
+.kw-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 12px; padding-top: 10px; border-top: 1.5px dashed var(--border); }
+.kw-chips .lbl { font-family: var(--hand); font-weight: 700; color: var(--kw); margin-right: 4px; }
+.kw-chip { font-size: .85em; padding: 2px 11px; border-radius: 999px; color: var(--kw); background: var(--kw-soft); border: 1.5px solid var(--kw-line); box-shadow: none; font-weight: 700; }
+.kw-chip:hover:not(:disabled) { border-color: var(--kw); box-shadow: none; }
+
+.note-body { min-width: 0; }
+.note-sec {
+  position: relative; background: var(--card); border-radius: 10px; box-shadow: var(--shadow);
+  padding: 20px 28px 18px; margin-bottom: 18px; font-size: 1.03em; line-height: 1.9; border-top: 4px solid var(--margin);
 }
-.note-body::before { /* 螺旋裝訂孔 */
-  content: ""; position: absolute; left: 14px; top: 18px; bottom: 18px; width: 20px; pointer-events: none;
-  background: radial-gradient(circle at 10px 12px, var(--desk) 5.5px, rgba(0, 0, 0, .18) 6.5px, transparent 7.5px) 0 0 / 20px 46px repeat-y;
+.note-sec h3.note-h {
+  display: flex; align-items: center; gap: 12px; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1.5px dashed var(--border);
+  color: var(--text); font-size: 1.3em; scroll-margin-top: 84px; line-height: 1.4;
 }
-.note-body::after { right: 50px; transform: rotate(4deg); width: 90px; }
-.note-body h3.note-h {
-  margin: 30px 0 10px; color: var(--red); scroll-margin-top: 80px; font-size: 1.35em; display: table; padding: 0 6px 0 2px;
-  background: linear-gradient(transparent 62%, var(--hl) 62%, var(--hl) 92%, transparent 92%) no-repeat 0 0 / 100% 100%;
+.sec-no {
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 1.75em; height: 1.75em; border-radius: 50%;
+  background: var(--red); color: var(--card); font-family: var(--hand); font-size: .9em;
 }
-.note-body h3.note-h:first-child { margin-top: 0; }
-.note-body ul, .note-body ol { padding-left: 24px; margin: 6px 0; }
+.note-body h4 { margin: 18px 0 6px; color: var(--accent); font-family: var(--hand); font-size: 1.08em; }
+.note-body ul, .note-body ol { padding-left: 1.5em; margin: 6px 0 10px; }
 .note-body ul { list-style: none; }
 .note-body ul > li { position: relative; }
-.note-body ul > li::before { content: "✎"; position: absolute; left: -21px; color: var(--accent); font-size: .85em; }
-.note-body ul ul > li::before { content: "–"; color: var(--muted); }
-.note-body li { margin: 2px 0; }
+.note-body ul > li::before { content: "▸"; position: absolute; left: -1.15em; color: var(--red); }
+.note-body li { margin: 5px 0; }
+.note-body li li { font-size: .95em; color: color-mix(in srgb, var(--text) 82%, var(--card)); margin: 2px 0; }
+.note-body ul ul > li::before { content: "·"; color: var(--muted); font-weight: 700; }
 .note-body p { margin: 8px 0; }
-.note-body strong, .note-body b { background: linear-gradient(transparent 62%, var(--hl) 62%); padding: 0 1px; }
+/* 筆記的粗體術語和題目的關鍵字同一個顏色，看到就知道是要背的詞 */
+.note-body strong, .note-body b { color: var(--kw); background: var(--kw-soft); border-radius: 3px; padding: 0 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.note-body b.kw-flash { animation: kwFlash 1.4s ease; }
+@keyframes kwFlash { 0%, 40% { box-shadow: 0 0 0 4px var(--hl); } 100% { box-shadow: 0 0 0 0 transparent; } }
 .note-body code { font-family: var(--mono); }
 .note-body pre.code {
-  position: relative; background: var(--code-bg); color: var(--code-text); border-radius: 8px; padding: 16px 18px 12px; overflow-x: auto;
-  font-family: var(--mono); font-size: .9em; line-height: 1.55; box-shadow: 3px 3px 10px rgba(0, 0, 0, .2); margin: 14px 0;
+  position: relative; background: var(--code-bg); color: var(--code-text); border-radius: 8px; padding: 14px 18px; overflow-x: auto;
+  font-family: var(--mono); font-size: .88em; line-height: 1.6; margin: 12px 0;
 }
 .table-wrap { overflow-x: auto; margin: 12px 0; }
-.note-body table { border-collapse: collapse; min-width: 50%; font-size: .93em; background: var(--card); box-shadow: 2px 2px 0 var(--border); }
-.note-body th, .note-body td { border: 1.5px solid var(--border); padding: 5px 12px; text-align: left; vertical-align: top; line-height: 1.6; }
+.note-body table { border-collapse: collapse; min-width: 50%; font-size: .93em; }
+.note-body th, .note-body td { border: 1px solid var(--border); padding: 6px 12px; text-align: left; vertical-align: top; line-height: 1.6; }
 .note-body th { background: var(--accent-soft); font-family: var(--hand); }
-.note-body tr:hover td { background: var(--bg); }
-.callout { border-radius: 2px; padding: 12px 16px 10px; margin: 16px 0; position: relative; box-shadow: 2px 3px 8px rgba(60, 40, 10, .13); line-height: 1.7; }
-.callout.tip { background: var(--sticky); }
-.callout.warn { background: var(--sticky-pink); color: var(--text); border-left: 4px solid var(--red); }
-.callout::before { content: ""; position: absolute; top: -7px; left: 50%; width: 46px; height: 14px; margin-left: -23px; background: var(--tape); box-shadow: 0 1px 2px rgba(0, 0, 0, .1); }
-.rel { margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.note-body tr:nth-child(even) td { background: color-mix(in srgb, var(--bg) 55%, var(--card)); }
+.note-body td:first-child { font-weight: 700; }
+.callout { border-radius: 8px; padding: 10px 16px; margin: 14px 0; position: relative; line-height: 1.75; border-left: 5px solid; }
+.callout.tip { background: var(--sticky); border-color: var(--warn); }
+.callout.warn { background: var(--sticky-pink); color: var(--text); border-color: var(--red); }
+.rel { margin: 12px 0 2px; padding-top: 10px; border-top: 1px dashed var(--border); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .rel button { font-size: .85em; padding: 3px 10px; }
 .rel .rel-list { flex-basis: 100%; }
 .wrong-list { padding-left: 20px; margin: 0; }
 .wrong-list li { margin: 8px 0; }
+/* 側欄：目前章節底下的小節目錄 */
+.toc-side { margin: 2px 0 8px 24px; padding-left: 8px; border-left: 2px solid var(--warn); }
+.sidebar .toc-side button { font-size: .82em; padding: 3px 8px; color: var(--muted); line-height: 1.4; }
+.sidebar .toc-side button.on { color: var(--text); font-weight: 700; background: linear-gradient(transparent 20%, var(--hl) 20%, var(--hl) 85%, transparent 85%); }
 @media (max-width: 760px) {
   .panel { padding: 16px; }
-  .note-body {
-    padding: 24px 16px 24px 46px;
-    background-image: linear-gradient(90deg, transparent 34px, var(--margin) 34px, var(--margin) 36px, transparent 36px), linear-gradient(var(--line) 1px, transparent 1px);
-  }
-  .note-body::before { left: 6px; }
+  .note-sec { padding: 16px; font-size: 1em; }
+  .toc-side { display: none; }
 }
 
 /* ===== write-in 入場：捲到畫面內才「寫」出來 ===== */

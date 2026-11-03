@@ -681,6 +681,87 @@ function explainHTML(q, open = false) {
     <div>${t.split('\n').map(l => `<p>${mdInline(l)}</p>`).join('')}${anim}</div></details>`;
 }
 
+/* ========== 好記的關鍵字：取自各章筆記的粗體術語，在題目裡用記憶色標出 ========== */
+const KW_LS = 'qb_kw_v1';
+let kwOn = lsGet(KW_LS, true);
+const KW_TERMS = new Map(); // '科目|章節' 或 '科目' → Set(術語)
+const kwRegexCache = new Map();
+// 否定詞最容易看錯題意，另外用紅色標出
+const NEG_SRC = String.raw`不是|不屬於|不包含|不正確|不符合|不需要|不適合|不會|不能|無法|錯誤的|最不|(?<![A-Za-z])(?:NOT|not|incorrect|except)(?![A-Za-z])`;
+
+// 太常見的詞，標了反而看不出重點
+const KW_STOP = new Set(['作業系統', '演算法', '一個', '執行', '機制', '核心', '程序', '行程', '執行緒', '應用程式', '系統', '資料', '時間',
+  '服務', '情況', '方法', '結構', '模型', '符號', '狀態', '部分', '類型', '方式', '做法', '好處', '特性', '說明', '項目', '內容', '位置',
+  '目的', '例子', '用途', '問題', '時機', '優點', '缺點', '原因', '分層', '做完', '處理 j', '結果',
+  '開始', '空間', '步驟', '平均', '關鍵', '性質', '不包含', '不是', '定義', '條件', '假設', '範例', '最後', '一般',
+  'process', 'thread', 'data', 'os', 'kernel', 'program', 'time']);
+
+const KW_STOP_EN = new Set(['model', 'mapped', 'bound', 'answer', 'models', 'examples', 'advantages', 'benefits', 'characteristics']);
+
+// 來源：筆記粗體字、表格第一欄（通常是術語），以及「相關題目」裡的英文關鍵字（中文那些常是「優點」這類泛稱，不用）
+function extractTerms(md) {
+  const out = new Set();
+  const add = raw => {
+    const whole = raw.replace(/\*\*/g, '').trim();
+    // 「響應性（responsiveness）」拆成中英兩個詞；半形括號是公式的一部分，不拆
+    for (const p of [whole, ...whole.split(/[（）、，／]/)]) {
+      const t = p.replace(/^[\s：:→]+|[\s：:→]+$/g, '');
+      const balanced = (t.match(/\(/g) || []).length === (t.match(/\)/g) || []).length;
+      if (balanced && t.length >= 2 && t.length <= 24 && !/^[\d\s.,+\-−×=<>≤≥()]+$/.test(t) && !/^[A-Za-z]\[\d+\]$/.test(t) && !KW_STOP.has(t.toLowerCase())) out.add(t);
+    }
+  };
+  for (const m of md.matchAll(/\*\*([^*\n]+)\*\*/g)) add(m[1]);
+  for (const m of md.matchAll(/^\|\s*([^|\n]+?)\s*\|/gm)) if (!/^[\s:-]+$/.test(m[1])) add(m[1]);
+  for (const m of md.matchAll(/^>\s*相關題目[:：](.*)$/gm)) {
+    for (const k of m[1].split(/\s*,\s*/)) {
+      const t = k.trim();
+      // 單一個小寫英文字（例如 multilevel）常只是片語的一部分，只收片語、縮寫或專有名詞
+      if (/^[A-Za-z][A-Za-z0-9 '’\-_()]{2,}$/.test(t) && /[\s\-_A-Z]/.test(t) && !KW_STOP_EN.has(t.toLowerCase())) add(t);
+    }
+  }
+  return out;
+}
+
+async function loadKeywords() {
+  try {
+    const idx = await loadNotesIndex();
+    for (const c of idx.filter(x => x.file)) {
+      const terms = extractTerms(await loadNote(c.file));
+      KW_TERMS.set(`${c.subject}|${c.chapter}`, terms);
+      if (!KW_TERMS.has(c.subject)) KW_TERMS.set(c.subject, new Set());
+      terms.forEach(t => KW_TERMS.get(c.subject).add(t));
+    }
+    kwRegexCache.clear();
+    if (view.tab === 'practice' && view.pr) renderPractice(); else renderCurrent();
+  } catch { /* 讀不到筆記就只標否定詞 */ }
+}
+
+function kwRegex(subject, chapter) {
+  const key = `${subject}|${chapter}`;
+  if (!kwRegexCache.has(key)) {
+    // 沒有對應筆記的章節（例如 Gemini補充）用整個科目的術語
+    const terms = KW_TERMS.get(key) || KW_TERMS.get(subject) || new Set();
+    const src = [...terms].sort((a, b) => b.length - a.length).map(t => {
+      const e = t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return (/^[A-Za-z]/.test(t) ? '(?<![A-Za-z])' : '') + e + (/[A-Za-z]$/.test(t) ? '(?![A-Za-z])' : '');
+    });
+    kwRegexCache.set(key, new RegExp(`(${NEG_SRC})${src.length ? '|(' + src.join('|') + ')' : ''}`, 'gi'));
+  }
+  return kwRegexCache.get(key);
+}
+
+function qtextHTML(q) {
+  if (!kwOn) return esc(q.text);
+  const re = kwRegex(subjectOf(q), q.chapter);
+  let html = '', last = 0;
+  for (const m of q.text.matchAll(re)) {
+    if (!m[0]) continue;
+    html += esc(q.text.slice(last, m.index)) + `<span class="${m[1] ? 'neg' : 'kw'}">${esc(m[0])}</span>`;
+    last = m.index + m[0].length;
+  }
+  return html + esc(q.text.slice(last));
+}
+
 function cardHTML(q, o = {}) {
   const editing = view.editing === q.id;
   let body = '';
@@ -704,7 +785,7 @@ function cardHTML(q, o = {}) {
   }
   return `<div class="card ${o.cls || ''}" data-qid="${esc(q.id)}">
     ${tagsHTML(q, o.extraTags || '')}
-    ${o.prefix || ''}<div class="qtext">${esc(q.text)}</div>
+    ${o.prefix || ''}<div class="qtext">${qtextHTML(q)}</div>
     ${q.hint ? `<div class="hint">（${esc(q.hint)}）</div>` : ''}
     ${editing ? editorHTML(q) : body}
     ${!editing && q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}
@@ -1327,7 +1408,7 @@ function renderPractice() {
     </div>
     <div class="progress"><div style="width:${pct}%"></div></div>
     ${tagsHTML(q)}
-    <div class="qtext">${esc(q.text)}</div>
+    <div class="qtext">${qtextHTML(q)}</div>
     ${q.hint ? `<div class="hint">（${esc(q.hint)}）</div>` : ''}
     ${q.type === 'multi' ? '<div class="hint">（可複選）</div>' : ''}
     ${body}
@@ -1477,11 +1558,24 @@ async function renderNotes() {
   try { md = await loadNote(c.file); } catch (e) { box.innerHTML = `<div class="panel muted">${esc(e.message)}</div>`; return; }
   const { html, toc } = mdToHtml(md);
   const wrong = wrongQuestions(pool);
+  // 本章關鍵字：筆記粗體術語中，在這章題目裡最常出現的幾個
+  const hay = pool.map(q => q.text.toLowerCase());
+  // 較長的片語優先（分數 = 題數 × √長度），大小寫不同或被已選片語包含的詞不重複列
+  const ranked = [...extractTerms(md)].map(t => [t, hay.filter(h => h.includes(t.toLowerCase())).length])
+    .filter(([, n]) => n > 0).sort((a, b) => b[1] * Math.sqrt(b[0].length) - a[1] * Math.sqrt(a[0].length));
+  const chips = [];
+  for (const [t, n] of ranked) {
+    const low = t.toLowerCase();
+    if (chips.some(([c]) => c.toLowerCase().includes(low) || low.includes(c.toLowerCase()))) continue;
+    chips.push([t, n]);
+    if (chips.length >= 16) break;
+  }
   box.innerHTML = `<div class="panel note-head">
       <h2>${esc(c.subject)} › ${esc(c.chapter)}　${esc(c.title)}</h2>
       <div class="muted" style="font-size:.9em">${/^無課程投影片/.test(c.slides || '') ? esc(c.slides) : '依課程投影片整理：' + esc(c.slides || '')}（以自己的話重寫，不是原文）</div>
       ${(c.sources || []).length ? `<div class="muted" style="font-size:.85em">參考來源：${c.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join('、')}</div>` : ''}
       ${c.noBankChapter ? '<div class="muted" style="font-size:.9em">題庫目前還沒有這一章的題目。</div>' : ''}
+      ${chips.length ? `<div class="kw-chips"><span class="lbl">本章關鍵字</span>${chips.map(([t, n]) => `<button class="kw-chip" data-act="kw-jump" data-t="${esc(t)}" title="題庫中有 ${n} 題提到">${esc(t)}</button>`).join('')}</div>` : ''}
       <div class="toc">${toc.map((t, n) => `<button data-act="note-jump" data-n="${n}">${esc(t)}</button>`).join('')}</div>
       <div class="row">
         <button class="slides-btn" data-act="note-slides">▶ 動畫播放重點</button>
@@ -1491,7 +1585,11 @@ async function renderNotes() {
     </div>
     ${wrong.length ? `<div class="panel"><h3 style="margin-top:0">我常錯的題目 <span class="muted" style="font-size:.8em">（這台電腦的刷題紀錄）</span></h3>
       <ol class="wrong-list">${wrong.slice(0, 10).map(q => `<li>${esc(q.text.replace(/\s+/g, ' ').slice(0, 80))} <span class="muted">— 錯 ${stats[q.id].w} 次／對 ${stats[q.id].r} 次</span><br><span class="answer-line">答案：<b>${esc(answerText(q) || (q.type === 'recall' ? answerLines(q).join('、') : '（尚無解答）'))}</b></span></li>`).join('')}</ol></div>` : ''}
-    <div class="panel note-body">${html}</div>`;
+    <div class="note-body">${html}</div>`;
+  groupNoteSections($('.note-body', box));
+  $$('.toc-side', list).forEach(el => el.remove()); // 連續切換章節時，前一次的目錄先拿掉
+  $('.chp.active', list)?.insertAdjacentHTML('afterend', `<div class="toc-side">${toc.map((t, n) => `<button data-act="note-jump" data-n="${n}">${esc(t.replace(/^\d+\.\s*/, ''))}</button>`).join('')}</div>`);
+  spyNoteSections();
   view.noteRel = [];
   $$('.rel', box).forEach(el => {
     const hits = relatedQuestions(pool, el.dataset.kw);
@@ -1502,7 +1600,53 @@ async function renderNotes() {
          <div class="rel-list" hidden></div>`
       : '<span class="muted" style="font-size:.85em">題庫中還沒有這部分的題目</span>';
   });
-  reveal([...$$(':scope > .panel:not(.note-body)', box), ...$$('.note-body > *', box)]);
+  reveal([...$$(':scope > .panel', box), ...$$('.note-sec > *', box)]);
+}
+
+// 把「## 小節」和它後面的內容包成一張卡片，標題前的編號改成圓形徽章
+function groupNoteSections(body) {
+  let sec = null;
+  for (const el of [...body.children]) {
+    if (el.matches('h3.note-h')) {
+      sec = document.createElement('section');
+      sec.className = 'note-sec';
+      body.insertBefore(sec, el);
+      el.innerHTML = el.innerHTML.replace(/^(\d+)\.\s*/, '<span class="sec-no">$1</span>');
+    }
+    if (sec) sec.appendChild(el);
+  }
+}
+
+// 側欄的小節目錄：跟著捲動位置標出目前在讀哪一節
+let noteSpy = null;
+function spyNoteSections() {
+  noteSpy?.disconnect();
+  if (!('IntersectionObserver' in window)) return;
+  const btns = $$('#notes-list .toc-side button');
+  noteSpy = new IntersectionObserver(entries => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      const n = e.target.id.replace('note-sec-', '');
+      btns.forEach(b => b.classList.toggle('on', b.dataset.n === n));
+    }
+  }, { rootMargin: '-80px 0px -65% 0px' });
+  $$('#notes-content h3.note-h').forEach(h => noteSpy.observe(h));
+}
+
+// 點「本章關鍵字」：捲到筆記裡第一次出現這個詞的粗體字，並閃一下
+function jumpToTerm(t) {
+  const low = t.toLowerCase();
+  const hit = $$('#notes-content .note-body b').find(b => b.textContent.toLowerCase().includes(low));
+  if (!hit) return;
+  hit.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  hit.classList.remove('kw-flash'); void hit.offsetWidth; hit.classList.add('kw-flash');
+}
+
+function updateKwToggle() {
+  const b = $('#kw-toggle');
+  if (!b) return;
+  b.classList.toggle('on', kwOn);
+  b.setAttribute('aria-pressed', String(kwOn));
 }
 
 function toggleRelated(el) {
@@ -1624,6 +1768,11 @@ document.addEventListener('click', e => {
       break;
     case 'note-jump': $('#note-sec-' + el.dataset.n)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); break;
     case 'rel-toggle': toggleRelated(el); break;
+    case 'kw-toggle':
+      kwOn = !kwOn; lsSet(KW_LS, kwOn); updateKwToggle();
+      if (view.tab === 'practice' && view.pr) renderPractice(); else renderCurrent();
+      break;
+    case 'kw-jump': jumpToTerm(el.dataset.t); break;
     case 'rel-practice': startPracticeWith(view.noteRel[+el.dataset.idx] || []); break;
     case 'note-practice': {
       const pool = chapterQuestions(view.note.subject, view.note.chapter);
@@ -1721,6 +1870,8 @@ function init() {
   renderBadge();
   pullAndMerge();
   loadExplanations();
+  loadKeywords();
+  updateKwToggle();
 }
 
 init();
