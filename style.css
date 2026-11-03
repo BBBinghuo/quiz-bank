@@ -585,3 +585,38 @@ body.tr-open { overflow: hidden; }
   .sl-slide pre .ln { opacity: 1; } /* 靠動畫才顯示的內容，關掉動畫時要直接顯示 */
   .sl-title h2, .sl-content b, .sl-content strong, .sl-cover b { background-size: 100% 100%; }
 }
+
+/* ===== 答案卡 ===== */
+.cd-stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+.cd-stats > div { background: var(--bg); border: 1.5px dashed var(--border); border-radius: 10px; padding: 8px 14px; display: flex; align-items: baseline; gap: 6px; }
+.cd-stats b { font-family: var(--hand); font-size: 1.5em; color: var(--kw); }
+.cd-stats .wide { flex: 1 1 260px; }
+.cd-stats .wide b { font-size: 1.2em; }
+.cd-table { border-collapse: collapse; width: 100%; font-size: .93em; }
+.cd-table th, .cd-table td { border-bottom: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+.cd-table th { font-family: var(--hand); white-space: nowrap; }
+.cd-table tr[data-act] { cursor: pointer; }
+.cd-table tr[data-act]:hover td { background: var(--kw-soft); }
+.cd-var { font-size: .85em; margin-top: 2px; }
+.cd-dots { display: inline-flex; gap: 3px; vertical-align: middle; }
+.cd-dots i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--kw-line); }
+.cd-dots i.on { background: var(--kw); border-color: var(--kw); }
+.cd-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cd-lbl { margin: 4px 0 8px; font-size: 1.05em; }
+.cd-stems { padding-left: 1.6em; margin: 0; }
+.cd-stems li { white-space: pre-wrap; overflow-wrap: anywhere; margin: 8px 0; line-height: 1.75; }
+.cd-ch { font-size: .78em; margin-right: 6px; }
+.cd-blank { color: var(--kw); font-weight: 700; letter-spacing: 1px; }
+.cd-fill { color: var(--ok); font-weight: 700; background: linear-gradient(transparent 55%, var(--hl-green) 55%); padding: 0 2px; }
+.cd-arrow { color: var(--muted); }
+.cd-more summary { cursor: pointer; color: var(--muted); margin: 4px 0; }
+.cd-ans { margin: 16px 0 6px; padding: 14px 18px; border-radius: 10px; background: var(--kw-soft); border: 1.5px solid var(--kw-line); }
+.cd-ans-lbl { font-family: var(--hand); color: var(--muted); margin-right: 10px; }
+.cd-ans b { font-size: 1.5em; color: var(--kw); overflow-wrap: anywhere; }
+.cd-grade button { min-width: 120px; }
+.cd-bad { border-color: var(--red); color: var(--red); }
+.cd-card kbd { font-size: .75em; opacity: .75; margin-left: 4px; }
+@media (max-width: 760px) {
+  .cd-grade button { flex: 1; min-width: 0; }
+  .cd-table td:nth-child(4), .cd-table th:nth-child(4) { display: none; }
+}
