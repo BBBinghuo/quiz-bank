@@ -1721,6 +1721,7 @@ function renderCurrent() {
     if (!view.pr) renderPracticeSetup();
   } else if (view.tab === 'settings') fillSettingsForm();
   else if (view.tab === 'notes') renderNotes();
+  else if (view.tab === 'cards') window.renderCards?.();
 }
 
 function switchTab(tab) {
@@ -1870,7 +1871,7 @@ function init() {
   if (local && local.db) { DB = normalizeDB(local.db); dirty = !!local.dirty; }
   setupStatic();
   const start = location.hash.slice(1);
-  switchTab(['bank', 'notes', 'import', 'practice', 'settings'].includes(start) ? start : 'bank');
+  switchTab(['bank', 'notes', 'import', 'practice', 'cards', 'settings'].includes(start) ? start : 'bank');
   renderBadge();
   pullAndMerge();
   loadExplanations();
