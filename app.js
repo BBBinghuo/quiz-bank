@@ -743,24 +743,28 @@ function kwRegex(subject, chapter) {
     const terms = KW_TERMS.get(key) || KW_TERMS.get(subject) || new Set();
     const src = [...terms].sort((a, b) => b.length - a.length).map(t => {
       const e = t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      return (/^[A-Za-z]/.test(t) ? '(?<![A-Za-z])' : '') + e + (/[A-Za-z]$/.test(t) ? '(?![A-Za-z])' : '');
+      // 連字號也算單字的一部分：避免 Shortest-Job 只標到 Shortest-Job-First 的前半
+      return (/^[A-Za-z]/.test(t) ? '(?<![A-Za-z_-])' : '') + e + (/[A-Za-z]$/.test(t) ? '(?![A-Za-z_-])' : '');
     });
     kwRegexCache.set(key, new RegExp(`(${NEG_SRC})${src.length ? '|(' + src.join('|') + ')' : ''}`, 'gi'));
   }
   return kwRegexCache.get(key);
 }
 
-function qtextHTML(q) {
-  if (!kwOn) return esc(q.text);
+// 題目、選項、答案共用：用這題所屬章節的關鍵字標色
+function kwHTML(text, q) {
+  text = String(text ?? '');
+  if (!kwOn) return esc(text);
   const re = kwRegex(subjectOf(q), q.chapter);
   let html = '', last = 0;
-  for (const m of q.text.matchAll(re)) {
+  for (const m of text.matchAll(re)) {
     if (!m[0]) continue;
-    html += esc(q.text.slice(last, m.index)) + `<span class="${m[1] ? 'neg' : 'kw'}">${esc(m[0])}</span>`;
+    html += esc(text.slice(last, m.index)) + `<span class="${m[1] ? 'neg' : 'kw'}">${esc(m[0])}</span>`;
     last = m.index + m[0].length;
   }
-  return html + esc(q.text.slice(last));
+  return html + esc(text.slice(last));
 }
+const qtextHTML = q => kwHTML(q.text, q);
 
 function cardHTML(q, o = {}) {
   const editing = view.editing === q.id;
@@ -768,15 +772,15 @@ function cardHTML(q, o = {}) {
   if (q.type === 'recall') {
     body = hasAnswer(q)
       ? '<div class="muted" style="font-size:.9em">正確選項（其他選項要匯入練習頁 HTML 後才看得到）：</div><ul class="opts">' +
-        answerLines(q).map(l => `<li class="correct">${esc(l)}</li>`).join('') + '</ul>'
+        answerLines(q).map(l => `<li class="correct">${kwHTML(l, q)}</li>`).join('') + '</ul>'
       : '<div class="answer-line"><span class="muted">尚無解答</span></div>';
   } else if (isTextAnswer(q)) {
-    body = `<div class="answer-line">答案：${hasAnswer(q) ? `<b>${esc(answerText(q))}</b>` : '<span class="muted">尚無解答</span>'}</div>`;
+    body = `<div class="answer-line">答案：${hasAnswer(q) ? `<b>${kwHTML(answerText(q), q)}</b>` : '<span class="muted">尚無解答</span>'}</div>`;
   } else {
     const ans = new Set(q.answer || []);
     const order = o.display || sortedKeys(q).map(k => ({ disp: k, key: k }));
     body = '<ul class="opts">' + order.map(d =>
-      `<li class="${ans.has(d.key) ? 'correct' : ''}">${esc(d.disp)}. ${esc(q.options[d.key])}</li>`).join('') + '</ul>';
+      `<li class="${ans.has(d.key) ? 'correct' : ''}">${esc(d.disp)}. ${kwHTML(q.options[d.key], q)}</li>`).join('') + '</ul>';
     if (o.display && hasAnswer(q)) body += `<div class="answer-line">此份檔案的答案：<b>${esc(answerText(q, o.display))}</b></div>`;
   }
   if (o.refs && o.refs.length) {
@@ -1382,7 +1386,7 @@ function renderPractice() {
       let cls = '';
       if (cur.submitted && hasAnswer(q)) cls = ans.has(k) ? 'right' : (chosen.has(k) ? 'wrong' : '');
       return `<label class="choice ${cls}"><input type="${t}" name="pr-opt" value="${esc(k)}" ${chosen.has(k) ? 'checked' : ''} ${cur.submitted ? 'disabled' : ''}>
-        <span>${LETTERS[n]}. ${esc(q.options[k])}</span></label>`;
+        <span>${LETTERS[n]}. ${kwHTML(q.options[k], q)}</span></label>`;
     }).join('');
   }
   let result = '';
@@ -1391,12 +1395,12 @@ function renderPractice() {
       result = `<div class="result warn">這題題庫裡還沒有解答，無法判斷對錯。知道答案的話可以現在填上：</div>
         ${cardHTML(q, { noDelete: true })}`;
     } else if (q.type === 'recall') {
-      result = `<div class="result ok" style="white-space:pre-wrap">正確答案：<b>${esc(q.answer.join(' / '))}</b></div>
+      result = `<div class="result ok" style="white-space:pre-wrap">正確答案：<b>${kwHTML(q.answer.join(' / '), q)}</b></div>
         ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}${explainHTML(q, true)}`;
     } else {
       const disp = q.type === 'fill' ? answerText(q)
         : cur.order.map((k, n) => ans.has(k) ? `${LETTERS[n]}. ${q.options[k]}` : null).filter(Boolean).join('　');
-      result = `<div class="result ${cur.ok ? 'ok' : 'bad'}">${cur.ok ? '✔ 答對了！' : '✘ 答錯了'}　正確答案：<b>${esc(disp)}</b></div>
+      result = `<div class="result ${cur.ok ? 'ok' : 'bad'}">${cur.ok ? '✔ 答對了！' : '✘ 答錯了'}　正確答案：<b>${kwHTML(disp, q)}</b></div>
         ${q.note ? `<div class="note">📝 ${esc(q.note)}</div>` : ''}${explainHTML(q, true)}`;
     }
   }
