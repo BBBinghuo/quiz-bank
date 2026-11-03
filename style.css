@@ -344,7 +344,7 @@ input[type=checkbox], input[type=radio] { accent-color: var(--accent); }
 .table-wrap { overflow-x: auto; margin: 12px 0; }
 .note-body table { border-collapse: collapse; min-width: 50%; font-size: .93em; }
 .note-body th, .note-body td { border: 1px solid var(--border); padding: 6px 12px; text-align: left; vertical-align: top; line-height: 1.6; }
-.note-body th { background: var(--accent-soft); font-family: var(--hand); }
+.note-body th { background: var(--accent-soft); font-family: var(--hand); white-space: nowrap; }
 .note-body tr:nth-child(even) td { background: color-mix(in srgb, var(--bg) 55%, var(--card)); }
 .note-body td:first-child { font-weight: 700; }
 .callout { border-radius: 8px; padding: 10px 16px; margin: 14px 0; position: relative; line-height: 1.75; border-left: 5px solid; }
