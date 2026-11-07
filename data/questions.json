@@ -10073,6 +10073,448 @@
    "createdAt": "2026-10-28T01:54:12.083Z",
    "updatedAt": "2026-10-28T01:57:20.740Z"
   },
+  "2528": {
+   "id": "2528",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "堆疊（Stack）資料結構遵循哪種原則？",
+   "hint": "",
+   "options": {
+    "C": "隨機存取",
+    "A": "後進先出 (LIFO)",
+    "D": "優先級最高先出",
+    "B": "先進先出 (FIFO)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.342Z"
+  },
+  "2530": {
+   "id": "2530",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在堆疊中，刪除操作通常稱為？",
+   "hint": "",
+   "options": {
+    "C": "enqueue",
+    "B": "push",
+    "A": "pop",
+    "D": "dequeue"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.320Z"
+  },
+  "2531": {
+   "id": "2531",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在佇列中，插入操作通常稱為？",
+   "hint": "",
+   "options": {
+    "B": "dequeue",
+    "A": "enqueue",
+    "D": "pop",
+    "C": "push"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.325Z"
+  },
+  "2534": {
+   "id": "2534",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "當堆疊已滿時再進行 push 操作，會發生什麼？",
+   "hint": "",
+   "options": {
+    "C": "正常執行",
+    "A": "溢位 (Overflow)",
+    "D": "自動擴展",
+    "B": "下溢 (Underflow)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.340Z"
+  },
+  "2536": {
+   "id": "2536",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在單向鏈結串列中，刪除一個節點的時間複雜度（已知指標）為？",
+   "hint": "",
+   "options": {
+    "B": "O(n)",
+    "D": "O(n log n)",
+    "A": "O(1)",
+    "C": "O(log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.322Z"
+  },
+  "2537": {
+   "id": "2537",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "環狀鏈結串列（Circular Linked List）的最後一個節點指向？",
+   "hint": "",
+   "options": {
+    "D": "隨機節點",
+    "C": "自己",
+    "B": "NULL",
+    "A": "第一個節點 (頭節點)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.353Z"
+  },
+  "2546": {
+   "id": "2546",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "如果一個鏈結串列的 head 為 NULL，代表？",
+   "hint": "",
+   "options": {
+    "D": "該清單已滿",
+    "B": "該清單只有一個元素",
+    "A": "該清單為空",
+    "C": "該清單為環狀"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.356Z"
+  },
+  "2551": {
+   "id": "2551",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "關於雙向鏈結串列，下列正確的有？",
+   "hint": "",
+   "options": {
+    "C": "支援 O(1) 雙向遍歷",
+    "D": "插入節點需更新多個指標",
+    "B": "每個節點有 next 指標",
+    "A": "每個節點有 prev 指標"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.362Z"
+  },
+  "2555": {
+   "id": "2555",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "哨兵節點（Sentinel）的好處是？",
+   "hint": "",
+   "options": {
+    "C": "增加程式碼可讀性",
+    "D": "節省額外記憶體",
+    "B": "減少條件判斷式",
+    "A": "簡化邊界條件處理"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.327Z"
+  },
+  "2556": {
+   "id": "2556",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "垃圾回收機制的應用場景為？",
+   "hint": "",
+   "options": {
+    "A": "動態物件管理",
+    "B": "記憶體洩漏預防",
+    "D": "陣列大小變更",
+    "C": "指標安全性提升"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.330Z"
+  },
+  "2558": {
+   "id": "2558",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "陣列實作 vs 指標實作，下列敘述正確的是？",
+   "hint": "",
+   "options": {
+    "D": "指標實作無需記憶體",
+    "B": "指標實作插入彈性好",
+    "C": "陣列實作空間固定",
+    "A": "陣列實作存取快"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.366Z"
+  },
+  "2559": {
+   "id": "2559",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "鏈結串列中的 search 操作複雜度取決於？",
+   "hint": "",
+   "options": {
+    "B": "是否為排序列表",
+    "A": "清單長度",
+    "D": "指標的存取速度",
+    "C": "是否為環狀結構"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.351Z"
+  },
+  "2560": {
+   "id": "2560",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "環狀鏈結串列適用於？",
+   "hint": "",
+   "options": {
+    "B": "作業系統排程",
+    "A": "需要循環遍歷的系統",
+    "D": "需要常數時間尋找最值",
+    "C": "處理 buffer"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.318Z"
+  },
+  "2565": {
+   "id": "2565",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "鏈結串列的節點表示法通常包含？",
+   "hint": "",
+   "options": {
+    "B": "next 指標",
+    "A": "key 欄位",
+    "C": "prev 指標",
+    "D": "length 欄位"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.333Z"
+  },
+  "2571": {
+   "id": "2571",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "在佇列中，插入操作稱為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "enqueue"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.344Z"
+  },
+  "2572": {
+   "id": "2572",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "雙向鏈結串列每個節點通常包含＿＿＿與 prev 指標",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "next"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.358Z"
+  },
+  "2576": {
+   "id": "2576",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "動態記憶體配置通常使用＿＿＿函數",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "malloc"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.360Z"
+  },
+  "2577": {
+   "id": "2577",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "LIST_DELETE(L, x)\n▪ (Call LIST_SEARCH first O(n))\n1 if prev[x] != NIL\n2 then  ＿＿＿  <- next[x]\n3 else head[L] <- next[x]\n4 if next[x] != NIL\n5 then prev[next[x]] <-  ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "next[prev[x]]",
+    "prev[x]"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.348Z"
+  },
+  "2579": {
+   "id": "2579",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "在指標實作中，物件通常透過＿＿＿進行配置",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "allocate"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.364Z"
+  },
+  "2580": {
+   "id": "2580",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "處理不再使用的物件的機制稱為＿＿＿",
+   "hint": "請用小寫英文回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "garbage collection"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.369Z"
+  },
+  "2581": {
+   "id": "2581",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "佇列移除操作稱為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "dequeue"
+   ],
+   "note": "",
+   "createdAt": "2026-11-07T14:16:55.310Z",
+   "updatedAt": "2026-11-07T14:16:55.336Z"
+  },
   "2764": {
    "id": "2764",
    "subject": "作業系統",
@@ -41283,7 +41725,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.318Z",
+   "deleted": true,
+   "mergedInto": "2560"
   },
   "t1apgtkf": {
    "id": "t1apgtkf",
@@ -41304,7 +41748,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.320Z",
+   "deleted": true,
+   "mergedInto": "2530"
   },
   "t1ki1zdy": {
    "id": "t1ki1zdy",
@@ -41325,7 +41771,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.322Z",
+   "deleted": true,
+   "mergedInto": "2536"
   },
   "t1pyrz1b": {
    "id": "t1pyrz1b",
@@ -41346,7 +41794,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.325Z",
+   "deleted": true,
+   "mergedInto": "2531"
   },
   "tro3ox6": {
    "id": "tro3ox6",
@@ -41369,7 +41819,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.327Z",
+   "deleted": true,
+   "mergedInto": "2555"
   },
   "tltpyrg": {
    "id": "tltpyrg",
@@ -41392,7 +41844,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.330Z",
+   "deleted": true,
+   "mergedInto": "2556"
   },
   "tgtbpav": {
    "id": "tgtbpav",
@@ -41415,7 +41869,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.333Z",
+   "deleted": true,
+   "mergedInto": "2565"
   },
   "t3muo9j": {
    "id": "t3muo9j",
@@ -41436,7 +41892,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.336Z",
+   "deleted": true,
+   "mergedInto": "2581"
   },
   "tm0wmt4": {
    "id": "tm0wmt4",
@@ -41457,7 +41915,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.340Z",
+   "deleted": true,
+   "mergedInto": "2534"
   },
   "t1345y2f": {
    "id": "t1345y2f",
@@ -41478,7 +41938,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.342Z",
+   "deleted": true,
+   "mergedInto": "2528"
   },
   "t3dlfb0": {
    "id": "t3dlfb0",
@@ -41499,7 +41961,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.344Z",
+   "deleted": true,
+   "mergedInto": "2571"
   },
   "tt2rhxy": {
    "id": "tt2rhxy",
@@ -41522,7 +41986,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.348Z",
+   "deleted": true,
+   "mergedInto": "2577"
   },
   "t1imrrm7": {
    "id": "t1imrrm7",
@@ -41543,7 +42009,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.351Z",
+   "deleted": true,
+   "mergedInto": "2559"
   },
   "t1gma9l9": {
    "id": "t1gma9l9",
@@ -41564,7 +42032,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.353Z",
+   "deleted": true,
+   "mergedInto": "2537"
   },
   "tdffz6w": {
    "id": "tdffz6w",
@@ -41585,7 +42055,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.356Z",
+   "deleted": true,
+   "mergedInto": "2546"
   },
   "t8stu5a": {
    "id": "t8stu5a",
@@ -41606,7 +42078,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.358Z",
+   "deleted": true,
+   "mergedInto": "2572"
   },
   "t1db2imd": {
    "id": "t1db2imd",
@@ -41627,7 +42101,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.360Z",
+   "deleted": true,
+   "mergedInto": "2576"
   },
   "tup55nk": {
    "id": "tup55nk",
@@ -41651,7 +42127,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.362Z",
+   "deleted": true,
+   "mergedInto": "2551"
   },
   "tuydg9v": {
    "id": "tuydg9v",
@@ -41672,7 +42150,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.364Z",
+   "deleted": true,
+   "mergedInto": "2579"
   },
   "t1rui3iz": {
    "id": "t1rui3iz",
@@ -41695,7 +42175,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.366Z",
+   "deleted": true,
+   "mergedInto": "2558"
   },
   "t1dy1fuw": {
    "id": "t1dy1fuw",
@@ -41716,7 +42198,9 @@
    "note": "",
    "source": "text",
    "createdAt": "2026-11-07T14:16:48.658Z",
-   "updatedAt": "2026-11-07T14:16:48.658Z"
+   "updatedAt": "2026-11-07T14:16:55.369Z",
+   "deleted": true,
+   "mergedInto": "2580"
   }
  }
 }
