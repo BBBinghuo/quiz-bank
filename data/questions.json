@@ -10249,6 +10249,26 @@
    "createdAt": "2026-11-07T14:20:55.383Z",
    "updatedAt": "2026-11-07T14:23:00.919Z"
   },
+  "2539": {
+   "id": "2539",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "佇列的 head 指標通常指向？",
+   "hint": "",
+   "options": {
+    "C": "隊伍中間的元素",
+    "D": "NULL",
+    "A": "下一個將被移除的元素",
+    "B": "最後一個插入的元素"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
+  },
   "2540": {
    "id": "2540",
    "subject": "演算法",
@@ -10315,6 +10335,26 @@
    "createdAt": "2026-11-07T14:17:51.072Z",
    "updatedAt": "2026-11-07T14:20:22.405Z"
   },
+  "2545": {
+   "id": "2545",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在雙向鏈結串列中，每個節點通常有幾個指標？",
+   "hint": "",
+   "options": {
+    "C": "3",
+    "B": "1",
+    "D": "4",
+    "A": "2"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
+  },
   "2546": {
    "id": "2546",
    "subject": "演算法",
@@ -10336,6 +10376,26 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.356Z"
+  },
+  "2547": {
+   "id": "2547",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "垃圾回收器（Garbage Collector）的功能是？",
+   "hint": "",
+   "options": {
+    "C": "排序陣列",
+    "B": "清理檔案系統",
+    "D": "優化堆疊存取",
+    "A": "自動回收不再使用的記憶體"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
   },
   "2548": {
    "id": "2548",
@@ -10433,6 +10493,46 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.362Z"
+  },
+  "2552": {
+   "id": "2552",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些是動態集合（Dynamic Set）操作？",
+   "hint": "",
+   "options": {
+    "C": "SEARCH",
+    "B": "DELETE",
+    "A": "INSERT",
+    "D": "SORT"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
+  },
+  "2553": {
+   "id": "2553",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在陣列實作的堆疊中，需要維護的資訊有？",
+   "hint": "",
+   "options": {
+    "C": "陣列最大容量",
+    "D": "每個節點的指標",
+    "A": "陣列內容",
+    "B": "top 指標"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
   },
   "2554": {
    "id": "2554",
@@ -10601,6 +10701,26 @@
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.318Z"
   },
+  "2562": {
+   "id": "2562",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列哪些操作會改變鏈結串列的結構？",
+   "hint": "",
+   "options": {
+    "C": "SEARCH",
+    "B": "DELETE",
+    "A": "INSERT",
+    "D": "TRAVERSE"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
+  },
   "2563": {
    "id": "2563",
    "subject": "演算法",
@@ -10697,6 +10817,21 @@
    "createdAt": "2026-11-07T14:17:51.072Z",
    "updatedAt": "2026-11-07T14:20:22.405Z"
   },
+  "2568": {
+   "id": "2568",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆疊遵循＿＿＿原則",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
+  },
   "2569": {
    "id": "2569",
    "subject": "演算法",
@@ -10764,6 +10899,21 @@
    "note": "",
    "createdAt": "2026-11-07T14:20:55.383Z",
    "updatedAt": "2026-11-07T14:23:00.919Z"
+  },
+  "2574": {
+   "id": "2574",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "當堆疊無法再容納新元素時，稱為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:23:30.709Z",
+   "updatedAt": "2026-11-07T14:23:30.709Z"
   },
   "2575": {
    "id": "2575",
