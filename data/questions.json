@@ -10161,6 +10161,26 @@
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.340Z"
   },
+  "2535": {
+   "id": "2535",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當堆疊為空時再進行 pop 操作，會發生什麼？",
+   "hint": "",
+   "options": {
+    "B": "溢位 (Overflow)",
+    "D": "無反應",
+    "A": "下溢 (Underflow)",
+    "C": "正常執行"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
+  },
   "2536": {
    "id": "2536",
    "subject": "演算法",
@@ -10204,6 +10224,26 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.353Z"
+  },
+  "2538": {
+   "id": "2538",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "堆疊的 top 指標通常初始值設定為？",
+   "hint": "",
+   "options": {
+    "C": "設定為 -1",
+    "B": "設定為 1",
+    "A": "設定為 0",
+    "D": "設定為 NULL"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
   },
   "2540": {
    "id": "2540",
@@ -10292,6 +10332,66 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.356Z"
+  },
+  "2548": {
+   "id": "2548",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "堆疊支援的基本操作包含？",
+   "hint": "",
+   "options": {
+    "C": "STACK-EMPTY",
+    "D": "SEARCH",
+    "A": "PUSH",
+    "B": "POP"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
+  },
+  "2549": {
+   "id": "2549",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "佇列支援的基本操作包含？",
+   "hint": "",
+   "options": {
+    "B": "DEQUEUE",
+    "A": "ENQUEUE",
+    "D": "SEARCH",
+    "C": "IS-EMPTY"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
+  },
+  "2550": {
+   "id": "2550",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "鏈結串列的常見變體有？",
+   "hint": "",
+   "options": {
+    "B": "雙向鏈結串列",
+    "A": "單向鏈結串列",
+    "D": "佇列",
+    "C": "環狀鏈結串列"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
   },
   "2551": {
    "id": "2551",
@@ -10509,6 +10609,26 @@
    "createdAt": "2026-11-07T14:17:51.072Z",
    "updatedAt": "2026-11-07T14:20:22.405Z"
   },
+  "2564": {
+   "id": "2564",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哨兵節點通常用於？",
+   "hint": "",
+   "options": {
+    "A": "鏈結串列",
+    "D": "佇列",
+    "C": "雜湊表",
+    "B": "二元樹"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
+  },
   "2565": {
    "id": "2565",
    "subject": "演算法",
@@ -10607,6 +10727,21 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.358Z"
+  },
+  "2573": {
+   "id": "2573",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "環狀鏈結串列最後一個節點指向＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
   },
   "2575": {
    "id": "2575",
@@ -10728,6 +10863,36 @@
    "note": "",
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.336Z"
+  },
+  "2582": {
+   "id": "2582",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "LIST_INSERT(L, x)\n1 next[x] <- head[L]\n2 if head[L] != NIL\n3     then  ＿＿＿  <- x\n4 head[L] <- x\n5 prev[x] <- NIL",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
+  },
+  "2584": {
+   "id": "2584",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "鏈結串列的搜尋操作需要進行＿＿＿遍歷",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-07T14:20:55.383Z",
+   "updatedAt": "2026-11-07T14:20:55.383Z"
   },
   "2586": {
    "id": "2586",
