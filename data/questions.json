@@ -41261,6 +41261,462 @@
    "note": "",
    "createdAt": "2026-11-03T13:39:47.308Z",
    "updatedAt": "2026-11-03T13:39:47.308Z"
+  },
+  "t1nmutwd": {
+   "id": "t1nmutwd",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "環狀鏈結串列適用於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "需要循環遍歷的系統\n作業系統排程\n處理 buffer"
+   ],
+   "lines": [
+    "需要循環遍歷的系統",
+    "作業系統排程",
+    "處理 buffer"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1apgtkf": {
+   "id": "t1apgtkf",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在堆疊中，刪除操作通常稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "pop"
+   ],
+   "lines": [
+    "pop"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1ki1zdy": {
+   "id": "t1ki1zdy",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在單向鏈結串列中，刪除一個節點的時間複雜度（已知指標）為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "O(1)"
+   ],
+   "lines": [
+    "O(1)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1pyrz1b": {
+   "id": "t1pyrz1b",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在佇列中，插入操作通常稱為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "enqueue"
+   ],
+   "lines": [
+    "enqueue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tro3ox6": {
+   "id": "tro3ox6",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哨兵節點（Sentinel）的好處是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "簡化邊界條件處理\n減少條件判斷式\n增加程式碼可讀性"
+   ],
+   "lines": [
+    "簡化邊界條件處理",
+    "減少條件判斷式",
+    "增加程式碼可讀性"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tltpyrg": {
+   "id": "tltpyrg",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "垃圾回收機制的應用場景為？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "動態物件管理\n記憶體洩漏預防\n指標安全性提升"
+   ],
+   "lines": [
+    "動態物件管理",
+    "記憶體洩漏預防",
+    "指標安全性提升"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tgtbpav": {
+   "id": "tgtbpav",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "鏈結串列的節點表示法通常包含？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "key 欄位\nnext 指標\nprev 指標"
+   ],
+   "lines": [
+    "key 欄位",
+    "next 指標",
+    "prev 指標"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t3muo9j": {
+   "id": "t3muo9j",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "佇列移除操作稱為 ＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "dequeue"
+   ],
+   "lines": [
+    "dequeue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tm0wmt4": {
+   "id": "tm0wmt4",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "當堆疊已滿時再進行 push 操作，會發生什麼？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "溢位 (Overflow)"
+   ],
+   "lines": [
+    "溢位 (Overflow)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1345y2f": {
+   "id": "t1345y2f",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "堆疊（Stack）資料結構遵循哪種原則？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "後進先出 (LIFO)"
+   ],
+   "lines": [
+    "後進先出 (LIFO)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t3dlfb0": {
+   "id": "t3dlfb0",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在佇列中，插入操作稱為 ＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "enqueue"
+   ],
+   "lines": [
+    "enqueue"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tt2rhxy": {
+   "id": "tt2rhxy",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "LIST_DELETE(L, x)\n▪ (Call LIST_SEARCH first O(n))\n1 if prev[x] != NIL\n2 then ＿＿＿ <- next[x]\n3 else head[L] <- next[x]\n4 if next[x] != NIL\n5 then prev[next[x]] <- ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "next[prev[x]]",
+    "prev[x]"
+   ],
+   "lines": [
+    "next[prev[x]]/prev[x]"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1imrrm7": {
+   "id": "t1imrrm7",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "鏈結串列中的 search 操作複雜度取決於？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "清單長度"
+   ],
+   "lines": [
+    "清單長度"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1gma9l9": {
+   "id": "t1gma9l9",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "環狀鏈結串列（Circular Linked List）的最後一個節點指向？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "第一個節點 (頭節點)"
+   ],
+   "lines": [
+    "第一個節點 (頭節點)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tdffz6w": {
+   "id": "tdffz6w",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "如果一個鏈結串列的 head 為 NULL，代表？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "該清單為空"
+   ],
+   "lines": [
+    "該清單為空"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t8stu5a": {
+   "id": "t8stu5a",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "雙向鏈結串列每個節點通常包含 ＿＿＿ 與 prev 指標",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "next"
+   ],
+   "lines": [
+    "next"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1db2imd": {
+   "id": "t1db2imd",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "動態記憶體配置通常使用 ＿＿＿ 函數",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "malloc"
+   ],
+   "lines": [
+    "malloc"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tup55nk": {
+   "id": "tup55nk",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "關於雙向鏈結串列，下列正確的有？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "每個節點有 prev 指標\n每個節點有 next 指標\n支援 O(1) 雙向遍歷\n插入節點需更新多個指標"
+   ],
+   "lines": [
+    "每個節點有 prev 指標",
+    "每個節點有 next 指標",
+    "支援 O(1) 雙向遍歷",
+    "插入節點需更新多個指標"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "tuydg9v": {
+   "id": "tuydg9v",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在指標實作中，物件通常透過 ＿＿＿ 進行配置",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "allocate"
+   ],
+   "lines": [
+    "allocate"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1rui3iz": {
+   "id": "t1rui3iz",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "陣列實作 vs 指標實作，下列敘述正確的是？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "陣列實作存取快\n指標實作插入彈性好\n陣列實作空間固定"
+   ],
+   "lines": [
+    "陣列實作存取快",
+    "指標實作插入彈性好",
+    "陣列實作空間固定"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
+  },
+  "t1dy1fuw": {
+   "id": "t1dy1fuw",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "處理不再使用的物件的機制稱為 ＿＿＿",
+   "hint": "請用小寫英文回答，單字間留一空白",
+   "options": {},
+   "answer": [
+    "garbage collection"
+   ],
+   "lines": [
+    "garbage collection"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-07T14:16:48.658Z",
+   "updatedAt": "2026-11-07T14:16:48.658Z"
   }
  }
 }
