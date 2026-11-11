@@ -4082,10 +4082,12 @@
     "A": "是 0",
     "B": "是 1"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1452": {
    "id": "1452",
@@ -4696,10 +4698,12 @@
     "D": "mutex",
     "B": "flag[i]"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1483": {
    "id": "1483",
@@ -5057,10 +5061,14 @@
     "D": "Spinlocks",
     "C": "Condition variables"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1500": {
    "id": "1500",
@@ -6412,10 +6420,12 @@
    "text": "A simple semaphore solution to the Dining Philosophers Problem can lead to a＿＿＿.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "deadlock"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1579": {
    "id": "1579",
@@ -46381,10 +46391,14 @@
     "D": "Starvation",
     "A": "互斥"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1533~dm3fqi": {
    "id": "1533~dm3fqi",
@@ -46401,10 +46415,13 @@
     "A": "兩個程序互相等待對方釋放鎖",
     "D": "多個程序競爭同一個資源"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   },
   "1469~1tq6bu9": {
    "id": "1469~1tq6bu9",
@@ -46421,10 +46438,163 @@
     "A": "Until another process calls x.signal()",
     "D": "Until all other processes enter the critical section"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
-   "updatedAt": "2026-11-11T06:06:36.614Z"
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "t1pu5a9a": {
+   "id": "t1pu5a9a",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在使用semaphore解決 Bounded-Buffer Problem 時，生產者在將項目加入緩衝區前會執行哪一個操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "wait(empty)"
+   ],
+   "lines": [
+    "wait(empty)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "t1qk126i": {
+   "id": "t1qk126i",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "當一個程序調用 wait(mutex) 且鎖不可用時，它會進入 ＿＿＿ 等待。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "busy"
+   ],
+   "lines": [
+    "busy"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "t1r7aflk": {
+   "id": "t1r7aflk",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What are the two main operations of a condition variable in a monitor?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "wait()\nsignal()"
+   ],
+   "lines": [
+    "wait()",
+    "signal()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "txxoesv": {
+   "id": "txxoesv",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 信號量的值可以是一個不受限制的整數。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "counting"
+   ],
+   "lines": [
+    "counting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "tzhxob3": {
+   "id": "tzhxob3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "許多系統提供對實現臨界區程式碼的硬體 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "support"
+   ],
+   "lines": [
+    "support"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "ttg4ih9": {
+   "id": "ttg4ih9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which locking mechanisms are implemented using atomic hardware instructions?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutexes\nSpinlocks"
+   ],
+   "lines": [
+    "Mutexes",
+    "Spinlocks"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "t1pr12am": {
+   "id": "t1pr12am",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In a non-preemptive kernel, the critical-section problem does not occur because a process will run until it ＿＿＿ or ＿＿＿ .(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "exits kernel mode",
+    "blocks"
+   ],
+   "lines": [
+    "exits kernel mode/blocks"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:09:21.442Z",
+   "updatedAt": "2026-11-11T06:09:21.442Z"
   }
  }
 }
