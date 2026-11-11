@@ -3847,6 +3847,26 @@
    "createdAt": "2026-11-11T05:52:08.109Z",
    "updatedAt": "2026-11-11T05:55:39.823Z"
   },
+  "1442": {
+   "id": "1442",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種同步工具被視為一種高階的抽象概念，提供便利且有效的程序同步機制？",
+   "hint": "",
+   "options": {
+    "A": "Mutex",
+    "B": "Semaphore",
+    "D": "Spinlock",
+    "C": "Monitor"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
+  },
   "1444": {
    "id": "1444",
    "subject": "作業系統",
@@ -4000,6 +4020,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1452": {
+   "id": "1452",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪種情況不會導致競爭條件（race condition）？",
+   "hint": "",
+   "options": {
+    "D": "多個程序同時執行無關的程式碼",
+    "A": "多個程序同時讀取共享資料",
+    "B": "多個程序同時寫入共享資料",
+    "C": "一個程序讀取和另一個程序寫入共享資料"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1453": {
    "id": "1453",
@@ -4176,6 +4216,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
    "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "1461": {
+   "id": "1461",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following is not a classic synchronization problem in operating systems?",
+   "hint": "",
+   "options": {
+    "D": "Banker's Algorithm",
+    "B": "Readers-Writers Problem",
+    "C": "Producer-Consumer Problem",
+    "A": "Dining-Philosophers Problem"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1463": {
    "id": "1463",
@@ -4374,6 +4434,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1473": {
+   "id": "1473",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What does the \"Progress\" requirement of the critical-section problem refer to?",
+   "hint": "",
+   "options": {
+    "D": "Every process must enter in a specific order",
+    "B": "The selection of a process that wishes to enter the critical section cannot be postponed indefinitely",
+    "C": "The waiting time for a process in the critical section is bounded",
+    "A": "Only one process can enter the critical section"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1474": {
    "id": "1474",
@@ -5275,6 +5355,26 @@
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
   },
+  "1523": {
+   "id": "1523",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是同步化程式設計的挑戰？",
+   "hint": "",
+   "options": {
+    "C": "優先權反轉",
+    "A": "死鎖",
+    "D": "活鎖",
+    "B": "餓死"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
+  },
   "1525": {
    "id": "1525",
    "subject": "作業系統",
@@ -5321,6 +5421,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1527": {
+   "id": "1527",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In the solution to the Dining Philosophers Problem, which methods can be adopted to prevent deadlock?",
+   "hint": "",
+   "options": {
+    "C": "A philosopher cannot pick up any chopstick unless they have both chopsticks",
+    "B": "Odd-numbered philosophers pick up the left chopstick first, and even-numbered philosophers pick up the right chopstick first",
+    "D": "A philosopher always eats only after all their neighbors have finished eating",
+    "A": "Allow at most four philosophers to try to eat at the same time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1528": {
    "id": "1528",
@@ -5394,6 +5514,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "1531": {
+   "id": "1531",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In the Bounded-Buffer Problem, which semaphores are initialized to a non-zero value?",
+   "hint": "",
+   "options": {
+    "B": "full",
+    "D": "wait",
+    "C": "empty",
+    "A": "mutex"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1532": {
    "id": "1532",
@@ -5845,6 +5985,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "1562": {
+   "id": "1562",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "A monitor solution to the dining philosophers problem, while deadlock-free, may lead to＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   },
   "1563": {
    "id": "1563",
@@ -45725,6 +45880,26 @@
    "source": "text",
    "createdAt": "2026-11-11T06:00:03.508Z",
    "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "1450~1x58duv": {
+   "id": "1450~1x58duv",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "一個二元信號（binary semaphore）的值只能在什麼範圍內變動？",
+   "hint": "",
+   "options": {
+    "C": "負無限大到正無限大",
+    "D": "1到n",
+    "B": "0到n",
+    "A": "0到1"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:00:46.973Z",
+   "updatedAt": "2026-11-11T06:00:46.973Z"
   }
  }
 }
