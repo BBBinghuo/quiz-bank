@@ -3847,6 +3847,26 @@
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
   },
+  "1445": {
+   "id": "1445",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪種機制確保只有一個程序可以同時在監視器（monitor）內活躍？",
+   "hint": "",
+   "options": {
+    "B": "互斥鎖",
+    "D": "抽象資料型別",
+    "C": "訊號量",
+    "A": "條件變數"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
   "1446": {
    "id": "1446",
    "subject": "作業系統",
@@ -4155,6 +4175,66 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1467": {
+   "id": "1467",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Linux 的 futex 是一種什麼機制？",
+   "hint": "",
+   "options": {
+    "D": "純粹的忙碌等待",
+    "C": "混合的同步工具",
+    "B": "使用者空間的同步工具",
+    "A": "核心級別的同步工具"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
+  "1468": {
+   "id": "1468",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種同步機制被稱為「自旋鎖」（spinlock）？",
+   "hint": "",
+   "options": {
+    "A": "Mutex Lock",
+    "C": "Condition Variable",
+    "B": "Semaphore with waiting queue",
+    "D": "Monitor"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
+  "1469": {
+   "id": "1469",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "監視器（Monitor）中的 x.wait() 操作會將程序掛起直到什麼情況發生？",
+   "hint": "",
+   "options": {
+    "A": "直到另一個程序呼叫 x.signal()",
+    "C": "直到程序被排程器喚醒",
+    "B": "直到定時器過期",
+    "D": "直到所有其他程序都進入臨界區"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
   "1470": {
    "id": "1470",
    "subject": "作業系統",
@@ -4287,6 +4367,26 @@
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
   },
+  "1480": {
+   "id": "1480",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "signal(S) 操作的定義是？",
+   "hint": "",
+   "options": {
+    "D": "while (S > 0) ;",
+    "B": "S++;",
+    "C": "S--;",
+    "A": "while (S <= 0) ; S--;"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
   "1484": {
    "id": "1484",
    "subject": "作業系統",
@@ -4396,6 +4496,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1491": {
+   "id": "1491",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the three requirements for solving the critical-section problem?",
+   "hint": "",
+   "options": {
+    "C": "Bounded Waiting",
+    "B": "Progress",
+    "A": "Mutual Exclusion",
+    "D": "Starvation"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
   },
   "1492": {
    "id": "1492",
@@ -4866,6 +4986,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1521": {
+   "id": "1521",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "acquire() and release() are operations used in which synchronization tools?",
+   "hint": "",
+   "options": {
+    "C": "Monitors",
+    "B": "Semaphores",
+    "A": "Mutex Locks",
+    "D": "Spinlocks"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
   "1525": {
    "id": "1525",
    "subject": "作業系統",
@@ -4937,6 +5077,46 @@
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "1530": {
+   "id": "1530",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Windows 核心的同步機制包括哪些？",
+   "hint": "",
+   "options": {
+    "C": "Spinlocks",
+    "D": "Events",
+    "A": "Mutexes",
+    "B": "Semaphores"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
+  "1532": {
+   "id": "1532",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "signal(mutex) and signal(full) are both used in which process of the Bounded-Buffer Problem?",
+   "hint": "",
+   "options": {
+    "B": "Consumer",
+    "A": "Producer",
+    "C": "Both use it",
+    "D": "Neither uses it"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
   },
   "1533": {
    "id": "1533",
@@ -5122,6 +5302,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1546": {
+   "id": "1546",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The value of a＿＿＿semaphore can range over an unrestricted integer domain.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
   },
   "1549": {
    "id": "1549",
@@ -5331,6 +5526,21 @@
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
   },
+  "1569": {
+   "id": "1569",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在test_and_set 指令中，*target 的新值總是會被設定為＿＿＿。",
+   "hint": "請用數字回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
   "1570": {
    "id": "1570",
    "subject": "作業系統",
@@ -5366,6 +5576,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1574": {
+   "id": "1574",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "One of the software solutions to the critical-section problem is＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
   },
   "1575": {
    "id": "1575",
@@ -44497,6 +44722,66 @@
    "source": "text",
    "createdAt": "2026-11-11T05:47:39.421Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "1526~hjhgkd": {
+   "id": "1526~hjhgkd",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which statements are about a \"race condition\"?",
+   "hint": "",
+   "options": {
+    "B": "The outcome depends on the particular order of execution of the threads",
+    "A": "Multiple processes or threads access shared data at the same time",
+    "D": "It only occurs in multiprocessor systems",
+    "C": "It can lead to data inconsistency"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
+  "1490~1fgm9lx": {
+   "id": "1490~1fgm9lx",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "A single writer can access the shared dataset, and when the writer is writing, no readers or writers are allowed to access it. Which synchronization problem does this describe?",
+   "hint": "",
+   "options": {
+    "A": "Dining-Philosophers Problem",
+    "C": "Producer-Consumer Problem",
+    "B": "Readers-Writers Problem",
+    "D": "Banker's Algorithm"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
+  },
+  "1501~ikh3t4": {
+   "id": "1501~ikh3t4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "The atomicity of signal(S) is implemented by which of the following?",
+   "hint": "",
+   "options": {
+    "D": "Using a software algorithm",
+    "A": "Placing the signal(S) code within a critical section",
+    "B": "Using atomic hardware instructions",
+    "C": "Disabling interrupts"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:48:00.233Z",
+   "updatedAt": "2026-11-11T05:48:00.233Z"
   }
  }
 }
