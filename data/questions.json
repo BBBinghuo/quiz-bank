@@ -3840,10 +3840,12 @@
     "D": "To increase throughput",
     "C": "To prevent race conditions"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1444": {
    "id": "1444",
@@ -4124,10 +4126,12 @@
     "D": "並行地",
     "C": "原子地"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1459": {
    "id": "1459",
@@ -4166,10 +4170,12 @@
     "C": "wait(empty)",
     "B": "signal(full)"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1464": {
    "id": "1464",
@@ -4472,10 +4478,12 @@
     "A": "Mutex Lock",
     "D": "Spinlock"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1484": {
    "id": "1484",
@@ -4931,10 +4939,14 @@
     "D": "Spinlocks",
     "C": "Monitors"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1509": {
    "id": "1509",
@@ -5022,10 +5034,14 @@
     "A": "synchronized 關鍵字",
     "C": "Semaphore 類別"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1514": {
    "id": "1514",
@@ -5065,10 +5081,13 @@
     "A": "滿足互斥、進度和有限等待要求",
     "D": "實作簡單"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1518": {
    "id": "1518",
@@ -5225,10 +5244,13 @@
     "D": "When the swap succeeds",
     "C": "When the swap fails"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1529": {
    "id": "1529",
@@ -5688,10 +5710,12 @@
    "text": "The shared dataset in the Dining-Philosophers Problem is the＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "bowl of rice"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1567": {
    "id": "1567",
@@ -5772,10 +5796,13 @@
    "hint": "請用小寫英文回答",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "thinking",
+    "eating"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1573": {
    "id": "1573",
@@ -45179,10 +45206,13 @@
     "C": "Livelock",
     "A": "Starvation"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   },
   "1520~1t1zx8m": {
    "id": "1520~1t1zx8m",
@@ -45199,10 +45229,163 @@
     "C": "futexes 是一種混合的同步機制",
     "A": "Linux 核心是搶佔式的"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:52:08.109Z",
-   "updatedAt": "2026-11-11T05:52:08.109Z"
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "t1quwrtl": {
+   "id": "t1quwrtl",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在無忙碌等待的信號量實施中，block() 操作會將調用它的程序放入一個適當的 ＿＿＿ 佇列。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "waiting"
+   ],
+   "lines": [
+    "waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "t1jjr3n9": {
+   "id": "t1jjr3n9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The signal(empty) operation is used in the ＿＿＿ process of the Bounded-Buffer Problem.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "consumer"
+   ],
+   "lines": [
+    "consumer"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "t1vha87h": {
+   "id": "t1vha87h",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A condition variable in a monitor allows a process to suspend its execution until a specific ＿＿＿ is met.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "condition"
+   ],
+   "lines": [
+    "condition"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "t1sbofow": {
+   "id": "t1sbofow",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "信號量是一種同步工具，它提供了比互斥鎖更 ＿＿＿ 的方式來同步程序的活動。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "sophisticated"
+   ],
+   "lines": [
+    "sophisticated"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "tv2zljf": {
+   "id": "tv2zljf",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "解決臨界區問題的軟體解決方案之一是 ＿＿＿ 。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "peterson's solution"
+   ],
+   "lines": [
+    "peterson's solution"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "tpdphfn": {
+   "id": "tpdphfn",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "What is the definition of the signal(S) operation?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "S++;"
+   ],
+   "lines": [
+    "S++;"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "t1vd745c": {
+   "id": "t1vd745c",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是 POSIX 標準中定義的同步機制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutexes\nSemaphores\nCondition variables"
+   ],
+   "lines": [
+    "Mutexes",
+    "Semaphores",
+    "Condition variables"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:55:39.823Z",
+   "updatedAt": "2026-11-11T05:55:39.823Z"
   }
  }
 }
