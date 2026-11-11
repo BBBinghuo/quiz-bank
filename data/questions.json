@@ -3825,6 +3825,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1441": {
+   "id": "1441",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The wait() and signal() operations of a semaphore must be indivisible. Why?",
+   "hint": "",
+   "options": {
+    "A": "To improve efficiency",
+    "B": "To ensure fairness",
+    "D": "To increase throughput",
+    "C": "To prevent race conditions"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
   "1444": {
    "id": "1444",
    "subject": "作業系統",
@@ -4089,6 +4109,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1458": {
+   "id": "1458",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "一個記憶體事務（memory transaction）是一個對記憶體的讀寫操作序列，這些操作會被以什麼方式執行？",
+   "hint": "",
+   "options": {
+    "A": "循序地",
+    "B": "隨機地",
+    "D": "並行地",
+    "C": "原子地"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
   "1459": {
    "id": "1459",
    "subject": "作業系統",
@@ -4110,6 +4150,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1460": {
+   "id": "1460",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "When solving the Bounded-Buffer Problem with semaphores, which operation does the producer execute before adding an item to the buffer?",
+   "hint": "",
+   "options": {
+    "A": "wait(full)",
+    "D": "signal(empty)",
+    "C": "wait(empty)",
+    "B": "signal(full)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   },
   "1464": {
    "id": "1464",
@@ -4396,6 +4456,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "1483": {
+   "id": "1483",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which synchronization tool provides two atomic operations, wait() and signal()?",
+   "hint": "",
+   "options": {
+    "C": "Monitor",
+    "B": "Semaphore",
+    "A": "Mutex Lock",
+    "D": "Spinlock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   },
   "1484": {
    "id": "1484",
@@ -4836,6 +4916,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1508": {
+   "id": "1508",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是可以用於實現臨界區的鎖定技術？",
+   "hint": "",
+   "options": {
+    "A": "Mutexes",
+    "B": "Semaphores",
+    "D": "Spinlocks",
+    "C": "Monitors"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
   "1509": {
    "id": "1509",
    "subject": "作業系統",
@@ -4907,6 +5007,26 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1513": {
+   "id": "1513",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些機制在 Java 中用於同步？",
+   "hint": "",
+   "options": {
+    "D": "事務記憶體",
+    "B": "ReentrantLock 類別",
+    "A": "synchronized 關鍵字",
+    "C": "Semaphore 類別"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
   "1514": {
    "id": "1514",
    "subject": "作業系統",
@@ -4929,6 +5049,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1517": {
+   "id": "1517",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是 Peterson's Solution 的優點？",
+   "hint": "",
+   "options": {
+    "B": "適用於多於兩個程序",
+    "C": "不會導致忙碌等待",
+    "A": "滿足互斥、進度和有限等待要求",
+    "D": "實作簡單"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   },
   "1518": {
    "id": "1518",
@@ -5069,6 +5209,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1528": {
+   "id": "1528",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "When does the compare_and_swap instruction return a value different from the expected value?",
+   "hint": "",
+   "options": {
+    "B": "When the value is not equal to the expected value",
+    "A": "When the value is equal to the expected value",
+    "D": "When the swap succeeds",
+    "C": "When the swap fails"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   },
   "1529": {
    "id": "1529",
@@ -5518,6 +5678,21 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1566": {
+   "id": "1566",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The shared dataset in the Dining-Philosophers Problem is the＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
   "1567": {
    "id": "1567",
    "subject": "作業系統",
@@ -5585,6 +5760,22 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1572": {
+   "id": "1572",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在哲學家進餐問題中，每個哲學家會交替地進行＿＿＿和＿＿＿的動作。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   },
   "1573": {
    "id": "1573",
@@ -44972,6 +45163,46 @@
    "source": "text",
    "createdAt": "2026-11-11T05:51:54.294Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "1512~18i9hi": {
+   "id": "1512~18i9hi",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What problems can the solution to the Readers-Writers Problem have?",
+   "hint": "",
+   "options": {
+    "D": "Priority inversion",
+    "B": "Deadlock",
+    "C": "Livelock",
+    "A": "Starvation"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
+  },
+  "1520~1t1zx8m": {
+   "id": "1520~1t1zx8m",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 Linux 核心中的同步，以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "D": "核心程式碼不會有競爭條件",
+    "B": "Linux 核心使用信號量",
+    "C": "futexes 是一種混合的同步機制",
+    "A": "Linux 核心是搶佔式的"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:52:08.109Z",
+   "updatedAt": "2026-11-11T05:52:08.109Z"
   }
  }
 }
