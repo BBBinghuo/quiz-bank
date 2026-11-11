@@ -4192,10 +4192,12 @@
     "B": "Progress",
     "D": "Atomicity"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1464": {
    "id": "1464",
@@ -4410,10 +4412,12 @@
     "B": "empty",
     "C": "full"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1477": {
    "id": "1477",
@@ -5027,10 +5031,15 @@
     "A": "It has an associated waiting queue",
     "D": "The wakeup() operation moves a process from the waiting queue to the ready queue"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1511": {
    "id": "1511",
@@ -5141,10 +5150,14 @@
     "D": "忙碌等待",
     "C": "功能性程式設計語言"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1517": {
    "id": "1517",
@@ -5530,10 +5543,13 @@
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "exits kernel mode",
+    "blocks"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1542": {
    "id": "1542",
@@ -5632,10 +5648,12 @@
    "text": "信號量實施的一種方式是使用一個＿＿＿佇列，其中每個項目包含一個值和一個指向列表中下一個記錄的指標。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "waiting"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1548": {
    "id": "1548",
@@ -5647,10 +5665,12 @@
    "text": "Starvation refers to a process being indefinitely＿＿＿.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "blocking"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1549": {
    "id": "1549",
@@ -5783,10 +5803,12 @@
    "text": "Solaris 使用一種名為＿＿＿的互斥鎖來提高效率，它會先作為自旋鎖，如果鎖被另一顆CPU上的執行緒持有，則會自旋。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "adaptive"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1558": {
    "id": "1558",
@@ -45543,10 +45565,12 @@
     "B": "是 0",
     "D": "是 n-1"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1484~hc4hdu": {
    "id": "1484~hc4hdu",
@@ -45563,10 +45587,12 @@
     "A": "integer 0",
     "D": "The original value"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   },
   "1487~zkz2dw": {
    "id": "1487~zkz2dw",
@@ -45583,10 +45609,122 @@
     "A": "Semaphore",
     "B": "Monitor"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T05:56:06.013Z"
+   "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "t1autwvq": {
+   "id": "t1autwvq",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are synchronization mechanisms belonging to the operating system kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutexes\nSemaphores\nSpinlocks\nCondition variables"
+   ],
+   "lines": [
+    "Mutexes",
+    "Semaphores",
+    "Spinlocks",
+    "Condition variables"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:00:03.508Z",
+   "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "th69jwr": {
+   "id": "th69jwr",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪種同步工具提供了 wait() 和 signal() 操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Semaphores\nCondition variables"
+   ],
+   "lines": [
+    "Semaphores",
+    "Condition variables"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:00:03.508Z",
+   "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "t1td0b70": {
+   "id": "t1td0b70",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In the test_and_set instruction, the new value of *target is always set to ＿＿＿ .(Please answer in Number)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "1"
+   ],
+   "lines": [
+    "1"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:00:03.508Z",
+   "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "t45axzd": {
+   "id": "t45axzd",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Bounded-Buffer Problem, the wait() operation is used for which semaphores?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mutex\nempty"
+   ],
+   "lines": [
+    "mutex",
+    "empty"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:00:03.508Z",
+   "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "t1mts4da": {
+   "id": "t1mts4da",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which type of programming language's variables are immutable, helping to avoid data races?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Functional Programming Languages"
+   ],
+   "lines": [
+    "Functional Programming Languages"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:00:03.508Z",
+   "updatedAt": "2026-11-11T06:00:03.508Z"
   }
  }
 }
