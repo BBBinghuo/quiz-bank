@@ -3862,10 +3862,12 @@
     "D": "Spinlock",
     "C": "Monitor"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1444": {
    "id": "1444",
@@ -4036,10 +4038,12 @@
     "B": "多個程序同時寫入共享資料",
     "C": "一個程序讀取和另一個程序寫入共享資料"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1453": {
    "id": "1453",
@@ -4232,10 +4236,12 @@
     "C": "Producer-Consumer Problem",
     "A": "Dining-Philosophers Problem"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1463": {
    "id": "1463",
@@ -4450,10 +4456,12 @@
     "C": "The waiting time for a process in the critical section is bounded",
     "A": "Only one process can enter the critical section"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1474": {
    "id": "1474",
@@ -5370,10 +5378,15 @@
     "D": "活鎖",
     "B": "餓死"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1525": {
    "id": "1525",
@@ -5437,10 +5450,13 @@
     "D": "A philosopher always eats only after all their neighbors have finished eating",
     "A": "Allow at most four philosophers to try to eat at the same time"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1528": {
    "id": "1528",
@@ -5530,10 +5546,13 @@
     "C": "empty",
     "A": "mutex"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1532": {
    "id": "1532",
@@ -5996,10 +6015,12 @@
    "text": "A monitor solution to the dining philosophers problem, while deadlock-free, may lead to＿＿＿.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "starvation"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   },
   "1563": {
    "id": "1563",
@@ -45896,10 +45917,118 @@
     "B": "0到n",
     "A": "0到1"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
-   "updatedAt": "2026-11-11T06:00:46.973Z"
+   "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "t78wu5l": {
+   "id": "t78wu5l",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "acquire() 和 release() 都是在哪些同步工具中使用的操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutex Locks\nSpinlocks"
+   ],
+   "lines": [
+    "Mutex Locks",
+    "Spinlocks"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:03:11.404Z",
+   "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "tzguv3a": {
+   "id": "tzguv3a",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which hardware instruction can atomically test a memory word and set its value?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "test_and_set()"
+   ],
+   "lines": [
+    "test_and_set()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:03:11.404Z",
+   "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "t12723w2": {
+   "id": "t12723w2",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "wait(S) 操作的定義是 while (S <= 0) ; S--; ，這是什麼類型的等待？ ＿＿＿",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "busy wait"
+   ],
+   "lines": [
+    "busy wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:03:11.404Z",
+   "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "t11fzrnf": {
+   "id": "t11fzrnf",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Solaris uses a type of mutex called an ＿＿＿ mutex for efficiency, which starts as a spinlock and spins if the lock is held by a thread on another CPU.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "adaptive"
+   ],
+   "lines": [
+    "adaptive"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:03:11.404Z",
+   "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "thalwsk": {
+   "id": "thalwsk",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "飢餓（Starvation）指的是程序被無限期地 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "blocking"
+   ],
+   "lines": [
+    "blocking"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:03:11.404Z",
+   "updatedAt": "2026-11-11T06:03:11.404Z"
   }
  }
 }
