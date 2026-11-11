@@ -4837,6 +4837,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1489": {
+   "id": "1489",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "signal(full) 是在有界緩衝區問題的哪一個程序中使用的？",
+   "hint": "",
+   "options": {
+    "A": "生產者",
+    "C": "兩者都使用",
+    "D": "都不使用",
+    "B": "消費者"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
+  },
   "1490": {
    "id": "1490",
    "subject": "作業系統",
@@ -5590,6 +5610,26 @@
    "createdAt": "2026-11-11T06:00:46.973Z",
    "updatedAt": "2026-11-11T06:03:11.404Z"
   },
+  "1524": {
+   "id": "1524",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在一個搶佔式核心（preemptive kernel）中，哪些情況可能導致程序被搶佔？",
+   "hint": "",
+   "options": {
+    "D": "當中斷發生時",
+    "C": "當它等待事件完成時",
+    "B": "當它從核心模式切換到用戶模式",
+    "A": "當它從用戶模式切換到核心模式"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
+  },
   "1525": {
    "id": "1525",
    "subject": "作業系統",
@@ -6327,6 +6367,21 @@
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
    "updatedAt": "2026-11-11T06:06:21.707Z"
+  },
+  "1565": {
+   "id": "1565",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "signal(full) is an operation executed after＿＿＿to notify the consumer that an item can be taken from the buffer.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
   },
   "1566": {
    "id": "1566",
@@ -46808,6 +46863,86 @@
    "source": "text",
    "createdAt": "2026-11-11T06:15:45.346Z",
    "updatedAt": "2026-11-11T06:15:45.346Z"
+  },
+  "1473~zi2kg8": {
+   "id": "1473~zi2kg8",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "臨界區問題的「進度」要求指的是什麼？",
+   "hint": "",
+   "options": {
+    "B": "請求進入臨界區的程序不能被無限期推遲",
+    "C": "程序在臨界區內的等待時間有限",
+    "D": "每個程序都必須按照特定順序進入",
+    "A": "只有一個程序可以進入臨界區"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
+  },
+  "1479~jkjqrx": {
+   "id": "1479~jkjqrx",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What problem do Solaris synchronization mechanisms, such as adaptive mutexes, primarily aim to solve?",
+   "hint": "",
+   "options": {
+    "D": "Memory management",
+    "C": "Busy waiting",
+    "A": "Performance and efficiency",
+    "B": "Code complexity"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
+  },
+  "1510~f70j99": {
+   "id": "1510~f70j99",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於無忙碌等待的信號量（Semaphore），以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "A": "它有一個關聯的等待佇列",
+    "B": "S->value 的值可以小於0",
+    "D": "wakeup() 操作會將程序從等待佇列移到就緒佇列",
+    "C": "block() 操作會將程序放入等待佇列"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
+  },
+  "1523~18i9hi": {
+   "id": "1523~18i9hi",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the challenges of synchronized programming?",
+   "hint": "",
+   "options": {
+    "C": "Priority inversion",
+    "A": "Deadlock",
+    "B": "Starvation",
+    "D": "Livelock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:16:02.173Z",
+   "updatedAt": "2026-11-11T06:16:02.173Z"
   }
  }
 }
