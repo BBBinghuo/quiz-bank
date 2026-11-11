@@ -4529,6 +4529,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1472": {
+   "id": "1472",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種同步工具可用於解決多種同步問題，而不僅僅是互斥？",
+   "hint": "",
+   "options": {
+    "C": "Counting Semaphore",
+    "A": "Mutex Lock",
+    "B": "Binary Semaphore",
+    "D": "Spinlock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:22:00.782Z",
+   "updatedAt": "2026-11-11T06:22:00.782Z"
+  },
   "1473": {
    "id": "1473",
    "subject": "作業系統",
@@ -47271,6 +47291,86 @@
    "source": "text",
    "createdAt": "2026-11-11T06:21:42.671Z",
    "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "1528~fv5aow": {
+   "id": "1528~fv5aow",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "compare_and_swap 指令在什麼情況下會返回與預期值不同的值？",
+   "hint": "",
+   "options": {
+    "C": "當交換失敗時",
+    "D": "當交換成功時",
+    "B": "當值不等於預期值時",
+    "A": "當值等於預期值時"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:22:00.782Z",
+   "updatedAt": "2026-11-11T06:22:00.782Z"
+  },
+  "1471~1fslhij": {
+   "id": "1471~1fslhij",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the solution to the Readers-Writers Problem, what is the purpose of the read_count variable?",
+   "hint": "",
+   "options": {
+    "D": "To track the number of completed tasks",
+    "A": "To track the number of writers",
+    "B": "To track the number of readers",
+    "C": "To track the number of waiting processes"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:22:00.782Z",
+   "updatedAt": "2026-11-11T06:22:00.782Z"
+  },
+  "1524~1qk7h14": {
+   "id": "1524~1qk7h14",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In a preemptive kernel, in which situations can a process be preempted?",
+   "hint": "",
+   "options": {
+    "B": "When it switches from kernel mode to user mode",
+    "A": "When it switches from user mode to kernel mode",
+    "D": "When an interrupt occurs",
+    "C": "When it waits for an event to complete"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:22:00.782Z",
+   "updatedAt": "2026-11-11T06:22:00.782Z"
+  },
+  "1470~190xyrb": {
+   "id": "1470~190xyrb",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which is one of the solutions to the Dining Philosophers Problem?",
+   "hint": "",
+   "options": {
+    "B": "Using a monitor",
+    "A": "Using a single semaphore",
+    "C": "Disabling interrupts",
+    "D": "Using spinlocks"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:22:00.782Z",
+   "updatedAt": "2026-11-11T06:22:00.782Z"
   }
  }
 }
