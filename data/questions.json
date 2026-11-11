@@ -3840,10 +3840,12 @@
     "A": "資源分配演算法",
     "C": "鎖定效能"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1446": {
    "id": "1446",
@@ -3904,10 +3906,12 @@
     "D": "test_and_set()",
     "C": "signal()"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1449": {
    "id": "1449",
@@ -3924,10 +3928,12 @@
     "B": "改變共享變數的區段",
     "D": "產生新行程的區段"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1450": {
    "id": "1450",
@@ -3988,10 +3994,12 @@
     "D": "Race condition",
     "C": "Priority inversion"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1455": {
    "id": "1455",
@@ -4206,10 +4214,12 @@
     "D": "lock 和 available",
     "A": "turn 和 lock"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1477": {
    "id": "1477",
@@ -4248,10 +4258,12 @@
     "C": "保持不變",
     "A": "更頻繁"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1479": {
    "id": "1479",
@@ -4268,10 +4280,12 @@
     "D": "記憶體管理",
     "C": "忙碌等待"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1484": {
    "id": "1484",
@@ -4398,10 +4412,13 @@
     "A": "Mutex Lock",
     "B": "Semaphore with a waiting queue"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1493": {
    "id": "1493",
@@ -4535,10 +4552,13 @@
     "C": "Monitors",
     "B": "Semaphores"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1500": {
    "id": "1500",
@@ -4625,10 +4645,15 @@
     "A": "Mutexes",
     "D": "Condition variables"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1505": {
    "id": "1505",
@@ -4645,10 +4670,14 @@
     "B": "Semaphores",
     "C": "Monitors"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1506": {
    "id": "1506",
@@ -4688,10 +4717,14 @@
     "B": "Semaphore",
     "C": "Test-and-Set"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1511": {
    "id": "1511",
@@ -4848,10 +4881,13 @@
     "A": "Semaphores",
     "C": "Monitors"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1526": {
    "id": "1526",
@@ -4892,10 +4928,15 @@
     "A": "They do not maintain state",
     "D": "Erlang and Scala are examples of such languages"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1533": {
    "id": "1533",
@@ -4935,10 +4976,14 @@
     "D": "可以解決各種同步問題",
     "B": "它是一個整數變數"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1535": {
    "id": "1535",
@@ -5122,10 +5167,12 @@
    "text": "監視器中的條件變數（condition variable）允許程序在滿足特定＿＿＿之前暫停執行。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "condition"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1552": {
    "id": "1552",
@@ -5155,10 +5202,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "multiple",
+    "single"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1554": {
    "id": "1554",
@@ -5222,10 +5272,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "\"0\"",
+    "\"1\""
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1563": {
    "id": "1563",
@@ -5254,10 +5307,12 @@
    "text": "In a semaphore implementation with no busy waiting, the block() operation places the process invoking the operation on the appropriate＿＿＿queue.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "waiting"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1568": {
    "id": "1568",
@@ -5269,10 +5324,12 @@
    "text": "The definition of the wait(S) operation is while (S <= 0) ; S--; What type of waiting is this?＿＿＿(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "busy wait"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1570": {
    "id": "1570",
@@ -5320,10 +5377,12 @@
    "text": "The compare_and_swap instruction atomically compares a value with an＿＿＿and, if they are equal, sets the value to a new value.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "expected value"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   },
   "1576": {
    "id": "1576",
@@ -44366,10 +44425,78 @@
     "A": "運行",
     "C": "等待"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
-   "updatedAt": "2026-11-11T05:44:50.537Z"
+   "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "t1uvmwcn": {
+   "id": "t1uvmwcn",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The sequence of read-write operations in transactional memory are performed ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "atomically"
+   ],
+   "lines": [
+    "atomically"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:47:39.421Z",
+   "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "t1mi0963": {
+   "id": "t1mi0963",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在哲學家進餐問題的監視器解決方案中，每個哲學家在嘗試進食時會呼叫哪些方法？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "pickup(i)\nputdown(i)"
+   ],
+   "lines": [
+    "pickup(i)",
+    "putdown(i)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:47:39.421Z",
+   "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "t8z3a7y": {
+   "id": "t8z3a7y",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "互斥鎖（Mutex Lock）是一種保護臨界區的簡單工具，透過先 ＿＿＿ 鎖然後 ＿＿＿ 鎖來實現。",
+   "hint": "請用英文小寫回答",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "acquire",
+    "release"
+   ],
+   "lines": [
+    "acquire/release"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:47:39.421Z",
+   "updatedAt": "2026-11-11T05:47:39.421Z"
   }
  }
 }
