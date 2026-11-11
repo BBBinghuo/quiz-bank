@@ -3928,10 +3928,12 @@
     "A": "Can only access when there are no readers or writers",
     "B": "Can access at any time"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1444": {
    "id": "1444",
@@ -6282,10 +6284,12 @@
    "text": "在 Linux 中，＿＿＿是一種混合的同步機制，它在使用者空間和核心之間提供高效的互斥。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "futex"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1558": {
    "id": "1558",
@@ -47061,10 +47065,12 @@
     "A": "Producer",
     "B": "Consumer"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1522~1poh9vs": {
    "id": "1522~1poh9vs",
@@ -47081,10 +47087,14 @@
     "B": "它會返回參數的原始值",
     "D": "它會返回TRUE和FALSE之間的隨機值"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1527~juytlt": {
    "id": "1527~juytlt",
@@ -47101,10 +47111,13 @@
     "C": "一個哲學家不能在沒有拿到兩根筷子的情況下拿任何一根",
     "A": "讓最多四個哲學家同時嘗試進食"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1441~ogu71f": {
    "id": "1441~ogu71f",
@@ -47121,10 +47134,12 @@
     "C": "防止競爭條件",
     "D": "增加吞吐量"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   },
   "1458~11ataq5": {
    "id": "1458~11ataq5",
@@ -47141,10 +47156,121 @@
     "C": "Atomically",
     "D": "Concurrently"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:18:55.055Z",
-   "updatedAt": "2026-11-11T06:18:55.055Z"
+   "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "tik8bua": {
+   "id": "tik8bua",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following synchronization mechanisms are implemented using atomic hardware instructions?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutex Lock\nTest-and-Set\nCompare-and-Swap"
+   ],
+   "lines": [
+    "Mutex Lock",
+    "Test-and-Set",
+    "Compare-and-Swap"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:21:42.671Z",
+   "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "tjtqngn": {
+   "id": "tjtqngn",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which two hardware instructions can be used to implement a critical section?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "test_and_set()\ncompare_and_swap()"
+   ],
+   "lines": [
+    "test_and_set()",
+    "compare_and_swap()"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:21:42.671Z",
+   "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "t1t8ybee": {
+   "id": "t1t8ybee",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Process execution consists of a cycle of CPU execution and ＿＿＿ waiting.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "io"
+   ],
+   "lines": [
+    "io"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:21:42.671Z",
+   "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "txcs610": {
+   "id": "txcs610",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在有界緩衝區問題中，哪些信號量被初始化為非零值？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mutex\nempty"
+   ],
+   "lines": [
+    "mutex",
+    "empty"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:21:42.671Z",
+   "updatedAt": "2026-11-11T06:21:42.671Z"
+  },
+  "tc515i": {
+   "id": "tc515i",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在讀者-寫者問題的解決方案中，read_count 變數用來追蹤有多少個 ＿＿＿ 正在讀取。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "readers"
+   ],
+   "lines": [
+    "readers"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:21:42.671Z",
+   "updatedAt": "2026-11-11T06:21:42.671Z"
   }
  }
 }
