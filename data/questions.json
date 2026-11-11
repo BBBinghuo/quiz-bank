@@ -5379,6 +5379,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1515": {
+   "id": "1515",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "wait(full) 和 signal(empty) 是在有界緩衝區問題的哪一個程序中使用的？",
+   "hint": "",
+   "options": {
+    "C": "兩者都使用",
+    "D": "都不使用",
+    "A": "生產者",
+    "B": "消費者"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
+  },
   "1516": {
    "id": "1516",
    "subject": "作業系統",
@@ -5854,6 +5874,22 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1538": {
+   "id": "1538",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "如果程序Pi正在其＿＿＿中執行，則沒有其他程序可以在其＿＿＿中執行。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
+  },
   "1539": {
    "id": "1539",
    "subject": "作業系統",
@@ -5870,6 +5906,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1540": {
+   "id": "1540",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The＿＿＿requirement states that a bound must exist on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted.",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
   },
   "1541": {
    "id": "1541",
@@ -6166,6 +6217,36 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1559": {
+   "id": "1559",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是一個高階的平行程式設計API，它使用編譯器指令來處理臨界區。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
+  },
+  "1560": {
+   "id": "1560",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Variables in functional programming languages are＿＿＿, which means they cannot change state once they have been assigned a value.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
+  },
   "1561": {
    "id": "1561",
    "subject": "作業系統",
@@ -6321,6 +6402,21 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1571": {
+   "id": "1571",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The Windows scheduler uses dispatcher objects such as mutexes, semaphores, and＿＿＿for synchronization.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
+  },
   "1572": {
    "id": "1572",
    "subject": "作業系統",
@@ -6426,6 +6522,21 @@
    "note": "",
    "createdAt": "2026-11-11T06:06:36.614Z",
    "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "1578": {
+   "id": "1578",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Pthreads 提供了用於同步的 API，包括互斥鎖和＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
   },
   "1579": {
    "id": "1579",
@@ -46595,6 +46706,26 @@
    "source": "text",
    "createdAt": "2026-11-11T06:09:21.442Z",
    "updatedAt": "2026-11-11T06:09:21.442Z"
+  },
+  "1486~190msn5": {
+   "id": "1486~190msn5",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在哲學家進餐問題中，共享的資料集是什麼？",
+   "hint": "",
+   "options": {
+    "A": "叉子",
+    "B": "麵包",
+    "D": "刀子",
+    "C": "米飯"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:09:47.450Z",
+   "updatedAt": "2026-11-11T06:09:47.450Z"
   }
  }
 }
