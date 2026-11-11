@@ -3825,6 +3825,46 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1446": {
+   "id": "1446",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In Peterson's Solution, which variable is used to indicate whose turn it is to enter the critical section?",
+   "hint": "",
+   "options": {
+    "D": "available",
+    "C": "lock",
+    "B": "turn",
+    "A": "flag[]"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1447": {
+   "id": "1447",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Java 中，哪一個關鍵字可以用來確保方法或程式碼區塊的原子性？",
+   "hint": "",
+   "options": {
+    "C": "atomic",
+    "A": "volatile",
+    "B": "synchronized",
+    "D": "transient"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1450": {
    "id": "1450",
    "subject": "作業系統",
@@ -3891,6 +3931,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1456": {
+   "id": "1456",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The semaphore solution to the Dining Philosophers Problem can lead to what issue?",
+   "hint": "",
+   "options": {
+    "C": "Priority inversion",
+    "A": "Starvation",
+    "D": "Deadlock",
+    "B": "Livelock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1457": {
    "id": "1457",
    "subject": "作業系統",
@@ -3912,6 +3972,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1459": {
+   "id": "1459",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which synchronization problem allows multiple readers to access a shared dataset at the same time, but only one writer?",
+   "hint": "",
+   "options": {
+    "D": "Producer-Consumer Problem",
+    "A": "Bounded-Buffer Problem",
+    "C": "Dining-Philosophers Problem",
+    "B": "Readers-Writers Problem"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1464": {
    "id": "1464",
@@ -3957,6 +4037,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1466": {
+   "id": "1466",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Windows 作業系統中，哪種同步機制使用了一個整數的計數器？",
+   "hint": "",
+   "options": {
+    "B": "Semaphore",
+    "D": "Spinlock",
+    "A": "Mutex",
+    "C": "Event"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1470": {
    "id": "1470",
    "subject": "作業系統",
@@ -4000,6 +4100,86 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1477": {
+   "id": "1477",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在哲學家進餐問題的Semaphore解決方案中，每個哲學家需要取得幾根筷子才能開始進食？",
+   "hint": "",
+   "options": {
+    "C": "three",
+    "A": "one",
+    "D": "four",
+    "B": "two"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1484": {
+   "id": "1484",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "compare_and_swap 指令在成功交換時會返回什麼？",
+   "hint": "",
+   "options": {
+    "C": "預期值",
+    "A": "integer 0",
+    "D": "原始值",
+    "B": "integer 1"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1486": {
+   "id": "1486",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the Dining Philosophers Problem, what is the shared dataset?",
+   "hint": "",
+   "options": {
+    "A": "Forks",
+    "C": "Rice",
+    "D": "Knives",
+    "B": "Bread"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1487": {
+   "id": "1487",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪一個選項是 Windows 核心中使用的同步原語？",
+   "hint": "",
+   "options": {
+    "A": "信號量",
+    "D": "test_and_set",
+    "C": "事件物件",
+    "B": "監視器"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1488": {
    "id": "1488",
@@ -4069,6 +4249,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1494": {
+   "id": "1494",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Peterson's Solution 使用哪些共享變數？",
+   "hint": "",
+   "options": {
+    "A": "int turn;",
+    "D": "int value;",
+    "C": "int lock;",
+    "B": "boolean flag;"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1495": {
    "id": "1495",
    "subject": "作業系統",
@@ -4091,6 +4291,46 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1496": {
+   "id": "1496",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在有界緩衝區問題（Bounded-Buffer Problem）中，wait() 操作用於哪些信號量？",
+   "hint": "",
+   "options": {
+    "A": "mutex",
+    "B": "full",
+    "C": "empty",
+    "D": "synch"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1497": {
+   "id": "1497",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於監視器（Monitors），以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "D": "它可以解決所有同步問題",
+    "A": "它是高階的抽象概念",
+    "B": "一次只能有一個程序在監視器內活躍",
+    "C": "內部變數只能被監視器內的程式碼存取"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1500": {
    "id": "1500",
@@ -4185,6 +4425,46 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1511": {
+   "id": "1511",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些問題可能在使用信號量（Semaphore）時發生？",
+   "hint": "",
+   "options": {
+    "C": "優先權反轉",
+    "B": "餓死",
+    "A": "死鎖",
+    "D": "護航效應"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1512": {
+   "id": "1512",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Reader-Writer問題的解決方案可能會有什麼問題？",
+   "hint": "",
+   "options": {
+    "B": "死鎖",
+    "D": "優先權反轉",
+    "A": "餓死",
+    "C": "活鎖"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1514": {
    "id": "1514",
    "subject": "作業系統",
@@ -4207,6 +4487,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1518": {
+   "id": "1518",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In the monitor solution to the Dining Philosophers Problem, which methods does each philosopher call when trying to eat?",
+   "hint": "",
+   "options": {
+    "D": "eat()",
+    "B": "putdown(i)",
+    "C": "test(i)",
+    "A": "pickup(i)"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1519": {
    "id": "1519",
@@ -4279,6 +4579,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1533": {
+   "id": "1533",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which situations can lead to a deadlock?",
+   "hint": "",
+   "options": {
+    "C": "A process is waiting for an event that will never happen",
+    "D": "Multiple processes are competing for the same resource",
+    "B": "Only one process is waiting",
+    "A": "Two processes waiting for each other to release a lock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1535": {
    "id": "1535",
    "subject": "作業系統",
@@ -4295,6 +4615,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1536": {
+   "id": "1536",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "臨界區是程序中改變共同變數、更新表格或寫入檔案的＿＿＿段程式碼。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1537": {
    "id": "1537",
@@ -4346,6 +4681,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1543": {
+   "id": "1543",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Many systems provide hardware＿＿＿for implementing critical section code.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1544": {
    "id": "1544",
@@ -4400,6 +4750,36 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1550": {
+   "id": "1550",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "監視器是一種高階抽象概念，它是一個＿＿＿資料型別，其內部變數只能被監視器內的程式碼存取。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1552": {
+   "id": "1552",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In the bounded-buffer problem, wait(empty) and wait(mutex) are both used in the＿＿＿process.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1554": {
    "id": "1554",
    "subject": "作業系統",
@@ -4417,6 +4797,36 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1555": {
+   "id": "1555",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在哲學家進餐問題的信號量解決方案中，每個哲學家會拿取編號為 i 和 (i + 1) % 5 的＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1558": {
+   "id": "1558",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "事務記憶體（Transactional Memory）中的讀寫操作序列會以＿＿＿方式執行。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
   "1563": {
    "id": "1563",
    "subject": "作業系統",
@@ -4433,6 +4843,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1570": {
+   "id": "1570",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "When a process calls wait(mutex) and the lock is not available, it enters＿＿＿waiting.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "1573": {
    "id": "1573",
@@ -4452,6 +4877,36 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1576": {
+   "id": "1576",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "signal(empty) 是在有界緩衝區問題的＿＿＿程序中使用的。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
+  },
+  "1579": {
+   "id": "1579",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "volatile 關鍵字在 Java 中用於確保對變數的讀寫操作不會被＿＿＿排序。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:30:14.906Z",
+   "updatedAt": "2026-11-11T05:30:14.906Z"
   },
   "2128": {
    "id": "2128",
