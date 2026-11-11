@@ -5293,10 +5293,12 @@
     "B": "消費者",
     "D": "都不使用"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:25:08.991Z",
-   "updatedAt": "2026-11-11T06:25:08.991Z"
+   "updatedAt": "2026-11-11T06:27:54.467Z"
   },
   "1508": {
    "id": "1508",
@@ -47464,10 +47466,12 @@
     "C": "優先權反轉",
     "D": "競爭條件"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:25:08.991Z",
-   "updatedAt": "2026-11-11T06:25:08.991Z"
+   "updatedAt": "2026-11-11T06:27:54.467Z"
   },
   "1485~fxc891": {
    "id": "1485~fxc891",
@@ -47484,10 +47488,78 @@
     "A": "阻塞佇列",
     "C": "運行佇列"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:25:08.991Z",
-   "updatedAt": "2026-11-11T06:25:08.991Z"
+   "updatedAt": "2026-11-11T06:27:54.467Z"
+  },
+  "t1pt259w": {
+   "id": "t1pt259w",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which synchronization mechanism is also known as a \"spinlock\"?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutex Lock"
+   ],
+   "lines": [
+    "Mutex Lock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:27:54.467Z",
+   "updatedAt": "2026-11-11T06:27:54.467Z"
+  },
+  "tvmtf6v": {
+   "id": "tvmtf6v",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "讀者-寫者問題（Readers-Writers Problem）允許 ＿＿＿ 個讀者同時存取共享資料集，但只允許 ＿＿＿ 個寫者存取。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "multiple",
+    "single"
+   ],
+   "lines": [
+    "multiple/single"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:27:54.467Z",
+   "updatedAt": "2026-11-11T06:27:54.467Z"
+  },
+  "t5s37a8": {
+   "id": "t5s37a8",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the semaphore solution to the Dining Philosophers Problem, which wait operations does each philosopher execute when trying to eat?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "wait(chopstick[i]);\nwait(chopstick[(i + 1) % 5]);"
+   ],
+   "lines": [
+    "wait(chopstick[i]);",
+    "wait(chopstick[(i + 1) % 5]);"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:27:54.467Z",
+   "updatedAt": "2026-11-11T06:27:54.467Z"
   }
  }
 }
