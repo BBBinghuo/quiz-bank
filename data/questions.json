@@ -4366,10 +4366,12 @@
     "D": "To handle starvation only",
     "B": "To ensure progress only"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:28:15.880Z",
-   "updatedAt": "2026-11-11T06:28:15.880Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1463": {
    "id": "1463",
@@ -47636,10 +47638,13 @@
     "C": "Increasing the priority of low-priority processes",
     "B": "Busy waiting"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1532~yrpsi3": {
    "id": "1532~yrpsi3",
@@ -47656,10 +47661,12 @@
     "D": "都不使用",
     "C": "兩者都使用"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1534~10im87d": {
    "id": "1534~10im87d",
@@ -47676,10 +47683,14 @@
     "B": "It is an integer variable",
     "D": "It can solve various synchronization problems"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1511~1mc7gj2": {
    "id": "1511~1mc7gj2",
@@ -47696,10 +47707,14 @@
     "A": "Deadlock",
     "B": "Starvation"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1461~6zqrdc": {
    "id": "1461~6zqrdc",
@@ -47716,10 +47731,12 @@
     "A": "哲學家進餐問題",
     "D": "銀行家演算法"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   },
   "1455~i4yg9g": {
    "id": "1455~i4yg9g",
@@ -47736,10 +47753,54 @@
     "B": "實作原子操作",
     "C": "讓程序等待特定條件"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:31:25.612Z",
-   "updatedAt": "2026-11-11T06:31:25.612Z"
+   "updatedAt": "2026-11-11T06:34:39.093Z"
+  },
+  "t9jud8c": {
+   "id": "t9jud8c",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "哲學家進餐問題的一個監視器解決方案，雖然沒有死鎖，但可能會導致 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "starvation"
+   ],
+   "lines": [
+    "starvation"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:34:39.093Z",
+   "updatedAt": "2026-11-11T06:34:39.093Z"
+  },
+  "t1i0rou3": {
+   "id": "t1i0rou3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The acquire() and release() operations must be ＿＿＿ to avoid race conditions.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "atomic"
+   ],
+   "lines": [
+    "atomic"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:34:39.093Z",
+   "updatedAt": "2026-11-11T06:34:39.093Z"
   }
  }
 }
