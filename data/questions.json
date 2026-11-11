@@ -3840,10 +3840,12 @@
     "B": "turn",
     "A": "flag[]"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1447": {
    "id": "1447",
@@ -3860,10 +3862,12 @@
     "B": "synchronized",
     "D": "transient"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1450": {
    "id": "1450",
@@ -3946,10 +3950,12 @@
     "D": "Deadlock",
     "B": "Livelock"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1457": {
    "id": "1457",
@@ -3988,10 +3994,12 @@
     "C": "Dining-Philosophers Problem",
     "B": "Readers-Writers Problem"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1464": {
    "id": "1464",
@@ -4052,10 +4060,12 @@
     "A": "Mutex",
     "C": "Event"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1470": {
    "id": "1470",
@@ -4116,10 +4126,12 @@
     "D": "four",
     "B": "two"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1484": {
    "id": "1484",
@@ -4136,10 +4148,12 @@
     "D": "原始值",
     "B": "integer 1"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1486": {
    "id": "1486",
@@ -4156,10 +4170,12 @@
     "D": "Knives",
     "B": "Bread"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1487": {
    "id": "1487",
@@ -4176,10 +4192,12 @@
     "C": "事件物件",
     "B": "監視器"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1488": {
    "id": "1488",
@@ -4264,10 +4282,13 @@
     "C": "int lock;",
     "B": "boolean flag;"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1495": {
    "id": "1495",
@@ -4307,10 +4328,13 @@
     "C": "empty",
     "D": "synch"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1497": {
    "id": "1497",
@@ -4327,10 +4351,14 @@
     "B": "一次只能有一個程序在監視器內活躍",
     "C": "內部變數只能被監視器內的程式碼存取"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1500": {
    "id": "1500",
@@ -4440,10 +4468,14 @@
     "A": "死鎖",
     "D": "護航效應"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1512": {
    "id": "1512",
@@ -4460,10 +4492,13 @@
     "A": "餓死",
     "C": "活鎖"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1514": {
    "id": "1514",
@@ -4503,10 +4538,13 @@
     "C": "test(i)",
     "A": "pickup(i)"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1519": {
    "id": "1519",
@@ -4594,10 +4632,13 @@
     "B": "Only one process is waiting",
     "A": "Two processes waiting for each other to release a lock"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1535": {
    "id": "1535",
@@ -4626,10 +4667,12 @@
    "text": "臨界區是程序中改變共同變數、更新表格或寫入檔案的＿＿＿段程式碼。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "section"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1537": {
    "id": "1537",
@@ -4692,10 +4735,12 @@
    "text": "Many systems provide hardware＿＿＿for implementing critical section code.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "support"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1544": {
    "id": "1544",
@@ -4760,10 +4805,12 @@
    "text": "監視器是一種高階抽象概念，它是一個＿＿＿資料型別，其內部變數只能被監視器內的程式碼存取。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "abstract"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1552": {
    "id": "1552",
@@ -4775,10 +4822,12 @@
    "text": "In the bounded-buffer problem, wait(empty) and wait(mutex) are both used in the＿＿＿process.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "producer"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1554": {
    "id": "1554",
@@ -4807,10 +4856,12 @@
    "text": "在哲學家進餐問題的信號量解決方案中，每個哲學家會拿取編號為 i 和 (i + 1) % 5 的＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "chopsticks"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1558": {
    "id": "1558",
@@ -4822,10 +4873,12 @@
    "text": "事務記憶體（Transactional Memory）中的讀寫操作序列會以＿＿＿方式執行。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "atomically"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1563": {
    "id": "1563",
@@ -4854,10 +4907,12 @@
    "text": "When a process calls wait(mutex) and the lock is not available, it enters＿＿＿waiting.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "busy"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1573": {
    "id": "1573",
@@ -4888,10 +4943,12 @@
    "text": "signal(empty) 是在有界緩衝區問題的＿＿＿程序中使用的。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "consumer"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "1579": {
    "id": "1579",
@@ -4903,10 +4960,12 @@
    "text": "volatile 關鍵字在 Java 中用於確保對變數的讀寫操作不會被＿＿＿排序。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "reordered"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
-   "updatedAt": "2026-11-11T05:30:14.906Z"
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   },
   "2128": {
    "id": "2128",
@@ -43877,6 +43936,28 @@
    "updatedAt": "2026-11-07T14:16:55.369Z",
    "deleted": true,
    "mergedInto": "2580"
+  },
+  "tna5z2c": {
+   "id": "tna5z2c",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the solution to the Readers-Writers Problem, which semaphores are used?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mutex\nrw_mutex"
+   ],
+   "lines": [
+    "mutex",
+    "rw_mutex"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:33:03.278Z",
+   "updatedAt": "2026-11-11T05:33:03.278Z"
   }
  }
 }
