@@ -5394,10 +5394,12 @@
     "A": "生產者",
     "B": "消費者"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1516": {
    "id": "1516",
@@ -5885,10 +5887,13 @@
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "critical section",
+    "critical section"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1539": {
    "id": "1539",
@@ -5917,10 +5922,12 @@
    "text": "The＿＿＿requirement states that a bound must exist on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted.",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "bounded waiting"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1541": {
    "id": "1541",
@@ -6227,10 +6234,12 @@
    "text": "＿＿＿是一個高階的平行程式設計API，它使用編譯器指令來處理臨界區。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "openmp"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1560": {
    "id": "1560",
@@ -6242,10 +6251,12 @@
    "text": "Variables in functional programming languages are＿＿＿, which means they cannot change state once they have been assigned a value.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "immutable"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1561": {
    "id": "1561",
@@ -6412,10 +6423,12 @@
    "text": "The Windows scheduler uses dispatcher objects such as mutexes, semaphores, and＿＿＿for synchronization.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "events"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1572": {
    "id": "1572",
@@ -6533,10 +6546,12 @@
    "text": "Pthreads 提供了用於同步的 API，包括互斥鎖和＿＿＿。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "semaphores"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   },
   "1579": {
    "id": "1579",
@@ -46722,10 +46737,77 @@
     "D": "刀子",
     "C": "米飯"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:09:47.450Z",
-   "updatedAt": "2026-11-11T06:09:47.450Z"
+   "updatedAt": "2026-11-11T06:15:45.346Z"
+  },
+  "t147di13": {
+   "id": "t147di13",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In Peterson's Solution, which variable is used to indicate if a process is ready to enter the critical section?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "flag[i]"
+   ],
+   "lines": [
+    "flag[i]"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:15:45.346Z",
+   "updatedAt": "2026-11-11T06:15:45.346Z"
+  },
+  "tj81mxg": {
+   "id": "tj81mxg",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In the Dining Philosophers Problem, each philosopher spends their life alternating between ＿＿＿ and ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "thinking",
+    "eating"
+   ],
+   "lines": [
+    "thinking/eating"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:15:45.346Z",
+   "updatedAt": "2026-11-11T06:15:45.346Z"
+  },
+  "t5w5gvg": {
+   "id": "t5w5gvg",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the semaphore solution to the Dining Philosophers Problem, how many chopsticks does each philosopher need to pick up to start eating?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "two"
+   ],
+   "lines": [
+    "two"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:15:45.346Z",
+   "updatedAt": "2026-11-11T06:15:45.346Z"
   }
  }
 }
