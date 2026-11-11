@@ -3840,10 +3840,12 @@
     "A": "Banker's Algorithm",
     "B": "Peterson's Solution"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1440": {
    "id": "1440",
@@ -3860,10 +3862,12 @@
     "A": "Mutex Lock",
     "B": "Semaphore with waiting queue"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1441": {
    "id": "1441",
@@ -4540,10 +4544,12 @@
     "B": "當值等於新值時",
     "D": "永遠進行交換"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1476": {
    "id": "1476",
@@ -4714,10 +4720,12 @@
     "C": "The running queue",
     "A": "The blocked queue"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1486": {
    "id": "1486",
@@ -5458,10 +5466,14 @@
     "B": "It returns the original value of the passed parameter",
     "D": "It returns a random value between TRUE and FALSE"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1523": {
    "id": "1523",
@@ -6149,10 +6161,12 @@
    "text": "當一個程序調用 x.wait() 操作時，它會被掛起直到另一個程序調用 x.＿＿＿()。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "signal"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1566": {
    "id": "1566",
@@ -46160,10 +46174,12 @@
     "A": "餓死",
     "B": "活鎖"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1516~tiduv8": {
    "id": "1516~tiduv8",
@@ -46180,10 +46196,14 @@
     "D": "Busy waiting",
     "A": "Transactional Memory"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1465~1s5si7v": {
    "id": "1465~1s5si7v",
@@ -46200,10 +46220,12 @@
     "A": "軟體方法",
     "C": "監視器"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   },
   "1444~1ic21m3": {
    "id": "1444~1ic21m3",
@@ -46220,10 +46242,54 @@
     "C": "Locking performance",
     "B": "Message passing mechanisms"
    },
-   "answer": [],
+   "answer": [
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:03:31.846Z",
-   "updatedAt": "2026-11-11T06:03:31.846Z"
+   "updatedAt": "2026-11-11T06:06:21.707Z"
+  },
+  "t1tdjdk4": {
+   "id": "t1tdjdk4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "哲學家進餐問題中的共享資料集是 ＿＿＿ 。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "bowl of rice"
+   ],
+   "lines": [
+    "bowl of rice"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:06:21.707Z",
+   "updatedAt": "2026-11-11T06:06:21.707Z"
+  },
+  "t1e3ldrx": {
+   "id": "t1e3ldrx",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A ＿＿＿ is a competitive situation that can result in data inconsistency and occurs when multiple processes access and manipulate shared data at the same time.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "race condition"
+   ],
+   "lines": [
+    "race condition"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:06:21.707Z",
+   "updatedAt": "2026-11-11T06:06:21.707Z"
   }
  }
 }
