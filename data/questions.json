@@ -4067,6 +4067,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1451": {
+   "id": "1451",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在界限緩衝區問題（Bounded-Buffer Problem）中，empty 信號量的初始值是多少？",
+   "hint": "",
+   "options": {
+    "D": "是 -1",
+    "C": "是 n",
+    "A": "是 0",
+    "B": "是 1"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
+  },
   "1452": {
    "id": "1452",
    "subject": "作業系統",
@@ -4661,6 +4681,26 @@
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
   },
+  "1482": {
+   "id": "1482",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Peterson's Solution 中，哪個變數用來指示一個程序i是否準備好進入臨界區？",
+   "hint": "",
+   "options": {
+    "A": "turn",
+    "C": "lock",
+    "D": "mutex",
+    "B": "flag[i]"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
+  },
   "1483": {
    "id": "1483",
    "subject": "作業系統",
@@ -5001,6 +5041,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "1499": {
+   "id": "1499",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which synchronization mechanisms are implemented in the Solaris operating system?",
+   "hint": "",
+   "options": {
+    "A": "Adaptive mutexes",
+    "B": "Reader-writer locks",
+    "D": "Spinlocks",
+    "C": "Condition variables"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
   },
   "1500": {
    "id": "1500",
@@ -6341,6 +6401,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1577": {
+   "id": "1577",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "A simple semaphore solution to the Dining Philosophers Problem can lead to a＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
   },
   "1579": {
    "id": "1579",
@@ -46290,6 +46365,66 @@
    "source": "text",
    "createdAt": "2026-11-11T06:06:21.707Z",
    "updatedAt": "2026-11-11T06:06:21.707Z"
+  },
+  "1491~1yikssg": {
+   "id": "1491~1yikssg",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "解決臨界區問題的三個要求是什麼？",
+   "hint": "",
+   "options": {
+    "C": "Bounded Waiting",
+    "B": "進度",
+    "D": "Starvation",
+    "A": "互斥"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
+  },
+  "1533~dm3fqi": {
+   "id": "1533~dm3fqi",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些情況可能導致死鎖？",
+   "hint": "",
+   "options": {
+    "C": "一個程序在等待一個永不發生的事件",
+    "B": "只有一個程序在等待",
+    "A": "兩個程序互相等待對方釋放鎖",
+    "D": "多個程序競爭同一個資源"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
+  },
+  "1469~1tq6bu9": {
+   "id": "1469~1tq6bu9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The x.wait() operation in a monitor suspends a process until what happens?",
+   "hint": "",
+   "options": {
+    "C": "Until the process is woken up by the scheduler",
+    "B": "Until a timer expires",
+    "A": "Until another process calls x.signal()",
+    "D": "Until all other processes enter the critical section"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:06:36.614Z",
+   "updatedAt": "2026-11-11T06:06:36.614Z"
   }
  }
 }
