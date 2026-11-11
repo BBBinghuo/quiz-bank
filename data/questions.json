@@ -3862,10 +3862,12 @@
     "C": "訊號量",
     "A": "條件變數"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1446": {
    "id": "1446",
@@ -4190,10 +4192,12 @@
     "B": "使用者空間的同步工具",
     "A": "核心級別的同步工具"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1468": {
    "id": "1468",
@@ -4210,10 +4214,12 @@
     "B": "Semaphore with waiting queue",
     "D": "Monitor"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1469": {
    "id": "1469",
@@ -4230,10 +4236,12 @@
     "B": "直到定時器過期",
     "D": "直到所有其他程序都進入臨界區"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1470": {
    "id": "1470",
@@ -4382,10 +4390,12 @@
     "C": "S--;",
     "A": "while (S <= 0) ; S--;"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1484": {
    "id": "1484",
@@ -4512,10 +4522,14 @@
     "A": "Mutual Exclusion",
     "D": "Starvation"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1492": {
    "id": "1492",
@@ -5001,10 +5015,13 @@
     "A": "Mutex Locks",
     "D": "Spinlocks"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1525": {
    "id": "1525",
@@ -5093,10 +5110,15 @@
     "A": "Mutexes",
     "B": "Semaphores"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1532": {
    "id": "1532",
@@ -5113,10 +5135,12 @@
     "C": "Both use it",
     "D": "Neither uses it"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1533": {
    "id": "1533",
@@ -5313,10 +5337,12 @@
    "text": "The value of a＿＿＿semaphore can range over an unrestricted integer domain.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "counting"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1549": {
    "id": "1549",
@@ -5536,10 +5562,12 @@
    "text": "在test_and_set 指令中，*target 的新值總是會被設定為＿＿＿。",
    "hint": "請用數字回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "1"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1570": {
    "id": "1570",
@@ -5587,10 +5615,12 @@
    "text": "One of the software solutions to the critical-section problem is＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "peterson's solution"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1575": {
    "id": "1575",
@@ -44738,10 +44768,14 @@
     "D": "It only occurs in multiprocessor systems",
     "C": "It can lead to data inconsistency"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1490~1fgm9lx": {
    "id": "1490~1fgm9lx",
@@ -44758,10 +44792,12 @@
     "B": "Readers-Writers Problem",
     "D": "Banker's Algorithm"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   },
   "1501~ikh3t4": {
    "id": "1501~ikh3t4",
@@ -44778,10 +44814,164 @@
     "B": "Using atomic hardware instructions",
     "C": "Disabling interrupts"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
-   "updatedAt": "2026-11-11T05:48:00.233Z"
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "t13mcee4": {
+   "id": "t13mcee4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Peterson's Solution 是一種針對兩個程序解決臨界區問題的 ＿＿＿ 解決方案。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "software"
+   ],
+   "lines": [
+    "software"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "t1ork9rt": {
+   "id": "t1ork9rt",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "compare_and_swap 指令會原子地比較一個值和 ＿＿＿ ，如果它們相等，則將該值設定為一個新值。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "expected value"
+   ],
+   "lines": [
+    "expected value"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "t1a55imn": {
+   "id": "t1a55imn",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "在 Peterson's Solution 中，哪個變數用來指示輪到哪個程序進入臨界區？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "turn"
+   ],
+   "lines": [
+    "turn"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "tscanl4": {
+   "id": "tscanl4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪兩種同步工具通常會導致忙碌等待（busy waiting）？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutex Lock\nSpinlock"
+   ],
+   "lines": [
+    "Mutex Lock",
+    "Spinlock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "tsgw4dg": {
+   "id": "tsgw4dg",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The critical section is a ＿＿＿ of code in a process that changes common variables, updates tables, or writes to a file.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "section"
+   ],
+   "lines": [
+    "section"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "t1o41wo6": {
+   "id": "t1o41wo6",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A monitor is a high-level abstraction that is an ＿＿＿ data type, and its internal variables are only accessible by code within the monitor.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "abstract"
+   ],
+   "lines": [
+    "abstract"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "t17fuc6b": {
+   "id": "t17fuc6b",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是作業系統中用來解決同步問題的經典範例？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Bounded-Buffer Problem\nReaders and Writers Problem\nDining-Philosophers Problem"
+   ],
+   "lines": [
+    "Bounded-Buffer Problem",
+    "Readers and Writers Problem",
+    "Dining-Philosophers Problem"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T05:51:54.294Z",
+   "updatedAt": "2026-11-11T05:51:54.294Z"
   }
  }
 }
