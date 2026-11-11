@@ -3840,10 +3840,12 @@
     "B": "0 and n",
     "D": "1 and n"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1453": {
    "id": "1453",
@@ -3860,10 +3862,12 @@
     "D": "鎖沒有被持有",
     "A": "鎖被非運行狀態的執行緒持有"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1455": {
    "id": "1455",
@@ -3880,10 +3884,12 @@
     "C": "To allow processes to wait for a specific condition",
     "A": "To enforce mutual exclusion"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1457": {
    "id": "1457",
@@ -3900,10 +3906,12 @@
     "B": "is 0",
     "A": "is n"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1464": {
    "id": "1464",
@@ -3920,10 +3928,12 @@
     "B": "Ready",
     "A": "Running"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1465": {
    "id": "1465",
@@ -3940,10 +3950,12 @@
     "C": "Monitor",
     "D": "Semaphore"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1470": {
    "id": "1470",
@@ -3960,10 +3972,12 @@
     "D": "使用自旋鎖",
     "C": "禁用中斷"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1471": {
    "id": "1471",
@@ -3980,10 +3994,12 @@
     "B": "追蹤讀者的數量",
     "D": "追蹤已完成的任務數量"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1488": {
    "id": "1488",
@@ -4000,10 +4016,12 @@
     "D": "Python",
     "C": "Functional Programming Languages"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1490": {
    "id": "1490",
@@ -4020,10 +4038,12 @@
     "D": "銀行家演算法",
     "B": "讀者-寫者問題"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1493": {
    "id": "1493",
@@ -4040,10 +4060,14 @@
     "C": "Dining-Philosophers Problem",
     "B": "Readers and Writers Problem"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1495": {
    "id": "1495",
@@ -4060,10 +4084,13 @@
     "D": "wait()",
     "A": "test_and_set()"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1500": {
    "id": "1500",
@@ -4080,10 +4107,13 @@
     "B": "忙碌等待",
     "D": "減少高優先權程序的優先權"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1501": {
    "id": "1501",
@@ -4100,10 +4130,14 @@
     "D": "使用軟體演算法",
     "B": "使用硬體原子指令"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1503": {
    "id": "1503",
@@ -4120,10 +4154,13 @@
     "A": "mutex",
     "C": "read_count"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1506": {
    "id": "1506",
@@ -4140,10 +4177,13 @@
     "A": "wait(chopstick[i]);",
     "C": "wait(mutex);"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1514": {
    "id": "1514",
@@ -4160,10 +4200,13 @@
     "A": "wait()",
     "D": "release()"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1519": {
    "id": "1519",
@@ -4180,10 +4223,13 @@
     "D": "Read-write locks",
     "A": "Mutexes"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1520": {
    "id": "1520",
@@ -4200,10 +4246,14 @@
     "B": "The Linux kernel uses semaphores",
     "C": "futexes are a hybrid synchronization mechanism"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1526": {
    "id": "1526",
@@ -4220,10 +4270,14 @@
     "D": "它只會發生在多處理器系統中",
     "C": "它可能導致資料不一致"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1535": {
    "id": "1535",
@@ -4235,10 +4289,12 @@
    "text": "程序的執行由一個CPU執行和一個＿＿＿等待的週期組成。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "io"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1537": {
    "id": "1537",
@@ -4250,10 +4306,12 @@
    "text": "＿＿＿是一種可能導致資料不一致的競爭情況，它發生在多個程序同時存取和操作共享資料時。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "race condition"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1539": {
    "id": "1539",
@@ -4265,10 +4323,12 @@
    "text": "＿＿＿要求，如果沒有程序在臨界區內執行，且有些程序希望進入，那麼選擇下一個進入臨界區的程序不能被無限期推遲。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "progress"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1542": {
    "id": "1542",
@@ -4280,10 +4340,12 @@
    "text": "Peterson's Solution is a＿＿＿solution to the critical-section problem for two processes.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "software"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1544": {
    "id": "1544",
@@ -4296,10 +4358,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "acquire",
+    "release"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1545": {
    "id": "1545",
@@ -4311,10 +4376,12 @@
    "text": "A semaphore is a synchronization tool that provides more＿＿＿ways than mutex locks for processes to synchronize their activities.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "sophisticated"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1549": {
    "id": "1549",
@@ -4326,10 +4393,12 @@
    "text": "＿＿＿是一種排程問題，發生在低優先權程序持有所需鎖時，高優先權程序無法執行。",
    "hint": "請用小寫英文回答 字母間留一個空白",
    "options": {},
-   "answer": [],
+   "answer": [
+    "priority inversion"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1554": {
    "id": "1554",
@@ -4341,10 +4410,12 @@
    "text": "In the solution to the Readers-Writers Problem, the read_count variable is used to track how many＿＿＿are currently reading.(Please answer in lowercase English)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "readers"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1563": {
    "id": "1563",
@@ -4356,10 +4427,12 @@
    "text": "acquire() 和 release() 操作必須是＿＿＿的，以避免競爭條件。",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "atomic"
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "1573": {
    "id": "1573",
@@ -4372,10 +4445,13 @@
    "hint": "",
    "options": {},
    "blanks": 2,
-   "answer": [],
+   "answer": [
+    "\"0\"",
+    "\"1\""
+   ],
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
-   "updatedAt": "2026-11-11T05:25:09.348Z"
+   "updatedAt": "2026-11-11T05:29:34.870Z"
   },
   "2128": {
    "id": "2128",
