@@ -3825,6 +3825,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1438": {
+   "id": "1438",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪一項是解決臨界區問題的三個基本要求之一？",
+   "hint": "",
+   "options": {
+    "B": "護航效應",
+    "C": "互斥",
+    "A": "活鎖",
+    "D": "優先權反轉"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:28:15.880Z",
+   "updatedAt": "2026-11-11T06:28:15.880Z"
+  },
   "1439": {
    "id": "1439",
    "subject": "作業系統",
@@ -4330,6 +4350,26 @@
    "note": "",
    "createdAt": "2026-11-11T06:00:46.973Z",
    "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "1462": {
+   "id": "1462",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In Peterson's Solution, what is the purpose of the turn variable and flag array?",
+   "hint": "",
+   "options": {
+    "A": "To collectively solve the mutual exclusion problem",
+    "C": "To handle busy waiting only",
+    "D": "To handle starvation only",
+    "B": "To ensure progress only"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:28:15.880Z",
+   "updatedAt": "2026-11-11T06:28:15.880Z"
   },
   "1463": {
    "id": "1463",
@@ -5182,6 +5222,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1502": {
+   "id": "1502",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於「餓死」（starvation），以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "C": "可能發生在搶佔式排程中",
+    "A": "指的是程序被無限期地阻塞",
+    "D": "指的是低優先權程序永遠無法執行",
+    "B": "可能發生在使用信號量的系統中"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:28:15.880Z",
+   "updatedAt": "2026-11-11T06:28:15.880Z"
   },
   "1503": {
    "id": "1503",
