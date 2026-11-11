@@ -47620,6 +47620,126 @@
    "source": "text",
    "createdAt": "2026-11-11T06:27:54.467Z",
    "updatedAt": "2026-11-11T06:27:54.467Z"
+  },
+  "1500~xedwaz": {
+   "id": "1500~xedwaz",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the ways to solve the priority inversion problem?",
+   "hint": "",
+   "options": {
+    "A": "Priority-inheritance protocol",
+    "D": "Decreasing the priority of high-priority processes",
+    "C": "Increasing the priority of low-priority processes",
+    "B": "Busy waiting"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
+  },
+  "1532~yrpsi3": {
+   "id": "1532~yrpsi3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "signal(mutex) 和 signal(full) 都是在有界緩衝區問題的哪一個程序中使用的？",
+   "hint": "",
+   "options": {
+    "B": "消費者",
+    "A": "生產者",
+    "D": "都不使用",
+    "C": "兩者都使用"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
+  },
+  "1534~10im87d": {
+   "id": "1534~10im87d",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding a Semaphore, which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "C": "Its operations are atomic",
+    "A": "It is a high-level abstraction",
+    "B": "It is an integer variable",
+    "D": "It can solve various synchronization problems"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
+  },
+  "1511~1mc7gj2": {
+   "id": "1511~1mc7gj2",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which problems can occur when using semaphores?",
+   "hint": "",
+   "options": {
+    "D": "Convoy effect",
+    "C": "Priority inversion",
+    "A": "Deadlock",
+    "B": "Starvation"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
+  },
+  "1461~6zqrdc": {
+   "id": "1461~6zqrdc",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列哪項不屬於操作系統的經典同步問題？",
+   "hint": "",
+   "options": {
+    "B": "讀者-寫者問題",
+    "C": "生產者-消費者問題",
+    "A": "哲學家進餐問題",
+    "D": "銀行家演算法"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
+  },
+  "1455~i4yg9g": {
+   "id": "1455~i4yg9g",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "監視器中的條件變數（condition variable）主要用於什麼目的？",
+   "hint": "",
+   "options": {
+    "A": "執行互斥",
+    "D": "追蹤鎖的可用性",
+    "B": "實作原子操作",
+    "C": "讓程序等待特定條件"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:31:25.612Z",
+   "updatedAt": "2026-11-11T06:31:25.612Z"
   }
  }
 }
