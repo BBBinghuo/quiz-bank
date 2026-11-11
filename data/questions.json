@@ -3913,6 +3913,26 @@
    "createdAt": "2026-11-11T06:00:46.973Z",
    "updatedAt": "2026-11-11T06:03:11.404Z"
   },
+  "1443": {
+   "id": "1443",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the Readers-Writers problem, multiple readers can access the shared dataset at the same time, but how about a writer?",
+   "hint": "",
+   "options": {
+    "C": "Must compete with other readers",
+    "D": "Has priority over readers",
+    "A": "Can only access when there are no readers or writers",
+    "B": "Can access at any time"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
+  },
   "1444": {
    "id": "1444",
    "subject": "作業系統",
@@ -6251,6 +6271,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
    "updatedAt": "2026-11-11T06:00:03.508Z"
+  },
+  "1557": {
+   "id": "1557",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在 Linux 中，＿＿＿是一種混合的同步機制，它在使用者空間和核心之間提供高效的互斥。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
   },
   "1558": {
    "id": "1558",
@@ -47010,6 +47045,106 @@
    "source": "text",
    "createdAt": "2026-11-11T06:18:42.409Z",
    "updatedAt": "2026-11-11T06:18:42.409Z"
+  },
+  "1515~13vqd3t": {
+   "id": "1515~13vqd3t",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "wait(full) and signal(empty) are used in which process of the Bounded-Buffer Problem?",
+   "hint": "",
+   "options": {
+    "D": "Neither uses it",
+    "C": "Both use it",
+    "A": "Producer",
+    "B": "Consumer"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
+  },
+  "1522~1poh9vs": {
+   "id": "1522~1poh9vs",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 test_and_set() 指令，以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "A": "它會原子地執行",
+    "C": "它會將參數的新值設定為TRUE",
+    "B": "它會返回參數的原始值",
+    "D": "它會返回TRUE和FALSE之間的隨機值"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
+  },
+  "1527~juytlt": {
+   "id": "1527~juytlt",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在哲學家進餐問題的解決方案中，為了避免死鎖，可以採取哪些方法？",
+   "hint": "",
+   "options": {
+    "D": "讓一個哲學家總是在他所有鄰居都吃飽後才吃",
+    "B": "奇數號哲學家先拿左邊筷子，偶數號哲學家先拿右邊筷子",
+    "C": "一個哲學家不能在沒有拿到兩根筷子的情況下拿任何一根",
+    "A": "讓最多四個哲學家同時嘗試進食"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
+  },
+  "1441~ogu71f": {
+   "id": "1441~ogu71f",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "信號（Semaphore）的 wait() 和 signal() 操作必須是不可分割的（indivisible），這是為了什麼？",
+   "hint": "",
+   "options": {
+    "B": "確保公平性",
+    "A": "提高效率",
+    "C": "防止競爭條件",
+    "D": "增加吞吐量"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
+  },
+  "1458~11ataq5": {
+   "id": "1458~11ataq5",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "A memory transaction is a sequence of read-write operations to memory that are performed in what way?",
+   "hint": "",
+   "options": {
+    "B": "Randomly",
+    "A": "Sequentially",
+    "C": "Atomically",
+    "D": "Concurrently"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:18:55.055Z",
+   "updatedAt": "2026-11-11T06:18:55.055Z"
   }
  }
 }
