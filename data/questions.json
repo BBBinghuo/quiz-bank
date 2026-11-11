@@ -4177,6 +4177,26 @@
    "createdAt": "2026-11-11T05:52:08.109Z",
    "updatedAt": "2026-11-11T05:55:39.823Z"
   },
+  "1463": {
+   "id": "1463",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "When a process is executing in its critical section, no other process can be in its critical section. This describes which requirement for solving the critical-section problem?",
+   "hint": "",
+   "options": {
+    "A": "Mutual exclusion",
+    "C": "Bounded waiting",
+    "B": "Progress",
+    "D": "Atomicity"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
   "1464": {
    "id": "1464",
    "subject": "作業系統",
@@ -4374,6 +4394,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
+  },
+  "1476": {
+   "id": "1476",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在有界緩衝區問題中，消費者等待的信號量是哪一個？",
+   "hint": "",
+   "options": {
+    "A": "mutex",
+    "D": "buffer",
+    "B": "empty",
+    "C": "full"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
   },
   "1477": {
    "id": "1477",
@@ -4972,6 +5012,26 @@
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
   },
+  "1510": {
+   "id": "1510",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding semaphores without busy waiting, which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "C": "The block() operation places the process on the waiting queue",
+    "B": "The value of S->value can be less than 0",
+    "A": "It has an associated waiting queue",
+    "D": "The wakeup() operation moves a process from the waiting queue to the ready queue"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
   "1511": {
    "id": "1511",
    "subject": "作業系統",
@@ -5065,6 +5125,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1516": {
+   "id": "1516",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是解決同步問題的替代方法？",
+   "hint": "",
+   "options": {
+    "B": "OpenMP",
+    "A": "事務記憶體",
+    "D": "忙碌等待",
+    "C": "功能性程式設計語言"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
   },
   "1517": {
    "id": "1517",
@@ -5439,6 +5519,22 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1541": {
+   "id": "1541",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "在非搶佔式核心中，由於程序會執行直到它＿＿＿或＿＿＿，所以臨界區問題不會發生。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
   "1542": {
    "id": "1542",
    "subject": "作業系統",
@@ -5525,6 +5621,36 @@
    "note": "",
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
+  },
+  "1547": {
+   "id": "1547",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "信號量實施的一種方式是使用一個＿＿＿佇列，其中每個項目包含一個值和一個指向列表中下一個記錄的指標。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
+  "1548": {
+   "id": "1548",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Starvation refers to a process being indefinitely＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
   },
   "1549": {
    "id": "1549",
@@ -5646,6 +5772,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1556": {
+   "id": "1556",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "Solaris 使用一種名為＿＿＿的互斥鎖來提高效率，它會先作為自旋鎖，如果鎖被另一顆CPU上的執行緒持有，則會自旋。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
   },
   "1558": {
    "id": "1558",
@@ -45386,6 +45527,66 @@
    "source": "text",
    "createdAt": "2026-11-11T05:55:39.823Z",
    "updatedAt": "2026-11-11T05:55:39.823Z"
+  },
+  "1457~l7zpa1": {
+   "id": "1457~l7zpa1",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Bounded-buffer problem（有界緩衝區問題）中，mutex semaphore的初始值是多少？",
+   "hint": "",
+   "options": {
+    "A": "是n",
+    "C": "是 1",
+    "B": "是 0",
+    "D": "是 n-1"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
+  "1484~hc4hdu": {
+   "id": "1484~hc4hdu",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What does the compare_and_swap instruction return on a successful swap?",
+   "hint": "",
+   "options": {
+    "C": "The expected value",
+    "B": "integer 1",
+    "A": "integer 0",
+    "D": "The original value"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
+  },
+  "1487~zkz2dw": {
+   "id": "1487~zkz2dw",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following is a synchronization primitive used in the Windows kernel?",
+   "hint": "",
+   "options": {
+    "D": "test_and_set",
+    "C": "Event object",
+    "A": "Semaphore",
+    "B": "Monitor"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:56:06.013Z",
+   "updatedAt": "2026-11-11T05:56:06.013Z"
   }
  }
 }
