@@ -4852,10 +4852,12 @@
     "D": "都不使用",
     "B": "消費者"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1490": {
    "id": "1490",
@@ -5625,10 +5627,13 @@
     "B": "當它從核心模式切換到用戶模式",
     "A": "當它從用戶模式切換到核心模式"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1525": {
    "id": "1525",
@@ -6378,10 +6383,12 @@
    "text": "signal(full) is an operation executed after＿＿＿to notify the consumer that an item can be taken from the buffer.(Please answer in lowercase English, leaving a space between each word)",
    "hint": "",
    "options": {},
-   "answer": [],
+   "answer": [
+    "adding a new item"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1566": {
    "id": "1566",
@@ -46879,10 +46886,12 @@
     "D": "每個程序都必須按照特定順序進入",
     "A": "只有一個程序可以進入臨界區"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1479~jkjqrx": {
    "id": "1479~jkjqrx",
@@ -46899,10 +46908,12 @@
     "A": "Performance and efficiency",
     "B": "Code complexity"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1510~f70j99": {
    "id": "1510~f70j99",
@@ -46919,10 +46930,15 @@
     "D": "wakeup() 操作會將程序從等待佇列移到就緒佇列",
     "C": "block() 操作會將程序放入等待佇列"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   },
   "1523~18i9hi": {
    "id": "1523~18i9hi",
@@ -46939,10 +46955,61 @@
     "B": "Starvation",
     "D": "Livelock"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:16:02.173Z",
-   "updatedAt": "2026-11-11T06:16:02.173Z"
+   "updatedAt": "2026-11-11T06:18:42.409Z"
+  },
+  "t9rme9c": {
+   "id": "t9rme9c",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are locking techniques that can be used to implement a critical section?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutexes\nSemaphores\nSpinlocks"
+   ],
+   "lines": [
+    "Mutexes",
+    "Semaphores",
+    "Spinlocks"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:18:42.409Z",
+   "updatedAt": "2026-11-11T06:18:42.409Z"
+  },
+  "tx1tlzy": {
+   "id": "tx1tlzy",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The value of a binary semaphore can only range between ＿＿＿ and ＿＿＿ .(Please enclose numbers in quotation marks, e.g., \"9\")",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "\"0\"",
+    "\"1\""
+   ],
+   "lines": [
+    "\"0\"/\"1\""
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:18:42.409Z",
+   "updatedAt": "2026-11-11T06:18:42.409Z"
   }
  }
 }
