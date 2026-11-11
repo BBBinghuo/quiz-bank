@@ -4544,10 +4544,12 @@
     "B": "Binary Semaphore",
     "D": "Spinlock"
    },
-   "answer": [],
+   "answer": [
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:22:00.782Z",
-   "updatedAt": "2026-11-11T06:22:00.782Z"
+   "updatedAt": "2026-11-11T06:24:52.877Z"
   },
   "1473": {
    "id": "1473",
@@ -47307,10 +47309,13 @@
     "B": "當值不等於預期值時",
     "A": "當值等於預期值時"
    },
-   "answer": [],
+   "answer": [
+    "B",
+    "C"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:22:00.782Z",
-   "updatedAt": "2026-11-11T06:22:00.782Z"
+   "updatedAt": "2026-11-11T06:24:52.877Z"
   },
   "1471~1fslhij": {
    "id": "1471~1fslhij",
@@ -47327,10 +47332,12 @@
     "B": "To track the number of readers",
     "C": "To track the number of waiting processes"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:22:00.782Z",
-   "updatedAt": "2026-11-11T06:22:00.782Z"
+   "updatedAt": "2026-11-11T06:24:52.877Z"
   },
   "1524~1qk7h14": {
    "id": "1524~1qk7h14",
@@ -47347,10 +47354,13 @@
     "D": "When an interrupt occurs",
     "C": "When it waits for an event to complete"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:22:00.782Z",
-   "updatedAt": "2026-11-11T06:22:00.782Z"
+   "updatedAt": "2026-11-11T06:24:52.877Z"
   },
   "1470~190xyrb": {
    "id": "1470~190xyrb",
@@ -47367,10 +47377,57 @@
     "C": "Disabling interrupts",
     "D": "Using spinlocks"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:22:00.782Z",
-   "updatedAt": "2026-11-11T06:22:00.782Z"
+   "updatedAt": "2026-11-11T06:24:52.877Z"
+  },
+  "t6unilz": {
+   "id": "t6unilz",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which of the following are synchronization mechanisms of the Windows kernel?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutexes\nSemaphores\nSpinlocks\nEvents"
+   ],
+   "lines": [
+    "Mutexes",
+    "Semaphores",
+    "Spinlocks",
+    "Events"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:24:52.877Z",
+   "updatedAt": "2026-11-11T06:24:52.877Z"
+  },
+  "t1q7mx7o": {
+   "id": "t1q7mx7o",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "signal(full) 是在 ＿＿＿ 之後執行的操作，用於通知消費者可以從緩衝區中取出一個項目。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "adding a new item"
+   ],
+   "lines": [
+    "adding a new item"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-11T06:24:52.877Z",
+   "updatedAt": "2026-11-11T06:24:52.877Z"
   }
  }
 }
