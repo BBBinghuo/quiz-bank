@@ -3825,6 +3825,46 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1439": {
+   "id": "1439",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "臨界區問題的軟體解決方案之一是哪種演算法？",
+   "hint": "",
+   "options": {
+    "C": "Round Robin",
+    "D": "Priority Scheduling",
+    "A": "Banker's Algorithm",
+    "B": "Peterson's Solution"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
+  "1440": {
+   "id": "1440",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following synchronization tools is a busy-waiting lock mechanism?",
+   "hint": "",
+   "options": {
+    "D": "Condition Variable",
+    "C": "Monitor",
+    "A": "Mutex Lock",
+    "B": "Semaphore with waiting queue"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
   "1441": {
    "id": "1441",
    "subject": "作業系統",
@@ -4485,6 +4525,26 @@
    "createdAt": "2026-11-11T05:44:50.537Z",
    "updatedAt": "2026-11-11T05:47:39.421Z"
   },
+  "1475": {
+   "id": "1475",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "compare_and_swap 硬體指令在什麼條件下才會進行交換？",
+   "hint": "",
+   "options": {
+    "A": "當值不等於預期值時",
+    "C": "當值等於預期值時",
+    "B": "當值等於新值時",
+    "D": "永遠進行交換"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
   "1476": {
    "id": "1476",
    "subject": "作業系統",
@@ -4638,6 +4698,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1485": {
+   "id": "1485",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "When a process is woken up from a waiting queue, which queue is it placed in?",
+   "hint": "",
+   "options": {
+    "B": "The ready queue",
+    "D": "The terminated queue",
+    "C": "The running queue",
+    "A": "The blocked queue"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
   },
   "1486": {
    "id": "1486",
@@ -5363,6 +5443,26 @@
    "createdAt": "2026-11-11T05:48:00.233Z",
    "updatedAt": "2026-11-11T05:51:54.294Z"
   },
+  "1522": {
+   "id": "1522",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding the test_and_set() instruction, which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "C": "It sets the new value of the parameter to TRUE",
+    "A": "It is executed atomically",
+    "B": "It returns the original value of the passed parameter",
+    "D": "It returns a random value between TRUE and FALSE"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
   "1523": {
    "id": "1523",
    "subject": "作業系統",
@@ -6038,6 +6138,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1564": {
+   "id": "1564",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "當一個程序調用 x.wait() 操作時，它會被掛起直到另一個程序調用 x.＿＿＿()。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
   },
   "1566": {
    "id": "1566",
@@ -46029,6 +46144,86 @@
    "source": "text",
    "createdAt": "2026-11-11T06:03:11.404Z",
    "updatedAt": "2026-11-11T06:03:11.404Z"
+  },
+  "1456~5r0bk0": {
+   "id": "1456~5r0bk0",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哲學家進餐問題的semaphore解決方案中，可能導致什麼問題？",
+   "hint": "",
+   "options": {
+    "D": "死鎖",
+    "C": "優先權反轉",
+    "A": "餓死",
+    "B": "活鎖"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
+  "1516~tiduv8": {
+   "id": "1516~tiduv8",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which are alternative approaches to solving synchronization problems?",
+   "hint": "",
+   "options": {
+    "C": "Functional Programming Languages",
+    "B": "OpenMP",
+    "D": "Busy waiting",
+    "A": "Transactional Memory"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
+  "1465~1s5si7v": {
+   "id": "1465~1s5si7v",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種方法在單處理器系統中實施臨界區時，可以透過禁用中斷來避免搶佔？",
+   "hint": "",
+   "options": {
+    "B": "硬體方法",
+    "D": "信號量",
+    "A": "軟體方法",
+    "C": "監視器"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
+  },
+  "1444~1ic21m3": {
+   "id": "1444~1ic21m3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The Dining-Philosophers Problem is a classic synchronization problem used to test what?",
+   "hint": "",
+   "options": {
+    "D": "New synchronization schemes",
+    "A": "Resource allocation algorithms",
+    "C": "Locking performance",
+    "B": "Message passing mechanisms"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T06:03:31.846Z",
+   "updatedAt": "2026-11-11T06:03:31.846Z"
   }
  }
 }
