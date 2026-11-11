@@ -3825,6 +3825,26 @@
    "createdAt": "2026-10-21T06:52:42.660Z",
    "updatedAt": "2026-10-21T06:53:46.805Z"
   },
+  "1444": {
+   "id": "1444",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哲學家進餐問題（Dining-Philosophers Problem）是用來測試什麼的經典同步問題？",
+   "hint": "",
+   "options": {
+    "D": "新的同步方案",
+    "B": "訊號傳遞機制",
+    "A": "資源分配演算法",
+    "C": "鎖定效能"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1446": {
    "id": "1446",
    "subject": "作業系統",
@@ -3869,6 +3889,46 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1448": {
+   "id": "1448",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "哪種硬體指令可以原子地（atomically）測試一個記憶體字並設定其值？",
+   "hint": "",
+   "options": {
+    "A": "compare_and_swap()",
+    "B": "wait()",
+    "D": "test_and_set()",
+    "C": "signal()"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
+  "1449": {
+   "id": "1449",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "臨界區（Critical-section）是指程序中哪一部分的程式碼？",
+   "hint": "",
+   "options": {
+    "A": "執行I/O操作的區段",
+    "C": "呼叫系統服務的區段",
+    "B": "改變共享變數的區段",
+    "D": "產生新行程的區段"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1450": {
    "id": "1450",
    "subject": "作業系統",
@@ -3912,6 +3972,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1454": {
+   "id": "1454",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which problem describes a scheduling issue where a high-priority process cannot run because a lower-priority process holds a required lock?",
+   "hint": "",
+   "options": {
+    "B": "Convoy effect",
+    "A": "Starvation",
+    "D": "Race condition",
+    "C": "Priority inversion"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1455": {
    "id": "1455",
@@ -4111,6 +4191,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1474": {
+   "id": "1474",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Peterson's Solution 中，兩個共享變數分別是什麼？",
+   "hint": "",
+   "options": {
+    "C": "turn 和 flag",
+    "B": "flag 和 key",
+    "D": "lock 和 available",
+    "A": "turn 和 lock"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1477": {
    "id": "1477",
    "subject": "作業系統",
@@ -4132,6 +4232,46 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1478": {
+   "id": "1478",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在一個非搶佔式核心（non-preemptive kernel）中，臨界區的問題會變得如何？",
+   "hint": "",
+   "options": {
+    "B": "幾乎不存在",
+    "D": "僅在多處理器系統中發生",
+    "C": "保持不變",
+    "A": "更頻繁"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
+  "1479": {
+   "id": "1479",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Solaris 的同步機制，例如自適應互斥鎖，主要是為了解決什麼問題？",
+   "hint": "",
+   "options": {
+    "B": "程式碼複雜性",
+    "A": "效能和效率",
+    "D": "記憶體管理",
+    "C": "忙碌等待"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1484": {
    "id": "1484",
@@ -4242,6 +4382,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1492": {
+   "id": "1492",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which two synchronization tools typically lead to busy waiting?",
+   "hint": "",
+   "options": {
+    "C": "Spinlock",
+    "D": "Monitor",
+    "A": "Mutex Lock",
+    "B": "Semaphore with a waiting queue"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1493": {
    "id": "1493",
@@ -4360,6 +4520,26 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1498": {
+   "id": "1498",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which synchronization tools provide wait() and signal() operations?",
+   "hint": "",
+   "options": {
+    "D": "Condition variables",
+    "A": "Mutex locks",
+    "C": "Monitors",
+    "B": "Semaphores"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1500": {
    "id": "1500",
    "subject": "作業系統",
@@ -4430,6 +4610,46 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1504": {
+   "id": "1504",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是屬於作業系統核心的同步機制？",
+   "hint": "",
+   "options": {
+    "C": "Spinlocks",
+    "B": "Semaphores",
+    "A": "Mutexes",
+    "D": "Condition variables"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
+  "1505": {
+   "id": "1505",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following are synchronization mechanisms defined in the POSIX standard?",
+   "hint": "",
+   "options": {
+    "D": "Condition variables",
+    "A": "Mutexes",
+    "B": "Semaphores",
+    "C": "Monitors"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1506": {
    "id": "1506",
    "subject": "作業系統",
@@ -4452,6 +4672,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1509": {
+   "id": "1509",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "哪些是使用硬體原子指令實現的同步機制？",
+   "hint": "",
+   "options": {
+    "D": "Compare-and-Swap",
+    "A": "Mutex Lock",
+    "B": "Semaphore",
+    "C": "Test-and-Set"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1511": {
    "id": "1511",
@@ -4593,6 +4833,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1525": {
+   "id": "1525",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which synchronization tools can be implemented with either busy waiting or blocking?",
+   "hint": "",
+   "options": {
+    "D": "Spinlocks",
+    "B": "Mutexes",
+    "A": "Semaphores",
+    "C": "Monitors"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1526": {
    "id": "1526",
    "subject": "作業系統",
@@ -4617,6 +4877,26 @@
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
   },
+  "1529": {
+   "id": "1529",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding functional programming languages, which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "C": "They can avoid data races",
+    "B": "Variables are immutable",
+    "A": "They do not maintain state",
+    "D": "Erlang and Scala are examples of such languages"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1533": {
    "id": "1533",
    "subject": "作業系統",
@@ -4639,6 +4919,26 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1534": {
+   "id": "1534",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於信號量（Semaphore），以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "C": "它的操作是原子的",
+    "A": "它是一個高階抽象概念",
+    "D": "可以解決各種同步問題",
+    "B": "它是一個整數變數"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1535": {
    "id": "1535",
@@ -4812,6 +5112,21 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1551": {
+   "id": "1551",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "監視器中的條件變數（condition variable）允許程序在滿足特定＿＿＿之前暫停執行。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1552": {
    "id": "1552",
    "subject": "作業系統",
@@ -4828,6 +5143,22 @@
    "note": "",
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1553": {
+   "id": "1553",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The Readers-Writers Problem allows＿＿＿readers to access the shared dataset at the same time, but only a＿＿＿writer.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1554": {
    "id": "1554",
@@ -4880,6 +5211,22 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1561": {
+   "id": "1561",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "一個二元信號量的值只能在＿＿＿和＿＿＿之間變化。(數字請用\"\" 包起來 如 \"9\")",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
   "1563": {
    "id": "1563",
    "subject": "作業系統",
@@ -4896,6 +5243,36 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1567": {
+   "id": "1567",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In a semaphore implementation with no busy waiting, the block() operation places the process invoking the operation on the appropriate＿＿＿queue.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
+  },
+  "1568": {
+   "id": "1568",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The definition of the wait(S) operation is while (S <= 0) ; S--; What type of waiting is this?＿＿＿(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1570": {
    "id": "1570",
@@ -4932,6 +5309,21 @@
    "note": "",
    "createdAt": "2026-11-11T05:25:09.348Z",
    "updatedAt": "2026-11-11T05:29:34.870Z"
+  },
+  "1575": {
+   "id": "1575",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "The compare_and_swap instruction atomically compares a value with an＿＿＿and, if they are equal, sets the value to a new value.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   },
   "1576": {
    "id": "1576",
@@ -43958,6 +44350,26 @@
    "source": "text",
    "createdAt": "2026-11-11T05:33:03.278Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
+  },
+  "1464~1brgij0": {
+   "id": "1464~1brgij0",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "信號（Semaphore）的 wait() 操作在信號量值小於或等於零時，會導致程序進入什麼狀態？",
+   "hint": "",
+   "options": {
+    "B": "就緒",
+    "D": "終止",
+    "A": "運行",
+    "C": "等待"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-11T05:44:50.537Z",
+   "updatedAt": "2026-11-11T05:44:50.537Z"
   }
  }
 }
