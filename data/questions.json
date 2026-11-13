@@ -13111,6 +13111,46 @@
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.325Z"
   },
+  "2532": {
+   "id": "2532",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "鏈結串列（Linked List）的節點通常包含什麼？",
+   "hint": "",
+   "options": {
+    "D": "整數陣列",
+    "A": "鍵值與指標",
+    "B": "僅鍵值",
+    "C": "僅指標"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
+  },
+  "2533": {
+   "id": "2533",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是雙向鏈結串列（Doubly Linked List）的特點？",
+   "hint": "",
+   "options": {
+    "B": "僅能向前遍歷",
+    "C": "僅能向後遍歷",
+    "D": "固定大小",
+    "A": "可同時向前與向後遍歷"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
+  },
   "2534": {
    "id": "2534",
    "subject": "演算法",
@@ -13687,6 +13727,26 @@
    "createdAt": "2026-11-07T14:16:55.310Z",
    "updatedAt": "2026-11-07T14:16:55.318Z"
   },
+  "2561": {
+   "id": "2561",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "關於 PUSH 操作，下列何者正確？",
+   "hint": "",
+   "options": {
+    "B": "將值放入 stack[top]",
+    "C": "檢查 overflow",
+    "A": "增加 top 指標",
+    "D": "檢查 underflow"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
+  },
   "2562": {
    "id": "2562",
    "subject": "演算法",
@@ -13805,6 +13865,26 @@
    "note": "",
    "createdAt": "2026-11-07T14:17:51.072Z",
    "updatedAt": "2026-11-07T14:20:22.405Z"
+  },
+  "2567": {
+   "id": "2567",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "鏈結串列的插入操作？",
+   "hint": "",
+   "options": {
+    "D": "不需要指標移動",
+    "C": "可以在中間插入",
+    "A": "可以在 head 插入",
+    "B": "可以在 tail 插入"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
   },
   "2568": {
    "id": "2568",
@@ -14046,6 +14126,21 @@
    "createdAt": "2026-11-07T14:20:55.383Z",
    "updatedAt": "2026-11-07T14:23:00.919Z"
   },
+  "2583": {
+   "id": "2583",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "堆疊刪除空堆疊的操作會造成＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
+  },
   "2584": {
    "id": "2584",
    "subject": "演算法",
@@ -14062,6 +14157,22 @@
    "note": "",
    "createdAt": "2026-11-07T14:20:55.383Z",
    "updatedAt": "2026-11-07T14:23:00.919Z"
+  },
+  "2585": {
+   "id": "2585",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "PUSH(S, x)\n1 top[S] <- top[S] + 1\n2  ＿＿＿  <- x\n\nPOP(S)\n1 if STACK-EMPTY(S)\n2     then error \"underflow\"\n3     else top[S] <- top[S] - 1\n4          return  ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-13T03:02:18.804Z",
+   "updatedAt": "2026-11-13T03:02:18.804Z"
   },
   "2586": {
    "id": "2586",
