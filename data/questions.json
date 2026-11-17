@@ -13344,10 +13344,12 @@
     "D": "自動分配",
     "A": "動態配置 (例如 malloc/new)"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-13T03:07:30.289Z",
-   "updatedAt": "2026-11-13T03:07:30.289Z"
+   "updatedAt": "2026-11-17T13:29:38.900Z"
   },
   "2543": {
    "id": "2543",
@@ -13972,10 +13974,12 @@
    "text": "在堆疊中，刪除操作稱為＿＿＿",
    "hint": "請用小寫英文回答",
    "options": {},
-   "answer": [],
+   "answer": [
+    "pop"
+   ],
    "note": "",
    "createdAt": "2026-11-13T03:07:30.289Z",
-   "updatedAt": "2026-11-13T03:07:30.289Z"
+   "updatedAt": "2026-11-17T13:29:38.900Z"
   },
   "2571": {
    "id": "2571",
@@ -48064,6 +48068,27 @@
    "note": "",
    "createdAt": "2026-11-11T06:38:19.615Z",
    "updatedAt": "2026-11-11T06:38:19.615Z"
+  },
+  "t1kozcxm": {
+   "id": "t1kozcxm",
+   "subject": "演算法",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "佇列（Queue）資料結構遵循哪種原則？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "先進先出 (FIFO)"
+   ],
+   "lines": [
+    "先進先出 (FIFO)"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-17T13:29:38.900Z",
+   "updatedAt": "2026-11-17T13:29:38.900Z"
   }
  }
 }
