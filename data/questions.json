@@ -4681,7 +4681,7 @@
    ],
    "note": "",
    "createdAt": "2026-11-11T05:56:06.013Z",
-   "updatedAt": "2026-11-11T06:00:03.508Z"
+   "updatedAt": "2026-11-18T07:17:39.967Z"
   },
   "1477": {
    "id": "1477",
@@ -4786,10 +4786,12 @@
     "A": "進入休眠狀態",
     "D": "發送訊號"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:38:19.615Z",
-   "updatedAt": "2026-11-11T06:38:19.615Z"
+   "updatedAt": "2026-11-18T06:39:50.371Z"
   },
   "1482": {
    "id": "1482",
@@ -5262,10 +5264,14 @@
     "D": "指的是低優先權程序永遠無法執行",
     "B": "可能發生在使用信號量的系統中"
    },
-   "answer": [],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:28:15.880Z",
-   "updatedAt": "2026-11-11T06:28:15.880Z"
+   "updatedAt": "2026-11-18T06:27:50.516Z"
   },
   "1503": {
    "id": "1503",
@@ -48024,10 +48030,12 @@
     "C": "It remains unchanged",
     "A": "It becomes more frequent"
    },
-   "answer": [],
+   "answer": [
+    "B"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:38:19.615Z",
-   "updatedAt": "2026-11-11T06:38:19.615Z"
+   "updatedAt": "2026-11-18T06:27:50.516Z"
   },
   "1507~13vqd3t": {
    "id": "1507~13vqd3t",
@@ -48044,10 +48052,12 @@
     "A": "Producer",
     "C": "Both use it"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:38:19.615Z",
-   "updatedAt": "2026-11-11T06:38:19.615Z"
+   "updatedAt": "2026-11-18T06:32:14.301Z"
   },
   "1489~13vqd3t": {
    "id": "1489~13vqd3t",
@@ -48064,10 +48074,12 @@
     "A": "Producer",
     "C": "Both use it"
    },
-   "answer": [],
+   "answer": [
+    "A"
+   ],
    "note": "",
    "createdAt": "2026-11-11T06:38:19.615Z",
-   "updatedAt": "2026-11-11T06:38:19.615Z"
+   "updatedAt": "2026-11-18T06:32:14.301Z"
   },
   "t1kozcxm": {
    "id": "t1kozcxm",
@@ -48089,6 +48101,767 @@
    "source": "text",
    "createdAt": "2026-11-17T13:29:38.900Z",
    "updatedAt": "2026-11-17T13:29:38.900Z"
+  },
+  "1529~1e4szs3": {
+   "id": "1529~1e4szs3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "關於功能性程式設計語言，以下哪些陳述是正確的？",
+   "hint": "",
+   "options": {
+    "C": "它們可以避免資料競爭",
+    "B": "變數是不可變的",
+    "A": "它們不維護狀態",
+    "D": "Erlang 和 Scala 是此類語言的例子"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:21:13.475Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "1453~1t2elq9": {
+   "id": "1453~1t2elq9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "In the Solaris operating system, when does an adaptive mutex switch from busy waiting to blocking?",
+   "hint": "",
+   "options": {
+    "A": "When the lock is held by a non-run-state thread",
+    "B": "When the lock is held for a short period",
+    "D": "When the lock is not held",
+    "C": "When the lock is held by a thread on another CPU"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:21:13.475Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "t14krhpn": {
+   "id": "t14krhpn",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The volatile keyword in Java is used to ensure that read and write operations to a variable are not ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "reordered"
+   ],
+   "lines": [
+    "reordered"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:24:33.674Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "tu11spr": {
+   "id": "tu11spr",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In Linux, a ＿＿＿ is a hybrid synchronization mechanism that provides efficient mutex between user space and the kernel.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "futex"
+   ],
+   "lines": [
+    "futex"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:24:33.674Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "t6o7f5k": {
+   "id": "t6o7f5k",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "功能性程式設計語言的變數是 ＿＿＿ 的，這意味著它們一旦被賦值就不能改變狀態。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "immutable"
+   ],
+   "lines": [
+    "immutable"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:24:33.674Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "t2eezqv": {
+   "id": "t2eezqv",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which synchronization tool is considered a high-level abstraction that provides a convenient and effective mechanism for process synchronization?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Monitor"
+   ],
+   "lines": [
+    "Monitor"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:24:33.674Z",
+   "updatedAt": "2026-11-18T06:24:33.674Z"
+  },
+  "1443~lsdyim": {
+   "id": "1443~lsdyim",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在Reader-Writer問題中，允許多個Reader同時存取共享資料集，但Writer則如何？",
+   "hint": "",
+   "options": {
+    "D": "優先於讀者存取",
+    "C": "必須與其他讀者競爭",
+    "A": "只能在沒有讀者或寫者時存取",
+    "B": "隨時可以存取"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:24:41.662Z",
+   "updatedAt": "2026-11-18T06:27:50.516Z"
+  },
+  "1497~1u0d8b": {
+   "id": "1497~1u0d8b",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding Monitors, which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "A": "It is a high-level abstraction",
+    "B": "Only one process can be active within the monitor at a time",
+    "D": "It can solve all synchronization problems",
+    "C": "Internal variables are only accessible by code within the monitor"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:24:41.662Z",
+   "updatedAt": "2026-11-18T06:27:50.516Z"
+  },
+  "t1jwp2u9": {
+   "id": "t1jwp2u9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪一種同步問題允許多個讀者同時存取共享資料集，但只允許一個寫者存取？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Readers-Writers Problem"
+   ],
+   "lines": [
+    "Readers-Writers Problem"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:27:50.516Z",
+   "updatedAt": "2026-11-18T06:27:50.516Z"
+  },
+  "1502~hclacd": {
+   "id": "1502~hclacd",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Regarding \"starvation\", which of the following statements are correct?",
+   "hint": "",
+   "options": {
+    "B": "It can occur in systems using semaphores",
+    "A": "It refers to a process being indefinitely blocked",
+    "D": "It refers to a low-priority process that may never run",
+    "C": "It can occur in preemptive scheduling"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:28:01.199Z",
+   "updatedAt": "2026-11-18T06:32:14.301Z"
+  },
+  "t1tidzb8": {
+   "id": "t1tidzb8",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在有界緩衝區問題中，wait(empty) 和 wait(mutex) 都是在 ＿＿＿ 程序中使用的。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "producer"
+   ],
+   "lines": [
+    "producer"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:32:14.301Z",
+   "updatedAt": "2026-11-18T06:32:14.301Z"
+  },
+  "t1as4tn2": {
+   "id": "t1as4tn2",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a scheduling problem that occurs when a low-priority process holds a lock needed by a higher-priority process.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "priority inversion"
+   ],
+   "lines": [
+    "priority inversion"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:32:14.301Z",
+   "updatedAt": "2026-11-18T06:32:14.301Z"
+  },
+  "t1ce5iy9": {
+   "id": "t1ce5iy9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪幾種同步工具可以透過忙碌等待（busy waiting）或阻塞（blocking）來實現？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Semaphores\nMutexes"
+   ],
+   "lines": [
+    "Semaphores",
+    "Mutexes"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "t1fxv8bs": {
+   "id": "t1fxv8bs",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Windows operating system, which synchronization mechanism uses an integer counter?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Semaphore"
+   ],
+   "lines": [
+    "Semaphore"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "t43vng3": {
+   "id": "t43vng3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a high-level parallel programming API that uses compiler directives to handle critical sections.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "openmp"
+   ],
+   "lines": [
+    "openmp"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "t3rtito": {
+   "id": "t3rtito",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "When a process invokes the x.wait() operation, it is suspended until another process invokes x. ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "signal"
+   ],
+   "lines": [
+    "signal"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "t75mkd9": {
+   "id": "t75mkd9",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In the Bounded-Buffer Problem, which semaphore does the consumer wait on?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "full"
+   ],
+   "lines": [
+    "full"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "t4np1fg": {
+   "id": "t4np1fg",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "哲學家進餐問題的一個簡單信號量解決方案可能導致 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "deadlock"
+   ],
+   "lines": [
+    "deadlock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:36:23.020Z",
+   "updatedAt": "2026-11-18T06:36:23.020Z"
+  },
+  "1452~1ohy917": {
+   "id": "1452~1ohy917",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following situations will NOT result in a race condition?",
+   "hint": "",
+   "options": {
+    "B": "Multiple processes writing to shared data simultaneously",
+    "A": "Multiple processes reading shared data simultaneously",
+    "D": "Multiple processes executing unrelated code simultaneously",
+    "C": "One process reading and another process writing to shared data"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:36:32.006Z",
+   "updatedAt": "2026-11-18T06:39:50.371Z"
+  },
+  "t1p71tqa": {
+   "id": "t1p71tqa",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 要求，一個程序請求進入其臨界區後，在該請求被授予之前，其他程序被允許進入其臨界區的次數必須有一個界限。(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "bounded waiting"
+   ],
+   "lines": [
+    "bounded waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:39:50.371Z",
+   "updatedAt": "2026-11-18T06:39:50.371Z"
+  },
+  "tnlq9v4": {
+   "id": "tnlq9v4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Windows 排程器使用了 dispatcher 物件，例如 mutexes、semaphores 和 ＿＿＿ 來進行同步。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "events"
+   ],
+   "lines": [
+    "events"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:43:24.240Z",
+   "updatedAt": "2026-11-18T06:43:24.240Z"
+  },
+  "tp2lw43": {
+   "id": "tp2lw43",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪種同步工具提供了 wait() 和 signal() 兩個原子操作？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Semaphore"
+   ],
+   "lines": [
+    "Semaphore"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:43:24.240Z",
+   "updatedAt": "2026-11-18T06:43:24.240Z"
+  },
+  "1474~1vgqhqi": {
+   "id": "1474~1vgqhqi",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In Peterson's Solution, what are the two shared variables?",
+   "hint": "",
+   "options": {
+    "C": "turn and flag",
+    "B": "flag and key",
+    "D": "lock and available",
+    "A": "turn and lock"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:43:39.205Z",
+   "updatedAt": "2026-11-18T06:46:57.684Z"
+  },
+  "1449~c4i5u4": {
+   "id": "1449~c4i5u4",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "The critical-section refers to which part of a process's code?",
+   "hint": "",
+   "options": {
+    "B": "The section for changing shared variables",
+    "D": "The section for creating new processes",
+    "A": "The section for performing I/O operations",
+    "C": "The section for calling system services"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:47:07.365Z",
+   "updatedAt": "2026-11-18T06:50:19.496Z"
+  },
+  "1517~8l4t7x": {
+   "id": "1517~8l4t7x",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the advantages of Peterson's Solution?",
+   "hint": "",
+   "options": {
+    "B": "It is applicable to more than two processes",
+    "A": "It satisfies the mutual exclusion, progress, and bounded-waiting requirements",
+    "C": "It does not lead to busy waiting",
+    "D": "It is simple to implement"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:50:27.965Z",
+   "updatedAt": "2026-11-18T06:53:06.924Z"
+  },
+  "1481~a75vem": {
+   "id": "1481~a75vem",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In busy waiting, what does a process do to wait for a lock?",
+   "hint": "",
+   "options": {
+    "C": "Voluntarily yields the CPU to other processes",
+    "D": "Sends a signal",
+    "A": "Enters a sleep state",
+    "B": "Continuously tests the availability of the lock"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:50:27.965Z",
+   "updatedAt": "2026-11-18T06:53:06.924Z"
+  },
+  "1438~mgl7u3": {
+   "id": "1438~mgl7u3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which is one of the three basic requirements for solving the critical-section problem?",
+   "hint": "",
+   "options": {
+    "A": "Livelock",
+    "B": "Convoy effect",
+    "C": "Mutual exclusion",
+    "D": "Priority inversion"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:53:32.628Z",
+   "updatedAt": "2026-11-18T06:57:09.395Z"
+  },
+  "t8lcuw7": {
+   "id": "t8lcuw7",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "One way to implement a semaphore is to use a ＿＿＿ queue where each entry contains a value and a pointer to the next record in the list.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "waiting"
+   ],
+   "lines": [
+    "waiting"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T06:57:09.395Z",
+   "updatedAt": "2026-11-18T06:57:09.395Z"
+  },
+  "1445~1gufp9m": {
+   "id": "1445~1gufp9m",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "築基後期",
+   "type": "single",
+   "text": "Which mechanism ensures that only one process can be active inside a monitor at a time?",
+   "hint": "",
+   "options": {
+    "B": "Mutex locks",
+    "D": "Abstract data type",
+    "A": "Condition variables",
+    "C": "Semaphores"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T06:57:34.801Z",
+   "updatedAt": "2026-11-18T07:01:52.368Z"
+  },
+  "1462~a9i49w": {
+   "id": "1462~a9i49w",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在 Peterson's Solution 中，turn 變數和 flag 陣列有什麼用途？",
+   "hint": "",
+   "options": {
+    "C": "僅用於處理忙碌等待",
+    "B": "僅用於確保進度",
+    "D": "僅用於處理餓死問題",
+    "A": "共同解決互斥問題"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T07:05:05.060Z",
+   "updatedAt": "2026-11-18T07:10:05.825Z"
+  },
+  "t1og7mha": {
+   "id": "t1og7mha",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "Which shared variables does Peterson's Solution use?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "int turn;\nboolean flag;"
+   ],
+   "lines": [
+    "int turn;",
+    "boolean flag;"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T07:10:05.825Z",
+   "updatedAt": "2026-11-18T07:10:05.825Z"
+  },
+  "t1j2afsm": {
+   "id": "t1j2afsm",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "下列哪種同步工具屬於一種忙碌等待（busy waiting）的鎖定機制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Mutex Lock"
+   ],
+   "lines": [
+    "Mutex Lock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T07:10:05.825Z",
+   "updatedAt": "2026-11-18T07:10:05.825Z"
+  },
+  "1475~164tgsz": {
+   "id": "1475~164tgsz",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Under what condition does the compare_and_swap hardware instruction perform a swap?",
+   "hint": "",
+   "options": {
+    "A": "When the value is not equal to the expected value",
+    "B": "When the value is equal to the new value",
+    "C": "When the value is equal to the expected value",
+    "D": "Always performs a swap"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-18T07:10:17.020Z",
+   "updatedAt": "2026-11-18T07:13:48.963Z"
+  },
+  "tsq1gg3": {
+   "id": "tsq1gg3",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Pthreads provides an API for synchronization, including mutexes and ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "semaphores"
+   ],
+   "lines": [
+    "semaphores"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T07:31:58.642Z",
+   "updatedAt": "2026-11-18T07:31:58.642Z"
+  },
+  "t1uy590": {
+   "id": "t1uy590",
+   "subject": "作業系統",
+   "chapter": "7",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "哪些是 Solaris 作業系統中實施的同步機制？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "Adaptive mutexes\nReader-writer locks\nCondition variables"
+   ],
+   "lines": [
+    "Adaptive mutexes",
+    "Reader-writer locks",
+    "Condition variables"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-18T07:31:58.642Z",
+   "updatedAt": "2026-11-18T07:31:58.642Z"
   }
  }
 }
