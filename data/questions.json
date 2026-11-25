@@ -6805,6 +6805,2452 @@
    "createdAt": "2026-11-11T05:30:14.906Z",
    "updatedAt": "2026-11-11T05:33:03.278Z"
   },
+  "1928": {
+   "id": "1928",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "以下哪一項不是死結發生的四個必要條件之一？",
+   "hint": "",
+   "options": {
+    "C": "資源優先順序",
+    "D": "循環等待",
+    "B": "佔用與等待",
+    "A": "互斥"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1929": {
+   "id": "1929",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在資源分配圖中，一個從程序P指向資源類型R的邊代表什麼？",
+   "hint": "",
+   "options": {
+    "A": "程序P持有資源R的實例",
+    "C": "資源R正在被程序P使用",
+    "D": "資源R已被程序P釋放",
+    "B": "程序P請求資源R的實例"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1931": {
+   "id": "1931",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What information about resource requests do deadlock avoidance algorithms require?",
+   "hint": "",
+   "options": {
+    "C": "The minimum number of requests from all processes",
+    "D": "The number of resources currently held by all processes",
+    "B": "The maximum number of requests from all processes",
+    "A": "The total number of requests from all processes"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1932": {
+   "id": "1932",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "以下哪一個是死結偵測演算法的典型應用？",
+   "hint": "",
+   "options": {
+    "B": "檢查是否有任何循環等待發生",
+    "C": "檢查資源分配圖中是否存在邊",
+    "D": "檢查是否有任何程序終止",
+    "A": "檢查系統是否處於安全狀態"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1933": {
+   "id": "1933",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "哪一種死結恢復方法涉及中斷一個或多個死結進程以打破循環？",
+   "hint": "",
+   "options": {
+    "B": "資源搶佔",
+    "A": "資源終止",
+    "D": "資源釋放",
+    "C": "程序終止"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1934": {
+   "id": "1934",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "The Banker's Algorithm is a deadlock algorithm used for what?",
+   "hint": "",
+   "options": {
+    "B": "Detection",
+    "D": "Recovery",
+    "A": "Prevention",
+    "C": "Avoidance"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1935": {
+   "id": "1935",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "如果一個系統可以找到一個序列，按照該序列為所有程序分配資源，並且不導致死結，這個系統狀態被稱為？",
+   "hint": "",
+   "options": {
+    "D": "無效狀態",
+    "C": "安全狀態",
+    "B": "死結狀態",
+    "A": "非安全狀態"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1936": {
+   "id": "1936",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "To implement deadlock prevention for Hold and Wait which of the following is a possible strategy?",
+   "hint": "",
+   "options": {
+    "A": "Require a process to request all its resources before it starts",
+    "B": "When a process requests a resource it must release all resources it currently holds",
+    "D": "Require a process to release all its resources before it starts",
+    "C": "Require a process to release or or request all its resources everytime"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1937": {
+   "id": "1937",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "In deadlock detection when there is only a single instance of each resource type what graph is typically used to detect deadlocks?",
+   "hint": "",
+   "options": {
+    "A": "Wait-for graph",
+    "C": "State transition diagram",
+    "B": "Resource-allocation graph",
+    "D": "Flowchart"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1938": {
+   "id": "1938",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "以下哪一個條件在死結預防中是最難解決的？",
+   "hint": "",
+   "options": {
+    "C": "無搶佔",
+    "D": "循環等待",
+    "B": "佔用與等待",
+    "A": "互斥"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1939": {
+   "id": "1939",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "如果一個系統處於不安全狀態，它是否一定會發生死結？",
+   "hint": "",
+   "options": {
+    "D": "取決於程序的數量",
+    "C": "取決於資源請求的順序",
+    "B": "否",
+    "A": "是"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1940": {
+   "id": "1940",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which problem does the \"resource preemption\" strategy in deadlock recovery typically need to solve?",
+   "hint": "",
+   "options": {
+    "D": "How to select the locked resource",
+    "B": "How to select the terminated process",
+    "A": "How to select the preempted process",
+    "C": "How to select the allocated resource"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1941": {
+   "id": "1941",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which type of resources does the Mutual Exclusion condition apply to?",
+   "hint": "",
+   "options": {
+    "B": "Preemptable resources",
+    "C": "Reusable resources",
+    "A": "Shared resources",
+    "D": "Non-shared resources"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1942": {
+   "id": "1942",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在死結避免中，最常見的演算法是？",
+   "hint": "",
+   "options": {
+    "C": "銀行家演算法",
+    "D": "Dijkstra's 演算法",
+    "B": "等待圖演算法",
+    "A": "資源分配圖演算法"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1943": {
+   "id": "1943",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which of the following is NOT a method for deadlock recovery?",
+   "hint": "",
+   "options": {
+    "C": "Deadlock prevention",
+    "D": "All of the above",
+    "B": "Resource preemption",
+    "A": "Process termination"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1944": {
+   "id": "1944",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "When a system experiences a deadlock which of the following is definitely true?",
+   "hint": "",
+   "options": {
+    "D": "The system is in a safe state",
+    "C": "There are processes waiting indefinitely",
+    "A": "The mutual exclusion condition is violated",
+    "B": "All resources have been allocated"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1945": {
+   "id": "1945",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "What is a disadvantage of deadlock prevention?",
+   "hint": "",
+   "options": {
+    "D": "It increases system overhead",
+    "A": "It can lead to low resource utilization",
+    "C": "It cannot guarantee no deadlocks",
+    "B": "It is complex to implement"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1946": {
+   "id": "1946",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which of the following is related to the Deadlock Avoidance method?",
+   "hint": "",
+   "options": {
+    "A": "It requires each process to declare its maximum resource needs in advance",
+    "B": "It does not require any prior information about resource usage",
+    "D": "It is the same concept as deadlock prevention",
+    "C": "It dynamically checks for deadlocks during system runtime"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1947": {
+   "id": "1947",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結最常見的例子是什麼？",
+   "hint": "",
+   "options": {
+    "B": "程序等待I/O操作完成",
+    "A": "程序請求記憶體",
+    "D": "文件鎖定",
+    "C": "哲學家進餐問題"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1948": {
+   "id": "1948",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "無搶佔（No Preemption）條件指出什麼？",
+   "hint": "",
+   "options": {
+    "B": "程序不能被搶佔",
+    "D": "程序可以被隨時終止",
+    "A": "資源不能從其佔用的程序中被搶佔",
+    "C": "資源可以隨時被搶佔"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1949": {
+   "id": "1949",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "In a resource-allocation graph what does a directed edge from a resource type R to a process P signify?",
+   "hint": "",
+   "options": {
+    "C": "An instance of resource R is held by process P",
+    "A": "Process P is requesting an instance of resource R",
+    "D": "Process P is releasing an instance of resource R",
+    "B": "Process P is using an instance of resource R"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1950": {
+   "id": "1950",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "死結避免演算法如何確保系統維持在安全狀態？",
+   "hint": "",
+   "options": {
+    "A": "透過拒絕所有新的資源請求",
+    "D": "透過限制每個程序一次只能請求一個資源",
+    "B": "透過只滿足那些能讓系統保持安全狀態的請求",
+    "C": "透過允許所有請求並在死結發生後恢復"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1951": {
+   "id": "1951",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結偵測（Deadlock Detection）的缺點是什麼？",
+   "hint": "",
+   "options": {
+    "D": "無法解決死結問題",
+    "B": "可能會有較高的系統開銷",
+    "C": "需要預先知道所有程序的最大資源需求",
+    "A": "可能導致不必要的程序終止"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1952": {
+   "id": "1952",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which of the following deadlock handling methods allows the system to enter an unsafe state when a deadlock occurs?",
+   "hint": "",
+   "options": {
+    "A": "Deadlock prevention",
+    "D": "None of the above",
+    "B": "Deadlock avoidance",
+    "C": "Deadlock detection and recovery"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1953": {
+   "id": "1953",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結避免的主要優點是什麼？",
+   "hint": "",
+   "options": {
+    "D": "不需要任何額外的資訊",
+    "A": "確保所有請求都得到滿足",
+    "B": "可以避免死結發生",
+    "C": "資源利用率較高"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1954": {
+   "id": "1954",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "When a process terminates it releases all its resources. Which deadlock recovery strategy is this a part of?",
+   "hint": "",
+   "options": {
+    "B": "Process termination",
+    "A": "Resource preemption",
+    "D": "Resource reclamation",
+    "C": "Resource release"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1955": {
+   "id": "1955",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "哪種死結處理方法是最簡單但可能導致最低資源利用率的？",
+   "hint": "",
+   "options": {
+    "D": "恢復",
+    "C": "偵測",
+    "A": "預防",
+    "B": "避免"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1956": {
+   "id": "1956",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在資源分配圖中，一個程序和一個資源之間的邊代表什麼？",
+   "hint": "",
+   "options": {
+    "D": "資源被使用",
+    "C": "資源被佔用或請求",
+    "B": "資源被釋放",
+    "A": "資源被鎖定"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1957": {
+   "id": "1957",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "銀行家演算法（Banker's Algorithm）屬於哪種死結處理方法？",
+   "hint": "",
+   "options": {
+    "D": "恢復",
+    "C": "偵測",
+    "B": "避免",
+    "A": "預防"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1958": {
+   "id": "1958",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "要預防死結，打破哪個條件沒有用？",
+   "hint": "",
+   "options": {
+    "D": "去除臨界區",
+    "B": "佔用與等待",
+    "A": "互斥",
+    "C": "無搶佔"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1959": {
+   "id": "1959",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "If a system cannot find a safe sequence its state is?",
+   "hint": "",
+   "options": {
+    "D": "Terminated",
+    "B": "Unsafe state",
+    "C": "Deadlock state",
+    "A": "Safe state"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1960": {
+   "id": "1960",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在死結避免中，銀行家演算法可以處理多個資源實例，而資源分配圖演算法只能處理？",
+   "hint": "",
+   "options": {
+    "C": "不可分享的資源實例",
+    "D": "可分享的資源實例",
+    "B": "多個資源實例",
+    "A": "單個資源實例"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1961": {
+   "id": "1961",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結恢復中的「程序終止」策略，通常會優先選擇哪一類型的程序終止？",
+   "hint": "",
+   "options": {
+    "A": "消耗最多資源的程序",
+    "D": "擁有最多開銷的程序",
+    "B": "最晚開始的程序",
+    "C": "最先開始的程序"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1962": {
+   "id": "1962",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "下列哪一個死結的必要條件與互斥鎖（mutex locks）最相關？",
+   "hint": "",
+   "options": {
+    "D": "循環等待",
+    "C": "無搶佔",
+    "B": "佔用與等待",
+    "A": "互斥"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1963": {
+   "id": "1963",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結避免演算法中，如果一個程序P請求一個資源，這個請求會被拒絕，除非滿足什麼條件？",
+   "hint": "",
+   "options": {
+    "D": "P是唯一的程序",
+    "C": "P已經終止",
+    "B": "滿足請求後系統仍處於安全狀態",
+    "A": "P的所有資源都已被分配"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1964": {
+   "id": "1964",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結（Deadlock）發生的四個必要條件包括哪些？",
+   "hint": "",
+   "options": {
+    "D": "安全狀態,不安全狀態",
+    "A": "互斥,佔用與等待",
+    "B": "無搶佔,循環等待",
+    "C": "資源分配圖,資源請求圖"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1965": {
+   "id": "1965",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "以下哪些是死結處理的方法？",
+   "hint": "",
+   "options": {
+    "D": "等待,通知,終止",
+    "B": "偵測,恢復,終止",
+    "C": "鎖定,釋放,重新啟動",
+    "A": "預防,避免,偵測"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1966": {
+   "id": "1966",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結預防的策略可以打破以下哪些條件？",
+   "hint": "",
+   "options": {
+    "A": "互斥,佔用與等待,無搶佔",
+    "D": "臨界區",
+    "C": "佔用與等待,無搶佔,循環等待",
+    "B": "互斥,無搶佔,循環等待"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1967": {
+   "id": "1967",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are deadlock avoidance algorithms?",
+   "hint": "",
+   "options": {
+    "C": "Banker's algorithm, Wait-for graph algorithm",
+    "A": "Banker's algorithm, Resource-allocation graph algorithm",
+    "D": "All of the above",
+    "B": "Wait-for graph algorithm, Resource-allocation graph algorithm"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1968": {
+   "id": "1968",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "在死結恢復中，以下哪些是終止程序的策略？",
+   "hint": "",
+   "options": {
+    "D": "終止那些佔用最多資源的程序",
+    "A": "終止所有死結程序",
+    "B": "一次終止一個程序，直到死結循環被打破",
+    "C": "終止所有非死結程序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1969": {
+   "id": "1969",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "資源分配圖中，哪些條件可以指示潛在的死結？",
+   "hint": "",
+   "options": {
+    "D": "沒有任何邊從程序指向資源",
+    "B": "圖中存在循環",
+    "A": "圖中沒有循環",
+    "C": "圖中存在多個循環"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1970": {
+   "id": "1970",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "銀行家演算法中需要哪些數據結構來運作？",
+   "hint": "",
+   "options": {
+    "C": "分配資源（Allocation）",
+    "A": "可用資源（Available）",
+    "D": "請求資源（Request）",
+    "B": "最大需求（Max）"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1971": {
+   "id": "1971",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "When a process terminates which resources are released?",
+   "hint": "",
+   "options": {
+    "B": "Resources it requested but did not get",
+    "D": "Resources it may need in the future",
+    "C": "Resources it has already released",
+    "A": "All resources it currently holds"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1972": {
+   "id": "1972",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些資源是可搶佔資源？",
+   "hint": "",
+   "options": {
+    "B": "記憶體",
+    "D": "檔案",
+    "A": "CPU",
+    "C": "印表機"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:00:36.295Z",
+   "updatedAt": "2026-11-25T06:03:43.962Z"
+  },
+  "1973": {
+   "id": "1973",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are the main advantages of deadlock avoidance?",
+   "hint": "",
+   "options": {
+    "D": "Dynamic state checking",
+    "C": "Lower overhead",
+    "A": "High resource utilization",
+    "B": "Guaranteed no deadlock"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1974": {
+   "id": "1974",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Deadlock prevention strategies such as breaking the Hold and Wait condition can be implemented by which methods?",
+   "hint": "",
+   "options": {
+    "C": "Allowing processes to request new resources at any time",
+    "B": "When a process requests a new resource, it must release all resources it currently holds",
+    "A": "Requiring processes to request all resources at once",
+    "D": "Ordering resources and requesting them in a specific order"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1975": {
+   "id": "1975",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "一個系統處於安全狀態的條件是什麼？",
+   "hint": "",
+   "options": {
+    "C": "所有資源都已分配",
+    "B": "沒有程序處於死結狀態",
+    "D": "所有程序都可以完成執行",
+    "A": "存在一個安全序列"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1976": {
+   "id": "1976",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What situations can the Banker's algorithm handle?",
+   "hint": "",
+   "options": {
+    "B": "Single resource type",
+    "D": "Multiple processes",
+    "A": "Multiple resource types",
+    "C": "A single process"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1977": {
+   "id": "1977",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "在死結偵測中，資源分配圖的簡化流程（簡化圖）通常涉及哪些步驟？",
+   "hint": "",
+   "options": {
+    "D": "移除那些能夠完成的程序與資源",
+    "A": "移除所有請求邊",
+    "C": "移除那些無循環的程序與資源",
+    "B": "移除所有已分配邊"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1978": {
+   "id": "1978",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "The overhead of a deadlock detection algorithm depends on which factors?",
+   "hint": "",
+   "options": {
+    "C": "Complexity of the graph",
+    "D": "System state",
+    "A": "Number of resources",
+    "B": "Number of processes"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1979": {
+   "id": "1979",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些情況可能會導致一個系統從安全狀態進入不安全狀態？",
+   "hint": "",
+   "options": {
+    "A": "一個程序請求了一個新資源",
+    "D": "一個程序在不安全狀態下請求資源",
+    "B": "一個程序釋放了一個資源",
+    "C": "一個程序終止了"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1980": {
+   "id": "1980",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "在死結恢復中，以下哪些因素可能會影響選擇被終止的犧牲程序？",
+   "hint": "",
+   "options": {
+    "B": "程序已運行時間",
+    "D": "終止程序所需的開銷",
+    "C": "程序已使用的資源數量",
+    "A": "程序優先順序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1981": {
+   "id": "1981",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "資源分配圖（Resource-Allocation Graph）包含了哪些元素？",
+   "hint": "",
+   "options": {
+    "B": "資源節點",
+    "D": "分配邊",
+    "C": "請求邊",
+    "A": "程序節點"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1982": {
+   "id": "1982",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What are the advantages of a combined deadlock detection and recovery method?",
+   "hint": "",
+   "options": {
+    "D": "It ensures the system is always in a safe state",
+    "B": "It does not require prior information on resource usage",
+    "A": "It is simple and practical",
+    "C": "It can handle multiple resource types"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1983": {
+   "id": "1983",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What is the definition of the Circular Wait condition?",
+   "hint": "",
+   "options": {
+    "C": "A process requesting multiple resources",
+    "A": "A set of processes {P0, P1, ..., Pn} where P0 is waiting for a resource held by P1",
+    "B": "A set of processes {P0, P1, ..., Pn} where P0 is waiting for a resource held by P1, P1 is waiting for a resource held by P2, ..., Pn-1 is waiting for a resource held by Pn, and Pn is waiting for a resource held by P0",
+    "D": "A process being held by more than one process"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1984": {
+   "id": "1984",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In deadlock recovery what problems might the Resource Preemption strategy need to solve?",
+   "hint": "",
+   "options": {
+    "C": "How to avoid livelock",
+    "B": "How to roll back a process",
+    "D": "How to avoid starvation",
+    "A": "How to select a victim"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1985": {
+   "id": "1985",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What are the disadvantages of Deadlock Prevention?",
+   "hint": "",
+   "options": {
+    "A": "It can lead to low resource utilization",
+    "B": "It can lead to starvation",
+    "C": "It is complex to implement",
+    "D": "It can lead to a decrease in system performance"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1986": {
+   "id": "1986",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which two methods are often considered \"unstructured\" approaches to deadlock handling?",
+   "hint": "",
+   "options": {
+    "D": "Process termination",
+    "A": "Deadlock prevention",
+    "C": "Deadlock detection and recovery",
+    "B": "Deadlock avoidance"
+   },
+   "answer": [
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1987": {
+   "id": "1987",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "資源分配圖（Resource-Allocation Graph）可以處理哪些類型的資源？",
+   "hint": "",
+   "options": {
+    "D": "多實例資源",
+    "A": "可搶佔資源",
+    "C": "單一實例資源",
+    "B": "不可搶佔資源"
+   },
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1988": {
+   "id": "1988",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "The Banker's Algorithm is a deadlock avoidance method and its goal is to ensure that the system is always in what state?",
+   "hint": "",
+   "options": {
+    "B": "Unsafe state",
+    "C": "Stable state",
+    "D": "Resource-sufficient state",
+    "A": "Safe state"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1989": {
+   "id": "1989",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Among the four necessary conditions for deadlock which ones are related to the type and usage of resources?",
+   "hint": "",
+   "options": {
+    "A": "Mutual exclusion, Hold and wait",
+    "B": "No preemption, Circular wait",
+    "D": "Process request, Process termination",
+    "C": "Resource allocation, Resource release"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1990": {
+   "id": "1990",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "When a deadlock detection algorithm finds a deadlock which of the following can be used as subsequent recovery steps?",
+   "hint": "",
+   "options": {
+    "D": "Ignoring the deadlock",
+    "C": "Restarting the system",
+    "B": "Resource preemption",
+    "A": "Process termination"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1991": {
+   "id": "1991",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are possible system behaviors after a deadlock occurs?",
+   "hint": "",
+   "options": {
+    "C": "System crash",
+    "B": "Decreased resource utilization",
+    "D": "All processes terminate",
+    "A": "System stagnation"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1992": {
+   "id": "1992",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "無搶佔（No Preemption）條件可以透過以下哪種方式來打破？",
+   "hint": "",
+   "options": {
+    "C": "允許程序隨時中斷並釋放資源",
+    "A": "將所有資源標記為可搶佔",
+    "B": "當程序請求新資源時，它必須釋放其當前持有的所有資源",
+    "D": "實施資源優先順序"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1993": {
+   "id": "1993",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What information do Deadlock Avoidance algorithms need at runtime?",
+   "hint": "",
+   "options": {
+    "D": "The current state of all processes in the system",
+    "B": "The maximum resource needs of each process",
+    "C": "The total amount of available resources in the system",
+    "A": "The resources currently held by each process"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "1994": {
+   "id": "1994",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are implementation methods for Deadlock Prevention?",
+   "hint": "",
+   "options": {
+    "C": "Using a single mutex lock to protect all resources",
+    "A": "Requiring all resources to be shareable",
+    "B": "Requiring a process to request all resources at once or none at all",
+    "D": "Implementing a strict resource ordering"
+   },
+   "answer": [
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1995": {
+   "id": "1995",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In the resource-allocation graph algorithm which of the following can lead a system to enter an unsafe state?",
+   "hint": "",
+   "options": {
+    "B": "A process releases a resource",
+    "C": "A new process is added",
+    "A": "A process requests a resource it has not declared",
+    "D": "A new cycle is formed in the graph"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1996": {
+   "id": "1996",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "死結偵測（Deadlock Detection）的優點是什麼？",
+   "hint": "",
+   "options": {
+    "B": "可以處理單一和多個實例的資源",
+    "A": "不需要預先知道資源需求",
+    "C": "可以動態地發現死結",
+    "D": "不需要額外的系統開銷"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "1997": {
+   "id": "1997",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In deadlock recovery what are the challenges of the Resource Preemption strategy?",
+   "hint": "",
+   "options": {
+    "A": "How to select the resource to be preempted",
+    "C": "Avoiding starvation",
+    "D": "How to ensure fairness for processes",
+    "B": "How to determine the extent of rollback"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1998": {
+   "id": "1998",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are typical scenarios where deadlocks occur?",
+   "hint": "",
+   "options": {
+    "B": "The Readers-Writers problem",
+    "D": "File locking",
+    "C": "The Producer-Consumer problem",
+    "A": "The Dining Philosophers problem"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1999": {
+   "id": "1999",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are advantages of deadlock handling methods?",
+   "hint": "",
+   "options": {
+    "A": "Deadlock prevention: simple to implement",
+    "C": "Deadlock detection and recovery: practical and no prior information needed",
+    "D": "Deadlock avoidance: can handle multiple resource instances",
+    "B": "Deadlock avoidance: high resource utilization"
+   },
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2000": {
+   "id": "2000",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "When a system is in an unsafe state what can happen?",
+   "hint": "",
+   "options": {
+    "D": "An unsatisfied resource request exists",
+    "B": "All processes are unable to complete",
+    "C": "All resources are locked",
+    "A": "The system might enter a deadlocked state"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "2001": {
+   "id": "2001",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "How do deadlock avoidance algorithms handle requests for new resources?",
+   "hint": "",
+   "options": {
+    "B": "Delay all requests",
+    "A": "Immediately satisfy all requests",
+    "D": "Deny all requests that could lead to an unsafe state",
+    "C": "Check if the system will remain in a safe state after satisfying the request; if so, satisfy it"
+   },
+   "answer": [
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "2002": {
+   "id": "2002",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在死結恢復中，以下哪些策略可能導致飢餓（starvation）問題？",
+   "hint": "",
+   "options": {
+    "A": "程序終止",
+    "B": "資源搶佔",
+    "C": "資源釋放",
+    "D": "回滾"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "2003": {
+   "id": "2003",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "Which of the following are common methods for handling deadlocks?",
+   "hint": "",
+   "options": {
+    "A": "Deadlock prevention",
+    "D": "Deadlock recovery",
+    "B": "Deadlock avoidance",
+    "C": "Deadlock detection"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2004": {
+   "id": "2004",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In a Resource-Allocation Graph which edges represent the relationship between processes and resources?",
+   "hint": "",
+   "options": {
+    "A": "Request edges",
+    "D": "Resource edges",
+    "C": "Process edges",
+    "B": "Assignment edges"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "2005": {
+   "id": "2005",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "When a system experiences a deadlock which of the following necessary conditions are simultaneously true?",
+   "hint": "",
+   "options": {
+    "B": "Hold and wait",
+    "A": "Mutual exclusion",
+    "D": "Circular wait",
+    "C": "No preemption"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "2006": {
+   "id": "2006",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "What are the goals of Deadlock Recovery?",
+   "hint": "",
+   "options": {
+    "C": "Avoiding future deadlocks",
+    "B": "Reducing resource utilization",
+    "A": "Breaking the deadlock",
+    "D": "Restoring the system to a safe state"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2007": {
+   "id": "2007",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "When do deadlock detection algorithms run?",
+   "hint": "",
+   "options": {
+    "B": "When a resource request fails",
+    "A": "Periodically",
+    "D": "When the system load reaches a certain threshold",
+    "C": "When the system is in a safe state"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2008": {
+   "id": "2008",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which two deadlock handling methods are based on considerations \"before a deadlock occurs\"?",
+   "hint": "",
+   "options": {
+    "C": "Deadlock detection",
+    "B": "Deadlock avoidance",
+    "D": "Deadlock recovery",
+    "A": "Deadlock prevention"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "2009": {
+   "id": "2009",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿is one of the four necessary conditions for a deadlock meaning a process is holding at least one resource and is waiting to acquire additional resources held by other processes.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2010": {
+   "id": "2010",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "In a resource-allocation graph an edge from a process P to a resource R is called a＿＿＿while an edge from a resource R to a process P is called an＿＿＿.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "request edge",
+    "assign edge"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2011": {
+   "id": "2011",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "The Banker's Algorithm is a deadlock＿＿＿method.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "avoidance"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2012": {
+   "id": "2012",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "當一個系統可以找到一個序列，按照該序列為所有程序分配資源，並且不導致死結，這個狀態被稱為＿＿＿狀態。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "safe"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "2013": {
+   "id": "2013",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿is one of the two main methods for deadlock detection which simplifies a resource-allocation graph into a wait-for graph to check for cycles.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "wait for graph"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2014": {
+   "id": "2014",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結的四個必要條件是：互斥、佔用與等待、無搶佔和＿＿＿。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "circular wait"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2015": {
+   "id": "2015",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "One method of deadlock recovery is＿＿＿which involves forcibly taking resources away from deadlocked processes.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "resource preemption"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "2016": {
+   "id": "2016",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "In a resource-allocation graph a circle represents a＿＿＿, while a square represents a＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "process",
+    "resource"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "2017": {
+   "id": "2017",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "Deadlock＿＿＿is a method that allows a system to enter an unsafe state when a deadlock occurs and handles it afterwards.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "detection"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2018": {
+   "id": "2018",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "If a resource-allocation graph contains a cycle a potential for deadlock exists. When there is only one instance of each resource type the existence of a cycle means that＿＿＿has occurred.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deadlock"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "2019": {
+   "id": "2019",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是死結避免演算法的一種，專門用於處理每種資源類型只有單一實例的情況。",
+   "hint": "請用小寫英文回答 需要做字母連接的兩個文字用 - ,單字間留一個空白",
+   "options": {},
+   "answer": [
+    "resource-allocation graph algorithm"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2020": {
+   "id": "2020",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "To prevent deadlocks the＿＿＿condition can be broken by requiring a process to request all its resources before it starts.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2021": {
+   "id": "2021",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結偵測演算法的一個主要缺點是可能產生較高的＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "overhead"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2022": {
+   "id": "2022",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "當一個系統從一個不安全狀態進入死結狀態，這個過程被稱為＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "livelock"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2023": {
+   "id": "2023",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結預防（Deadlock Prevention）通常可以透過打破死結的四個必要條件之一來實現。例如，透過強制將所有資源標記為可分享來打破＿＿＿。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "mutual exclusion"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2024": {
+   "id": "2024",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "In the Banker's algorithm a process's \"Need\" matrix is the＿＿＿between its \"Max\" matrix and its \"Allocation\" matrix.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "difference"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "2025": {
+   "id": "2025",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "在死結恢復中，＿＿＿是選擇一個或多個死結進程並將其終止以打破死結的策略。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "process termination"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2026": {
+   "id": "2026",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "Deadlock avoidance algorithms can ensure that the system does not enter an＿＿＿state.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "unsafe"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "2027": {
+   "id": "2027",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "如果一個系統無法找到一個安全序列，其狀態是＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "unsafe"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2028": {
+   "id": "2028",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結處理的四種主要方法是：預防、避免、偵測和＿＿＿。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "recovery"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "2029": {
+   "id": "2029",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是指當一個或多個程序在等待一個事件，而這個事件永遠不會發生時，所處的狀態。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "deadlock"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2030": {
+   "id": "2030",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是死結避免的一種方法，透過仔細的資源分配來確保系統不會進入不安全狀態。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "banker's algorithm"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "2031": {
+   "id": "2031",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "To break a deadlock one method is to terminate one or more processes through＿＿＿.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "preemption"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2032": {
+   "id": "2032",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "In deadlock recovery to avoid＿＿＿care must be taken to ensure that the same victim process is not always chosen.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "starvation"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2033": {
+   "id": "2033",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿條件是指一個程序已經佔用一個或多個資源，並正在等待其他資源。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2034": {
+   "id": "2034",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "死結預防的一個缺點是可能會導致低＿＿＿。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "resource utilization"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "2035": {
+   "id": "2035",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "＿＿＿是死結處理方法中最為靈活的一種，因為它不需要對資源使用做出任何假設。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "deadlock detection"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "2036": {
+   "id": "2036",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "為了打破＿＿＿，可以實施一個嚴格的資源排序，並要求程序按照該順序請求資源。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "circular wait"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2037": {
+   "id": "2037",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是一種死結恢復的策略，它涉及將一個程序從其死結狀態回滾到一個安全狀態，並從該點重新啟動。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "rollback"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2038": {
+   "id": "2038",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿問題是一個經典的死結範例，其中五位哲學家共用五支叉子。",
+   "hint": "請用小寫英文回答 單字間用-連接",
+   "options": {},
+   "answer": [
+    "dining-philosophers"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "2039": {
+   "id": "2039",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結偵測中，當資源類型有多個實例時，需要使用一種更複雜的演算法，而不是簡單地檢查＿＿＿圖。",
+   "hint": "請用小寫英文回答 需要做字母連接的兩個文字用 -",
+   "options": {},
+   "answer": [
+    "wait-for"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "2040": {
+   "id": "2040",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "在銀行家演算法的安全性演算法（Safety Algorithm）中，需要檢查＿＿＿資源是否足以滿足任何一個程序的「需求」（Need）。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "available"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "2041": {
+   "id": "2041",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "死結的一個必要條件是＿＿＿，指資源不能從其使用者手中被強制取回。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "no preemption"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "2042": {
+   "id": "2042",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿是死結預防（Deadlock Prevention）中打破佔用與等待（Hold and Wait）條件的另一種方法，它要求程序在請求新資源時釋放其當前所有資源。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "release"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2043": {
+   "id": "2043",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "死結避免（Deadlock Avoidance）演算法可以透過檢查每一次資源分配是否會導致系統進入＿＿＿狀態來工作。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "unsafe"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:08:36.665Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2044": {
+   "id": "2044",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿is a part of the deadlock detection algorithm that runs periodically to check for deadlocks in the system.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "detection"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
   "2128": {
    "id": "2128",
    "subject": "演算法",
@@ -48880,6 +51326,2116 @@
    "source": "text",
    "createdAt": "2026-11-18T07:31:58.642Z",
    "updatedAt": "2026-11-18T07:31:58.642Z"
+  },
+  "t1536kx1": {
+   "id": "t1536kx1",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "In a Resource-Allocation Graph which edges represent the relationship between processes and resources?",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A,B"
+   ],
+   "lines": [
+    "A,B"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:13:14.935Z",
+   "updatedAt": "2026-11-25T05:13:14.935Z"
+  },
+  "2004~vcq05x": {
+   "id": "2004~vcq05x",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "資源分配圖（Resource-Allocation Graph）中，哪些邊表示程序和資源之間的關係？",
+   "hint": "",
+   "options": {
+    "D": "資源邊",
+    "A": "請求邊",
+    "B": "分配邊",
+    "C": "程序邊"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:15:07.505Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "tarx0gc": {
+   "id": "tarx0gc",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是死結偵測的兩種主要方法之一，它將資源分配圖簡化為一個等待圖來檢測循環。",
+   "hint": "請用小寫英文回答 字母間留一個空白",
+   "options": {},
+   "answer": [
+    "wait for graph"
+   ],
+   "lines": [
+    "wait for graph"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:21:17.309Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "t1r3bqms": {
+   "id": "t1r3bqms",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "死結預防的策略可以打破以下哪些條件？",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "B,C"
+   ],
+   "lines": [
+    "B,C"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:21:17.309Z",
+   "updatedAt": "2026-11-25T05:21:17.309Z"
+  },
+  "1928~1dz6329": {
+   "id": "1928~1dz6329",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which of the following is NOT one of the four necessary conditions for a deadlock to occur?",
+   "hint": "",
+   "options": {
+    "D": "Circular Wait",
+    "B": "Hold and Wait",
+    "A": "Mutual Exclusion",
+    "C": "Resource Priority"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1978~l1fkah": {
+   "id": "1978~l1fkah",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結偵測演算法的開銷取決於哪些因素？",
+   "hint": "",
+   "options": {
+    "C": "圖的複雜度",
+    "B": "程序數量",
+    "A": "資源數量",
+    "D": "系統狀態"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:21:25.561Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "txtiol": {
+   "id": "txtiol",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在死結恢復中，為了避免 ＿＿＿ ，必須確保同一個犧牲程序不會被一次又一次地選擇。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "starvation"
+   ],
+   "lines": [
+    "starvation"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:25:02.100Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "t1g7il01": {
+   "id": "t1g7il01",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "If a system cannot find a safe sequence its state is ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "unsafe"
+   ],
+   "lines": [
+    "unsafe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:25:02.100Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "t368d74": {
+   "id": "t368d74",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ 是死結發生的四個必要條件之一，指一個程序至少佔用一個資源，同時又在等待獲取被其他程序佔用的額外資源。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "lines": [
+    "hold and wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:25:02.100Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "t1gajfq3": {
+   "id": "t1gajfq3",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is another method in Deadlock Prevention to break the Hold and Wait condition requiring a process to release all its current resources when requesting a new one.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "release"
+   ],
+   "lines": [
+    "release"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:25:02.100Z",
+   "updatedAt": "2026-11-25T05:25:02.100Z"
+  },
+  "1957~v9659u": {
+   "id": "1957~v9659u",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "The Banker's Algorithm belongs to which deadlock handling method?",
+   "hint": "",
+   "options": {
+    "D": "Recovery",
+    "B": "Avoidance",
+    "A": "Prevention",
+    "C": "Detection"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1983~1n8j72o": {
+   "id": "1983~1n8j72o",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "循環等待（Circular Wait）條件的定義是什麼？",
+   "hint": "",
+   "options": {
+    "B": "一個程序集合{P0, P1, ..., Pn}，其中P0等待P1佔用的資源，P1等待P2佔用的資源，...，Pn-1等待Pn佔用的資源，Pn等待P0佔用的資源",
+    "A": "一個程序集合{P0, P1, ..., Pn}，其中P0等待P1佔用的資源",
+    "D": "一個程序被一個以上程序佔用",
+    "C": "一個程序請求多個資源"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1942~qplxpj": {
+   "id": "1942~qplxpj",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "In deadlock avoidance what is the most common algorithm used?",
+   "hint": "",
+   "options": {
+    "C": "Banker's algorithm",
+    "B": "Wait-for graph algorithm",
+    "A": "Resource-allocation graph algorithm",
+    "D": "Dijkstra's algorithm"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1952~1vyidf4": {
+   "id": "1952~1vyidf4",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "以下哪一種死結處理方法在死結發生時讓系統進入不安全狀態？",
+   "hint": "",
+   "options": {
+    "B": "死結避免",
+    "D": "死結控制",
+    "C": "死結偵測與恢復",
+    "A": "死結預防"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "2006~c5mrix": {
+   "id": "2006~c5mrix",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結恢復（Deadlock Recovery）的目標是什麼？",
+   "hint": "",
+   "options": {
+    "A": "打破死結",
+    "C": "避免死結再次發生",
+    "D": "將系統恢復到安全狀態",
+    "B": "減少資源利用率"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:25:15.600Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "t1aorfcu": {
+   "id": "t1aorfcu",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "死結 ＿＿＿ 是一種在死結發生時，允許系統進入不安全狀態，並在之後進行處理的方法。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "detection"
+   ],
+   "lines": [
+    "detection"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:29:01.643Z",
+   "updatedAt": "2026-11-25T05:29:01.643Z"
+  },
+  "1936~1t449a5": {
+   "id": "1936~1t449a5",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "為了實施佔用與等待（Hold and Wait）的死結預防，以下哪一項是不可能的策略？",
+   "hint": "",
+   "options": {
+    "D": "要求程序在啟動前釋放所有需要的資源",
+    "A": "要求程序在啟動前請求所有需要的資源",
+    "C": "做到資源全拿或全不拿",
+    "B": "在程序請求資源時，釋放它當前持有的所有資源"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1969~1mzx4si": {
+   "id": "1969~1mzx4si",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "In a resource-allocation graph which conditions can indicate a potential deadlock?",
+   "hint": "",
+   "options": {
+    "A": "There are no cycles in the graph",
+    "B": "There is a cycle in the graph",
+    "D": "There are no edges from processes to resources",
+    "C": "There are multiple cycles in the graph"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1984~1uh9mgy": {
+   "id": "1984~1uh9mgy",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "在死結恢復中，資源搶佔（Resource Preemption）策略可能需要解決哪些問題？",
+   "hint": "",
+   "options": {
+    "A": "如何選擇受害者",
+    "B": "如何回滾程序",
+    "D": "如何避免飢餓",
+    "C": "如何避免活鎖"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1955~v9659u": {
+   "id": "1955~v9659u",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which deadlock handling method is the simplest but can lead to the lowest resource utilization?",
+   "hint": "",
+   "options": {
+    "A": "Prevention",
+    "B": "Avoidance",
+    "D": "Recovery",
+    "C": "Detection"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1976~1skm8xw": {
+   "id": "1976~1skm8xw",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "銀行家演算法可以處理哪些情況？",
+   "hint": "",
+   "options": {
+    "C": "單個程序",
+    "B": "單個資源類型",
+    "A": "多個資源類型",
+    "D": "多個程序"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "2007~168kzjx": {
+   "id": "2007~168kzjx",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結偵測演算法在什麼時候運行？",
+   "hint": "",
+   "options": {
+    "A": "定期運行",
+    "D": "當系統負載達到某個閾值時",
+    "B": "當資源請求失敗時",
+    "C": "當系統處於安全狀態時"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1982~3knfov": {
+   "id": "1982~3knfov",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結偵測和死結恢復的組合方法，其優點有哪些？",
+   "hint": "",
+   "options": {
+    "C": "可以處理多種資源類型",
+    "B": "不需要預先的資源使用資訊",
+    "A": "簡單且實用",
+    "D": "可以確保系統始終在安全狀態"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1929~i0afiq": {
+   "id": "1929~i0afiq",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "In a resource-allocation graph what does a directed edge from process P to resource type R signify?",
+   "hint": "",
+   "options": {
+    "C": "Resource R is being used by process P",
+    "B": "Process P is requesting an instance of resource R",
+    "D": "Resource R has been released by process P",
+    "A": "Process P holds an instance of resource R"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1938~2fitdn": {
+   "id": "1938~2fitdn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "Which of the following conditions is the most difficult to address in deadlock prevention?",
+   "hint": "",
+   "options": {
+    "C": "No Preemption",
+    "A": "Mutual Exclusion",
+    "B": "Hold and Wait",
+    "D": "Circular Wait"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:29:22.761Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "t194187u": {
+   "id": "t194187u",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A major disadvantage of deadlock detection algorithms is the potential for high ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "overhead"
+   ],
+   "lines": [
+    "overhead"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:32:51.420Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "t1rknog1": {
+   "id": "t1rknog1",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "Deadlock Prevention can usually be achieved by breaking one of the four necessary conditions for a deadlock. For example by forcing all resources to be shareable you break ＿＿＿ .(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "mutual exclusion"
+   ],
+   "lines": [
+    "mutual exclusion"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:32:51.420Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "teez7my": {
+   "id": "teez7my",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "為了打破死結，一種方法是通過 ＿＿＿ 來終止一個或多個進程。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "preemption"
+   ],
+   "lines": [
+    "preemption"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:32:51.420Z",
+   "updatedAt": "2026-11-25T05:32:51.420Z"
+  },
+  "1947~1e1otn": {
+   "id": "1947~1e1otn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "What is a common example of a deadlock?",
+   "hint": "",
+   "options": {
+    "B": "A process waiting for an I/O operation to complete",
+    "A": "A process requesting memory",
+    "D": "File locking",
+    "C": "The Dining Philosophers problem"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1993~fsfna1": {
+   "id": "1993~fsfna1",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結避免（Deadlock Avoidance）演算法在運行時需要哪些資訊？",
+   "hint": "",
+   "options": {
+    "C": "系統中可用的資源總量",
+    "B": "每個程序的最大資源需求",
+    "A": "每個程序當前佔用的資源",
+    "D": "系統中所有程序的當前狀態"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1954~gisclk": {
+   "id": "1954~gisclk",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "當一個程序終止時，它會釋放其所有資源。這是哪一種死結恢復策略的一部分？",
+   "hint": "",
+   "options": {
+    "A": "資源搶佔",
+    "C": "資源釋放",
+    "D": "資源回收",
+    "B": "程序終止"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1937~1rfjftz": {
+   "id": "1937~1rfjftz",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結偵測中，當資源類型只有單一實例時，通常使用什麼圖來偵測死結？",
+   "hint": "",
+   "options": {
+    "C": "狀態轉換圖",
+    "D": "流程圖",
+    "A": "等待圖",
+    "B": "資源分配圖"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1945~myhfe1": {
+   "id": "1945~myhfe1",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "死結預防的缺點是什麼？",
+   "hint": "",
+   "options": {
+    "D": "會增加系統開銷",
+    "A": "可能導致資源利用率低",
+    "B": "實作複雜",
+    "C": "無法保證沒有死結"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:33:00.505Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "tam7no2": {
+   "id": "tam7no2",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The ＿＿＿ problem is a classic example of deadlock where five philosophers share five forks.(Please answer in lowercase English, connecting words with hyphens)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "dining-philosophers"
+   ],
+   "lines": [
+    "dining-philosophers"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:36:18.676Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "t1t2dwbn": {
+   "id": "t1t2dwbn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在銀行家演算法中，一個程序的「需要」（Need）矩陣是其「最大」（Max）矩陣與其「分配」（Allocation）矩陣的 ＿＿＿ 。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "difference"
+   ],
+   "lines": [
+    "difference"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:36:18.676Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "tr2l0pu": {
+   "id": "tr2l0pu",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "銀行家演算法（Banker's Algorithm）是一種死結 ＿＿＿ 方法。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "avoidance"
+   ],
+   "lines": [
+    "avoidance"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:36:18.676Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "tali81k": {
+   "id": "tali81k",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "When a system can find a sequence in which resources can be allocated to all processes without causing a deadlock this state is called a ＿＿＿ state.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "safe"
+   ],
+   "lines": [
+    "safe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:36:18.676Z",
+   "updatedAt": "2026-11-25T05:36:18.676Z"
+  },
+  "1964~115ejn0": {
+   "id": "1964~115ejn0",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the four necessary conditions for a deadlock to occur?",
+   "hint": "",
+   "options": {
+    "B": "No preemption, Circular wait",
+    "D": "Safe state, Unsafe state",
+    "A": "Mutual exclusion, Hold and Wait",
+    "C": "Resource-allocation graph, Resource request graph"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1951~9bf2hv": {
+   "id": "1951~9bf2hv",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is a disadvantage of Deadlock Detection?",
+   "hint": "",
+   "options": {
+    "B": "It can have a high system overhead",
+    "D": "It cannot solve the deadlock problem",
+    "A": "It may lead to unnecessary process terminations",
+    "C": "It requires prior knowledge of maximum resource needs"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1974~t8g0r8": {
+   "id": "1974~t8g0r8",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "死結預防策略，如打破佔用與等待（Hold and Wait）條件，可以透過哪些方法實現？",
+   "hint": "",
+   "options": {
+    "D": "將資源排序並按照順序請求",
+    "B": "當程序請求新資源時，它必須釋放所有當前佔用的資源",
+    "A": "要求程序一次請求所有資源",
+    "C": "允許程序隨時請求新資源"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1992~1o9sc6h": {
+   "id": "1992~1o9sc6h",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "The No Preemption condition can be broken by which of the following methods?",
+   "hint": "",
+   "options": {
+    "D": "Implementing a resource priority scheme",
+    "B": "When a process requests a new resource, it must release all its currently held resources",
+    "C": "Allowing processes to be interrupted and release resources at any time",
+    "A": "Making all resources preemptable"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1935~1785cgx": {
+   "id": "1935~1785cgx",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "If a system can find a sequence in which resources can be allocated to all processes without causing a deadlock what is this state called?",
+   "hint": "",
+   "options": {
+    "B": "Deadlock state",
+    "A": "Unsafe state",
+    "D": "Invalid state",
+    "C": "Safe state"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1971~1fedh5u": {
+   "id": "1971~1fedh5u",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "當一個程序終止時，哪些資源會被釋放？",
+   "hint": "",
+   "options": {
+    "A": "它目前佔用的所有資源",
+    "B": "它請求但未獲得的資源",
+    "D": "它在未來可能需要的資源",
+    "C": "它已釋放的資源"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:36:27.783Z",
+   "updatedAt": "2026-11-25T05:39:45.643Z"
+  },
+  "1999~9ao94u": {
+   "id": "1999~9ao94u",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些是死結處理方法的優點？",
+   "hint": "",
+   "options": {
+    "A": "死結預防：實作簡單",
+    "B": "死結避免：高資源利用率",
+    "C": "死結偵測與恢復：實用且不需要預先資訊",
+    "D": "死結避免：可以處理多個資源實例"
+   },
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1986~123w7ym": {
+   "id": "1986~123w7ym",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪兩種方法通常被視為死結處理的「非結構化」方法？",
+   "hint": "",
+   "options": {
+    "C": "死結偵測與恢復",
+    "D": "終止程序",
+    "A": "死結預防",
+    "B": "死結避免"
+   },
+   "answer": [
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1956~1p0txfv": {
+   "id": "1956~1p0txfv",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In a resource-allocation graph what does an edge between a process and a resource represent?",
+   "hint": "",
+   "options": {
+    "C": "A resource is held or requested",
+    "B": "A resource is released",
+    "D": "A resource is being used",
+    "A": "A resource is locked"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1990~54i4xn": {
+   "id": "1990~54i4xn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "當死結偵測演算法發現一個死結時，以下哪些方法可以作為後續的恢復步驟？",
+   "hint": "",
+   "options": {
+    "D": "忽略死結",
+    "C": "重新啟動系統",
+    "A": "程序終止",
+    "B": "資源搶佔"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:40:10.687Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "t1p8zvu6": {
+   "id": "t1p8zvu6",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is the state when one or more processes are waiting for an event that will never occur.(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deadlock"
+   ],
+   "lines": [
+    "deadlock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:44:45.930Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "t17sdvzl": {
+   "id": "t17sdvzl",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In deadlock recovery , ＿＿＿ is the strategy of selecting and aborting one or more deadlocked processes to break the deadlock.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "process termination"
+   ],
+   "lines": [
+    "process termination"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:44:45.930Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "t1dbf8fq": {
+   "id": "t1dbf8fq",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a deadlock avoidance algorithm specifically for situations where there is only a single instance of each resource type.(Please answer in lowercase English; use a hyphen (-) to connect words that need to be linked, and leave a space between individual words.)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "resource-allocation graph algorithm"
+   ],
+   "lines": [
+    "resource-allocation graph algorithm"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:44:45.930Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "t9igmf2": {
+   "id": "t9igmf2",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The ＿＿＿ condition means that a process is already holding one or more resources and is waiting for others.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "lines": [
+    "hold and wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:44:45.930Z",
+   "updatedAt": "2026-11-25T05:44:45.930Z"
+  },
+  "1961~4d8r0f": {
+   "id": "1961~4d8r0f",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In the \"process termination\" strategy for deadlock recovery which type of process is usually prioritized for termination?",
+   "hint": "",
+   "options": {
+    "C": "The process that started first",
+    "A": "The process that consumes the most resources",
+    "B": "The process that started most recently",
+    "D": "The process that has the most overhead"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "1944~y25ozn": {
+   "id": "1944~y25ozn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "當一個系統發生死結，下列哪個情況一定會成立？",
+   "hint": "",
+   "options": {
+    "D": "系統處於安全狀態",
+    "B": "所有資源都已被分配",
+    "A": "互斥條件被違反",
+    "C": "有程序無限等待"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "1998~mmnmu9": {
+   "id": "1998~mmnmu9",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些是死結發生的典型場景？",
+   "hint": "",
+   "options": {
+    "C": "生產者-消費者問題",
+    "D": "文件鎖定",
+    "A": "哲學家進餐問題",
+    "B": "讀者-寫者問題"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "1997~q4pauo": {
+   "id": "1997~q4pauo",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "在死結恢復中，資源搶佔（Resource Preemption）策略的挑戰包括哪些？",
+   "hint": "",
+   "options": {
+    "A": "如何選擇被搶佔的資源",
+    "B": "如何確定回滾的程度",
+    "D": "如何保證程序的公平性",
+    "C": "避免飢餓"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "1932~zq8hi4": {
+   "id": "1932~zq8hi4",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following is a typical application of a deadlock detection algorithm?",
+   "hint": "",
+   "options": {
+    "D": "Checking if any process has terminated",
+    "B": "Checking if any circular wait has occurred",
+    "A": "Checking if the system is in a safe state",
+    "C": "Checking if an edge exists in the resource-allocation graph"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "2005~oclmtt": {
+   "id": "2005~oclmtt",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "當一個系統發生死結時，以下哪些必要條件是同時成立的？",
+   "hint": "",
+   "options": {
+    "C": "無搶佔",
+    "A": "互斥",
+    "D": "循環等待",
+    "B": "佔用與等待"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "2003~7zfc34": {
+   "id": "2003~7zfc34",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些是死結處理的常用方法？",
+   "hint": "",
+   "options": {
+    "C": "死結偵測（Deadlock detection）",
+    "B": "死結避免（Deadlock avoidance）",
+    "A": "死結預防（Deadlock prevention）",
+    "D": "死結恢復（Deadlock recovery）"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:44:55.303Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "t7ili0k": {
+   "id": "t7ili0k",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "為了防止死結， ＿＿＿ 條件可以被打破，方法是要求程序在啟動前請求所有其所需的資源。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "answer": [
+    "hold and wait"
+   ],
+   "lines": [
+    "hold and wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:49:22.786Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "tj46uyy": {
+   "id": "tj46uyy",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "To break the ＿＿＿ a strict resource ordering can be implemented and processes are required to request resources in that order.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "circular wait"
+   ],
+   "lines": [
+    "circular wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:49:22.786Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "tphog2o": {
+   "id": "tphog2o",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "When a system transitions from an unsafe state to a deadlocked state this process is known as ＿＿＿ .(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "livelock"
+   ],
+   "lines": [
+    "livelock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:49:22.786Z",
+   "updatedAt": "2026-11-25T05:49:22.786Z"
+  },
+  "1985~1onlg1m": {
+   "id": "1985~1onlg1m",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "死結預防（Deadlock Prevention）的缺點是什麼？",
+   "hint": "",
+   "options": {
+    "B": "可能導致飢餓",
+    "C": "實作複雜",
+    "D": "可能導致系統效能下降",
+    "A": "可能導致資源利用率低"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1989~8qbheu": {
+   "id": "1989~8qbheu",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "死結的四個必要條件中，哪些與資源的類型和使用方式有關？",
+   "hint": "",
+   "options": {
+    "B": "無搶佔,循環等待",
+    "D": "程序請求,程序終止",
+    "C": "資源分配,資源釋放",
+    "A": "互斥,佔用與等待"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1994~133zjlb": {
+   "id": "1994~133zjlb",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些是死結預防（Deadlock Prevention）的實作方法？",
+   "hint": "",
+   "options": {
+    "D": "實施一個嚴格的資源排序",
+    "A": "要求所有資源都可分享",
+    "B": "要求程序一次請求所有資源或不請求任何資源",
+    "C": "使用一個單一的互斥鎖來保護所有資源"
+   },
+   "answer": [
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1933~ro43rj": {
+   "id": "1933~ro43rj",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which deadlock recovery method involves aborting one or more deadlocked processes to break the cycle?",
+   "hint": "",
+   "options": {
+    "B": "Resource preemption",
+    "D": "Resource release",
+    "C": "Process termination",
+    "A": "Resource termination"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1959~1lijty3": {
+   "id": "1959~1lijty3",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "如果一個系統無法找到一個安全序列，則其狀態為？",
+   "hint": "",
+   "options": {
+    "A": "安全狀態",
+    "C": "死結狀態",
+    "D": "已終止",
+    "B": "不安全狀態"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:49:30.959Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "t1eedubv": {
+   "id": "t1eedubv",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In the Safety Algorithm of the Banker's algorithm it is necessary to check if the ＿＿＿ resources are sufficient to satisfy any process's \"Need\".(Please answer in lowercase English)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "available"
+   ],
+   "lines": [
+    "available"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:56:13.937Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "txdjtag": {
+   "id": "txdjtag",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "如果資源分配圖中存在循環，則可能發生死結。當每種資源類型只有一個實例時，循環的存在意味著 ＿＿＿ 發生。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "deadlock"
+   ],
+   "lines": [
+    "deadlock"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:56:13.937Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "tgtqnq8": {
+   "id": "tgtqnq8",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is a method of deadlock avoidance that ensures the system will not enter an unsafe state by carefully allocating resources.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "banker's algorithm"
+   ],
+   "lines": [
+    "banker's algorithm"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:56:13.937Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "t1yvbkj5": {
+   "id": "t1yvbkj5",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "在資源分配圖中，一個從程序P到資源R的邊被稱為 ＿＿＿ ，而一個從資源R到程序P的邊被稱為 ＿＿＿ 。",
+   "hint": "請用小寫英文回答 單字間留一個空白",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "request edge",
+    "assign edge"
+   ],
+   "lines": [
+    "request edge/assign edge"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T05:56:13.937Z",
+   "updatedAt": "2026-11-25T05:56:13.937Z"
+  },
+  "1950~gd96jn": {
+   "id": "1950~gd96jn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "How does a deadlock avoidance algorithm ensure the system stays in a safe state?",
+   "hint": "",
+   "options": {
+    "D": "By limiting each process to requesting only one resource at a time",
+    "B": "By satisfying only those requests that keep the system in a safe state",
+    "A": "By denying all new resource requests",
+    "C": "By allowing all requests and recovering after a deadlock occurs"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "1960~1hel498": {
+   "id": "1960~1hel498",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In deadlock avoidance the Banker's algorithm can handle multiple instances of resources while the resource-allocation graph algorithm can handle only?",
+   "hint": "",
+   "options": {
+    "D": "Shareable instances of resources",
+    "A": "Single instances of resources",
+    "B": "Multiple instances of resources",
+    "C": "Non-shareable instances of resources"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "1975~19xzdqs": {
+   "id": "1975~19xzdqs",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "What are the conditions for a system to be in a safe state?",
+   "hint": "",
+   "options": {
+    "A": "There exists a safe sequence",
+    "C": "All resources have been allocated",
+    "B": "No process is in a deadlocked state",
+    "D": "All processes can complete their execution"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "1991~10gtopg": {
+   "id": "1991~10gtopg",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "以下哪些是死結發生後可能導致的系統行為？",
+   "hint": "",
+   "options": {
+    "B": "資源利用率下降",
+    "A": "系統停滯",
+    "D": "所有程序終止",
+    "C": "系統崩潰"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T05:56:24.031Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "t1esh7v9": {
+   "id": "t1esh7v9",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A necessary condition for a deadlock is ＿＿＿ which states that a resource cannot be forcibly taken away from its user.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "no preemption"
+   ],
+   "lines": [
+    "no preemption"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:00:21.578Z",
+   "updatedAt": "2026-11-25T06:00:21.578Z"
+  },
+  "1962~af0dob": {
+   "id": "1962~af0dob",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "Which of the following necessary conditions for a deadlock is most closely related to mutex locks?",
+   "hint": "",
+   "options": {
+    "D": "Circular wait",
+    "B": "Hold and wait",
+    "A": "Mutual exclusion",
+    "C": "No preemption"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:00:36.295Z",
+   "updatedAt": "2026-11-25T06:03:43.962Z"
+  },
+  "t19pmsf": {
+   "id": "t19pmsf",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "＿＿＿ is the most flexible of the deadlock handling methods because it does not require any assumptions about resource usage.(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "deadlock detection"
+   ],
+   "lines": [
+    "deadlock detection"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:03:43.962Z",
+   "updatedAt": "2026-11-25T06:03:43.962Z"
+  },
+  "tknao3e": {
+   "id": "tknao3e",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "In deadlock detection when there are multiple instances of a resource type a more complex algorithm is needed rather than simply checking the ＿＿＿ graph.(Please answer in lowercase English, connecting words with hyphens)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "wait-for"
+   ],
+   "lines": [
+    "wait-for"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:03:43.962Z",
+   "updatedAt": "2026-11-25T06:03:43.962Z"
+  },
+  "1958~17j56xo": {
+   "id": "1958~17j56xo",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "To prevent deadlocks which condition must be broken?",
+   "hint": "",
+   "options": {
+    "D": "Remove the critical section",
+    "A": "Mutual exclusion",
+    "B": "Hold and wait",
+    "C": "No preemption"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:04:15.238Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "1946~52hdk9": {
+   "id": "1946~52hdk9",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "以下哪一項與死結避免（Deadlock Avoidance）方法有關？",
+   "hint": "",
+   "options": {
+    "D": "它與死結預防是相同的概念",
+    "A": "需要每個程序預先聲明其最大資源需求量",
+    "C": "它在系統運行時動態檢查死結",
+    "B": "它不需要任何關於資源使用的預先資訊"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:04:15.238Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "1965~17mpsr1": {
+   "id": "1965~17mpsr1",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following are methods for handling deadlocks?",
+   "hint": "",
+   "options": {
+    "C": "Locking, releasing, restarting",
+    "D": "Waiting, notifying, terminating",
+    "A": "Prevention, avoidance, detection",
+    "B": "Detection, recovery, termination"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:04:15.238Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "1980~19k1r6e": {
+   "id": "1980~19k1r6e",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "In deadlock recovery which factors might influence the choice of a victim process to terminate?",
+   "hint": "",
+   "options": {
+    "B": "Time the process has been running",
+    "C": "Number of resources the process has used",
+    "A": "Process priority",
+    "D": "Overhead of terminating the process"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:04:15.238Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "1939~9mdxxu": {
+   "id": "1939~9mdxxu",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "If a system is in an unsafe state will a deadlock necessarily occur?",
+   "hint": "",
+   "options": {
+    "B": "No",
+    "D": "Depends on the number of processes",
+    "A": "Yes",
+    "C": "Depends on the order of resource requests"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:04:15.238Z",
+   "updatedAt": "2026-11-25T06:08:13.280Z"
+  },
+  "1941~842ttx": {
+   "id": "1941~842ttx",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "互斥（Mutual Exclusion）條件適用於哪一類型的資源？",
+   "hint": "",
+   "options": {
+    "D": "非共享資源",
+    "A": "共享資源",
+    "B": "可搶佔資源",
+    "C": "可重複使用資源"
+   },
+   "answer": [
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:08:21.077Z",
+   "updatedAt": "2026-11-25T06:12:23.040Z"
+  },
+  "1949~7iqvrn": {
+   "id": "1949~7iqvrn",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在資源分配圖中，一個從資源類型R指向程序P的邊代表什麼？",
+   "hint": "",
+   "options": {
+    "A": "程序P請求資源R的實例",
+    "B": "程序P正在使用資源R的實例",
+    "C": "資源R的實例被程序P佔用",
+    "D": "程序P釋放資源R的實例"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:08:21.077Z",
+   "updatedAt": "2026-11-25T06:12:23.040Z"
+  },
+  "ta4kaal": {
+   "id": "ta4kaal",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "死結避免（Deadlock Avoidance）演算法可以確保系統不會進入 ＿＿＿ 狀態。",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "unsafe"
+   ],
+   "lines": [
+    "unsafe"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:12:23.040Z",
+   "updatedAt": "2026-11-25T06:12:23.040Z"
+  },
+  "2001~14z1lwe": {
+   "id": "2001~14z1lwe",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "死結避免演算法如何處理對新資源的請求？",
+   "hint": "",
+   "options": {
+    "D": "拒絕所有可能導致不安全狀態的請求",
+    "A": "立即滿足所有請求",
+    "B": "延遲所有請求",
+    "C": "檢查滿足請求後系統是否仍在安全狀態，若是則滿足請求"
+   },
+   "answer": [
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:12:35.503Z",
+   "updatedAt": "2026-11-25T06:15:09.673Z"
+  },
+  "2000~1fvebt9": {
+   "id": "2000~1fvebt9",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "一個系統處於不安全狀態時，可能會發生哪些情況？",
+   "hint": "",
+   "options": {
+    "B": "所有程序都無法完成",
+    "C": "所有資源都被鎖定",
+    "A": "系統可能會進入死結狀態",
+    "D": "存在一個無法滿足的資源請求"
+   },
+   "answer": [
+    "A",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:12:35.503Z",
+   "updatedAt": "2026-11-25T06:15:09.673Z"
+  },
+  "t118awqo": {
+   "id": "t118awqo",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "The four necessary conditions for deadlock are: mutual exclusion hold and wait no preemption and ＿＿＿ .(Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "circular wait"
+   ],
+   "lines": [
+    "circular wait"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:15:09.673Z",
+   "updatedAt": "2026-11-25T06:15:09.673Z"
+  },
+  "1963~nfrf09": {
+   "id": "1963~nfrf09",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "In a deadlock avoidance algorithm if a process P requests a resource the request is denied unless what condition is met?",
+   "hint": "",
+   "options": {
+    "A": "All of P's resources have been allocated",
+    "C": "P has terminated",
+    "D": "P is the only process",
+    "B": "The system remains in a safe state after satisfying the request"
+   },
+   "answer": [
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:15:19.061Z",
+   "updatedAt": "2026-11-25T06:18:42.095Z"
+  },
+  "1943~1o62d07": {
+   "id": "1943~1o62d07",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "以下哪一項不是死結恢復的方法？",
+   "hint": "",
+   "options": {
+    "A": "全部程序終止",
+    "C": "獲取更多資源",
+    "B": "釋放搶佔資源",
+    "D": "部分程序終止"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:15:19.061Z",
+   "updatedAt": "2026-11-25T06:18:42.095Z"
+  },
+  "1953~5d0x8d": {
+   "id": "1953~5d0x8d",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "What is the main advantage of deadlock avoidance?",
+   "hint": "",
+   "options": {
+    "A": "It ensures all requests are satisfied",
+    "B": "It can prevent deadlocks from occurring",
+    "C": "It has higher resource utilization",
+    "D": "It does not require any additional information"
+   },
+   "answer": [
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:22:29.429Z",
+   "updatedAt": "2026-11-25T06:26:06.593Z"
+  },
+  "1966~12ag9k3": {
+   "id": "1966~12ag9k3",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "Which of the following conditions can a deadlock prevention strategy break?",
+   "hint": "",
+   "options": {
+    "D": "None of the above",
+    "C": "Hold and wait, No preemption, Circular wait",
+    "A": "Mutual exclusion, Hold and wait, No preemption",
+    "B": "Mutual exclusion, No preemption, Circular wait"
+   },
+   "answer": [
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:22:29.429Z",
+   "updatedAt": "2026-11-25T06:26:06.593Z"
+  },
+  "t1nm4t7l": {
+   "id": "t1nm4t7l",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "",
+   "type": "fill",
+   "text": "A disadvantage of deadlock prevention is that it can lead to low ＿＿＿ .((Please answer in lowercase English, leaving a space between each word)",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "resource utilization"
+   ],
+   "lines": [
+    "resource utilization"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-25T06:26:06.593Z",
+   "updatedAt": "2026-11-25T06:26:06.593Z"
+  },
+  "2008~1jlc4x2": {
+   "id": "2008~1jlc4x2",
+   "subject": "作業系統",
+   "chapter": "8",
+   "level": "",
+   "difficulty": "結丹前期",
+   "type": "multi",
+   "text": "以下哪兩種死結處理方法是基於「在死結發生前」的考量？",
+   "hint": "",
+   "options": {
+    "C": "死結偵測",
+    "D": "死結恢復",
+    "B": "死結避免",
+    "A": "死結預防"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-25T06:26:15.981Z",
+   "updatedAt": "2026-11-25T06:29:29.552Z"
   }
  }
 }
