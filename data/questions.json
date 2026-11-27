@@ -16737,6 +16737,1246 @@
    "createdAt": "2026-11-13T03:07:30.289Z",
    "updatedAt": "2026-11-25T01:41:50.633Z"
   },
+  "2588": {
+   "id": "2588",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "雜湊表（Hash Table）的主要目的是為了實現什麼操作的平均 O(1) 效能？",
+   "hint": "",
+   "options": {
+    "A": "字典運算 (Dictionary operations)",
+    "C": "樹狀遍歷 (Tree traversal)",
+    "D": "圖形搜尋 (Graph searching)",
+    "B": "排序 (Sorting)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2589": {
+   "id": "2589",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是解決雜湊衝突（Collision）的方法？",
+   "hint": "",
+   "options": {
+    "B": "快速排序 (Quicksort)",
+    "A": "鏈結法 (Chaining)",
+    "D": "動態規劃 (Dynamic programming)",
+    "C": "二元搜尋 (Binary search)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2590": {
+   "id": "2590",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "若雜湊函數為 h(k) = k mod m，其中 m 為雜湊表大小，這種方法稱為？",
+   "hint": "",
+   "options": {
+    "B": "乘法雜湊法 (Multiplication method)",
+    "D": "開放定址法 (Open addressing)",
+    "C": "全域雜湊法 (Universal hashing)",
+    "A": "除法雜湊法 (Division method)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2591": {
+   "id": "2591",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "雜湊表的負載因子（Load factor, α）定義為？",
+   "hint": "",
+   "options": {
+    "D": "n*m",
+    "A": "n/m",
+    "C": "n+m",
+    "B": "m/n"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2592": {
+   "id": "2592",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "在鏈結法中，若所有鍵值都雜湊到同一個位置，搜尋時間複雜度為？",
+   "hint": "",
+   "options": {
+    "B": "Θ(1)",
+    "D": "Θ(n²)",
+    "A": "Θ(n)",
+    "C": "Θ(log n)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2593": {
+   "id": "2593",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "下列何者屬於開放定址法（Open addressing）？",
+   "hint": "",
+   "options": {
+    "C": "二元樹 (Binary tree)",
+    "D": "桶排序 (Bucket sort)",
+    "B": "連結串列 (Linked list)",
+    "A": "線性探測 (Linear probing)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2594": {
+   "id": "2594",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "全域雜湊法（Universal hashing）的主要優點是？",
+   "hint": "",
+   "options": {
+    "A": "減少衝突發生的機率",
+    "C": "不需要雜湊函數",
+    "B": "保證沒有衝突",
+    "D": "空間複雜度為 O(1)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:23:41.427Z",
+   "updatedAt": "2026-11-27T03:26:20.254Z"
+  },
+  "2595": {
+   "id": "2595",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在線性探測中，若發生衝突，下一個檢查的位置是？",
+   "hint": "",
+   "options": {
+    "C": "h(k, i) + i*h²(k)",
+    "B": "h(k, i) + i²",
+    "A": "h(k, i+1) = (h(k, i) + 1) mod m",
+    "D": "隨機位置"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2596": {
+   "id": "2596",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "開放定址法中的「二次探測（Quadratic probing）」的探測序列函數包含？",
+   "hint": "",
+   "options": {
+    "D": "log i",
+    "C": "i³",
+    "B": "i",
+    "A": "i²"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:23:41.427Z",
+   "updatedAt": "2026-11-27T03:26:20.254Z"
+  },
+  "2597": {
+   "id": "2597",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "雜湊函數 h(k) = floor(m(kA mod 1)) 屬於哪種方法？",
+   "hint": "",
+   "options": {
+    "D": "直接定址法 (Direct addressing)",
+    "A": "乘法雜湊法 (Multiplication method)",
+    "B": "除法雜湊法 (Division method)",
+    "C": "全域雜湊法 (Universal hashing)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2598": {
+   "id": "2598",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "雜湊表的大小 m 若為質數，通常有助於？",
+   "hint": "",
+   "options": {
+    "B": "增加記憶體",
+    "A": "減少衝突",
+    "D": "提高雜湊函數複雜度",
+    "C": "降低搜尋速度"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:30:19.627Z",
+   "updatedAt": "2026-11-27T03:33:00.334Z"
+  },
+  "2599": {
+   "id": "2599",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在雜湊表中，鍵值（Key）到表索引（Index）的對應關係稱為？",
+   "hint": "",
+   "options": {
+    "D": "鏈結串列",
+    "B": "排序法則",
+    "C": "探測序列",
+    "A": "雜湊函數 (Hash function)"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2600": {
+   "id": "2600",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "下列何者是雜湊表刪除（Delete）操作的潛在問題？",
+   "hint": "",
+   "options": {
+    "D": "需要額外空間",
+    "A": "開放定址法需標記已刪除位置",
+    "C": "排序陣列無法運作",
+    "B": "鏈結法會導致無窮迴圈"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2601": {
+   "id": "2601",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "完全雜湊（Perfect hashing）的特點是？",
+   "hint": "",
+   "options": {
+    "D": "僅支援插入",
+    "B": "需要大量記憶體",
+    "A": "最差情況搜尋時間為 O(1)",
+    "C": "僅適用於小資料集"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2602": {
+   "id": "2602",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "在開放定址法中，負載因子 α 必須滿足什麼條件？",
+   "hint": "",
+   "options": {
+    "C": "α = 0",
+    "D": "α < 0",
+    "B": "α > 1",
+    "A": "α <= 1"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2604": {
+   "id": "2604",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "假設雜湊表長度為 m，直接定址法（Direct addressing）適用於？",
+   "hint": "",
+   "options": {
+    "D": "資料均勻分佈",
+    "A": "鍵值空間 U 很小",
+    "B": "鍵值空間 U 極大",
+    "C": "資料無序"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2605": {
+   "id": "2605",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "雙重雜湊（Double hashing）的探測函數形式為？",
+   "hint": "",
+   "options": {
+    "D": "h1(k*i)",
+    "C": "(h1(k) + i²) mod m",
+    "A": "(h1(k) + i*h²(k)) mod m",
+    "B": "(h1(k) + i) mod m"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2606": {
+   "id": "2606",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "single",
+   "text": "雜湊表的效能很大程度上依賴於？",
+   "hint": "",
+   "options": {
+    "B": "探測的次數",
+    "A": "雜湊函數的均勻性",
+    "C": "記憶體大小",
+    "D": "鏈結串列長度"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2607": {
+   "id": "2607",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "single",
+   "text": "什麼是「衝突」（Collision）？",
+   "hint": "",
+   "options": {
+    "B": "兩個相同的鍵值",
+    "A": "兩個不同的鍵值雜湊到相同位置",
+    "D": "雜湊表已滿",
+    "C": "雜湊函數失效"
+   },
+   "answer": [
+    "A"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2608": {
+   "id": "2608",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "雜湊函數的設計原則包含？",
+   "hint": "",
+   "options": {
+    "A": "分布均勻",
+    "C": "減少衝突",
+    "D": "僅使用加法",
+    "B": "計算快速"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2609": {
+   "id": "2609",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "解決雜湊衝突的技術有哪些？",
+   "hint": "",
+   "options": {
+    "D": "完全雜湊 (Perfect hashing)",
+    "B": "開放定址法 (Open addressing)",
+    "C": "直接定址法 (Direct addressing)",
+    "A": "鏈結法 (Chaining)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2610": {
+   "id": "2610",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "開放定址法的探測策略包含？",
+   "hint": "",
+   "options": {
+    "A": "線性探測 (Linear probing)",
+    "D": "鏈結探測(Linked probing)",
+    "B": "二次探測 (Quadratic probing)",
+    "C": "雙重雜湊 (Double hashing)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2611": {
+   "id": "2611",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "關於雜湊表的負載因子 α，正確的有？",
+   "hint": "",
+   "options": {
+    "B": "開放定址法 α 必須小於 1",
+    "D": "α 代表每個位置平均儲存的元素個數",
+    "C": "α = n/m",
+    "A": "鏈結法 α 可以大於 1"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2612": {
+   "id": "2612",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "全域雜湊法（Universal hashing）具有什麼特徵？",
+   "hint": "",
+   "options": {
+    "A": "從函數族中隨機選擇雜湊函數",
+    "B": "對任意一組輸入都能達到平均效果",
+    "D": "需要儲存所有鍵值",
+    "C": "降低特定惡意輸入造成大量衝突的風險"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2613": {
+   "id": "2613",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "D": "A[4] = 15",
+    "C": "A[9] = 10",
+    "B": "A[6] = 28",
+    "A": "A[8] = 59"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:20:32.035Z"
+  },
+  "2614": {
+   "id": "2614",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "A": "A[8]=59",
+    "D": "A[3]=4",
+    "C": "A[6]=28",
+    "B": "A[0]=22"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:16:23.450Z"
+  },
+  "2615": {
+   "id": "2615",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "下列關於線性探測的敘述，正確的有？",
+   "hint": "",
+   "options": {
+    "B": "探測序列與關鍵字有關",
+    "C": "是一種開放定址法",
+    "A": "容易發生群聚效應 (Primary clustering)",
+    "D": "在 α 接近 1 時效能急劇下降"
+   },
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:33:17.483Z",
+   "updatedAt": "2026-11-27T03:36:04.946Z"
+  },
+  "2616": {
+   "id": "2616",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "為什麼 m 選擇質數對除法雜湊法很重要？",
+   "hint": "",
+   "options": {
+    "D": "沒有任何幫助",
+    "B": "避免數值上的對稱性",
+    "C": "提高運算效率",
+    "A": "減少衝突"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:23:41.427Z",
+   "updatedAt": "2026-11-27T03:26:20.254Z"
+  },
+  "2617": {
+   "id": "2617",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "雙重雜湊的探測序列優點？",
+   "hint": "",
+   "options": {
+    "D": "需要更多計算資源",
+    "C": "使用兩個雜湊函數",
+    "A": "能產生較長的探測序列",
+    "B": "減少二次群聚效應"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2618": {
+   "id": "2618",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "下列哪些應用場景適合使用雜湊表？",
+   "hint": "",
+   "options": {
+    "C": "編譯器的變數儲存",
+    "D": "二維陣列排序",
+    "A": "符號表 (Symbol tables)",
+    "B": "快取系統 (Caching)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2619": {
+   "id": "2619",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "D": "A[9]=15",
+    "C": "A[5]=4",
+    "A": "A[10]=10",
+    "B": "A[7]=59"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:10:28.496Z"
+  },
+  "2620": {
+   "id": "2620",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "B": "A[8]=15",
+    "D": "A[6]=28",
+    "C": "A[4]=10",
+    "A": "A[2]=88"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:10:28.496Z"
+  },
+  "2621": {
+   "id": "2621",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "A": "A[2]=59",
+    "B": "A[4]=4",
+    "C": "A[7]=88",
+    "D": "A[9]=10"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:16:23.450Z"
+  },
+  "2622": {
+   "id": "2622",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "雜湊函數 h(k) = k mod m 中的 m？",
+   "hint": "",
+   "options": {
+    "C": "影響分布效果",
+    "A": "必須大於鍵值範圍",
+    "B": "可以選擇質數",
+    "D": "是雜湊表的大小"
+   },
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2623": {
+   "id": "2623",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "關於雜湊表的平均效能，正確的有？",
+   "hint": "",
+   "options": {
+    "B": "INSERT 預期為 O(1)",
+    "C": "與衝突解決機制有關",
+    "D": "完全不依賴輸入分布",
+    "A": "SEARCH 預期為 O(1+α)"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2624": {
+   "id": "2624",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "二次探測的缺點？",
+   "hint": "",
+   "options": {
+    "C": "計算成本高",
+    "A": "會發生二次群聚效應 (Secondary clustering)",
+    "B": "探測序列選擇受限",
+    "D": "容易溢位"
+   },
+   "answer": [
+    "A",
+    "B"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2625": {
+   "id": "2625",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "雜湊技術中，常用的碰撞處理策略比較？",
+   "hint": "",
+   "options": {
+    "C": "鏈結法需要額外指標空間",
+    "A": "鏈結法適合處理高負載因子",
+    "D": "開放定址法支援刪除操作較簡單",
+    "B": "開放定址法適合空間受限應用"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:33:17.483Z",
+   "updatedAt": "2026-11-27T03:36:04.946Z"
+  },
+  "2626": {
+   "id": "2626",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "multi",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。",
+   "hint": "",
+   "options": {
+    "B": "A[7]=88",
+    "C": "A[6]=28",
+    "D": "A[3]=59",
+    "A": "A[9]=17"
+   },
+   "answer": [],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:10:28.496Z"
+  },
+  "2627": {
+   "id": "2627",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "multi",
+   "text": "開放定址法中的探測次數與什麼有關？",
+   "hint": "",
+   "options": {
+    "A": "負載因子 α",
+    "B": "雜湊策略",
+    "D": "搜尋結果 (成功/失敗)",
+    "C": "鍵值分布"
+   },
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2628": {
+   "id": "2628",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "雜湊表搜尋的平均複雜度為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(1)"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:23:41.427Z",
+   "updatedAt": "2026-11-27T03:26:20.254Z"
+  },
+  "2629": {
+   "id": "2629",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "負載因子 α 定義為＿＿＿除以 m",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "n"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2630": {
+   "id": "2630",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 1 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[1] =   ＿＿＿\nA[6] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "59",
+    "17"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2631": {
+   "id": "2631",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 1 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[3] =   ＿＿＿\nA[7] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "14",
+    "88"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2632": {
+   "id": "2632",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 1 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[4] =   ＿＿＿\nA[9] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "15",
+    "31"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:30:19.627Z",
+   "updatedAt": "2026-11-27T03:33:00.334Z"
+  },
+  "2633": {
+   "id": "2633",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "困難",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c1 = 1 與 c2 = 3 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[4] =   ＿＿＿\nA[9] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "15",
+    "31"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:26:33.292Z",
+   "updatedAt": "2026-11-27T03:30:08.353Z"
+  },
+  "2634": {
+   "id": "2634",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c1 = 1 與 c2 = 3 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[1] =   ＿＿＿\nA[8] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "59",
+    "28"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2635": {
+   "id": "2635",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c1 = 1 與 c2 = 3 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[3] =   ＿＿＿\nA[4] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "88",
+    "15"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2636": {
+   "id": "2636",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n線性探測（Linear Probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[3] =   ＿＿＿\nA[4] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "14",
+    "15"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2637": {
+   "id": "2637",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "完全雜湊的搜尋時間在最壞情況下為＿＿＿",
+   "hint": "請用英文回答，表示形式為 請用log，不可用lg替代log，上標請用^，符號請用 {big-theta, theta, big-omega, omega, O, o,}",
+   "options": {},
+   "answer": [
+    "O(1)"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2638": {
+   "id": "2638",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n線性探測（Linear Probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[5] =   ＿＿＿\nA[9] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "59",
+    "31"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2639": {
+   "id": "2639",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "雜湊函數輸入的鍵值空間稱為＿＿＿",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "universe"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2640": {
+   "id": "2640",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n線性探測（Linear Probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[1] =   ＿＿＿\nA[7] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "88",
+    "28"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:23:41.427Z",
+   "updatedAt": "2026-11-27T03:26:20.254Z"
+  },
+  "2641": {
+   "id": "2641",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 3 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[4] =   ＿＿＿\nA[9] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "15",
+    "31"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:20:32.035Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
+  },
+  "2642": {
+   "id": "2642",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 3 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\n無法藉此公式找到合法位置 的數 (先填小的值再填大的值)\n ＿＿＿  ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "28",
+    "88"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2643": {
+   "id": "2643",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c_1 = 1 與 c_2 = 5 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[4] =   ＿＿＿\nA[7] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "15",
+    "88"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2644": {
+   "id": "2644",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "＿＿＿探測序列函數是 i^2",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "quadratic"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2645": {
+   "id": "2645",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "除法雜湊法的計算公式為 h(k) = k＿＿＿m",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "mod"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:10:28.496Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "2646": {
+   "id": "2646",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "考慮將鍵值 10、31、22、15、17、88、14、28、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n線性探測（Linear Probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |\n\nA[6] =   ＿＿＿\nA[10] =   ＿＿＿",
+   "hint": "",
+   "options": {},
+   "blanks": 2,
+   "answer": [
+    "17",
+    "10"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "2647": {
+   "id": "2647",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "簡單",
+   "type": "fill",
+   "text": "雜湊衝突是不可避免的，因為＿＿＿空間大於雜湊表大小",
+   "hint": "請用小寫英文回答",
+   "options": {},
+   "answer": [
+    "key"
+   ],
+   "note": "",
+   "createdAt": "2026-11-27T03:16:23.450Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
   "2764": {
    "id": "2764",
    "subject": "作業系統",
@@ -53436,6 +54676,141 @@
    "note": "",
    "createdAt": "2026-11-25T06:26:15.981Z",
    "updatedAt": "2026-11-25T06:29:29.552Z"
+  },
+  "t1xjuku3": {
+   "id": "t1xjuku3",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c1 = 1 與 c2 = 3 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[2]=88\nA[8]=15\nA[6]=28"
+   ],
+   "lines": [
+    "A[2]=88",
+    "A[8]=15",
+    "A[6]=28"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:15:42.915Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "t15b4yvt": {
+   "id": "t15b4yvt",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 1 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[7]=88\nA[6]=28"
+   ],
+   "lines": [
+    "A[7]=88",
+    "A[6]=28"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:15:42.915Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "tp3j67c": {
+   "id": "tp3j67c",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 c1 = 1 與 c2 = 3 的二次探測（quadratic probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[10]=10\nA[7]=59"
+   ],
+   "lines": [
+    "A[10]=10",
+    "A[7]=59"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:15:42.915Z",
+   "updatedAt": "2026-11-27T03:15:42.915Z"
+  },
+  "ttn6f7l": {
+   "id": "ttn6f7l",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用 h1(k) = k 和 h2(k) = 1 + (k mod (m - 1)) 的雙重雜湊（double hashing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[2]=59\nA[4]=4\nA[7]=88"
+   ],
+   "lines": [
+    "A[2]=59",
+    "A[4]=4",
+    "A[7]=88"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:20:21.913Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "t1ika7ma": {
+   "id": "t1ika7ma",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用線性探測（linear probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[8]=59\nA[0]=22\nA[6]=28"
+   ],
+   "lines": [
+    "A[8]=59",
+    "A[0]=22",
+    "A[6]=28"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:20:21.913Z",
+   "updatedAt": "2026-11-27T03:20:21.913Z"
+  },
+  "t7x7q7s": {
+   "id": "t7x7q7s",
+   "subject": "演算法",
+   "chapter": "9",
+   "level": "",
+   "difficulty": "",
+   "type": "recall",
+   "text": "考慮將鍵值 10、22、31、4、15、28、17、88、59 插入長度 m = 11 的雜湊表A中，使用開放定址法（open addressing）與輔助雜湊函數 h'(k) = k。\n\n使用線性探測（linear probing） 請問陣列A[0] - A[10] 的內容哪些正確\n| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|   |   |   |   |   |   |   |   |   |   |    |",
+   "hint": "",
+   "options": {},
+   "answer": [
+    "A[8] = 59\nA[6] = 28"
+   ],
+   "lines": [
+    "A[8] = 59",
+    "A[6] = 28"
+   ],
+   "note": "",
+   "source": "text",
+   "createdAt": "2026-11-27T03:23:32.083Z",
+   "updatedAt": "2026-11-27T03:23:32.083Z"
   }
  }
 }
